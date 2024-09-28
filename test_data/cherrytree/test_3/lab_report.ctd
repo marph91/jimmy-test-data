@@ -212,7 +212,7 @@ After collecting trophies from the Lab network was completed, the student remove
       <rich_text>
 
 </rich_text>
-      <node name="Appendix 1 - Proof and Local Contents:" unique_id="365" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1634640571" ts_lastsave="1634640576">
+      <node name="Appendix 1 - Proof and Local Contents" unique_id="365" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1634640571" ts_lastsave="1634640576">
         <rich_text>
 </rich_text>
         <rich_text justification="left"></rich_text>
