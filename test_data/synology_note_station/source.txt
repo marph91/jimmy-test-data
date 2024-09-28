@@ -1,0 +1,7 @@
+- notestation-test-books.nsx:
+  - https://github.com/andreas-vester/notestation-to-joplin
+  - private data removed
+- 20240331_144226_11102_Lagavulin_notestation.nsx
+  - TODO
+- test.nsx:
+  - https://github.com/gobbletown/YANOM-Note-O-Matic/blob/main/test/conversion_test_inputs/test.nsx

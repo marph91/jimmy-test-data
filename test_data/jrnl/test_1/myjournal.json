@@ -1,0 +1,53 @@
+{
+  "tags": {
+    "@beach": 1,
+    "@tom": 1,
+    "@anna": 1
+  },
+  "entries": [
+    {
+      "title": "Called in sick.",
+      "body": "Used the time to clean, and spent 4h on writing my book.",
+      "date": "2024-06-16",
+      "time": "09:00",
+      "tags": [],
+      "starred": false
+    },
+    {
+      "title": "Best day of my life.",
+      "body": "",
+      "date": "2024-06-16",
+      "time": "09:00",
+      "tags": [],
+      "starred": true
+    },
+    {
+      "title": "I just met Steve Buscemi in a bar!",
+      "body": "What a nice guy.",
+      "date": "2024-06-17",
+      "time": "03:00",
+      "tags": [],
+      "starred": false
+    },
+    {
+      "title": "Had a wonderful day at the @beach with @Tom and @Anna.",
+      "body": "",
+      "date": "2024-06-17",
+      "time": "18:05",
+      "tags": [
+        "@tom",
+        "@beach",
+        "@anna"
+      ],
+      "starred": false
+    },
+    {
+      "title": "Best day of my life.",
+      "body": "",
+      "date": "2024-06-17",
+      "time": "18:06",
+      "tags": [],
+      "starred": true
+    }
+  ]
+}

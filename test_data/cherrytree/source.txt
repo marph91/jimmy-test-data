@@ -1,0 +1,3 @@
+- cherrytree_manual.ctd: https://gitlab.com/kibley/cherrytreetomarkdown/-/tree/master/examples
+- lab_report.ctd: https://gitlab.com/kibley/cherrytreetomarkdown/-/tree/master/examples
+- notes.ctd: https://github.com/sanchitsahni07/cherrytree-to-markdown/blob/main/notes.ctd

@@ -1,0 +1,6 @@
+- bachelor.textbundle: https://github.com/leolabs/bachelor
+- Python CHP NOTES.textbundle: https://community.bear.app/t/crash-when-opening-a-3mb-textbundle-file/2815/5
+- Textbundle Example v1.textbundle: http://textbundle.org/
+- Textbundle Example v2.textbundle: http://textbundle.org/
+- example.textpack: http://textbundle.org/
+- Bug report in tables_bear.textbundle: https://community.bear.app/t/crashing-bear2-after-undo-action-in-table/11624

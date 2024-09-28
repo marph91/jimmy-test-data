@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <bookmarks list="404"/>
+  <node name="aaa" unique_id="1" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1683703170" ts_lastsave="1719048207">
+    <node name="bbb" unique_id="2" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1683703174" ts_lastsave="1719048188">
+      <rich_text justification="left"></rich_text>
+      <rich_text>
+
+
+
+</rich_text>
+      <rich_text link="webs https://github.com/laurent22/joplin">https://github.com/laurent22/joplin</rich_text>
+      <rich_text>
+
+
+</rich_text>
+      <table char_offset="0" justification="left" col_min="60" col_max="60" col_widths="0,0,0">
+        <row>
+          <cell>table</cell>
+          <cell>cell</cell>
+          <cell>content</cell>
+        </row>
+        <row>
+          <cell>another</cell>
+          <cell>row</cell>
+          <cell>of</cell>
+        </row>
+        <row>
+          <cell>the </cell>
+          <cell>table</cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell>header</cell>
+          <cell>• sasd
+• asdsa
+• sad</cell>
+          <cell></cell>
+        </row>
+      </table>
+    </node>
+    <node name="note with markup" unique_id="405" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1719048207" ts_lastsave="1719069321">
+      <rich_text background="#7373d2d21616">text with background color</rich_text>
+      <rich_text>
+
+</rich_text>
+      <rich_text scale="h1">header 1</rich_text>
+      <rich_text>
+
+</rich_text>
+      <rich_text foreground="#34346565a4a4">text with foreground color</rich_text>
+      <rich_text>
+
+</rich_text>
+      <rich_text scale="h2">header 2</rich_text>
+      <rich_text>
+
+</rich_text>
+      <rich_text weight="heavy">bold text</rich_text>
+      <rich_text>
+
+2024/06/22 - 11:37
+
+</rich_text>
+      <rich_text scale="h3">header 3</rich_text>
+      <rich_text>
+
+</rich_text>
+      <rich_text style="italic">italic words</rich_text>
+      <rich_text> and </rich_text>
+      <rich_text underline="single">underlined words</rich_text>
+      <rich_text> on one line!
+
+</rich_text>
+      <rich_text strikethrough="true">striked words</rich_text>
+      <rich_text>
+
+small text
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+TODO list:
+
+☐ text with </rich_text>
+      <rich_text scale="sup">superscript</rich_text>
+      <rich_text>
+   ☐ nested todo - same icon 
+☐ text with </rich_text>
+      <rich_text scale="sub">subscript</rich_text>
+      <rich_text>
+☑ checked checkbox
+☒ crossed checkbox
+
+</rich_text>
+      <rich_text family="monospace">monospaced text</rich_text>
+      <rich_text>
+
+normal text
+
+</rich_text>
+      <rich_text scale="h3">enumeration</rich_text>
+      <rich_text>
+
+1. very important
+2. secondly
+   1) nested
+   2) items
+      1- even more
+         1&gt; fourth level
+         2&gt; nested
+            1. here it seems
+               1) yes
+            3. to recur
+      3- nested
+4. third
+
+</rich_text>
+      <rich_text scale="h2">code block</rich_text>
+      <rich_text>
+
+</rich_text>
+      <rich_text justification="left"></rich_text>
+      <rich_text>
+</rich_text>
+      <rich_text scale="h1">latex block</rich_text>
+      <rich_text>
+
+</rich_text>
+      <rich_text justification="left"></rich_text>
+      <rich_text>
+
+another latex block
+
+
+
+</rich_text>
+      <rich_text scale="h4">lower</rich_text>
+      <rich_text>
+
+
+
+</rich_text>
+      <rich_text scale="h5">level</rich_text>
+      <rich_text>
+
+</rich_text>
+      <rich_text justification="center">centered text</rich_text>
+      <rich_text>
+
+left aligned text
+
+</rich_text>
+      <rich_text justification="right">right aligned text</rich_text>
+      <rich_text>
+
+</rich_text>
+      <rich_text scale="h6">headings</rich_text>
+      <rich_text>
+
+...</rich_text>
+      <codebox char_offset="628" justification="left" frame_width="500" frame_height="100" width_in_pixels="1" syntax_highlighting="sh" highlight_brackets="1" show_line_numbers="0"># some shell code
+export abc=def
+some	tab</codebox>
+      <encoded_png char_offset="643" justification="left" filename="__ct_special.tex">\documentclass{article}
+\pagestyle{empty}
+\usepackage{amsmath}
+\begin{document}
+\begin{align*}
+f(x) &amp;= x^2\\
+g(x) &amp;= \frac{1}{x}\\
+F(x) &amp;= \int^a_b \frac{1}{3}x^3
+\end{align*}
+\end{document}</encoded_png>
+      <encoded_png char_offset="667" justification="left" filename="__ct_special.tex">\documentclass{article}
+\pagestyle{empty}
+\usepackage{amsmath}
+\begin{document}
+\begin{align*}
+f(x) &amp;= abc
+\end{align*}
+\end{document}</encoded_png>
+      <codebox char_offset="677" justification="left" frame_width="500" frame_height="100" width_in_pixels="1" syntax_highlighting="plain-text" highlight_brackets="1" show_line_numbers="0">plain text code block</codebox>
+    </node>
+  </node>
+  <node name="test node" unique_id="401" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1718742393" ts_lastsave="1718742732">
+    <rich_text>can have content</rich_text>
+    <node name="nested note" unique_id="402" prog_lang="custom-colors" tags=" example-tag another_tag" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1718742403" ts_lastsave="1719048819">
+      <rich_text>• link to </rich_text>
+      <rich_text link="node 2">bbb</rich_text>
+      <rich_text>
+• test image: </rich_text>
+      <rich_text justification="left"></rich_text>
+      <rich_text>
+• link to </rich_text>
+      <rich_text link="webs https://github.com/giuspen/cherrytree/releases/tag/v1.1.3">url</rich_text>
+      <rich_text>
+   ◇ nested
+   ◇ items
+      ▪ more nested
+         - fourth level
+         - nested
+            → fifth level
+               ⇒ how far
+               ⇒ does it go?
+                  • I think here we have
+                     ◇ yes
+                  • the same item again
+            → nested
+      ▪ items
+• attached file: </rich_text>
+      <rich_text justification="left"></rich_text>
+      <encoded_png char_offset="28" justification="left" link="">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</encoded_png>
+      <encoded_png char_offset="369" justification="left" filename="plaintext.txt" time="1718742631">cGxhaW50ZXh0IGNvbnRlbnQKCm11bHRpcGxlIGxpbmVzCg==</encoded_png>
+    </node>
+    <node name="another nested node" unique_id="403" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1718742732" ts_lastsave="1718742743">
+      <node name="nested nested note" unique_id="404" prog_lang="custom-colors" tags="example-tag" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1718742743" ts_lastsave="1718743265">
+        <rich_text>only text</rich_text>
+      </node>
+    </node>
+  </node>
+</cherrytree>

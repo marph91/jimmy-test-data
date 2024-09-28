@@ -1,0 +1,13 @@
+"TASK","FOLDER","CONTEXT","GOAL","LOCATION","STARTDATE","STARTTIME","DUEDATE","DUETIME","REPEAT","LENGTH","TIMER","PRIORITY","TAG","STATUS","STAR","NOTE"
+"work item 1",,"work",,"work",,,"2024-04-27","8:00 pm",,,,,"some-tag","Delegated",,
+"work item 2",,"work","todo later","work","2026-04-10","10:56 am","2028-09-07",,,,,,"some-tag","Postponed",,
+"task with due date tomorrow","sample folder","private",,,,,"2024-04-28",,,,,,,,,
+"task with due date and time","sample folder","private",,,,,"2024-04-30","6:15 pm",,,,,,,,
+"prio 3 task","tasks with non-default priority",,,,,,,,,,,"3",,"Next Action","Yes",
+"prio 2 task","tasks with non-default priority",,,,,,,,,,,"2",,"Active","Yes",
+"prio -1 task","tasks with non-default priority",,,,,,,,,,,"-1",,,,
+"prio 1 task","tasks with non-default priority",,,,,,,,,,,"1",,"Active",,
+"task with note","sample folder","private","life goals","home",,,,,,,,,,,,"foo bar"
+"task with tag","sample folder","private","life goals","home",,,,,,,,,"some-tag,another tag",,,
+"sample task without folder",,"private","life goals","home",,,,,,,,,,,,
+"sample task in sample folder","sample folder","private",,"home",,,,,,,,,,,,

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>main notebook Template</title>
+  <text xml:space="preserve"><note-content version="0.1">main notebook Template
+
+
+</note-content></text>
+  <last-change-date>2024-04-03T18:24:27.0724536+02:00</last-change-date>
+  <last-metadata-change-date>2024-04-03T18:24:27.0724536+02:00</last-metadata-change-date>
+  <create-date>2024-04-03T18:24:27.0724536+02:00</create-date>
+  <cursor-position>1</cursor-position>
+  <selection-bound-position>1</selection-bound-position>
+  <width>300</width>
+  <height>200</height>
+  <x>20</x>
+  <y>20</y>
+  <tags>
+    <tag>system:template</tag>
+    <tag>system:notebook:main notebook</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

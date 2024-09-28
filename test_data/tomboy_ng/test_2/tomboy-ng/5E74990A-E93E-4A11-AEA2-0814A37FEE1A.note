@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Sample Note</title>
+  
+<text xml:space="preserve"><note-content version="0.1"><underline>Sample Note</underline>
+
+<bold>bold</bold>
+
+italic
+
+bold <italic><bold>and</bold></italic> italic
+
+<strikeout>strikethrough</strikeout>
+
+<highlight>highlighted</highlight>
+
+<monospace>monospace</monospace>
+
+<underline>underlined</underline>
+
+<size:small>small</size:small> - normal - <size:large>large</size:large> - <size:huge>huge</size:huge>
+
+
+
+
+</note-content></text>
+  <last-change-date>2024-06-24T18:02:00.2158125+02:00</last-change-date>
+  <last-metadata-change-date>2024-06-24T18:02:00.2158125+02:00</last-metadata-change-date>
+  <create-date>2023-11-29T17:44:02.4027903+01:00</create-date>
+  <cursor-position>1</cursor-position>
+  <selection-bound-position>1</selection-bound-position>
+  <width>695</width>
+  <height>505</height>
+  <x>554</x>
+  <y>246</y>
+  <tags>
+    <tag>system:notebook:main notebook</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

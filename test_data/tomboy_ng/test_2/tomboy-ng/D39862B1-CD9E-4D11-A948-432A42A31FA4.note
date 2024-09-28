@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Another New Note</title>
+  
+<text xml:space="preserve"><note-content version="0.1"><underline>Another New Note</underline>
+
+Link to Sample Note
+
+Link to https://marph91.github.io/jimmy/
+
+Broken link: https://sahdgkjag/
+
+Some special chars:
+this &amp; that
+this &gt; that
+that &lt; this
+
+</note-content></text>
+  <last-change-date>2024-06-24T18:14:04.2274872+02:00</last-change-date>
+  <last-metadata-change-date>2024-06-24T18:14:04.2274872+02:00</last-metadata-change-date>
+  <create-date>2024-06-24T18:14:04.2274872+02:00</create-date>
+  <cursor-position>1</cursor-position>
+  <selection-bound-position>1</selection-bound-position>
+  <width>695</width>
+  <height>505</height>
+  <x>1920</x>
+  <y>546</y>
+  <open-on-startup>False</open-on-startup>
+</note>

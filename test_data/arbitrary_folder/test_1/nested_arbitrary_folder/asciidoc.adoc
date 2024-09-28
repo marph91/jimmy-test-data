@@ -1,0 +1,16 @@
+= Hello, AsciiDoc!
+
+This is an interactive editor.
+Use it to try https://asciidoc.org[AsciiDoc].
+
+== Section Title
+
+* A list item
+* Another list item
+
+[,ruby]
+----
+puts 'Hello, World!'
+----
+
+image::../test.png[test_image]

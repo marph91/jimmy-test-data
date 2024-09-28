@@ -1,0 +1,9 @@
+15:
+  text: "= Test note =\n\n- Erstes **Objekt**\n- Zweites //Objekt//\n  - Eingerücktes
+    ``Objekt`` (Zwei Leerzeilen beenden eine Liste.)\n\n\n== second level title ==\n\nSonntag,
+    15.09.2024 16:26:41\n\n====================\n\n=== Image ===\n\n[\"\"file:///home/martin/dev/python/joplin/jimmy/.cache/arbitrary_folder/arbitrary_folder/test\"\".png]\n\n===
+    File ===\n\n[plaintext.txt \"\"file:///home/martin/dev/python/joplin/jimmy/.cache/arbitrary_folder/arbitrary_folder/plaintext.txt\"\"]\n\n===
+    Link ===\n\n[Sample link \"\"http://kicker.de\"\"]\n\n== another second level
+    title ==\n\n__underline__ and --strikethrough--\n\n"
+17:
+  text: Another note at another date

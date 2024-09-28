@@ -1,0 +1,10 @@
+[
+  {
+    "inputs": ["examples_from_readme.txt"],
+    "expected_output": {
+      "notebooks": 1,
+      "notes": 32,
+      "tags": 47
+    }
+  }
+]

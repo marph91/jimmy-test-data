@@ -1,0 +1,28 @@
+[
+  {
+    "name": "completed tasks",
+    "inputs": ["toodledo_completed_240427.csv"],
+    "expected_output": {
+      "notebooks": 2,
+      "notes": 1,
+      "tags": 1
+    }
+  },
+  {
+    "name": "uncompleted tasks",
+    "inputs": ["toodledo_current_240427.csv"],
+    "expected_output": {
+      "notebooks": 3,
+      "notes": 12,
+      "tags": 35
+    }
+  },
+  {
+    "name": "notebook",
+    "inputs": ["toodledo_notebook_240427.csv"],
+    "expected_output": {
+      "notebooks": 2,
+      "notes": 2
+    }
+  }
+]

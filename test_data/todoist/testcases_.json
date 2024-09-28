@@ -1,0 +1,10 @@
+[
+  {
+    "inputs": ["Privates.csv"],
+    "expected_output": {
+      "notebooks": 6,
+      "notes": 21,
+      "tags": 25
+    }
+  }
+]

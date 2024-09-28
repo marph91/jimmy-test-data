@@ -1,0 +1,1 @@
+25/tcp open  smtp    syn-ack ttl 125 hMailServer smtpd

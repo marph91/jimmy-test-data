@@ -1,0 +1,18 @@
+[
+  {
+    "inputs": ["example.xit"],
+    "expected_output": {
+      "notebooks": 3,
+      "notes": 6,
+      "tags": 5
+    }
+  },
+  {
+    "inputs": ["example2.xit"],
+    "expected_output": {
+      "notebooks": 4,
+      "notes": 13,
+      "tags": 6
+    }
+  }
+]

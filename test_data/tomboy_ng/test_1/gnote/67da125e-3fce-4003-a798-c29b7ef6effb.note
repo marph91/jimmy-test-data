@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy"><title>Verknüpfungen nutzen in Gnote</title><text xml:space="preserve"><note-content version="0.1" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size">Verknüpfungen in Gnote nutzen
+
+Notizen in Gnote können verknüpft werden, indem man einen Text markiert und den Knopf <bold>Gewählten Text mit einer neuen Notiz verknüpfen</bold> in der oberen Werkzeugleiste anklickt. Dies bewirkt, dass eine neue Notiz angelegt wird und der Notiztitel in der aktuellen Notiz unterstrichen wird.
+
+Ändert man den Titel einer Notiz, aktualisiert dies auch die Verknüpfungen in anderen Notizen. Dies verhindert, dass durch das Umbenennen von Notizen defekte Verknüpfungen entstehen.
+
+Weiterhin ist es so, dass, wenn Sie den Titel einer anderen Notiz in Ihrer aktuellen Notiz eingeben, diese automatisch für Sie verknüpft wird.</note-content>
+</text><last-change-date>2024-09-18T15:22:47,857916Z</last-change-date><last-metadata-change-date>2024-09-19T16:16:24,900551Z</last-metadata-change-date><create-date>2024-09-18T15:22:47,857175Z</create-date><cursor-position>-1</cursor-position><selection-bound-position>-1</selection-bound-position><width>0</width><height>0</height></note>
+

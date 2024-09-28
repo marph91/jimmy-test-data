@@ -1,0 +1,20 @@
+[ ] Open
+[x] Checked
+[@] Ongoing
+[~] Obsolete
+[?] In Question
+
+Named Group
+[ ] This #item #has=tags
+[ ] This is a longer
+    description text
+    split over
+    multiple lines
+[ ] Do this soon -> 2022-01-31
+[ ] !! This is important
+[ ] ! All #the=things -> 2022-12
+[~] ! Obsolete, important,
+    multi-line
+
+[ ] Item 1
+[ ] Item 2
