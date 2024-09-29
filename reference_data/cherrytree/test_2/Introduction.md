@@ -28,7 +28,7 @@
 			- [Installing via Command Line](6 h2-2)
 		- [Windows](Installation/Windows.md)
 	- [Running from Source](Running%20from%20Source.md)
-		- [Fedora](Running%20from%20Source/Fedora%20.md)
+		- [Fedora](Running%20from%20Source/Fedora_.md)
 		- [Ubuntu](Running%20from%20Source/Ubuntu.md)
 		- [Windows](Running%20from%20Source/Windows.md)
 			- [Installing Python 2.7](18 h2-1)

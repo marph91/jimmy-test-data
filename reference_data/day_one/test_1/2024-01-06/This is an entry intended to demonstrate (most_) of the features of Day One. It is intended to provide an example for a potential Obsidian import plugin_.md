@@ -136,4 +136,4 @@ Image sources:
 
 Journals can have tags with spaces applied, or also be #TaggedInline (but inline tags can’t have spaces). They can have other metadata associated with them, like weather conditions, a location, and an activity. Finally, entries can be pinned or favorited.
 
-[A link to another journal entry.](This%20is%20a%20journal%20entry%20for%20demonstrating%20between-journal%20links..md)
+[A link to another journal entry.](This%20is%20a%20journal%20entry%20for%20demonstrating%20between-journal%20links_.md)
