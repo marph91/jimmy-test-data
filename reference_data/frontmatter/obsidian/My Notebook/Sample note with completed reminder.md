@@ -5,20 +5,13 @@ tags:
 
 Sample content  
 
-  
-
-|       |         |
-|-------|---------|
-| Table | Header  |
+| Table | Header |
+| --- | --- |
 | table | content |
 
-  
-
- [link](photo%20card%20%28image%20only%29.md)   
-
-  
+[link](photo%20card%20%28image%20only%29.md)   
 
 bullet points:  
 
--   first  
+-   first
 -   second
