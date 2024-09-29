@@ -1,2 +1,0 @@
-- backup.bear2bk: https://github.com/obsidianmd/obsidian-importer/blob/master/tests/bear
-- backup-2.bear2bk: https://github.com/obsidianmd/obsidian-importer/blob/master/tests/bear

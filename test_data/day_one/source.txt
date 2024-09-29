@@ -1,5 +1,0 @@
-- Day.One.zip: https://github.com/obsidianmd/obsidian-importer/issues/55#issuecomment-1879802417
-- day-one-to-obsidian-converter.zip: https://github.com/ergebnis/day-one-to-obsidian-converter/tree/main/demo/day-one
-- dayone-to-obsidian.zip: https://github.com/kulapard/dayone-to-obsidian/tree/main/tests/assets
-  - not used - too many images
-- Export-Tagebuch.zip: created by myself
