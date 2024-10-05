@@ -16,7 +16,7 @@ Text hier einfügen Text hier einfügen Text hier einfügen Text hier
 einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text
 hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen
 Text hier einfügen Text hier einfügen Text hier einfügen Text hier
-einfügen.![image1.jpg](image1.jpg)
+einfügen.![Platzhalterbild](image1.jpg)
 
 ## Text hier einfügen
 

@@ -37,24 +37,16 @@ sub_(script)
 super^(script)
 
 1.  Number 1
-
 2.  Number 2
-
-3.  1.  Number sub 1
+    1.  Number sub 1
     2.  Number sub 2
-
-4.  Number 3
+3.  Number 3
 
 -   Bullet 1
-
 -   Bullet 2
-
--   -   Sub bullet 1
-
+    -   Sub bullet 1
     -   Sub bullet 2
-
-    -   -   Sub sub bullet 
-
+        -   Sub sub bullet 
 -   Bullet 3
 
 Check 1
