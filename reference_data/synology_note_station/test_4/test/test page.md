@@ -85,7 +85,7 @@ Below is a bar chart
 Below is an image of the design of the line chart as seen in
 note-station
 
-![](MTYxMzQwNDM0NDczN25zX2F0dGFjaF9pbWFnZV83ODc0OTE2MTM0MDQzNDQ2ODcucG5n)
+![ns_attach_image_787491613404344687.png](file_e79072f793f22434740e64e93cfe5926.png)
 
 Below is a hyperlink to the internet
 
