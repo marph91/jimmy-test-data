@@ -7,7 +7,7 @@ Angelegt Donnerstag 03 Oktober 2024
 
 with image
 
-{{~/dev/python/joplin/jimmy/test/data/test_data/default_format/arbitrary_folder/test.png}}
+{{./test.png}}
 
 and link upwards: [[Home]]
 --------------------
