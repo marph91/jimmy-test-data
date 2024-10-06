@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2023-05-10T00:04:04+02:00
+
+====== Home ======
+Angelegt Mittwoch 10 Mai 2023
+
+| Feature | Joplin                                       | VSCodium addons | CherryTree | Tiddlywiki                               | Turtl                            | Zim                                                  | Zettlr                           |
+|---------|----------------------------------------------|-----------------|------------|------------------------------------------|----------------------------------|------------------------------------------------------|----------------------------------|
+| Code    | https://github.com/laurent22/joplin **bold** |                 |            | https://github.com/TiddlyWiki/tiddlywiki | https://github.com/turtl/desktop | https://github.com/zim-desktop-wiki/zim-desktop-wiki | https://github.com/Zettlr/Zettlr |
+
+
+
+
+link to note: [[page:nested page]]
+link to web: https://github.com/zim-desktop-wiki/zim-desktop-wiki
