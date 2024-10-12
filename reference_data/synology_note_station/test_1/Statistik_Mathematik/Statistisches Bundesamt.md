@@ -13,5 +13,3 @@ unsicher ist
 / keine Angaben, da Zahlenwert nicht sicher genug
 
 . Zahlenwert unbekannt oder geheim zu halten
-
- 

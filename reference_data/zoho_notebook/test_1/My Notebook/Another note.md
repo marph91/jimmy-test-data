@@ -15,7 +15,3 @@ and note link: 
 > indented  
 
 > > more indented
-
-  
-
-  
