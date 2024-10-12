@@ -23,4 +23,4 @@ Is there any way these kind of files could be ignored, e.g. via some
 sort of exclusions list?
 
 
-[smime.p7s](unnamed_a9488d990bbb459991ce5dd2b45ed1f0.p7s)
+[smime.p7s](smime.p7s)

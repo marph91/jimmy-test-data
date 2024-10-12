@@ -15,4 +15,4 @@ Test attachments oddly encoded with japanese charset.
 
 
 
-[01 Quien Te Dij�at. Pitbull.mp3](unnamed_371ecd7b27cd413087229389571aa876.mp3)
+[01 Quien Te Dij�at. Pitbull.mp3](01%20Quien%20Te%20Dij%EF%BF%BDat.%20Pitbull.mp3)

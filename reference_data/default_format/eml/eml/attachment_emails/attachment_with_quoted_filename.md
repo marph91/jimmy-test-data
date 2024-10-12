@@ -1,4 +1,4 @@
 # Eelanalüüsi päring
 
 
-![Eelanalüüsi päring.jpg](unnamed_b74d0fb132e746298fadc1a606cb0fb3.jpg)
+![Eelanalüüsi päring.jpg](Eelanal%C3%BC%C3%BCsi%20p%C3%A4ring.jpg)
