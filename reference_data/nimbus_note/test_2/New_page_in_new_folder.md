@@ -8,24 +8,24 @@
 
 **checklist**
 
--   todo item 1
--   todo item 2
+-   [ ] todo item 1
+-   [ ] todo item 2
 
 **unnumbered** *list*
 
 -   item 1
--   nested
--   even more
--   nested
+    -   nested
+        -   even more
+        -   nested
 -   item 2
 
 *numbered list*
 
--   first item
--   sub item
--   sub sub
--   item
--   qwertz
+1.  first item
+    1.  sub item
+        1.  sub sub
+        2.  item
+    2.  qwertz
 
 image
 
