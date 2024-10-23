@@ -7,7 +7,7 @@ link with [alias](folder/Second%20sample%20note.md)
 
 link to image markdown syntax:
 
-![markdown image](test.png)
+![markdown image](../r_es/test.png)
 
 #inline-tag-obsidian
 

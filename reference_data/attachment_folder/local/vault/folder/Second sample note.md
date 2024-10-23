@@ -1,9 +1,9 @@
 aaa [Sample note](../Sample%20note.md)
 
-![test.png](test.png)
+![test.png](res/test.png)
 
 
-[plaintext.txt](plaintext.txt)
+[plaintext.txt](res/plaintext.txt)
 
 #inline-tag-obsidian
 
