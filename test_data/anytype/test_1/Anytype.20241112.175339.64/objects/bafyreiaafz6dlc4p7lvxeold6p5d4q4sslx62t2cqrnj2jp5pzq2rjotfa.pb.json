@@ -1,0 +1,521 @@
+{
+ "sbType": "Page",
+ "snapshot": {
+  "logHeads": {
+  },
+  "data": {
+   "blocks": [
+    {
+     "id": "bafyreiaafz6dlc4p7lvxeold6p5d4q4sslx62t2cqrnj2jp5pzq2rjotfa",
+     "fields": null,
+     "restrictions": {
+      "read": false,
+      "edit": false,
+      "remove": false,
+      "drag": false,
+      "dropOn": false
+     },
+     "childrenIds": [
+      "header",
+      "dataview"
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "smartblock": {
+
+     }
+    },
+    {
+     "id": "header",
+     "fields": null,
+     "restrictions": {
+      "read": false,
+      "edit": true,
+      "remove": true,
+      "drag": true,
+      "dropOn": true
+     },
+     "childrenIds": [
+      "title",
+      "description",
+      "featuredRelations"
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "layout": {
+      "style": "Header"
+     }
+    },
+    {
+     "id": "dataview",
+     "fields": null,
+     "restrictions": {
+      "read": false,
+      "edit": false,
+      "remove": false,
+      "drag": false,
+      "dropOn": false
+     },
+     "childrenIds": [
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "dataview": {
+      "source": [
+      ],
+      "views": [
+       {
+        "id": "651689461cac630478df2382",
+        "type": "Gallery",
+        "name": "All",
+        "sorts": [
+         {
+          "RelationKey": "lastModifiedDate",
+          "type": "Desc",
+          "customOrder": [
+          ],
+          "format": "longtext",
+          "includeTime": false,
+          "id": "651689461cac630478df2383",
+          "emptyPlacement": "NotSpecified"
+         }
+        ],
+        "filters": [
+        ],
+        "relations": [
+         {
+          "key": "name",
+          "isVisible": true,
+          "width": 0,
+          "dateIncludeTime": false,
+          "timeFormat": "Format12",
+          "dateFormat": "MonthAbbrBeforeDay"
+         },
+         {
+          "key": "tag",
+          "isVisible": false,
+          "width": 192,
+          "dateIncludeTime": false,
+          "timeFormat": "Format12",
+          "dateFormat": "MonthAbbrBeforeDay"
+         },
+         {
+          "key": "description",
+          "isVisible": false,
+          "width": 0,
+          "dateIncludeTime": false,
+          "timeFormat": "Format12",
+          "dateFormat": "MonthAbbrBeforeDay"
+         },
+         {
+          "key": "type",
+          "isVisible": false,
+          "width": 0,
+          "dateIncludeTime": false,
+          "timeFormat": "Format12",
+          "dateFormat": "MonthAbbrBeforeDay"
+         },
+         {
+          "key": "createdDate",
+          "isVisible": false,
+          "width": 0,
+          "dateIncludeTime": false,
+          "timeFormat": "Format12",
+          "dateFormat": "MonthAbbrBeforeDay"
+         },
+         {
+          "key": "lastModifiedDate",
+          "isVisible": false,
+          "width": 0,
+          "dateIncludeTime": false,
+          "timeFormat": "Format12",
+          "dateFormat": "MonthAbbrBeforeDay"
+         },
+         {
+          "key": "lastModifiedBy",
+          "isVisible": false,
+          "width": 0,
+          "dateIncludeTime": false,
+          "timeFormat": "Format12",
+          "dateFormat": "MonthAbbrBeforeDay"
+         },
+         {
+          "key": "lastOpenedDate",
+          "isVisible": false,
+          "width": 0,
+          "dateIncludeTime": false,
+          "timeFormat": "Format12",
+          "dateFormat": "MonthAbbrBeforeDay"
+         },
+         {
+          "key": "genre",
+          "isVisible": true,
+          "width": 192,
+          "dateIncludeTime": false,
+          "timeFormat": "Format12",
+          "dateFormat": "MonthAbbrBeforeDay"
+         }
+        ],
+        "coverRelationKey": "pageCover",
+        "hideIcon": false,
+        "cardSize": "Small",
+        "coverFit": false,
+        "groupRelationKey": "",
+        "groupBackgroundColors": false,
+        "pageLimit": 0,
+        "defaultTemplateId": "",
+        "defaultObjectTypeId": ""
+       }
+      ],
+      "activeView": "",
+      "relations": [
+      ],
+      "groupOrders": [
+      ],
+      "objectOrders": [
+      ],
+      "relationLinks": [
+       {
+        "key": "name",
+        "format": "shorttext"
+       },
+       {
+        "key": "tag",
+        "format": "tag"
+       },
+       {
+        "key": "description",
+        "format": "longtext"
+       },
+       {
+        "key": "type",
+        "format": "object"
+       },
+       {
+        "key": "createdDate",
+        "format": "date"
+       },
+       {
+        "key": "lastModifiedDate",
+        "format": "date"
+       },
+       {
+        "key": "lastModifiedBy",
+        "format": "object"
+       },
+       {
+        "key": "lastOpenedDate",
+        "format": "date"
+       },
+       {
+        "key": "genre",
+        "format": "tag"
+       }
+      ],
+      "TargetObjectId": "",
+      "isCollection": false
+     }
+    },
+    {
+     "id": "title",
+     "fields": {
+       "_detailsKey": [
+          "name",
+          "done"
+         ]
+      },
+     "restrictions": {
+      "read": false,
+      "edit": false,
+      "remove": true,
+      "drag": true,
+      "dropOn": true
+     },
+     "childrenIds": [
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "text": {
+      "text": "",
+      "style": "Title",
+      "marks": {
+       "marks": [
+       ]
+      },
+      "checked": false,
+      "color": "",
+      "iconEmoji": "",
+      "iconImage": ""
+     }
+    },
+    {
+     "id": "description",
+     "fields": {
+       "_detailsKey": "description"
+      },
+     "restrictions": {
+      "read": false,
+      "edit": false,
+      "remove": true,
+      "drag": true,
+      "dropOn": true
+     },
+     "childrenIds": [
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "text": {
+      "text": "",
+      "style": "Description",
+      "marks": {
+       "marks": [
+       ]
+      },
+      "checked": false,
+      "color": "",
+      "iconEmoji": "",
+      "iconImage": ""
+     }
+    },
+    {
+     "id": "featuredRelations",
+     "fields": null,
+     "restrictions": {
+      "read": false,
+      "edit": false,
+      "remove": true,
+      "drag": true,
+      "dropOn": true
+     },
+     "childrenIds": [
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "featuredRelations": {
+
+     }
+    }
+   ],
+   "details": {
+     "addedDate": 1731430247,
+     "backlinks": [
+        "bafyreicpihmebpa4hky7tcyfxhxyah5ty3daam5cmwb6xtsbr63rpb2bbu",
+        "bafyreics6knmaw5idpelcdz7qqkugcdufkmcko7zfzabfrof75oxkdf6jq"
+       ],
+     "createdDate": 1695976197,
+     "creator": "_participant_bafyreieu66zitib4v6vdfzc6minz6jw6kijja2yodxvwqnsdrjgnc55234_3rdqxtckcv7hl_A7iWd8JC5mKiPvewoiKtw76DaG4j57Hi9Q65odWbcvvMvDGf",
+     "description": "My ultimate personal film guide for recommendations, watch lists \u0026 Oscar predictions",
+     "featuredRelations": [
+        "type",
+        "description",
+        "setOf"
+       ],
+     "iconEmoji": "🍿",
+     "iconImage": "",
+     "id": "bafyreiaafz6dlc4p7lvxeold6p5d4q4sslx62t2cqrnj2jp5pzq2rjotfa",
+     "importType": 3,
+     "lastModifiedBy": "_participant_bafyreieu66zitib4v6vdfzc6minz6jw6kijja2yodxvwqnsdrjgnc55234_3rdqxtckcv7hl_A7iWd8JC5mKiPvewoiKtw76DaG4j57Hi9Q65odWbcvvMvDGf",
+     "lastModifiedDate": 1695976197,
+     "lastOpenedDate": 1731430251,
+     "layout": 3,
+     "links": [
+       ],
+     "mentions": [
+       ],
+     "name": "Movie Database",
+     "oldAnytypeID": "bafyreih4ek47po7uxplkqvzreiuwpdr4wrytpmglns5lgrtbf2az6lkw3u",
+     "origin": 6,
+     "restrictions": [
+        3,
+        6,
+        5,
+        7
+       ],
+     "setOf": [
+        "bafyreiemxz2r4i6zzy7zfluctfrdtr44xf6z24hi3a2trfeimzedsfarxa"
+       ],
+     "snippet": "",
+     "sourceFilePath": "bafyreih4ek47po7uxplkqvzreiuwpdr4wrytpmglns5lgrtbf2az6lkw3u",
+     "spaceId": "bafyreieu66zitib4v6vdfzc6minz6jw6kijja2yodxvwqnsdrjgnc55234.3rdqxtckcv7hl",
+     "syncDate": 1731430249,
+     "syncError": 0,
+     "syncStatus": 0,
+     "type": "bafyreiacpxt5vy4blki6vgbeqneorpakdfbewnwvggg3wrqxztsmpgmjx4"
+    },
+   "fileKeys": null,
+   "extraRelations": [
+   ],
+   "objectTypes": [
+    "ot-set"
+   ],
+   "collections": null,
+   "removedCollectionKeys": [
+   ],
+   "relationLinks": [
+    {
+     "key": "workspaceId",
+     "format": "object"
+    },
+    {
+     "key": "createdDate",
+     "format": "date"
+    },
+    {
+     "key": "creator",
+     "format": "object"
+    },
+    {
+     "key": "type",
+     "format": "object"
+    },
+    {
+     "key": "id",
+     "format": "object"
+    },
+    {
+     "key": "snippet",
+     "format": "longtext"
+    },
+    {
+     "key": "internalFlags",
+     "format": "number"
+    },
+    {
+     "key": "backlinks",
+     "format": "object"
+    },
+    {
+     "key": "layout",
+     "format": "number"
+    },
+    {
+     "key": "name",
+     "format": "shorttext"
+    },
+    {
+     "key": "description",
+     "format": "longtext"
+    },
+    {
+     "key": "iconEmoji",
+     "format": "emoji"
+    },
+    {
+     "key": "iconImage",
+     "format": "file"
+    },
+    {
+     "key": "layoutAlign",
+     "format": "number"
+    },
+    {
+     "key": "coverId",
+     "format": "longtext"
+    },
+    {
+     "key": "coverScale",
+     "format": "number"
+    },
+    {
+     "key": "coverType",
+     "format": "number"
+    },
+    {
+     "key": "coverX",
+     "format": "number"
+    },
+    {
+     "key": "coverY",
+     "format": "number"
+    },
+    {
+     "key": "lastModifiedDate",
+     "format": "date"
+    },
+    {
+     "key": "lastModifiedBy",
+     "format": "object"
+    },
+    {
+     "key": "lastOpenedDate",
+     "format": "date"
+    },
+    {
+     "key": "featuredRelations",
+     "format": "object"
+    },
+    {
+     "key": "isFavorite",
+     "format": "checkbox"
+    },
+    {
+     "key": "links",
+     "format": "object"
+    },
+    {
+     "key": "restrictions",
+     "format": "number"
+    },
+    {
+     "key": "setOf",
+     "format": "object"
+    },
+    {
+     "key": "isArchived",
+     "format": "checkbox"
+    },
+    {
+     "key": "spaceId",
+     "format": "object"
+    },
+    {
+     "key": "syncDate",
+     "format": "date"
+    },
+    {
+     "key": "syncStatus",
+     "format": "number"
+    },
+    {
+     "key": "syncError",
+     "format": "number"
+    },
+    {
+     "key": "importType",
+     "format": "number"
+    },
+    {
+     "key": "sourceFilePath",
+     "format": "longtext"
+    },
+    {
+     "key": "oldAnytypeID",
+     "format": "longtext"
+    },
+    {
+     "key": "origin",
+     "format": "number"
+    },
+    {
+     "key": "addedDate",
+     "format": "date"
+    },
+    {
+     "key": "mentions",
+     "format": "object"
+    }
+   ],
+   "key": "",
+   "originalCreatedTimestamp": "0",
+   "fileInfo": null
+  },
+  "fileKeys": [
+  ]
+ }
+}

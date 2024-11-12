@@ -1,0 +1,329 @@
+{
+ "sbType": "Participant",
+ "snapshot": {
+  "logHeads": {
+  },
+  "data": {
+   "blocks": [
+    {
+     "id": "_participant_bafyreieu66zitib4v6vdfzc6minz6jw6kijja2yodxvwqnsdrjgnc55234_3rdqxtckcv7hl_A7iWd8JC5mKiPvewoiKtw76DaG4j57Hi9Q65odWbcvvMvDGf",
+     "fields": null,
+     "restrictions": null,
+     "childrenIds": [
+      "header"
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "smartblock": {
+
+     }
+    },
+    {
+     "id": "header",
+     "fields": null,
+     "restrictions": {
+      "read": false,
+      "edit": true,
+      "remove": true,
+      "drag": true,
+      "dropOn": true
+     },
+     "childrenIds": [
+      "title",
+      "description",
+      "featuredRelations"
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "layout": {
+      "style": "Header"
+     }
+    },
+    {
+     "id": "title",
+     "fields": {
+       "_detailsKey": [
+          "name",
+          "done"
+         ]
+      },
+     "restrictions": {
+      "read": false,
+      "edit": false,
+      "remove": true,
+      "drag": true,
+      "dropOn": true
+     },
+     "childrenIds": [
+     ],
+     "backgroundColor": "",
+     "align": "AlignCenter",
+     "verticalAlign": "VerticalAlignTop",
+     "text": {
+      "text": "",
+      "style": "Title",
+      "marks": {
+       "marks": [
+       ]
+      },
+      "checked": false,
+      "color": "",
+      "iconEmoji": "",
+      "iconImage": ""
+     }
+    },
+    {
+     "id": "description",
+     "fields": {
+       "_detailsKey": "description"
+      },
+     "restrictions": {
+      "read": false,
+      "edit": false,
+      "remove": true,
+      "drag": true,
+      "dropOn": true
+     },
+     "childrenIds": [
+     ],
+     "backgroundColor": "",
+     "align": "AlignCenter",
+     "verticalAlign": "VerticalAlignTop",
+     "text": {
+      "text": "",
+      "style": "Description",
+      "marks": {
+       "marks": [
+       ]
+      },
+      "checked": false,
+      "color": "",
+      "iconEmoji": "",
+      "iconImage": ""
+     }
+    },
+    {
+     "id": "featuredRelations",
+     "fields": null,
+     "restrictions": {
+      "read": false,
+      "edit": false,
+      "remove": true,
+      "drag": true,
+      "dropOn": true
+     },
+     "childrenIds": [
+     ],
+     "backgroundColor": "",
+     "align": "AlignCenter",
+     "verticalAlign": "VerticalAlignTop",
+     "featuredRelations": {
+
+     }
+    }
+   ],
+   "details": {
+     "backlinks": [
+       ],
+     "createdDate": 1731430243,
+     "creator": "_anytype_profile",
+     "description": "",
+     "featuredRelations": [
+        "description",
+        "type",
+        "backlinks"
+       ],
+     "globalName": "",
+     "iconImage": "",
+     "id": "_participant_bafyreieu66zitib4v6vdfzc6minz6jw6kijja2yodxvwqnsdrjgnc55234_3rdqxtckcv7hl_A7iWd8JC5mKiPvewoiKtw76DaG4j57Hi9Q65odWbcvvMvDGf",
+     "identity": "A7iWd8JC5mKiPvewoiKtw76DaG4j57Hi9Q65odWbcvvMvDGf",
+     "identityProfileLink": "bafyreiaqk6pnhw2kec2qeuil6zlhv6memohkihncaaroda2pflka5lbblu",
+     "isArchived": false,
+     "isHidden": false,
+     "isHiddenDiscovery": false,
+     "isReadonly": true,
+     "lastModifiedBy": "_participant_bafyreieu66zitib4v6vdfzc6minz6jw6kijja2yodxvwqnsdrjgnc55234_3rdqxtckcv7hl_A7iWd8JC5mKiPvewoiKtw76DaG4j57Hi9Q65odWbcvvMvDGf",
+     "layout": 19,
+     "layoutAlign": 1,
+     "links": [
+       ],
+     "mentions": [
+       ],
+     "name": "Marph",
+     "participantPermissions": 2,
+     "participantStatus": 1,
+     "restrictions": [
+        3,
+        2,
+        4,
+        1,
+        6,
+        5,
+        7,
+        8
+       ],
+     "snippet": "",
+     "spaceId": "bafyreieu66zitib4v6vdfzc6minz6jw6kijja2yodxvwqnsdrjgnc55234.3rdqxtckcv7hl",
+     "type": "bafyreigxgzdyilvgqgolx3bdcp24hmzhayxer4uwtlacrt5inp4exop3my"
+    },
+   "fileKeys": null,
+   "extraRelations": [
+   ],
+   "objectTypes": [
+    "ot-participant"
+   ],
+   "collections": null,
+   "removedCollectionKeys": [
+   ],
+   "relationLinks": [
+    {
+     "key": "id",
+     "format": "object"
+    },
+    {
+     "key": "name",
+     "format": "shorttext"
+    },
+    {
+     "key": "description",
+     "format": "longtext"
+    },
+    {
+     "key": "iconEmoji",
+     "format": "emoji"
+    },
+    {
+     "key": "iconImage",
+     "format": "file"
+    },
+    {
+     "key": "type",
+     "format": "object"
+    },
+    {
+     "key": "layout",
+     "format": "number"
+    },
+    {
+     "key": "createdDate",
+     "format": "date"
+    },
+    {
+     "key": "creator",
+     "format": "object"
+    },
+    {
+     "key": "lastModifiedDate",
+     "format": "date"
+    },
+    {
+     "key": "lastModifiedBy",
+     "format": "object"
+    },
+    {
+     "key": "lastOpenedDate",
+     "format": "date"
+    },
+    {
+     "key": "isFavorite",
+     "format": "checkbox"
+    },
+    {
+     "key": "isArchived",
+     "format": "checkbox"
+    },
+    {
+     "key": "workspaceId",
+     "format": "object"
+    },
+    {
+     "key": "spaceId",
+     "format": "object"
+    },
+    {
+     "key": "internalFlags",
+     "format": "number"
+    },
+    {
+     "key": "restrictions",
+     "format": "number"
+    },
+    {
+     "key": "syncDate",
+     "format": "date"
+    },
+    {
+     "key": "syncStatus",
+     "format": "number"
+    },
+    {
+     "key": "syncError",
+     "format": "number"
+    },
+    {
+     "key": "globalName",
+     "format": "shorttext"
+    },
+    {
+     "key": "identity",
+     "format": "longtext"
+    },
+    {
+     "key": "backlinks",
+     "format": "object"
+    },
+    {
+     "key": "participantPermissions",
+     "format": "number"
+    },
+    {
+     "key": "participantStatus",
+     "format": "number"
+    },
+    {
+     "key": "identityProfileLink",
+     "format": "object"
+    },
+    {
+     "key": "isHiddenDiscovery",
+     "format": "checkbox"
+    },
+    {
+     "key": "isReadonly",
+     "format": "checkbox"
+    },
+    {
+     "key": "snippet",
+     "format": "longtext"
+    },
+    {
+     "key": "mentions",
+     "format": "object"
+    },
+    {
+     "key": "isHidden",
+     "format": "checkbox"
+    },
+    {
+     "key": "layoutAlign",
+     "format": "number"
+    },
+    {
+     "key": "links",
+     "format": "object"
+    },
+    {
+     "key": "featuredRelations",
+     "format": "object"
+    }
+   ],
+   "key": "",
+   "originalCreatedTimestamp": "0",
+   "fileInfo": null
+  },
+  "fileKeys": [
+  ]
+ }
+}

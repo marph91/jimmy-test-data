@@ -1,0 +1,314 @@
+{
+ "sbType": "ProfilePage",
+ "snapshot": {
+  "logHeads": {
+  },
+  "data": {
+   "blocks": [
+    {
+     "id": "bafyreifmygs7fwz62uwv72n43xnxjgkb4d6aicd2dzls2wk4klmjghs4hm",
+     "fields": null,
+     "restrictions": {
+      "read": false,
+      "edit": false,
+      "remove": false,
+      "drag": false,
+      "dropOn": false
+     },
+     "childrenIds": [
+      "header"
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "smartblock": {
+
+     }
+    },
+    {
+     "id": "header",
+     "fields": null,
+     "restrictions": {
+      "read": false,
+      "edit": true,
+      "remove": true,
+      "drag": true,
+      "dropOn": true
+     },
+     "childrenIds": [
+      "title",
+      "featuredRelations"
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "layout": {
+      "style": "Header"
+     }
+    },
+    {
+     "id": "title",
+     "fields": {
+       "_detailsKey": [
+          "name",
+          "done"
+         ]
+      },
+     "restrictions": {
+      "read": false,
+      "edit": false,
+      "remove": true,
+      "drag": true,
+      "dropOn": true
+     },
+     "childrenIds": [
+     ],
+     "backgroundColor": "",
+     "align": "AlignCenter",
+     "verticalAlign": "VerticalAlignTop",
+     "text": {
+      "text": "",
+      "style": "Title",
+      "marks": {
+       "marks": [
+       ]
+      },
+      "checked": false,
+      "color": "",
+      "iconEmoji": "",
+      "iconImage": ""
+     }
+    },
+    {
+     "id": "featuredRelations",
+     "fields": null,
+     "restrictions": {
+      "read": false,
+      "edit": false,
+      "remove": true,
+      "drag": true,
+      "dropOn": true
+     },
+     "childrenIds": [
+     ],
+     "backgroundColor": "",
+     "align": "AlignCenter",
+     "verticalAlign": "VerticalAlignTop",
+     "featuredRelations": {
+
+     }
+    }
+   ],
+   "details": {
+     "addedDate": 0,
+     "backlinks": [
+       ],
+     "createdDate": 1695975598,
+     "creator": "_participant_bafyreieu66zitib4v6vdfzc6minz6jw6kijja2yodxvwqnsdrjgnc55234_3rdqxtckcv7hl_A7iWd8JC5mKiPvewoiKtw76DaG4j57Hi9Q65odWbcvvMvDGf",
+     "featuredRelations": [
+        "backlinks"
+       ],
+     "iconOption": 6,
+     "id": "bafyreifmygs7fwz62uwv72n43xnxjgkb4d6aicd2dzls2wk4klmjghs4hm",
+     "importType": 3,
+     "isHidden": true,
+     "lastModifiedBy": "_participant_bafyreieu66zitib4v6vdfzc6minz6jw6kijja2yodxvwqnsdrjgnc55234_3rdqxtckcv7hl_A7iWd8JC5mKiPvewoiKtw76DaG4j57Hi9Q65odWbcvvMvDGf",
+     "lastModifiedDate": 1731430419,
+     "layout": 1,
+     "layoutAlign": 1,
+     "links": [
+       ],
+     "mentions": [
+       ],
+     "name": "Movie Database",
+     "oldAnytypeID": "bafyreidnsorc4pykoqr7gncfik3yk2i6tylxpxrdrmnojnbk6hqwiha2di",
+     "origin": 6,
+     "restrictions": [
+        6,
+        5,
+        1,
+        8
+       ],
+     "snippet": "",
+     "sourceFilePath": "bafyreidnsorc4pykoqr7gncfik3yk2i6tylxpxrdrmnojnbk6hqwiha2di",
+     "spaceId": "bafyreieu66zitib4v6vdfzc6minz6jw6kijja2yodxvwqnsdrjgnc55234.3rdqxtckcv7hl",
+     "syncDate": 1731430249,
+     "syncError": 0,
+     "syncStatus": 0,
+     "type": "bafyreidktbbm72z4adfgutni6gs3x4gxm7n63nyv3mq44aiu3t34zpc3ke"
+    },
+   "fileKeys": null,
+   "extraRelations": [
+   ],
+   "objectTypes": [
+    "ot-profile"
+   ],
+   "collections": null,
+   "removedCollectionKeys": [
+   ],
+   "relationLinks": [
+    {
+     "key": "id",
+     "format": "object"
+    },
+    {
+     "key": "snippet",
+     "format": "longtext"
+    },
+    {
+     "key": "workspaceId",
+     "format": "object"
+    },
+    {
+     "key": "backlinks",
+     "format": "object"
+    },
+    {
+     "key": "creator",
+     "format": "object"
+    },
+    {
+     "key": "type",
+     "format": "object"
+    },
+    {
+     "key": "layout",
+     "format": "number"
+    },
+    {
+     "key": "layoutAlign",
+     "format": "number"
+    },
+    {
+     "key": "name",
+     "format": "shorttext"
+    },
+    {
+     "key": "description",
+     "format": "longtext"
+    },
+    {
+     "key": "iconEmoji",
+     "format": "emoji"
+    },
+    {
+     "key": "iconImage",
+     "format": "file"
+    },
+    {
+     "key": "coverId",
+     "format": "longtext"
+    },
+    {
+     "key": "coverScale",
+     "format": "number"
+    },
+    {
+     "key": "coverType",
+     "format": "number"
+    },
+    {
+     "key": "coverX",
+     "format": "number"
+    },
+    {
+     "key": "coverY",
+     "format": "number"
+    },
+    {
+     "key": "createdDate",
+     "format": "date"
+    },
+    {
+     "key": "lastModifiedDate",
+     "format": "date"
+    },
+    {
+     "key": "lastModifiedBy",
+     "format": "object"
+    },
+    {
+     "key": "lastOpenedDate",
+     "format": "date"
+    },
+    {
+     "key": "featuredRelations",
+     "format": "object"
+    },
+    {
+     "key": "isFavorite",
+     "format": "checkbox"
+    },
+    {
+     "key": "links",
+     "format": "object"
+    },
+    {
+     "key": "internalFlags",
+     "format": "number"
+    },
+    {
+     "key": "restrictions",
+     "format": "number"
+    },
+    {
+     "key": "iconOption",
+     "format": "number"
+    },
+    {
+     "key": "isArchived",
+     "format": "checkbox"
+    },
+    {
+     "key": "spaceId",
+     "format": "object"
+    },
+    {
+     "key": "syncDate",
+     "format": "date"
+    },
+    {
+     "key": "syncStatus",
+     "format": "number"
+    },
+    {
+     "key": "syncError",
+     "format": "number"
+    },
+    {
+     "key": "importType",
+     "format": "number"
+    },
+    {
+     "key": "origin",
+     "format": "number"
+    },
+    {
+     "key": "sourceFilePath",
+     "format": "longtext"
+    },
+    {
+     "key": "oldAnytypeID",
+     "format": "longtext"
+    },
+    {
+     "key": "addedDate",
+     "format": "date"
+    },
+    {
+     "key": "mentions",
+     "format": "object"
+    },
+    {
+     "key": "isHidden",
+     "format": "checkbox"
+    }
+   ],
+   "key": "",
+   "originalCreatedTimestamp": "0",
+   "fileInfo": null
+  },
+  "fileKeys": [
+  ]
+ }
+}

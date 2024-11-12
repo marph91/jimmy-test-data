@@ -1,0 +1,787 @@
+{
+ "sbType": "Template",
+ "snapshot": {
+  "logHeads": {
+  },
+  "data": {
+   "blocks": [
+    {
+     "id": "bafyreicpihmebpa4hky7tcyfxhxyah5ty3daam5cmwb6xtsbr63rpb2bbu",
+     "fields": {
+       "analyticsOriginalId": ""
+      },
+     "restrictions": {
+      "read": false,
+      "edit": false,
+      "remove": false,
+      "drag": false,
+      "dropOn": false
+     },
+     "childrenIds": [
+      "header",
+      "r-3990cbe104c930008478158eb7fa6f92"
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "smartblock": {
+
+     }
+    },
+    {
+     "id": "header",
+     "fields": null,
+     "restrictions": {
+      "read": false,
+      "edit": true,
+      "remove": true,
+      "drag": true,
+      "dropOn": true
+     },
+     "childrenIds": [
+      "title",
+      "description",
+      "featuredRelations"
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "layout": {
+      "style": "Header"
+     }
+    },
+    {
+     "id": "r-3990cbe104c930008478158eb7fa6f92",
+     "fields": null,
+     "restrictions": {
+      "read": false,
+      "edit": false,
+      "remove": false,
+      "drag": false,
+      "dropOn": false
+     },
+     "childrenIds": [
+      "ct-3990cbe104c930008478158eb7fa6f92",
+      "cd-3990cbe104c930008478158eb7fa6f92"
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "layout": {
+      "style": "Row"
+     }
+    },
+    {
+     "id": "title",
+     "fields": {
+       "_detailsKey": [
+          "name",
+          "done"
+         ]
+      },
+     "restrictions": {
+      "read": false,
+      "edit": false,
+      "remove": true,
+      "drag": true,
+      "dropOn": true
+     },
+     "childrenIds": [
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "text": {
+      "text": "",
+      "style": "Title",
+      "marks": {
+       "marks": [
+       ]
+      },
+      "checked": false,
+      "color": "",
+      "iconEmoji": "",
+      "iconImage": ""
+     }
+    },
+    {
+     "id": "description",
+     "fields": {
+       "_detailsKey": "description"
+      },
+     "restrictions": {
+      "read": false,
+      "edit": false,
+      "remove": true,
+      "drag": true,
+      "dropOn": true
+     },
+     "childrenIds": [
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "text": {
+      "text": "",
+      "style": "Description",
+      "marks": {
+       "marks": [
+       ]
+      },
+      "checked": false,
+      "color": "",
+      "iconEmoji": "",
+      "iconImage": ""
+     }
+    },
+    {
+     "id": "featuredRelations",
+     "fields": null,
+     "restrictions": {
+      "read": false,
+      "edit": false,
+      "remove": true,
+      "drag": true,
+      "dropOn": true
+     },
+     "childrenIds": [
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "featuredRelations": {
+
+     }
+    },
+    {
+     "id": "ct-3990cbe104c930008478158eb7fa6f92",
+     "fields": {
+       "width": 0.4119318181818182
+      },
+     "restrictions": null,
+     "childrenIds": [
+      "60f5be8c6cabea22ef364d7d"
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "layout": {
+      "style": "Column"
+     }
+    },
+    {
+     "id": "cd-3990cbe104c930008478158eb7fa6f92",
+     "fields": {
+       "width": 0.5880681818181819
+      },
+     "restrictions": null,
+     "childrenIds": [
+      "60f5be4c6cabea22ef364d74",
+      "60f5be4c6cabea22ef364d75",
+      "60f5be4c6cabea22ef364d76",
+      "60f5be4c6cabea22ef364d77",
+      "60f5be4c6cabea22ef364d78",
+      "60f5be4c6cabea22ef364d79",
+      "60f5be5a6cabea22ef364d7b",
+      "60f0a977d5877d31cde9f91f",
+      "60f0a97cd5877d31cde9f921",
+      "60f0a982d5877d31cde9f923",
+      "60f0a993d5877d31cde9f927",
+      "60f0a9d8d5877d31cde9f933",
+      "60f0a999d5877d31cde9f929",
+      "60f0a99fd5877d31cde9f92b",
+      "60f0a9aad5877d31cde9f92d",
+      "60f0a9e3d5877d31cde9f936",
+      "60f0a9afd5877d31cde9f92f",
+      "60f0a9d9d5877d31cde9f934"
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "layout": {
+      "style": "Column"
+     }
+    },
+    {
+     "id": "60f5be8c6cabea22ef364d7d",
+     "fields": null,
+     "restrictions": null,
+     "childrenIds": [
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "file": {
+      "hash": "",
+      "name": "",
+      "type": "Image",
+      "mime": "",
+      "size": "0",
+      "addedAt": "0",
+      "targetObjectId": "",
+      "state": "Empty",
+      "style": "Auto"
+     }
+    },
+    {
+     "id": "60f5be4c6cabea22ef364d74",
+     "fields": {
+      },
+     "restrictions": null,
+     "childrenIds": [
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "text": {
+      "text": "About",
+      "style": "Header2",
+      "marks": {
+       "marks": [
+       ]
+      },
+      "checked": false,
+      "color": "",
+      "iconEmoji": "",
+      "iconImage": ""
+     }
+    },
+    {
+     "id": "60f5be4c6cabea22ef364d75",
+     "fields": {
+      },
+     "restrictions": null,
+     "childrenIds": [
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "text": {
+      "text": "",
+      "style": "Paragraph",
+      "marks": {
+       "marks": [
+       ]
+      },
+      "checked": false,
+      "color": "",
+      "iconEmoji": "",
+      "iconImage": ""
+     }
+    },
+    {
+     "id": "60f5be4c6cabea22ef364d76",
+     "fields": {
+      },
+     "restrictions": null,
+     "childrenIds": [
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "text": {
+      "text": "",
+      "style": "Paragraph",
+      "marks": {
+       "marks": [
+       ]
+      },
+      "checked": false,
+      "color": "",
+      "iconEmoji": "",
+      "iconImage": ""
+     }
+    },
+    {
+     "id": "60f5be4c6cabea22ef364d77",
+     "fields": {
+      },
+     "restrictions": null,
+     "childrenIds": [
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "text": {
+      "text": "",
+      "style": "Paragraph",
+      "marks": {
+       "marks": [
+       ]
+      },
+      "checked": false,
+      "color": "",
+      "iconEmoji": "",
+      "iconImage": ""
+     }
+    },
+    {
+     "id": "60f5be4c6cabea22ef364d78",
+     "fields": {
+      },
+     "restrictions": null,
+     "childrenIds": [
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "text": {
+      "text": "",
+      "style": "Paragraph",
+      "marks": {
+       "marks": [
+       ]
+      },
+      "checked": false,
+      "color": "",
+      "iconEmoji": "",
+      "iconImage": ""
+     }
+    },
+    {
+     "id": "60f5be4c6cabea22ef364d79",
+     "fields": {
+      },
+     "restrictions": null,
+     "childrenIds": [
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "text": {
+      "text": "",
+      "style": "Paragraph",
+      "marks": {
+       "marks": [
+       ]
+      },
+      "checked": false,
+      "color": "",
+      "iconEmoji": "",
+      "iconImage": ""
+     }
+    },
+    {
+     "id": "60f5be5a6cabea22ef364d7b",
+     "fields": null,
+     "restrictions": null,
+     "childrenIds": [
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "div": {
+      "style": "Line"
+     }
+    },
+    {
+     "id": "60f0a977d5877d31cde9f91f",
+     "fields": null,
+     "restrictions": null,
+     "childrenIds": [
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "relation": {
+      "key": "director"
+     }
+    },
+    {
+     "id": "60f0a97cd5877d31cde9f921",
+     "fields": null,
+     "restrictions": null,
+     "childrenIds": [
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "relation": {
+      "key": "stars"
+     }
+    },
+    {
+     "id": "60f0a982d5877d31cde9f923",
+     "fields": null,
+     "restrictions": null,
+     "childrenIds": [
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "relation": {
+      "key": "genre"
+     }
+    },
+    {
+     "id": "60f0a993d5877d31cde9f927",
+     "fields": null,
+     "restrictions": null,
+     "childrenIds": [
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "relation": {
+      "key": "trailer"
+     }
+    },
+    {
+     "id": "60f0a9d8d5877d31cde9f933",
+     "fields": null,
+     "restrictions": null,
+     "childrenIds": [
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "div": {
+      "style": "Line"
+     }
+    },
+    {
+     "id": "60f0a999d5877d31cde9f929",
+     "fields": null,
+     "restrictions": null,
+     "childrenIds": [
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "relation": {
+      "key": "rating"
+     }
+    },
+    {
+     "id": "60f0a99fd5877d31cde9f92b",
+     "fields": null,
+     "restrictions": null,
+     "childrenIds": [
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "relation": {
+      "key": "imdbRating"
+     }
+    },
+    {
+     "id": "60f0a9aad5877d31cde9f92d",
+     "fields": null,
+     "restrictions": null,
+     "childrenIds": [
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "relation": {
+      "key": "rottenTomatoesRating"
+     }
+    },
+    {
+     "id": "60f0a9e3d5877d31cde9f936",
+     "fields": null,
+     "restrictions": null,
+     "childrenIds": [
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "div": {
+      "style": "Line"
+     }
+    },
+    {
+     "id": "60f0a9afd5877d31cde9f92f",
+     "fields": null,
+     "restrictions": null,
+     "childrenIds": [
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "relation": {
+      "key": "status"
+     }
+    },
+    {
+     "id": "60f0a9d9d5877d31cde9f934",
+     "fields": null,
+     "restrictions": null,
+     "childrenIds": [
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "text": {
+      "text": "",
+      "style": "Paragraph",
+      "marks": {
+       "marks": [
+       ]
+      },
+      "checked": false,
+      "color": "",
+      "iconEmoji": "",
+      "iconImage": ""
+     }
+    }
+   ],
+   "details": {
+     "65168b3c1cac630478df238b": [
+        "bafyreiaafz6dlc4p7lvxeold6p5d4q4sslx62t2cqrnj2jp5pzq2rjotfa"
+       ],
+     "addedDate": 1731430247,
+     "backlinks": [
+       ],
+     "createdDate": 1695976283,
+     "creator": "_participant_bafyreieu66zitib4v6vdfzc6minz6jw6kijja2yodxvwqnsdrjgnc55234_3rdqxtckcv7hl_A7iWd8JC5mKiPvewoiKtw76DaG4j57Hi9Q65odWbcvvMvDGf",
+     "description": "",
+     "featuredRelations": [
+        "type",
+        "tag",
+        "status",
+        "description"
+       ],
+     "id": "bafyreicpihmebpa4hky7tcyfxhxyah5ty3daam5cmwb6xtsbr63rpb2bbu",
+     "importType": 3,
+     "lastModifiedBy": "_participant_bafyreieu66zitib4v6vdfzc6minz6jw6kijja2yodxvwqnsdrjgnc55234_3rdqxtckcv7hl_A7iWd8JC5mKiPvewoiKtw76DaG4j57Hi9Q65odWbcvvMvDGf",
+     "lastModifiedDate": 1695976283,
+     "layout": 0,
+     "links": [
+        "bafyreiaafz6dlc4p7lvxeold6p5d4q4sslx62t2cqrnj2jp5pzq2rjotfa"
+       ],
+     "mentions": [
+       ],
+     "name": "Movie",
+     "oldAnytypeID": "bafyreihzam57ibpt2zyhla2yirvj4rxhdauyt4sykdilaujl7uv5bcjq6u",
+     "origin": 6,
+     "restrictions": [
+        5,
+        7
+       ],
+     "snippet": "About",
+     "sourceFilePath": "bafyreihzam57ibpt2zyhla2yirvj4rxhdauyt4sykdilaujl7uv5bcjq6u",
+     "sourceObject": "bafykaau5yxin3iy2ljoc2c7esrlbzjcit5dpnbkuo7jigzekccszyiuxim",
+     "spaceId": "bafyreieu66zitib4v6vdfzc6minz6jw6kijja2yodxvwqnsdrjgnc55234.3rdqxtckcv7hl",
+     "syncDate": 1731430249,
+     "syncError": 0,
+     "syncStatus": 0,
+     "targetObjectType": "bafyreiemxz2r4i6zzy7zfluctfrdtr44xf6z24hi3a2trfeimzedsfarxa",
+     "type": "bafyreigzhohar2s5tgnksmhzc2ie3qerom523v4pijljknsdrkpucuiora"
+    },
+   "fileKeys": null,
+   "extraRelations": [
+   ],
+   "objectTypes": [
+    "ot-template"
+   ],
+   "collections": null,
+   "removedCollectionKeys": [
+   ],
+   "relationLinks": [
+    {
+     "key": "createdDate",
+     "format": "date"
+    },
+    {
+     "key": "creator",
+     "format": "object"
+    },
+    {
+     "key": "type",
+     "format": "object"
+    },
+    {
+     "key": "layout",
+     "format": "number"
+    },
+    {
+     "key": "targetObjectType",
+     "format": "object"
+    },
+    {
+     "key": "id",
+     "format": "object"
+    },
+    {
+     "key": "name",
+     "format": "shorttext"
+    },
+    {
+     "key": "description",
+     "format": "longtext"
+    },
+    {
+     "key": "iconEmoji",
+     "format": "emoji"
+    },
+    {
+     "key": "iconImage",
+     "format": "file"
+    },
+    {
+     "key": "layoutAlign",
+     "format": "number"
+    },
+    {
+     "key": "coverId",
+     "format": "shorttext"
+    },
+    {
+     "key": "coverScale",
+     "format": "number"
+    },
+    {
+     "key": "coverType",
+     "format": "number"
+    },
+    {
+     "key": "coverX",
+     "format": "number"
+    },
+    {
+     "key": "coverY",
+     "format": "number"
+    },
+    {
+     "key": "lastModifiedDate",
+     "format": "date"
+    },
+    {
+     "key": "lastModifiedBy",
+     "format": "object"
+    },
+    {
+     "key": "lastOpenedDate",
+     "format": "date"
+    },
+    {
+     "key": "featuredRelations",
+     "format": "object"
+    },
+    {
+     "key": "isHidden",
+     "format": "checkbox"
+    },
+    {
+     "key": "isArchived",
+     "format": "checkbox"
+    },
+    {
+     "key": "snippet",
+     "format": "longtext"
+    },
+    {
+     "key": "director",
+     "format": "object"
+    },
+    {
+     "key": "stars",
+     "format": "object"
+    },
+    {
+     "key": "genre",
+     "format": "tag"
+    },
+    {
+     "key": "trailer",
+     "format": "file"
+    },
+    {
+     "key": "rating",
+     "format": "longtext"
+    },
+    {
+     "key": "imdbRating",
+     "format": "number"
+    },
+    {
+     "key": "rottenTomatoesRating",
+     "format": "number"
+    },
+    {
+     "key": "status",
+     "format": "status"
+    },
+    {
+     "key": "backlinks",
+     "format": "object"
+    },
+    {
+     "key": "sourceObject",
+     "format": "object"
+    },
+    {
+     "key": "workspaceId",
+     "format": "object"
+    },
+    {
+     "key": "isFavorite",
+     "format": "checkbox"
+    },
+    {
+     "key": "links",
+     "format": "object"
+    },
+    {
+     "key": "internalFlags",
+     "format": "number"
+    },
+    {
+     "key": "restrictions",
+     "format": "number"
+    },
+    {
+     "key": "65168b3c1cac630478df238b",
+     "format": "object"
+    },
+    {
+     "key": "spaceId",
+     "format": "object"
+    },
+    {
+     "key": "syncDate",
+     "format": "date"
+    },
+    {
+     "key": "syncStatus",
+     "format": "number"
+    },
+    {
+     "key": "syncError",
+     "format": "number"
+    },
+    {
+     "key": "origin",
+     "format": "number"
+    },
+    {
+     "key": "oldAnytypeID",
+     "format": "longtext"
+    },
+    {
+     "key": "importType",
+     "format": "number"
+    },
+    {
+     "key": "sourceFilePath",
+     "format": "longtext"
+    },
+    {
+     "key": "addedDate",
+     "format": "date"
+    },
+    {
+     "key": "mentions",
+     "format": "object"
+    }
+   ],
+   "key": "",
+   "originalCreatedTimestamp": "0",
+   "fileInfo": null
+  },
+  "fileKeys": [
+  ]
+ }
+}

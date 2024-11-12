@@ -1,0 +1,345 @@
+{
+ "sbType": "STRelation",
+ "snapshot": {
+  "logHeads": {
+  },
+  "data": {
+   "blocks": [
+    {
+     "id": "bafyreicp24lwnd7yqd6sae6y7hglhdi47skegkhoavbbanuk4ch2ivp64m",
+     "fields": null,
+     "restrictions": null,
+     "childrenIds": [
+      "header"
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "smartblock": {
+
+     }
+    },
+    {
+     "id": "header",
+     "fields": null,
+     "restrictions": {
+      "read": false,
+      "edit": true,
+      "remove": true,
+      "drag": true,
+      "dropOn": true
+     },
+     "childrenIds": [
+      "title",
+      "featuredRelations"
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "layout": {
+      "style": "Header"
+     }
+    },
+    {
+     "id": "title",
+     "fields": {
+       "_detailsKey": [
+          "name",
+          "done"
+         ]
+      },
+     "restrictions": {
+      "read": false,
+      "edit": false,
+      "remove": true,
+      "drag": true,
+      "dropOn": true
+     },
+     "childrenIds": [
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "text": {
+      "text": "",
+      "style": "Title",
+      "marks": {
+       "marks": [
+       ]
+      },
+      "checked": false,
+      "color": "",
+      "iconEmoji": "",
+      "iconImage": ""
+     }
+    },
+    {
+     "id": "featuredRelations",
+     "fields": null,
+     "restrictions": {
+      "read": false,
+      "edit": false,
+      "remove": true,
+      "drag": true,
+      "dropOn": true
+     },
+     "childrenIds": [
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "featuredRelations": {
+
+     }
+    }
+   ],
+   "details": {
+     "backlinks": [
+       ],
+     "createdDate": 1731430128,
+     "creator": "_anytype_profile",
+     "description": "Link to itself. Used in databases",
+     "featuredRelations": [
+        "backlinks",
+        "type"
+       ],
+     "id": "bafyreicp24lwnd7yqd6sae6y7hglhdi47skegkhoavbbanuk4ch2ivp64m",
+     "internalFlags": [
+       ],
+     "isHidden": true,
+     "isReadonly": true,
+     "lastModifiedBy": "_participant_bafyreieu66zitib4v6vdfzc6minz6jw6kijja2yodxvwqnsdrjgnc55234_3rdqxtckcv7hl_A7iWd8JC5mKiPvewoiKtw76DaG4j57Hi9Q65odWbcvvMvDGf",
+     "lastModifiedDate": 1731430243,
+     "lastUsedDate": 1731430243,
+     "layout": 5,
+     "links": [
+       ],
+     "mentions": [
+       ],
+     "name": "Anytype ID",
+     "origin": 7,
+     "relationDefaultValue": null,
+     "relationFormat": 100,
+     "relationFormatObjectTypes": [
+       ],
+     "relationKey": "id",
+     "relationMaxCount": 1,
+     "relationReadonlyValue": false,
+     "restrictions": [
+        3,
+        6,
+        5,
+        7,
+        1,
+        2,
+        4
+       ],
+     "revision": 0,
+     "snippet": "",
+     "sourceObject": "_brid",
+     "spaceId": "bafyreieu66zitib4v6vdfzc6minz6jw6kijja2yodxvwqnsdrjgnc55234.3rdqxtckcv7hl",
+     "syncDate": 1731430246,
+     "syncError": 0,
+     "syncStatus": 0,
+     "type": "bafyreic2abs2s73orjar2spg5vpbqimoejcooeybp2gevb4npaakyxwraa",
+     "uniqueKey": "rel-id"
+    },
+   "fileKeys": null,
+   "extraRelations": [
+   ],
+   "objectTypes": [
+    "ot-relation"
+   ],
+   "collections": null,
+   "removedCollectionKeys": [
+   ],
+   "relationLinks": [
+    {
+     "key": "spaceId",
+     "format": "object"
+    },
+    {
+     "key": "id",
+     "format": "object"
+    },
+    {
+     "key": "name",
+     "format": "shorttext"
+    },
+    {
+     "key": "description",
+     "format": "longtext"
+    },
+    {
+     "key": "iconEmoji",
+     "format": "emoji"
+    },
+    {
+     "key": "iconImage",
+     "format": "file"
+    },
+    {
+     "key": "type",
+     "format": "object"
+    },
+    {
+     "key": "layout",
+     "format": "number"
+    },
+    {
+     "key": "createdDate",
+     "format": "date"
+    },
+    {
+     "key": "creator",
+     "format": "object"
+    },
+    {
+     "key": "lastModifiedDate",
+     "format": "date"
+    },
+    {
+     "key": "lastModifiedBy",
+     "format": "object"
+    },
+    {
+     "key": "lastOpenedDate",
+     "format": "date"
+    },
+    {
+     "key": "isFavorite",
+     "format": "checkbox"
+    },
+    {
+     "key": "isArchived",
+     "format": "checkbox"
+    },
+    {
+     "key": "workspaceId",
+     "format": "object"
+    },
+    {
+     "key": "internalFlags",
+     "format": "number"
+    },
+    {
+     "key": "restrictions",
+     "format": "number"
+    },
+    {
+     "key": "syncDate",
+     "format": "date"
+    },
+    {
+     "key": "syncStatus",
+     "format": "number"
+    },
+    {
+     "key": "syncError",
+     "format": "number"
+    },
+    {
+     "key": "coverId",
+     "format": "longtext"
+    },
+    {
+     "key": "coverScale",
+     "format": "number"
+    },
+    {
+     "key": "coverType",
+     "format": "number"
+    },
+    {
+     "key": "coverX",
+     "format": "number"
+    },
+    {
+     "key": "coverY",
+     "format": "number"
+    },
+    {
+     "key": "snippet",
+     "format": "longtext"
+    },
+    {
+     "key": "featuredRelations",
+     "format": "object"
+    },
+    {
+     "key": "links",
+     "format": "object"
+    },
+    {
+     "key": "layoutAlign",
+     "format": "number"
+    },
+    {
+     "key": "isHidden",
+     "format": "checkbox"
+    },
+    {
+     "key": "relationFormatObjectTypes",
+     "format": "object"
+    },
+    {
+     "key": "relationMaxCount",
+     "format": "number"
+    },
+    {
+     "key": "relationDefaultValue",
+     "format": "longtext"
+    },
+    {
+     "key": "relationFormat",
+     "format": "number"
+    },
+    {
+     "key": "origin",
+     "format": "number"
+    },
+    {
+     "key": "relationKey",
+     "format": "longtext"
+    },
+    {
+     "key": "sourceObject",
+     "format": "object"
+    },
+    {
+     "key": "relationReadonlyValue",
+     "format": "checkbox"
+    },
+    {
+     "key": "revision",
+     "format": "number"
+    },
+    {
+     "key": "isReadonly",
+     "format": "checkbox"
+    },
+    {
+     "key": "uniqueKey",
+     "format": "longtext"
+    },
+    {
+     "key": "mentions",
+     "format": "object"
+    },
+    {
+     "key": "backlinks",
+     "format": "object"
+    },
+    {
+     "key": "lastUsedDate",
+     "format": "date"
+    }
+   ],
+   "key": "id",
+   "originalCreatedTimestamp": "0",
+   "fileInfo": null
+  },
+  "fileKeys": [
+  ]
+ }
+}

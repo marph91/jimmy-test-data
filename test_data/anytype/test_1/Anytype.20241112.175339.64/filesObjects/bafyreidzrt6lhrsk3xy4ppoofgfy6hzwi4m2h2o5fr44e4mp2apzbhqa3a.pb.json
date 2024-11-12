@@ -1,0 +1,462 @@
+{
+ "sbType": "FileObject",
+ "snapshot": {
+  "logHeads": {
+  },
+  "data": {
+   "blocks": [
+    {
+     "id": "bafyreidzrt6lhrsk3xy4ppoofgfy6hzwi4m2h2o5fr44e4mp2apzbhqa3a",
+     "fields": null,
+     "restrictions": {
+      "read": false,
+      "edit": true,
+      "remove": true,
+      "drag": true,
+      "dropOn": true
+     },
+     "childrenIds": [
+      "header",
+      "file",
+      "widthInPixels",
+      "heightInPixels",
+      "sizeInBytes"
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "smartblock": {
+
+     }
+    },
+    {
+     "id": "header",
+     "fields": null,
+     "restrictions": {
+      "read": false,
+      "edit": true,
+      "remove": true,
+      "drag": true,
+      "dropOn": true
+     },
+     "childrenIds": [
+      "title",
+      "featuredRelations"
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "layout": {
+      "style": "Header"
+     }
+    },
+    {
+     "id": "file",
+     "fields": null,
+     "restrictions": {
+      "read": false,
+      "edit": true,
+      "remove": true,
+      "drag": true,
+      "dropOn": true
+     },
+     "childrenIds": [
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "file": {
+      "hash": "",
+      "name": "Space Odyssey Cover.png",
+      "type": "Image",
+      "mime": "image/png",
+      "size": "168164",
+      "addedAt": "0",
+      "targetObjectId": "bafyreidzrt6lhrsk3xy4ppoofgfy6hzwi4m2h2o5fr44e4mp2apzbhqa3a",
+      "state": "Done",
+      "style": "Auto"
+     }
+    },
+    {
+     "id": "widthInPixels",
+     "fields": null,
+     "restrictions": {
+      "read": false,
+      "edit": true,
+      "remove": true,
+      "drag": true,
+      "dropOn": true
+     },
+     "childrenIds": [
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "relation": {
+      "key": "widthInPixels"
+     }
+    },
+    {
+     "id": "heightInPixels",
+     "fields": null,
+     "restrictions": {
+      "read": false,
+      "edit": true,
+      "remove": true,
+      "drag": true,
+      "dropOn": true
+     },
+     "childrenIds": [
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "relation": {
+      "key": "heightInPixels"
+     }
+    },
+    {
+     "id": "sizeInBytes",
+     "fields": null,
+     "restrictions": {
+      "read": false,
+      "edit": true,
+      "remove": true,
+      "drag": true,
+      "dropOn": true
+     },
+     "childrenIds": [
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "relation": {
+      "key": "sizeInBytes"
+     }
+    },
+    {
+     "id": "title",
+     "fields": {
+       "_detailsKey": [
+          "name",
+          "done"
+         ]
+      },
+     "restrictions": {
+      "read": false,
+      "edit": true,
+      "remove": true,
+      "drag": true,
+      "dropOn": true
+     },
+     "childrenIds": [
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "text": {
+      "text": "",
+      "style": "Title",
+      "marks": {
+       "marks": [
+       ]
+      },
+      "checked": false,
+      "color": "",
+      "iconEmoji": "",
+      "iconImage": ""
+     }
+    },
+    {
+     "id": "featuredRelations",
+     "fields": null,
+     "restrictions": {
+      "read": false,
+      "edit": true,
+      "remove": true,
+      "drag": true,
+      "dropOn": true
+     },
+     "childrenIds": [
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "featuredRelations": {
+
+     }
+    }
+   ],
+   "details": {
+     "addedDate": 1695975950,
+     "backlinks": [
+       ],
+     "createdDate": 1731430247,
+     "creator": "_participant_bafyreieu66zitib4v6vdfzc6minz6jw6kijja2yodxvwqnsdrjgnc55234_3rdqxtckcv7hl_A7iWd8JC5mKiPvewoiKtw76DaG4j57Hi9Q65odWbcvvMvDGf",
+     "featuredRelations": [
+        "type"
+       ],
+     "fileBackupStatus": 4,
+     "fileExt": "png",
+     "fileId": "bafybeifvs2k3hodpyyx3d67fsysiozrqklvpu7fedota3hhbgvees3ydyq",
+     "fileIndexingStatus": 1,
+     "fileMimeType": "image/png",
+     "fileSyncStatus": 1,
+     "heightInPixels": 356,
+     "iconImage": "bafyreidzrt6lhrsk3xy4ppoofgfy6hzwi4m2h2o5fr44e4mp2apzbhqa3a",
+     "id": "bafyreidzrt6lhrsk3xy4ppoofgfy6hzwi4m2h2o5fr44e4mp2apzbhqa3a",
+     "importType": 3,
+     "isReadonly": false,
+     "lastModifiedBy": "_participant_bafyreieu66zitib4v6vdfzc6minz6jw6kijja2yodxvwqnsdrjgnc55234_3rdqxtckcv7hl_A7iWd8JC5mKiPvewoiKtw76DaG4j57Hi9Q65odWbcvvMvDGf",
+     "lastModifiedDate": 1731430249,
+     "layout": 8,
+     "links": [
+       ],
+     "mentions": [
+       ],
+     "name": "Space Odyssey Cover",
+     "origin": 6,
+     "restrictions": [
+        3,
+        6,
+        5,
+        7,
+        8
+       ],
+     "sizeInBytes": 168164,
+     "snippet": "",
+     "source": "files/space-odyssey-cover.png",
+     "spaceId": "bafyreieu66zitib4v6vdfzc6minz6jw6kijja2yodxvwqnsdrjgnc55234.3rdqxtckcv7hl",
+     "syncDate": 1731430249,
+     "syncError": 0,
+     "syncStatus": 0,
+     "type": "bafyreidgvwegsy2gmqwxtqnjlp2geq4apzexakksye3vbg2j7hygiuyqza",
+     "widthInPixels": 241
+    },
+   "fileKeys": null,
+   "extraRelations": [
+   ],
+   "objectTypes": [
+    "ot-image"
+   ],
+   "collections": null,
+   "removedCollectionKeys": [
+   ],
+   "relationLinks": [
+    {
+     "key": "spaceId",
+     "format": "object"
+    },
+    {
+     "key": "id",
+     "format": "object"
+    },
+    {
+     "key": "name",
+     "format": "shorttext"
+    },
+    {
+     "key": "description",
+     "format": "longtext"
+    },
+    {
+     "key": "iconEmoji",
+     "format": "emoji"
+    },
+    {
+     "key": "iconImage",
+     "format": "file"
+    },
+    {
+     "key": "type",
+     "format": "object"
+    },
+    {
+     "key": "layout",
+     "format": "number"
+    },
+    {
+     "key": "createdDate",
+     "format": "date"
+    },
+    {
+     "key": "creator",
+     "format": "object"
+    },
+    {
+     "key": "lastModifiedDate",
+     "format": "date"
+    },
+    {
+     "key": "lastModifiedBy",
+     "format": "object"
+    },
+    {
+     "key": "lastOpenedDate",
+     "format": "date"
+    },
+    {
+     "key": "isFavorite",
+     "format": "checkbox"
+    },
+    {
+     "key": "isArchived",
+     "format": "checkbox"
+    },
+    {
+     "key": "workspaceId",
+     "format": "object"
+    },
+    {
+     "key": "internalFlags",
+     "format": "number"
+    },
+    {
+     "key": "restrictions",
+     "format": "number"
+    },
+    {
+     "key": "syncDate",
+     "format": "date"
+    },
+    {
+     "key": "syncStatus",
+     "format": "number"
+    },
+    {
+     "key": "syncError",
+     "format": "number"
+    },
+    {
+     "key": "coverId",
+     "format": "longtext"
+    },
+    {
+     "key": "coverScale",
+     "format": "number"
+    },
+    {
+     "key": "coverType",
+     "format": "number"
+    },
+    {
+     "key": "coverX",
+     "format": "number"
+    },
+    {
+     "key": "coverY",
+     "format": "number"
+    },
+    {
+     "key": "snippet",
+     "format": "longtext"
+    },
+    {
+     "key": "featuredRelations",
+     "format": "object"
+    },
+    {
+     "key": "links",
+     "format": "object"
+    },
+    {
+     "key": "layoutAlign",
+     "format": "number"
+    },
+    {
+     "key": "fileBackupStatus",
+     "format": "number"
+    },
+    {
+     "key": "fileSyncStatus",
+     "format": "number"
+    },
+    {
+     "key": "fileIndexingStatus",
+     "format": "number"
+    },
+    {
+     "key": "origin",
+     "format": "number"
+    },
+    {
+     "key": "importType",
+     "format": "number"
+    },
+    {
+     "key": "fileId",
+     "format": "shorttext"
+    },
+    {
+     "key": "mentions",
+     "format": "object"
+    },
+    {
+     "key": "backlinks",
+     "format": "object"
+    },
+    {
+     "key": "heightInPixels",
+     "format": "number"
+    },
+    {
+     "key": "fileMimeType",
+     "format": "longtext"
+    },
+    {
+     "key": "addedDate",
+     "format": "date"
+    },
+    {
+     "key": "fileExt",
+     "format": "longtext"
+    },
+    {
+     "key": "sizeInBytes",
+     "format": "number"
+    },
+    {
+     "key": "widthInPixels",
+     "format": "number"
+    },
+    {
+     "key": "isReadonly",
+     "format": "checkbox"
+    },
+    {
+     "key": "source",
+     "format": "url"
+    }
+   ],
+   "key": "",
+   "originalCreatedTimestamp": "0",
+   "fileInfo": {
+    "fileId": "bafybeifvs2k3hodpyyx3d67fsysiozrqklvpu7fedota3hhbgvees3ydyq",
+    "encryptionKeys": [
+     {
+      "path": "/0/thumb/",
+      "key": "bipbnurjexsrly3b4pbebpvx4gduenj5oegwesk2nhagzpauwvm3a"
+     },
+     {
+      "path": "/0/exif/",
+      "key": "bv7hgpreu6lifdc24zehnd7zadvrpdojqmg6yxcxzyeop7qprwzkq"
+     },
+     {
+      "path": "/0/large/",
+      "key": "b4fykuxoxx34mhyqjuhel2deafzds2qtjujbvuz5rmhrffm6xpbpq"
+     },
+     {
+      "path": "/0/original/",
+      "key": "b4fykuxoxx34mhyqjuhel2deafzds2qtjujbvuz5rmhrffm6xpbpq"
+     },
+     {
+      "path": "/0/small/",
+      "key": "b4fykuxoxx34mhyqjuhel2deafzds2qtjujbvuz5rmhrffm6xpbpq"
+     }
+    ]
+   }
+  },
+  "fileKeys": [
+  ]
+ }
+}

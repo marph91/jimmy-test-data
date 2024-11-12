@@ -1,0 +1,673 @@
+{
+ "sbType": "Page",
+ "snapshot": {
+  "logHeads": {
+  },
+  "data": {
+   "blocks": [
+    {
+     "id": "bafyreics6knmaw5idpelcdz7qqkugcdufkmcko7zfzabfrof75oxkdf6jq",
+     "fields": {
+       "analyticsOriginalId": ""
+      },
+     "restrictions": {
+      "read": false,
+      "edit": false,
+      "remove": false,
+      "drag": false,
+      "dropOn": false
+     },
+     "childrenIds": [
+      "header",
+      "r-3990cbe104c930008478158eb7fa6f92"
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "smartblock": {
+
+     }
+    },
+    {
+     "id": "header",
+     "fields": null,
+     "restrictions": {
+      "read": false,
+      "edit": true,
+      "remove": true,
+      "drag": true,
+      "dropOn": true
+     },
+     "childrenIds": [
+      "title",
+      "featuredRelations"
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "layout": {
+      "style": "Header"
+     }
+    },
+    {
+     "id": "r-3990cbe104c930008478158eb7fa6f92",
+     "fields": null,
+     "restrictions": {
+      "read": false,
+      "edit": false,
+      "remove": false,
+      "drag": false,
+      "dropOn": false
+     },
+     "childrenIds": [
+      "ct-3990cbe104c930008478158eb7fa6f92",
+      "cd-3990cbe104c930008478158eb7fa6f92"
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "layout": {
+      "style": "Row"
+     }
+    },
+    {
+     "id": "title",
+     "fields": {
+       "_detailsKey": [
+          "name",
+          "done"
+         ]
+      },
+     "restrictions": {
+      "read": false,
+      "edit": false,
+      "remove": true,
+      "drag": true,
+      "dropOn": true
+     },
+     "childrenIds": [
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "text": {
+      "text": "",
+      "style": "Title",
+      "marks": {
+       "marks": [
+       ]
+      },
+      "checked": false,
+      "color": "",
+      "iconEmoji": "",
+      "iconImage": ""
+     }
+    },
+    {
+     "id": "featuredRelations",
+     "fields": null,
+     "restrictions": {
+      "read": false,
+      "edit": false,
+      "remove": true,
+      "drag": true,
+      "dropOn": true
+     },
+     "childrenIds": [
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "featuredRelations": {
+
+     }
+    },
+    {
+     "id": "ct-3990cbe104c930008478158eb7fa6f92",
+     "fields": {
+       "width": 0.4119318181818182
+      },
+     "restrictions": null,
+     "childrenIds": [
+      "60f5be8c6cabea22ef364d7d"
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "layout": {
+      "style": "Column"
+     }
+    },
+    {
+     "id": "cd-3990cbe104c930008478158eb7fa6f92",
+     "fields": {
+       "width": 0.5880681818181819
+      },
+     "restrictions": {
+      "read": false,
+      "edit": false,
+      "remove": false,
+      "drag": false,
+      "dropOn": false
+     },
+     "childrenIds": [
+      "60f5be4c6cabea22ef364d74",
+      "60f5be4c6cabea22ef364d75",
+      "60f5be5a6cabea22ef364d7b",
+      "60f0a977d5877d31cde9f91f",
+      "60f0a982d5877d31cde9f923",
+      "60f0a9d8d5877d31cde9f933",
+      "60f0a999d5877d31cde9f929",
+      "60f0a99fd5877d31cde9f92b",
+      "60f0a9aad5877d31cde9f92d",
+      "60f0a9e3d5877d31cde9f936",
+      "60f0a9afd5877d31cde9f92f",
+      "60f0a9d9d5877d31cde9f934"
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "layout": {
+      "style": "Column"
+     }
+    },
+    {
+     "id": "60f5be8c6cabea22ef364d7d",
+     "fields": null,
+     "restrictions": {
+      "read": false,
+      "edit": false,
+      "remove": false,
+      "drag": false,
+      "dropOn": false
+     },
+     "childrenIds": [
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "file": {
+      "hash": "bafybeifvs2k3hodpyyx3d67fsysiozrqklvpu7fedota3hhbgvees3ydyq",
+      "name": "Space Odyssey Cover.png",
+      "type": "Image",
+      "mime": "image/png",
+      "size": "168164",
+      "addedAt": "0",
+      "targetObjectId": "bafyreidzrt6lhrsk3xy4ppoofgfy6hzwi4m2h2o5fr44e4mp2apzbhqa3a",
+      "state": "Done",
+      "style": "Embed"
+     }
+    },
+    {
+     "id": "60f5be4c6cabea22ef364d74",
+     "fields": {
+      },
+     "restrictions": null,
+     "childrenIds": [
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "text": {
+      "text": "About",
+      "style": "Header2",
+      "marks": {
+       "marks": [
+       ]
+      },
+      "checked": false,
+      "color": "",
+      "iconEmoji": "",
+      "iconImage": ""
+     }
+    },
+    {
+     "id": "60f5be4c6cabea22ef364d75",
+     "fields": null,
+     "restrictions": {
+      "read": false,
+      "edit": false,
+      "remove": false,
+      "drag": false,
+      "dropOn": false
+     },
+     "childrenIds": [
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "text": {
+      "text": "After discovering a monolith on the lunar surface, the Discovery One and its revolutionary supercomputer set out to unravel its mysterious origin.",
+      "style": "Paragraph",
+      "marks": {
+       "marks": [
+       ]
+      },
+      "checked": false,
+      "color": "",
+      "iconEmoji": "",
+      "iconImage": ""
+     }
+    },
+    {
+     "id": "60f5be5a6cabea22ef364d7b",
+     "fields": null,
+     "restrictions": null,
+     "childrenIds": [
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "div": {
+      "style": "Line"
+     }
+    },
+    {
+     "id": "60f0a977d5877d31cde9f91f",
+     "fields": null,
+     "restrictions": null,
+     "childrenIds": [
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "relation": {
+      "key": "director"
+     }
+    },
+    {
+     "id": "60f0a982d5877d31cde9f923",
+     "fields": null,
+     "restrictions": null,
+     "childrenIds": [
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "relation": {
+      "key": "genre"
+     }
+    },
+    {
+     "id": "60f0a9d8d5877d31cde9f933",
+     "fields": null,
+     "restrictions": null,
+     "childrenIds": [
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "div": {
+      "style": "Line"
+     }
+    },
+    {
+     "id": "60f0a999d5877d31cde9f929",
+     "fields": null,
+     "restrictions": null,
+     "childrenIds": [
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "relation": {
+      "key": "rating"
+     }
+    },
+    {
+     "id": "60f0a99fd5877d31cde9f92b",
+     "fields": null,
+     "restrictions": null,
+     "childrenIds": [
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "relation": {
+      "key": "imdbRating"
+     }
+    },
+    {
+     "id": "60f0a9aad5877d31cde9f92d",
+     "fields": null,
+     "restrictions": null,
+     "childrenIds": [
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "relation": {
+      "key": "rottenTomatoesRating"
+     }
+    },
+    {
+     "id": "60f0a9e3d5877d31cde9f936",
+     "fields": null,
+     "restrictions": null,
+     "childrenIds": [
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "div": {
+      "style": "Line"
+     }
+    },
+    {
+     "id": "60f0a9afd5877d31cde9f92f",
+     "fields": null,
+     "restrictions": null,
+     "childrenIds": [
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "relation": {
+      "key": "status"
+     }
+    },
+    {
+     "id": "60f0a9d9d5877d31cde9f934",
+     "fields": null,
+     "restrictions": null,
+     "childrenIds": [
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "text": {
+      "text": "",
+      "style": "Paragraph",
+      "marks": {
+       "marks": [
+       ]
+      },
+      "checked": false,
+      "color": "",
+      "iconEmoji": "",
+      "iconImage": ""
+     }
+    }
+   ],
+   "details": {
+     "65168b3c1cac630478df238b": [
+        "bafyreiaafz6dlc4p7lvxeold6p5d4q4sslx62t2cqrnj2jp5pzq2rjotfa"
+       ],
+     "addedDate": 1731430247,
+     "backlinks": [
+       ],
+     "coverId": "_missing_object",
+     "coverScale": 0,
+     "coverType": 1,
+     "coverX": 0,
+     "coverY": -0.25,
+     "createdDate": 1695976260,
+     "creator": "_participant_bafyreieu66zitib4v6vdfzc6minz6jw6kijja2yodxvwqnsdrjgnc55234_3rdqxtckcv7hl_A7iWd8JC5mKiPvewoiKtw76DaG4j57Hi9Q65odWbcvvMvDGf",
+     "description": "",
+     "director": [
+        "bafyreigjdrp2my6pbeg6oljh56bfd5cv3ge5pfynvpvt2yp5mf34toq44i"
+       ],
+     "featuredRelations": [
+        "type",
+        "status",
+        "genre",
+        "backlinks"
+       ],
+     "genre": [
+        "bafyreiavapbel5n5cwl4xlarnfdetz2xjzncze4jilq6c5dkk3xgx4luue"
+       ],
+     "id": "bafyreics6knmaw5idpelcdz7qqkugcdufkmcko7zfzabfrof75oxkdf6jq",
+     "imdbRating": 8.3,
+     "importType": 3,
+     "internalFlags": [
+       ],
+     "lastModifiedBy": "_participant_bafyreieu66zitib4v6vdfzc6minz6jw6kijja2yodxvwqnsdrjgnc55234_3rdqxtckcv7hl_A7iWd8JC5mKiPvewoiKtw76DaG4j57Hi9Q65odWbcvvMvDGf",
+     "lastModifiedDate": 1731430247,
+     "lastOpenedDate": 1731430256,
+     "layout": 0,
+     "links": [
+        "bafyreigjdrp2my6pbeg6oljh56bfd5cv3ge5pfynvpvt2yp5mf34toq44i",
+        "bafyreiaafz6dlc4p7lvxeold6p5d4q4sslx62t2cqrnj2jp5pzq2rjotfa"
+       ],
+     "mentions": [
+       ],
+     "name": "2001: A Space Odyssey",
+     "oldAnytypeID": "bafyreibzfv5ioyowz274wnhhjehnmr4avglrmet2qckf2nyxbcf2s7o244",
+     "origin": 6,
+     "rating": "⭐⭐⭐⭐⭐",
+     "restrictions": [
+       ],
+     "rottenTomatoesRating": 92,
+     "snippet": "About\nAfter discovering a monolith on the lunar surface, the Discovery One and its revolutionary supercomputer set out to unravel its mysterious origin.",
+     "sourceFilePath": "bafyreibzfv5ioyowz274wnhhjehnmr4avglrmet2qckf2nyxbcf2s7o244",
+     "sourceObject": "bafykaau5yxin3iy2ljoc2c7esrlbzjcit5dpnbkuo7jigzekccszyiuxim",
+     "spaceId": "bafyreieu66zitib4v6vdfzc6minz6jw6kijja2yodxvwqnsdrjgnc55234.3rdqxtckcv7hl",
+     "status": [
+        "bafyreifoug6xchpcgedb6rbwbd77xlsliathdw7x5pd5pxahfaijqqw4q4"
+       ],
+     "syncDate": 1731430249,
+     "syncError": 0,
+     "syncStatus": 0,
+     "tag": [
+       ],
+     "type": "bafyreiemxz2r4i6zzy7zfluctfrdtr44xf6z24hi3a2trfeimzedsfarxa"
+    },
+   "fileKeys": null,
+   "extraRelations": [
+   ],
+   "objectTypes": [
+    "ot-movie"
+   ],
+   "collections": null,
+   "removedCollectionKeys": [
+   ],
+   "relationLinks": [
+    {
+     "key": "createdDate",
+     "format": "date"
+    },
+    {
+     "key": "creator",
+     "format": "object"
+    },
+    {
+     "key": "type",
+     "format": "object"
+    },
+    {
+     "key": "layout",
+     "format": "number"
+    },
+    {
+     "key": "targetObjectType",
+     "format": "object"
+    },
+    {
+     "key": "id",
+     "format": "object"
+    },
+    {
+     "key": "name",
+     "format": "shorttext"
+    },
+    {
+     "key": "description",
+     "format": "longtext"
+    },
+    {
+     "key": "iconEmoji",
+     "format": "emoji"
+    },
+    {
+     "key": "iconImage",
+     "format": "file"
+    },
+    {
+     "key": "layoutAlign",
+     "format": "number"
+    },
+    {
+     "key": "coverId",
+     "format": "shorttext"
+    },
+    {
+     "key": "coverScale",
+     "format": "number"
+    },
+    {
+     "key": "coverType",
+     "format": "number"
+    },
+    {
+     "key": "coverX",
+     "format": "number"
+    },
+    {
+     "key": "coverY",
+     "format": "number"
+    },
+    {
+     "key": "lastModifiedDate",
+     "format": "date"
+    },
+    {
+     "key": "lastModifiedBy",
+     "format": "object"
+    },
+    {
+     "key": "lastOpenedDate",
+     "format": "date"
+    },
+    {
+     "key": "featuredRelations",
+     "format": "object"
+    },
+    {
+     "key": "isHidden",
+     "format": "checkbox"
+    },
+    {
+     "key": "isArchived",
+     "format": "checkbox"
+    },
+    {
+     "key": "snippet",
+     "format": "longtext"
+    },
+    {
+     "key": "director",
+     "format": "object"
+    },
+    {
+     "key": "stars",
+     "format": "object"
+    },
+    {
+     "key": "genre",
+     "format": "tag"
+    },
+    {
+     "key": "trailer",
+     "format": "file"
+    },
+    {
+     "key": "rating",
+     "format": "longtext"
+    },
+    {
+     "key": "imdbRating",
+     "format": "number"
+    },
+    {
+     "key": "rottenTomatoesRating",
+     "format": "number"
+    },
+    {
+     "key": "status",
+     "format": "status"
+    },
+    {
+     "key": "backlinks",
+     "format": "object"
+    },
+    {
+     "key": "sourceObject",
+     "format": "object"
+    },
+    {
+     "key": "workspaceId",
+     "format": "object"
+    },
+    {
+     "key": "isFavorite",
+     "format": "checkbox"
+    },
+    {
+     "key": "links",
+     "format": "object"
+    },
+    {
+     "key": "internalFlags",
+     "format": "number"
+    },
+    {
+     "key": "restrictions",
+     "format": "number"
+    },
+    {
+     "key": "65168b3c1cac630478df238b",
+     "format": "object"
+    },
+    {
+     "key": "tag",
+     "format": "tag"
+    },
+    {
+     "key": "spaceId",
+     "format": "object"
+    },
+    {
+     "key": "syncDate",
+     "format": "date"
+    },
+    {
+     "key": "syncStatus",
+     "format": "number"
+    },
+    {
+     "key": "syncError",
+     "format": "number"
+    },
+    {
+     "key": "sourceFilePath",
+     "format": "longtext"
+    },
+    {
+     "key": "oldAnytypeID",
+     "format": "longtext"
+    },
+    {
+     "key": "origin",
+     "format": "number"
+    },
+    {
+     "key": "importType",
+     "format": "number"
+    },
+    {
+     "key": "addedDate",
+     "format": "date"
+    },
+    {
+     "key": "mentions",
+     "format": "object"
+    }
+   ],
+   "key": "",
+   "originalCreatedTimestamp": "0",
+   "fileInfo": null
+  },
+  "fileKeys": [
+  ]
+ }
+}

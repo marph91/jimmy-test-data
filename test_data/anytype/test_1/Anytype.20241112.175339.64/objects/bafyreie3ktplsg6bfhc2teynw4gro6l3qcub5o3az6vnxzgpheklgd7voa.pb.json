@@ -1,0 +1,426 @@
+{
+ "sbType": "Page",
+ "snapshot": {
+  "logHeads": {
+  },
+  "data": {
+   "blocks": [
+    {
+     "id": "bafyreie3ktplsg6bfhc2teynw4gro6l3qcub5o3az6vnxzgpheklgd7voa",
+     "fields": {
+       "analyticsContext": "skip",
+       "analyticsOriginalId": "bafyreieuimepkybebdoxlqs3ykvba7xyof3ed7i2yxqcr575hbpojjegkm"
+      },
+     "restrictions": {
+      "read": false,
+      "edit": true,
+      "remove": true,
+      "drag": true,
+      "dropOn": true
+     },
+     "childrenIds": [
+      "header",
+      "dataview"
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "smartblock": {
+
+     }
+    },
+    {
+     "id": "header",
+     "fields": null,
+     "restrictions": {
+      "read": false,
+      "edit": true,
+      "remove": true,
+      "drag": true,
+      "dropOn": true
+     },
+     "childrenIds": [
+      "title",
+      "description",
+      "featuredRelations"
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "layout": {
+      "style": "Header"
+     }
+    },
+    {
+     "id": "dataview",
+     "fields": null,
+     "restrictions": null,
+     "childrenIds": [
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "dataview": {
+      "source": [
+       "status"
+      ],
+      "views": [
+       {
+        "id": "1",
+        "type": "Table",
+        "name": "All",
+        "sorts": [
+         {
+          "RelationKey": "name",
+          "type": "Asc",
+          "customOrder": [
+          ],
+          "format": "longtext",
+          "includeTime": false,
+          "id": "",
+          "emptyPlacement": "NotSpecified"
+         }
+        ],
+        "filters": [
+         {
+          "id": "",
+          "operator": "No",
+          "RelationKey": "status",
+          "relationProperty": "",
+          "condition": "In",
+          "value": "63454ad0c493f68e301890db",
+          "quickOption": "ExactDate",
+          "format": "longtext",
+          "includeTime": false,
+          "nestedFilters": [
+          ]
+         }
+        ],
+        "relations": [
+        ],
+        "coverRelationKey": "",
+        "hideIcon": false,
+        "cardSize": "Small",
+        "coverFit": false,
+        "groupRelationKey": "",
+        "groupBackgroundColors": false,
+        "pageLimit": 0,
+        "defaultTemplateId": "",
+        "defaultObjectTypeId": ""
+       }
+      ],
+      "activeView": "",
+      "relations": [
+      ],
+      "groupOrders": [
+      ],
+      "objectOrders": [
+      ],
+      "relationLinks": [
+      ],
+      "TargetObjectId": "",
+      "isCollection": false
+     }
+    },
+    {
+     "id": "title",
+     "fields": {
+       "_detailsKey": [
+          "name",
+          "done"
+         ]
+      },
+     "restrictions": {
+      "read": false,
+      "edit": false,
+      "remove": true,
+      "drag": true,
+      "dropOn": true
+     },
+     "childrenIds": [
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "text": {
+      "text": "",
+      "style": "Title",
+      "marks": {
+       "marks": [
+       ]
+      },
+      "checked": false,
+      "color": "",
+      "iconEmoji": "",
+      "iconImage": ""
+     }
+    },
+    {
+     "id": "description",
+     "fields": {
+       "_detailsKey": "description"
+      },
+     "restrictions": {
+      "read": false,
+      "edit": false,
+      "remove": true,
+      "drag": true,
+      "dropOn": true
+     },
+     "childrenIds": [
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "text": {
+      "text": "",
+      "style": "Description",
+      "marks": {
+       "marks": [
+       ]
+      },
+      "checked": false,
+      "color": "",
+      "iconEmoji": "",
+      "iconImage": ""
+     }
+    },
+    {
+     "id": "featuredRelations",
+     "fields": null,
+     "restrictions": {
+      "read": false,
+      "edit": false,
+      "remove": true,
+      "drag": true,
+      "dropOn": true
+     },
+     "childrenIds": [
+     ],
+     "backgroundColor": "",
+     "align": "AlignLeft",
+     "verticalAlign": "VerticalAlignTop",
+     "featuredRelations": {
+
+     }
+    }
+   ],
+   "details": {
+     "addedDate": 1731430247,
+     "backlinks": [
+       ],
+     "createdDate": 1695975602,
+     "creator": "_participant_bafyreieu66zitib4v6vdfzc6minz6jw6kijja2yodxvwqnsdrjgnc55234_3rdqxtckcv7hl_A7iWd8JC5mKiPvewoiKtw76DaG4j57Hi9Q65odWbcvvMvDGf",
+     "description": "",
+     "featuredRelations": [
+        "description",
+        "type",
+        "backlinks"
+       ],
+     "id": "bafyreie3ktplsg6bfhc2teynw4gro6l3qcub5o3az6vnxzgpheklgd7voa",
+     "importType": 3,
+     "lastModifiedBy": "_participant_bafyreieu66zitib4v6vdfzc6minz6jw6kijja2yodxvwqnsdrjgnc55234_3rdqxtckcv7hl_A7iWd8JC5mKiPvewoiKtw76DaG4j57Hi9Q65odWbcvvMvDGf",
+     "lastModifiedDate": 1695975602,
+     "layout": 13,
+     "links": [
+       ],
+     "mentions": [
+       ],
+     "name": "To Do",
+     "oldAnytypeID": "bafyreiblivajhe6mthbo4niqiqwbmbizge36iok77ankvwenfiq5uec5ba",
+     "origin": 6,
+     "relationKey": "status",
+     "relationOptionColor": "ice",
+     "restrictions": [
+        3,
+        6,
+        5,
+        7
+       ],
+     "snippet": "",
+     "sourceFilePath": "bafyreiblivajhe6mthbo4niqiqwbmbizge36iok77ankvwenfiq5uec5ba",
+     "spaceId": "bafyreieu66zitib4v6vdfzc6minz6jw6kijja2yodxvwqnsdrjgnc55234.3rdqxtckcv7hl",
+     "syncDate": 1731430249,
+     "syncError": 0,
+     "syncStatus": 0,
+     "type": "bafyreigsnheuc2wk7cvnuyd3753j366ot6c426ckuk4aj42sqd2kjmtw5u"
+    },
+   "fileKeys": null,
+   "extraRelations": [
+   ],
+   "objectTypes": [
+    "ot-relationOption"
+   ],
+   "collections": null,
+   "removedCollectionKeys": [
+   ],
+   "relationLinks": [
+    {
+     "key": "id",
+     "format": "object"
+    },
+    {
+     "key": "snippet",
+     "format": "longtext"
+    },
+    {
+     "key": "layout",
+     "format": "number"
+    },
+    {
+     "key": "type",
+     "format": "object"
+    },
+    {
+     "key": "featuredRelations",
+     "format": "object"
+    },
+    {
+     "key": "relationKey",
+     "format": "shorttext"
+    },
+    {
+     "key": "relationOptionColor",
+     "format": "shorttext"
+    },
+    {
+     "key": "createdDate",
+     "format": "date"
+    },
+    {
+     "key": "lastModifiedBy",
+     "format": "object"
+    },
+    {
+     "key": "name",
+     "format": "shorttext"
+    },
+    {
+     "key": "creator",
+     "format": "object"
+    },
+    {
+     "key": "lastModifiedDate",
+     "format": "date"
+    },
+    {
+     "key": "lastOpenedDate",
+     "format": "date"
+    },
+    {
+     "key": "workspaceId",
+     "format": "object"
+    },
+    {
+     "key": "isReadonly",
+     "format": "checkbox"
+    },
+    {
+     "key": "links",
+     "format": "object"
+    },
+    {
+     "key": "restrictions",
+     "format": "number"
+    },
+    {
+     "key": "sourceFilePath",
+     "format": "longtext"
+    },
+    {
+     "key": "oldAnytypeID",
+     "format": "longtext"
+    },
+    {
+     "key": "description",
+     "format": "longtext"
+    },
+    {
+     "key": "iconEmoji",
+     "format": "emoji"
+    },
+    {
+     "key": "iconImage",
+     "format": "file"
+    },
+    {
+     "key": "layoutAlign",
+     "format": "number"
+    },
+    {
+     "key": "coverId",
+     "format": "shorttext"
+    },
+    {
+     "key": "coverScale",
+     "format": "number"
+    },
+    {
+     "key": "coverType",
+     "format": "number"
+    },
+    {
+     "key": "coverX",
+     "format": "number"
+    },
+    {
+     "key": "coverY",
+     "format": "number"
+    },
+    {
+     "key": "isFavorite",
+     "format": "checkbox"
+    },
+    {
+     "key": "internalFlags",
+     "format": "number"
+    },
+    {
+     "key": "backlinks",
+     "format": "object"
+    },
+    {
+     "key": "isArchived",
+     "format": "checkbox"
+    },
+    {
+     "key": "spaceId",
+     "format": "object"
+    },
+    {
+     "key": "syncDate",
+     "format": "date"
+    },
+    {
+     "key": "syncStatus",
+     "format": "number"
+    },
+    {
+     "key": "syncError",
+     "format": "number"
+    },
+    {
+     "key": "importType",
+     "format": "number"
+    },
+    {
+     "key": "origin",
+     "format": "number"
+    },
+    {
+     "key": "addedDate",
+     "format": "date"
+    },
+    {
+     "key": "mentions",
+     "format": "object"
+    }
+   ],
+   "key": "",
+   "originalCreatedTimestamp": "0",
+   "fileInfo": null
+  },
+  "fileKeys": [
+  ]
+ }
+}
