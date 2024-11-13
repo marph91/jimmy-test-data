@@ -1,16 +1,10 @@
 ---
-Creation date: 2024-03-13
-Source file path: pb:/home/martin/.config/anytype/data/tmp/tmp.20240313.181303.42.zip/bafyreicuiv22uzd3ks7omuru2shttlol3baac4r6g5gol2yjcph4lp6zma.pb
-Old Anytype ID: bafyreicuiv22uzd3ks7omuru2shttlol3baac4r6g5gol2yjcph4lp6zma
-Origin: "[[6]]"
-Import Type: "[[3]]"
-Added date: 2024-03-13
-Mentions:
+Creation date: 2024-10-20
+Mentions: "[[bafyreibjieym45ohwdbnjrispnph7b5zduks7aqwyn3zonsbxhpjigvuy4]]"
 ---
 
-**Hello from Anytype! **
+notes don't have a title
 
-Here is a note from us to you.
-
-Feel free to delete it and create your own! 
-
+- link to page (url): [anytype://object?objectId=bafyreibjieym45ohwdbnjrispnph7b5zduks7aqwyn3zonsbxhpjigvuy4&spaceId=bafyreibanziiqk4arsuvybbi5uhu2yvuie4xj7jzhhnuy2t5vdpfswaa3e.3rdqxtckcv7hl](anytype://object?objectId=bafyreibjieym45ohwdbnjrispnph7b5zduks7aqwyn3zonsbxhpjigvuy4&spaceId=bafyreibanziiqk4arsuvybbi5uhu2yvuie4xj7jzhhnuy2t5vdpfswaa3e.3rdqxtckcv7hl) 
+- link to page (@): page with title 
+- link to page (slash): 
