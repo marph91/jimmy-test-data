@@ -1,0 +1,4 @@
+**bold**
+*italic*
+~~striked~~
+highlighted
