@@ -2,4 +2,4 @@
 
 ![unnamed_bdd640fb06674ad19c80317fa3b1799d](unnamed_bdd640fb06674ad19c80317fa3b1799d.jpg)
 
-![Druckservereigenschaften.jpg](unnamed_23b8c1e9392446debeb13b9046685257.jpg)
+![Druckservereigenschaften.jpg](Druckservereigenschaften.jpg)
