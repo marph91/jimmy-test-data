@@ -26,11 +26,11 @@ In *Figure 12* we have a centralised representation.
 *Figure 12 — monolith latency*
 In this case, the workflow must interact with the same four services/domains, but the cost to communicate with each component is much less (i.e. the short red bars).
 > ***Note — Tactics to Reduce Latency Woes***
-*There’s a few tactics that can mitigate these latency issues, but no real definitive solution. You can:*
-*1. Attempt to bring dependents closer together in the network, thus reducing latency.*
-*2. Use an orchestration mechanism that sends messages to each, and compiles a response as they become available (assuming you can do this).*
-*3. Go entirely asynchronous.*
-*4. If visual representation, provide data in stages, using technologies like Ajax.*
+> *There’s a few tactics that can mitigate these latency issues, but no real definitive solution. You can:*
+> *1. Attempt to bring dependents closer together in the network, thus reducing latency.*
+> *2. Use an orchestration mechanism that sends messages to each, and compiles a response as they become available (assuming you can do this).*
+> *3. Go entirely asynchronous.*
+> *4. If visual representation, provide data in stages, using technologies like Ajax.*
 In the end, it depends upon the system. Most technologists I know would favor scalability over performance; i.e. ensure the system can scale to meet greater demands, at the (willing) cost of slightly reduced performance.
 
 ---

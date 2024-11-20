@@ -27,17 +27,29 @@ Falls der Drucker im Active-Directory angezeigt werden soll müsst Ihr nachträg
 ---
 
 **
+
 		Kommentare
+
 **
 **
-Jojo 148 Tage  zuvor
+
+Jojo 
+
+148 Tage  zuvor
 Punkte 0![thumbs-up.gif](thumbs-up.gif)[nofollow](http://znil.net/index.php?title=Spezial:Anmelden&returnto=Dummy_Drucker_%2F_Nirwana_Drucker_%2F_NUL_oder_NULL_Drucker_anlegen_%2F_einrichten)![thumbs-down.gif](thumbs-down.gif)[nofollow](http://znil.net/index.php?title=Spezial:Anmelden&returnto=Dummy_Drucker_%2F_Nirwana_Drucker_%2F_NUL_oder_NULL_Drucker_anlegen_%2F_einrichten)
 **
+
 Super Anleitung. Brauchte einen Dummy Drucker für Auftragsbestätigungen die die Branchensoftware zum buchen benötigt, aber ich nicht als Papierausdruck. Hatte es sonst mit einem Druck in eine Datei gelöst, die immer überschrieben wurde.
+
 Funktioniert einwandfrei und vor allem auf Anhieb. DANKE!
+
 [nofollowPermalink](http://znil.net/index.php?title=Dummy_Drucker_/_Nirwana_Drucker_/_NUL_oder_NULL_Drucker_anlegen_/_einrichten#comment-286)  | [nofollowAntworten](http://znil.net/index.php?title=Dummy_Drucker_/_Nirwana_Drucker_/_NUL_oder_NULL_Drucker_anlegen_/_einrichten#end) 
+
 **
-[nofollowBLinz](http://znil.net/index.php?title=Benutzer:BLinz) 147 Tage  zuvor
+
+[nofollowBLinz](http://znil.net/index.php?title=Benutzer:BLinz) 
+
+147 Tage  zuvor
 Punkte 0![thumbs-up.gif](thumbs-up.gif)[nofollow](http://znil.net/index.php?title=Spezial:Anmelden&returnto=Dummy_Drucker_%2F_Nirwana_Drucker_%2F_NUL_oder_NULL_Drucker_anlegen_%2F_einrichten)![thumbs-down.gif](thumbs-down.gif)[nofollow](http://znil.net/index.php?title=Spezial:Anmelden&returnto=Dummy_Drucker_%2F_Nirwana_Drucker_%2F_NUL_oder_NULL_Drucker_anlegen_%2F_einrichten)
 **
 Immer gerne :-)
@@ -45,10 +57,15 @@ Immer gerne :-)
 nofollow
 **Kommentar hinzufügen:**
 Gebe hier einen Kommentar ein. Du kannst einen beliebigen Namen oder eine Email-Adresse als Namen angeben.
+
 Wenn du dich [einloggst](http://znil.net/index.php?title=Spezial:Anmelden) wird automatisch dein Benutzername genommen.
+
 Links bitte mit '''http://''' beginnen lassen.
+
 Name oder Emailadresse:
+
 Kommentar:
+
 [Kategorien](http://znil.net/index.php?title=Spezial:Kategorien): 
 
 - [Windows](http://znil.net/index.php?title=Kategorie:Windows&action=edit&redlink=1)- [Windows 7](http://znil.net/index.php?title=Kategorie:Windows_7&action=edit&redlink=1)- [Windows Server 2000](http://znil.net/index.php?title=Kategorie:Windows_Server_2000&action=edit&redlink=1)- [Windows Server 2003](http://znil.net/index.php?title=Kategorie:Windows_Server_2003&action=edit&redlink=1)- [Windows Server 2008](http://znil.net/index.php?title=Kategorie:Windows_Server_2008&action=edit&redlink=1)- [Windows Vista](http://znil.net/index.php?title=Kategorie:Windows_Vista&action=edit&redlink=1)- [Windows XP](http://znil.net/index.php?title=Kategorie:Windows_XP&action=edit&redlink=1)
