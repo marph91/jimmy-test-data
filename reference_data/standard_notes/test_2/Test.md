@@ -32,7 +32,7 @@ code block
 > quote
 > another quote
 
-^highlight^
+==highlight==
 
 ~~strikethrough~~
 

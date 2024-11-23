@@ -13,7 +13,7 @@ Bild:
 
 ![test.png](test.png)
 
-**hervorgehoben**
+==hervorgehoben==
 
 mit Anhang
 
