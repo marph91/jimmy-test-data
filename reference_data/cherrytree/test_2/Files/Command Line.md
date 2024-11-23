@@ -15,12 +15,15 @@
  ## Optional ArgumentsOptional Arguments
 
 		
+
 | python2 cherrytree<br> | Opens Cherrytree.<br> |
 | --- | --- |
 | Command | Description |
+
 | filepath<br> | Defines the document to open in Cherrytree. Replace filepath with the path of a file.<br> |
 | --- | --- |
 | Argument | Description |
+
 | -h<br> --help<br> | Displays a list of command-line options.<br> |
 | --- | --- |
 | -n node_name<br> --node node_name<br> | Opens a document and selects the specified node. Replace node_name with the node to select.<br> |
