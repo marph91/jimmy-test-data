@@ -6,13 +6,13 @@
 
  ## Inserting a Link
 
-	1. Select** Insert/Edit Link** from the **Edit** menu to display the **Insert Link** menu.
+	1. Select **Insert/Edit Link** from the **Edit** menu to display the **Insert Link** menu.
 
 	2. Choose from the following options:
 
-		- **To Website **- Routes the link to a website address.
+		- **To Website** - Routes the link to a website address.
 
-		- **To File **- Routes the link to a file on your machine.
+		- **To File** - Routes the link to a file on your machine.
 
 		- **To Folder** - Routes the link to a folder on your machine.
 
@@ -20,7 +20,7 @@
 
 		- **Anchor Name (Optional)** - Routes the link to a particular anchor within the selected node.
 
-		**	NOTE:** See [Anchors](Anchors.md) to learn more about anchors.
+			**NOTE:** See [Anchors](Anchors.md) to learn more about anchors.
 
 	3. Click **OK** to complete the insertion.
 
@@ -28,9 +28,9 @@
 
 	Right-click a link to display its options.
 
-	- **Edit Link **- Displays the **Insert/Edit** menu for the selected link.
+	- **Edit Link** - Displays the **Insert/Edit** menu for the selected link.
 
-	- **Cut Link **- Moves the selected link to your clipboard. The link can then be pasted elsewhere.
+	- **Cut Link** - Moves the selected link to your clipboard. The link can then be pasted elsewhere.
 
 	- **Copy Link** - Copies the selected link to your clipboard. A copy of the link can then be pasted elsewhere.
 

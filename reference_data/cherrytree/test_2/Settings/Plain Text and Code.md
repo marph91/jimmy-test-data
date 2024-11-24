@@ -82,7 +82,7 @@
 
 		- **`<command>`** - A variable which represents one of the language-specific commands that are defined in the [code execution](../Objects/Codebox.md) options.
 
-		**NOTE:** The language-specific command represented by **`<command>`** is determined by the language selected in the [codebox properties](../Objects/Codebox.md). If, for example, a codebox executed in [Figure 9.11 ](Plain%20Text%20and%20Code.md)is configured for python3, **`<command> `**represents python3 **`<tmp_src_path>`**.
+		**NOTE:** The language-specific command represented by **`<command>`** is determined by the language selected in the [codebox properties](../Objects/Codebox.md). If, for example, a codebox executed in [Figure 9.11](Plain%20Text%20and%20Code.md) is configured for python3, **`<command>`** represents python3 **`<tmp_src_path>`**.
 ![unnamed_3139d32c93cd49bf9c941cf0dc98d2c1](unnamed_3139d32c93cd49bf9c941cf0dc98d2c1.png)
 ![unnamed_a9488d990bbb459991ce5dd2b45ed1f0](unnamed_a9488d990bbb459991ce5dd2b45ed1f0.png)
 ![unnamed_fc377a4c4a15444d85e7ce8a3a578a8e](unnamed_fc377a4c4a15444d85e7ce8a3a578a8e.png)

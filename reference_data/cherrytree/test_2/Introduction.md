@@ -106,8 +106,8 @@
 			- [Editing Anchors](Objects/Anchors.md)
 		- [Table of Contents](Objects/Table%20of%20Contents.md)
 			- [Inserting a Table of Contents](Objects/Table%20of%20Contents.md)
-			- [Updating a Table of Contents
-](Objects/Table%20of%20Contents.md)		- [Timestamps](Objects/Timestamps.md)
+			- [Updating a Table of Contents](Objects/Table%20of%20Contents.md)
+		- [Timestamps](Objects/Timestamps.md)
 			- [Inserting a Timestamp](Objects/Timestamps.md)
 			- [Formatting a Timestamp](Objects/Timestamps.md)
 		- [Special Characters](Objects/Special%20Characters.md)
@@ -169,7 +169,7 @@
     - [Debian](Installation/Debian.md)
   ▸ [Ubuntu](Installation/Ubuntu.md)
     - [Ubuntu](Installation/Ubuntu.md)
-      - [ Installing with Ubuntu Software](Installation/Ubuntu.md)
-      - [ Installing via Command Line](Installation/Ubuntu.md)
+      -  [Installing with Ubuntu Software](Installation/Ubuntu.md)
+      -  [Installing via Command Line](Installation/Ubuntu.md)
 
 ![unnamed_bdd640fb06674ad19c80317fa3b1799d](unnamed_bdd640fb06674ad19c80317fa3b1799d.png)

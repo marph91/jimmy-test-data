@@ -8,13 +8,13 @@
 
 	- **Redo** - Moves forward by one change in the state of the document.
 
-	- **Strip Trailing Spaces **- Removes any excess **`space`** characters at the end of each line within the selected node.
+	- **Strip Trailing Spaces** - Removes any excess **`space`** characters at the end of each line within the selected node.
 
 	- **Change Case** - Changes the [letter case](https://en.wikipedia.org/wiki/Letter_case) of the selected text.
 	
-		-** Lower Case of Selection/Word** - Converts every letter of the selected text to lowercase.
+		- **Lower Case of Selection/Word** - Converts every letter of the selected text to lowercase.
 
-		-** Upper Case of Selection/Word** - Converts every letter of the selected text to uppercase.
+		- **Upper Case of Selection/Word** - Converts every letter of the selected text to uppercase.
 
 		- **Toggle Case of Selection/Word** - Converts every letter of the selected text to the opposite state of its current case.
 
@@ -25,7 +25,7 @@
 
 	- **Cut as Plain Text** - Moves the selected text, stripped of its stylization, to your clipboard. The text can then be pasted elsewhere.
 
-	- **Copy as Plain Text **- Copies the selected text, stripped of its stylization, to your clipboard. A copy of the text can then be pasted elsewhere.
+	- **Copy as Plain Text** - Copies the selected text, stripped of its stylization, to your clipboard. A copy of the text can then be pasted elsewhere.
 
 	- **Paste as Plain Text** - Inserts text, stripped of its stylization, from your clipboard to the cursor location.
 
@@ -33,9 +33,9 @@
 
 	- **Copy Row** - Copies the current line of text to your clipboard. A copy of the line can then be pasted elsewhere.
 
-	- **Delete Row **- Deletes the current line of text.
+	- **Delete Row** - Deletes the current line of text.
 
-	- **Duplicate Row **- Pastes a copy of the current line of text to the following line.
+	- **Duplicate Row** - Pastes a copy of the current line of text to the following line.
 
 	- **Move Up Row** - Moves the current line of text up one line.
 

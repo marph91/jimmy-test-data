@@ -6,7 +6,7 @@
 
 How to install Cherrytree in Fedora 30 and earlier:
 
-	1. Download the latest installer that has a** .rpm **extension from the [downloads webpage](https://www.giuspen.com/cherrytree/#downl).
+	1. Download the latest installer that has a **.rpm** extension from the [downloads webpage](https://www.giuspen.com/cherrytree/#downl).
 
 	2. Open a terminal and change to the directory containing your installation file.
 

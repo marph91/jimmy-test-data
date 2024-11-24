@@ -6,7 +6,7 @@
 
  ## Creating Your First Node
 
-	1. Click** Tree** > **Add Node** to display the **New Node Properties** menu.
+	1. Click **Tree** > **Add Node** to display the **New Node Properties** menu.
 
 	2. Enter a **Node Name**.
 
@@ -26,7 +26,7 @@
 
 	- **Change Node Properties** - Edit the settings of the current node.
 
-	- **Delete Node **- Deletes the selected node.
+	- **Delete Node** - Deletes the selected node.
 
 	See [Nodes](../Nodes.md) for more detail.
 	

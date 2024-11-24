@@ -10,7 +10,7 @@
 
    1. Open the **Software and Updates** application.
 
-   2. Go to the **Other Software **tab.
+   2. Go to the **Other Software** tab.
 
    3.  Click **Add**.
 
@@ -25,7 +25,7 @@
 		 Figure 2.01
 		
 
-   7. Click **Reload **and enter your password to install updates from the newly added source.
+   7. Click **Reload** and enter your password to install updates from the newly added source.
 
    8. Open **Ubuntu Software** and search for Cherrytree.
 

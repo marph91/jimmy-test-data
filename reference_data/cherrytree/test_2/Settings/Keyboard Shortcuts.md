@@ -8,7 +8,7 @@
 
 	1. Select a shortcut to edit.
 
-	2. Click the edit shortcut button to display the **Edit Keyboard Shortcut **menu.
+	2. Click the edit shortcut button to display the **Edit Keyboard Shortcut** menu.
 	
 		 Figure 9.16
 		

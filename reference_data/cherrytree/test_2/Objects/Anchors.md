@@ -9,7 +9,7 @@
 
  ## Inserting Anchors
 
-	1. Select** Insert Ancho**r from the **Edit** menu to display **Insert Anchor** menu.
+	1. Select **Insert Ancho**r from the **Edit** menu to display **Insert Anchor** menu.
 
 	2. Provide a name for the anchor.
 
@@ -23,7 +23,7 @@
 
 	Right-click an anchor icon to display is options.
 
-	- **Cut Anchor **- Moves the selected anchor to your clipboard. The anchor can then be pasted elsewhere.
+	- **Cut Anchor** - Moves the selected anchor to your clipboard. The anchor can then be pasted elsewhere.
 
 	- **Copy Anchor** - Copies the selected anchor to your clipboard. The copy can then be pasted elsewhere.
 

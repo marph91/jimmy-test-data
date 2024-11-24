@@ -2,7 +2,7 @@
 # Objects
 
 
-	Objects can be inserted from the** Edit** menu, located in the menu bar. Some objects can also be pasted directly into Cherrytree.
+	Objects can be inserted from the **Edit** menu, located in the menu bar. Some objects can also be pasted directly into Cherrytree.
 	
 	## Content
 	- [Images](Objects/Images.md)

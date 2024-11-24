@@ -4,9 +4,9 @@
 
  ## Saving to the Current File
 
-	Save your document by pressing **`CTRL`**+**`S`** or by selecting** Save **from the **File **menu.
+	Save your document by pressing **`CTRL`**+**`S`** or by selecting **Save** from the **File** menu.
 	
-	**NOTE:** If this your first time saving the current document, see the [save to a new file ](Saving.md)section below.
+	**NOTE:** If this your first time saving the current document, see the [save to a new file](Saving.md) section below.
 
  ## Saving to a New File
 
@@ -28,11 +28,11 @@
 
 	When saving a document for the first time, Cherrytree prompts you to choose between two file formats, SQLite and XML.
 
-	**SQLite** is a self-contained database and has a **.ctb **or .**ctx** extension when used with Cherrytree. Instead of loading the complete document at runtime, Cherrytree only accesses the tree structure and selected node. This makes opening your document faster but may slow functions such as searching and selecting nodes when they’re used for the first time in a session. Only modified nodes are rewritten upon saving, decreasing save time.
+	**SQLite** is a self-contained database and has a **.ctb** or .**ctx** extension when used with Cherrytree. Instead of loading the complete document at runtime, Cherrytree only accesses the tree structure and selected node. This makes opening your document faster but may slow functions such as searching and selecting nodes when they’re used for the first time in a session. Only modified nodes are rewritten upon saving, decreasing save time.
 
 	Performance loss with SQLite is lower than with XML, making it better suited for larger documents. The [Save and Vacuum](Saving.md) feature should be used periodically to keep SQLite files compact.
 
-	**XML** is a markup language and has a **.ctd **or  **.ctz** extension when used with Cherrytree. These files are fully loaded at runtime, making searching and navigating through nodes faster, but slowing the initial load time. They are also completely rewritten upon saving, slowing the save process.
+	**XML** is a markup language and has a **.ctd** or  **.ctz** extension when used with Cherrytree. These files are fully loaded at runtime, making searching and navigating through nodes faster, but slowing the initial load time. They are also completely rewritten upon saving, slowing the save process.
 
 	XML is more accessible and easier to convert to other file types but should not be used with large documents.
 

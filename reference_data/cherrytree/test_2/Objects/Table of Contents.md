@@ -6,7 +6,7 @@
 
  ## Inserting a Table of Contents
 
-	1. Select **Insert TOC** from the **Edit** menu to display the** Involved Nodes **menu.
+	1. Select **Insert TOC** from the **Edit** menu to display the **Involved Nodes** menu.
 
 	2. Define the scope of the contents to be included.
 

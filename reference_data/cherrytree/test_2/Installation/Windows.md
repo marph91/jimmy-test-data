@@ -16,6 +16,6 @@
 
 	7. Review the provided summary then click **Install**.
 
-	8. Click** Finish** to complete the installation.
+	8. Click **Finish** to complete the installation.
 
     **NOTE:** If a new version of Cherrytree is installed over a previous version, an error may occur when trying to overwrite **dbus-daemon.exe**. If so, skip the overwrite and restart your computer, then try again.

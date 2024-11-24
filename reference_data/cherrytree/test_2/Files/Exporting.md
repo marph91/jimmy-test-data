@@ -4,7 +4,7 @@
 
 	To export notes from another file:
 
-	1. Select one of the following options from the **Export **menu:
+	1. Select one of the following options from the **Export** menu:
 
 		- Export to PDF
 
@@ -32,6 +32,6 @@
 
 		- **New Node in New Page** - Applies page breaks at the end of nodes within the exported document.
 
-		- **Links Tree in Every Page** - When enabled all web pages contain a table of contents. If this option is disabled, only the **index.html **contains a table of contents.
+		- **Links Tree in Every Page** - When enabled all web pages contain a table of contents. If this option is disabled, only the **index.html** contains a table of contents.
 
-	When exporting to HTML, all nodes are copied to the root folder of your chosen directory as **.html **files. The main HTML file is named **index.html**.
+	When exporting to HTML, all nodes are copied to the root folder of your chosen directory as **.html** files. The main HTML file is named **index.html**.

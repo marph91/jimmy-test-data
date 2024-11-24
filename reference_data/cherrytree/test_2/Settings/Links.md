@@ -14,7 +14,7 @@
 
 	- **To Website** - Defines the default text color of links to websites.
 
-	-** To File** - Defines the default text color of links to files.
+	- **To File** - Defines the default text color of links to files.
 
 	- **To Node** - Defines the default text color of links to nodes.
 

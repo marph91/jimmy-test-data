@@ -10,13 +10,13 @@
 
 	- **Use Line wrapping** - Restricts lines of text to the current viewport by forcing text to a new line. This does not break a line with **`newline`** characters and can be toggled as needed without compromising the line structure of a node.
 
-	- **Line Wrapping Indentation **- Defines the alignment of wrapped text compared to the original line.
+	- **Line Wrapping Indentation** - Defines the alignment of wrapped text compared to the original line.
 
 		- **0** - No indention.
 
-		-** Less than 0** - Indents the wrapped lines to the right of the original line by **`x`** pixels, where **`x`** represents the provided number.
+		- **Less than 0** - Indents the wrapped lines to the right of the original line by **`x`** pixels, where **`x`** represents the provided number.
 
-		-** More than 0** - Indents the original line to the right of the wrapped lines by **`x`** pixels, where **`x`** represents the provided number.
+		- **More than 0** - Indents the original line to the right of the wrapped lines by **`x`** pixels, where **`x`** represents the provided number.
 
 
 	- **Enable Automatic Indentation** - Aligns new lines with the indention of the previous line.
@@ -31,7 +31,7 @@
 
  ## Miscellaneous
 
-	-** Timestamp Format **- Defines the format of a [timestamp](../Objects/Timestamps.md).
+	- **Timestamp Format** - Defines the format of a [timestamp](../Objects/Timestamps.md).
 
 		**NOTE:** See [Formatting Timestamps](Text%20and%20Code.md) for a list of timestamp directives or visit the [strftime documentation](https://docs.python.org/2/library/time.html#time.strftime) by click the icon next to the timestamp setting.
 
@@ -40,14 +40,14 @@
 
 	- **Horizontal Rule** - Defines the text inserted for a [horizontal rule](../Objects/Horizontal%20Rule.md).
 
-	- **Special Characters **- Defines the list of special characters to exist in the [Special Characters](../Objects/Special%20Characters.md) submenu.
+	- **Special Characters** - Defines the list of special characters to exist in the [Special Characters](../Objects/Special%20Characters.md) submenu.
 	
 		New characters can be added to the list by pasting them next to the existing characters. Click the yellow arrow icon to reset to the default list of characters.
 
 		 Figure 9.02
 		
 
-	- **Chars to Select at Double Click **- By default, double-clicking text selects the sequence of letters and numbers that are under the mouse pointer and are not separated by whitespace, punctuation, or special characters. Adding characters to the **Chars to Select at Double Click **setting includes those characters in a double-click selection.
+	- **Chars to Select at Double Click** - By default, double-clicking text selects the sequence of letters and numbers that are under the mouse pointer and are not separated by whitespace, punctuation, or special characters. Adding characters to the **Chars to Select at Double Click** setting includes those characters in a double-click selection.
 
  ## Formatting Timestamps
 

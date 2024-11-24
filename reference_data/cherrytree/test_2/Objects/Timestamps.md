@@ -6,7 +6,7 @@
 
  ## Inserting a Timestamp
 
-	Select **Insert Timestamp **from the **Edit **menu to insert a timestamp.
+	Select **Insert Timestamp** from the **Edit** menu to insert a timestamp.
 
  ## Formatting a Timestamp
 

@@ -10,7 +10,7 @@
 
 	2. Select a file and click **OK**.
 	
-		**	NOTE:** The file must be less than 10MB.
+			**NOTE:** The file must be less than 10MB.
 
  ## Editing a File
 
@@ -20,9 +20,9 @@
 
 	- **Copy Embedded File** - Copies the selected file to your clipboard. A copy of the file can then be pasted elsewhere.
 
-	-** Delete Embedded File** - Deletes the attached file.
+	- **Delete Embedded File** - Deletes the attached file.
 
-	- **Open File **- Opens the attached file.
+	- **Open File** - Opens the attached file.
 
 		**CAUTION:** Attached files should be closed before closing their host document(s).
 

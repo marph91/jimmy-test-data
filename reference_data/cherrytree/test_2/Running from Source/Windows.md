@@ -12,7 +12,7 @@
 
 	2. Download and run the **Windows x86 MSI** **installer** version, then follow its installation steps.
 
-	3. (**Optional**) Go to the folder where you installed Python 2.7 and rename the **python** application to **python2 **to avoid conflicting with Python3.
+	3. (**Optional**) Go to the folder where you installed Python 2.7 and rename the **python** application to **python2** to avoid conflicting with Python3.
 
 	4. Copy the path of your installation directory.
 
@@ -35,20 +35,20 @@
 
 	11. Open the bundle, move into the **bin** folder, then copy its path and add it to your environment variables.
 	
-			**NOTE: **For example, if you move the bundle into your **C: **drive, your path should look like **C:\gtk2\bin**.
+			**NOTE:** For example, if you move the bundle into your **C:** drive, your path should look like **C:\gtk2\bin**.
 
 	12. [Download the PYGTK installer](http://ftp.gnome.org/pub/GNOME/binaries/win32/pygtk/2.24/pygtk-all-in-one-2.24.2.win32-py2.7.msi).
 
-	13. Run the installation file and follow its steps to install. Ensure **PYGtkSourceView2** is toggled on the** Custom Setup **page.
+	13. Run the installation file and follow its steps to install. Ensure **PYGtkSourceView2** is toggled on the **Custom Setup** page.
 	
 			 Figure 3.01
 			
 
 	14. [Download python 2.7 lib files](http://www.giuspen.com/software/C_Python27_Lib.7z).
 
-	15. [Unzip](https://www.7-zip.org/) the folder and move the content from **C_Python27_Lib** to the** Lib** folder within your Python 2.7 installation.
+	15. [Unzip](https://www.7-zip.org/) the folder and move the content from **C_Python27_Lib** to the **Lib** folder within your Python 2.7 installation.
 
-	16. (Optional) Open **Command Prompt **and install dependencies for additional functionality using the commands:
+	16. (Optional) Open **Command Prompt** and install dependencies for additional functionality using the commands:
 	
 		-  For spell check functionality.
 		

@@ -4,7 +4,7 @@
 
  ## System Tray
 
-	- **Enable System Tray Docking** - Closing Cherrytree minimizes the application to a background process which can be more quickly accessed from the machine’s system tray. **AppIndicator **may be required to access Cherrytree from the system tray in Linux.
+	- **Enable System Tray Docking** - Closing Cherrytree minimizes the application to a background process which can be more quickly accessed from the machine’s system tray. **AppIndicator** may be required to access Cherrytree from the system tray in Linux.
 
 	- **Start Minimized in the System Tray** - Minimizes Cherrytree to the system tray on startup.
 
@@ -12,13 +12,13 @@
 
  ## Saving
 
-	- **Autosave Every ****`x`**** Minutes** - Saves the working document every **`x`** minutes, where **`x`** represents the number defined in this setting.
+	- **Autosave Every** **`x`** **Minutes** - Saves the working document every **`x`** minutes, where **`x`** represents the number defined in this setting.
 
 	- **Autosave on Quit** - Saves the document upon closing Cherrytree.
 
 	- **Create a Backup Copy Before Saving** - Stores a copy of the previous version before saving the new version. Backups are stored in the same directory as the current document.
 	
-**		To open a backup:**
+		**To open a backup:**
 	
 		1. Rename the backup file, deleting the **`~`** characters appended to its extension.
 
@@ -32,7 +32,7 @@
 
 	- **Automatically Check for Newer Version** - Checks the Cherrytree website on startup to determine if a new version of the application is available for download.
 
-	- **Enable Word Count in Statusbar **- Displays the word count of the selected node below the editor.
+	- **Enable Word Count in Statusbar** - Displays the word count of the selected node below the editor.
 
 	- **Reload Document from Last Session** - Cherrytree opens to the same document that was last opened in the previous session.
 
@@ -46,23 +46,23 @@
 	
 	- **default**
 
-	- **cs **- Czech
+	- **cs** - Czech
 
-	- **de **- German
+	- **de** - German
 
-	-** el **- Modern Greek
+	- **el** - Modern Greek
 
 	- **en** - English
 
 	- **es** - Spanish
 
-	-** fi** - Finnish
+	- **fi** - Finnish
 
 	- **fr** - French
 
-	- **hy **- Armenian
+	- **hy** - Armenian
 
-	- **it **- Italian
+	- **it** - Italian
 
 	- **ja** - Japanese
 
@@ -70,16 +70,16 @@
 
 	- **nl** - Dutch
 
-	-** pl** - Polish
+	- **pl** - Polish
 
-	- **pt_BR **- Portuguese (Brazil)
+	- **pt_BR** - Portuguese (Brazil)
 
 	- **ru** - Russian
 
-	- **sl **- Slovenian
+	- **sl** - Slovenian
 
-	-** tr **- Turkish
+	- **tr** - Turkish
 
 	- **uk** - Ukrainian
 
-	-** zh_CN** - Chinese
+	- **zh_CN** - Chinese

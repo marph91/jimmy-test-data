@@ -4,7 +4,7 @@
 
  ## Inserting Images
 
-	1. Select Insert Image from the** Edit** menu.
+	1. Select Insert Image from the **Edit** menu.
 
 	2. Select an image to be uploaded and click **Open**.
 
@@ -17,9 +17,9 @@
 	
 			- **One** - Rotates the image counter-clockwise 90°.
 
-			- **Two **- Displays the image uploaded in Step 2.
+			- **Two** - Displays the image uploaded in Step 2.
 
-			- **Three **- Rotates the image clockwise 90°.
+			- **Three** - Rotates the image clockwise 90°.
 
 			- **Four** - Options for defining the image’s dimensions. Height and Width are linked to each other to maintain the content’s aspect ratio.
 
@@ -38,11 +38,11 @@
 
 	- **Delete Image** - Delete the selected image.
 
-	- **Edit Image **- Displays the window shown in [Figure 8.01](Images.md)
+	- **Edit Image** - Displays the window shown in [Figure 8.01](Images.md)
 
-	- **Save Image as PNG **- Saves a copy of the selected image to your computer.
+	- **Save Image as PNG** - Saves a copy of the selected image to your computer.
 
-	-** Edit Link** - Apply or edit the link of the selected image.
+	- **Edit Link** - Apply or edit the link of the selected image.
 	
 		See [Links](Links.md) for more information about links.
 

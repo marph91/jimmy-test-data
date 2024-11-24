@@ -11,7 +11,7 @@
 
 	1. Open the **Node Properties** menu by right-clicking a node and selecting **Change Node Properties**.
 
-	2. Choose** Automatic Syntax Highlighting**.
+	2. Choose **Automatic Syntax Highlighting**.
 
 	3. Click the drop-down menu directly beneath the **Node Type** options.
 
@@ -21,7 +21,7 @@
 
 	Nodes set to automatic syntax highlighting can be executed from Cherrytree, assuming you have its assigned language installed to your machine.
 	
-**	To execute a node:**
+	**To execute a node:**
 	
 	1. Select **Execute Code** from the **File** menu.
 
