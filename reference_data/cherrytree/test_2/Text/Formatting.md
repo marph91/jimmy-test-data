@@ -2,7 +2,7 @@
 # Formatting
 
 
-	Most formatting options are only applicable to Rich Text documents and can be found in the** Formatting** menu.
+	Most formatting options are only applicable to Rich Text documents and can be found in the **Formatting** menu.
 	
 	**These options include:**
 	
@@ -16,7 +16,7 @@
 
 	- **Toggle Bold Property** - Applies **Bold** the selected text.
 
-	-** Toggle Italic Property** - Applies *Italics* to the selected text.
+	- **Toggle Italic Property** - Applies *Italics* to the selected text.
 
 	- **Toggle Underline Property** - Applies ++Underline++ to the selected text.
 
@@ -24,27 +24,27 @@
 
 	- **Toggle h1 Property** - Styles the selected paragraph as a top-level header.
 
-	- **Toggle h2 Property **- Styles the selected paragraph as a mid-level header.
+	- **Toggle h2 Property** - Styles the selected paragraph as a mid-level header.
 
 	- **Toggle h3 Property** - Styles the selected paragraph as a low-level header.
 	
 		 Figure 7.02
 		
 
-	- **Toggle Small Property **- Decreases the size of selected text.
+	- **Toggle Small Property** - Decreases the size of selected text.
 
 	- **Toggle Superscript Property** - Decreases the size of selected text and vertically aligns it above the normal line of type.
 
 	- **Toggle Subscript Property** - Decreases the size of selected text and vertically aligns it below the normal line of type.
 
-	-** Toggle Monospace Property** - Applies a Monospace format to selected text. (All characters assume the same amount of width.)
+	- **Toggle Monospace Property** - Applies a Monospace format to selected text. (All characters assume the same amount of width.)
 	
 		 Figure 7.03
 		
 	
 		**NOTE:** The background color of monospace text can be edited in the [Rich Text preferences menu](../Settings/Rich%20Text.md).
 
-	-** Set/Unset Bulleted Lis**t - Formats the selected lines into a bulleted list, in which the item order does not matter.
+	- **Set/Unset Bulleted Lis**t - Formats the selected lines into a bulleted list, in which the item order does not matter.
 	
 		 Figure 7.04
 		
@@ -59,13 +59,13 @@
 		 Figure 7.06
 		
 
-	- **Justify Left **- Aligns content to the left side of the page. (Default)
+	- **Justify Left** - Aligns content to the left side of the page. (Default)
 
-	- **Justify Center **- Aligns content to the center of the page.
+	- **Justify Center** - Aligns content to the center of the page.
 
 	- **Justify Right** - Aligns content to the right side of the page.
 
-	- **Justify Fill** - Aligns content to the left side of the page and redistributes any empty space at the end of lines to between the words in the paragraph(s). This causes the body of text to fill the complete width of its textbox, demonstrated in [Figure 7.07](35 figure-7.07).
+	- **Justify Fill** - Aligns content to the left side of the page and redistributes any empty space at the end of lines to between the words in the paragraph(s). This causes the body of text to fill the complete width of its textbox, demonstrated in [Figure 7.07](Formatting.md).
 	
 		 Figure 7.07
 		

@@ -4,9 +4,9 @@
  
 	1. Select **Add Node** within the **Tree** menu to display the **New Node Properties** menu.
 
-			**NOTES:** **Add Node** creates a sibling to the selected node or a top-level node if no node is selected. To create a child nodes, select** Tree **>** Add Subnode**.
+			**NOTES:** **Add Node** creates a sibling to the selected node or a top-level node if no node is selected. To create a child nodes, select **Tree** > **Add Subnode**.
 
-	2. Provide a name for the node within** New Node Properties**.
+	2. Provide a name for the node within **New Node Properties**.
 
 	3. (**Optional**) Select any additional options:
 
@@ -25,11 +25,11 @@
 		- **Read Only** - Can be enabled to lock a node in its current state. This must be disabled to edit or delete the node.
 
 
-	4. Click** OK **to finish creating the node.
+	4. Click **OK** to finish creating the node.
 
 	Node properties can be edited again later by clicking **Tree** > **Change Node Properties**.
 
-##  ## Duplicating NodesDuplicating Nodes
+ ## Duplicating Nodes
 
 	Another way to create a node is to duplicate an existing node.
 

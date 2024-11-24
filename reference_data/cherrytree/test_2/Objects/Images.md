@@ -2,24 +2,24 @@
 # Images
 
 
- ## Inserting ImagesInserting Images
+ ## Inserting Images
 
-	1. Select Insert Image from the** Edit** menu.
+	1. Select Insert Image from the **Edit** menu.
 
 	2. Select an image to be uploaded and click **Open**.
 
-	3. (**Optional**) The selected image is displayed in the simplistic editor shown in [Figure 8.01](37 figure-8.01), which can be used to rotate or scale the content.
+	3. (**Optional**) The selected image is displayed in the simplistic editor shown in [Figure 8.01](Images.md), which can be used to rotate or scale the content.
 	
 		 Figure 8.01
 		
 	
-		[Figure 8.01](37 figure-8.01) has been highlighted to indicate the parts of its interface.
+		[Figure 8.01](Images.md) has been highlighted to indicate the parts of its interface.
 	
 			- **One** - Rotates the image counter-clockwise 90°.
 
-			- **Two **- Displays the image uploaded in Step 2.
+			- **Two** - Displays the image uploaded in Step 2.
 
-			- **Three **- Rotates the image clockwise 90°.
+			- **Three** - Rotates the image clockwise 90°.
 
 			- **Four** - Options for defining the image’s dimensions. Height and Width are linked to each other to maintain the content’s aspect ratio.
 
@@ -28,7 +28,7 @@
 
 	Cherrytree does not support wrapping text around images at this time.
 
- ## Editing ImagesEditing Images
+ ## Editing Images
 
 	Right-click an image to display its menu of options.
 	
@@ -38,11 +38,11 @@
 
 	- **Delete Image** - Delete the selected image.
 
-	- **Edit Image **- Displays the window shown in [Figure 8.01](37 figure-8.01)
+	- **Edit Image** - Displays the window shown in [Figure 8.01](Images.md)
 
-	- **Save Image as PNG **- Saves a copy of the selected image to your computer.
+	- **Save Image as PNG** - Saves a copy of the selected image to your computer.
 
-	-** Edit Link** - Apply or edit the link of the selected image.
+	- **Edit Link** - Apply or edit the link of the selected image.
 	
 		See [Links](Links.md) for more information about links.
 

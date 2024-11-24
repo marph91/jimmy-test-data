@@ -18,7 +18,7 @@
 	
 	
 	
-	4. (**Optional**) Install dependencies for additional functionality using **PIP **(a package manager for Python):
+	4. (**Optional**) Install dependencies for additional functionality using **PIP** (a package manager for Python):
 	
 		-  For multiple instances centralization. (Double-clicking a file that is already open displays the open document instead of opening another instance of that file.)
 		

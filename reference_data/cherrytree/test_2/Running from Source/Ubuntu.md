@@ -6,7 +6,7 @@
 	
 	
 	
-	2. If a variant of **Python 2.7** is not returned, install it by running the following command then check the version again:
+	2. If a variant of **`Python 2.7`** is not returned, install it by running the following command then check the version again:
 	
 	
 	

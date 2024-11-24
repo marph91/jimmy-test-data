@@ -4,7 +4,7 @@
 
 	New contributors are welcome! We recommend that you [contact the project’s maintainer](http://mailto:giuspen@gmail.com) before working on a feature.
 
- ## DevelopmentDevelopment
+ ## Development
 
 	Visit the GitHub [repository](https://github.com/giuspen/cherrytree) to get started.
 
@@ -12,21 +12,21 @@
 
 	Developers can help by addressing bugs submitted to the repository’s [issues page](https://github.com/giuspen/cherrytree/issues).
 
- ## TestingTesting
+ ## Testing
 
 	If you find a bug, check to see if it has already been reported within the project’s [issues page](https://github.com/giuspen/cherrytree/issues). If the error is unreported, create a new issue providing as much detail as possible.
 
 	If needed, here is a short guide on [writing a proper GitHub issue](https://medium.com/nycplanninglabs/writing-a-proper-github-issue-97427d62a20f).
 
- ## WritingWriting
+ ## Writing
 
 	The web version of the Cherrytree user manual is written using [asciidoctor](https://asciidoctor.org/) and is [maintained on GitHub](https://github.com/EllieBorden/Cherrytree-Manual). Contributors can help with writing and proofing, or by porting the manual to a .**ctb** version intended to demonstrate Cherrytree’s potential. 
 
- ## TranslationTranslation
+ ## Translation
 
 	Contact the project’s [maintainer](http://mailto:giuspen@gmail.com) to add or edit translations.
 
- ## ResourcesResources
+ ## Resources
 
 	- [Cherrytree repository](https://github.com/giuspen/cherrytree)
 	- [Run from source tutorial](../Running%20from%20Source.md)
@@ -35,7 +35,7 @@
 	- [C++ tutorial](http://www.cplusplus.com/doc/tutorial/)
 	- [Programming with gtkmm 3](https://developer.gnome.org/gtkmm-tutorial/3.24/)
 
- ## DonationsDonations
+ ## Donations
 
 	Join the [Cherrytree Supporters](https://www.giuspen.com/supporters/)!
 	
