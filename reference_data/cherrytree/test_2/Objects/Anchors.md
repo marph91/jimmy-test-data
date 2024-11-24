@@ -7,7 +7,7 @@
 	 Figure 8.02
 	
 
- ## Inserting AnchorsInserting Anchors
+ ## Inserting Anchors
 
 	1. Select** Insert Ancho**r from the **Edit** menu to display **Insert Anchor** menu.
 
@@ -15,11 +15,11 @@
 
 	3. Click **OK** to complete the insertion.
 
- ## Referencing AnchorsReferencing Anchors
+ ## Referencing Anchors
 
 	When [inserting a link](Links.md), select the To Node option and add the name of the anchor to the Anchor Name textbox. Hovering over an anchor will display its name.
 
- ## Editing AnchorsEditing Anchors
+ ## Editing Anchors
 
 	Right-click an anchor icon to display is options.
 

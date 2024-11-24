@@ -2,7 +2,7 @@
 # Images
 
 
- ## Inserting ImagesInserting Images
+ ## Inserting Images
 
 	1. Select Insert Image from the** Edit** menu.
 
@@ -28,7 +28,7 @@
 
 	Cherrytree does not support wrapping text around images at this time.
 
- ## Editing ImagesEditing Images
+ ## Editing Images
 
 	Right-click an image to display its menu of options.
 	

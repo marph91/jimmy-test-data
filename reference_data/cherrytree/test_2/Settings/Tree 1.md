@@ -4,7 +4,7 @@
 
 	The T**ree 1** preferences menu provides configuration options for the [tree view](../Quick%20Start/Interface.md) panel.
 
- ## ThemeTheme
+ ## Theme
 
 	- **Light Background, Dark Text** - Sets the tree view background color to white and text color to black.
 
@@ -12,7 +12,7 @@
 
 	- **Custom Background and Text** - Defines custom colors for the editor’s background and text.
 
- ## Default Text Nodes IconsDefault Text Nodes Icons
+ ## Default Text Nodes Icons
 
 	-** Use Different Cherries per Level **- Assigns a unique, default icon to each group of nodes sharing the same hierarchical level within a node structure.
 
@@ -24,7 +24,7 @@
 
 	**NOTE: **Default icons can be overwritten within the **Use Selected Icon **option of a node’s property menu.
 
- ## Node Status at StartupNode Status at Startup
+ ## Node Status at Startup
 
 	- **Restore Expanded/Collapsed Status** - Nodes of a document retain their expand/collapse state after the document is closed and opened again.
 

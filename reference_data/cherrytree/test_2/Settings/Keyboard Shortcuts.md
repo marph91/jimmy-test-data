@@ -4,7 +4,7 @@
 
 	The keyboard Shortcuts preferences menu provides configuration options for shortcuts to Cherrytree’s features.
 
- ## Editing a Keyboard ShortcutEditing a Keyboard Shortcut
+ ## Editing a Keyboard Shortcut
 
 	1. Select a shortcut to edit.
 
@@ -17,14 +17,14 @@
 
 	4. Click **OK** to complete the edit.
 
- ## Reset Keyboard Shortcuts SettingsReset Keyboard Shortcuts Settings
+ ## Reset Keyboard Shortcuts Settings
 
 	Click the yellow return button to return to Cherrytree’s default shortcut settings.
 	
 	 Figure 9.17
 	
 
- ## Default Keyboard ShortcutsDefault Keyboard Shortcuts
+ ## Default Keyboard Shortcuts
 
 	
 ![unnamed_5304317faf42412fb838b3268e944239](unnamed_5304317faf42412fb838b3268e944239.png)

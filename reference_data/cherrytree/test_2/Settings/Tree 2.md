@@ -4,7 +4,7 @@
 
 	The **Tree 2 **preferences menu is a continuation of [Tree 1](Tree%201.md), providing additional configuration options for the [tree view](http://#tree-view) panel.
 
- ## MiscellaneousMiscellaneous
+ ## Miscellaneous
 
 	- **Tree Nodes Names Wrapping Width** - Defines the width in pixels at which text begins to wrap within the tree view.
 

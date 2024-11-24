@@ -4,7 +4,7 @@
 
 	Text and images within [rich text](http://#_rich_text) nodes can be linked to websites, files, folders, or nodes.
 
- ## Inserting a LinkInserting a Link
+ ## Inserting a Link
 
 	1. Select** Insert/Edit Link** from the **Edit** menu to display the **Insert Link** menu.
 
@@ -24,7 +24,7 @@
 
 	3. Click **OK** to complete the insertion.
 
- ## Editing a LinkEditing a Link
+ ## Editing a Link
 
 	Right-click a link to display its options.
 

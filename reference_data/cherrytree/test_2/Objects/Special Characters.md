@@ -6,7 +6,7 @@
 	
 **	CAUTION:** These characters are not converted to their corresponding HTML codes when exported.
 
- ## Inserting Special CharactersInserting Special Characters
+ ## Inserting Special Characters
 
 	1. Open the **Edit** menu.
 

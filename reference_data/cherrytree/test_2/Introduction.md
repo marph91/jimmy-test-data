@@ -8,7 +8,7 @@
 	Cherrytree is a free and open source, hierarchical, note-taking application. It can store text, images, files, links, tables, and executable snippets of code. 
 	This application is under active development. Details regarding updates can be found in Cherrytree’s [changelog](https://github.com/giuspen/cherrytree/blob/master/changelog.txt).
 
-	## ContentContent
+	## Content
 	- [Introduction](Introduction.md)
 		- [About This Manual](Introduction/About%20This%20Manual.md)
 		- [Get Involved](Introduction/Get%20Involved.md)
@@ -163,8 +163,8 @@
     - [Content](Installation.md)
   ▸ [Fedora](Installation/Fedora.md)
     - [Fedora](Installation/Fedora.md)
-      - [ ](Installation/Fedora.md)
-      - [ ](Installation/Fedora.md)
+      -  
+      -  
   ▸ [Debian](Installation/Debian.md)
     - [Debian](Installation/Debian.md)
   ▸ [Ubuntu](Installation/Ubuntu.md)

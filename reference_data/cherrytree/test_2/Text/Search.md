@@ -4,7 +4,7 @@
 
 	Cherrytree’s search and replace features can be found in the **Search** menu.
 
- ## Steps to Perform a Search:Steps to Perform a Search:
+ ## Steps to Perform a Search:
 
 	1. Select one of the following options from the **Search **menu:
 
@@ -28,7 +28,7 @@
 
 	3. Enter the characters that you desire to find into **Search For** and click **OK** to execute the search.
 
- ## Steps to Search and ReplaceSteps to Search and Replace
+ ## Steps to Search and Replace
 
 	1. Select one of the following options from the** Search** menu:
 	
@@ -53,17 +53,17 @@
 	4. Click **OK** to execute the search.
 
 
- ## Search OptionsSearch Options
+ ## Search Options
 	
 	- **Match Case** - Filter results that do not match the [letter case](https://en.wikipedia.org/wiki/Letter_case) of the provided search term.
 
-	- **Whole Word** - Filter results that contain more characters than provided. For example, a whole-word search for `and` returns any instances of the word** ****and** but not other words containing** ****and** such as **Andrew**.
+- **Whole Word** - Filter results that contain more characters than provided. For example, a whole-word search for `and` returns any instances of the word **`and`** but not other words containing **`and`** such as **`Andrew`**.
 
 	- **Regular Expression** - Search for patterns in text. For example, `\([0-9][0-9][0-9]\) [0-9][0-9][0-9]-[0-9][0-9][0-9][0-9]` would return instances of text formatted as (xxx) xxx-xxxx, such as phone numbers, where **x** can be any number between 0 and 9.
 	
 	** 	NOTE:** Learn more about regular expressions [here](https://developers.google.com/edu/python/regular-expressions).
 
-	- **Start Word** - Filter results where the provided characters are not located at the beginning of the instance. For example, a start-word search for **cherry** would return **cherry** and **cherrytree** but not **treecherry**.
+	- **Start Word** - Filter results where the provided characters are not located at the beginning of the instance. For example, a start-word search for **`cherry`** would return **`cherry`** and **`cherrytree`** but not **`treecherry`**.
 
 	- **Forward** - Search the node(s) from top to bottom. (Default)
 

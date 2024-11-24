@@ -4,7 +4,7 @@
 
 	Cherrytree is available for Linux and Windows.
 
-	## ContentContent
+	## Content
 	-  [Fedora](Installation/Fedora.md)
 	-  [Ubuntu](Installation/Ubuntu.md)
 		-[Ubuntu Software](Installation/Ubuntu.md)

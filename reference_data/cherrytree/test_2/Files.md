@@ -4,7 +4,7 @@
 
 	Documents are managed from the **File** menu or toolbar.
 		
-## 	Content	Content
+## 	Content
 	-  [Creating and Opening](Files/Creating%20and%20Opening.md)
 	-  [Saving](Files/Saving.md)
 	-  [Page Setup and Printing](Files/Page%20Setup%20and%20Printing.md)

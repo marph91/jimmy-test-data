@@ -2,7 +2,7 @@
 # Links
 
 
- ## Custom ActionsCustom Actions
+ ## Custom Actions
 
 	- **Enable Custom Web Link Click Action** - Defines a custom command to run when a web link is clicked within Cherrytree.
 
@@ -10,7 +10,7 @@
 
 	- **Enable Custom Folder Link Clicked Action** - Defines a custom command to run when a folder link is clicked within Cherrytree.
 
- ## ColorsColors
+ ## Colors
 
 	- **To Website** - Defines the default text color of links to websites.
 
@@ -20,7 +20,7 @@
 
 	- **To Folder** - Defines the default text color of links to folders.
 
- ## MiscellaneousMiscellaneous
+ ## Miscellaneous
 
 	- **Underline Links** - Apply the ++underline++ property to all links by default.
 

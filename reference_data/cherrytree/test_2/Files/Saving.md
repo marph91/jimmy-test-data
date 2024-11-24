@@ -2,21 +2,21 @@
 # Saving
 
 
-##  ## Saving to the Current FileSaving to the Current File
+ ## Saving to the Current File
 
-	Save your document by pressing **CTRL**+**S** or by selecting** Save **from the **File **menu.
+	Save your document by pressing **`CTRL`**+**`S`** or by selecting** Save **from the **File **menu.
 	
 	**NOTE:** If this your first time saving the current document, see the [save to a new file ](Saving.md)section below.
 
- ## Saving to a New FileSaving to a New File
+ ## Saving to a New File
 
-	1. Save your document to a new file by pressing **CTRL**+**SHIFT**+**S** or by selecting **Save As** from the **File** menu.
+	1. Save your document to a new file by pressing **`CTRL`**+**`SHIFT`**+**`S`** or by selecting **Save As** from the **File** menu.
 
 	2. Select a [storage type](http://#_storage_types).
 
 	3. Name the document and select a folder to save it to.
 
- ## Save and VacuumSave and Vacuum
+ ## Save and Vacuum
 
 	Vacuuming rebuilds the database file, packing it into a minimal amount of disk space. Empty space is left behind when a large amount of data is deleted from a database. Frequent inserts, updates, and deletes can also cause the database file to become fragmented — where data for a single table or index is scattered around the database file.
 
@@ -24,7 +24,7 @@
 
 	**NOTE:** Visit the [SQLite documentation page for the vacuum command](https://www.sqlite.org/lang_vacuum.html) to learn more about vacuuming.
 
- ## Storage TypesStorage Types
+ ## Storage Types
 
 	When saving a document for the first time, Cherrytree prompts you to choose between two file formats, SQLite and XML.
 
@@ -36,13 +36,13 @@
 
 	XML is more accessible and easier to convert to other file types but should not be used with large documents.
 
-##  ## Password ProtectionPassword Protection
+ ## Password Protection
 
 	Password-protected files are compressed and locked with [7zip](https://www.7-zip.org/), an open source file archiver.
 		
 	**NOTE:** Other applications might not provide functionality to unlock files that have been locked by Cherrytree.
 
-##  ## Changing PasswordsChanging Passwords
+ ## Changing Passwords
 
 	To change the password of a protected file:
 	

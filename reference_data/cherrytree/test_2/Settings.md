@@ -2,7 +2,7 @@
 # Settings
 
 
-## 	Content	Content
+## 	Content
 	- [Text and Code](Settings/Text%20and%20Code.md)
 	- [Text](Settings/Text.md)
 	- [Rich Text](Settings/Rich%20Text.md)

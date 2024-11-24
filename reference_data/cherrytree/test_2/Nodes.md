@@ -11,7 +11,7 @@
 	 Figure 6.02
 	
 	
-	## ContentContent
+	## Content
 	- [Creating Nodes](Nodes/Creating%20Nodes.md)
 	- [Managing Nodes](Nodes/Managing%20Nodes.md)
 ![unnamed_17fc695a07a04a6e8822e8f36c031199](unnamed_17fc695a07a04a6e8822e8f36c031199.png)

@@ -2,9 +2,9 @@
 # Text
 
 
-	Cherrytree supports three types of nodes, Plain Text, Rich Text, and Automatic Syntax Highlighting.## 	
+	Cherrytree supports three types of nodes, Plain Text, Rich Text, and Automatic Syntax Highlighting.	
 	
-	## ContentContent
+	## Content
 	- [Plain Text](Text/Plain%20Text.md)
 	- [Rich Text](Text/Rich%20Text.md)
 	- [Automatic Syntax Highlighting](Text/Automatic%20Syntax%20Highlighting.md)

@@ -2,7 +2,7 @@
 # Tables
 
 
- ## Creating a New TableCreating a New Table
+ ## Creating a New Table
 
 	1. Select **Insert Table** from the** Edit** menu to display the** Insert Table **menu.
 
@@ -23,7 +23,7 @@
 	3. Click **OK **to complete the insertion.
 
 
- ## Managing ColumnsManaging Columns
+ ## Managing Columns
 
 	Click a column title to display a menu listing actions for that column.
 
@@ -37,7 +37,7 @@
 
 		- **Move Column Right **- Switches the placement of the selected column with that of the column to its immediate right.  Nothing happens if there is no column right of the selected column.
 
-  ## Managing RowsManaging Rows
+  ## Managing Rows
 
 	Right-clicking any cell in a table provides the following options:
 
@@ -73,7 +73,7 @@
 
 	- **Table Export** - Exports the selected table to a .**csv** file containing data separated by comma delimiters.
 
- ## Writing to TablesWriting to Tables
+ ## Writing to Tables
 
 	Tables currently only support [plain text](../Text/Plain%20Text.md). Double-click a cell to open a textbox within it.
 
@@ -118,8 +118,8 @@
 		- Vietnamese (VIQR)
 
 		- Windows IME
-**
-	**-** Insert Unicode Control Character** - Select from one of the following Unicode control characters:
+
+	-** Insert Unicode Control Character** - Select from one of the following Unicode control characters:
 
 		- **LRM **- Left-to-right mark
 

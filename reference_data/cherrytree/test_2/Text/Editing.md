@@ -8,7 +8,7 @@
 
 	- **Redo** - Moves forward by one change in the state of the document.
 
-	- **Strip Trailing Spaces **- Removes any excess **space**` `characters at the end of each line within the selected node.
+	- **Strip Trailing Spaces **- Removes any excess **`space`** characters at the end of each line within the selected node.
 
 	- **Change Case** - Changes the [letter case](https://en.wikipedia.org/wiki/Letter_case) of the selected text.
 	

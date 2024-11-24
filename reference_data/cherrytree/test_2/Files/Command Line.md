@@ -4,15 +4,15 @@
 
 	Cherrytree supports command line argument for starting the application via command line.
 
- ## Cherrytree CommandCherrytree Command
+ ## Cherrytree Command
 
 		
 
- ## Positional ArgumentsPositional Arguments
+ ## Positional Arguments
 
 		
 
- ## Optional ArgumentsOptional Arguments
+ ## Optional Arguments
 
 		
 | python2 cherrytree<br> | Opens Cherrytree.<br> |

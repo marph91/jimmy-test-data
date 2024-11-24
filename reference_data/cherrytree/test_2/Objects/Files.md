@@ -4,7 +4,7 @@
 
 	Any file that is less than 10MB can be attached to a [Rich Text](http://#_rich_text) node. Rich Text nodes can contain any number of attached files.
 
- ## Inserting a FileInserting a File
+ ## Inserting a File
 
 	1. Select **Insert File** from the **Edit** menu.
 
@@ -12,7 +12,7 @@
 	
 		**	NOTE:** The file must be less than 10MB.
 
- ## Editing a FileEditing a File
+ ## Editing a File
 
 	Right-click a node to display its options.
 

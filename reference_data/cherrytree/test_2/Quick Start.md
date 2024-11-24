@@ -2,7 +2,7 @@
 # Quick start
 
 
-## 	## ContentContent
+	## Content
 	- [Interface](Quick%20Start/Interface.md)
 		- [Menu Bar](Quick%20Start/Interface.md)
 		- [Toolbar](Quick%20Start/Interface.md)

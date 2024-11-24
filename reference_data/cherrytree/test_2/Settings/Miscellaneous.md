@@ -2,7 +2,7 @@
 # Miscellaneous
 
 
- ## System TraySystem Tray
+ ## System Tray
 
 	- **Enable System Tray Docking** - Closing Cherrytree minimizes the application to a background process which can be more quickly accessed from the machine’s system tray. **AppIndicator **may be required to access Cherrytree from the system tray in Linux.
 
@@ -10,9 +10,9 @@
 
 	- **Use AppIndicator for Docking** - (Linux only) Uses the appindicator feature to provide quick access to Cherrytree from your system tray.
 
- ## SavingSaving
+ ## Saving
 
-	- **Autosave Every ****x**** Minutes** - Saves the working document every **x** minutes, where **x**** **represents the number defined in this setting.
+	- **Autosave Every ****`x`**** Minutes** - Saves the working document every **`x`** minutes, where **`x`** represents the number defined in this setting.
 
 	- **Autosave on Quit** - Saves the document upon closing Cherrytree.
 
@@ -20,7 +20,7 @@
 	
 **		To open a backup:**
 	
-		1. Rename the backup file, deleting the **~** characters appended to its extension.
+		1. Rename the backup file, deleting the **`~`** characters appended to its extension.
 
 		2. Open the backup file within Cherrytree.
 
@@ -28,7 +28,7 @@
 
 			**CAUTION:** This also applies to autosaves that run on a time interval. For example, if your application is configured to save every 5 minutes, Cherrytree creates a backup every five minutes. When the backup limit is exceeded, a backup is cycled out every 5 minutes.
 
- ## MiscellaneousMiscellaneous
+ ## Miscellaneous
 
 	- **Automatically Check for Newer Version** - Checks the Cherrytree website on startup to determine if a new version of the application is available for download.
 
@@ -40,7 +40,7 @@
 
 	**WARNING:** Cherrytree is not intended to be used as a collaboration tool. Only edit one instance of a document at a time. Editing two or more instances of a document at the same time yields a high potential for errors and data loss.
 
- ## LanguageLanguage
+ ## Language
 
 	Defines the language of Cherrytree’s interface. Select from one of the following languages:
 	

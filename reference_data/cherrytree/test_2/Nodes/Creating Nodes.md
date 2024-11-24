@@ -29,7 +29,7 @@
 
 	Node properties can be edited again later by clicking **Tree** > **Change Node Properties**.
 
-##  ## Duplicating NodesDuplicating Nodes
+ ## Duplicating Nodes
 
 	Another way to create a node is to duplicate an existing node.
 

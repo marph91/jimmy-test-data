@@ -4,7 +4,7 @@
 
 	The Rich Text preferences menu provides configuration options for [Rich Text nodes](../Text/Rich%20Text.md).
 
- ## Spell CheckSpell Check
+ ## Spell Check
 
 	- **Enable Spell Check** - Toggles Cherrytree’s spell check feature.
 	
@@ -44,7 +44,7 @@
 
 		- **uk_UA** - Ukrainian (Ukraine)
 
- ## ThemeTheme
+ ## Theme
 
 	- **Light Background, Dark Text **- Sets the editor background color to white and text color to black.
 
@@ -55,7 +55,7 @@
 	- **Monospace Background** - Defines the background color of monospace text.
 
 
- ## MiscellaneousMiscellaneous
+ ## Miscellaneous
 
 	- **Show White Spaces** - Displays character markers over spaces.
 

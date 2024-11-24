@@ -2,21 +2,21 @@
 # Text and Code
 
 
- ## Text EditorText Editor
+ ## Text Editor
 
-	- **Tab Width** - Defines the number of** ****space** characters that a **tab** is equal to in width.
+	- **Tab Width** - Defines the number of **`space`** characters that a **`tab`** is equal to in width.
 
-	- **Insert Spaces Instead of Tabs** - Replaces one **tab** with a number of **spaces** equal to the number defined in Tab Width.
+	- **Insert Spaces Instead of Tabs** - Replaces one **`tab`** with a number of **`spaces`** equal to the number defined in Tab Width.
 
-	- **Use Line wrapping** - Restricts lines of text to the current viewport by forcing text to a** **new line. This does not break a line with** ****newline**** **characters and can be toggled as needed without compromising the line structure of a node.
+	- **Use Line wrapping** - Restricts lines of text to the current viewport by forcing text to a new line. This does not break a line with **`newline`** characters and can be toggled as needed without compromising the line structure of a node.
 
 	- **Line Wrapping Indentation **- Defines the alignment of wrapped text compared to the original line.
 
 		- **0** - No indention.
 
-		-** Less than 0** - Indents the wrapped lines to the right of the original line by **x** pixels, where **x** represents the provided number.
+		-** Less than 0** - Indents the wrapped lines to the right of the original line by **`x`** pixels, where **`x`** represents the provided number.
 
-		-** More than 0** - Indents the original line to the right of the wrapped lines by **x** pixels, where **x** represents the provided number.
+		-** More than 0** - Indents the original line to the right of the wrapped lines by **`x`** pixels, where **`x`** represents the provided number.
 
 
 	- **Enable Automatic Indentation** - Aligns new lines with the indention of the previous line.
@@ -29,7 +29,7 @@
 
 		**NOTE:** This has no effect if **Vertical Space Around Lines** is set to zero.
 
- ## MiscellaneousMiscellaneous
+ ## Miscellaneous
 
 	-** Timestamp Format **- Defines the format of a [timestamp](../Objects/Timestamps.md).
 
@@ -49,7 +49,7 @@
 
 	- **Chars to Select at Double Click **- By default, double-clicking text selects the sequence of letters and numbers that are under the mouse pointer and are not separated by whitespace, punctuation, or special characters. Adding characters to the **Chars to Select at Double Click **setting includes those characters in a double-click selection.
 
- ## Formatting TimestampsFormatting Timestamps
+ ## Formatting Timestamps
 
 	The table below, copied from the [strftime documentation](https://docs.python.org/2/library/time.html#time.strftime), can be referenced when formatting timestamps in Cherrytree.
 

@@ -7,7 +7,7 @@
 	 Figure 7.01
 	
 
- ## Choosing a LanguageChoosing a Language
+ ## Choosing a Language
 
 	1. Open the **Node Properties** menu by right-clicking a node and selecting **Change Node Properties**.
 
@@ -17,7 +17,7 @@
 
 	4. Choose from the list of [supported languages](Automatic%20Syntax%20Highlighting.md).
 
- ## Executing a NodeExecuting a Node
+ ## Executing a Node
 
 	Nodes set to automatic syntax highlighting can be executed from Cherrytree, assuming you have its assigned language installed to your machine.
 	
@@ -30,7 +30,7 @@
 	Some languages require an execution command to be assigned to the language before the code can be executed.
 	See [Plain Text and Code](../Settings/Plain%20Text%20and%20Code.md) for details on assigning a command.
 
- ## Supported LanguagesSupported Languages
+ ## Supported Languages
 
 	- ada
 	- asp

@@ -6,7 +6,7 @@
 		- [Steps 9-16:](Windows.md) Installing Cherrytree dependencies.
 		- [Steps 17-20:](Windows.md) Configuring the Cherrytree directory.
 
-##  ## Installing Python 2.7Installing Python 2.7
+ ## Installing Python 2.7
 
 	1. If a variant of Python 2.7 is not installed to your machine, go to the [Python Releases for Windows page](https://www.python.org/downloads/windows/) and click **Latest version of Python 2**.
 
@@ -27,7 +27,7 @@
 	8. Click **Ok** to close the window.
 
 
-##  ## Installing Cherrytree DependenciesInstalling Cherrytree Dependencies
+ ## Installing Cherrytree Dependencies
 
 	9. [Download the GTK2 Windows bundle](http://www.giuspen.com/software/gtk-2.24.10-win-bundle.7z).
 
@@ -59,7 +59,7 @@
 		
 
 
-##  ## Configuring the Cherrytree DirectoryConfiguring the Cherrytree Directory
+ ## Configuring the Cherrytree Directory
 
 	17. [Clone](https://git-scm.com/docs/git-clone) or download the [Cherrytree repository](https://github.com/giuspen/cherrytree).
 

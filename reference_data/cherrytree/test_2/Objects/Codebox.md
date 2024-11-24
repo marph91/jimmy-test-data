@@ -6,7 +6,7 @@
 
 	See [Automatic Syntax Highlighting ](../Text/Automatic%20Syntax%20Highlighting.md)for more details about syntax highlighting.
 
- ## Inserting a CodeboxInserting a Codebox
+ ## Inserting a Codebox
 
 	1. Select** Insert Codebox **from the **Edit **menu.
 
@@ -36,7 +36,7 @@
 
 	5. Click **OK **to complete the insertion.
 
- ## Editing a CodeboxEditing a Codebox
+ ## Editing a Codebox
 
 	Right-click a codebox to display its options.
 	
@@ -66,7 +66,7 @@
 
 	- **Decrease CodeBox Height **- Decrease the height of the selected codebox by 15 pixels.
 
- ## Executing a CodeboxExecuting a Codebox
+ ## Executing a Codebox
 
 	A codebox that is set to [automatic syntax highlighting](../Text/Automatic%20Syntax%20Highlighting.md) can be executed from Cherrytree, assuming you have its assigned language installed to your machine.
 
