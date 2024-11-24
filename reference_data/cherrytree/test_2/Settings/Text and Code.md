@@ -33,7 +33,7 @@
 
 	-** Timestamp Format **- Defines the format of a [timestamp](../Objects/Timestamps.md).
 
-		**NOTE:** See [Formatting Timestamps](47 h2-3) for a list of timestamp directives or visit the [strftime documentation](https://docs.python.org/2/library/time.html#time.strftime) by click the icon next to the timestamp setting.
+		**NOTE:** See [Formatting Timestamps](Text%20and%20Code.md) for a list of timestamp directives or visit the [strftime documentation](https://docs.python.org/2/library/time.html#time.strftime) by click the icon next to the timestamp setting.
 
 		 Figure 9.01
 		

@@ -2,9 +2,9 @@
 # Windows
 
 
-		- [Steps 1-8:](18 h2-1) Installing Python2.7 and adding it to environment variables.
-		- [Steps 9-16:](18 h2-2) Installing Cherrytree dependencies.
-		- [Steps 17-20:](18 h2-3) Configuring the Cherrytree directory.
+		- [Steps 1-8:](Windows.md) Installing Python2.7 and adding it to environment variables.
+		- [Steps 9-16:](Windows.md) Installing Cherrytree dependencies.
+		- [Steps 17-20:](Windows.md) Configuring the Cherrytree directory.
 
 ##  ## Installing Python 2.7Installing Python 2.7
 

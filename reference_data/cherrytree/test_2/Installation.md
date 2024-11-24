@@ -7,8 +7,8 @@
 	## ContentContent
 	-  [Fedora](Installation/Fedora.md)
 	-  [Ubuntu](Installation/Ubuntu.md)
-		-[Ubuntu Software](6 h2-1)
-		- [Option Two: Command Line](6 h2-2)
+		-[Ubuntu Software](Installation/Ubuntu.md)
+		- [Option Two: Command Line](Installation/Ubuntu.md)
 	-  [Windows](Installation/Windows.md)
 
 

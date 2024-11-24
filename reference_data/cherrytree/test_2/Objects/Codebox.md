@@ -2,7 +2,7 @@
 # Codebox
 
 
-	A codebox is a contained, executable section of syntax-highlighted text, which can be inserted into [Rich Text](../Text/Rich%20Text.md) nodes. A Rich Text node can contain more than one codebox for any of the [supported languages](33 h2-3).
+	A codebox is a contained, executable section of syntax-highlighted text, which can be inserted into [Rich Text](../Text/Rich%20Text.md) nodes. A Rich Text node can contain more than one codebox for any of the [supported languages](../Text/Automatic%20Syntax%20Highlighting.md).
 
 	See [Automatic Syntax Highlighting ](../Text/Automatic%20Syntax%20Highlighting.md)for more details about syntax highlighting.
 
@@ -16,7 +16,7 @@
 
 		- **Automatic Syntax Highlighting** - Applies [automatic syntax highlighting](../Text/Automatic%20Syntax%20Highlighting.md) to the codebox. (Default)
 
-		- **Choose a language** - Select from any of the [supported languages](33 h2-3).
+		- **Choose a language** - Select from any of the [supported languages](../Text/Automatic%20Syntax%20Highlighting.md).
 
 	3. (**Optional**) - Define the codebox size:
 	

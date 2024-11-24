@@ -2,7 +2,7 @@
 # Text
 
 
-**	Enable Smart Quotes Auto Replacement** - Converts paired quotation marks on a line to smart quotes, illustrated in [Figure 9.03](48 figure-9.03).
+**	Enable Smart Quotes Auto Replacement** - Converts paired quotation marks on a line to smart quotes, illustrated in [Figure 9.03](Text.md).
 	
 	 Figure 9.03
 	

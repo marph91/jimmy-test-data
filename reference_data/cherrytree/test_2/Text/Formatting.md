@@ -65,7 +65,7 @@
 
 	- **Justify Right** - Aligns content to the right side of the page.
 
-	- **Justify Fill** - Aligns content to the left side of the page and redistributes any empty space at the end of lines to between the words in the paragraph(s). This causes the body of text to fill the complete width of its textbox, demonstrated in [Figure 7.07](35 figure-7.07).
+	- **Justify Fill** - Aligns content to the left side of the page and redistributes any empty space at the end of lines to between the words in the paragraph(s). This causes the body of text to fill the complete width of its textbox, demonstrated in [Figure 7.07](Formatting.md).
 	
 		 Figure 7.07
 		

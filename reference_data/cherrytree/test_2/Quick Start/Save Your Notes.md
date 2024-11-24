@@ -8,7 +8,7 @@
 
 	2. If this is your first time saving the current document, select a storage type then click **OK**.
 	
-		**NOTE**: See[ Storage Types](24 h2-4) and [Password Protection](24 h2-5) for more details.
+		**NOTE**: See[ Storage Types](../Files/Saving.md) and [Password Protection](../Files/Saving.md) for more details.
 
 	3. Name the document and select a folder to save it to.
 

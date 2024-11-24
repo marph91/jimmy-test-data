@@ -2,11 +2,11 @@
 # Toolbar
 
 
-	The **Toolbar** preferences menu provides configuration options for the [toolbar](20 h2-2) panel.
+	The **Toolbar** preferences menu provides configuration options for the [toolbar](../Quick%20Start/Interface.md) panel.
 
  ## Adding Actions to the ToolbarAdding Actions to the Toolbar
 
-	1. Click the** ****+**** **icon, shown in [Figure 9.13](55 figure-9.13) to display the **Select Element to Add **window.
+	1. Click the** ****+**** **icon, shown in [Figure 9.13](Toolbar.md) to display the **Select Element to Add **window.
 	
 		 Figure 9.13
 		

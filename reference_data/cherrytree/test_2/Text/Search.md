@@ -24,7 +24,7 @@
 		
 				**NOTE**: **Find Again** and** Find Back** are only compatible with the **First From Selection** and **First in All Range** options, which are defined in the next step.
 
-	2. (**Optional**) Select any of the available [Search Options](36 h2-3).
+	2. (**Optional**) Select any of the available [Search Options](Search.md).
 
 	3. Enter the characters that you desire to find into **Search For** and click **OK** to execute the search.
 
@@ -46,7 +46,7 @@
 		
 			**NOTE: Replace Again** is only compatible with the **First From Selection** and **First in All Range** options, which are defined in the next step.
 
-	2. (**Optional**) Select from the available [Search Options](36 h2-3).
+	2. (**Optional**) Select from the available [Search Options](Search.md).
 
 	3. Enter characters to find into** Search For **and characters to replace in **Replace With**.
 
@@ -83,7 +83,7 @@
 
 		- **Find Next** - Find the next instance of the searched term.
 
-		- **Replace **- Replace the current instance of the searched term with the replacement provided in Step 3 of[ Steps to Search and](36 h2-2)[ Replace](http://#_steps_to_search_and_replace). (Applicable only to Search and Replace features.)
+		- **Replace **- Replace the current instance of the searched term with the replacement provided in Step 3 of[ Steps to Search and](Search.md)[ Replace](http://#_steps_to_search_and_replace). (Applicable only to Search and Replace features.)
 
 		- **Undo** - Undoes the most recent Replace execution.
 

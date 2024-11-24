@@ -15,7 +15,7 @@
 
 	3. Click the drop-down menu directly beneath the **Node Type** options.
 
-	4. Choose from the list of [supported languages](33 h2-3).
+	4. Choose from the list of [supported languages](Automatic%20Syntax%20Highlighting.md).
 
  ## Executing a NodeExecuting a Node
 
