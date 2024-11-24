@@ -6,7 +6,7 @@ bold *None* italic
 
 ~~strikethrough~~
 
-highlighted
+==highlighted==
 
 `monospace`
 

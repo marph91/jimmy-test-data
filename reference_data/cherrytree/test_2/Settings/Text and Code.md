@@ -57,6 +57,7 @@
 
 ![unnamed_ec1b8ca1f91e4d4c9ff49b7889463e85](unnamed_ec1b8ca1f91e4d4c9ff49b7889463e85.png)
 ![unnamed_4b0dbb418d5248f1942c3fe860e7a113](unnamed_4b0dbb418d5248f1942c3fe860e7a113.png)
+
 | %a<br> | Locale’s abbreviated weekday name.<br> |
 | --- | --- |
 | %A<br> | Locale’s full weekday name.<br> |
