@@ -158,16 +158,16 @@
 			- [Language](Settings/Miscellaneous.md)
 	- [License](License.md)
 
-	▸ [Installation](Installation.md)
+	- [Installation](Installation.md)
   - [Installation](Installation.md)
     - [Content](Installation.md)
-  ▸ [Fedora](Installation/Fedora.md)
+  - [Fedora](Installation/Fedora.md)
     - [Fedora](Installation/Fedora.md)
       -  
       -  
-  ▸ [Debian](Installation/Debian.md)
+  - [Debian](Installation/Debian.md)
     - [Debian](Installation/Debian.md)
-  ▸ [Ubuntu](Installation/Ubuntu.md)
+  - [Ubuntu](Installation/Ubuntu.md)
     - [Ubuntu](Installation/Ubuntu.md)
       -  [Installing with Ubuntu Software](Installation/Ubuntu.md)
       -  [Installing via Command Line](Installation/Ubuntu.md)
