@@ -1,17 +1,17 @@
 
 # Nodes
 
-	A tree is a data structure consisting of nodes which are connected by edges. In the tree shown in [Figure 6.01](11 figure-6.01), **my_book** is the root node.** Part 3** is one of three child nodes that belong to **my_book** and is also the parent node of **Chapter 6**.
+	A tree is a data structure consisting of nodes which are connected by edges. In the tree shown in [Figure 6.01](Nodes.md), **my_book** is the root node. **Part 3** is one of three child nodes that belong to **my_book** and is also the parent node of **Chapter 6**.
 	
 	 Figure 6.01
 	
 	
-	[Figure 6.01](http://#figure-6.01) might look like [Figure 6.02](11 figure-6.02) in Cherrytree, where the document name represents the root node.
+	[Figure 6.01](http://#figure-6.01) might look like [Figure 6.02](Nodes.md) in Cherrytree, where the document name represents the root node.
 
 	 Figure 6.02
 	
 	
-	## ContentContent
+	## Content
 	- [Creating Nodes](Nodes/Creating%20Nodes.md)
 	- [Managing Nodes](Nodes/Managing%20Nodes.md)
 ![unnamed_17fc695a07a04a6e8822e8f36c031199](unnamed_17fc695a07a04a6e8822e8f36c031199.png)

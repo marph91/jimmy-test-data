@@ -2,14 +2,14 @@
 # Insert Objects
 
 
-	Objects can be inserted from the** Edit** menu.
+	Objects can be inserted from the **Edit** menu.
 	
 	Cherrytree supports the following objects:
 	
 		- [Image](../Objects/Images.md)
 
-		- [Table
-](../Objects/Tables.md)
+		- [Table](../Objects/Tables.md)
+
 		- [CodeBox](../Objects/Codebox.md)
 
 		- [File](../Objects/Files.md)

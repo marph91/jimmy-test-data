@@ -1,11 +1,11 @@
-**Service Enumeration**
+## **Service Enumeration**
 
 
 
 Nmap Scan Results:
 
 
-**Vulnerability**
+### **Vulnerability**
 
 **Vulnerability exploited:** CVE-XXX
 
@@ -13,8 +13,8 @@ Nmap Scan Results:
 
 **Vulnerability Fix:**
 
-**Severity: High
-**
+**Severity: High**
+
 **Vulnerable endpoint:**
  
 
@@ -24,7 +24,7 @@ Nmap Scan Results:
 
 
 
-**Privilege Escalation**
+### **Privilege Escalation**
 
 **Vulnerability Exploited:**
 
@@ -34,9 +34,10 @@ Nmap Scan Results:
 
 **Severity**: Medium
 
-**Privilege escalation steps:
-**
+**Privilege escalation steps:**
+
 **Proof.txt Contents:**
+
 
 | 10.xx.x.xx | TCP:  |  |
 | --- | --- | --- |

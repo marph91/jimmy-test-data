@@ -12,6 +12,7 @@ We can login into the administrator via **admin:admin** credentials.
 On port 80, endpoint */Orchard*, we find an Orchard instance
 
 In *C:/staging*, we find a repository:
+
 | Server Root | C:/xampp/apache |
 | --- | --- |
 

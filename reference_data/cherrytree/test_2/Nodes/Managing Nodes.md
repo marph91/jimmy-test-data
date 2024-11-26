@@ -66,13 +66,13 @@
 
 	- **Find in Nodes Names and Tags** - [Search](../Text/Search.md) the entire tree for a set of characters within node titles and assigned tags.
 
-	- **Replace in Nodes Names **- Search the entire tree for a set of characters within node titles and assigned tags, and replace it with new characters.
+	- **Replace in Nodes Names** - Search the entire tree for a set of characters within node titles and assigned tags, and replace it with new characters.
 
 	- **Nodes Import** - Opens the [Import](../Files/Importing.md) menu.
 
 	- **Nodes Export** - Opens the [Export](../Files/Exporting.md) menu.
 
-	-** Inherit Syntax** - If the selected node and its [parent node](https://docs.oracle.com/cd/E19509-01/820-3742/ghpow/index.html) have an Automated Syntax Highlighting type, the selected node inherits syntax highlighting for the language defined in its parent’s Node Properties menu.
+	- **Inherit Syntax** - If the selected node and its [parent node](https://docs.oracle.com/cd/E19509-01/820-3742/ghpow/index.html) have an Automated Syntax Highlighting type, the selected node inherits syntax highlighting for the language defined in its parent’s Node Properties menu.
 
 	- **Delete Node** - Removes the selected node from the tree.
 	
@@ -80,6 +80,6 @@
 
 	- **Go Back** - Move backward once in your node selection history.
 
-	-** Go Forward** - Move forward once in your node selection history.
+	- **Go Forward** - Move forward once in your node selection history.
 
 ![unnamed_b74d0fb132e746298fadc1a606cb0fb3](unnamed_b74d0fb132e746298fadc1a606cb0fb3.png)

@@ -2,29 +2,29 @@
 # Tree 1
 
 
-	The T**ree 1** preferences menu provides configuration options for the [tree view](20 h2-3) panel.
+	The T**ree 1** preferences menu provides configuration options for the [tree view](../Quick%20Start/Interface.md) panel.
 
- ## ThemeTheme
+ ## Theme
 
 	- **Light Background, Dark Text** - Sets the tree view background color to white and text color to black.
 
-	- **Dark Background, Light Text **- Sets the tree view background color to dark blue and text color to white.
+	- **Dark Background, Light Text** - Sets the tree view background color to dark blue and text color to white.
 
 	- **Custom Background and Text** - Defines custom colors for the editor’s background and text.
 
- ## Default Text Nodes IconsDefault Text Nodes Icons
+ ## Default Text Nodes Icons
 
-	-** Use Different Cherries per Level **- Assigns a unique, default icon to each group of nodes sharing the same hierarchical level within a node structure.
+	- **Use Different Cherries per Level** - Assigns a unique, default icon to each group of nodes sharing the same hierarchical level within a node structure.
 
-	- **Use Selected Icon **- Assigns one icon to be the default icon for all nodes.
+	- **Use Selected Icon** - Assigns one icon to be the default icon for all nodes.
 
-	-** No Icon** - Prevents Cherrytree from assigning icons to nodes by default.
+	- **No Icon** - Prevents Cherrytree from assigning icons to nodes by default.
 
-	- **Hide Right Side Auxiliary Icon** - Hides icons regarding a node’s status, such as the **Read Only** and **Bookmarked **icons.
+	- **Hide Right Side Auxiliary Icon** - Hides icons regarding a node’s status, such as the **Read Only** and **Bookmarked** icons.
 
-	**NOTE: **Default icons can be overwritten within the **Use Selected Icon **option of a node’s property menu.
+	**NOTE:** Default icons can be overwritten within the **Use Selected Icon** option of a node’s property menu.
 
- ## Node Status at StartupNode Status at Startup
+ ## Node Status at Startup
 
 	- **Restore Expanded/Collapsed Status** - Nodes of a document retain their expand/collapse state after the document is closed and opened again.
 

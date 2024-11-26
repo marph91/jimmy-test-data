@@ -4,23 +4,26 @@
 
 	Cherrytree supports command line argument for starting the application via command line.
 
- ## Cherrytree CommandCherrytree Command
+ ## Cherrytree Command
 
 		
 
- ## Positional ArgumentsPositional Arguments
+ ## Positional Arguments
 
 		
 
- ## Optional ArgumentsOptional Arguments
+ ## Optional Arguments
 
 		
+
 | python2 cherrytree<br> | Opens Cherrytree.<br> |
 | --- | --- |
 | Command | Description |
+
 | filepath<br> | Defines the document to open in Cherrytree. Replace filepath with the path of a file.<br> |
 | --- | --- |
 | Argument | Description |
+
 | -h<br> --help<br> | Displays a list of command-line options.<br> |
 | --- | --- |
 | -n node_name<br> --node node_name<br> | Opens a document and selects the specified node. Replace node_name with the node to select.<br> |

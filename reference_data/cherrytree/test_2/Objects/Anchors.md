@@ -2,28 +2,28 @@
 # Anchors
 
 
-	An anchor is represented by the icon shown in [Figure 8.02](42 figure-8.02) and can be referenced in a link to direct a user to a particular place within a node.
+	An anchor is represented by the icon shown in [Figure 8.02](Anchors.md) and can be referenced in a link to direct a user to a particular place within a node.
 	
 	 Figure 8.02
 	
 
- ## Inserting AnchorsInserting Anchors
+ ## Inserting Anchors
 
-	1. Select** Insert Ancho**r from the **Edit** menu to display **Insert Anchor** menu.
+	1. Select **Insert Ancho**r from the **Edit** menu to display **Insert Anchor** menu.
 
 	2. Provide a name for the anchor.
 
 	3. Click **OK** to complete the insertion.
 
- ## Referencing AnchorsReferencing Anchors
+ ## Referencing Anchors
 
-	When [inserting a link](41 h2-1), select the To Node option and add the name of the anchor to the Anchor Name textbox. Hovering over an anchor will display its name.
+	When [inserting a link](Links.md), select the To Node option and add the name of the anchor to the Anchor Name textbox. Hovering over an anchor will display its name.
 
- ## Editing AnchorsEditing Anchors
+ ## Editing Anchors
 
 	Right-click an anchor icon to display is options.
 
-	- **Cut Anchor **- Moves the selected anchor to your clipboard. The anchor can then be pasted elsewhere.
+	- **Cut Anchor** - Moves the selected anchor to your clipboard. The anchor can then be pasted elsewhere.
 
 	- **Copy Anchor** - Copies the selected anchor to your clipboard. The copy can then be pasted elsewhere.
 

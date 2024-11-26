@@ -48,11 +48,11 @@
 
 	3. In the **Who is the parent?** menu, select one of the following options:
 	
-		- **The Tree Root **- Each imported file is added to a top-level node.
+		- **The Tree Root** - Each imported file is added to a top-level node.
 
 		- **The Selected Node** - Each imported file is added to a child node of the selected node.
 
 
-	4. Click** OK**.
+	4. Click **OK**.
 
 	**NOTE:** This process may take a few minutes when importing many files or larger files.

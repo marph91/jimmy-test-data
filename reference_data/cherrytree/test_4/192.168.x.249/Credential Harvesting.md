@@ -5,7 +5,7 @@ Administrator::387aef0561b65e4f3cae0960b0fba2d5
 
 
 
-echo "Let's check if this script works running as **damon** and password** i6yuT6tym@**"
+echo "Let's check if this script works running as **damon** and password **i6yuT6tym@**"
 
 In repo history, we find:
 

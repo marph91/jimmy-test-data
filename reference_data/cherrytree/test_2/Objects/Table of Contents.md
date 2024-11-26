@@ -4,9 +4,9 @@
 
 	This feature inserts an unordered, hierarchical list containing a link for every node and header.
 
- ## Inserting a Table of ContentsInserting a Table of Contents
+ ## Inserting a Table of Contents
 
-	1. Select **Insert TOC** from the **Edit** menu to display the** Involved Nodes **menu.
+	1. Select **Insert TOC** from the **Edit** menu to display the **Involved Nodes** menu.
 
 	2. Define the scope of the contents to be included.
 
@@ -18,6 +18,6 @@
 
 	3. Click **OK** to complete the insertion.
 
- ## Updating a Table of ContentsUpdating a Table of Contents## 
+ ## Updating a Table of Contents
 
 	A table of contents does not update as changes are made to the nodes or headers. To update a table of contents, delete the existing TOC and create a new one.

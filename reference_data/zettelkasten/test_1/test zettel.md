@@ -8,12 +8,11 @@ Test-Tabelle
 | --- | --- | --- |
 | data 1  | data2  | data 3 |
 
-
 Bild:
 
 ![test.png](test.png)
 
-**hervorgehoben**
+==hervorgehoben==
 
 mit Anhang
 

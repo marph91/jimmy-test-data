@@ -6,10 +6,10 @@
 	
 	**NOTE:** These characters are not converted to a horizontal rule when exported.
 
- ## Configuring Horizontal RulesConfiguring Horizontal Rules
+ ## Configuring Horizontal Rules
 
 	The horizontal rule can be configured in the [text and code preference menu](../Settings/Text%20and%20Code.md) to insert any sequence of characters.
 
- ## Inserting a Horizontal RuleInserting a Horizontal Rule
+ ## Inserting a Horizontal Rule
 
 	Select **Insert Horizontal Rule** from the **Edit** menu to insert a horizontal rule.

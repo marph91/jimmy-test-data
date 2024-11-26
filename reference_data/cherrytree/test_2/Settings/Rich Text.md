@@ -4,7 +4,7 @@
 
 	The Rich Text preferences menu provides configuration options for [Rich Text nodes](../Text/Rich%20Text.md).
 
- ## Spell CheckSpell Check
+ ## Spell Check
 
 	- **Enable Spell Check** - Toggles Cherrytree’s spell check feature.
 	
@@ -14,19 +14,19 @@
 	
 		- **cs_CZ** - Czech (Czechia)
 
-		- **de_DE **- German (Germany)
+		- **de_DE** - German (Germany)
 
-		-** en_Au **- English (Australia)
+		- **en_Au** - English (Australia)
 
-		-** en_GB **- English (Britain)
+		- **en_GB** - English (Britain)
 
 		- **en_US** - English (United States)
 
 		- **es** - Spanish
 
-		-** fr** - French
+		- **fr** - French
 
-		-** fr_FR **- French (France)
+		- **fr_FR** - French (France)
 
 		- **hy_AM** - Armenian (Armenia)
 
@@ -36,7 +36,7 @@
 
 		- **nl** - Dutch
 
-		- **pl **- Polish
+		- **pl** - Polish
 
 		- **pt_BR** - Portuguese (Brazil)
 
@@ -44,9 +44,9 @@
 
 		- **uk_UA** - Ukrainian (Ukraine)
 
- ## ThemeTheme
+ ## Theme
 
-	- **Light Background, Dark Text **- Sets the editor background color to white and text color to black.
+	- **Light Background, Dark Text** - Sets the editor background color to white and text color to black.
 
 	- **Dark Background, Light Text** - Sets the editor background color to dark blue and text color to white.
 
@@ -55,11 +55,11 @@
 	- **Monospace Background** - Defines the background color of monospace text.
 
 
- ## MiscellaneousMiscellaneous
+ ## Miscellaneous
 
 	- **Show White Spaces** - Displays character markers over spaces.
 
-	- **Highlight Current Line **- Highlights the line of the cursor position.
+	- **Highlight Current Line** - Highlights the line of the cursor position.
 
 	- **Expand CodeBoxes Automatically** - Increases the height of codeboxes to fit its content in one viewport.
 
