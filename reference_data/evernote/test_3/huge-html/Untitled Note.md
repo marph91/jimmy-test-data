@@ -43,7 +43,7 @@ Increase in murder, as well as rape, torture and discrimination, has led the pop
 ![unnamed_23b8c1e9392446debeb13b9046685257](unnamed_23b8c1e9392446debeb13b9046685257.jpg)
 Christians are scanned with a metal detector outside the Our Lady of Consolation church, in Garissa, Kenya which was attacked with grenades by militants. Photograph: Ben Curtis/AP
 
-**[authorHarriet Sherwood](http://www.theguardian.com/profile/harrietsherwood)
+**[Harriet Sherwood](http://www.theguardian.com/profile/harrietsherwood)
 
 **
 **<http://twitter.com/harrietsherwood>**
@@ -233,7 +233,7 @@ Signed in as **AndrewBrown**
 Order by **oldest**
 Show **25**
 Threads **collapsed**
-**1** **[2](http://www.theguardian.com/discussion/p/4azh6?page=2)** **[3](http://www.theguardian.com/discussion/p/4azh6?page=3)** **[4](http://www.theguardian.com/discussion/p/4azh6?page=4)**… **[8](http://www.theguardian.com/discussion/p/4azh6?page=8)** **[next next](http://www.theguardian.com/discussion/p/4azh6?page=2)**
+**1** **[2](http://www.theguardian.com/discussion/p/4azh6?page=2)** **[3](http://www.theguardian.com/discussion/p/4azh6?page=3)** **[4](http://www.theguardian.com/discussion/p/4azh6?page=4)**… **[8](http://www.theguardian.com/discussion/p/4azh6?page=8)** **[ next](http://www.theguardian.com/discussion/p/4azh6?page=2)**
 
 - ![unnamed_b74d0fb132e746298fadc1a606cb0fb3](unnamed_b74d0fb132e746298fadc1a606cb0fb3.gif)
 **[Lillianne](https://profile.theguardian.com/user/id/14670089)**
