@@ -17,9 +17,9 @@
 - [asia](http://www.theguardian.com/world/asia)
 - [australia](http://www.theguardian.com/australia-news)
 
-- [home ](http://www.theguardian.com/uk)
+- [home](http://www.theguardian.com/uk)
 - [UK ](http://www.theguardian.com/uk-news)
-- [world selected ](http://www.theguardian.com/world)
+- [world selected](http://www.theguardian.com/world)
 - [politics ](http://www.theguardian.com/politics)
 - [sport ](http://www.theguardian.com/uk/sport)
 - [football ](http://www.theguardian.com/football)
@@ -52,12 +52,12 @@ Christians are scanned with a metal detector outside the Our Lady of Consolation
 Monday 27 July 2015 14.21 BST
 Last modified on Monday 27 July 2015 15.47 BST
 
-- [Share on Facebook ](https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fgu.com%2Fp%2F4azh6%2Fsfb&ref=responsive)
-- [Share on Twitter ](https://twitter.com/intent/tweet?text=Dying+for+Christianity%3A+millions+at+risk+amid+rise+in+persecution+across+the+globe&url=http%3A%2F%2Fgu.com%2Fp%2F4azh6%2Fstw)
-- Share via Email 
-- [Share on Pinterest ](http://www.pinterest.com/pin/find/?url=http%3A%2F%2Fwww.theguardian.com%2Fworld%2F2015%2Fjul%2F27%2Fdying-for-christianity-millions-at-risk-amid-rise-in-persecution-across-the-globe)
-- [Share on LinkedIn ](http://www.linkedin.com/shareArticle?mini=true&title=Dying+for+Christianity%3A+millions+at+risk+amid+rise+in+persecution+across+the+globe&url=http%3A%2F%2Fgu.com%2Fp%2F4azh6)
-- [Share on Google+ ](https://plus.google.com/share?url=http%3A%2F%2Fgu.com%2Fp%2F4azh6%2Fsgp&amp;hl=en-GB&amp;wwc=1)
+- [Share on Facebook](https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fgu.com%2Fp%2F4azh6%2Fsfb&ref=responsive)
+- [Share on Twitter](https://twitter.com/intent/tweet?text=Dying+for+Christianity%3A+millions+at+risk+amid+rise+in+persecution+across+the+globe&url=http%3A%2F%2Fgu.com%2Fp%2F4azh6%2Fstw)
+- Share via Email
+- [Share on Pinterest](http://www.pinterest.com/pin/find/?url=http%3A%2F%2Fwww.theguardian.com%2Fworld%2F2015%2Fjul%2F27%2Fdying-for-christianity-millions-at-risk-amid-rise-in-persecution-across-the-globe)
+- [Share on LinkedIn](http://www.linkedin.com/shareArticle?mini=true&title=Dying+for+Christianity%3A+millions+at+risk+amid+rise+in+persecution+across+the+globe&url=http%3A%2F%2Fgu.com%2Fp%2F4azh6)
+- [Share on Google+](https://plus.google.com/share?url=http%3A%2F%2Fgu.com%2Fp%2F4azh6%2Fsgp&amp;hl=en-GB&amp;wwc=1)
 
 <http://www.theguardian.com/world/2015/jul/27/dying-for-christianity-millions-at-risk-amid-rise-in-persecution-across-the-globe#comments>
 
@@ -189,12 +189,12 @@ A group of Boko Haram militants attacked a school in Chibok, a primarily Christi
 - **[Syria](http://www.theguardian.com/world/syria)**
 - **More…**
 
-- [Share on Facebook ](https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fgu.com%2Fp%2F4azh6%2Fsfb&ref=responsive)
-- [Share on Twitter ](https://twitter.com/intent/tweet?text=Dying+for+Christianity%3A+millions+at+risk+amid+rise+in+persecution+across+the+globe&url=http%3A%2F%2Fgu.com%2Fp%2F4azh6%2Fstw)
-- Share via Email 
-- [Share on Pinterest ](http://www.pinterest.com/pin/find/?url=http%3A%2F%2Fwww.theguardian.com%2Fworld%2F2015%2Fjul%2F27%2Fdying-for-christianity-millions-at-risk-amid-rise-in-persecution-across-the-globe)
-- [Share on LinkedIn ](http://www.linkedin.com/shareArticle?mini=true&title=Dying+for+Christianity%3A+millions+at+risk+amid+rise+in+persecution+across+the+globe&url=http%3A%2F%2Fgu.com%2Fp%2F4azh6)
-- [Share on Google+ ](https://plus.google.com/share?url=http%3A%2F%2Fgu.com%2Fp%2F4azh6%2Fsgp&amp;hl=en-GB&amp;wwc=1)
+- [Share on Facebook](https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fgu.com%2Fp%2F4azh6%2Fsfb&ref=responsive)
+- [Share on Twitter](https://twitter.com/intent/tweet?text=Dying+for+Christianity%3A+millions+at+risk+amid+rise+in+persecution+across+the+globe&url=http%3A%2F%2Fgu.com%2Fp%2F4azh6%2Fstw)
+- Share via Email
+- [Share on Pinterest](http://www.pinterest.com/pin/find/?url=http%3A%2F%2Fwww.theguardian.com%2Fworld%2F2015%2Fjul%2F27%2Fdying-for-christianity-millions-at-risk-amid-rise-in-persecution-across-the-globe)
+- [Share on LinkedIn](http://www.linkedin.com/shareArticle?mini=true&title=Dying+for+Christianity%3A+millions+at+risk+amid+rise+in+persecution+across+the+globe&url=http%3A%2F%2Fgu.com%2Fp%2F4azh6)
+- [Share on Google+](https://plus.google.com/share?url=http%3A%2F%2Fgu.com%2Fp%2F4azh6%2Fsgp&amp;hl=en-GB&amp;wwc=1)
 
 **Save for later**
 
@@ -235,14 +235,12 @@ Show **25**
 Threads **collapsed**
 **1** **[2](http://www.theguardian.com/discussion/p/4azh6?page=2)** **[3](http://www.theguardian.com/discussion/p/4azh6?page=3)** **[4](http://www.theguardian.com/discussion/p/4azh6?page=4)**… **[8](http://www.theguardian.com/discussion/p/4azh6?page=8)** **[next next](http://www.theguardian.com/discussion/p/4azh6?page=2)**
 
-- 
-![unnamed_b74d0fb132e746298fadc1a606cb0fb3](unnamed_b74d0fb132e746298fadc1a606cb0fb3.gif)
+- ![unnamed_b74d0fb132e746298fadc1a606cb0fb3](unnamed_b74d0fb132e746298fadc1a606cb0fb3.gif)
 **[Lillianne](https://profile.theguardian.com/user/id/14670089)**
 <http://discussion.theguardian.com/comment-permalink/56464029>
 3h ago
                             This comment was removed by a moderator because it didn't abide by our                             [community standards](http://www.theguardian.com/community-standards).                             Replies may also be deleted. For more detail see [our FAQs](http://www.theguardian.com/community-faqs).
-- 
-![unnamed_b74d0fb132e746298fadc1a606cb0fb3](unnamed_b74d0fb132e746298fadc1a606cb0fb3.gif)
+- ![unnamed_b74d0fb132e746298fadc1a606cb0fb3](unnamed_b74d0fb132e746298fadc1a606cb0fb3.gif)
 **[nevermindlastnight](https://profile.theguardian.com/user/id/14881964)**
 <http://discussion.theguardian.com/comment-permalink/56464149>
 3h ago
@@ -258,9 +256,9 @@ Report
 
 [The Guardian](http://www.theguardian.com/uk) **[ back to top](http://www.theguardian.com/world/2015/jul/27/dying-for-christianity-millions-at-risk-amid-rise-in-persecution-across-the-globe#top)**
 
-- [home ](http://www.theguardian.com/uk)
+- [home](http://www.theguardian.com/uk)
 - [UK ](http://www.theguardian.com/uk-news)
-- [world selected ](http://www.theguardian.com/world)
+- [world selected](http://www.theguardian.com/world)
 - [politics ](http://www.theguardian.com/politics)
 - [sport ](http://www.theguardian.com/uk/sport)
 - [football ](http://www.theguardian.com/football)
@@ -275,10 +273,8 @@ Report
 
 **[ all sections](http://www.theguardian.com/world/2015/jul/27/dying-for-christianity-millions-at-risk-amid-rise-in-persecution-across-the-globe#footer-nav)**
 
-- 
-[World](http://www.theguardian.com/world)
-- 
-› [Christianity](http://www.theguardian.com/world/christianity)
+- [World](http://www.theguardian.com/world)
+- › [Christianity](http://www.theguardian.com/world/christianity)
 
 **
 - [membership](https://membership.theguardian.com/?INTCMP=NGW_FOOTER_UK_GU_MEMBERSHIP)
@@ -291,8 +287,8 @@ Report
 - [about us](http://www.theguardian.com/info)
 - [contact us](http://www.theguardian.com/help/contact-us)
 - [report technical issue](http://www.theguardian.com/info/tech-feedback)
-- [complaints & corrections](http://www.theguardian.com/info/complaints-and-corrections)
-- [terms & conditions](http://www.theguardian.com/help/terms-of-service)
+- [complaints &corrections](http://www.theguardian.com/info/complaints-and-corrections)
+- [terms &conditions](http://www.theguardian.com/help/terms-of-service)
 - [privacy policy](http://www.theguardian.com/info/privacy)
 - [cookie policy](http://www.theguardian.com/info/cookies)
 - [securedrop](https://securedrop.theguardian.com/)
@@ -300,6 +296,6 @@ Report
 
 © 2015 Guardian News and Media Limited or its affiliated companies. All rights reserved.
 
-- [Share on Twitter ](http://www.theguardian.com/world/2015/jul/27/dying-for-christianity-millions-at-risk-amid-rise-in-persecution-across-the-globe#)
-- [Share via Email ](http://www.theguardian.com/world/2015/jul/27/dying-for-christianity-millions-at-risk-amid-rise-in-persecution-across-the-globe#)
+- [Share on Twitter](http://www.theguardian.com/world/2015/jul/27/dying-for-christianity-millions-at-risk-amid-rise-in-persecution-across-the-globe#)
+- [Share via Email](http://www.theguardian.com/world/2015/jul/27/dying-for-christianity-millions-at-risk-amid-rise-in-persecution-across-the-globe#)
 

@@ -1,3 +1,3 @@
-- [ ]  Checkbox not completed
+- [ ] Checkbox not completed
 - [x] Checkbox done
 
