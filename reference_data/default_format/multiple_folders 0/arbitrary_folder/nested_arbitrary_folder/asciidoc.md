@@ -1,7 +1,6 @@
 # Hello, AsciiDoc!
 
-This is an interactive editor. Use it to try
-[AsciiDoc](https://asciidoc.org).
+This is an interactive editor. Use it to try [AsciiDoc](https://asciidoc.org).
 
 ## Section Title
 

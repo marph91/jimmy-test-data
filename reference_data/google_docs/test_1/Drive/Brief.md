@@ -20,20 +20,11 @@ Straße 123
 
 Hallo Name des Empfängers,
 
-Text hier einfügen Text hier einfügen Text hier einfügen Text hier
-einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text
-hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen
-Text hier einfügen Text hier einfügen Text hier einfügen.
+Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen.
 
-Text hier einfügen Text hier einfügen Text hier einfügen Text hier
-einfügen Text hier einfügen Text hier einfügen Text hier einfügen.
+Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen.
 
-Text hier einfügen Text hier einfügen Text hier einfügen Text hier
-einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text
-hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen
-Text hier einfügen Text hier einfügen Text hier einfügen Text hier
-einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text
-hier einfügen.
+Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen.
 
 Mit freundlichen Grüßen
 

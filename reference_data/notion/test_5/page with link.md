@@ -1,6 +1,5 @@
 # page with link
 
-[another
-subpage](Testseite/subpage/another%20subpage.md)
+[another subpage](Testseite/subpage/another%20subpage.md)
 
 more content

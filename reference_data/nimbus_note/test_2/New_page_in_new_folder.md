@@ -75,8 +75,7 @@ GitHub - marph91/jimmy: Convert your notes to Markdown
 
 https://github.com/marph91/jimmy
 
-Convert your notes to Markdown. Contribute to marph91/jimmy development
-by creating an account on GitHub.
+Convert your notes to Markdown. Contribute to marph91/jimmy development by creating an account on GitHub.
 
 ![fhV0eOXTt9oJe7Zt.png](fhV0eOXTt9oJe7Zt.png)
 

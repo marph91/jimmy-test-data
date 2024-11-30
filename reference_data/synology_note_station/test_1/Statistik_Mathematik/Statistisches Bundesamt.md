@@ -1,10 +1,8 @@
-0 weniger als die Hälfte von 1 in der letzten besetzten Stelle, jedoch
-mehr als nichts
+0 weniger als die Hälfte von 1 in der letzten besetzten Stelle, jedoch mehr als nichts
 
 X Tabellenfach gesperrt, weil Aussage nicht sinnvoll
 
-() Aussagewert eingeschränkt, da der Zahlenwert statistisch relativ
-unsicher ist
+() Aussagewert eingeschränkt, da der Zahlenwert statistisch relativ unsicher ist
 
 \- nichts vorhanden
 

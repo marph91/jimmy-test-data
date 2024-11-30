@@ -12,24 +12,15 @@ Produktbroschüre
 
 # Produktübersicht
 
-Text hier einfügen Text hier einfügen Text hier einfügen Text hier
-einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text
-hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen
-Text hier einfügen Text hier einfügen Text hier einfügen Text hier
-einfügen.![Platzhalterbild](image1.jpg)
+Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen.![Platzhalterbild](image1.jpg)
 
 ## Text hier einfügen
 
-Text hier einfügen Text hier einfügen Text hier einfügen Text hier
-einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text
-hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen
-Text hier einfügen.
+Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen.
 
 ### Text hier einfügen
 
-Text hier einfügen Text hier einfügen Text hier einfügen Text hier
-einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text
-hier einfügen Text hier einfügen.
+Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen.
 
 ## 
 
@@ -37,28 +28,10 @@ hier einfügen Text hier einfügen.
 
 ## Text hier einfügen
 
-Text hier einfügen Text hier einfügen Text hier einfügen Text hier
-einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text
-hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen
-Text hier einfügen Text hier einfügen Text hier einfügen Text hier
-einfügen.
+Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen.
 
 # Details
 
-Text hier einfügen Text hier einfügen Text hier einfügen Text hier
-einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text
-hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen
-Text hier einfügen Text hier einfügen Text hier einfügen Text hier
-einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text
-hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen
-Text hier einfügen Text hier einfügen Text hier einfügen Text hier
-einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text
-hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen.
+Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen.
 
-Text hier einfügen Text hier einfügen Text hier einfügen Text hier
-einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text
-hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen
-Text hier einfügen Text hier einfügen Text hier einfügen Text hier
-einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text
-hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen
-Text hier einfügen Text hier einfügen.
+Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen.

@@ -82,8 +82,7 @@ Line chart
 
 Below is a bar chart
 
-Below is an image of the design of the line chart as seen in
-note-station
+Below is an image of the design of the line chart as seen in note-station
 
 ![ns_attach_image_787491613404344687.png](file_e79072f793f22434740e64e93cfe5926.png)
 
@@ -97,33 +96,25 @@ Below is a link to test page 2 inside of this notebook
 
 Below is a renamed link to test page 2 inside of this notebook
 
-[renamed link to test page
-2](../Test%20Book%202/Page%20linked%20to%20from%20test%20book.md)
+[renamed link to test page 2](test%20page%202.md)
 
 Below is a a page in the 'Test Book 2' notebook
 
-[Page linked to from test
-book](../Test%20Book%202/Page%20linked%20to%20from%20test%20book.md)
+[Page linked to from test book](../Test%20Book%202/Page%20linked%20to%20from%20test%20book.md)
 
-Below is a renamed link to a page in this notebook, the link will not
-work
+Below is a renamed link to a page in this notebook, the link will not work
 
-[renamed link to test page
-3](../Test%20Book%202/Page%20linked%20to%20from%20test%20book.md)
+[renamed link to test page 3](test%20page%203.md)
 
 Below is a link to a page that has a duplicated page title
 
-[This is a duplicated
-title](../Test%20Book%202/This%20is%20a%20duplicated%20title.md)
+[This is a duplicated title](../Test%20Book%202/This%20is%20a%20duplicated%20title.md)
 
-An audio memo recording has been attached - it is silent
-because Note Station does not record correctly on my computers (if the
-feature actually works) but this shows it is exported.
+An audio memo recording has been attached - it is silent because Note Station does not record correctly on my computers (if the feature actually works) but this shows it is exported.
 
 An example-attachment.pdf has been attached
 
-This page has 4 tags Tag1, Tag2, Tag1/SubTag1, Tag1/SubTag1/SubSubTag1.
-There will be near the top of the markdown file.
+This page has 4 tags Tag1, Tag2, Tag1/SubTag1, Tag1/SubTag1/SubSubTag1. There will be near the top of the markdown file.
 
 This is some code pasted into the note
 
@@ -133,9 +124,7 @@ if not files_to_convert:
     exit(1)
 ```
 
-There is no way to insert 'code' in line in a Note.  Note formatted HTML
-does not use the &lt;code&gt; tag it just uses a &lt;pre&gt; tag so code
-is always it's own block even if only one word. Just like
+There is no way to insert 'code' in line in a Note.  Note formatted HTML does not use the &lt;code&gt; tag it just uses a &lt;pre&gt; tag so code is always it's own block even if only one word. Just like
 
 ```
 while
@@ -143,8 +132,7 @@ while
 
 this.
 
-A pdf of what this page looks like in Note Station has been attached -
-see test page.pdf
+A pdf of what this page looks like in Note Station has been attached - see test page.pdf
 
 This is the end of the text.
 

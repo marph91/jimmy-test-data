@@ -79,31 +79,16 @@
 |     |
 
 **Web Address:** [www.PROVANTAGE.com](http://www.PROVANTAGE.com)   
- **Toll Free:** 800-336-1166     **Fax:** 330-494-5260     **email:**
-<sales@provantage.com>
+ **Toll Free:** 800-336-1166     **Fax:** 330-494-5260     **email:** <sales@provantage.com>
 
 [  
-Privacy Policy](http://www.provantage.com/fpolicy.htm) \| [Terms &
-Conditions](http://www.provantage.com/fterms.htm) \| [FREE
-Catalog](http://www.provantage.com/scripts/add2list.dll/f/0)
+Privacy Policy](http://www.provantage.com/fpolicy.htm) \| [Terms & Conditions](http://www.provantage.com/fterms.htm) \| [FREE Catalog](http://www.provantage.com/scripts/add2list.dll/f/0)
 
-**©2001 PROVANTAGE Corporation, 7249 Whipple Ave. NW, North Canton, OH
-44720**
+**©2001 PROVANTAGE Corporation, 7249 Whipple Ave. NW, North Canton, OH 44720**
 
-Products, prices, terms, conditions, or offers may change at any time.
-Company and/or product names are generally trademarks, or registered
-trademarks of their respective companies. Some promotional text may be
-copyrighted by the product's manufacturer. 
+Products, prices, terms, conditions, or offers may change at any time. Company and/or product names are generally trademarks, or registered trademarks of their respective companies. Some promotional text may be copyrighted by the product's manufacturer. 
 
-The Original Advantage promotional email is delivered only to customers
-of PROVANTAGE Corporation. PROVANTAGE customers have purchased products
-in the past and submitted their email address as part of the checkout
-process. Or, customers have entered their name in the "Add to Email
-List" box on the PROVANTAGE.com home page. Any customer may unsubscribe
-from the list at any time by going to
-<http://www.provantage.com/unsubscribe.htm>. The email address is
-permanently removed from additional promotional electronic mailings, and
-will not be reactivated unless requested by the customer.  
+The Original Advantage promotional email is delivered only to customers of PROVANTAGE Corporation. PROVANTAGE customers have purchased products in the past and submitted their email address as part of the checkout process. Or, customers have entered their name in the "Add to Email List" box on the PROVANTAGE.com home page. Any customer may unsubscribe from the list at any time by going to <http://www.provantage.com/unsubscribe.htm>. The email address is permanently removed from additional promotional electronic mailings, and will not be reactivated unless requested by the customer.  
 
 |  |  |
 |----|----|

@@ -2,5 +2,4 @@
 
 Test page
 
-[sub
-page](Testing/sub%20page.md)
+[sub page](Testing/sub%20page.md)
