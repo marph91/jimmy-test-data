@@ -1,0 +1,17 @@
+caption: How does this work? · Discussion #80 · buggyj/tiddlyclip
+created: 20230222015208070
+location: https://github.com/buggyj/tiddlyclip/discussions/80#discussioncomment-4687632
+modified: 20230222020127736
+tags: tiddlyclip
+title: How does this work? tiddlyclip
+type: text/vnd.tiddlywiki
+when: 2023/2/22 01:52:08
+
+https://github.com/buggyj/tiddlyclip/discussions/80#discussioncomment-4687632
+
+<p dir="auto">The default is to copy plain text, but this can be changed to html in the <code class="notranslate">defaultSnip</code> tiddler:</p>
+<p dir="auto"><a href="https://user-images.githubusercontent.com/2855795/212466828-639f1fff-47ca-4bc2-b196-fb11f27536fb.png" rel="noopener noreferrer nofollow"><img style="max-width: 100%;" alt="image" src="https://user-images.githubusercontent.com/2855795/212466828-639f1fff-47ca-4bc2-b196-fb11f27536fb.png"></a></p>
+<p dir="auto">changing <code class="notranslate">((*@text*))</code>  to <code class="notranslate">((*@web*))</code></p>
+<p dir="auto">The contains of the clipboard are also available via</p>
+<p dir="auto"><code class="notranslate">((*@clip*))</code></p>
+

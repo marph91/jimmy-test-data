@@ -1,0 +1,203 @@
+caption: Rabbit Hole of Free Add-ons - Coding / Released Scripts and Themes - Blender Artists Community
+created: 20230304001949424
+location: https://blenderartists.org/t/rabbit-hole-of-free-add-ons/1446091
+modified: 20230304001949424
+title: Rabbit Hole of Free Add-ons - Coding / Released Scripts and Themes - Blender Artists Community
+type: text/vnd.tiddlywiki
+when: 2023/3/3 18:19:49
+
+https://blenderartists.org/t/rabbit-hole-of-free-add-ons/1446091
+
+<p>General:</p>
+<ul>
+<li>
+<a rel="noopener nofollow ugc" href="https://blendermarket.com/products/skkeeper"><strong>Shape Key Keeper</strong> <span title="3 clicks" class="badge badge-notification clicks">3</span></a> (applies modifiers while keeping shape keys intact)</li>
+<li>
+<a class="rebaked" rel="noopener nofollow ugc" href="https://a.blendernation.com/go/go.php?url=https://amanbairwal.gumroad.com/l/AlignAndDistribute&amp;src=BA"><strong>Align and Distribute</strong></a> (quickly align and/or distribute selected objects)</li>
+<li>
+<a rel="noopener nofollow ugc" href="https://github.com/samytichadou/FontSelector_blender_addon"><strong>Font Selector</strong> <span title="7 clicks" class="badge badge-notification clicks">7</span></a> (preview and select fonts from local libraries without manually loading them in .blend file)</li>
+<li>
+<a rel="noopener nofollow ugc" href="https://github.com/MichaelGlenMontague/shape_keys_plus"><strong>Shape Keys +</strong> <span title="6 clicks" class="badge badge-notification clicks">6</span></a> (adds new Shape Keys panel in data properties, which has folders system)</li>
+<li>
+<a class="rebaked" rel="noopener nofollow ugc" href="https://a.blendernation.com/go/go.php?url=https://amanbairwal.gumroad.com/l/SyncedModifiers&amp;src=BA"><strong>Synced Modifiers</strong></a> (synchronizes modifiers for selected objects)</li>
+<li>
+<a href="https://blenderartists.org/t/purge-orphans-by-data-type/1448384"><strong>Purge by Data Type</strong> <span title="4 clicks" class="badge badge-notification clicks">4</span></a> (completely remove userless data and files from .blend file for selected data types)</li>
+</ul>
+<p>Interface:</p>
+<ul>
+<li>
+<a rel="noopener nofollow ugc" href="https://github.com/DanielBoxer/ReView"><strong>ReView</strong> <span title="24 clicks" class="badge badge-notification clicks">24</span></a> (somewhat better version of Saved Views included blender addon. Cleaner, less bugs and more functionality)</li>
+<li>
+<a rel="noopener nofollow ugc" href="https://developer.blender.org/F14189003"><strong>Show Weights</strong> <span title="20 clicks" class="badge badge-notification clicks">20</span></a> (in Edit Mode → Sidebar → Edit you can see vertex groups and weights for selected vertices)</li>
+<li>
+<a rel="noopener nofollow ugc" href="https://www.patreon.com/posts/quickref-addon-43439148"><strong>QuickRef</strong> <span title="17 clicks" class="badge badge-notification clicks">17</span></a> (shows fully visible image inside View3D, size and position can be controlled)</li>
+<li>
+<a class="rebaked" rel="noopener nofollow ugc" href="https://a.blendernation.com/go/go.php?url=https://captainhansode.gumroad.com/l/wqaMJ&amp;src=BA"><strong>Selection Sets</strong></a> (save &amp; load object selections in 3D viewport)</li>
+<li>
+<a class="rebaked" rel="noopener nofollow ugc" href="https://a.blendernation.com/go/go.php?url=https://amanbairwal.gumroad.com/l/HideSteps&amp;src=BA"><strong>Hide Steps</strong></a> (alt-H unhides objects you hid last, not everything. Steps can be changed)</li>
+<li>
+<a href="https://blenderartists.org/t/rabbit-hole-of-free-add-ons/1446091/uploads/short-url/7kPxlMWhW4UmyE8O5Jl38cY4HUi.py" class="attachment">Align Viewports Views.py</a> (adds operator in View &gt; Align View that aligns view in every 3D View window opened)</li>
+<li>
+<a class="rebaked" rel="noopener nofollow ugc" href="https://a.blendernation.com/go/go.php?url=https://kushiro.gumroad.com/l/visualaxis&amp;src=BA"><strong>Visual Axis</strong></a> (you can turn of/off axis for any vertex, edge, face, or object)</li>
+</ul>
+<p>Modeling:</p>
+<ul>
+<li>
+<a class="rebaked" rel="noopener nofollow ugc" href="https://a.blendernation.com/go/go.php?url=https://kushiro.gumroad.com/l/smjsbe?layout=profile&amp;recommended_by=library&amp;src=BA"><strong>Select Sim</strong></a> (more advanced select similar faces tool than default Blenders)</li>
+<li>
+<a class="rebaked" rel="noopener nofollow ugc" href="https://a.blendernation.com/go/go.php?url=https://amanbairwal.gumroad.com/l/NGonLoopSelect?layout=profile&amp;recommended_by=library&amp;src=BA"><strong>N-Gon Loop Select</strong> <span title="1 click" class="badge badge-notification clicks">1</span></a> (lets you select edge loops around n-gons in single step)</li>
+<li>
+<a class="rebaked" rel="noopener nofollow ugc" href="https://a.blendernation.com/go/go.php?url=https://thestrokeforge.gumroad.com/l/VoxCleanerV2&amp;src=BA"><strong>Vox Cleaner</strong> <span title="1 click" class="badge badge-notification clicks">1</span></a> (cleans topology of mesh, leaves only faces that are necessary for keeping shape, and removes everything else)</li>
+<li>
+<a class="rebaked" rel="noopener nofollow ugc" href="https://a.blendernation.com/go/go.php?url=https://alexbel.gumroad.com/l/EJDaY?layout=profile&amp;src=BA"><strong>Grow/Shrink Visibility</strong></a> (shortcuts to expand or shrink faces hidden)</li>
+<li>
+<a class="rebaked" rel="noopener nofollow ugc" href="https://a.blendernation.com/go/go.php?url=https://pistiwique.gumroad.com/l/mesh_check_BGL_edition?_ga=2.255264718.77067235.1676720427-2065439621.1653748398&amp;_gl=1*1jetzns*_ga*MjA2NTQzOTYyMS4xNjUzNzQ4Mzk4*_ga_6LJN6D94N6*MTY3NjkzMzEyMy4xMzguMS4xNjc2OTM0MzMwLjAuMC4w&amp;src=BA"><strong>Mesh Check</strong></a> (you can turn on overlays that shows you ngons, tris, e-poles, n-poles, and etc.)</li>
+</ul>
+<p>Animation:</p>
+<ul>
+<li>
+<a rel="noopener nofollow ugc" href="https://github.com/iBrushC/animextras"><strong>Onion Skinning</strong> <span title="4 clicks" class="badge badge-notification clicks">4</span></a> (Animation Extras has best onion skinning imo. GPU based, doesn’t create meshes or materials in the .blend file)</li>
+<li>
+<a class="rebaked" rel="noopener nofollow ugc" href="https://a.blendernation.com/go/go.php?url=https://liuran.gumroad.com/l/wiggle&amp;src=BA"><strong>Wiggle</strong> <span title="1 click" class="badge badge-notification clicks">1</span></a> (geometry nodes-based substitute for adding noise modifier on loc/rot/scale axis to get wiggle effect. Controlled from sidebar and includes pulse option)</li>
+<li>
+<a rel="noopener nofollow ugc" href="https://github.com/BlenderBoi/Frame_Ranger"><strong>Frame Ranger</strong> <span title="2 clicks" class="badge badge-notification clicks">2</span></a> (fit frame range to keys, exportable frame range sets and markers and many more)</li>
+<li>
+<a rel="noopener nofollow ugc" href="https://gitlab.com/therabbitmanofthewilds/retime"><strong>Retime</strong> <span title="4 clicks" class="badge badge-notification clicks">4</span></a> (better scaling tool for graph editor and dope sheet)</li>
+<li>
+<a href="https://blenderartists.org/t/rabbit-hole-of-free-add-ons/1446091/uploads/short-url/nFOmVC3JiF7xMtd6Sb5ha5czSQu.py" class="attachment">Timeline Scrub.py</a> (standalone version of timeline scrub feature from Grease Pencil tools addon. Tweaked by me to support 3.4 and higher)</li>
+<li>
+<a rel="noopener nofollow ugc" href="https://github.com/samytichadou/claymation_addon"><strong>Claymation</strong> <span title="5 clicks" class="badge badge-notification clicks">5</span></a> (similar to Keymesh, but quickly manipulates shape keys (instead of mesh data) to create stop motion animations)</li>
+<li>
+<a rel="noopener nofollow ugc" href="https://github.com/1C0D/Animation_Step_Blender"><strong>Animation Step</strong> <span title="2 clicks" class="badge badge-notification clicks">2</span></a> (Ctrl+Left/Right skips number of frames in timeline, you can set number of frames in header)</li>
+</ul>
+<p>Rigging:</p>
+<ul>
+<li>
+<a rel="noopener nofollow ugc" href="https://github.com/tingjoybits/Armature_Layer_Presets"><strong>Armature Layer Presets</strong> <span title="1 click" class="badge badge-notification clicks">1</span></a> (gives you ability to save armatures skeleton layers as presets)</li>
+<li>
+<a rel="noopener nofollow ugc" href="https://github.com/nerk987/RigFlex"><strong>Rigflex</strong> <span title="3 clicks" class="badge badge-notification clicks">3</span></a> (one click soft body/wiggle effect for bones)</li>
+<li>
+<a class="rebaked" rel="noopener nofollow ugc" href="https://a.blendernation.com/go/go.php?url=https://toshicg.gumroad.com/l/xray_weight_paint?layout=profile&amp;recommended_by=search&amp;src=BA"><strong>X-Ray Weight Paint</strong></a> (little addon that lets you paint weights through mesh (on backfaces) with single click)</li>
+</ul>
+<p>Sculpt:</p>
+<ul>
+<li>
+<a rel="noopener nofollow ugc" href="https://github.com/jeacom25b/Blender-Pressure-Simulate-Addon"><strong>Pressure Simulation</strong> <span title="5 clicks" class="badge badge-notification clicks">5</span></a> (simulates pen pressure on mouse strokes based on mouse speed)</li>
+</ul>
+<p>Nodes:</p>
+<ul>
+<li>
+<a rel="noopener nofollow ugc" href="https://github.com/schroef/node-presets/"><strong>Node Presets</strong> <span title="5 clicks" class="badge badge-notification clicks">5</span></a> (advanced version of node presets addon included in blender)</li>
+<li>
+<a rel="noopener nofollow ugc" href="https://github.com/wildiness/NodeSharer"><strong>Node Sharer</strong> <span title="2 clicks" class="badge badge-notification clicks">2</span></a> (lets you copy &amp; paste materials as text strings. Useful for copying nodes between .blend files)</li>
+<li>
+<a class="rebaked" rel="noopener nofollow ugc" href="https://a.blendernation.com/go/go.php?url=https://amanbairwal.gumroad.com/l/bake-a-node&amp;src=BA"><strong>Bake-A-Node</strong></a> (bake groups of nodes into images, useful for speeding up workflow in complex node setups)</li>
+<li>
+<a rel="noopener nofollow ugc" href="https://github.com/artellblender/BlenderNormalGroups"><strong>Faster Normal Map</strong> <span title="2 clicks" class="badge badge-notification clicks">2</span></a> (replaces normal map with custom node group for faster viewport Eevee display)</li>
+</ul>
+<p>Camera:</p>
+<ul>
+<li>
+<a rel="noopener nofollow ugc" href="https://gitlab.com/blender/lattice_magic/-/blob/master/__init__.py"><strong>Lattice Magic</strong> <span title="28 clicks" class="badge badge-notification clicks">28</span></a> (has incredible feature camera lattice. Hard to describe, check out yourself)</li>
+<li>
+<a rel="noopener nofollow ugc" href="https://developer.blender.org/T49068"><strong>Overscan</strong> <span title="10 clicks" class="badge badge-notification clicks">10</span></a> (adds overscan feature in Output properties. Scroll down for the latest version)</li>
+<li>
+<a rel="noopener nofollow ugc" href="https://gitlab.com/lfs.coop/blender/camera-plane"><strong>Camera Planes</strong> <span title="4 clicks" class="badge badge-notification clicks">4</span></a> (lets you add series of 2D images as planes and tie them to the camera, for 2D animations)</li>
+</ul>
+<p>Render:</p>
+<ul>
+<li>
+<a rel="noopener nofollow ugc" href="https://github.com/iRi-E/blender_render_animatic"><strong>Render Animatic</strong> <span title="7 clicks" class="badge badge-notification clicks">7</span></a> (lets you render only keyframed or marked frames. Regular or viewport render. Lots of other options too)</li>
+<li>
+<a rel="noopener nofollow ugc" href="https://github.com/samytichadou/dupe_render"><strong>Dupe Render</strong> <span title="5 clicks" class="badge badge-notification clicks">5</span></a> (skips rendering identical frames and instead uses one image twice)</li>
+<li>
+<a rel="noopener nofollow ugc" href="https://developer.blender.org/diffusion/BAC/browse/master/render_auto_save.py"><strong>Render Auto Save</strong> <span title="5 clicks" class="badge badge-notification clicks">5</span></a> (automatically saves images in computer after rendering. Can be turned on or off, has more settings. in Output properties)</li>
+<li>
+<a rel="noopener nofollow ugc" href="https://github.com/RxLaboratory/DuBlast"><strong>DuBlast</strong> <span title="4 clicks" class="badge badge-notification clicks">4</span></a> (easy playblast feature with clean UI and top-notch customization)</li>
+<li>
+<a rel="noopener nofollow ugc" href="https://github.com/Pullusb/SB_images_to_video"><strong>Image Sequence to Video</strong> <span title="3 clicks" class="badge badge-notification clicks">3</span></a> (can generate video from rendered png’s in output panel. Can render it out as video, gif, or add it into the sequencer as strip)</li>
+</ul>
+<p>Baking:</p>
+<ul>
+<li>
+<a class="rebaked" rel="noopener nofollow ugc" href="https://a.blendernation.com/go/go.php?url=https://3dbystedt.gumroad.com/l/zdgxg?layout=profile&amp;src=BA"><strong>Bake to Vertex Colors</strong> <span title="1 click" class="badge badge-notification clicks">1</span></a> (bake material channels on the vertex colors)</li>
+</ul>
+<p>Texturing:</p>
+<ul>
+<li>
+<a class="rebaked" rel="noopener nofollow ugc" href="https://a.blendernation.com/go/go.php?url=https://clemensbeute.gumroad.com/l/heZDT?layout=profile&amp;src=BA"><strong>Flow Map Painters</strong></a> (add-on + node setups that let you create flow maps by simply painting on the image texture)</li>
+<li>
+<a class="rebaked" rel="noopener nofollow ugc" href="https://a.blendernation.com/go/go.php?url=https://amanbairwal.gumroad.com/l/QRLAddon&amp;src=BA"><strong>Quick Roughness Layers</strong></a> (lets you set up folder for surface imperfections, choose one on the fly and adds it as layer of roughness)</li>
+</ul>
+<p>UV:</p>
+<ul>
+<li>
+<a class="rebaked" rel="noopener nofollow ugc" href="https://a.blendernation.com/go/go.php?url=https://bookyakuno.gumroad.com/l/xLqXX?layout=profile&amp;src=BA"><strong>UV Drag Island</strong></a> (alt+LMB to move entire island, ctrl+LMB to rotate. In UV editor)</li>
+</ul>
+<p>Import-Export:</p>
+<ul>
+<li>
+<a rel="noopener nofollow ugc" href="https://github.com/atticus-lv/super_io"><strong>Super IO</strong> <span title="15 clicks" class="badge badge-notification clicks">15</span></a>  (this is more known add-on, but in case you don’t know - copy and paste objects into the blender and more)</li>
+<li>
+<a href="https://blenderartists.org/t/rabbit-hole-of-free-add-ons/1446091/uploads/short-url/du317WQPoqEeMb9nsukdqrRsTQL.zip" class="attachment">Import Vector Files.zip</a> (Import .svg/.pdf/.ai files)</li>
+</ul>
+<p>Scripting:</p>
+<ul>
+<li>
+<strong><a rel="noopener nofollow ugc" href="https://developer.blender.org/diffusion/BAC/browse/master/development_class_viewer.py">Class Viewer <span title="2 clicks" class="badge badge-notification clicks">2</span></a></strong> (in Text Editor context menu you have list of definitions, classes and comments you can use to jump ahead easily)</li>
+<li>
+<a rel="noopener nofollow ugc" href="https://developer.blender.org/diffusion/BAC/browse/master/development_ui_classes.py"><strong>UI Classes</strong> <span title="2 clicks" class="badge badge-notification clicks">2</span></a> (in Text Editor sidepanel you have the option to display every UI class in your blender in a separate text file)</li>
+<li>
+<a href="https://blenderartists.org/t/rabbit-hole-of-free-add-ons/1446091/uploads/short-url/9lHlpaVlZYa4rhSpdEF2vHulR4J.py" class="attachment">Indent Guides.py</a> (sadly I forgot where I downloaded this from. It adds indent guides, whitespace, and more to the text editor. Visibility can be controlled and switched off.)</li>
+<li>
+<a rel="noopener nofollow ugc" href="https://github.com/BrendanParmer/NodeToPython/releases/tag/v2.0.0"><strong>Node to Python</strong> <span title="3 clicks" class="badge badge-notification clicks">3</span></a> (generates python script of shader or geometry nodes)</li>
+<li>
+<a rel="noopener nofollow ugc" href="https://github.com/K-410/blender-scripts/blob/master/2.8/text_expand_to_brackets.py"><strong>Expand to Brackets</strong> <span title="1 click" class="badge badge-notification clicks">1</span></a> (Alt+A expands selection to the nearest brackets)</li>
+</ul>
+<p>Sequencer:</p>
+<ul>
+<li>
+<a rel="noopener nofollow ugc" href="https://github.com/tin2tin/shot_detection"><strong>Shot Detection</strong> <span title="2 clicks" class="badge badge-notification clicks">2</span></a> (automatically detects shots/cuts in the video and cuts them accordingly)</li>
+<li>
+<a rel="noopener nofollow ugc" href="https://github.com/tin2tin/multicam"><strong>Multicam</strong> <span title="6 clicks" class="badge badge-notification clicks">6</span></a> (shows multiple cameras in sequencer preview)</li>
+<li>
+<a rel="noopener nofollow ugc" href="https://github.com/snuq/VSEQF"><strong>VSE Quick Functions</strong></a> (adds parenting &amp; tags to strips, change playback speed, quick cuts, quick markers and many more)</li>
+<li>
+<a rel="noopener nofollow ugc" href="https://github.com/britalmeida/push_to_talk"><strong>Push to Talk</strong></a> (record audio directly inside the sequencer and add it as strip)</li>
+<li>
+<a rel="noopener nofollow ugc" href="https://github.com/K-410/blender-scripts/blob/master/2.8/text_highlight_occurrences.py"><strong>Highlight Occurances</strong></a> (when text is selected it highlights all the same text in the text file. Display can be modified)</li>
+</ul>
+<p>Compositor:</p>
+<ul>
+<li>
+<a class="rebaked" rel="noopener nofollow ugc" href="https://a.blendernation.com/go/go.php?url=https://amanbairwal.gumroad.com/l/CavityPass&amp;src=BA"><strong>Cavity Pass</strong></a> (adds cavity pass to compositor and fakes bevel and light effects)</li>
+</ul>
+<p>Image:</p>
+<ul>
+<li>
+<a href="https://blenderartists.org/t/rabbit-hole-of-free-add-ons/1446091/uploads/short-url/j9RkGK1tzPlGweLu8lPoqsEHxyo.zip" class="attachment">Extra Image List.zip</a> (in Image/UV window → sidebar → Image adds new image picker with large thumbnails, also adds remove image options in Image topbar, see comment for more info)</li>
+<li>
+<a rel="noopener nofollow ugc" href="https://github.com/Pullusb/Tesselate_texture_plane"><strong>Tesselate Texture Plane</strong> <span title="6 clicks" class="badge badge-notification clicks">6</span></a> (transforms alpha image planes into geometry)</li>
+<li>
+<a rel="noopener nofollow ugc" href="https://github.com/Pullusb/reference_to_image_plane"><strong>Reference to Image Plane</strong> <span title="3 clicks" class="badge badge-notification clicks">3</span></a> (converts empty image into a plane)</li>
+<li>
+<a class="rebaked" rel="noopener nofollow ugc" href="https://a.blendernation.com/go/go.php?url=https://amanbairwal.gumroad.com/l/ImportAsDecal&amp;src=BA"><strong>Import as Decals</strong></a> (imports images as decals that shrinkwrap around objects, have sliders for edgewear and etc.)</li>
+</ul>
+<p>Text Editor:</p>
+<ul>
+<li>
+<a rel="noopener nofollow ugc" href="https://github.com/tin2tin/Blender_Screenwriter"><strong>Screenwriter</strong> <span title="1 click" class="badge badge-notification clicks">1</span></a> (lets you create .fountain files and automatically translates your writing into proper screenplay format)</li>
+<li>
+<a rel="noopener nofollow ugc" href="https://github.com/1C0D/TextMarker-blender-addon"><strong>Text Markers</strong> <span title="1 click" class="badge badge-notification clicks">1</span></a> (adds tab in Sidebar where you can mark texts and jump to them)</li>
+</ul>
+<p>Misc:</p>
+<ul>
+<li>
+<a rel="noopener nofollow ugc" href="https://github.com/Pullusb/align-to-annotations"><strong>Align to Annotation</strong> <span title="1 click" class="badge badge-notification clicks">1</span></a> (align object, edge, vertex, or faces to annotation)</li>
+<li>
+<a href="https://blenderartists.org/t/free-script-sundays-free-add-ons/1336843/99"><strong>Scale to View</strong> <span title="1 click" class="badge badge-notification clicks">1</span></a> (scale object to fit the view screen with a shortcut)</li>
+<li>
+<a class="rebaked" rel="noopener nofollow ugc" href="https://a.blendernation.com/go/go.php?url=https://lucasroedel.gumroad.com/l/gOWag&amp;src=BA"><strong>PSX Vertex Snap</strong></a> (helps you create iconic PS1 style vertex snapping)</li>
+</ul>
+<p>I’ll update this topic every time I see something new, so watch it if you want. And please share similar addons if you have/use them, or made them, and think will be useful for others.</p>
+

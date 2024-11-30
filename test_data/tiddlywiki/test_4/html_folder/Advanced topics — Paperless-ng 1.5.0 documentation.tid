@@ -1,0 +1,215 @@
+caption: Advanced topics — Paperless-ng 1.5.0 documentation
+created: 20230115003537532
+location: https://paperless-ng.readthedocs.io/en/latest/advanced_usage.html#advanced-file-name-handling
+modified: 20230115003537533
+title: Advanced topics — Paperless-ng 1.5.0 documentation
+type: text/vnd.tiddlywiki
+when: 2023/1/15 00:35:37
+
+https://paperless-ng.readthedocs.io/en/latest/advanced_usage.html#advanced-file-name-handling
+
+<h1>Advanced topics<a title="Permalink to this headline" href="https://paperless-ng.readthedocs.io/en/latest/advanced_usage.html#advanced-file-name-handling#advanced-topics" class="headerlink"></a></h1>
+<p>Paperless offers a couple features that automate certain tasks and make your life
+easier.</p>
+<section id="matching-tags-correspondents-and-document-types">
+<span id="advanced-matching"></span><h2>Matching tags, correspondents and document types<a title="Permalink to this headline" href="https://paperless-ng.readthedocs.io/en/latest/advanced_usage.html#advanced-file-name-handling#matching-tags-correspondents-and-document-types" class="headerlink"></a></h2>
+<p>Paperless will compare the matching algorithms defined by every tag and
+correspondent already set in your database to see if they apply to the text in
+a document.  In other words, if you defined a tag called <code class="docutils literal notranslate"><span class="pre">Home</span> <span class="pre">Utility</span></code>
+that had a <code class="docutils literal notranslate"><span class="pre">match</span></code> property of <code class="docutils literal notranslate"><span class="pre">bc</span> <span class="pre">hydro</span></code> and a <code class="docutils literal notranslate"><span class="pre">matching_algorithm</span></code> of
+<code class="docutils literal notranslate"><span class="pre">literal</span></code>, Paperless will automatically tag your newly-consumed document with
+your <code class="docutils literal notranslate"><span class="pre">Home</span> <span class="pre">Utility</span></code> tag so long as the text <code class="docutils literal notranslate"><span class="pre">bc</span> <span class="pre">hydro</span></code> appears in the body
+of the document somewhere.</p>
+<p>The matching logic is quite powerful, and supports searching the text of your
+document with different algorithms, and as such, some experimentation may be
+necessary to get things right.</p>
+<p>In order to have a tag, correspondent or type assigned automatically to newly
+consumed documents, assign a match and matching algorithm using the web
+interface. These settings define when to assign correspondents, tags and types
+to documents.</p>
+<p>The following algorithms are available:</p>
+<ul class="simple">
+<li><p><strong>Any:</strong> Looks for any occurrence of any word provided in match in the PDF.
+If you define the match as <code class="docutils literal notranslate"><span class="pre">Bank1</span> <span class="pre">Bank2</span></code>, it will match documents containing
+either of these terms.</p></li>
+<li><p><strong>All:</strong> Requires that every word provided appears in the PDF, albeit not in the
+order provided.</p></li>
+<li><p><strong>Literal:</strong> Matches only if the match appears exactly as provided in the PDF.</p></li>
+<li><p><strong>Regular expression:</strong> Parses the match as a regular expression and tries to
+find a match within the document.</p></li>
+<li><p><strong>Fuzzy match:</strong> I dont know. Look at the source.</p></li>
+<li><p><strong>Auto:</strong> Tries to automatically match new documents. This does not require you
+to set a match. See the notes below.</p></li>
+</ul>
+<p>When using the “any” or “all” matching algorithms, you can search for terms
+that consist of multiple words by enclosing them in double quotes. For example,
+defining a match text of <code class="docutils literal notranslate"><span class="pre">"Bank</span> <span class="pre">of</span> <span class="pre">America"</span> <span class="pre">BofA</span></code> using the “any” algorithm,
+will match documents that contain either “Bank of America” or “BofA”, but will
+not match documents containing “Bank of South America”.</p>
+<p>Then just save your tag/correspondent and run another document through the
+consumer.  Once complete, you should see the newly-created document,
+automatically tagged with the appropriate data.</p>
+<section id="automatic-matching">
+<span id="advanced-automatic-matching"></span><h3>Automatic matching<a title="Permalink to this headline" href="https://paperless-ng.readthedocs.io/en/latest/advanced_usage.html#advanced-file-name-handling#automatic-matching" class="headerlink"></a></h3>
+<p>Paperless-ng comes with a new matching algorithm called <em>Auto</em>. This matching
+algorithm tries to assign tags, correspondents and document types to your
+documents based on how you have assigned these on existing documents. It
+uses a neural network under the hood.</p>
+<p>If, for example, all your bank statements of your account 123 at the Bank of
+America are tagged with the tag “bofa_123” and the matching algorithm of this
+tag is set to <em>Auto</em>, this neural network will examine your documents and
+automatically learn when to assign this tag.</p>
+<p>Paperless tries to hide much of the involved complexity with this approach.
+However, there are a couple caveats you need to keep in mind when using this
+feature:</p>
+<ul class="simple">
+<li><p>Changes to your documents are not immediately reflected by the matching
+algorithm. The neural network needs to be <em>trained</em> on your documents after
+changes. Paperless periodically (default: once each hour) checks for changes
+and does this automatically for you.</p></li>
+<li><p>The Auto matching algorithm only takes documents into account which are NOT
+placed in your inbox (i.e., have inbox tags assigned to them). This ensures
+that the neural network only learns from documents which you have correctly
+tagged before.</p></li>
+<li><p>The matching algorithm can only work if there is a correlation between the
+tag, correspondent or document type and the document itself. Your bank
+statements usually contain your bank account number and the name of the bank,
+so this works reasonably well, However, tags such as “TODO” cannot be
+automatically assigned.</p></li>
+<li><p>The matching algorithm needs a reasonable number of documents to identify when
+to assign tags, correspondents, and types. If one out of a thousand documents
+has the correspondent “Very obscure web shop I bought something five years
+ago”, it will probably not assign this correspondent automatically if you buy
+something from them again. The more documents, the better.</p></li>
+<li><p>Paperless also needs a reasonable amount of negative examples to decide when
+not to assign a certain tag, correspondent or type. This will usually be the
+case as you start filling up paperless with documents. Example: If all your
+documents are either from “Webshop” and “Bank”, paperless will assign one of
+these correspondents to ANY new document, if both are set to automatic matching.</p></li>
+</ul>
+</section>
+</section>
+<section id="hooking-into-the-consumption-process">
+<h2>Hooking into the consumption process<a title="Permalink to this headline" href="https://paperless-ng.readthedocs.io/en/latest/advanced_usage.html#advanced-file-name-handling#hooking-into-the-consumption-process" class="headerlink"></a></h2>
+<p>Sometimes you may want to do something arbitrary whenever a document is
+consumed.  Rather than try to predict what you may want to do, Paperless lets
+you execute scripts of your own choosing just before or after a document is
+consumed using a couple simple hooks.</p>
+<p>Just write a script, put it somewhere that Paperless can read &amp; execute, and
+then put the path to that script in <code class="docutils literal notranslate"><span class="pre">paperless.conf</span></code> with the variable name
+of either <code class="docutils literal notranslate"><span class="pre">PAPERLESS_PRE_CONSUME_SCRIPT</span></code> or
+<code class="docutils literal notranslate"><span class="pre">PAPERLESS_POST_CONSUME_SCRIPT</span></code>.</p>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>These scripts are executed in a <strong>blocking</strong> process, which means that if
+a script takes a long time to run, it can significantly slow down your
+document consumption flow.  If you want things to run asynchronously,
+you’ll have to fork the process in your script and exit.</p>
+</div>
+<section id="pre-consumption-script">
+<h3>Pre-consumption script<a title="Permalink to this headline" href="https://paperless-ng.readthedocs.io/en/latest/advanced_usage.html#advanced-file-name-handling#pre-consumption-script" class="headerlink"></a></h3>
+<p>Executed after the consumer sees a new document in the consumption folder, but
+before any processing of the document is performed. This script receives exactly
+one argument:</p>
+<ul class="simple">
+<li><p>Document file name</p></li>
+</ul>
+<p>A simple but common example for this would be creating a simple script like
+this:</p>
+<p><code class="docutils literal notranslate"><span class="pre">/usr/local/bin/ocr-pdf</span></code></p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="ch">#!/usr/bin/env bash</span>
+pdf2pdfocr.py -i <span class="si">${</span><span class="nv">1</span><span class="si">}</span>
+</pre></div>
+</div>
+<p><code class="docutils literal notranslate"><span class="pre">/etc/paperless.conf</span></code></p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>...
+<span class="nv">PAPERLESS_PRE_CONSUME_SCRIPT</span><span class="o">=</span><span class="s2">"/usr/local/bin/ocr-pdf"</span>
+...
+</pre></div>
+</div>
+<p>This will pass the path to the document about to be consumed to <code class="docutils literal notranslate"><span class="pre">/usr/local/bin/ocr-pdf</span></code>,
+which will in turn call <a href="https://github.com/LeoFCardoso/pdf2pdfocr" class="reference external">pdf2pdfocr.py</a> on your document, which will then
+overwrite the file with an OCR’d version of the file and exit.  At which point,
+the consumption process will begin with the newly modified file.</p>
+</section>
+<section id="post-consumption-script">
+<span id="advanced-post-consume-script"></span><h3>Post-consumption script<a title="Permalink to this headline" href="https://paperless-ng.readthedocs.io/en/latest/advanced_usage.html#advanced-file-name-handling#post-consumption-script" class="headerlink"></a></h3>
+<p>Executed after the consumer has successfully processed a document and has moved it
+into paperless. It receives the following arguments:</p>
+<ul class="simple">
+<li><p>Document id</p></li>
+<li><p>Generated file name</p></li>
+<li><p>Source path</p></li>
+<li><p>Thumbnail path</p></li>
+<li><p>Download URL</p></li>
+<li><p>Thumbnail URL</p></li>
+<li><p>Correspondent</p></li>
+<li><p>Tags</p></li>
+</ul>
+<p>The script can be in any language you like, but for a simple shell script
+example, you can take a look at <code class="docutils literal notranslate"><span class="pre">post-consumption-example.sh</span></code> in the
+<code class="docutils literal notranslate"><span class="pre">scripts</span></code> directory in this project.</p>
+<p>The post consumption script cannot cancel the consumption process.</p>
+</section>
+</section>
+<section id="file-name-handling">
+<span id="advanced-file-name-handling"></span><h2>File name handling<a title="Permalink to this headline" href="https://paperless-ng.readthedocs.io/en/latest/advanced_usage.html#advanced-file-name-handling#file-name-handling" class="headerlink"></a></h2>
+<p>By default, paperless stores your documents in the media directory and renames them
+using the identifier which it has assigned to each document. You will end up getting
+files like <code class="docutils literal notranslate"><span class="pre">0000123.pdf</span></code> in your media directory. This isn’t necessarily a bad
+thing, because you normally don’t have to access these files manually. However, if
+you wish to name your files differently, you can do that by adjusting the
+<code class="docutils literal notranslate"><span class="pre">PAPERLESS_FILENAME_FORMAT</span></code> configuration option.</p>
+<p>This variable allows you to configure the filename (folders are allowed) using
+placeholders. For example, configuring this to</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nv">PAPERLESS_FILENAME_FORMAT</span><span class="o">={</span>created_year<span class="o">}</span>/<span class="o">{</span>correspondent<span class="o">}</span>/<span class="o">{</span>title<span class="o">}</span>
+</pre></div>
+</div>
+<p>will create a directory structure as follows:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">2019</span><span class="o">/</span>
+  <span class="n">My</span> <span class="n">bank</span><span class="o">/</span>
+    <span class="n">Statement</span> <span class="n">January</span><span class="o">.</span><span class="n">pdf</span>
+    <span class="n">Statement</span> <span class="n">February</span><span class="o">.</span><span class="n">pdf</span>
+<span class="mi">2020</span><span class="o">/</span>
+  <span class="n">My</span> <span class="n">bank</span><span class="o">/</span>
+    <span class="n">Statement</span> <span class="n">January</span><span class="o">.</span><span class="n">pdf</span>
+    <span class="n">Letter</span><span class="o">.</span><span class="n">pdf</span>
+    <span class="n">Letter_01</span><span class="o">.</span><span class="n">pdf</span>
+  <span class="n">Shoe</span> <span class="n">store</span><span class="o">/</span>
+    <span class="n">My</span> <span class="n">new</span> <span class="n">shoes</span><span class="o">.</span><span class="n">pdf</span>
+</pre></div>
+</div>
+<div class="admonition danger">
+<p class="admonition-title">Danger</p>
+<p>Do not manually move your files in the media folder. Paperless remembers the
+last filename a document was stored as. If you do rename a file, paperless will
+report your files as missing and won’t be able to find them.</p>
+</div>
+<p>Paperless provides the following placeholders withing filenames:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">{asn}</span></code>: The archive serial number of the document, or “none”.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">{correspondent}</span></code>: The name of the correspondent, or “none”.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">{document_type}</span></code>: The name of the document type, or “none”.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">{tag_list}</span></code>: A comma separated list of all tags assigned to the document.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">{title}</span></code>: The title of the document.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">{created}</span></code>: The full date and time the document was created.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">{created_year}</span></code>: Year created only.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">{created_month}</span></code>: Month created only (number 1-12).</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">{created_day}</span></code>: Day created only (number 1-31).</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">{added}</span></code>: The full date and time the document was added to paperless.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">{added_year}</span></code>: Year added only.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">{added_month}</span></code>: Month added only (number 1-12).</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">{added_day}</span></code>: Day added only (number 1-31).</p></li>
+</ul>
+<p>Paperless will try to conserve the information from your database as much as possible.
+However, some characters that you can use in document titles and correspondent names (such
+as <code class="docutils literal notranslate"><span class="pre">:</span> <span class="pre">\</span> <span class="pre">/</span></code> and a couple more) are not allowed in filenames and will be replaced with dashes.</p>
+<p>If paperless detects that two documents share the same filename, paperless will automatically
+append <code class="docutils literal notranslate"><span class="pre">_01</span></code>, <code class="docutils literal notranslate"><span class="pre">_02</span></code>, etc to the filename. This happens if all the placeholders in a filename
+evaluate to the same value.</p>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>Paperless checks the filename of a document whenever it is saved. Therefore,
+you need to update the filenames of your documents and move them after altering
+this setting by invoking the <a href="https://paperless-ng.readthedocs.io/en/latest/advanced_usage.html#advanced-file-name-handlingadministration.html#utilities-renamer" class="reference internal"><span class="std std-ref">document renamer</span></a>.</p></div></section>
+

@@ -1,0 +1,372 @@
+caption: ConnMan - ArchWiki
+created: 20230118012411894
+location: https://wiki.archlinux.org/title/ConnMan
+modified: 20230118012411894
+title: ConnMan - ArchWiki
+type: text/vnd.tiddlywiki
+when: 2023/1/17 19:24:11
+
+https://wiki.archlinux.org/title/ConnMan
+
+<header class="mw-body-header"><h1 class="firstHeading mw-first-heading" id="firstHeading"><span class="mw-page-title-main">ConnMan</span></h1>
+				</header>
+				<nav role="navigation" aria-label="Tools" class="vector-article-toolbar">
+					<div class="mw-article-toolbar-container">
+						<div id="left-navigation">
+							
+
+<div class="vector-menu mw-portlet mw-portlet-associated-pages vector-menu-tabs" id="p-associated-pages">
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li class="selected mw-list-item" id="ca-nstab-main"><a title="View the content page [alt-shift-c]" href="https://wiki.archlinux.org/title/ConnMan/title/ConnMan"><span>Page</span></a></li><li class="mw-list-item" id="ca-talk"><a title="Discussion about the content page [alt-shift-t]" rel="discussion" href="https://wiki.archlinux.org/title/ConnMan/title/Talk:ConnMan"><span>Discussion</span></a></li></ul>
+		
+	</div>
+</div>
+
+							
+
+<div class="vector-menu mw-portlet mw-portlet-variants emptyPortlet vector-menu-dropdown" id="p-variants">
+	<input aria-label="Change language variant" class="vector-menu-checkbox" data-event-name="ui.dropdown-p-variants" aria-haspopup="true" role="button" id="p-variants-checkbox" type="checkbox">
+	<label class="vector-menu-heading" for="p-variants-checkbox" id="p-variants-label">
+		<span class="vector-menu-heading-label">English</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"></ul>
+		
+	</div>
+</div>
+
+						</div>
+						<div class="vector-collapsible" id="right-navigation">
+							
+
+<div class="vector-menu mw-portlet mw-portlet-views vector-menu-tabs" id="p-views">
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li class="selected mw-list-item" id="ca-view"><a href="https://wiki.archlinux.org/title/ConnMan/title/ConnMan"><span>Read</span></a></li><li class="mw-list-item" id="ca-viewsource"><a title="This page is protected.
+You can view its source [alt-shift-e]" href="https://wiki.archlinux.org/title/ConnMan/index.php?title=ConnMan&amp;action=edit"><span>View source</span></a></li><li class="mw-list-item" id="ca-history"><a title="Past revisions of this page [alt-shift-h]" href="https://wiki.archlinux.org/title/ConnMan/index.php?title=ConnMan&amp;action=history"><span>View history</span></a></li></ul>
+		
+	</div>
+</div>
+
+							
+
+<div title="More options" class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-menu-dropdown vector-has-collapsible-items" id="p-cactions">
+	<input class="vector-menu-checkbox" data-event-name="ui.dropdown-p-cactions" aria-haspopup="true" role="button" id="p-cactions-checkbox" type="checkbox">
+	<label class="vector-menu-heading" for="p-cactions-checkbox" id="p-cactions-label">
+		<span class="vector-menu-heading-label">More</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list"><li class="selected vector-more-collapsible-item mw-list-item" id="ca-more-view"><a href="https://wiki.archlinux.org/title/ConnMan/title/ConnMan"><span>Read</span></a></li><li class="vector-more-collapsible-item mw-list-item" id="ca-more-viewsource"><a href="https://wiki.archlinux.org/title/ConnMan/index.php?title=ConnMan&amp;action=edit"><span>View source</span></a></li><li class="vector-more-collapsible-item mw-list-item" id="ca-more-history"><a href="https://wiki.archlinux.org/title/ConnMan/index.php?title=ConnMan&amp;action=history"><span>View history</span></a></li></ul>
+		
+	</div>
+</div>
+
+						</div>
+					</div>
+				</nav>
+				<div data-mw-ve-target-container="" class="vector-body" id="bodyContent">
+					<div class="mw-body-subheader">
+					        <div class="mw-indicators">
+        </div>
+
+					    <div class="noprint" id="siteSub">From ArchWiki</div>
+					</div>
+					
+					
+					
+					<div dir="ltr" lang="en" class="mw-body-content mw-content-ltr" id="mw-content-text"><div class="mw-parser-output"><div class="archwiki-template-meta-related-articles-start"><p class="mw-no-invert">Related articles</p><ul>
+<li><a title="Network configuration" href="https://wiki.archlinux.org/title/ConnMan/title/Network_configuration">Network configuration</a></li>
+<li><a title="Wireless network configuration" class="mw-redirect" href="https://wiki.archlinux.org/title/ConnMan/title/Wireless_network_configuration">Wireless network configuration</a></li>
+</ul></div>
+<p><a href="https://web.archive.org/web/20210224075615/https://01.org/connman" class="external text" rel="nofollow">ConnMan</a> is a command-line network manager designed for use with embedded devices and fast resolve times. It is modular through a <a href="https://git.kernel.org/cgit/network/connman/connman.git/tree/plugins" class="external text" rel="nofollow">plugin architecture</a>, but has native <a title="wikipedia:DHCP" class="extiw" href="https://en.wikipedia.org/wiki/DHCP">DHCP</a> and <a title="NTP" class="mw-redirect" href="https://wiki.archlinux.org/title/ConnMan/title/NTP">NTP</a> support.<a href="https://git.kernel.org/cgit/network/connman/connman.git/tree/src/" class="external autonumber" rel="nofollow">[1]</a>
+</p>
+
+<h2><span id="Installation" class="mw-headline">Installation</span></h2>
+<p><a title="Install" class="mw-redirect" href="https://wiki.archlinux.org/title/ConnMan/title/Install">Install</a> the <span class="plainlinks archwiki-template-pkg"><a href="https://archlinux.org/packages/?name=connman" class="external text" rel="nofollow">connman</a></span> package. <span class="plainlinks archwiki-template-pkg"><a href="https://archlinux.org/packages/?name=wpa_supplicant" class="external text" rel="nofollow">wpa_supplicant</a></span>, <span class="plainlinks archwiki-template-pkg"><a href="https://archlinux.org/packages/?name=bluez" class="external text" rel="nofollow">bluez</a></span>, and <span class="plainlinks archwiki-template-pkg"><a href="https://archlinux.org/packages/?name=openvpn" class="external text" rel="nofollow">openvpn</a></span> are optional dependencies required for Wi-Fi, Bluetooth, and VPN functionality respectively.
+</p><p>Before <a title="Enabling" class="mw-redirect" href="https://wiki.archlinux.org/title/ConnMan/title/Enabling">enabling</a> <code>connman.service</code>, ensure any existing <a title="Network configuration" href="https://wiki.archlinux.org/title/ConnMan/title/Network_configuration">network configuration</a> is disabled.
+</p><p>ConnMan comes with the <span title="$ man 1 connmanctl" class="plainlinks archwiki-template-man"><a href="https://man.archlinux.org/man/connmanctl.1" class="external text" rel="nofollow">connmanctl(1)</a></span> CLI, there are various <a href="https://wiki.archlinux.org/title/ConnMan#Front-ends">#Front-ends</a> available.
+</p>
+<h3><span id="Front-ends" class="mw-headline">Front-ends</span></h3>
+<ul><li><b>cmst</b> — Qt GUI for ConnMan.</li></ul>
+<dl><dd><a href="https://github.com/andrew-bibb/cmst" class="external free" rel="nofollow">https://github.com/andrew-bibb/cmst</a> || <span class="plainlinks archwiki-template-pkg"><a href="https://aur.archlinux.org/packages/cmst/" class="external text" rel="nofollow">cmst</a></span><sup><small>AUR</small></sup></dd></dl>
+<ul><li><b>connman-ncurses</b> — Simple ncurses UI for ConnMan; not all of connman functionality is implemented, but usable (with X or from terminal without X), see the <a href="https://github.com/eurogiciel-oss/connman-json-client/wiki" class="external text" rel="nofollow">wiki</a>.</li></ul>
+<dl><dd><a href="https://github.com/eurogiciel-oss/connman-json-client" class="external free" rel="nofollow">https://github.com/eurogiciel-oss/connman-json-client</a> || <span class="plainlinks archwiki-template-pkg"><a href="https://aur.archlinux.org/packages/connman-ncurses-git/" class="external text" rel="nofollow">connman-ncurses-git</a></span><sup><small>AUR</small></sup></dd></dl>
+<ul><li><b>ConnMan-UI</b> — GTK3 client applet.</li></ul>
+<dl><dd><a href="https://github.com/tbursztyka/connman-ui" class="external free" rel="nofollow">https://github.com/tbursztyka/connman-ui</a> || <span class="plainlinks archwiki-template-pkg"><a href="https://aur.archlinux.org/packages/connman-ui-git/" class="external text" rel="nofollow">connman-ui-git</a></span><sup><small>AUR</small></sup></dd></dl>
+<ul><li><b>connman_dmenu</b> — Client/frontend for dmenu.</li></ul>
+<dl><dd><a href="https://github.com/taylorchu/connman_dmenu" class="external free" rel="nofollow">https://github.com/taylorchu/connman_dmenu</a> || <span class="plainlinks archwiki-template-pkg"><a href="https://aur.archlinux.org/packages/connman_dmenu-git/" class="external text" rel="nofollow">connman_dmenu-git</a></span><sup><small>AUR</small></sup></dd></dl>
+<ul><li><b>rofi-connman</b> — rofi/dmenu-powered frontend</li></ul>
+<dl><dd><a href="https://github.com/sourcemage/rofi-connman" class="external free" rel="nofollow">https://github.com/sourcemage/rofi-connman</a> || <span class="plainlinks archwiki-template-pkg"><a href="https://aur.archlinux.org/packages/rofi-connman/" class="external text" rel="nofollow">rofi-connman</a></span><sup><small>AUR</small></sup></dd></dl>
+<ul><li><b>Econnman</b> — Enlightenment desktop panel applet.</li></ul>
+<dl><dd><a href="https://www.enlightenment.org" class="external free" rel="nofollow">https://www.enlightenment.org</a> || <span class="plainlinks archwiki-template-pkg"><a href="https://aur.archlinux.org/packages/econnman/" class="external text" rel="nofollow">econnman</a></span><sup><small>AUR</small></sup></dd></dl>
+<ul><li><b>LXQt-Connman-Applet</b> — LXQt desktop panel applet.</li></ul>
+<dl><dd><a href="https://github.com/lxqt/lxqt-connman-applet" class="external free" rel="nofollow">https://github.com/lxqt/lxqt-connman-applet</a> || <span class="plainlinks archwiki-template-pkg"><a href="https://aur.archlinux.org/packages/lxqt-connman-applet/" class="external text" rel="nofollow">lxqt-connman-applet</a></span><sup><small>AUR</small></sup></dd></dl>
+<ul><li><b>connman-gtk</b> —  GTK client.</li></ul>
+<dl><dd><a href="https://github.com/jgke/connman-gtk" class="external free" rel="nofollow">https://github.com/jgke/connman-gtk</a> || <span class="plainlinks archwiki-template-pkg"><a href="https://aur.archlinux.org/packages/connman-gtk/" class="external text" rel="nofollow">connman-gtk</a></span><sup><small>AUR</small></sup></dd></dl>
+<ul><li><b>gnome-extension-connman</b> —  Gnome3 extension for connman; it contains only some of the functionality without installing connman-gtk.</li></ul>
+<dl><dd><a href="https://github.com/jgke/gnome-extension-connman" class="external free" rel="nofollow">https://github.com/jgke/gnome-extension-connman</a> || <a href="https://extensions.gnome.org/extension/981/connman-extension/" class="external free" rel="nofollow">https://extensions.gnome.org/extension/981/connman-extension/</a></dd></dl>
+<h2><span id="Usage" class="mw-headline">Usage</span></h2>
+<div class="noprint archwiki-template-message">
+<p><a class="image" href="https://wiki.archlinux.org/title/ConnMan/title/File:Tango-view-fullscreen.png"><img height="48" width="48" decoding="async" src="https://wiki.archlinux.org/images/3/38/Tango-view-fullscreen.png" alt="Tango-view-fullscreen.png"></a><b>This article or section needs expansion.</b><a class="image" href="https://wiki.archlinux.org/title/ConnMan/title/File:Tango-view-fullscreen.png"><img height="48" width="48" decoding="async" src="https://wiki.archlinux.org/images/3/38/Tango-view-fullscreen.png" alt="Tango-view-fullscreen.png"></a></p>
+<div><b>Reason:</b> Only Wired and Wi-Fi plugins are described. (Discuss in <a href="https://wiki.archlinux.org/title/Talk:ConnMan" class="external text" rel="nofollow">Talk:ConnMan</a>)</div>
+</div>
+<p>ConnMan comes with the <code>connmanctl</code> command-line interface, see <span title="$ man 1 connmanctl" class="plainlinks archwiki-template-man"><a href="https://man.archlinux.org/man/connmanctl.1" class="external text" rel="nofollow">connmanctl(1)</a></span>.
+If you do not provide any commands <code>connmanctl</code> starts as an interactive shell.
+</p><p><i>ConnMan</i> automatically handles wired connections.
+</p>
+<h3><span id="Wi-Fi" class="mw-headline">Wi-Fi</span></h3>
+<h4><span id="Enabling_and_disabling_wifi" class="mw-headline">Enabling and disabling wifi</span></h4>
+<p>To check if wifi is enabled you can run <code>connmanctl technologies</code> and check for the line that says <code>Powered: True/False</code>.
+To power the wifi on you can run <code>connmanctl enable wifi</code> or if you need to disable it you can run <code>connmanctl disable wifi</code>.
+Other ways to enable wifi could include using the <code>Fn</code> keys on the laptop to turn it on or running <code>ip link set &lt;interface&gt; up</code>.
+</p>
+<h4><span id="Connecting_to_an_open_access_point" class="mw-headline">Connecting to an open access point</span></h4>
+<p>To scan the network <code>connmanctl</code> accepts simple names called <i>technologies</i>. To scan for nearby Wi-Fi networks:
+</p>
+<pre>$ connmanctl scan wifi
+</pre>
+<p>To list the available networks found after a scan run (example output): 
+</p>
+<pre data-darkreader-inline-border-bottom="" style="margin-bottom: 0px; border-bottom: none; padding-bottom: 0.8em; --darkreader-inline-border-bottom: initial;">$ connmanctl services</pre>
+<pre style="margin-top: 0; border-top-style:dashed; padding-top: 0.8em;">*AO MyNetwork               wifi_dc85de828967_68756773616d_managed_psk
+    OtherNET                wifi_dc85de828967_38303944616e69656c73_managed_psk 
+    AnotherOne              wifi_dc85de828967_3257495245363836_managed_wep
+    FourthNetwork           wifi_dc85de828967_4d7572706879_managed_wep
+    AnOpenNetwork           wifi_dc85de828967_4d6568657272696e_managed_none
+</pre>
+<p>To connect to an open network, use the second field beginning with <code>wifi_</code>:
+</p>
+<pre>$ connmanctl connect wifi_dc85de828967_4d6568657272696e_managed_none
+</pre>
+<div class="archwiki-template-box archwiki-template-box-tip"><strong>Tip:</strong> Network names can be tab-completed.</div>
+<p>You should now be connected to the network. Check using <code>connmanctl state</code> or <code>ip addr</code>.
+</p>
+<h4><span id="Connecting_to_a_protected_access_point" class="mw-headline">Connecting to a protected access point</span></h4>
+<p>For protected access points you will need to provide some information to the ConnMan daemon, at the very least a password or a passphrase.
+</p><p>The commands in this section show how to run <code>connmanctl</code> in interactive mode, it is required for running the <code>agent</code> command.  To start interactive mode simply type: 
+</p>
+<pre>$ connmanctl
+</pre>
+<p>You then proceed almost as above, first scan for any Wi-Fi <i>technologies</i>:
+</p>
+<pre>connmanctl&gt; scan wifi
+</pre>
+<p>To list services:
+</p>
+<pre>connmanctl&gt; services
+</pre>
+<p>Now you need to register the agent to handle user requests.  The command is:
+</p>
+<pre>connmanctl&gt; agent on
+</pre>
+<p>You now need to connect to one of the protected services.  To do this easily, just use tab completion for the wifi_ service.  If you were connecting to OtherNET in the example above you would type:
+</p>
+<pre>connmanctl&gt; connect wifi_dc85de828967_38303944616e69656c73_managed_psk
+</pre>
+<p>The agent will then ask you to provide any information the daemon needs to complete the connection.  The 
+information requested will vary depending on the type of network you are connecting to.   The agent
+will also print additional data about the information it needs as shown in the example below.
+</p>
+<pre>Agent RequestInput wifi_dc85de828967_38303944616e69656c73_managed_psk
+  Passphrase = [ Type=psk, Requirement=mandatory ]
+  Passphrase?  
+</pre>
+<p>Provide the information requested, in this example the passphrase, and then type:
+</p>
+<pre>connmanctl&gt; quit
+</pre>
+<p>If the information you provided is correct you should now be connected to the protected access point.
+</p>
+<h4><span id="Using_iwd_instead_of_wpa_supplicant" class="mw-headline">Using iwd instead of wpa_supplicant</span></h4>
+<p>ConnMan can use <span class="plainlinks archwiki-template-pkg"><a href="https://archlinux.org/packages/?name=iwd" class="external text" rel="nofollow">iwd</a></span> to connect to wireless networks. The package which is available in community already supports using <span class="plainlinks archwiki-template-pkg"><a href="https://archlinux.org/packages/?name=iwd" class="external text" rel="nofollow">iwd</a></span> for connecting to wireless networks. As <span class="plainlinks archwiki-template-pkg"><a href="https://archlinux.org/packages/?name=connman" class="external text" rel="nofollow">connman</a></span> will start <span class="plainlinks archwiki-template-pkg"><a href="https://archlinux.org/packages/?name=wpa_supplicant" class="external text" rel="nofollow">wpa_supplicant</a></span> when it finds it, it is recommended to uninstall <span class="plainlinks archwiki-template-pkg"><a href="https://archlinux.org/packages/?name=wpa_supplicant" class="external text" rel="nofollow">wpa_supplicant</a></span>.
+</p><p>Note that ConnMan is probably unnecessary for IWD users, as IWD can <a title="Iwd" href="https://wiki.archlinux.org/title/ConnMan/title/Iwd#Enable_built-in_network_configuration">handle its own network configuration</a>, in which case <code>connmand</code> should be stopped.
+</p><p>Currently the <code>-i</code>-option of <span class="plainlinks archwiki-template-pkg"><a href="https://archlinux.org/packages/?name=iwd" class="external text" rel="nofollow">iwd</a></span> seems to cause that the WiFi-interface gets hidden from <span class="plainlinks archwiki-template-pkg"><a href="https://archlinux.org/packages/?name=connman" class="external text" rel="nofollow">connman</a></span>.
+</p><p>Create the following service file which should cause <span class="plainlinks archwiki-template-pkg"><a href="https://archlinux.org/packages/?name=connman" class="external text" rel="nofollow">connman</a></span> to use <span class="plainlinks archwiki-template-pkg"><a href="https://archlinux.org/packages/?name=iwd" class="external text" rel="nofollow">iwd</a></span> to connect to wireless networks, regardless if <span class="plainlinks archwiki-template-pkg"><a href="https://archlinux.org/packages/?name=wpa_supplicant" class="external text" rel="nofollow">wpa_supplicant</a></span> is installed.
+</p>
+<pre data-darkreader-inline-border-bottom="" style="margin-bottom: 0px; border-bottom: none; padding-bottom: 0.8em; --darkreader-inline-border-bottom: initial;">/etc/systemd/system/connman_iwd.service</pre>
+<pre style="margin-top: 0; border-top-style:dashed; padding-top: 0.8em;">[Unit]
+Description=Connection service
+DefaultDependencies=false
+Conflicts=shutdown.target
+RequiresMountsFor=/var/lib/connman
+After=dbus.service network-pre.target systemd-sysusers.service iwd.service
+Before=network.target multi-user.target shutdown.target
+Wants=network.target
+Requires=iwd.service
+
+[Service]
+Type=dbus
+BusName=net.connman
+Restart=on-failure
+ExecStart=/usr/bin/connmand --wifi=iwd_agent -n 
+StandardOutput=null
+CapabilityBoundingSet=CAP_NET_ADMIN CAP_NET_BIND_SERVICE CAP_NET_RAW CAP_SYS_TIME CAP_SYS_MODULE
+ProtectHome=true
+ProtectSystem=true
+
+[Install]
+WantedBy=multi-user.target</pre>
+<p>Then <a title="Enable" class="mw-redirect" href="https://wiki.archlinux.org/title/ConnMan/title/Enable">enable</a>/<a title="Start" class="mw-redirect" href="https://wiki.archlinux.org/title/ConnMan/title/Start">start</a> the <code>connman_iwd</code> service.
+</p><p>Advantage of using <span class="plainlinks archwiki-template-pkg"><a href="https://archlinux.org/packages/?name=iwd" class="external text" rel="nofollow">iwd</a></span> instead of <span class="plainlinks archwiki-template-pkg"><a href="https://archlinux.org/packages/?name=wpa_supplicant" class="external text" rel="nofollow">wpa_supplicant</a></span> is, that the ping times seem to be much more consistent and the connection seems to be more reliable.
+</p>
+<h3><span id="Settings" class="mw-headline">Settings</span></h3>
+<p>Settings and profiles are automatically created for networks the user connects to often. They contain fields for the passphrase, essid and other information. Profile settings are stored in directories under <code>/var/lib/connman/</code> by their service name. To view all network profiles run this command from <a title="Help:Reading" href="https://wiki.archlinux.org/title/ConnMan/title/Help:Reading#Regular_user_or_root">root shell</a>: 
+</p>
+<pre># cat /var/lib/connman/*/settings
+</pre>
+<div class="archwiki-template-box archwiki-template-box-note"><strong>Note:</strong> VPN settings can be found in <code>/var/lib/connman-vpn/</code>.</div>
+<h3><span id="Technologies" class="mw-headline">Technologies</span></h3>
+<p>Various hardware interfaces are referred to as <i>Technologies</i> by ConnMan.
+</p><p>To list available <i>technologies</i> run: 
+</p>
+<pre>$ connmanctl technologies
+</pre>
+<p>To get just the types by their name one can use this one liner:
+</p>
+<pre>$ connmanctl technologies | awk '/Type/ { print $NF }'
+</pre>
+<div class="archwiki-template-box archwiki-template-box-note"><strong>Note:</strong>  The field <code>Type = tech_name</code> provides the technology type used with <code>connmanctl</code> commands</div>
+<p>To interact with them one must refer to the technology by type. <i>Technologies</i> can be toggled on/off with: 
+</p>
+<pre>$ connmanctl enable <i>technology_type</i>
+</pre>
+<p>and:
+</p>
+<pre>$ connmanctl disable <i>technology_type</i>
+</pre>
+<p>For example to toggle off wifi:
+</p>
+<pre>$ connmanctl disable wifi
+</pre>
+<div class="archwiki-template-box archwiki-template-box-warning"><strong>Warning:</strong> connman grabs rfkill events. It is most likely impossible to use <code>rfkill</code> or <code>bluetoothctl</code> to (un)block devices, yet hardware keys may still work.<a href="https://git.kernel.org/cgit/network/connman/connman.git/tree/doc/overview-api.txt#n406" class="external autonumber" rel="nofollow">[2]</a> Always use <code>connmanctl enable|disable</code> </div>
+<h2><span id="Tips_and_tricks" class="mw-headline">Tips and tricks</span></h2>
+<h3><span id="Avoid_changing_the_hostname" class="mw-headline">Avoid changing the hostname</span></h3>
+<p>By default, ConnMan changes the transient hostname (see <span title="$ man 1 hostnamectl" class="plainlinks archwiki-template-man"><a href="https://man.archlinux.org/man/hostnamectl.1" class="external text" rel="nofollow">hostnamectl(1)</a></span>) on a per network basis. This can create problems with X authority: If ConnMan changes your hostname to something else than the one used to generate the xauth magic cookie, then it will become impossible to create new windows. Symptoms are error messages like <code>No protocol specified</code> and <code>Can't open display: :0.0</code>. Manually resetting the host name fixes this, but a permanent solution is to prevent ConnMan from changing your host name in the first place. This can be accomplished by adding the following to <code>/etc/connman/main.conf</code>:
+</p>
+<pre>[General]
+AllowHostnameUpdates=false
+</pre>
+<p>Make sure to <a title="Restart" class="mw-redirect" href="https://wiki.archlinux.org/title/ConnMan/title/Restart">restart</a> the <code>connman.service</code> after changing this file.
+</p><p>For testing purposes it is recommended to watch the <a title="Systemd journal" class="mw-redirect" href="https://wiki.archlinux.org/title/ConnMan/title/Systemd_journal">systemd journal</a> and plug the network cable a few times to see the action.
+</p>
+<h3><span id="Prefer_ethernet_to_wireless" class="mw-headline">Prefer ethernet to wireless</span></h3>
+<p>By default ConnMan does not prefer ethernet over wireless, which can lead to it deciding to stick with a slow wireless network even when ethernet is available. You can tell connman to prefer ethernet adding the following to <code>/etc/connman/main.conf</code>:
+</p>
+<pre>[General]
+PreferredTechnologies=ethernet,wifi
+</pre>
+<h3><span id="Exclusive_connection" class="mw-headline">Exclusive connection</span></h3>
+<p>ConnMan allows you to be connected to both ethernet and wireless at the same time. This can be useful as it allows programs that established a connection over wifi to stay connected even after you connect to ethernet. But some people prefer to have only a single unambiguous connection active at a time. That behavior can be activated by adding the following to <code>/etc/connman/main.conf</code>:
+</p>
+<pre>[General]
+SingleConnectedTechnology=true
+</pre>
+<h3><span id="Connecting_to_eduroam_.28802.1X.29"></span><span id="Connecting_to_eduroam_(802.1X)" class="mw-headline">Connecting to eduroam (802.1X)</span></h3>
+<p><a title="WPA2 Enterprise" class="mw-redirect" href="https://wiki.archlinux.org/title/ConnMan/title/WPA2_Enterprise">WPA2 Enterprise</a> networks such as eduroam require a separate configuration file before <a href="https://wiki.archlinux.org/title/ConnMan#Wi-Fi">connecting</a> to the network. For example, create <code>/var/lib/connman/eduroam.config</code>:
+</p>
+<pre data-darkreader-inline-border-bottom="" style="margin-bottom: 0px; border-bottom: none; padding-bottom: 0.8em; --darkreader-inline-border-bottom: initial;">eduroam.config</pre>
+<pre style="margin-top: 0; border-top-style:dashed; padding-top: 0.8em;">[service_eduroam]
+Type=wifi
+Name=eduroam
+EAP=peap
+CACertFile=/etc/ssl/certs/<i>certificate.cer</i>
+Phase2=<i>MSCHAPV2</i>
+Identity=<i>user@foo.edu</i>
+AnonymousIdentity=<i>anonymous@foo.edu</i>
+Passphrase=<i>password</i></pre>
+<p><a title="Restart" class="mw-redirect" href="https://wiki.archlinux.org/title/ConnMan/title/Restart">Restart</a> <code>wpa_supplicant.service</code> and <code>connman.service</code> to connect to the new network.
+</p>
+<div class="archwiki-template-box archwiki-template-box-note"><strong>Note:</strong> 
+<ul><li>Options are case-sensitive, e.g. <code>EAP = ttls</code> instead of <code>EAP = TTLS</code>.<a href="https://together.jolla.com/question/55969/connman-fails-due-to-case-sensitive-settings/" class="external autonumber" rel="nofollow">[3]</a></li>
+<li>Consult the institution hosting the eduroam network for various settings such as username, password, <code>EAP</code>, <code>Phase2output</code>, and needed certificates.</li></ul>
+</div>
+<p>For more information, see <span title="$ man 5 connman-service.config" class="plainlinks archwiki-template-man"><a href="https://man.archlinux.org/man/connman-service.config.5" class="external text" rel="nofollow">connman-service.config(5)</a></span> and <a title="Wireless network configuration" class="mw-redirect" href="https://wiki.archlinux.org/title/ConnMan/title/Wireless_network_configuration#eduroam">Wireless network configuration#eduroam</a>.
+</p>
+<h3><span id="Avoiding_conflicts_with_local_DNS_server" class="mw-headline">Avoiding conflicts with local DNS server</span></h3>
+<p>If you are running a local DNS server, it will likely have problems binding to port 53 (TCP and/or UDP) after installing Connman. This is because Connman includes its own DNS proxy which also tries to bind to those ports. If you see log messages from <a title="BIND" href="https://wiki.archlinux.org/title/ConnMan/title/BIND">BIND</a> or <a title="Dnsmasq" href="https://wiki.archlinux.org/title/ConnMan/title/Dnsmasq">dnsmasq</a> like 
+</p>
+<pre>named[529]: could not listen on UDP socket: address in use
+</pre>
+<p>this could be the problem. To verify which application is listening on the ports, you can execute <code>ss -tulpn</code> as root.
+</p><p>To fix this connmand can be started with the options <code>-r</code> or <code>--nodnsproxy</code> by <a title="Systemd" href="https://wiki.archlinux.org/title/ConnMan/title/Systemd#Editing_provided_units">overriding</a> the systemd service file. Create the folder <code>/etc/systemd/system/connman.service.d/</code> and add the file <code>disable_dns_proxy.conf</code>:
+</p>
+<pre data-darkreader-inline-border-bottom="" style="margin-bottom: 0px; border-bottom: none; padding-bottom: 0.8em; --darkreader-inline-border-bottom: initial;">/etc/systemd/system/connman.service.d/disable_dns_proxy.conf</pre>
+<pre style="margin-top: 0; border-top-style:dashed; padding-top: 0.8em;">[Service]
+ExecStart=
+ExecStart=/usr/bin/connmand -n --nodnsproxy</pre>
+<p>Make sure to <a title="Reload" class="mw-redirect" href="https://wiki.archlinux.org/title/ConnMan/title/Reload">reload</a> the systemd daemon and <a title="Restart" class="mw-redirect" href="https://wiki.archlinux.org/title/ConnMan/title/Restart">restart</a> the <code>connman.service</code>, and your DNS proxy, after adding this file.
+</p>
+<h3><span id=".2Fetc.2Fresolv.conf"></span><span id="/etc/resolv.conf" class="mw-headline">/etc/resolv.conf</span></h3>
+<p>If you want to know the DNS servers received from DHCP while keeping a custom <code>/etc/resolv.conf</code>, then append <code>RuntimeDirectory=connman</code> to the above file (clear the <code>ExecStart</code> lines if not needed). Now connman will write them to <code>/var/run/connman/resolv.conf</code> instead.
+</p>
+<h3><span id="Blacklist_interfaces" class="mw-headline">Blacklist interfaces</span></h3>
+<p>If something like <a title="Docker" href="https://wiki.archlinux.org/title/ConnMan/title/Docker">Docker</a> is creating virtual interfaces Connman may attempt to connect to one of these instead of your physical adapter if the connection drops. A simple way of avoiding this is to blacklist the interfaces you do not want to use. Connman will by default blacklist interfaces starting with <code>vmnet</code>, <code>vboxnet</code>, <code>virbr</code> and <code>ifb</code>, so those need to be included in the new blacklist as well.
+</p><p>Blacklisting interface names is also useful to avoid a race condition where connman may access <code>eth#</code> or <code>wlan#</code> before systemd/udev can change it to use a <a href="https://systemd.io/PREDICTABLE_INTERFACE_NAMES/" class="external text" rel="nofollow">Predictable Network Interface Names</a> like <code>enp4s0</code>. Blacklisting the conventional (and unpredictable) interface prefixes makes connman wait until they are renamed.
+</p><p>If it does not already exist, create <code>/etc/connman/main.conf</code>:
+</p>
+<pre>[General]
+NetworkInterfaceBlacklist=vmnet,vboxnet,virbr,ifb,docker,veth,eth,wlan
+</pre>
+<p>Once <code>connman.service</code> has been <a title="Systemd" href="https://wiki.archlinux.org/title/ConnMan/title/Systemd#Using_units">restarted</a> this will also hide all the <code>veth#######</code> interfaces from GUI tools like Econnman.
+</p>
+<h2><span id="Troubleshooting" class="mw-headline">Troubleshooting</span></h2>
+<h3><span id="Error_.2Fnet.2Fconnman.2Ftechnology.2Fwifi:_Not_supported"></span><span id="Error_/net/connman/technology/wifi:_Not_supported" class="mw-headline">Error /net/connman/technology/wifi: Not supported</span></h3>
+<p>Currently, connman does not support scanning for WiFi networks with <span class="plainlinks archwiki-template-pkg"><a href="https://archlinux.org/packages/?name=iwd" class="external text" rel="nofollow">iwd</a></span>, at the moment this functionality is available with <code>wpa_supplicant</code> only (see <a href="https://lists.01.org/pipermail/connman/2018-August/022915.html" class="external autonumber" rel="nofollow">[4]</a>). To connect to wifi with iwd, <a title="Enable" class="mw-redirect" href="https://wiki.archlinux.org/title/ConnMan/title/Enable">enable</a>/<a title="Start" class="mw-redirect" href="https://wiki.archlinux.org/title/ConnMan/title/Start">start</a> <code>iwd.service</code> and then either follow instructions in <a title="Iwd" href="https://wiki.archlinux.org/title/ConnMan/title/Iwd">Iwd</a> to connect to the wifi or you can also use any of the <a href="https://wiki.archlinux.org/title/ConnMan#Front-ends">#Front-ends</a>. In order to have Wifi Scanning support from within connman, install <span class="plainlinks archwiki-template-pkg"><a href="https://archlinux.org/packages/?name=wpa_supplicant" class="external text" rel="nofollow">wpa_supplicant</a></span> and then <a title="Restart" class="mw-redirect" href="https://wiki.archlinux.org/title/ConnMan/title/Restart">restart</a> <code>connman.service</code> after you stop <code>iwd.service</code>.
+</p>
+<h3><span id="Error_.2Fnet.2Fconnman.2Ftechnology.2Fwifi:_No_carrier"></span><span id="Error_/net/connman/technology/wifi:_No_carrier" class="mw-headline">Error /net/connman/technology/wifi: No carrier</span></h3>
+<p>You have enabled your wifi with:
+</p>
+<pre>$ connmanctl enable wifi
+</pre>
+<p>If wireless scanning leads to above error, this may be due to an unresolved bug.<a href="https://01.org/jira/browse/CM-670" class="external autonumber" rel="nofollow">[5]</a><sup title="Last check status: 404">[<a title="wikipedia:Wikipedia:Link rot" class="extiw" href="https://en.wikipedia.org/wiki/Wikipedia:Link_rot">dead link</a> 2022-09-17&nbsp;ⓘ]</sup>
+If it does not resolve even though wireless <a href="https://lists.01.org/pipermail/connman/2014-December/019203.html" class="external text" rel="nofollow">preconditions</a> are met, try again after disabling competing network managers and rebooting.
+</p><p>This may also simply be caused by the wireless interface being blocked by <a title="Rfkill" class="mw-redirect" href="https://wiki.archlinux.org/title/ConnMan/title/Rfkill">rfkill</a>, which can occur after restarting wpa_supplicant. Use <code>rfkill list</code> to check.
+</p>
+<h3><span id=".22Not_registered.22.2C_or_.22Method_.22Connect.22_with_signature_..._doesn.27t_exist.22"></span><span id="" class="mw-headline">"Not registered", or "Method "Connect" with signature ... doesn't exist"</span></h3>
+<p>When issuing commands, you may see errors like the following:
+</p><p>From a <code>connmanctl</code> prompt:
+</p>
+<pre data-darkreader-inline-border-bottom="" style="margin-bottom: 0px; border-bottom: none; padding-bottom: 0.8em; --darkreader-inline-border-bottom: initial;">connmanctl&gt; connect <i>service_id</i></pre>
+<pre style="margin-top: 0; border-top-style:dashed; padding-top: 0.8em;">Error /net/connman/service/<i>SSID</i>: Method "Connect" with signature "" on interface "net.connman.Service" doesn't exist
+</pre>
+<p>From the shell:
+</p>
+<pre data-darkreader-inline-border-bottom="" style="margin-bottom: 0px; border-bottom: none; padding-bottom: 0.8em; --darkreader-inline-border-bottom: initial;"># connmanctl connect <i>service_id</i></pre>
+<pre style="margin-top: 0; border-top-style:dashed; padding-top: 0.8em;">Error /net/connman/service/<i>service_id</i>: Not registered
+</pre>
+<p>These errors are produced because the agent is not running. Start the agent from a <code>connmanctl</code> prompt with <code>agent on</code>, and try again.
+</p>
+<h3><span id="Error_Failed_to_set_hostname.2Fdomainname"></span><span id="Error_Failed_to_set_hostname/domainname" class="mw-headline">Error Failed to set hostname/domainname</span></h3>
+<p>connman can failed to set hostname or domainname due to lack of <code>CAP_SYS_ADMIN</code>.
+</p><p>You will need to <a title="Edit" class="mw-redirect" href="https://wiki.archlinux.org/title/ConnMan/title/Edit">edit</a> <code>connman.service</code> (and other like <code>connman-vpn.service</code> , etc ...) to modify the <code>CapabilityBoundingSet</code> line to add <code>CAP_SYS_ADMIN</code>.
+</p><p>See <code>EPERM</code> under <span title="$ man 2 sethostname" class="plainlinks archwiki-template-man"><a href="https://man.archlinux.org/man/sethostname.2#ERRORS" class="external text" rel="nofollow">sethostname(2) § ERRORS</a></span> or <span title="$ man 2 setdomainname" class="plainlinks archwiki-template-man"><a href="https://man.archlinux.org/man/setdomainname.2#ERRORS" class="external text" rel="nofollow">setdomainname(2) § ERRORS</a></span> for more details.
+</p>
+<h3><span id="Unknown_route_on_connection" class="mw-headline">Unknown route on connection</span></h3>
+<p>A log entry for an unknown route appears each time a connect is done. For example:  
+</p>
+<pre>...
+connmand[473]: wlp2s0 {add} route 82.165.8.211 gw 10.20.30.4 scope 0 &lt;UNIVERSE&gt;
+connmand[473]: wlp2s0 {del} route 82.165.8.211 gw 10.20.30.4 scope 0 &lt;UNIVERSE&gt;
+...
+</pre>
+<p>It likely is Connman performing a connectivity check to the ipv4.connman.net host (which resolves to the IP address <code>82.165.8.211</code> at current).<a href="https://01.org/jira/browse/CM-657" class="external autonumber" rel="nofollow">[6]</a><sup title="Last check status: 404">[<a title="wikipedia:Wikipedia:Link rot" class="extiw" href="https://en.wikipedia.org/wiki/Wikipedia:Link_rot">dead link</a> 2022-09-17&nbsp;ⓘ]</sup> See the <a href="https://git.kernel.org/pub/scm/network/connman/connman.git/tree/README#n388" class="external text" rel="nofollow">Connman README</a> for more information on why and what - apart from the connecting IP - it transmits.
+This behaviour can be prevented by adding the following to <code>/etc/connman/main.conf</code>:
+</p>
+<pre>[General]
+EnableOnlineCheck=false
+</pre>
+<p>This setting will cause that the default device will not switch to ONLINE, but stay in READY state.<span title="$ man 5 connman.conf" class="plainlinks archwiki-template-man"><a href="https://man.archlinux.org/man/connman.conf.5" class="external text" rel="nofollow">connman.conf(5)</a></span> However, the connection will still be functional.
+</p><p>The connection itself is also functional (unless behind a captive portal) if the check is blocked by a firewall rule: 
+</p>
+<pre># ip6tables -A OUTPUT -d ipv6.connman.net -j REJECT
+# iptables -A OUTPUT -d ipv4.connman.net,ipv6.connman.net -j REJECT
+</pre>
+<h3><span id="File_.2Fproc.2Fnet.2Fpnp_doesn.27t_exist"></span><span id="File_/proc/net/pnp_doesn't_exist" class="mw-headline">File /proc/net/pnp doesn't exist</span></h3>
+<p>If you see this in your error log it is caused by bug in connman <a href="https://bbs.archlinux.org/viewtopic.php?id=227689#p1766928" class="external autonumber" rel="nofollow">[7]</a> and can be ignored. <a href="https://01.org/jira/browse/CM-690" class="external text" rel="nofollow">Bug Report</a><sup title="Last check status: 404">[<a title="wikipedia:Wikipedia:Link rot" class="extiw" href="https://en.wikipedia.org/wiki/Wikipedia:Link_rot">dead link</a> 2022-09-17&nbsp;ⓘ]</sup>
+</p>
+<h2><span id="See_also" class="mw-headline">See also</span></h2>
+<ul><li><a href="https://git.kernel.org/cgit/network/connman/connman.git/tree/doc" class="external text" rel="nofollow">Git repository documentation</a> — for further detailed documentation</li></ul></div></div></div>
+

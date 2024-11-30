@@ -1,0 +1,150 @@
+caption: Connecting to a bluetooth speaker with pulseaudio
+created: 20230303012240910
+location: https://tgarc.github.io/2015/03/24/connecting-to-a-bluetooth-speaker-with-pulseaudio/
+modified: 20230303012240910
+title: Connecting to a bluetooth speaker with pulseaudio
+type: text/vnd.tiddlywiki
+when: 2023/3/2 19:22:40
+
+https://tgarc.github.io/2015/03/24/connecting-to-a-bluetooth-speaker-with-pulseaudio/
+
+<h1 id="intro">Intro</h1>
+
+<p>This post is a summary of the steps that were necessary for me to set up an A2DP
+interface to a bluetooth speaker using pulseaudio. This setup was completed
+using the original BeagleBone with Linaro Ubuntu 14.04 but should apply for any
+debian based distribution.</p>
+
+<h1 id="beaglebone-usb-issues">Beaglebone USB issues</h1>
+
+<p>If you’re using a USB bluetooth dongle you will have to supply the board with an
+external power supply. I also found that, even with the proper external power
+supply, if the dongle was connected before the beaglebone had finished starting
+up the dongle wouldn’t be detected by the OS.</p>
+
+<p>A workaround that typically worked in these cases was to simply run</p>
+
+<pre><code>sudo lsusb -v
+</code></pre>
+
+<p>In most cases the bluetooth dongle would immediately turn on and be detected
+properly with this command. (If you can shed any light on why this works I would
+be hugely thankful). The other workaround is just to make sure you don’t connect
+the USB dongle until the board has finished starting up.</p>
+
+<h1 id="onwards">Onwards</h1>
+
+<p>Firstly, we install the necessary packages for handling bluetooth</p>
+
+<pre><code>$ sudo apt-get install bluez pulseaudio-module-bluetooth python-gobject python-gobject-2 bluez-tools
+</code></pre>
+
+<p>Now, make sure your bluetooth dongle is connected and shows up in the lsusb listing.</p>
+
+<pre><code>$ lsusb
+Bus 001 Device 004: ID 0a12:0001 Cambridge Silicon Radio, Ltd Bluetooth Dongle (HCI mode)
+</code></pre>
+
+<p>Let’s add our user to the pulse audio group (lp) so user can play audio through
+it (replace pi with your user name)</p>
+
+<pre><code>sudo usermod -a -G lp pi
+</code></pre>
+
+<p>Now, turn on the bluetooth speaker and put it in pairing mode. Then scan for it with</p>
+
+<pre><code>$ hcitool scan
+Scanning ...
+    00:11:67:8C:17:80   H163
+</code></pre>
+
+<p>This gives us the bluetooth’s MAC address for use in later step.  Now create a
+file <code>/etc/asound.conf</code> with the following content</p>
+
+<pre><code>pcm.bluetooth {
+    type bluetooth
+    device 00:11:67:8C:17:80 # change this MAC address to the one you wrote down
+}
+</code></pre>
+
+<p>Modify your bluetooth audio config appropriately so that your Enable line
+includes <em>Headset</em> and <em>Sink</em> at least. I used</p>
+
+<pre><code>Enable=Source,Sink,Headset
+</code></pre>
+
+<p>You may need to add this additional line if you have trouble</p>
+
+<pre><code>Disable=Socket
+</code></pre>
+
+<p>Restart the Bluetooth service to put these changes into effect</p>
+
+<pre><code>$ sudo service bluetooth restart
+</code></pre>
+
+<p>Now, we have to make a minor modification the pulseaudio daemon config file.</p>
+
+<pre><code>$ sudo nano /etc/pulse/daemon.conf
+</code></pre>
+
+<p>Look for this line</p>
+
+<pre><code>resample-method = speex-float-3
+</code></pre>
+
+<p>and replace it with</p>
+
+<pre><code>; resample-method = speex-float-3
+</code></pre>
+
+<p>Then, add this line underneath it</p>
+
+<pre><code>resample-method = trivial
+</code></pre>
+
+<p>Exit and save. Now we can start the pulseaudio daemon</p>
+
+<pre><code>$ pulseaudio --start
+</code></pre>
+
+<p>Now to pair the device we use bluez-simple-agent. Make sure to put bluetooth speaker in pairing
+mode first.</p>
+
+<pre><code>$ bluez-simple-agent hci0 00:11:67:8C:17:80
+</code></pre>
+
+<p>Finally, we’ll connect to the bluetooth speaker using the MAC address you
+obtained earlier</p>
+
+<pre><code>$ bluez-test-audio connect 00:11:67:8C:17:80
+</code></pre>
+
+<p>Verify you’re connected with hcitool. You should get something like below</p>
+
+<pre><code>$ hcitool con
+Connections:
+        &lt; ACL 00:11:67:8C:17:80 handle 70 state 1 lm MASTER AUTH ENCRYPT
+</code></pre>
+
+<p>Great, now a bluetooth sink should be available for pulseaudio</p>
+
+<pre><code>$ pactl list sinks short
+1       bluez_sink.00:11:67:8C:17:80    module-bluetooth-device.c       s16le 2ch 44100Hz       RUNNING
+</code></pre>
+
+<p>If you have other audio devices you should set the default sink to our new
+bluetooth sink (make sure to replace bluez_sink.00:11:67:8C:17:80 with your own
+bluetooth sink id)</p>
+
+<pre><code>pacmd set-default-sink bluez_sink.00:11:67:8C:17:80
+</code></pre>
+
+<h1 id="sources">Sources</h1>
+
+<p><a href="http://stackoverflow.com/questions/24580155/pulseaudio-not-detecting-bluetooth-headset">http://stackoverflow.com/questions/24580155/pulseaudio-not-detecting-bluetooth-headset</a></p>
+
+<p><a href="http://blog.whatgeek.com.pt/2014/04/raspberry-pi-bluetooth-wireless-speaker/">http://blog.whatgeek.com.pt/2014/04/raspberry-pi-bluetooth-wireless-speaker/</a></p>
+
+<p><a href="http://www.instructables.com/id/Turn-your-Raspberry-Pi-into-a-Portable-Bluetooth-A/?ALLSTEPS">http://www.instructables.com/id/Turn-your-Raspberry-Pi-into-a-Portable-Bluetooth-A/?ALLSTEPS</a></p>
+

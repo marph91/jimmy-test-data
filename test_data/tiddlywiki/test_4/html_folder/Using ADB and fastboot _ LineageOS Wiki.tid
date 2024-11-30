@@ -1,0 +1,100 @@
+caption: Using ADB and fastboot : LineageOS Wiki
+created: 20230304014455558
+location: https://wiki.lineageos.org/adb_fastboot_guide
+modified: 20230304014455558
+title: Using ADB and fastboot : LineageOS Wiki
+type: text/vnd.tiddlywiki
+when: 2023/3/3 19:44:55
+
+https://wiki.lineageos.org/adb_fastboot_guide
+
+<h2 class="top-level-header" id="what-is-adb">What is <code class="language-plaintext highlighter-rouge">adb</code>?<a style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;" data-anchorjs-icon="" aria-label="Anchor link for: what is adb" href="https://wiki.lineageos.org/adb_fastboot_guide#what-is-adb" class="anchorjs-link"></a></h2><i class="icon-arrow-up back-to-top"> </i>
+<p>The <a class="external" href="https://en.wikipedia.org/wiki/Android_Debug_Bridge">Android Debug Bridge</a> (<code class="language-plaintext highlighter-rouge">adb</code>) is a development tool that facilitates communication between an Android
+device and a personal computer. This communication is most often done over a USB cable, but Wi-Fi
+connections are also supported.</p>
+<p><code class="language-plaintext highlighter-rouge">adb</code> is like a “Swiss-army knife” of Android development. It provides numerous functions that are
+described in detail by the command <code class="language-plaintext highlighter-rouge">adb --help</code>. Some of the more commonly used
+commands are listed in the “<a href="https://wiki.lineageos.org/adb_fastboot_guide#popular-adb-commands">popular adb commands</a>” section below.</p>
+<h2 class="top-level-header" id="installing-adb-and-fastboot">Installing <code class="language-plaintext highlighter-rouge">adb</code> and <code class="language-plaintext highlighter-rouge">fastboot</code><a style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;" data-anchorjs-icon="" aria-label="Anchor link for: installing adb and fastboot" href="https://wiki.lineageos.org/adb_fastboot_guide#installing-adb-and-fastboot" class="anchorjs-link"></a></h2><i class="icon-arrow-up back-to-top"> </i>
+<p>Google hosts zips including only <code class="language-plaintext highlighter-rouge">adb</code> and <code class="language-plaintext highlighter-rouge">fastboot</code>. You can set these up for use with the instructions below.</p>
+<h3 id="on-windows">On Windows<a style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;" data-anchorjs-icon="" aria-label="Anchor link for: on windows" href="https://wiki.lineageos.org/adb_fastboot_guide#on-windows" class="anchorjs-link"></a></h3>
+<ol>
+<li>Download the <a class="external" href="https://dl.google.com/android/repository/platform-tools-latest-windows.zip">Windows zip</a> from Google.</li>
+<li>Extract it somewhere - for example, <code class="language-plaintext highlighter-rouge">%USERPROFILE%\adb-fastboot</code></li>
+<li>On Windows 7/8:
+<ul>
+<li>From the desktop, right-click My Computer and select Properties</li>
+<li>In the System Properties window, click on the Advanced tab</li>
+<li>In the Advanced section, click the Environment Variables button</li>
+<li>In the Environment Variables window, highlight the Path variable in the Systems Variable section and click the Edit button</li>
+<li>Append <code class="language-plaintext highlighter-rouge">;%USERPROFILE%\adb-fastboot\platform-tools</code> to the end of the existing Path definition (the semi-colon separates each path entry)</li>
+</ul>
+</li>
+<li>On Windows 10:
+<ul>
+<li>Open the Start menu, and type “advanced system settings”</li>
+<li>Select “View advanced system settings”</li>
+<li>Click on the Advanced tab</li>
+<li>Open the “Environment Variables” window</li>
+<li>Select the Path variable under “System Variables” and click the “Edit” button</li>
+<li>Click the “New” button</li>
+<li>Insert <code class="language-plaintext highlighter-rouge">%USERPROFILE%\adb-fastboot\platform-tools</code> in the text field</li>
+</ul>
+</li>
+<li>Download the <a class="external" href="https://developer.android.com/studio/run/win-usb">USB drivers</a> and follow the instructions there.</li>
+</ol>
+<h3 id="on-macos">On macOS<a style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;" data-anchorjs-icon="" aria-label="Anchor link for: on macos" href="https://wiki.lineageos.org/adb_fastboot_guide#on-macos" class="anchorjs-link"></a></h3>
+<ol>
+<li>Download the <a class="external" href="https://dl.google.com/android/repository/platform-tools-latest-darwin.zip">macOS zip</a> from Google.</li>
+<li>Extract it somewhere - for example, <code class="language-plaintext highlighter-rouge">~/adb-fastboot</code>.</li>
+<li>Add the following to <code class="language-plaintext highlighter-rouge">~/.bash_profile</code> if you are using Bash or <code class="language-plaintext highlighter-rouge">~/.zshenv</code> if you are using Z shell:
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="o">[</span> <span class="nt">-d</span> <span class="s2">"</span><span class="nv">$HOME</span><span class="s2">/adb-fastboot/platform-tools"</span> <span class="o">]</span> <span class="p">;</span> <span class="k">then
+ </span><span class="nb">export </span><span class="nv">PATH</span><span class="o">=</span><span class="s2">"</span><span class="nv">$HOME</span><span class="s2">/adb-fastboot/platform-tools:</span><span class="nv">$PATH</span><span class="s2">"</span>
+<span class="k">fi</span>
+</code></pre></div> </div>
+</li>
+<li>Log out and back in.</li>
+</ol>
+<h3 id="on-linux">On Linux<a style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;" data-anchorjs-icon="" aria-label="Anchor link for: on linux" href="https://wiki.lineageos.org/adb_fastboot_guide#on-linux" class="anchorjs-link"></a></h3>
+<ol>
+<li>Download the <a class="external" href="https://dl.google.com/android/repository/platform-tools-latest-linux.zip">Linux zip</a> from Google.</li>
+<li>Extract it somewhere - for example, <code class="language-plaintext highlighter-rouge">~/adb-fastboot</code>.</li>
+<li>Add the following to <code class="language-plaintext highlighter-rouge">~/.profile</code>:
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="o">[</span> <span class="nt">-d</span> <span class="s2">"</span><span class="nv">$HOME</span><span class="s2">/adb-fastboot/platform-tools"</span> <span class="o">]</span> <span class="p">;</span> <span class="k">then
+ </span><span class="nb">export </span><span class="nv">PATH</span><span class="o">=</span><span class="s2">"</span><span class="nv">$HOME</span><span class="s2">/adb-fastboot/platform-tools:</span><span class="nv">$PATH</span><span class="s2">"</span>
+<span class="k">fi</span>
+</code></pre></div> </div>
+</li>
+<li>Log out and back in.</li>
+<li>You may also need to set up udev rules: see <a class="external" href="https://github.com/M0Rf30/android-udev-rules#installation">this repository</a> for more info.</li>
+</ol>
+<h2 class="top-level-header" id="setting-up-adb">Setting up <code class="language-plaintext highlighter-rouge">adb</code><a style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;" data-anchorjs-icon="" aria-label="Anchor link for: setting up adb" href="https://wiki.lineageos.org/adb_fastboot_guide#setting-up-adb" class="anchorjs-link"></a></h2><i class="icon-arrow-up back-to-top"> </i>
+<p>To use <code class="language-plaintext highlighter-rouge">adb</code> with your device, you’ll need to enable developer options and USB debugging:</p>
+<ol>
+<li>Open Settings, and select “About”.</li>
+<li>Tap on “Build number” seven times.</li>
+<li>Go back, and select “Developer options”.</li>
+<li>Scroll down, and check the “Android debugging” or “USB debugging” entry under “Debugging”.</li>
+<li>Plug your device into your computer.</li>
+<li>On the computer, open up a terminal/command prompt and type <code class="language-plaintext highlighter-rouge">adb devices</code>.</li>
+<li>A dialog should show on your device, asking you to allow usb debugging. Check “always allow”, and choose “OK”.<br>
+If the dialog is not appearing or the list of devices is empty, check if you installed <code class="language-plaintext highlighter-rouge">adb</code> properly.
+<ul>
+<li>On Windows: Make sure your device manager does show your phone and doesn’t show a yellow triangle next to it!</li>
+</ul>
+</li>
+</ol>
+<p>Congratulations! <code class="language-plaintext highlighter-rouge">adb</code> is now ready to use with your device.</p>
+<h2 class="top-level-header" id="setting-up-fastboot">Setting up <code class="language-plaintext highlighter-rouge">fastboot</code><a style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;" data-anchorjs-icon="" aria-label="Anchor link for: setting up fastboot" href="https://wiki.lineageos.org/adb_fastboot_guide#setting-up-fastboot" class="anchorjs-link"></a></h2><i class="icon-arrow-up back-to-top"> </i>
+<p>Using <code class="language-plaintext highlighter-rouge">fastboot</code> (if your device supports it) should simply involve rebooting to fastboot mode.
+While in fastboot mode, you can type <code class="language-plaintext highlighter-rouge">fastboot devices</code> to verify that your device is being detected.</p>
+<h2 class="top-level-header" id="popular-adb-commands">Popular <code class="language-plaintext highlighter-rouge">adb</code> commands<a style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;" data-anchorjs-icon="" aria-label="Anchor link for: popular adb commands" href="https://wiki.lineageos.org/adb_fastboot_guide#popular-adb-commands" class="anchorjs-link"></a></h2><i class="icon-arrow-up back-to-top"> </i>
+<ul>
+<li><code class="language-plaintext highlighter-rouge">adb shell</code> - launches a <a class="external" href="https://en.wikipedia.org/wiki/Shell_(computing)">shell</a> on the device</li>
+<li><code class="language-plaintext highlighter-rouge">adb push &lt;local&gt; &lt;remote&gt;</code> - pushes the file <code class="language-plaintext highlighter-rouge">&lt;local&gt;</code> to <code class="language-plaintext highlighter-rouge">&lt;remote&gt;</code></li>
+<li><code class="language-plaintext highlighter-rouge">adb pull &lt;remote&gt; [&lt;local&gt;]</code> - pulls the file <code class="language-plaintext highlighter-rouge">&lt;remote&gt;</code> to <code class="language-plaintext highlighter-rouge">&lt;local&gt;</code>. If <code class="language-plaintext highlighter-rouge">&lt;local&gt;</code> isn’t specified,
+it will pull to the current folder.</li>
+<li><code class="language-plaintext highlighter-rouge">adb logcat</code> - allows you to view the device log in real-time. You can use <code class="language-plaintext highlighter-rouge">adb logcat -b radio</code> to view radio logs,
+and <code class="language-plaintext highlighter-rouge">adb logcat -C</code> to view logs in colour</li>
+<li><code class="language-plaintext highlighter-rouge">adb install &lt;file&gt;</code> - installs the given .apk file to your device</li></ul>
+

@@ -1,0 +1,150 @@
+caption: Using LightDM with an External Monitor on a Laptop or with the Multi-monitor Setups
+created: 20230303012149499
+location: https://chaoticlab.io/posts/lightdm-extmonitor/
+modified: 20230303012149499
+title: Using LightDM with an External Monitor on a Laptop or with the Multi-monitor Setups
+type: text/vnd.tiddlywiki
+when: 2023/3/2 19:21:49
+
+https://chaoticlab.io/posts/lightdm-extmonitor/
+
+<p>Like many other users, I find it convenient to connect an external monitor to my laptop sometimes. As I often do this, I expect this functionality to work flawlessly but, unfortunately, I experienced some problems when using LightDM on Arch Linux . By default, LightDM tries to mirror data on multiple displays, and it does not work well when you have monitors with different resolutions. In this post, I want to share my solution to this problem. I expect that this solution might be useful not only for laptop users but for the workstation users with multi-monitor setups as well. Moreover, if LightDM's user interface sometimes stops responding to your actions, this post might be useful for you.
+                </p>
+                <p>
+                  In general, on a laptop with an external monitor, I expect the login screen to appear on it and have the laptop screen disabled in that case. If there are multiple external monitors connected to the system, I want only one of them used for a login screen.
+                </p>
+                <p>
+                  Fortunately, these actions can be programmed using a UNIX shell script build around the functionality of the <code>xrandr</code> utility.
+                </p>
+                <p>
+                  When used without any parameters it prints the list of monitor outputs alongside the information about the connected monitors:
+                </p>
+                <pre class="example">artem@artbox:~$ xrandr
+Screen 0: minimum 8 x 8, current 1366 x 768, maximum 32767 x 32767
+LVDS1 connected 1366x768+0+0 (normal left inverted right x axis y axis) 340mm x 190mm
+   1366x768      60.03*+
+   1280x720      59.74
+   1024x768      60.00
+   1024x576      60.00    59.90    59.82
+   960x540       60.00    59.63    59.82
+   800x600       60.32    56.25
+   864x486       60.00    59.92    59.57
+   640x480       59.94
+   720x405       59.51    60.00    58.99
+   680x384       60.00
+   640x360       59.84    59.32    60.00
+DP1 disconnected (normal left inverted right x axis y axis)
+HDMI1 disconnected (normal left inverted right x axis y axis)
+VGA1 disconnected (normal left inverted right x axis y axis)
+VIRTUAL1 disconnected (normal left inverted right x axis y axis)
+</pre>
+                <p>
+                  We could filter out the information about the available outputs using the UNIX tools:
+                </p>
+                <pre class="example">artem@artbox:~$ xrandr | grep connected | cut -d ' ' -f 1-2
+LVDS1 connected
+DP1 disconnected
+HDMI1 disconnected
+VGA1 disconnected
+VIRTUAL1 disconnected
+</pre>
+                <p>
+                  Keeping in mind that an internal laptop screen is usually connected using the <code>LVDS</code> interface, we could use the information obtained from the <code>xrandr</code> tool to achieve what is required.
+                </p>
+                <p>
+                  Let's outline the logic of the script using pseudo-code:
+                </p>
+                <pre class="example">var primary_out = nil
+var to_disable = nil
+
+foreach monitor_out in list_monitor_outputs() do
+    if is_connected(monitor_out) then
+        if is_connected_via_LVDS(monitor_out) then
+            to_disable = monitor_out
+        else if primary_out == nil then
+            primary_out = monitor_out
+        else
+            disable_monitor_output(monitor_out)
+        endif
+    endif
+endfor
+
+if primary_out != nil and to_disable != nil then
+    set_as_primary_monitor_output(primary_out)
+    disable_monitor_output(to_disable)
+else if primary_out != nil then
+    set_as_primary_monitor_output(primary_out)
+endif
+</pre>
+                <p>
+                  After translating the pseudo-code above into a shell script, I got the following code:
+                </p>
+                <div class="org-src-container">
+                  <pre class="src src-shell"><span class="org-comment-delimiter">#</span><span class="org-comment">!/bin/</span><span class="org-keyword">sh</span>
+
+<span class="org-comment-delimiter"># </span><span class="org-comment">the script will not work if xrandr is not available</span>
+<span class="org-keyword">if</span> [ -z <span class="org-string">"$(</span><span class="org-sh-quoted-exec">which xrandr</span><span class="org-string">)"</span> ]; <span class="org-keyword">then</span>
+    <span class="org-keyword">exit</span> 1
+<span class="org-keyword">fi</span>
+
+<span class="org-variable-name">DISABLE_SUBSTRING</span>=<span class="org-string">"LVDS"</span>
+
+<span class="org-variable-name">TO_DISABLE</span>=<span class="org-string">""</span>
+<span class="org-variable-name">PRIMARY_OUT</span>=<span class="org-string">""</span>
+
+<span class="org-variable-name">old_IFS</span>=<span class="org-string">"${IFS}"</span>
+<span class="org-variable-name">IFS</span>=$<span class="org-string">'\n'</span>
+<span class="org-keyword">for</span> out<span class="org-keyword"> in</span> <span class="org-sh-quoted-exec">`xrandr | grep connected | cut -d ' ' -f 1-2`</span>; <span class="org-keyword">do</span>
+    <span class="org-variable-name">name</span>=<span class="org-sh-quoted-exec">`echo $out | cut -d ' ' -f 1`</span>
+    <span class="org-variable-name">state</span>=<span class="org-sh-quoted-exec">`echo $out | cut -d ' ' -f 2`</span>
+    <span class="org-keyword">if</span> [ <span class="org-string">"$state"</span> = <span class="org-string">"connected"</span> ]; <span class="org-keyword">then</span>
+        <span class="org-keyword">case</span> <span class="org-string">"$name"</span><span class="org-keyword"> in</span>
+            <span class="org-comment-delimiter"># </span><span class="org-comment">disable a monitor connected via LVDS</span>
+            ${<span class="org-variable-name">DISABLE_SUBSTRING</span>}*)
+                <span class="org-keyword">if</span> [ -z <span class="org-string">"$TO_DISABLE"</span> ]; <span class="org-keyword">then</span>
+                    <span class="org-variable-name">TO_DISABLE</span>=<span class="org-string">"$name"</span>
+                <span class="org-keyword">fi</span>
+                ;;
+            *)
+                <span class="org-comment-delimiter"># </span><span class="org-comment">set the 'first' external monitor as the</span>
+                <span class="org-comment-delimiter"># </span><span class="org-comment">primary one, disable the other external monitors</span>
+                <span class="org-keyword">if</span> [ -z <span class="org-string">"$PRIMARY_OUT"</span> ]; <span class="org-keyword">then</span>
+                    <span class="org-variable-name">PRIMARY_OUT</span>=<span class="org-string">"$name"</span>
+                <span class="org-keyword">else</span>
+                    xrandr --output <span class="org-string">"$name"</span> --off
+                <span class="org-keyword">fi</span>
+                ;;
+        <span class="org-keyword">esac</span>
+    <span class="org-keyword">fi</span>
+<span class="org-keyword">done</span>
+<span class="org-variable-name">IFS</span>=<span class="org-string">"${old_IFS}"</span>
+
+<span class="org-comment-delimiter"># </span><span class="org-comment">If there is an internal screen, as well as at least one external monitor, then</span>
+<span class="org-comment-delimiter"># </span><span class="org-comment">disable the internal monitor and use the external monitor as the primary one.</span>
+<span class="org-comment-delimiter">#</span>
+<span class="org-comment-delimiter"># </span><span class="org-comment">Otherwise, if there are any external monitors, use the 'first' detected one</span>
+<span class="org-comment-delimiter"># </span><span class="org-comment">as the primary monitor.</span>
+<span class="org-keyword">if</span> [ -n <span class="org-string">"$TO_DISABLE"</span> ] &amp;&amp; [ -n <span class="org-string">"$PRIMARY_OUT"</span> ]; <span class="org-keyword">then</span>
+    xrandr --output <span class="org-string">"$PRIMARY_OUT"</span> --primary --auto --output <span class="org-string">"$TO_DISABLE"</span> --off
+<span class="org-keyword">elif</span> [ -n <span class="org-string">"$PRIMARY_OUT"</span> ]; <span class="org-keyword">then</span>
+    xrandr --output <span class="org-string">"$PRIMARY_OUT"</span> --primary --auto
+<span class="org-keyword">fi</span>
+
+<span class="org-keyword">exit</span> 0
+</pre>
+                </div>
+                <p>
+                  To use the script, one should save it into an <b>executable</b> file and alter the LightDM's settings to use it to configure the displays.
+                </p>
+                <p>
+                  In order to accomplish this one should change the <code>display-setup-script</code> in the <code>[Seat:*]</code> section of the LightDM configuration file (<code>/etc/lightdm/lightdm.conf</code>):
+                </p>
+                <pre class="example">[Seat:*]
+...
+display-setup-script=/path/to/the-script
+...
+
+</pre>
+                <p>
+                  To apply the new settings, please restart the LightDM daemon. The next LightDM session should use the script to configure monitors.</p>
+

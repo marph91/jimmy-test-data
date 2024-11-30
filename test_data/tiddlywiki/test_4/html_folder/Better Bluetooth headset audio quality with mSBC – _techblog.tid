@@ -1,0 +1,81 @@
+caption: Better Bluetooth headset audio quality with mSBC – /techblog
+created: 20230302231850714
+location: https://www.redpill-linpro.com/techblog/2021/05/31/better-bluetooth-headset-audio-with-msbc.html
+modified: 20230302231850714
+title: Better Bluetooth headset audio quality with mSBC – /techblog
+type: text/vnd.tiddlywiki
+when: 2023/3/2 17:18:50
+
+https://www.redpill-linpro.com/techblog/2021/05/31/better-bluetooth-headset-audio-with-msbc.html
+
+<h3 id="enabling-msbc-support">Enabling mSBC support</h3>
+
+<p>Support for the mSBC codec is unfortunately disabled by default in Pipewire, because not all Bluetooth adapters and headsets support it. In order to enable it, create the file <code class="highlighter-rouge">~/.config/pipewire/media-session.d/bluez-monitor.conf</code> (or <code class="highlighter-rouge">/etc/pipewire/media-session.d/bluez-monitor.conf</code>) with the following contents:</p>
+
+<div class="language-conf highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">properties</span> = {
+    <span class="n">bluez5</span>.<span class="n">msbc</span>-<span class="n">support</span> = <span class="n">true</span>
+}
+</code></pre></div></div>
+
+<p>Afterwards, restart Pipewire with <code class="highlighter-rouge">systemctl --user restart pipewire.service</code>.</p>
+
+<p>To confirm that it now works, connect your Bluetooth headset and open the <em>Audio</em> pane in <em>GNOME Settings</em> (from the command line: <code class="highlighter-rouge">gnome-control-center sound</code>). If everything is in order, HSP with mSBC should be available choices in the <em>Configuration</em> drop-down lists:</p>
+
+<figure>
+  <a class="image-popup" rel="lightbox" href="https://www.redpill-linpro.com/techblog/2021/05/31/better-bluetooth-headset-audio-with-msbc.html/techblog/images/posts/better-bluetooth-headset-audio-with-msbc/GNOME_Settings.png"> 
+    <img alt="Figure 1: Audio pane in GNOME Settings" src="https://www.redpill-linpro.com/techblog/images/posts/better-bluetooth-headset-audio-with-msbc/GNOME_Settings.png">
+  </a>
+  <center><figcaption>Figure 1: Audio pane in GNOME Settings</figcaption></center>
+</figure>
+
+<h3 id="msbc-and-cvsd-compared">mSBC and CVSD compared</h3>
+
+<p>How much better does mSBC sound, compared to CVSD? I will try to demonstrate by recording audio while switching back and forth between the codecs every five seconds.</p>
+
+<p>I start out with CVSD, so if the seconds counter in your audio player ends with 0-4, you are listing to CVSD; if the seconds counter ends with 5-9, you are listening to mSBC.</p>
+
+<p>Do note that the microphones I use are not exactly studio quality. Therefore, the recordings are unable to fully capture the <em>actual</em> difference in quality between the codecs. Nevertheless I hope that they give you a fairly good idea of how different they sound.</p>
+
+<h4 id="recording">Recording</h4>
+
+<p>In this recording I simply talk while wearing my <a href="https://www.sony.com/ug/electronics/headband-headphones/wh-1000xm3">Sony WH-1000XM3</a> headset. This headset is not known for having very a very good microphone, but the difference is nevertheless very clear to me.</p>
+
+<ul>
+  <li><a href="https://www.redpill-linpro.com/techblog/2021/05/31/better-bluetooth-headset-audio-with-msbc.html/techblog/images/posts/better-bluetooth-headset-audio-with-msbc/CVSD_vs_mSBC_recording.mp3">CVSD vs mSBC - recording</a> </li>
+</ul>
+
+<h4 id="playback">Playback</h4>
+
+<p>This recording was performed by placing the microphone of the standard wired earbuds that came with my phone over my ear before putting my headset on over it. I then play back audio from our <a href="https://ittalks.libsyn.com">IT Talks podcast</a> while alternating the codecs.</p>
+
+<ul>
+  <li><a href="https://www.redpill-linpro.com/techblog/2021/05/31/better-bluetooth-headset-audio-with-msbc.html/techblog/images/posts/better-bluetooth-headset-audio-with-msbc/CVSD_vs_mSBC_playback.mp3">CVSD vs mSBC - playback</a> </li>
+</ul>
+
+<h3 id="related-tips-and-tricks">Related tips and tricks</h3>
+
+<h4 id="the-sbc-xq-codec">The SBC-XQ codec</h4>
+
+<p>Pipewire also comes with support for the SBC-XQ codec for A2DP, which supposedly is an improvement over the standard SBC codec (but not over other codecs like AAC and LDAC, as far as I know). In any case, I have trouble telling the difference – all the A2DP codecs sound good to me.</p>
+
+<p>SBC-XQ can be enabled in the pretty much same way as mSBC is. Just edit the <code class="highlighter-rouge">bluez-monitor.conf</code> file and add another line so it reads:</p>
+
+<div class="language-conf highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">properties</span> = {
+    <span class="n">bluez5</span>.<span class="n">msbc</span>-<span class="n">support</span> = <span class="n">true</span>
+    <span class="n">bluez5</span>.<span class="n">sbc</span>-<span class="n">xq</span>-<span class="n">support</span> = <span class="n">true</span>
+}
+</code></pre></div></div>
+
+<p>After restarting PipeWire you should now find the SBC-XQ codec in the Output <em>Configuration</em> drop-down list in <em>Audio</em> pane the <em>GNOME Settings</em> application.</p>
+
+<h4 id="battery-level-reporting">Battery level reporting</h4>
+
+<p>Having Pipewire report the battery level requires manually enabling an experimental API in the <a href="http://www.bluez.org/">BlueZ</a> Bluetooth stack. This can be done by running <code class="highlighter-rouge">sudo systemctl edit bluetooth.service</code> and entering the following lines where the comments prompt you to:</p>
+
+<div class="language-conf highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[<span class="n">Service</span>]
+<span class="n">ExecStart</span>=
+<span class="n">ExecStart</span>=/<span class="n">usr</span>/<span class="n">libexec</span>/<span class="n">bluetooth</span>/<span class="n">bluetoothd</span> --<span class="n">experimental</span>
+</code></pre></div></div>
+
+<p>Afterwards, restart BlueZ with <code class="highlighter-rouge">sudo systemctl restart bluetooth.service</code>. Now you should be able to see your headset’s battery level in the <em>Power</em> pane of <em>GNOME Settings</em> (from the command line: <code class="highlighter-rouge">gnome-control-center power</code>).</p>
+

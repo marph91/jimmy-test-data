@@ -1,0 +1,22 @@
+caption: Adding multiple entries to the menu? · Discussion #115 · buggyj/tiddlyclip-plugin
+created: 20230222015433670
+location: https://github.com/buggyj/tiddlyclip-plugin/discussions/115
+modified: 20230222020116119
+tags: tiddlyclip
+title: Adding multiple entries to the menu? tiddlyclip-plugin
+type: text/vnd.tiddlywiki
+when: 2023/2/22 01:54:33
+
+https://github.com/buggyj/tiddlyclip-plugin/discussions/115
+
+<p dir="auto">Only html and  text are supported.</p>
+<p dir="auto">You can include a newline in the table in the tiddler tiddlyclipconfig like so</p>
+<p dir="auto"><a href="https://user-images.githubusercontent.com/2855795/220429078-5c109c24-ab07-4295-a566-816dc4091fde.png" rel="noopener noreferrer nofollow"><img style="max-width: 100%;"></a></p>
+
+https://github.com/buggyj/tiddlyclip-plugin/discussions/115
+
+<p dir="auto"><a href="https://github.com/buggyj/tiddlyclip-plugin/discussions/79#discussioncomment-2299068" data-hovercard-url="/buggyj/tiddlyclip-plugin/discussions/79/hovercard?comment_id=2299068" data-hovercard-type="discussion" data-url="https://github.com/buggyj/tiddlyclip-plugin/discussions/79" data-permission-text="Title is private" data-id="3915967" data-error-text="Failed to load title" class="issue-link js-issue-link" aria-label="Discussion #79">#79 (comment)</a></p>
+<p dir="auto">You can modify the rule given in this post for the markdown content. I don't use markdown format in my wiki. So I don't have much experience with it</p>
+
+[img[image.png]]
+

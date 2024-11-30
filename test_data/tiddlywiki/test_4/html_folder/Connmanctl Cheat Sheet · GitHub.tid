@@ -1,0 +1,95 @@
+caption: Connmanctl Cheat Sheet · GitHub
+created: 20230118032041845
+location: https://gist.github.com/kylemanna/6930087
+modified: 20230118032041845
+title: Connmanctl Cheat Sheet · GitHub
+type: text/vnd.tiddlywiki
+when: 2023/1/17 21:20:41
+
+https://gist.github.com/kylemanna/6930087
+
+<h1 dir="auto">Connmanctl Cheat Sheet</h1>
+<ul dir="auto">
+<li>Documentation @ <a rel="nofollow" href="http://git.kernel.org/cgit/network/connman/connman.git/tree/doc">http://git.kernel.org/cgit/network/connman/connman.git/tree/doc</a></li>
+</ul>
+<h2 dir="auto"><a href="https://gist.github.com/kylemanna/6930087#configure-wifi" aria-hidden="true" class="anchor" id="user-content-configure-wifi"><svg aria-hidden="true" height="16" width="16" version="1.1" viewBox="0 0 16 16" class="octicon octicon-link"><path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path></svg></a>Configure WiFi</h2>
+<ul dir="auto">
+<li>
+<p dir="auto">Scan for access points (run multiple times for more complete scan):</p>
+<pre><code>  # connmanctl scan wifi
+  Scan completed for wifi
+</code></pre>
+</li>
+<li>
+<p dir="auto">Display access points discovered:</p>
+<pre><code>  # connmanctl services
+  *AO Wired                ethernet_9059af5f4217_cable
+      HOME-0842            wifi_009e959b585c_484f4d452d30383432_managed_psk
+      ATT440               wifi_009e959b585c_415454343430_managed_psk
+      andent               wifi_009e959b585c_616e64656e74_managed_psk
+                           wifi_009e959b585c_hidden_managed_psk
+      ATT512               wifi_009e959b585c_415454353132_managed_psk
+      GoldenBearTriangle   wifi_009e959b585c_476f6c64656e42656172547269616e676c65_managed_psk
+      Mr. Pamuk            wifi_009e959b585c_4d722e2050616d756b_managed_psk
+      thegirls             wifi_009e959b585c_7468656769726c73_managed_psk
+      HappyDays            wifi_009e959b585c_486170707944617973_managed_psk
+      tipsycoopaloop       wifi_009e959b585c_7469707379636f6f70616c6f6f70_managed_psk
+      2BlueWiFi            wifi_009e959b585c_32426c756557694669_managed_psk
+</code></pre>
+</li>
+<li>
+<p dir="auto">Displays details on the AP of interest:</p>
+<pre><code>  # connmanctl services wifi_009e959b585c_32426c756557694669_managed_psk
+  /net/connman/service/wifi_009e959b585c_32426c756557694669_managed_psk
+    Type = wifi
+    Security = [ psk ]
+    State = idle
+    Strength = 63
+    Favorite = False
+    Immutable = False
+    AutoConnect = False
+    Name = 2BlueWiFi
+    Ethernet = [ Method=auto, Interface=wlan0, Address=00:9E:95:9B:58:5C, MTU=1500 ]
+    IPv4 = [  ]
+    IPv4.Configuration = [ Method=dhcp ]
+    IPv6 = [  ]
+    IPv6.Configuration = [ Method=auto, Privacy=disabled ]
+    Nameservers = [  ]
+    Nameservers.Configuration = [  ]
+    Timeservers = [  ]
+    Timeservers.Configuration = [  ]
+    Domains = [  ]
+    Domains.Configuration = [  ]
+    Proxy = [  ]
+    Proxy.Configuration = [  ]
+    Provider = [  ]
+</code></pre>
+</li>
+<li>
+<p dir="auto">Write config file for connecting to secure AP:</p>
+<pre><code>  # cat &lt;&lt; EOF &gt; /var/lib/connman/&lt;SSID&gt;-psk.config
+  [service_wifi_&lt;hash&gt;_managed_psk]
+  Type = wifi
+  Name = &lt;SSID&gt;
+  Passphrase = &lt;passphrase&gt;
+  EOF
+</code></pre>
+<ul dir="auto">
+<li>Should be automatically re-read without needing to restart connman.</li>
+<li>Verify this worked correctly by re-running <strong>connmanctl services </strong> and observe <strong>Immutable</strong>, <strong>AutoConnect</strong> and <strong>Favorite</strong> are set to true.</li>
+</ul>
+</li>
+<li>
+<p dir="auto">Connect to the new secure AP:</p>
+<pre><code>  # connmanctl connect wifi_009e959b585c_32426c756557694669_managed_psk
+</code></pre>
+<ul dir="auto">
+<li>Verify correct operation by running <strong>connmanctl services </strong> and observe the local interface address as well as DNS.  Also can check <strong>ip addr ls</strong> and <strong>cat /etc/resolv.conf</strong></li>
+</ul>
+</li>
+</ul>
+<h2 dir="auto"><a href="https://gist.github.com/kylemanna/6930087#comments--issues" aria-hidden="true" class="anchor" id="user-content-comments--issues"><svg aria-hidden="true" height="16" width="16" version="1.1" viewBox="0 0 16 16" class="octicon octicon-link"><path d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z" fill-rule="evenodd"></path></svg></a>Comments / Issues</h2>
+<ul dir="auto">
+<li>WiFi driver + connman-1.17 + beaglebone appears to be buggy with connmanctl disable/enable</li>
+<li>Connmanctl <strong>connect</strong> seems buggy, potential it calls enable?</li></ul>
+

@@ -1,0 +1,23 @@
+caption: Upgrade LineageOS on bramble : LineageOS Wiki
+created: 20230304014423720
+location: https://wiki.lineageos.org/devices/bramble/upgrade
+modified: 20230304014423720
+title: Upgrade LineageOS on bramble : LineageOS Wiki
+type: text/vnd.tiddlywiki
+when: 2023/3/3 19:44:23
+
+https://wiki.lineageos.org/devices/bramble/upgrade
+
+<li>Run <code class="language-plaintext highlighter-rouge">adb reboot sideload</code>.
+<div role="alert" class="alert alert-warning"><div class="alert-icon"><i class="material-icons">warning</i></div><div class="alert-text"><b>Important:</b> The device may reboot to a blank black screen, fear not, this is a known bug on some recoveries, proceed with the instructions.</div></div>
+</li>
+<li>Run <code class="language-plaintext highlighter-rouge">adb sideload /path/to/zip</code> (inserting the path to your LineageOS package).
+<div role="alert" class="alert alert-success"><div class="alert-icon"><i class="material-icons">check</i></div><div class="alert-text"><b>Tip:</b> Normally, adb will report <code class="language-plaintext highlighter-rouge">Total xfer: 1.00x</code>, but in some cases, even if the process succeeds the output will stop at 47% and report <code class="language-plaintext highlighter-rouge">adb: failed to read command: Success</code>.
+In some cases it will report <code class="language-plaintext highlighter-rouge">adb: failed to read command: No error</code> or <code class="language-plaintext highlighter-rouge">adb: failed to read command: Undefined error: 0</code> which is also fine.</div></div>
+</li>
+<li><em>(Optionally)</em>: If you want to install any add-ons, click <code class="language-plaintext highlighter-rouge">Advanced</code>, then <code class="language-plaintext highlighter-rouge">Reboot to Recovery</code>, then when your device reboots, click <code class="language-plaintext highlighter-rouge">Apply Update</code>, then <code class="language-plaintext highlighter-rouge">Apply from ADB</code>, then <code class="language-plaintext highlighter-rouge">adb sideload /path/to/zip</code> those packages in sequence.
+<div role="alert" class="alert alert-info"><div class="alert-icon"><i class="material-icons">info_outline</i></div><div class="alert-text"><b>Note:</b> If you previously had any Google Apps add-on package installed on your device, you must install an updated package <strong>before</strong> the first boot of Android! If you did not have Google Apps installed, you must wipe the <strong>Data</strong> partition (or perform a factory reset) to install them.</div></div>
+<div role="alert" class="alert alert-info"><div class="alert-icon"><i class="material-icons">info_outline</i></div><div class="alert-text"><b>Note:</b> Add-ons aren’t signed with LineageOS’s official key, and therefore when they are sideloaded, Lineage Recovery will present a screen that says <code class="language-plaintext highlighter-rouge">Signature verification failed</code>, this is expected, please click <code class="language-plaintext highlighter-rouge">Continue</code>.</div></div>
+</li>
+<li>Once you have installed everything successfully, click the back arrow in the top left of the screen, then “Reboot system now”</li>
+

@@ -1,0 +1,24 @@
+caption: ubuntu - How can I restore GRUB without a live CD? - Super User
+created: 20230123004832419
+location: https://superuser.com/questions/181733/how-can-i-restore-grub-without-a-live-cd
+modified: 20230123004906003
+tags: linux
+title: How can I restore GRUB without a live CD
+type: text/vnd.tiddlywiki
+when: 2023/1/22 18:48:32
+
+https://superuser.com/questions/181733/how-can-i-restore-grub-without-a-live-cd
+
+<p>I managed to boot using the grub rescue prompt with the help of the <a rel="noreferrer" href="https://help.ubuntu.com/community/Grub2">Ubuntu grub2 reference</a> using these commands:</p>
+
+<ol>
+<li>ls</li>
+<li>set prefix=(hdX,Y)/boot/grub</li>
+<li>set root=(hdX,Y)</li>
+<li>set</li>
+<li>ls /boot</li>
+<li>insmod /boot/grub/linux.mod</li>
+<li>linux /vmlinuz root=/dev/sdXY ro</li>
+<li>initrd /initrd.img</li>
+<li>boot</li></ol>
+
