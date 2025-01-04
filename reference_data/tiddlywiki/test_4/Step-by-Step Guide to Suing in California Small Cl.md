@@ -38,9 +38,8 @@ In this guide, learn about:
 
 ## **California Small Claims Quick Facts**
 
-|  |  |
-|----|----|
 | **Limit** | $10,000 if you are an individual, $5,000 if you are suing on behalf of a corporation or LLC |
+|----|----|
 | **Cost to File** | $0- $75 |
 | **Cost to Serve Lawsuit** | $0- $125 |
 | **Hearing Dates** | Hearings are scheduled 30- 75 Days after filing.  |

@@ -2,9 +2,8 @@ Sample content
 
   
 
-|       |         |
-|-------|---------|
 | Table | Header  |
+|-------|---------|
 | table | content |
 
   

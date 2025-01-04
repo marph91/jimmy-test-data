@@ -41,10 +41,9 @@ Alternatively, various network managers provide support for WireGuard, provided 
 
 The commands below demonstrate how to set up a basic tunnel between two or more peers with the following settings:
 
-|  |  |  |  |  |  |  |
-|----|----|----|----|----|----|----|
 |  | External (public) addresses |  |  | Internal IP addresses |  | Port |
-|  | Domain name | IPv4 address | IPv6 address | IPv4 address | IPv6 address |  |
+|----|----|----|----|----|----|----|
+| Domain name | IPv4 address | IPv6 address | IPv4 address | IPv6 address |  |  |
 | Peer A |  | 198.51.100.101 | 2001:db8:a85b:70a:ffd4:ec1b:4650:a001 | 10.0.0.1/24 | fdc9:281f:04d7:9ee9::1/64 | UDP/51871 |
 | Peer B | peer-b.example | 203.0.113.102 | 2001:db8:40f0:147a:80ad:3e88:f8e9:b002 | 10.0.0.2/24 | fdc9:281f:04d7:9ee9::2/64 | UDP/51902 |
 | Peer C |  | *dynamic* | *dynamic* | 10.0.0.3/24 | fdc9:281f:04d7:9ee9::3/64 | UDP/51993 |
@@ -1314,10 +1313,9 @@ Alternatively, various network managers provide support for WireGuard, provided 
 
 The commands below demonstrate how to set up a basic tunnel between two or more peers with the following settings:
 
-|  |  |  |  |  |  |  |
-|----|----|----|----|----|----|----|
 |  | External (public) addresses |  |  | Internal IP addresses |  | Port |
-|  | Domain name | IPv4 address | IPv6 address | IPv4 address | IPv6 address |  |
+|----|----|----|----|----|----|----|
+| Domain name | IPv4 address | IPv6 address | IPv4 address | IPv6 address |  |  |
 | Peer A |  | 198.51.100.101 | 2001:db8:a85b:70a:ffd4:ec1b:4650:a001 | 10.0.0.1/24 | fdc9:281f:04d7:9ee9::1/64 | UDP/51871 |
 | Peer B | peer-b.example | 203.0.113.102 | 2001:db8:40f0:147a:80ad:3e88:f8e9:b002 | 10.0.0.2/24 | fdc9:281f:04d7:9ee9::2/64 | UDP/51902 |
 | Peer C |  | *dynamic* | *dynamic* | 10.0.0.3/24 | fdc9:281f:04d7:9ee9::3/64 | UDP/51993 |

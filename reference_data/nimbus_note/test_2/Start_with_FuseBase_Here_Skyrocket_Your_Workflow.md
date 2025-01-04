@@ -15,6 +15,8 @@ Currently, we cannot display the task list as it is not supported in this type o
 
 **Before you start your exciting journey, check out an insightful FuseBase overview from our CEO, Paul Sher. You'll learn about all the benefits of scaling your processes with our collaboration platform.**
 
+<https://fast.wistia.net/embed/iframe/we6bcn0y6a>
+
   
 
   
@@ -100,6 +102,8 @@ Click on the text with 🔗 to open the desired page.
 👇
 
 **Choose the desired date and available time slots to get your custom solution.**
+
+<https://nimbusweb.me/book-a-demo/?bd=getting-started>
 
   
 
