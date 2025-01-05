@@ -12,7 +12,7 @@
 	
 	
 	## Content
-	- [Creating Nodes](Nodes/Creating%20Nodes.md)
-	- [Managing Nodes](Nodes/Managing%20Nodes.md)
+	- [Creating Nodes](Creating%20Nodes.md)
+	- [Managing Nodes](Managing%20Nodes.md)
 ![unnamed_17fc695a07a04a6e8822e8f36c031199](unnamed_17fc695a07a04a6e8822e8f36c031199.png)
 ![unnamed_9a1de644815e46d1bb8faa1837f8a88b](unnamed_9a1de644815e46d1bb8faa1837f8a88b.png)

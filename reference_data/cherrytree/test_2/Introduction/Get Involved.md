@@ -29,7 +29,7 @@
  ## Resources
 
 	- [Cherrytree repository](https://github.com/giuspen/cherrytree)
-	- [Run from source tutorial](../Running%20from%20Source.md)
+	- [Run from source tutorial](../Running%20from%20Source/Running%20from%20Source.md)
 	- [PyGTK2 reference manual](https://developer.gnome.org/pygtk/stable/)
 	- [Cherrytree community forum](https://www.giuspen.com/forum/cherrytree-2/)
 	- [C++ tutorial](http://www.cplusplus.com/doc/tutorial/)

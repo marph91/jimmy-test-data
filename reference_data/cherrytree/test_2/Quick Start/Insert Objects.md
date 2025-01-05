@@ -26,4 +26,4 @@
 
 		- [Horizontal Rule](../Objects/Horizontal%20Rule.md)
 
-	See [Objects](../Objects.md) for more detail.
+	See [Objects](../Objects/Objects.md) for more detail.

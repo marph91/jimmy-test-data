@@ -8,7 +8,7 @@
 
 	- **Enable Spell Check** - Toggles Cherrytree’s spell check feature.
 	
-		**NOTE:** Enchant is required for this feature. Install this dependency if your application is built from source and you haven’t already. See [Running from Source](../Running%20from%20Source.md) for instructions.
+		**NOTE:** Enchant is required for this feature. Install this dependency if your application is built from source and you haven’t already. See [Running from Source](../Running%20from%20Source/Running%20from%20Source.md) for instructions.
 
 	- **Spell Check Language** - Defines which language to use in spell check. The following languages are available:
 	

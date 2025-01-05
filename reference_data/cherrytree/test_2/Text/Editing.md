@@ -21,7 +21,7 @@
 
 	- **Enable/Disable Spell Check** - Toggle Cherrytree’s spellcheck feature.
 	
-		**NOTE:** Enchant is required for this feature. Install this dependency if your application is built from source and you haven’t already. See [Running from Source](../Running%20from%20Source.md) for instructions.
+		**NOTE:** Enchant is required for this feature. Install this dependency if your application is built from source and you haven’t already. See [Running from Source](../Running%20from%20Source/Running%20from%20Source.md) for instructions.
 
 	- **Cut as Plain Text** - Moves the selected text, stripped of its stylization, to your clipboard. The text can then be pasted elsewhere.
 

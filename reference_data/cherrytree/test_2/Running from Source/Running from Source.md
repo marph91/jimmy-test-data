@@ -9,7 +9,7 @@
 	- [Git](https://git-scm.com/)
 
 ## 	Content
-	- [Fedora (Red Hat)](Running%20from%20Source/Fedora_.md)
-	- [Ubuntu (Debian)](Running%20from%20Source/Ubuntu.md)
-	- [Windows](Running%20from%20Source/Windows.md)
-	- [macOS (Not Tested)](Running%20from%20Source/macOS%20%28Not%20Tested%29.md)
+	- [Fedora (Red Hat)](Fedora_.md)
+	- [Ubuntu (Debian)](Ubuntu.md)
+	- [Windows](Windows.md)
+	- [macOS (Not Tested)](macOS%20%28Not%20Tested%29.md)

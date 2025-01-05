@@ -12,7 +12,7 @@
 
 	3. Select a **Node Type** then click **OK**.
 
-		**NOTE:** View [Text](../Text.md) of this manual for details about **Node Type**.
+		**NOTE:** View [Text](../Text/Text.md) of this manual for details about **Node Type**.
 
  ## Node Menu
 
@@ -28,5 +28,5 @@
 
 	- **Delete Node** - Deletes the selected node.
 
-	See [Nodes](../Nodes.md) for more detail.
+	See [Nodes](../Nodes/Nodes.md) for more detail.
 	

@@ -18,7 +18,7 @@
 
 		- **Node Type** - Select a node type.
 	
-			**NOTE**: View [Text](../Text.md) for more detail.
+			**NOTE**: View [Text](../Text/Text.md) for more detail.
 
 		- **Tags for searching** - adds keywords that can be used to find the node in a search. Multiple tags can be separated by a blank space.
 
