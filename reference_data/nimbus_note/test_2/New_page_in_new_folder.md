@@ -65,11 +65,11 @@ def abc()
 
 ### bookmark
 
-[](https://github.com/marph91/jimmy)
+
 
 GitHub - marph91/jimmy: Convert your notes to Markdown
 
-[](https://github.com/marph91/jimmy)
+
 
 ![](https://github.com/fluidicon.png)
 

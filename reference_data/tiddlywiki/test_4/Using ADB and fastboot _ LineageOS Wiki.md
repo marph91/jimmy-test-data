@@ -1,16 +1,16 @@
 https://wiki.lineageos.org/adb_fastboot_guide
 
-## What is `adb`?[](https://wiki.lineageos.org/adb_fastboot_guide#what-is-adb)
+## What is `adb`?
 
 The [Android Debug Bridge](https://en.wikipedia.org/wiki/Android_Debug_Bridge) (`adb`) is a development tool that facilitates communication between an Android device and a personal computer. This communication is most often done over a USB cable, but Wi-Fi connections are also supported.
 
 `adb` is like a “Swiss-army knife” of Android development. It provides numerous functions that are described in detail by the command `adb –help`. Some of the more commonly used commands are listed in the “[popular adb commands](https://wiki.lineageos.org/adb_fastboot_guide#popular-adb-commands)” section below.
 
-## Installing `adb` and `fastboot`[](https://wiki.lineageos.org/adb_fastboot_guide#installing-adb-and-fastboot)
+## Installing `adb` and `fastboot`
 
 Google hosts zips including only `adb` and `fastboot`. You can set these up for use with the instructions below.
 
-### On Windows[](https://wiki.lineageos.org/adb_fastboot_guide#on-windows)
+### On Windows
 
 1.  Download the [Windows zip](https://dl.google.com/android/repository/platform-tools-latest-windows.zip) from Google.
 2.  Extract it somewhere - for example, `%USERPROFILE%\adb-fastboot`
@@ -30,7 +30,7 @@ Google hosts zips including only `adb` and `fastboot`. You can set these up for 
     -   Insert `%USERPROFILE%\adb-fastboot\platform-tools` in the text field
 5.  Download the [USB drivers](https://developer.android.com/studio/run/win-usb) and follow the instructions there.
 
-### On macOS[](https://wiki.lineageos.org/adb_fastboot_guide#on-macos)
+### On macOS
 
 1.  Download the [macOS zip](https://dl.google.com/android/repository/platform-tools-latest-darwin.zip) from Google.
 2.  Extract it somewhere - for example, `~/adb-fastboot`.
@@ -42,7 +42,7 @@ Google hosts zips including only `adb` and `fastboot`. You can set these up for 
     ```
 4.  Log out and back in.
 
-### On Linux[](https://wiki.lineageos.org/adb_fastboot_guide#on-linux)
+### On Linux
 
 1.  Download the [Linux zip](https://dl.google.com/android/repository/platform-tools-latest-linux.zip) from Google.
 2.  Extract it somewhere - for example, `~/adb-fastboot`.
@@ -55,7 +55,7 @@ Google hosts zips including only `adb` and `fastboot`. You can set these up for 
 4.  Log out and back in.
 5.  You may also need to set up udev rules: see [this repository](https://github.com/M0Rf30/android-udev-rules#installation) for more info.
 
-## Setting up `adb`[](https://wiki.lineageos.org/adb_fastboot_guide#setting-up-adb)
+## Setting up `adb`
 
 To use `adb` with your device, you’ll need to enable developer options and USB debugging:
 
@@ -71,11 +71,11 @@ To use `adb` with your device, you’ll need to enable developer options and USB
 
 Congratulations! `adb` is now ready to use with your device.
 
-## Setting up `fastboot`[](https://wiki.lineageos.org/adb_fastboot_guide#setting-up-fastboot)
+## Setting up `fastboot`
 
 Using `fastboot` (if your device supports it) should simply involve rebooting to fastboot mode. While in fastboot mode, you can type `fastboot devices` to verify that your device is being detected.
 
-## Popular `adb` commands[](https://wiki.lineageos.org/adb_fastboot_guide#popular-adb-commands)
+## Popular `adb` commands
 
 -   `adb shell` - launches a [shell](https://en.wikipedia.org/wiki/Shell_(computing)) on the device
 -   `adb push ` - pushes the file to

@@ -8,11 +8,11 @@ Plugins can contain ~JavaScript modules, style sheets, and templates. Plugins ca
 
 # Handling Plugins with a Single File Wiki
 
-<<list-links "[](draft.of)">>
+<<list-links "">>
 
 # Handling Plugins with a Client - Server Configuration (Node.js)
 
-<<list-links "[](draft.of)">>
+<<list-links "">>
 
 # Plugin Mechanism
 

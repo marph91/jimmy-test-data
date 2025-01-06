@@ -4,7 +4,7 @@ Eigentlich sind alle Zahlen fürs "[Zahlen, bitte!](https://www.heise.de/thema/Z
 
 Doch was macht die 73 zum "Chuck Norris der Zahlenuniversums", wie es Sheldons Mitbewohner Leonard ausdrückt?
 
-Als Primzahl erfüllt die 73 schon einmal eine wichtige Grundvoraussetzung. Sie ist aber nicht irgendeine Primzahl, sondern gehört zur speziellen Sorte der umkehrbaren Primzahlen (Mirpzahlen). Denn auch die Spiegelzahl 37 ist eine Primzahl. Mirpzahlen sind eine Obermenge der permutierbaren Primzahlen (auch absolute Primzahlen), bei denen sämtliche Vertauschungen der einzelnen Ziffern wieder Primzahlen ergeben (Beispiel: 199, 919, 991). Es gibt zwar unendlich viele absolute Primzahlen, doch bisher sind nur 24 davon bekannt[](https://oeis.org/A003459/list).
+Als Primzahl erfüllt die 73 schon einmal eine wichtige Grundvoraussetzung. Sie ist aber nicht irgendeine Primzahl, sondern gehört zur speziellen Sorte der umkehrbaren Primzahlen (Mirpzahlen). Denn auch die Spiegelzahl 37 ist eine Primzahl. Mirpzahlen sind eine Obermenge der permutierbaren Primzahlen (auch absolute Primzahlen), bei denen sämtliche Vertauschungen der einzelnen Ziffern wieder Primzahlen ergeben (Beispiel: 199, 919, 991). Es gibt zwar unendlich viele absolute Primzahlen, doch bisher sind nur 24 davon bekannt.
 
 ### Palindrome und Spiegelzahlen
 
@@ -38,4 +38,4 @@ um Unterschied zu "Sirron Kcuhc":
 01100011 01110101 01101000 01100011 
 ```
 
-Sheldon-Darsteller Jim Parsons wurde übrigens 1973 geboren und war bei der Ausstrahlung der 73. Folge der Serie 37 Jahre alt ... just saying.[](mailto:vza@ct.de)
+Sheldon-Darsteller Jim Parsons wurde übrigens 1973 geboren und war bei der Ausstrahlung der 73. Folge der Serie 37 Jahre alt ... just saying.

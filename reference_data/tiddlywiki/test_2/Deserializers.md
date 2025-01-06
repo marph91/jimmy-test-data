@@ -1,4 +1,4 @@
-Deserializer [](deserialize Operator).
+Deserializer .
 
 The TiddlyWiki core provides the following deserializers:
 
