@@ -13,44 +13,17 @@ Note: fixing one issue can cause a new issue or resurface an old one — keep c
 Check for the following issues:
 
 -   1 Notion block → 1 Obsidian paragraph.
-
-&nbsp;
-
 -   1 forced linebreak in a Notion block → 1 forced linebreak in an Obsidian paragraph.
-
-&nbsp;
-
 -   2 forced linebreaks → 1 new Obsidian paragraph (identical to 2 linebreaks)
-
-&nbsp;
-
 -   1 indented Notion text block → 1 regular paragraph in Obsidian
-
-&nbsp;
-
 -   If there is change in ***text formatting*** anywhere after a forced linebreak, Notion adds an additional erroneous linebreak at the start of the ***formatting***.  
     This is a bug and must be corrected by Importer.  
-
-&nbsp;
-
 -   The first text block within a Notion callout → callout title in Obsidian.
-
-&nbsp;
-
 -   1 forced linebreak Notion callout title → 1 inline `<br>` tag in an Obsidian callout title.  
     Note: linebreaks should work as normal for all other nested text blocks in the callout.  
-
-&nbsp;
-
 -   When exported, Notion does not always encode the first line of callouts as a `<p>` element but as a raw `#text` node — this cause the title to concatenate with the next paragraph.  
     This must be corrected by importer.  
-
-&nbsp;
-
 -   Formatting applied across 2 lines in Notion → formatting applied to first line but terminated before linebreak; then reapplied after the linebreak, in Obsidian
-
-&nbsp;
-
 -   Duplicate text formatting should be removed by Importer.
 
 The above rules should also apply when nested in callouts or quotes, unless stated otherwise.
@@ -204,20 +177,11 @@ It should look pristine, even in source-editor mode.
 -   A level 1 list-item
     -   Level 2 list-item
         -   Level 3 list-item
-
-        &nbsp;
-
         -   Level 3 list-item, again
-
-    &nbsp;
-
     -   Level 2 list-item, again
         *f*(*x*) = *e*^(*z*)
 
         *f*(*x*) = *e*^(*x*)
-
-&nbsp;
-
 -   A level 1 list-item, again
 
 # Hashtags
@@ -225,17 +189,8 @@ It should look pristine, even in source-editor mode.
 Hashtags have no special meaning in Notion; in Obsidian they create tags when followed by a series of characters that can contain:
 
 -   Alphanumeric characters: `[A-Za-z0-9]`
-
-&nbsp;
-
 -   Hyphens and underscores: `[-_]`
-
-&nbsp;
-
 -   Unicode `U0080` and above (Non-ASCII): `[^\x00-\x7F]`
-
-&nbsp;
-
 -   Backslashes for tag nesting: `/`
 
 Note: there must be at least **one** non-numeric character in the tag.
@@ -245,88 +200,34 @@ Note: there must be at least **one** non-numeric character in the tag.
 The following are recognised as tags in Obsidian so **must be escaped** during import:
 
 -   \#123abc
-
-&nbsp;
-
 -   \#abc123
-
-&nbsp;
-
 -   \#-
-
-&nbsp;
-
 -   \#\_
-
-&nbsp;
-
 -   \#/
-
-&nbsp;
-
 -   \#\_123
-
-&nbsp;
-
 -   \#-123
-
-&nbsp;
-
 -   \#/123
-
-&nbsp;
-
 -   \#abc-123
-
-&nbsp;
-
 -   \#abc\_123
-
-&nbsp;
-
 -   \#abc/123
-
-&nbsp;
-
 -   \#123/abc
-
-&nbsp;
-
 -   \#abc/def
-
-&nbsp;
-
 -   \#θανος
-
-&nbsp;
-
 -   \#§±\_-123
 
 The following are not recognised as tags, so **must not be escaped**:
 
 -   \#123
 
-&nbsp;
-
 -   \#+abc
-
-&nbsp;
 
 -   \#=abc
 
-&nbsp;
-
 -   \#.abc
-
-&nbsp;
 
 -   \#\abc
 
-&nbsp;
-
 -   `#abc`
-
-&nbsp;
 
 -   Display code block:
 
@@ -337,17 +238,11 @@ The following are not recognised as tags, so **must not be escaped**:
 The following are already escaped for special syntax *eg* for math or links to headers, so **must not be escaped twice** or the blocks will break:
 
 -   *x* = *a*\#*b*﻿
-
-&nbsp;
-
 -   Display math block:
     $$x = \begin{cases}
     a\\b &: x&lt;0 \\
     0 &: x\ge0
     \end{cases}$$
-
-&nbsp;
-
 -   An internal link to a previous heading: .
 
 # Mathematical Equations
@@ -416,30 +311,15 @@ x  : & x\ge 0
 ## Math with Trailing Spaces & Linebreaks
 
 -   Leading/trailing spaces are not an issue in Notion, but they must be removed when converting to Obsidian.
-
-&nbsp;
-
 -   Linebreaks can be an issue within inline math, especially when nested.
-
-&nbsp;
-
 -   Double linebreaks can be an issue within display math, especially when nested.
 
 ------------------------------------------------------------------------
 
 1.  *f*(*x*)﻿ has no trailing spaces: `$f(x)$`.
-
-&nbsp;
-
-1.  *g*(*x*)﻿ has two trailing spaces: `$ g(x) $`.
-
-&nbsp;
-
-1.  *h*(*x*) ﻿ has an escaped trailing space: `$h(x)\ $`.
-
-&nbsp;
-
-1.  *p*(*x*) = *e*^(*x*)﻿ has trailing linebreaks: `$<br><br>p(x) = e^{x}<br><br>$`.
+2.  *g*(*x*)﻿ has two trailing spaces: `$ g(x) $`.
+3.  *h*(*x*) ﻿ has an escaped trailing space: `$h(x)\ $`.
+4.  *p*(*x*) = *e*^(*x*)﻿ has trailing linebreaks: `$<br><br>p(x) = e^{x}<br><br>$`.
 
 Multiline display math with trailing space:
 

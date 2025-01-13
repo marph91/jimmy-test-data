@@ -12,93 +12,45 @@
 
 ### Mo
 
--   
-
-    Mama anrufen
-
-&nbsp;
-
--   
-
-    Tisch bei Buddha Bowl reservieren
-
-&nbsp;
-
--   
+-   [x] Mama anrufen
+-   [x] Tisch bei Buddha Bowl reservieren
+-   [ ]
 
 ### Di
 
--   
-
-    aaaa
-
-&nbsp;
-
--   
-
-&nbsp;
-
--   
+-   [ ] aaaa
+-   [ ]
+-   [ ]
 
 ### Mi
 
--   
-
-&nbsp;
-
--   
-
-&nbsp;
-
--   
+-   [ ]
+-   [ ]
+-   [ ]
 
 ### Do
 
--   
-
-&nbsp;
-
--   
-
-&nbsp;
-
--   
+-   [ ]
+-   [ ]
+-   [ ]
 
 ### Fr
 
--   
-
-&nbsp;
-
--   
-
-&nbsp;
-
--   
+-   [ ]
+-   [ ]
+-   [ ]
 
 ### Sa
 
--   
-
-&nbsp;
-
--   
-
-&nbsp;
-
--   
+-   [ ]
+-   [ ]
+-   [ ]
 
 ### So
 
--   
-
-&nbsp;
-
--   
-
-&nbsp;
-
--   
+-   [ ]
+-   [ ]
+-   [ ]
 
 ↑ Trage hier deine To-dos ein. Du kannst jederzeit weitere hinzufügen, indem du `/to-do` in eine leere Zeile eintippst.
 

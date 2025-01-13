@@ -44,17 +44,11 @@ With a hidden text block.
 
 # Itemisation Blocks
 
--   
-
-    This is a todo-list item.
-
-&nbsp;
+-   [ ] This is a todo-list item.
 
 -   This is a toggle-list item…
 
     …with hidden content!
-
-&nbsp;
 
 -   This is a bullet-list item…
     -   with three distinct…
