@@ -56,7 +56,7 @@ Testing Connections[![](data:image/svg+xml;base64,PHN2ZyBkYXRhLWRhcmtyZWFkZXItaW
 
 Once you have saved a configuration file, check it is valid:
 
-RPi4:~ \# connmanctl services
+RPi4:\~ \# connmanctl services
 
 \* R home vpn\_185\_210\_30\_121
 
@@ -66,13 +66,13 @@ RPi4:~ \# connmanctl services
 
 In the above example `vpn_185_210_30_121` was created (vpn\_host) as the ConnMan service name. Test the service will connect using:
 
-RPi4:~ \# connmanctl connect vpn\_185\_210\_30\_121
+RPi4:\~ \# connmanctl connect vpn\_185\_210\_30\_121
 
 ![](data:image/svg+xml;base64,PHN2ZyBjbGFzcz0ici1oN2dkb2IiIGRhdGEtcm53aS1oYW5kbGU9Im5lYXJlc3QiIGZpbGw9Im5vbmUiIHByZXNlcnZlYXNwZWN0cmF0aW89InhNaWRZTWlkIG1lZXQiIHN0eWxlPSJ2ZXJ0aWNhbC1hbGlnbjogbWlkZGxlOyB3aWR0aDogMTRweDsgaGVpZ2h0OiAxNHB4OyIgdmlld2JveD0iMCAwIDE2IDE2Ij48cGF0aCBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0wIC41QS41LjUgMCAwMS41IDBoMTBhLjUuNSAwIDAxLjUuNVY0aC0xVjFIMXY5aDN2MUguNWEuNS41IDAgMDEtLjUtLjVWLjV6IiBkYXRhLWRhcmtyZWFkZXItaW5saW5lLWZpbGwgZmlsbD0iY3VycmVudENvbG9yIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHN0eWxlPSLigJNkYXJrcmVhZGVyLWlubGluZS1maWxsOmN1cnJlbnRDb2xvcjsiIC8+PHBhdGggY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNNSA1LjVhLjUuNSAwIDAxLjUtLjVoMTBhLjUuNSAwIDAxLjUuNXYxMGEuNS41IDAgMDEtLjUuNWgtMTBhLjUuNSAwIDAxLS41LS41di0xMHpNNiA2djloOVY2SDZ6IiBkYXRhLWRhcmtyZWFkZXItaW5saW5lLWZpbGwgZmlsbD0iY3VycmVudENvbG9yIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHN0eWxlPSLigJNkYXJrcmVhZGVyLWlubGluZS1maWxsOmN1cnJlbnRDb2xvcjsiIC8+PC9zdmc+)
 
 ConnMan will create a new network interface, so `ifconfig` will show `wg0` or sometimes a higer number like `wg1` or `wg2`:
 
-RPi4:~ \# ifconfig
+RPi4:\~ \# ifconfig
 
 eth0 Link encap:Ethernet HWaddr DC:A6:32:13:26:3b
 
@@ -126,7 +126,7 @@ RX bytes:13775220 (13.1 MiB) TX bytes:1232552 (1.1 MiB)
 
 You should be able to `ping` the remote (server) side of the WireGuard VPN tunnel. In our example this is 10.2.0.1:
 
-RPi4:~ \# ping 10.2.0.1
+RPi4:\~ \# ping 10.2.0.1
 
 PING 10.2.0.1 (10.2.0.1): 56 data bytes
 
@@ -138,7 +138,7 @@ PING 10.2.0.1 (10.2.0.1): 56 data bytes
 
 The routing table will show normal traffic routed to the wg0 interface:
 
-RPi4:~ \# route
+RPi4:\~ \# route
 
 Kernel IP routing table
 
@@ -162,7 +162,7 @@ default \* 0.0.0.0 U 0 0 0 wg0
 
 To disconnect the ConnMan service:
 
-RPi4:~ \# connmanctl disconnect vpn\_185\_210\_30\_121
+RPi4:\~ \# connmanctl disconnect vpn\_185\_210\_30\_121
 
 ![](data:image/svg+xml;base64,PHN2ZyBjbGFzcz0ici1oN2dkb2IiIGRhdGEtcm53aS1oYW5kbGU9Im5lYXJlc3QiIGZpbGw9Im5vbmUiIHByZXNlcnZlYXNwZWN0cmF0aW89InhNaWRZTWlkIG1lZXQiIHN0eWxlPSJ2ZXJ0aWNhbC1hbGlnbjogbWlkZGxlOyB3aWR0aDogMTRweDsgaGVpZ2h0OiAxNHB4OyIgdmlld2JveD0iMCAwIDE2IDE2Ij48cGF0aCBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0wIC41QS41LjUgMCAwMS41IDBoMTBhLjUuNSAwIDAxLjUuNVY0aC0xVjFIMXY5aDN2MUguNWEuNS41IDAgMDEtLjUtLjVWLjV6IiBkYXRhLWRhcmtyZWFkZXItaW5saW5lLWZpbGwgZmlsbD0iY3VycmVudENvbG9yIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHN0eWxlPSLigJNkYXJrcmVhZGVyLWlubGluZS1maWxsOmN1cnJlbnRDb2xvcjsiIC8+PHBhdGggY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNNSA1LjVhLjUuNSAwIDAxLjUtLjVoMTBhLjUuNSAwIDAxLjUuNXYxMGEuNS41IDAgMDEtLjUuNWgtMTBhLjUuNSAwIDAxLS41LS41di0xMHpNNiA2djloOVY2SDZ6IiBkYXRhLWRhcmtyZWFkZXItaW5saW5lLWZpbGwgZmlsbD0iY3VycmVudENvbG9yIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHN0eWxlPSLigJNkYXJrcmVhZGVyLWlubGluZS1maWxsOmN1cnJlbnRDb2xvcjsiIC8+PC9zdmc+)
 
@@ -216,11 +216,11 @@ nano /storage/.config/system.d/wireguard.service
 
 Now we can enable and start the service:
 
-RPi4:~ \# systemctl enable /storage/.config/system.d/wireguard.service
+RPi4:\~ \# systemctl enable /storage/.config/system.d/wireguard.service
 
 Created symlink /storage/.config/system.d/multi-user.target.wants/wireguard.service → /storage/.config/system.d/wireguard.service.
 
-RPi4:~ \# systemctl start wireguard.service
+RPi4:\~ \# systemctl start wireguard.service
 
 ![](data:image/svg+xml;base64,PHN2ZyBjbGFzcz0ici1oN2dkb2IiIGRhdGEtcm53aS1oYW5kbGU9Im5lYXJlc3QiIGZpbGw9Im5vbmUiIHByZXNlcnZlYXNwZWN0cmF0aW89InhNaWRZTWlkIG1lZXQiIHN0eWxlPSJ2ZXJ0aWNhbC1hbGlnbjogbWlkZGxlOyB3aWR0aDogMTRweDsgaGVpZ2h0OiAxNHB4OyIgdmlld2JveD0iMCAwIDE2IDE2Ij48cGF0aCBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0wIC41QS41LjUgMCAwMS41IDBoMTBhLjUuNSAwIDAxLjUuNVY0aC0xVjFIMXY5aDN2MUguNWEuNS41IDAgMDEtLjUtLjVWLjV6IiBkYXRhLWRhcmtyZWFkZXItaW5saW5lLWZpbGwgZmlsbD0iY3VycmVudENvbG9yIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHN0eWxlPSLigJNkYXJrcmVhZGVyLWlubGluZS1maWxsOmN1cnJlbnRDb2xvcjsiIC8+PHBhdGggY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNNSA1LjVhLjUuNSAwIDAxLjUtLjVoMTBhLjUuNSAwIDAxLjUuNXYxMGEuNS41IDAgMDEtLjUuNWgtMTBhLjUuNSAwIDAxLS41LS41di0xMHpNNiA2djloOVY2SDZ6IiBkYXRhLWRhcmtyZWFkZXItaW5saW5lLWZpbGwgZmlsbD0iY3VycmVudENvbG9yIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHN0eWxlPSLigJNkYXJrcmVhZGVyLWlubGluZS1maWxsOmN1cnJlbnRDb2xvcjsiIC8+PC9zdmc+)
 

@@ -51,10 +51,10 @@ A further-indented text block, equal to a single new paragraph.
 here that should be split apart.  
 **
 
-> Here is some continuously striken-out text  
+> ~~Here is some continuously striken-out text  
 > with a sudden line-break right here,  
 >   
-> **and again right here but also with nested bold text!**
+> **and again right here but also with nested bold text!**~~
 >
 > We have some more text here; let’s see if this has survived the formatting issues from above — we have contained this in a blockquote to stop the errors propagating to the rest of the file.
 
@@ -179,9 +179,9 @@ It should look pristine, even in source-editor mode.
         -   Level 3 list-item
         -   Level 3 list-item, again
     -   Level 2 list-item, again
-        *f*(*x*) = *e*^(*z*)
+        *f*(*x*) = *e*^*z*^
 
-        *f*(*x*) = *e*^(*x*)
+        *f*(*x*) = *e*^*x*^
 -   A level 1 list-item, again
 
 # Hashtags
@@ -257,7 +257,7 @@ Title for Callout
 
 This paragraph block is about the complex exponential function:
 
-*f*(*t*) = *A**e*^(*i**ω**t*),
+*f*(*t*) = *A**e*^*i**ω**t*^,
 
 where
 
@@ -270,8 +270,8 @@ Title for Multiline Math Nested in Callout
 This paragraph block is about the complex exponential function:
 
 $$\begin{align}
-f(t) &=Ae^{i\omega t} \\
-g(t) &= Be^{i\sigma t},
+f(t) &=Ae\^{i\omega t} \\
+g(t) &= Be\^{i\sigma t},
 \end{align}$$
 
 where
@@ -293,7 +293,7 @@ B = \begin{cases}
 
 The complex exponential function is
 
-*f*(*t*) = *A**e*^(*i**ω**t*),
+*f*(*t*) = *A**e*^*i**ω**t*^,
 
 where
 
@@ -319,7 +319,7 @@ x  : & x\ge 0
 1.  *f*(*x*)﻿ has no trailing spaces: `$f(x)$`.
 2.  *g*(*x*)﻿ has two trailing spaces: `$ g(x) $`.
 3.  *h*(*x*) ﻿ has an escaped trailing space: `$h(x)\ $`.
-4.  *p*(*x*) = *e*^(*x*)﻿ has trailing linebreaks: `$<br><br>p(x) = e^{x}<br><br>$`.
+4.  *p*(*x*) = *e*^*x*^﻿ has trailing linebreaks: `$<br><br>p(x) = e^{x}<br><br>$`.
 
 Multiline display math with trailing space:
 

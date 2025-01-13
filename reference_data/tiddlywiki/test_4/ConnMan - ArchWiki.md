@@ -39,35 +39,35 @@ ConnMan comes with the [connmanctl(1)](https://man.archlinux.org/man/connmanctl.
 
 -   **cmst** — Qt GUI for ConnMan.
 
-[https://github.com/andrew-bibb/cmst](https://github.com/andrew-bibb/cmst) \|\| [cmst](https://aur.archlinux.org/packages/cmst/)^(AUR)
+[https://github.com/andrew-bibb/cmst](https://github.com/andrew-bibb/cmst) \|\| [cmst](https://aur.archlinux.org/packages/cmst/)^AUR^
 
 -   **connman-ncurses** — Simple ncurses UI for ConnMan; not all of connman functionality is implemented, but usable (with X or from terminal without X), see the [wiki](https://github.com/eurogiciel-oss/connman-json-client/wiki).
 
-[https://github.com/eurogiciel-oss/connman-json-client](https://github.com/eurogiciel-oss/connman-json-client) \|\| [connman-ncurses-git](https://aur.archlinux.org/packages/connman-ncurses-git/)^(AUR)
+[https://github.com/eurogiciel-oss/connman-json-client](https://github.com/eurogiciel-oss/connman-json-client) \|\| [connman-ncurses-git](https://aur.archlinux.org/packages/connman-ncurses-git/)^AUR^
 
 -   **ConnMan-UI** — GTK3 client applet.
 
-[https://github.com/tbursztyka/connman-ui](https://github.com/tbursztyka/connman-ui) \|\| [connman-ui-git](https://aur.archlinux.org/packages/connman-ui-git/)^(AUR)
+[https://github.com/tbursztyka/connman-ui](https://github.com/tbursztyka/connman-ui) \|\| [connman-ui-git](https://aur.archlinux.org/packages/connman-ui-git/)^AUR^
 
 -   **connman\_dmenu** — Client/frontend for dmenu.
 
-[https://github.com/taylorchu/connman\_dmenu](https://github.com/taylorchu/connman_dmenu) \|\| [connman\_dmenu-git](https://aur.archlinux.org/packages/connman_dmenu-git/)^(AUR)
+[https://github.com/taylorchu/connman\_dmenu](https://github.com/taylorchu/connman_dmenu) \|\| [connman\_dmenu-git](https://aur.archlinux.org/packages/connman_dmenu-git/)^AUR^
 
 -   **rofi-connman** — rofi/dmenu-powered frontend
 
-[https://github.com/sourcemage/rofi-connman](https://github.com/sourcemage/rofi-connman) \|\| [rofi-connman](https://aur.archlinux.org/packages/rofi-connman/)^(AUR)
+[https://github.com/sourcemage/rofi-connman](https://github.com/sourcemage/rofi-connman) \|\| [rofi-connman](https://aur.archlinux.org/packages/rofi-connman/)^AUR^
 
 -   **Econnman** — Enlightenment desktop panel applet.
 
-[https://www.enlightenment.org](https://www.enlightenment.org) \|\| [econnman](https://aur.archlinux.org/packages/econnman/)^(AUR)
+[https://www.enlightenment.org](https://www.enlightenment.org) \|\| [econnman](https://aur.archlinux.org/packages/econnman/)^AUR^
 
 -   **LXQt-Connman-Applet** — LXQt desktop panel applet.
 
-[https://github.com/lxqt/lxqt-connman-applet](https://github.com/lxqt/lxqt-connman-applet) \|\| [lxqt-connman-applet](https://aur.archlinux.org/packages/lxqt-connman-applet/)^(AUR)
+[https://github.com/lxqt/lxqt-connman-applet](https://github.com/lxqt/lxqt-connman-applet) \|\| [lxqt-connman-applet](https://aur.archlinux.org/packages/lxqt-connman-applet/)^AUR^
 
 -   **connman-gtk** — GTK client.
 
-[https://github.com/jgke/connman-gtk](https://github.com/jgke/connman-gtk) \|\| [connman-gtk](https://aur.archlinux.org/packages/connman-gtk/)^(AUR)
+[https://github.com/jgke/connman-gtk](https://github.com/jgke/connman-gtk) \|\| [connman-gtk](https://aur.archlinux.org/packages/connman-gtk/)^AUR^
 
 -   **gnome-extension-connman** — Gnome3 extension for connman; it contains only some of the functionality without installing connman-gtk.
 
@@ -339,7 +339,7 @@ You have enabled your wifi with:
 
     $ connmanctl enable wifi
 
-If wireless scanning leads to above error, this may be due to an unresolved bug.[\[5\]](https://01.org/jira/browse/CM-670)^(\[[dead\ link](https://en.wikipedia.org/wiki/Wikipedia:Link_rot "wikipedia:Wikipedia:Link rot")\ 2022-09-17 ⓘ\]) If it does not resolve even though wireless [preconditions](https://lists.01.org/pipermail/connman/2014-December/019203.html) are met, try again after disabling competing network managers and rebooting.
+If wireless scanning leads to above error, this may be due to an unresolved bug.[\[5\]](https://01.org/jira/browse/CM-670)^\[[dead\ link](https://en.wikipedia.org/wiki/Wikipedia:Link_rot "wikipedia:Wikipedia:Link rot")\ 2022-09-17 ⓘ\]^ If it does not resolve even though wireless [preconditions](https://lists.01.org/pipermail/connman/2014-December/019203.html) are met, try again after disabling competing network managers and rebooting.
 
 This may also simply be caused by the wireless interface being blocked by [rfkill](https://wiki.archlinux.org/title/ConnMan/title/Rfkill "Rfkill"), which can occur after restarting wpa\_supplicant. Use `rfkill list` to check.
 
@@ -386,7 +386,7 @@ A log entry for an unknown route appears each time a connect is done. For exampl
     connmand[473]: wlp2s0 {del} route 82.165.8.211 gw 10.20.30.4 scope 0 
     ...
 
-It likely is Connman performing a connectivity check to the ipv4.connman.net host (which resolves to the IP address `82.165.8.211` at current).[\[6\]](https://01.org/jira/browse/CM-657)^(\[[dead\ link](https://en.wikipedia.org/wiki/Wikipedia:Link_rot "wikipedia:Wikipedia:Link rot")\ 2022-09-17 ⓘ\]) See the [Connman README](https://git.kernel.org/pub/scm/network/connman/connman.git/tree/README#n388) for more information on why and what - apart from the connecting IP - it transmits. This behaviour can be prevented by adding the following to `/etc/connman/main.conf`:
+It likely is Connman performing a connectivity check to the ipv4.connman.net host (which resolves to the IP address `82.165.8.211` at current).[\[6\]](https://01.org/jira/browse/CM-657)^\[[dead\ link](https://en.wikipedia.org/wiki/Wikipedia:Link_rot "wikipedia:Wikipedia:Link rot")\ 2022-09-17 ⓘ\]^ See the [Connman README](https://git.kernel.org/pub/scm/network/connman/connman.git/tree/README#n388) for more information on why and what - apart from the connecting IP - it transmits. This behaviour can be prevented by adding the following to `/etc/connman/main.conf`:
 
     [General]
     EnableOnlineCheck=false
@@ -400,7 +400,7 @@ The connection itself is also functional (unless behind a captive portal) if the
 
 ### File /proc/net/pnp doesn't exist
 
-If you see this in your error log it is caused by bug in connman [\[7\]](https://bbs.archlinux.org/viewtopic.php?id=227689#p1766928) and can be ignored. [Bug Report](https://01.org/jira/browse/CM-690)^(\[[dead\ link](https://en.wikipedia.org/wiki/Wikipedia:Link_rot "wikipedia:Wikipedia:Link rot")\ 2022-09-17 ⓘ\])
+If you see this in your error log it is caused by bug in connman [\[7\]](https://bbs.archlinux.org/viewtopic.php?id=227689#p1766928) and can be ignored. [Bug Report](https://01.org/jira/browse/CM-690)^\[[dead\ link](https://en.wikipedia.org/wiki/Wikipedia:Link_rot "wikipedia:Wikipedia:Link rot")\ 2022-09-17 ⓘ\]^
 
 ## See also
 

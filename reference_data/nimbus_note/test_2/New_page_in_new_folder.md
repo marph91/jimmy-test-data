@@ -27,7 +27,7 @@
         2.  item
     2.  qwertz
 
-image
+~~image~~
 
 [![e1GHfrAAh4S96o7k.png](e1GHfrAAh4S96o7k.png)](./assets/e1GHfrAAh4S96o7k.png)
 

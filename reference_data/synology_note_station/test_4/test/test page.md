@@ -32,9 +32,9 @@ This is **bold**
 
 This is *underlined*
 
-sub_(script)
+sub~script~
 
-super^(script)
+super^script^
 
 1.  Number 1
 2.  Number 2

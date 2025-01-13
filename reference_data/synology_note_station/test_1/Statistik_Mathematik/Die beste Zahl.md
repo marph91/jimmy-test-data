@@ -10,13 +10,13 @@ Als Primzahl erfüllt die 73 schon einmal eine wichtige Grundvoraussetzung. Sie 
 
 Aber was macht die 73 "besser" als zum Beispiel die 13 und deren Mirpzahl 31?
 
-Ganz einfach: In Binärdarstellung ergibt sich 1001001₂ – ein Palindrom, also eine Zahl, die vorwärts wie rückwärts gelesen identisch ist. Gleiches gilt auch für ihre einzelnen (ebenfalls primen) Ziffern 7 (111₂) und 3 (11₂). Hinzu kommt, dass die 73 in binärer Schreibweise 7 Stellen hat, von denen 3 Einsen sind.
+Ganz einfach: In Binärdarstellung ergibt sich 1001001~2~ – ein Palindrom, also eine Zahl, die vorwärts wie rückwärts gelesen identisch ist. Gleiches gilt auch für ihre einzelnen (ebenfalls primen) Ziffern 7 (111~2~) und 3 (11~2~). Hinzu kommt, dass die 73 in binärer Schreibweise 7 Stellen hat, von denen 3 Einsen sind.
 
-Sogar in oktaler Darstellung 111₈ ergibt 73 ein (zugegeben langweiliges) Palindrom, was sie auch zur einzigen prime "Repunit" im Oktalsystem macht (siehe dazu "[Zahlen, bitte! Immer auf die Kleinen !!Eins!!11elf!!](https://www.heise.de/newsticker/meldung/Zahlen-bitte-Immer-auf-die-Kleinen-Eins-11elf-3757449.html)").
+Sogar in oktaler Darstellung 111~8~ ergibt 73 ein (zugegeben langweiliges) Palindrom, was sie auch zur einzigen prime "Repunit" im Oktalsystem macht (siehe dazu "[Zahlen, bitte! Immer auf die Kleinen !!Eins!!11elf!!](https://www.heise.de/newsticker/meldung/Zahlen-bitte-Immer-auf-die-Kleinen-Eins-11elf-3757449.html)").
 
 Überraschenderweise ist selbst der Morse-Code der 73 ein Palindrom: – – - - - - - - – –. Der symmetrische Code wurde in den frühen Jahren der Landtelegrafie zur [Übermittlung "Herzlicher Grüße"](http://www.seefunknetz.de/73.htm) verwendet und die Zahl 73 in der Folge von Funkamateuren oft ebenfalls ans Ende ihrer Nachrichten gesetzt.
 
-Man kann das Spielchen noch weiter treiben: Die 73 ist die 21. Primzahl und die 37 ausgerechnet die 12. Primzahl – also deren Spiegelzahl. Quadriert man beide, erhält man wiederum Spiegelzahlen, denn 21² = 441 und 12² = 144.  
+Man kann das Spielchen noch weiter treiben: Die 73 ist die 21. Primzahl und die 37 ausgerechnet die 12. Primzahl – also deren Spiegelzahl. Quadriert man beide, erhält man wiederum Spiegelzahlen, denn 21^2^ = 441 und 12^2^ = 144.  
 Wer sich gefragt hat, warum Sheldon in mehreren Folgen eine 73 auf seinem T-Shirt trägt, weiß spätestens nach diesem "Zahlen, bitte!" die Hintergründe.    
 Zwar argumentiert Sheldon in der TBBT-Episode nicht so en detail, kommt aber zu dem Ergebnis, dass Chuck Norris chancenlos gegen die 73 wäre, denn anders als die binär geschriebene 73 ergebe "Chuck Norris" rückwärts ja nur "Sirron Kcuhc".
 

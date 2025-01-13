@@ -6,7 +6,7 @@ Starten wir mit den Grundlagen:
 
 -   [ ] Klicke an beliebiger Stelle und fange einfach an zu schreiben
 -   [ ] Tippe „**/**“ um alle Arten von Inhalten zu sehen, die du hinzufügen kannst - Überschriften, Videos, Unterseiten etc.
--   [ ] Markiere jeden beliebigen Text und nutze das Menü, das erscheint, um dein Geschriebenes so zu **gestalten,** `wie` du magst
+-   [ ] Markiere jeden beliebigen Text und nutze das Menü, das erscheint, um dein Geschriebenes so ~~zu~~ **gestalten,** `wie` du magst
 -   [ ] Siehst du das `⋮⋮`-Icon links neben dem Kontrollkästchen, wenn du mit der Maus darüber fährst? Klicke es an, um diese Zeile zu verschieben
 -   [ ] Klicke auf den `+ Neue Seite`**-**Button unten in der Seitenleiste, um eine neue Seite hinzuzufügen
 -   [ ] Klicke in deiner Seitenleiste auf Calendar, um deine Zeit zu verwalten und mit deinem Team zusammenzuarbeiten. Der Notion Calendar ist integriert und mit all deinen Google Kalender-Ereignissen synchronisiert!

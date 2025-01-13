@@ -25,13 +25,13 @@ Alternatively, various network managers provide support for WireGuard, provided 
 
 -   **Qomui** — OpenVPN GUI with advanced features and support for multiple providers.
 
-[https://github.com/corrad1nho/qomui](https://github.com/corrad1nho/qomui) \|\| [qomui](https://aur.archlinux.org/packages/qomui/)^(AUR)
+[https://github.com/corrad1nho/qomui](https://github.com/corrad1nho/qomui) \|\| [qomui](https://aur.archlinux.org/packages/qomui/)^AUR^
 
 ### Command-line tools
 
 -   **wg\_tool** — Tool to manage wireguard configs for server and users.
 
-[https://github.com/gene-git/wg\_tool](https://github.com/gene-git/wg_tool) \|\| [wg\_tool](https://aur.archlinux.org/packages/wg_tool/)^(AUR)
+[https://github.com/gene-git/wg\_tool](https://github.com/gene-git/wg_tool) \|\| [wg\_tool](https://aur.archlinux.org/packages/wg_tool/)^AUR^
 
 ## Usage
 
@@ -82,7 +82,7 @@ Generate a pre-shared key for each peer pair using the following command (make s
 
 #### Vanity keys
 
-Currently, WireGuard does not support comments or attaching human-memorable names to keys. This makes identifying the key's owner difficult particularly when multiple keys are in use. One solution is to generate a public key that contains some familiar characters (perhaps the first few letters of the owner's name or of the hostname etc.), [wireguard-vanity-address](https://aur.archlinux.org/packages/wireguard-vanity-address/)^(AUR) does this.
+Currently, WireGuard does not support comments or attaching human-memorable names to keys. This makes identifying the key's owner difficult particularly when multiple keys are in use. One solution is to generate a public key that contains some familiar characters (perhaps the first few letters of the owner's name or of the hostname etc.), [wireguard-vanity-address](https://aur.archlinux.org/packages/wireguard-vanity-address/)^AUR^ does this.
 
 For example:
 
@@ -1297,13 +1297,13 @@ Alternatively, various network managers provide support for WireGuard, provided 
 
 -   **Qomui** — OpenVPN GUI with advanced features and support for multiple providers.
 
-[https://github.com/corrad1nho/qomui](https://github.com/corrad1nho/qomui) \|\| [qomui](https://aur.archlinux.org/packages/qomui/)^(AUR)
+[https://github.com/corrad1nho/qomui](https://github.com/corrad1nho/qomui) \|\| [qomui](https://aur.archlinux.org/packages/qomui/)^AUR^
 
 ### Command-line tools
 
 -   **wg\_tool** — Tool to manage wireguard configs for server and users.
 
-[https://github.com/gene-git/wg\_tool](https://github.com/gene-git/wg_tool) \|\| [wg\_tool](https://aur.archlinux.org/packages/wg_tool/)^(AUR)
+[https://github.com/gene-git/wg\_tool](https://github.com/gene-git/wg_tool) \|\| [wg\_tool](https://aur.archlinux.org/packages/wg_tool/)^AUR^
 
 ## Usage
 
@@ -1354,7 +1354,7 @@ Generate a pre-shared key for each peer pair using the following command (make s
 
 #### Vanity keys
 
-Currently, WireGuard does not support comments or attaching human-memorable names to keys. This makes identifying the key's owner difficult particularly when multiple keys are in use. One solution is to generate a public key that contains some familiar characters (perhaps the first few letters of the owner's name or of the hostname etc.), [wireguard-vanity-address](https://aur.archlinux.org/packages/wireguard-vanity-address/)^(AUR) does this.
+Currently, WireGuard does not support comments or attaching human-memorable names to keys. This makes identifying the key's owner difficult particularly when multiple keys are in use. One solution is to generate a public key that contains some familiar characters (perhaps the first few letters of the owner's name or of the hostname etc.), [wireguard-vanity-address](https://aur.archlinux.org/packages/wireguard-vanity-address/)^AUR^ does this.
 
 For example:
 

@@ -67,7 +67,7 @@ print("Hello world!")
 
 $$\begin{array}{c}
 \text{A LaTeX Equation Block} \\ 
-f(\theta)=e^{i\theta}
+f(\theta)=e\^{i\theta}
 \end{array}$$
 
 # Emphasised Blocks
