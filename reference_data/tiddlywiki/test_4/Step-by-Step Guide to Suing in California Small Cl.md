@@ -38,16 +38,16 @@ In this guide, learn about:
 
 ## **California Small Claims Quick Facts**
 
-| **Limit** | $10,000 if you are an individual, $5,000 if you are suing on behalf of a corporation or LLC |
+| **Limit** | \$10,000 if you are an individual, \$5,000 if you are suing on behalf of a corporation or LLC |
 |----|----|
-| **Cost to File** | $0- $75 |
-| **Cost to Serve Lawsuit** | $0- $125 |
+| **Cost to File** | \$0- \$75 |
+| **Cost to Serve Lawsuit** | \$0- \$125 |
 | **Hearing Dates** | Hearings are scheduled 30- 75 Days after filing.  |
 | **Virtual Hearings** | Many courts have the option to attend the hearing virtually.  |
 | **Mediation** | Free mediation is available in many courts after the lawsuit is filed.  |
 | **Main Forms ** | [Lawsuit](https://www.courts.ca.gov/documents/sc100.pdf), [Proof of Service](https://www.courts.ca.gov/documents/sc104.pdf), [Fee Waiver](https://www.courts.ca.gov/documents/fw001.pdf) |
 
-\* Court filing fees and serving costs are $0 if a judge approves your application for a [court fee waiver](https://www.peopleclerk.com/post/california-fw-001).
+\* Court filing fees and serving costs are \$0 if a judge approves your application for a [court fee waiver](https://www.peopleclerk.com/post/california-fw-001).
 
 ## **Steps to a California Small Claims Lawsuit**
 
@@ -103,19 +103,19 @@ Here are **common types of small claims lawsuits** filed in California:
 
 The maximum amount you can sue for depends on who is doing the suing:
 
--   If you are an **individual**, you can sue for a **maximum of $10,000.**
+-   If you are an **individual**, you can sue for a **maximum of \$10,000.**
 
--   If you are a **business (corporation or LLC)**, you can sue for a **maximum of $5,000**
+-   If you are a **business (corporation or LLC)**, you can sue for a **maximum of \$5,000**
 
--   If you are a **sole proprietor** meaning you have not incorporated your business as a corporation or LLC, then you can sue for a **maximum of $10,000**.
+-   If you are a **sole proprietor** meaning you have not incorporated your business as a corporation or LLC, then you can sue for a **maximum of \$10,000**.
 
 -   There is **no minimum amount** you can sue for.
 
 **What happens if I am owed more than what I can sue for?**
 
--   **You can still sue** for the maximum amount allowed **but you agree to waive any additional amount over the limit.** *Here is an Example:* You are an individual and you paid $11,000 for someone to paint your home. They didn't paint your home. You can sue in small claims court for $10,000 and waive  $1,000.
+-   **You can still sue** for the maximum amount allowed **but you agree to waive any additional amount over the limit.** *Here is an Example:* You are an individual and you paid \$11,000 for someone to paint your home. They didn't paint your home. You can sue in small claims court for \$10,000 and waive  \$1,000.
 
--   **Why would I sue in small claims if I am owed more than $10,000?** Filing in California small claims is faster, quicker, and more affordable than filing your lawsuit in other types of courts and you don't need a lawyer to do so!
+-   **Why would I sue in small claims if I am owed more than \$10,000?** Filing in California small claims is faster, quicker, and more affordable than filing your lawsuit in other types of courts and you don't need a lawyer to do so!
 
 ![](https://www.peopleclerk.comdata:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27300%27%20height=%27300%27/%3e)![How to write a demand letter 3](https://images.ctfassets.net/0xy7vhc59vao/D1UbJk1uK6GjhiS7FmRcg/063726acea48fb17705a8ccf921df608/How_to_write_a_demand_letter_3.png?w=640&q=75)
 
@@ -127,7 +127,7 @@ Calculating how much to sue for in small claims can be difficult. In general, *t
 
 ‍**Here are some tips for calculating how much to sue for:**
 
--   **Use receipts.** For example, if someone hit your car and you spent $3,000 getting your car fixed, you would be able to show the judge the receipt from the mechanic.
+-   **Use receipts.** For example, if someone hit your car and you spent \$3,000 getting your car fixed, you would be able to show the judge the receipt from the mechanic.
 
 -   **Use estimates**. For example, if your tenant caused damage to the floors, you may have an estimate from a contractor estimating how much it will cost to fix the floors.
 
@@ -139,31 +139,31 @@ Calculating how much to sue for in small claims can be difficult. In general, *t
 
 **Cost to file your lawsuit with the court:**
 
--   If you are suing for **$1,500 or less**, you will pay the court **$30**.
+-   If you are suing for **\$1,500 or less**, you will pay the court **\$30**.
 
--   If you are suing for **$1,501 and up to $5,000,** you will pay the court **$50**.
+-   If you are suing for **\$1,501 and up to \$5,000,** you will pay the court **\$50**.
 
--   If you are suing for **$5,001 and up to $10,000**, you will pay the court **$75**.
+-   If you are suing for **\$5,001 and up to \$10,000**, you will pay the court **\$75**.
 
--   If you are low-income and the court approves your request to **waive your court fees**, you will **pay the court $0**. [Learn more on how to apply for a waiver of your court fees](https://www.peopleclerk.com/post/california-fw-001).
+-   If you are low-income and the court approves your request to **waive your court fees**, you will **pay the court \$0**. [Learn more on how to apply for a waiver of your court fees](https://www.peopleclerk.com/post/california-fw-001).
 
 Once your lawsuit is filed, you have to notify the other party that they have been sued. This is called serving. Here is what you can expect to pay to **serve your small claims lawsuit:**
 
--   You can have a **friend or family member serve** your small claims lawsuit. **This costs $0**.
+-   You can have a **friend or family member serve** your small claims lawsuit. **This costs \$0**.
 
 -   If you qualify for a **waiver of your court fees**, you can serve with the
 
-    **sheriff for $0**.
+    **sheriff for \$0**.
 
--   If you don't qualify for a fee waiver, the sheriff may be able to serve your lawsuit for $40 depending on the county where the other party is located.
+-   If you don't qualify for a fee waiver, the sheriff may be able to serve your lawsuit for \$40 depending on the county where the other party is located.
 
--   You can hire a **process server** which is someone licensed to serve lawsuits and they **charge between $75- $125**.
+-   You can hire a **process server** which is someone licensed to serve lawsuits and they **charge between \$75- \$125**.
 
 -   **The court clerk in some counties can also serve the lawsuit by mail.** This method of serving your lawsuit doesn't work many times as the person you sued has to sign for the lawsuit and they must sign legibly.
 
 **Ultimately, taking someone to California small claims is a cost v. benefit analysis.** Here is how some of our clients measure the cost v. benefit of going to small claims:
 
--   **Cost.** Spending between $70 to $150 to get back $1,000 is very affordable.
+-   **Cost.** Spending between \$70 to \$150 to get back \$1,000 is very affordable.
 
 -   **How soon you will find out whether you won?** Most small claims hearings in California are scheduled between **30-70 days after the lawsuit** is filed and most judges make a decision a few days after the hearing.
 
@@ -253,9 +253,9 @@ The person or business doing the suing is called the plaintiff. Deciding who nee
 
 **Here are some common examples:**
 
--   **You and your roommate** gave your landlord a $4,000 security deposit. You both moved out and your landlord has not returned your security deposit. Both you and your roommate are owed the money so the judge will want to make sure you both are part of the lawsuit.
+-   **You and your roommate** gave your landlord a \$4,000 security deposit. You both moved out and your landlord has not returned your security deposit. Both you and your roommate are owed the money so the judge will want to make sure you both are part of the lawsuit.
 
--   You were driving your mom's car and another driver hit you while driving. It will cost $3,000 to fix the car. Your mom should be included in the lawsuit since she is the
+-   You were driving your mom's car and another driver hit you while driving. It will cost \$3,000 to fix the car. Your mom should be included in the lawsuit since she is the
 
     **registered owner**.
 
@@ -321,9 +321,9 @@ Once you file your case, the next step is to notify the person you are suing tha
 
 -   **NOT YOU! **You cannot serve your own small claims lawsuit.
 
--   **Process Server.** The most straightforward person who can serve your lawsuit is a "process server." A process server is someone licensed to serve lawsuits. This is what they do for a living so they are pretty good at it. In California, process servers charge around $75- $125 to serve small claims lawsuits.
+-   **Process Server.** The most straightforward person who can serve your lawsuit is a "process server." A process server is someone licensed to serve lawsuits. This is what they do for a living so they are pretty good at it. In California, process servers charge around \$75- \$125 to serve small claims lawsuits.
 
--   **Sheriff.** Depending on the county where the other party needs to be served you may be able to use the sheriff. Not all California sheriffs serve small claims lawsuits. If the court approved your request to waive your court fees, the sheriff will serve your lawsuit for free. Otherwise, they charge around $40.
+-   **Sheriff.** Depending on the county where the other party needs to be served you may be able to use the sheriff. Not all California sheriffs serve small claims lawsuits. If the court approved your request to waive your court fees, the sheriff will serve your lawsuit for free. Otherwise, they charge around \$40.
 
 -   **Friend or Family member.** You can have an adult friend or family member serve your small claims lawsuit. Make sure they are not part of the lawsuit or aren't involved with what happened with the lawsuit because if there are problems with serving the judge will question whether they have an incentive to lie about actually serving the lawsuit correctly.
 

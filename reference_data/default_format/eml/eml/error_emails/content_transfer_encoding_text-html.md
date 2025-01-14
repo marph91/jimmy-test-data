@@ -3,7 +3,7 @@
 Hello,
 
 You have qualified for the lowest rate in years.  
-You could get over $400,000 for as little as $500 a month.  
+You could get over \$400,000 for as little as \$500 a month.  
 Low rates are fixed no matter what.
 
 Please visit the link below to verify your information:  

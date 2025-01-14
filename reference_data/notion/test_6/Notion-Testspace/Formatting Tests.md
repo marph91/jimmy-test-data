@@ -111,7 +111,7 @@ It may be useful to encode Obsidian callouts as modified quote-blocks. We just n
 >
 > First a nested block equation:
 >
-> $$\|x\| = \begin{cases} 
+> $$|x| = \begin{cases} 
 > -x : & x \lt 0 \\
 > x  : & x\ge 0
 > \end{cases}$$
@@ -126,7 +126,7 @@ It may be useful to encode Obsidian callouts as modified quote-blocks. We just n
 > > > > >
 > > > > > *And more math:*
 > > > > >
-> > > > > $$\|x\| = \begin{cases} 
+> > > > > $$|x| = \begin{cases} 
 > > > > > -x : & x \lt 0 \\
 > > > > > x  : & x\ge 0
 > > > > > \end{cases}$$
@@ -165,7 +165,7 @@ Here is a new paragraph block in the double-nested callout!
 
 Adding more nested math for fun:
 
-$$\|x\| = \begin{cases} 
+$$|x| = \begin{cases} 
 -x : & x \lt 0 \\
 x  : & x\ge 0
 \end{cases}$$
@@ -179,9 +179,9 @@ It should look pristine, even in source-editor mode.
         -   Level 3 list-item
         -   Level 3 list-item, again
     -   Level 2 list-item, again
-        *f*(*x*) = *e*^*z*^
+        $$f(x)=e^z$$
 
-        *f*(*x*) = *e*^*x*^
+        $$f(x)=e^x$$
 -   A level 1 list-item, again
 
 # Hashtags
@@ -237,10 +237,10 @@ The following are not recognised as tags, so **must not be escaped**:
 
 The following are already escaped for special syntax *eg* for math or links to headers, so **must not be escaped twice** or the blocks will break:
 
--   *x* = *a*\#*b*﻿
+-   $x=a\#b$﻿
 -   Display math block:
     $$x = \begin{cases}
-    a\\b &: x&lt;0 \\
+    a\#b &: x<0 \\
     0 &: x\ge0
     \end{cases}$$
 -   An internal link to a previous heading: .
@@ -257,11 +257,11 @@ Title for Callout
 
 This paragraph block is about the complex exponential function:
 
-*f*(*t*) = *A**e*^*i**ω**t*^,
+$$f(t)=Ae^{i\omega t},$$
 
 where
 
-*t*﻿ is time.
+$t$﻿ is time.
 
 ![](https://www.notion.so/icons/info-alternate_green.svg)
 
@@ -270,22 +270,23 @@ Title for Multiline Math Nested in Callout
 This paragraph block is about the complex exponential function:
 
 $$\begin{align}
-f(t) &=Ae\^{i\omega t} \\
-g(t) &= Be\^{i\sigma t},
+f(t) &=Ae^{i\omega t} \\
+g(t) &= Be^{i\sigma t},
 \end{align}$$
 
 where
 
-*t*﻿ is time. And
+$t$﻿ is time. And
 
-*f*(*x*) = *g*(*x*)﻿ when
+$f(x) =
+g(x)$﻿ when
 
 $\small A=
 B = \begin{cases}  
 
-1:x&gt;0 \\
+1:x>0 \\
 
-0:x&lt;0
+0:x<0
 
 \end{cases}$﻿.
 
@@ -293,17 +294,17 @@ B = \begin{cases}
 
 The complex exponential function is
 
-*f*(*t*) = *A**e*^*i**ω**t*^,
+$$f(t)=Ae^{i\omega t},$$
 
 where
 
-*t*﻿ is time.
+$t$﻿ is time.
 
 ## Math with Cases
 
 Here is the definition for the absolute value function:
 
-$$\|x\| = \begin{cases} 
+$$|x| = \begin{cases} 
 -x : & x \lt 0 \\
 x  : & x\ge 0
 \end{cases}$$
@@ -316,10 +317,14 @@ x  : & x\ge 0
 
 ------------------------------------------------------------------------
 
-1.  *f*(*x*)﻿ has no trailing spaces: `$f(x)$`.
-2.  *g*(*x*)﻿ has two trailing spaces: `$ g(x) $`.
-3.  *h*(*x*) ﻿ has an escaped trailing space: `$h(x)\ $`.
-4.  *p*(*x*) = *e*^*x*^﻿ has trailing linebreaks: `$<br><br>p(x) = e^{x}<br><br>$`.
+1.  $f(x)$﻿ has no trailing spaces: `$f(x)$`.
+2.  $ g(x) $﻿ has two trailing spaces: `$ g(x) $`.
+3.  $h(x)\ $﻿ has an escaped trailing space: `$h(x)\ $`.
+4.  $
+
+    p(x) = e^{x}
+
+    $﻿ has trailing linebreaks: `$<br><br>p(x) = e^{x}<br><br>$`.
 
 Multiline display math with trailing space:
 
@@ -333,30 +338,30 @@ x  : & x\ge 0
    $$
 ```
 
-$$  \\\\\mathrm{abs}(x)=\|x\|
+$$  \ \\\mathrm{abs}(x)=|x|
 =\begin{cases} 
 -x : & x \lt 0 \\
 x  : & x\ge 0
 \end{cases}\\
-\\     
+\      
    $$
 
 ## Math With \# Variables
 
 Here is a complicated looking bit of math that uses a `#` variable in a user-defined command:
 
-$$\renewcommand{\vec}\[1\]{\boldsymbol{#1}} 
+$$\renewcommand{\vec}[1]{\boldsymbol{#1}} 
 
-\begin{align\*}
-\vec{\dot v}\_\alpha &= 
-\vec f\_\alpha (t) + \vec\xi\_\alpha(t) 
+\begin{align*}
+\vec{\dot v}_\alpha &= 
+\vec f_\alpha (t) + \vec\xi_\alpha(t) 
 \\ 
-\vec f\_\alpha (t) &= 
-{1\over\tau\_\alpha} (\vec{ \bar v}\_\alpha - 
-\vec v\_\alpha) + 
-\sum\_{\beta≠\alpha}\vec f\_{\alpha\beta}(t) + 
-\sum\_{i}\vec f\_{\alpha i}(t) 
-\end{align\*}$$
+\vec f_\alpha (t) &= 
+{1\over\tau_\alpha} (\vec{ \bar v}_\alpha - 
+\vec v_\alpha) + 
+\sum_{\beta≠\alpha}\vec f_{\alpha\beta}(t) + 
+\sum_{i}\vec f_{\alpha i}(t) 
+\end{align*}$$
 
 # Internal Links
 
