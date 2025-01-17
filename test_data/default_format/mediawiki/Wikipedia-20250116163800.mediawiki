@@ -1,0 +1,245 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="de">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>dewiki</dbname>
+    <base>https://de.wikipedia.org/wiki/Wikipedia:Hauptseite</base>
+    <generator>MediaWiki 1.44.0-wmf.11</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Medium</namespace>
+      <namespace key="-1" case="first-letter">Spezial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Diskussion</namespace>
+      <namespace key="2" case="first-letter">Benutzer</namespace>
+      <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia Diskussion</namespace>
+      <namespace key="6" case="first-letter">Datei</namespace>
+      <namespace key="7" case="first-letter">Datei Diskussion</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+      <namespace key="10" case="first-letter">Vorlage</namespace>
+      <namespace key="11" case="first-letter">Vorlage Diskussion</namespace>
+      <namespace key="12" case="first-letter">Hilfe</namespace>
+      <namespace key="13" case="first-letter">Hilfe Diskussion</namespace>
+      <namespace key="14" case="first-letter">Kategorie</namespace>
+      <namespace key="15" case="first-letter">Kategorie Diskussion</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal Diskussion</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Modul</namespace>
+      <namespace key="829" case="first-letter">Modul Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>MediaWiki</title>
+    <ns>0</ns>
+    <id>5136713</id>
+    <revision>
+      <id>251169580</id>
+      <parentid>248310242</parentid>
+      <timestamp>2024-12-11T21:23:02Z</timestamp>
+      <contributor>
+        <username>PerfektesChaos</username>
+        <id>310926</id>
+      </contributor>
+      <comment>tk k</comment>
+      <origin>251169580</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="10360" sha1="pabksnhzphl9yu4w8svs9ieyho19tsf" xml:space="preserve">{{Infobox Software
+| Logo                              = [[Datei:MediaWiki-2020-logo.svg|135px|Logo von MediaWiki]]
+| Screenshot                        = 
+| Beschreibung                      = Hypertextsystem für Webseiten
+| Erscheinungsjahr                  = &lt;!-- Wikidata --&gt;
+| Hersteller                        = [[Wikimedia]]
+| AktuelleVersion                   = &lt;!-- aus Wikidata – https://www.wikidata.org/wiki/Q83 --&gt;
+| AktuelleVersionFreigabeDatum      = &lt;!-- aus Wikidata – https://www.wikidata.org/wiki/Q83 --&gt;
+| Betriebssystem                    = [[Plattformunabhängigkeit|plattformunabhängig]]
+| Programmiersprache                = [[PHP]]
+| Kategorie                         = [[:Kategorie:Wiki-Software|Wiki-Software]]
+| Lizenz                            = [[GNU General Public License|GPL-2.0-or-later]]
+| Deutsch                           = ja
+| Website                           = [[mw:MediaWiki/de|www.mediawiki.org]]
+}}
+
+'''MediaWiki''' ist eine [[Freie Software|frei verfügbare]] Verwaltungssoftware für Inhalte in Form eines [[Wiki]]-Systems. Dies bedeutet, dass jeder Benutzer die Inhalte per Zugriff über den [[Webbrowser|Browser]] ändern kann. Sie wurde ursprünglich für die freie [[Enzyklopädie]] [[Wikipedia]] entwickelt. MediaWiki steht unter der [[GNU General Public License|GPL-Lizenz]] und ist somit frei und kostenlos verfügbar.
+
+== Aufbau, Funktionen und Nutzung ==
+=== Technische Basis ===
+Die Software MediaWiki ist in der Skriptsprache [[PHP]] geschrieben. Zum Speichern der Inhalte wird das [[relationale Datenbank]]verwaltungssystem [[MySQL]] oder dessen [[Abspaltung (Softwareentwicklung)|Fork]] [[MariaDB]] genutzt. Alternativ können auch [[PostgreSQL]] oder [[SQLite]] als [[Front-End und Back-End|Datenbank-Backend]] verwendet werden, wobei deren Unterstützung teilweise jedoch experimentell ist.
+
+=== Funktionsumfang ===
+* Einteilung der Seiten in [[Klassifizierung|Kategorien]] und [[#Namensraum|Namensräume]]
+* Erzeugen von Inhaltsverzeichnissen&lt;ref&gt;{{Internetquelle |url=https://www.mediawiki.org/wiki/Manual:Table_of_contents/de |titel=Handbuch:Inhaltsverzeichnis |werk=MediaWiki |sprache=en |abruf=2023-02-22}}&lt;/ref&gt;
+* sortierbare Tabellen&lt;ref&gt;{{Internetquelle |url=https://www.mediawiki.org/wiki/Help:Sorting |titel=Help:Sorting |werk=MediaWiki |sprache=en |abruf=2023-02-22}}&lt;/ref&gt;
+* Anzeige von Rückverweisen (Backlinks) auf Seiten.
+* [[Versionsverwaltung]] von Artikeln und Mediendateien
+* Vorlagen für oft benötigte Textabschnitte
+* Interwiki-Links verweisen zu anderen Wiki-basierten Projekten. (In der Online-Enzyklopädie Wikipedia beispielsweise verweisen [[Hilfe:Interwiki-Links|Interwiki-Links]] zu Artikeln anderer Sprachversionen oder zu anderen Projekten wie Commons.)
+* Verknüpfung der Artikel in mehreren Sprachen durch ''Interlanguage-Links''
+* Anzeige der letzten Änderungen (auch als [[RSS (Web-Feed)|RSS]]- oder [[Atom (Format)|Atom]]-[[Web-Feed]])
+* Benutzerrechteverwaltung:
+** Vergabe von Rechten an frei definierbare Benutzergruppen
+** Rechtevergabe an einzelne Benutzer durch die Benutzergruppe der ''Bürokraten''
+** Benutzern von ''Administratoren'' das Schreibrecht entziehen lassen
+* Sperren von Artikeln für Änderungen von verschiedenen Benutzergruppen
+* [[Volltextsuche]]
+* Individuelle Anpassbarkeit des Erscheinungsbildes mit [[Cascading Style Sheets|CSS]] und der Funktion mit [[JavaScript]] und [[jQuery]].&lt;ref&gt;{{Internetquelle |url=https://www.mediawiki.org/wiki/JQuery |titel=jQuery – MediaWiki |sprache=en |abruf=2021-11-28}}&lt;/ref&gt; Auf Wikipedia hat dies zu einer Vielzahl von zusätzlichen Tools geführt.&lt;ref&gt;{{Literatur |Titel=Wikipedia:Helferlein |Sammelwerk=Wikipedia |Datum=2023-02-17 |Online=[[Spezial:Permanenter Link/230980981]] |Abruf=2023-02-22}}&lt;/ref&gt;&lt;ref&gt;{{Literatur |Titel=Wikipedia:Technik/Skin |Sammelwerk=Wikipedia |Datum=2020-10-29 |Online=[[Spezial:Permanenter Link/205002638]] |Abruf=2023-02-22}}&lt;/ref&gt;
+* Individuelle Anpassbarkeit der Funktionen durch Erweiterungen
+* Umfangreiche Unterstützung von fast 400 Sprachen&lt;ref&gt;Aktuelle Statistiken sind auf [https://translatewiki.net/w/i.php?title=Special:MessageGroupStats&amp;group=core#sortable:3=desc translatewiki.net] einsehbar.&lt;/ref&gt;
+
+=== Namensraum ===
+Die Seiten eines Mediawiki werden in Namensräumen (engl.: Namespace) organisiert. Der zentrale Namensraum (NR) ist der Artikel-Namensraum (ANR). Zu jedem Namensraum gibt es einen zusätzlichen Namensraum für Diskussionen, und dort zu jedem Artikel automatisch eine Diskussions-Seite.
+
+Jedes Mediawiki wird in der Basisversion mit folgenden 16 Namensräumen ausgeliefert:
+
+{| class="wikitable"
+|-
+! Index || Namensraum (NR) || Abkürzung || Inhalt ||colspan="2"| Diskussion
+|-
+! 0
+| Artikel (Main) || ANR
+| Artikel, die eigentlichen Inhalte des Wikis
+| {{ns:1}}
+! 1
+|-
+! 2
+| {{ns:2}} || BNR
+| Benutzer-Seiten
+| {{ns:3}}
+! 3
+|-
+! 4
+| Projekt ||
+| Information zum Wiki (hier: „{{ns:4}}“)
+| {{ns:5}}
+! 5
+|-
+! 6
+| {{ns:6}} ||
+| Bild-, Video-, Ton- und andere Dateien
+| {{ns:7}}
+! 7
+|-
+! 8
+| {{ns:8}} ||
+| Benutzereinstellungen im Mediawiki
+| {{ns:9}}
+! 9
+|-
+! 10
+| {{ns:10}} ||
+| Vorlagen (Textbausteine, Info-Boxen etc.)
+| {{ns:11}}
+! 11
+|-
+! 12
+| {{ns:12}} ||
+| Hilfe-Seiten zum Benutzen des Wiki
+| {{ns:13}}
+! 13
+|-
+! 14
+| {{ns:14}} ||
+| Kategorien zum Einordnen von Elementen aus verschiedenen&lt;br /&gt;Namensräumen: Artikeln, Kategorien, Vorlagen, Dateien,…
+| {{ns:15}}
+! 15
+|}
+
+Komplexe Mediawiki-Installationen können aber hunderte Namensräume enthalten.
+
+Jeder Artikel aus jedem Namensraum kann aus jedem anderen Artikel in jedem anderen Namensraum direkt verlinkt werden (Interner Link).
+
+=== Nutzung ===
+Die bekanntesten Wikis, die MediaWiki nutzen, sind die [[Wikipedia]]s.
+
+Listen mit weiteren Wikis, die MediaWiki nutzen, führt die Projektseite von MediaWiki auf und ordnet sie nach Sprache des Wikis getrennt alphabetisch: [[mw:Sites using MediaWiki/de|deutsch]], [[mw:Sites using MediaWiki/en|englisch]], [[mw:Sites using MediaWiki/multilingual|mehrsprachig]].
+
+Das Projekt WikiApiary führt ein kontinuierlich aktualisiertes Verzeichnis von Wikis, die MediaWiki nutzen.&lt;ref&gt;{{Internetquelle |url=https://www.mediawiki.org/wiki/WikiApiary |titel=WikiApiary – MediaWiki |sprache=en |abruf=2021-04-28}}&lt;/ref&gt;
+
+== Geschichte ==
+[[Datei:MediaWiki logo without tagline.png|mini|''MediaWiki''-Logo, bis Anfang 2021&lt;ref&gt;Amir Sarabadani: ''[[mailarchive:mediawiki-l/2021-March/048685.html|Logo of MediaWiki has changed]]''. Archiv der MediaWiki-l-Mailingliste (englisch), 1. April 2021.&lt;/ref&gt;]]MediaWiki entstand aus einer [[Wiki]]-Engine, die der deutsche Biochemiker [[Magnus Manske]] für die Online-Enzyklopädie [[Wikipedia]] entwickelte, als sich die zuvor eingesetzte [[UseModWiki]]-Engine den Anforderungen nicht gewachsen zeigte. Am 25. Januar 2002 wurde die erste Version, damals ''Phase&amp;nbsp;II'' genannt, erstmals eingesetzt. Nach einer hauptsächlich durch Lee Daniel Crocker geschriebenen Neufassung wurde im Juni 2002 eine verbesserte Version der offiziell immer noch namenlosen Software auf dem Wikipedia-[[Server]] installiert. Der heutige Name ''MediaWiki'' wurde erstmals im Juli 2003 von dem Entwickler Daniel Meyer auf einer [[Mailingliste]] vorgeschlagen.&lt;ref&gt;''[[mailarchive:wikipedia-l/2003-July/011021.html|Phase IV, Wikibooks.org/.com and WikimediaFoundation.org/.com (was Wikis and uniformity)]]'' Archiv der Wikipedia-l-Mailingliste (englisch)&lt;/ref&gt; Das Logo der Software zeigt eine von [[Klammer (Zeichen)|eckigen Klammern]] umgebene [[Sonnenblume]] und stammt von dem deutschen [[Erik Möller]] nach einem Foto von [[Florence Nibart-Devouard]], einer französischen Agraringenieurin. Es wurde 2003 bei einem Wikipedia-Wettbewerb für das MediaWiki-Projekt gewählt.&lt;ref&gt;''[[meta:Special:PermaLink/509000|International logo contest/Results]]''. Ergebnis des Wettbewerbs, August 2003&lt;/ref&gt;
+
+In den Folgejahren entwickelte sich MediaWiki zu einem [[Open Source|Open-Source]]-Projekt, an dem im Jahr 2005 über 60 Programmierer und Helfer beteiligt waren. Neben Wikipedia und ihren [[Wikimedia]]-Schwesterprojekten setzen heute Organisationen, Unternehmen und Institutionen MediaWiki ein.
+
+Seit 2005 steht mit [[Semantic MediaWiki]] eine Erweiterung zur Verfügung, die es ermöglicht, zusätzlich zu Texten und medialen Inhalten, strukturierte Daten auf einer Wikiseite zu hinterlegen.
+
+== Aktuelle Versionen ==
+{| class="wikitable"
+|-
+! Release
+! Version&lt;ref&gt;Aktuelle Versionsinformationen sind auf [[mw:Version lifecycle/de|mediawiki.org]] einsehbar&lt;/ref&gt;
+! Veröffentlichung
+! Supportende
+|-
+| MediaWiki&amp;nbsp;1.38
+| {{Version |o |1.38.x}}
+| {{DatumZelle|2022-06-02}}
+| {{DatumZelle|2023-06-30}}
+|-
+| MediaWiki&amp;nbsp;1.39 (LTS)&lt;ref name="lst"&gt;Eine [[Support (Dienstleistung)#Long Term Support|Version mit Langzeitunterstützung (LTS)]] wird für drei Jahre unterstützt. Sie eignet sich besonders für produktive Umgebungen, in denen größere Softwareänderungen vermieden werden sollen.&lt;/ref&gt;
+| {{Version |co |1.39.x}}
+| {{DatumZelle|2022-11-30}}
+| {{DatumZelle|2025-11}}
+|-
+| MediaWiki&amp;nbsp;1.40
+| {{Version |o |1.40.x}}
+| {{DatumZelle|2023-06-30}}
+| {{DatumZelle|2024-06-28}}
+|-
+| MediaWiki&amp;nbsp;1.41
+| {{Version |co |1.41.x}}
+| {{DatumZelle|2023-12-21}}
+| {{DatumZelle|2024-12}}
+|-
+| MediaWiki&amp;nbsp;1.42
+| {{Version |c |1.42.x}}
+| {{DatumZelle|2024-06-27}}
+| {{DatumZelle|2025-06}}
+|-
+| MediaWiki&amp;nbsp;1.43 (LTS)
+| {{Version |p |1.43.x}}
+| {{DatumZelle|2024-12}}
+| {{DatumZelle|2027-12}}
+|-
+|colspan="4"| {{Version |l |zeige=111101}}
+|}
+
+== Literatur ==
+* {{Literatur
+   |Autor=Koren Yaron
+   |Titel=Working with MediaWiki
+   |Auflage=2.
+   |Verlag=WikiWorks Press
+   |Ort=New York
+   |Datum=2017
+   |ISBN=978-0-615-72030-2
+   |Sprache=en}}
+
+== Weblinks ==
+{{MediaWiki|MediaWiki/de|Hauptseite}}
+{{Wikibooks}}
+{{Commonscat}}
+* [[Hilfe:MediaWiki|Hilfe zu MediaWiki]] – MediaWiki und Wikipedia&lt;!-- Hier ist eine gebotswidrige namensraumübergreifende Verlinkung sinnvoll, da MediaWiki für die Wikipedia entwickelt wurde und wird. --&gt;
+* {{DNB-Portal|7629446-8|TEXT=Literatur zu}}
+* [[BlueSpice MediaWiki]]
+* [[Semantic MediaWiki]]
+
+== Einzelnachweise ==
+&lt;references /&gt;
+
+{{Navigationsleiste Wikimedia-Projekte}}
+
+{{Normdaten|TYP=s|GND=7629446-8}}
+
+[[Kategorie:Freie Wiki-Software]]
+[[Kategorie:PHP]]
+[[Kategorie:Kollaborationssoftware]]
+[[Kategorie:Wiki]]
+[[Kategorie:Wikimedia]]</text>
+      <sha1>pabksnhzphl9yu4w8svs9ieyho19tsf</sha1>
+    </revision>
+  </page>
+</mediawiki>

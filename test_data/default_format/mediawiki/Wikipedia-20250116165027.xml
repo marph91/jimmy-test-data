@@ -1,0 +1,334 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="de">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>dewiki</dbname>
+    <base>https://de.wikipedia.org/wiki/Wikipedia:Hauptseite</base>
+    <generator>MediaWiki 1.44.0-wmf.11</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Medium</namespace>
+      <namespace key="-1" case="first-letter">Spezial</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Diskussion</namespace>
+      <namespace key="2" case="first-letter">Benutzer</namespace>
+      <namespace key="3" case="first-letter">Benutzer Diskussion</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia Diskussion</namespace>
+      <namespace key="6" case="first-letter">Datei</namespace>
+      <namespace key="7" case="first-letter">Datei Diskussion</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki Diskussion</namespace>
+      <namespace key="10" case="first-letter">Vorlage</namespace>
+      <namespace key="11" case="first-letter">Vorlage Diskussion</namespace>
+      <namespace key="12" case="first-letter">Hilfe</namespace>
+      <namespace key="13" case="first-letter">Hilfe Diskussion</namespace>
+      <namespace key="14" case="first-letter">Kategorie</namespace>
+      <namespace key="15" case="first-letter">Kategorie Diskussion</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal Diskussion</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Modul</namespace>
+      <namespace key="829" case="first-letter">Modul Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Zschorlau</title>
+    <ns>0</ns>
+    <id>218870</id>
+    <revision>
+      <id>250899388</id>
+      <parentid>250899349</parentid>
+      <timestamp>2024-12-02T20:13:06Z</timestamp>
+      <contributor>
+        <username>Miebner</username>
+        <id>246510</id>
+      </contributor>
+      <comment>Änderung [[Spezial:Diff/250899349|250899349]] von [[Special:Contribs/Gewuerznud3l|Gewuerznud3l]] rückgängig gemacht;    Unbedeutend?</comment>
+      <origin>250899388</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="14551" sha1="2j81kf4swgku15zbsvq7yw3m7p3s464" xml:space="preserve">{{Infobox Gemeinde in Deutschland
+|Wappen            = Wappen Zschorlau.png
+|Breitengrad       = 50/34/0/N
+|Längengrad        = 12/39/0/E
+|Lageplan          = Zschorlau in ERZ.png
+|Lageplanbeschreibung= Lage der Gemeinde Zschorlau im Erzgebirgskreis
+|Bundesland        = Sachsen
+|Landkreis         = Erzgebirgskreis
+|Verwaltungsgemeinschaft = Zschorlau
+|Höhe              = 548
+|PLZ               = 08321
+|Vorwahl           = 03771
+|Gemeindeschlüssel = 14521700
+|LOCODE            = DE ZRL
+|Gliederung        = 3 [[Ortsteil]]e
+|Adresse-Verband   = August-Bebel-Str. 78
+|Website           = [https://www.zschorlau.info/ www.zschorlau.info]
+|Bürgermeister     = Wolfgang Leonhardt
+|Partei            = CDU
+}}
+
+'''Zschorlau''' ist eine Gemeinde im [[Sachsen|sächsischen]] [[Erzgebirgskreis]]. Die Gemeinde und [[Bockau]] bilden die [[Verwaltungsgemeinschaft Zschorlau]].
+
+== Geografie ==
+Zschorlau liegt im [[Westerzgebirge]] etwa 5&amp;nbsp;km südlich von [[Aue (Sachsen)|Aue]] und wird im Süden vom Steinberg (732,8&amp;nbsp;m) überragt. Der Ort ist, wie viele ehemalige [[Waldhufendorf|Waldhufendörfer]] im [[Erzgebirge]], an einem Bachlauf, dem [[Zschorlaubach]], entstanden. Dieser entspringt südwestlich der Gemeinde auf einer weitgestreckten moorigen Hochebene, dem [[Hartmannsdorfer Forst|Hohen Forst]], im örtlichen Volksmund „Dr Forst“ genannt. Bevor der Bach die Ortslage erreicht, speist er mit seinem Wasser den [[Filzteich]], der Zentrum eines beliebten Naherholungsgebietes ist. Am Ende der Ortslage folgt mit dem Gößnitzgrund ein Engtal, durch das erst 1907 die Zschorlauer Talstraße gebaut wurde.
+
+Zschorlau liegt nach der [[Liste der naturräumlichen Einheiten in Sachsen|Naturraumkarte von Sachsen]] in der [[Geochore|Mesogeochore]] „Auer Talkessel mit Höhenrücken“ und gehört zu den Mikrogeochoren „Zschorlaubach-Tal“ und „Zschorlauer Rücken“, der nach Aue hin orientierte untere Teil von Zschorlau dagegen schon zur Mikrogeochore „Auer Talkessel“.{{GeoQuelle|DE-SN|NR}}
+
+{{Nachbargemeinden
+ | BESCHRIFTUNG='''Nachbargemeinden &lt;br /&gt;(alle im [[Erzgebirgskreis]])'''
+ | NORD=[[Schneeberg (Erzgebirge)|Stadt Schneeberg]]
+ | NORDOST=[[Aue-Bad Schlema|Stadt Aue-Bad Schlema]]
+ | WEST=[[Stützengrün|Gemeinde Stützengrün]]
+ | OST=[[Lauter-Bernsbach|Stadt Lauter-Bernsbach]]
+ | SUEDWEST=[[Bockau|Gemeinde Bockau]]
+ | SUED=[[Eibenstock|Stadt Eibenstock]]
+}}
+
+Zschorlau trennen nur wenige Meter von der Grenze zum Landkreis Zwickau.
+
+=== Geologie ===
+[[Datei:Tuerkschacht2.JPG|mini|hochkant|links|Förderturm der [[Fundgrube Türk]]]]
+Die Gemeinde liegt an der Süd-Ost-Flanke der „Schneeberger Lagerstätte“, die bis an den Rand des Ortes reicht. Äußerlich macht sich dies durch den Förderturm des [[Türkschacht]]es bemerkbar, der nur wenige Meter hinter den Häusern auf einer Anhöhe zwischen Zschorlau und [[Neustädtel (Schneeberg)|Neustädtel]] steht. Dieser Turm ist das einzige erhaltene Stahlfördergerüst des westerzgebirgischen Altbergbaus und steht unter Denkmalschutz.
+
+Eine Besonderheit bildet das Gebiet des Schaubergwerks ''[[St. Anna am Freudenstein]]''. Es gehört geologisch zur Schneeberger Lagerstätte, ist aber als eine gesonderte Teillagerstätte zu betrachten.
+
+Außerdem sind die auf der Gemeindeflur entdeckten und abgebauten [[Wolframit]]vorkommen eine interessante geologische Erscheinung.
+
+=== Ortsgliederung ===
+[[File:Blick vom Steinberg (Zschorlau) nach Zschorlau (3).jpg|thumb|Blick vom Steinberg (Zschorlau) nach Zschorlau]]
+Zur Gemeinde Zschorlau gehören die Ortsteile [[Albernau]] (mit Schindlerswerk) und [[Burkhardtsgrün (Zschorlau)|Burkhardtsgrün]].
+
+== Geschichte ==
+[[Datei:Rathaus Zschorlau (2).jpg|mini|Rathaus Zschorlau]]
+Zschorlau wurde wie die Nachbarorte [[Neustädtel (Schneeberg)|Neustädtel]], [[Griesbach (Schneeberg)|Griesbach]] und [[Lindenau (Schneeberg)|Lindenau]] um 1200 gegründet. Nach Robert Immisch (Die slavischen Ortsnamen im Erzgebirge; 1866) bedeutete der Ortsname ''Quellenwiese'' (Wiese an der Zschorle, vgl. obersorbisch žórło ''Quelle''). Er gehörte, anders als seine Ortsteile, nicht zur [[Herrschaft Schwarzenberg]], sondern zur Herrschaft Wiesenburg und zu dessen Nachfolger, dem [[Amt Wiesenburg (Erzgebirge)|Amt Wiesenburg]].
+Im Zschorlauer Ortsteil [[Albernau]] gibt es seit dem 17. Jahrhundert ein [[Blaufarbenwerk]], das nach seinem ersten Besitzer [[Erasmus Schindler]] „[[Schindlersches Blaufarbenwerk]]“ und nach der erzeugten blauen Farbe ultramarin auch ''US Sächsisches Blaufarbenwerk GmbH'' (Schindlerswerk Nr. 9) genannt wird. In der kurzen Selbstdarstellung des Werkes heißt es, dass die Hütte das „wahrscheinlich älteste Farbenwerk der Welt“ sei.
+Nach der [[Machtergreifung|NS-Machtübernahme]] wurde zwischen April und Juli 1933 ein altes Fabrikgebäude in der ''Albernauer Straße 2'' von den Nationalsozialisten zum „[[Schutzhaft]]lager“ ([[KZ Zschorlau]]) umfunktioniert. Dort wurden 207 politische Gegner, darunter ein [[Jude]], inhaftiert und gefoltert. Zu den namentlich bekannten Häftlingen zählten [[Paul Korb]] und [[Erich Weidlich]]. Zahlreiche Misshandelte starben kurz darauf an der erlittenen Folter. Durch Auflösung des Lagers am 10. Juli 1933 wurden ca. 50 Häftlinge in das Zuchthaus [[Schloss Osterstein (Zwickau)|Zwickau-Osterstein]] und ca. 30 Häftlinge in das [[KZ Sachsenburg]] verlegt.&lt;ref&gt;Erzgebirgischer Volksfreund vom 10. Juli 1933.&lt;/ref&gt; Eine Gedenktafel erinnert an die Opfer.
+
+Die formell-juristische Neugründung des [[Erzgebirgsverein]]s in den [[Neue Länder|Neuen Bundesländern]] erfolgte am 21. April 1990 im ''Kuchenhaus'' in Zschorlau. An dieses Ereignis erinnert eine Tafel an dem Gebäude. 
+
+Am 1. Januar 1996 wurde Burkhardtsgrün, am 1. Januar 1998 Albernau nach Zschorlau eingemeindet.&lt;ref&gt;[https://www.destatis.de/DE/ZahlenFakten/LaenderRegionen/Regionales/Gemeindeverzeichnis/NamensGrenzAenderung/NamensGrenzAenderung.html StBA: Änderungen bei den Gemeinden, siehe 1996 und 1998]&lt;/ref&gt;
+
+== Politik ==
+{{Wahldiagramm
+|LAND           = DE
+|TITEL          = Gemeinderatswahl 2024
+|TITEL2         = &lt;small&gt;'''Wahlbeteiligung:''' 73,6 % (2019: 67,4 %)&lt;/small&gt;
+|JAHRALT        = 2019
+|JAHRNEU        = 2024
+|GUV            = ja
+|PARTEI1        = CDU
+|ERGEBNIS1      = 51.2
+|ERGEBNISALT1   = 68.2
+|PARTEI2        = AA
+|ERGEBNIS2      = 27.3
+|ERGEBNISALT2   = 22.6
+|FARBE2         = 6699FF
+|ANMERKUNG2     = Albernauer Alternative
+|PARTEI3        = (H)ERZ
+|ERGEBNIS3      = 11.9
+|ERGEBNISALT3   = 0.0
+|FARBE3         = 2323DF
+|ANMERKUNG3     = Bürgerinitiative Zukunft (H)ERZgebirge
+|PARTEI4        = SPD
+|ERGEBNIS4      = 9.7
+|ERGEBNISALT4   = 11.2
+}}{{Sitzverteilung
+|float         = left
+|Überschrift   = Gemeinderat ab 2024
+|Beschriftung  = Sitze
+|Land          = DE
+|SPD|AA|(H)ERZ|CDU
+|SPD=1
+|AA=4
+|AA Farbe=6699FF
+|(H)ERZ = 2
+|(H)ERZ Farbe = 2323DF
+|CDU=11
+}}
+
+=== Gemeinderat ===
+Seit der [[Kommunalwahlen in Sachsen 2024|Gemeinderatswahl am 9. Juni 2024]] verteilen sich die 16 Sitze des Gemeinderates folgendermaßen auf die einzelnen Gruppierungen:
+* CDU: 11 Sitze
+* Albernauer Alternative (AA): 4 Sitze
+* Bürgerinitiative Zukunft (H)ERZgebirge: 2 Sitze
+* SPD: 1 Sitz
+{| class="wikitable"
+|+letzte Gemeinderatswahlen
+! rowspan="2" |Liste
+! colspan="2" |[[Kommunalwahlen in Sachsen 2024|2024]]&lt;ref&gt;{{Internetquelle |autor=Referat Kommunikation und Öffentlichkeitsarbeit |url=https://wahlen.sachsen.de/gemeinderatswahlen-2024-wahlergebnisse.php?landkreis=14521&amp;gemeinde=14521700&amp;_ptabs=%7B%22%23tab-sitzverteilung%22%3A1%7D |titel=Wahlergebnisse - Wahlen - sachsen.de |sprache=de |abruf=2024-08-04}}&lt;/ref&gt;
+! colspan="2" |[[Kommunalwahlen in Sachsen 2019|2019]]&lt;ref&gt;{{Internetquelle |autor=Referat Kommunikation und Öffentlichkeitsarbeit |url=https://wahlen.sachsen.de/gemeinderatswahlen-2019-wahlergebnisse.php?landkreis=14521&amp;gemeinde=14521700&amp;_ptabs=%7B%22%23tab-sitzverteilung%22%3A1%7D |titel=Wahlergebnisse - Wahlen - sachsen.de |sprache=de |abruf=2024-08-04}}&lt;/ref&gt;
+! colspan="2" |[[Kommunalwahlen in Sachsen 2014|2014]]&lt;ref&gt;{{Internetquelle |autor=Referat Kommunikation und Öffentlichkeitsarbeit |url=https://wahlen.sachsen.de/gemeinderatswahlen-2014-wahlergebnisse.php?landkreis=14521&amp;gemeinde=14521700&amp;_ptabs=%7B%22%23tab-sitzverteilung%22%3A1%7D |titel=Wahlergebnisse - Wahlen - sachsen.de |sprache=de |abruf=2024-08-04}}&lt;/ref&gt;
+|-
+!Sitze
+!in %
+!Sitze
+!in %
+!Sitze
+!in %
+|-
+|[[CDU Sachsen|CDU]]
+|11
+|51,2
+|11
+|66,2
+|12
+|65,4
+|-
+|Albernauer Alternative
+|4
+|27,3
+|3
+|22,6
+|1
+|7,5
+|-
+|Bürgerinitiative (H)ERZgebirge
+|2
+|11,9
+|–
+|–
+|–
+|–
+|-
+|[[SPD Sachsen|SPD]]
+|1
+|9,7
+|1
+|11,2
+|3
+|16,7
+|-
+|WGZ
+|–
+|–
+|–
+|–
+|–
+|4,0
+|-
+|[[NPD Sachsen|NPD]]
+|–
+|–
+|–
+|–
+|–
+|3,6
+|-
+|[[FDP Sachsen|FDP]]
+|–
+|–
+|–
+|–
+|–
+|2,8
+|-
+!Wahlbeteiligung
+! colspan="2" |73,6 %
+! colspan="2" |67,4 %
+! colspan="2" |60,6 %
+|}
+
+=== Bürgermeister ===
+Hauptamtlicher Bürgermeister Zschorlaus ist Wolfgang Leonhardt (CDU). Bei der Bürgermeisterwahl am 7. Juni 2015 wurde er bei einer Wahlbeteiligung von 54,6 Prozent mit 79,0 Prozent im ersten Wahlgang im Amt bestätigt.&lt;ref&gt;[https://www.statistik.sachsen.de/wahlen/bm/BM2001-2018/B%fcrgermeisterwahlen%202001-2018/wahlen.statistik.sachsen.de/wahlarchiv/pkg_w04_nav5c95.html Bürgermeisterwahl 2015, Gemeinde Zschorlau - Endgültiges Ergebnis], abgerufen am 12. September 2020&lt;/ref&gt;
+{| class="wikitable"
+|+letzte Bürgermeisterwahlen
+!Wahl
+!Bürgermeister
+!Vorschlag
+!Wahlergebnis (in %)
+|-
+|[[Bürgermeisterwahlen in Sachsen 2022#Erzgebirgskreis|2022]]
+| rowspan="5" |Wolfgang Leonhardt
+| rowspan="5" |CDU
+|63,6
+|-
+|[[Bürgermeisterwahlen in Sachsen 2015#Erzgebirgskreis|2015]]
+|79,0
+|-
+|[[Bürgermeisterwahlen in Sachsen 2008#Erzgebirgskreis|2008]]
+|95,8
+|-
+|[[Bürgermeisterwahlen in Sachsen 2001#Landkreis Aue-Schwarzenberg|2001]]
+|64,1
+|-
+|[[Bürgermeisterwahlen in Sachsen 1994#Landkreis Aue-Schwarzenberg|1994]]
+|65,4
+|}&lt;!-- === Wappen === --&gt;
+
+=== Gemeindepartnerschaften ===
+Es besteht eine [[Gemeindepartnerschaft]] mit der Gemeinde [[Dietenhofen]] im Landkreis Ansbach.
+== Kultur und Sehenswürdigkeiten ==
+[[Datei:Haus der Vereine und Volkskunstschule Zschorlau.jpg|mini|Haus der Vereine und Volkskunstschule Zschorlau]]
+* siehe auch: [[Liste der Kulturdenkmale in Zschorlau]]
+* Die [[Dorfkirche Zschorlau]] ist eine im Kern spätgotische Saalkirche mit reicher, teils wertvoller Ausstattung, zu der eine spätbarocke Bilderdecke gehört.
+* Das Schaubergwerk St. Anna am Freudenstein befindet sich am unteren Ende der Gemeinde Zschorlau auf der Verbindungsstraße nach [[Aue (Sachsen)|Aue]]. In der dortigen Quarzhöhle zeigt im Sommer ein Wandermarionettentheater Aufführungen und in der Weihnachtszeit werden öffentliche Mettenschichten veranstaltet.
+* Die Blaufarbenfabrik von Erasmus Schindler gehört seit 2019 zu den 22 [[UNESCO-Welterbe]]stätten der [[Montanregion Erzgebirge]].&lt;ref&gt;Jahresförderprogramm 2020 der Deutschen Stiftung Denkmalschutz: ''Zschorlau, Schindler´sches Blaufarbenwerk, Sachsen'', In: [[Monumente]], Ausgabe 2/2020, S. 24.&lt;/ref&gt;
+* Förderturm der [[Fundgrube Türk]]
+* Seit 2000 findet in Zschorlau alle fünf Jahre ein [[Passionsspiel]] statt: mit dieser besonderen Form der Verkündigung christlicher Botschaft wollen ca. 140 Mitwirkende aus der Ev.-Luth. und [[Evangelisch-methodistische Kirche|Ev.-Meth.]] Kirche sowie der [[Landeskirchliche Gemeinschaft|Landeskirchlichen Gemeinschaft]] die biblischen Berichte vom Passionsgeschehen den Besuchern durch spielerische Darstellung nahebringen.&lt;ref&gt;[https://www.passionsspiel-zschorlau.de/ Passionsspiel Zschorlau]&lt;/ref&gt;
+
+=== Naturschutz ===
+* {{Siehe auch|Liste der Naturdenkmale in Zschorlau}}
+
+== Wirtschaft und Infrastruktur ==
+=== Bildung ===
+[[Datei:Grundschule Zschorlau (2).jpg|mini|Grundschule Zschorlau]]
+[[Datei:Oberschule Zschorlau (1).jpg|mini|Oberschule Zschorlau]]
+Zschorlau verfügt über die [[Oberschule Zschorlau]] und die Grundschule Zschorlau.
+
+== Persönlichkeiten ==
+=== Ehrenbürger ===
+* 1933: [[Adolf Hitler]], Reichskanzler
+* 1933: [[Paul von Hindenburg]], Reichspräsident
+* [[Dietmar Zimpel]] (1933–2017), Motorsportler und -konstrukteur, Autohausbesitzer, Begründer der Dietmar-und-Evelyn-Zimpel-Stiftung zur Kinder- und Jugendförderung
+=== Söhne und Töchter der Gemeinde ===
+* [[Christian Adolf Lenk]] (1801–1879), evangelischer Pfarrer
+* [[Helmut Unger (Heimatforscher)|Helmut Unger]] (1923–2016), Heimatforscher
+* [[Manfred Bochmann]] (1928–2011), Politiker (SED) und Minister für Geologie der DDR
+* [[Siegfried Pausch]] (1941–2004), Politiker (CDU), MdL
+* [[Horst Voigt (Politiker, 1941)|Horst Voigt]] (* 1941), Politiker (CDU und der AB 2000) 
+* [[Lothar Spitzner]] (1943), ehemaliger Fußballspieler
+* [[Christine Weber]] (* 1948), Politikerin (CDU), Landesministerin in Sachsen
+* [[Stefanie Rehm]] (* 1950), Politikerin (CDU), Landesministerin in Sachsen
+* [[Andreas Schramm (Politiker)|Andreas Schramm]] (* 1951), Politiker (CDU) und Landrat
+
+=== Personen mit Bezug zum Ort ===
+* [[Carl Eduard Mannsfeld]] (1822–1874), Jurist und Politiker, MdL (Königreich Sachsen)
+* [[Julius Bochmann (Politiker)|Julius Bochmann]] (1832–1918), Baumeister und konservativer Politiker, MdL ([[Königreich Sachsen]])
+* [[Martin Päßler]] (1586–1651), Unternehmer
+* [[Erasmus Schindler]] (1608–1673), Handelsmann und Unternehmer, Gründer des Schindlerschen Blaufarbenwerks
+* [[Gotthard Voigt]] (1928–1991), Politiker (DSU)
+* [[Lothar Kolditz]] (* 1929), Chemiker
+* [[Edmut Kluge]] (1933–2019), Mundartautor
+* [[Uwe Leonhardt]] (* 1958), Unternehmer und Fußballfunktionär
+
+== Literatur ==
+* {{BKD|8|66|80|Zschorlau}}
+* Karl Friedrich Helbig: ''Geschichte der [[Kirchspiel|Kirchfahrt]] Zschorlau.'' bei Roßberg, Frankenberg 1896, 61 S., 5 Bl. Ill.
+* {{WdH|11|84–89}}
+* Gemeindeverwaltung Zschorlau (Hrsg.): ''Festschrift 800 Jahre Zschorlau.'' Zschorlau 2012. ISBN 978-3-9811372-9-3
+
+== Weblinks ==
+{{Commonscat}}
+* [https://www.zschorlau.info/ Offizielle Website der Gemeinde Zschorlau]
+* {{HOV}}
+* {{SächsBib|GND=4331189-1|TEXT=Literatur über}}
+* {{Webarchiv|url=http://www.ms-zschorlau.de/chronik2.html|wayback=20081212122351|text=Kurze Chronik des Ortes von 1900 bis zum Zweiten Weltkrieg}}
+
+== Einzelnachweise ==
+&lt;references /&gt;
+
+{{Naviblock
+|Navigationsleiste Städte und Gemeinden im Erzgebirgskreis
+|Navigationsleiste Gemeindeteile der Gemeinde Zschorlau
+}}
+
+{{Normdaten|TYP=g|GND=4331189-1|LCCN=n/91/85464|VIAF=123291082}}
+
+[[Kategorie:Ort im Erzgebirgskreis]]
+[[Kategorie:Deutscher Ortsname slawischer Herkunft]]</text>
+      <sha1>2j81kf4swgku15zbsvq7yw3m7p3s464</sha1>
+    </revision>
+  </page>
+</mediawiki>
