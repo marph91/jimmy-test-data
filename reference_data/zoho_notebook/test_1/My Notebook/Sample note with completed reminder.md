@@ -2,9 +2,9 @@ Sample content
 
   
 
-| Table | Header  |
-|-------|---------|
-| table | content |
+| **Table** | **Header** |
+|-----------|------------|
+| table     | content    |
 
   
 

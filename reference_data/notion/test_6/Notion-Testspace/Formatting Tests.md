@@ -283,11 +283,8 @@ g(x)$﻿ when
 
 $\small A=
 B = \begin{cases}  
-\\
 1:x>0 \\
-\\
 0:x<0
-\\
 \end{cases}$﻿.
 
 ## Math in Text
@@ -321,7 +318,6 @@ x  : & x\ge 0
 2.  $ g(x)$﻿ has two trailing spaces: `$ g(x) $`.
 3.  $h(x)$﻿ has an escaped trailing space: `$h(x)\ $`.
 4.  $
-    \\
     p(x) = e^{x}$﻿ has trailing linebreaks: `$<br><br>p(x) = e^{x}<br><br>$`.
 
 Multiline display math with trailing space:
@@ -347,7 +343,6 @@ x  : & x\ge 0
 Here is a complicated looking bit of math that uses a `#` variable in a user-defined command:
 
 $$\renewcommand{\vec}[1]{\boldsymbol{#1}} 
-\\
 \begin{align*}
 \vec{\dot v}_\alpha &= 
 \vec f_\alpha (t) + \vec\xi_\alpha(t) 
