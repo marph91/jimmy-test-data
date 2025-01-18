@@ -9,4 +9,4 @@ This is the first part.
 
 [test.pdf](test.pdf)
 
-[smime.p7s](smime.p7s)
+[smime.p7s](smime_0001.p7s)

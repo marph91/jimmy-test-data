@@ -205,7 +205,7 @@ Linda,
 The cake doesn't appear prone to cracking (from what I can tell after one attempt). It emerged from the oven perfect and didn't show any indication  that it might develop a surface crack.
 
 Reply
-1. ![*](_.jpg)
+1. ![*](__0001.jpg)
 ***[AnaMarie](https://www.blogger.com/profile/04465405043936026373)***[April 14, 2010 at 7:14 PM](https://notsohumblepie.blogspot.com/2010/04/white-chocolate-caramel-cheesecake.html?showComment=1271297658465#c4094210252660688025)
 
 I make caramel without using water or other liquids because of the crystallization factor.  You can keep stirring the sugar the entire time if there is no added liquid without fear of causing undesired crystallization that way.  It doesn't need any liquid to melt, and to me, this method is easier because you don't have to worry about swirling/stirring/messing up your caramel.
@@ -304,7 +304,7 @@ thank you, and this time I did it without using tinfoil, but just putting in som
 Love making your cheesecake recepies! thnxs for posting
 
 Reply
-1. ![*](_.jpg)
+1. ![*](__0002.jpg)
 ***[Elif](https://www.blogger.com/profile/18159685017802285792)***[November 7, 2011 at 6:40 AM](https://notsohumblepie.blogspot.com/2010/04/white-chocolate-caramel-cheesecake.html?showComment=1320676822683#c366699046891899942)
 
 Thank you for the recipe. I made the first Cheesecae of my life with your help and it was the best from all i have tasted before. Served with blueberry sauce. My blog is hungarian, but anyway you may see it here: http://izmorzsak.blogspot.com/2011/11/fehercsokolades-sajttorta-az-elso-de.html#more
