@@ -114,7 +114,9 @@ a green or red fruit
 
 other fruits  
 -   wee!
+
 -   mixing lists
+
     1.  again!
     2.  and again!
 
@@ -122,9 +124,8 @@ other fruits
 
 Use pipes to compose table rows and cells. Double pipe at the line beginning starts a heading row. Natural spaces specify each cell alignment.
 
-|          |          |          |
-|:---------|:---------|---------:|
 | cell 1.1 | cell 1.2 | cell 1.3 |
+|:---------|:---------|---------:|
 | cell 2.1 | cell 2.2 | cell 2.3 |
 | cell 3.1 | cell 3.2 | cell 3.3 |
 
@@ -135,23 +136,20 @@ Use pipes to compose table rows and cells. Double pipe at the line beginning sta
 
 \|\_ heading 1 \| cell 1.1 \| cell 1.2 \|
 
-|           |          |          |
-|:---------:|:---------|---------:|
 | heading 2 | cell 2.1 | cell 2.2 |
+|:---------:|:---------|---------:|
 | heading 3 | cell 3.1 | cell 3.2 |
 
 \|/ heading \| heading 1 \| heading 2 \|
 
-|           |          |          |
-|:---------:|:---------|---------:|
 | heading 1 | cell 1.1 | cell 1.2 |
+|:---------:|:---------|---------:|
 | heading 2 | cell 2.1 | cell 2.2 |
 
 Without the last pipe, no border:
 
-|          |          |          |
-|:---------|:---------|---------:|
 | cell 1.1 | cell 1.2 | cell 1.3 |
+|:---------|:---------|---------:|
 | cell 2.1 | cell 2.2 | cell 2.3 |
 | cell 3.1 | cell 3.2 | cell 3.3 |
 
@@ -162,16 +160,14 @@ Without the last pipe, no border:
 
 \|\_ heading 1 \| cell 1.1 \| cell 1.2
 
-|           |          |          |
-|:---------:|:---------|---------:|
 | heading 2 | cell 2.1 | cell 2.2 |
+|:---------:|:---------|---------:|
 | heading 3 | cell 3.1 | cell 3.2 |
 
 \|/ heading \| heading 1 \| heading 2
 
-|           |          |          |
-|:---------:|:---------|---------:|
 | heading 1 | cell 1.1 | cell 1.2 |
+|:---------:|:---------|---------:|
 | heading 2 | cell 2.1 | cell 2.2 |
 
 # Special Entities

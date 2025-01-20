@@ -77,7 +77,7 @@ The dash is the default list identifier. For sublists, just add **spaces** at th
     -   America
         -   South America
             -   Brazil
-                -   How deep can I go? ** Europe **\* Lots of countries
+                -   How deep can I go? **Europe** \* Lots of countries
 -   Mars
     -   Who knows?
 
@@ -100,7 +100,7 @@ The same rules as the plain list, just a different identifier (plus).
 
 The definition list identifier is a colon, followed by the term. The term contents is placed on the next line.
 
-orange :a yellow fruit apple :a green or red fruit other fruits ** wee! ** mixing lists \### again! \### and again!
+orange :a yellow fruit apple :a green or red fruit other fruits **wee!** mixing lists \### again! \### and again!
 
 # Tables
 

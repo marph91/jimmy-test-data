@@ -134,9 +134,8 @@ Use pipes to compose table rows and cells. Double pipe at the line beginning sta
 
 Without the last pipe, no border:
 
-|               |               |               |
-|:--------------|:-------------:|--------------:|
 | **heading 1** | **heading 2** | **heading 3** |
+|:--------------|:-------------:|--------------:|
 | cell 1.1      |   cell 1.2    |      cell 1.3 |
 | cell 2.1      |   cell 2.2    |      cell 2.3 |
 

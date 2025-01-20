@@ -134,50 +134,42 @@ other fruits
 
 Use pipes to compose table rows and cells. Double pipe at the line beginning starts a heading row. Natural spaces specify each cell alignment.
 
-|          |          |          |
-|----------|----------|----------|
 | cell 1.1 | cell 1.2 | cell 1.3 |
+|----------|----------|----------|
 | cell 2.1 | cell 2.2 | cell 2.3 |
 | cell 3.1 | cell 3.2 | cell 3.3 |
 
-|          |          |          |
-|----------|----------|----------|
 | cell 1.1 | cell 1.2 | cell 1.3 |
+|----------|----------|----------|
 | cell 2.1 | cell 2.2 | cell 2.3 |
 
-|          |          |
-|----------|----------|
 | cell 1.1 | cell 1.2 |
+|----------|----------|
 | cell 2.1 | cell 2.2 |
 | cell 3.1 | cell 3.2 |
 
-|          |          |
-|----------|----------|
 | cell 1.1 | cell 1.2 |
+|----------|----------|
 | cell 2.1 | cell 2.2 |
 
 Without the last pipe, no border:
 
-|          |          |          |
-|----------|----------|----------|
 | cell 1.1 | cell 1.2 | cell 1.3 |
+|----------|----------|----------|
 | cell 2.1 | cell 2.2 | cell 2.3 |
 | cell 3.1 | cell 3.2 | cell 3.3 |
 
-|          |          |          |
-|----------|----------|----------|
 | cell 1.1 | cell 1.2 | cell 1.3 |
+|----------|----------|----------|
 | cell 2.1 | cell 2.2 | cell 2.3 |
 
-|          |          |
-|----------|----------|
 | cell 1.1 | cell 1.2 |
+|----------|----------|
 | cell 2.1 | cell 2.2 |
 | cell 3.1 | cell 3.2 |
 
-|          |          |
-|----------|----------|
 | cell 1.1 | cell 1.2 |
+|----------|----------|
 | cell 2.1 | cell 2.2 |
 
 # Special Entities
