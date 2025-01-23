@@ -97,6 +97,8 @@ Share an Internet connection among several computers (Your Internet service prov
 
 Join PGA Tour pros Mike Weir & Keith Clearwater on 4 new courses designed for Links 2001:
 
+The Canyons Course at Bighorn, Thanksgiving Point *...[More](http://www.provantage.com/FP_62263.HTM?MSXG008)*
+
   **\$20.93**
 
 [![](http://www.provantage.com/b9buy.gif)](http://www.provantage.com/scripts/cart.dll/f/e13011/add/MSXG008)
@@ -204,6 +206,12 @@ Receive a \$30 rebate direct from Sony on SNYC97M purchases between 10/01/01 and
 **[Digital Voice Recorder w/No Software](http://www.provantage.com/scripts/go.dll/e13011_16/FP_58749.HTM) By Sony**
 
 Features Include
+
+World's first memory stick Digital voice recorder
+
+Uses removable MS (memory stick)
+
+Recording time: 63 min (SP)/131 min *...[More](http://www.provantage.com/FP_58749.HTM?SNYI02K)*
 
   **\$195.68**
 

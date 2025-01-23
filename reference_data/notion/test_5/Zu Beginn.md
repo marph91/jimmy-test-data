@@ -11,6 +11,9 @@ Starten wir mit den Grundlagen:
 -   [ ] Klicke auf den `+ Neue Seite`**-**Button unten in der Seitenleiste, um eine neue Seite hinzuzufügen
 -   [ ] Klicke in deiner Seitenleiste auf Calendar, um deine Zeit zu verwalten und mit deinem Team zusammenzuarbeiten. Der Notion Calendar ist integriert und mit all deinen Google Kalender-Ereignissen synchronisiert!
 -   [ ] Klicke auf `Vorlagen` in der Seitenleiste, um mit vorgefertigten Seiten anzufangen
+
+&nbsp;
+
 -   Dies ist ein aufklappbarer Block. Klicke auf das kleine Dreieck, um weitere nützliche Tipps zu sehen!
     -   **[==notion.com/vorlagen==](https://www.notion.so/templates)**: Weitere Vorlagen, erstellt von der Notion-Community
     -   **[==notion.com/hilfe==](https://www.notion.so/help)**: Anleitungen und FAQs zu allen Funktionen von Notion

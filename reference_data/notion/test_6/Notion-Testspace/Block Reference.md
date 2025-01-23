@@ -50,6 +50,8 @@ With a hidden text block.
 
     …with hidden content!
 
+&nbsp;
+
 -   This is a bullet-list item…
     -   with three distinct…
         -   bullet icon levels.

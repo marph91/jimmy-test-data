@@ -113,9 +113,7 @@ The same rules as the plain list, just a different identifier (plus).
 >
 >         2.  
 >
-> &nbsp;
->
-> 1.  four
+> 4.  four
 
 ## Definition List
 
