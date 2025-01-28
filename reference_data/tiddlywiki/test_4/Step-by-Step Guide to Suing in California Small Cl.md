@@ -36,7 +36,7 @@ In this guide, learn about:
 
 **Have you been sued in California small claims?** [Check out our guide for being sued in California small claims instead.](https://www.peopleclerk.com/post/sued-in-california-small-claims)
 
-## **California Small Claims Quick Facts**
+## California Small Claims Quick Facts
 
 | **Limit** | \$10,000 if you are an individual, \$5,000 if you are suing on behalf of a corporation or LLC |
 |----|----|
@@ -49,7 +49,7 @@ In this guide, learn about:
 
 \* Court filing fees and serving costs are \$0 if a judge approves your application for a [court fee waiver](https://www.peopleclerk.com/post/california-fw-001).
 
-## **Steps to a California Small Claims Lawsuit**
+## Steps to a California Small Claims Lawsuit
 
 1.  Determine in **which county and court** you need to file your lawsuit.
 
@@ -99,7 +99,7 @@ Here are **common types of small claims lawsuits** filed in California:
 
 -   You paid a [contractor](https://www.peopleclerk.com/post/how-to-sue-a-contractor-in-small-claims-court-california) to fix your bathroom but they never showed up.
 
-## **How much can I sue for in California Small Claims?**
+## How much can I sue for in California Small Claims?
 
 The maximum amount you can sue for depends on who is doing the suing:
 
@@ -121,7 +121,7 @@ The maximum amount you can sue for depends on who is doing the suing:
 
 California Small Claims Court Limits
 
-## How do I **calculate how much to sue for**?
+## How do I calculate how much to sue for?
 
 Calculating how much to sue for in small claims can be difficult. In general, *taking someone to small claims isn't meant for you to come out winning more than what you are owed and you need to be able to prove to the judge how you calculated how much you are owed.*
 
@@ -135,7 +135,7 @@ Calculating how much to sue for in small claims can be difficult. In general, *t
 
 [We go over additional tips on how to calculate how much to sue for in this article.](https://www.peopleclerk.com/post/how-much-can-you-sue-for-in-california-small-claims)
 
-## **How much does it cost to sue in California small claims?**
+## How much does it cost to sue in California small claims?
 
 **Cost to file your lawsuit with the court:**
 
@@ -195,7 +195,7 @@ Here are some common questions about the statute of limitations:
 
 **Next Reading:** [Guide to California Statutes of Limitations.](https://www.peopleclerk.com/post/california-statute-of-limitations)
 
-## **What to do before you file in California small claims?**
+## What to do before you file in California small claims?
 
 **Here are the steps to take before you file a California small claims lawsuit:**
 
@@ -211,7 +211,7 @@ Here are some common questions about the statute of limitations:
 
 > As a reminder, [People Clerk](https://portal.peopleclerk.com/pricing) can help you **file, serve, and prepare your evidence** for your California small claims lawsuit saving you time and stress.
 
-### **Demand Payment**
+### Demand Payment
 
 Before you can file a small claims court lawsuit in California, **the court requires that you request your money or your property back from the person you intend to sue**. You will have to confirm you have done this on the small claims lawsuit.
 
@@ -301,15 +301,15 @@ After you have prepared all the required forms, you are ready to submit the smal
 
 > **If you would like to file your small claims lawsuit without leaving your home,** [People Clerk](https://portal.peopleclerk.com/pricing) **can help.**  
 
-#### **In-Person at the Small Claims Court**
+#### In-Person at the Small Claims Court
 
 You can file your case in person at the small claims court. Once you get to the courthouse, locate the room number for the "Clerk of the Court." Once in the room, locate if they have a special line for small claims cases. Make sure to bring at least **2 copies of the small claims lawsuit with you and any other required forms**.
 
-#### **Via Mail**
+#### Via Mail
 
 Make sure you submit at least 2 copies of the small claims lawsuit to the court, all other required forms, and an envelope so that the court can return a copy of the filed lawsuit to you. This envelope needs to be labeled with your address and have enough stamps for the documents to come back to you. If you don't do this, the court may not file your lawsuit or will file your lawsuit but not mail it back to you.
 
-#### **Online**
+#### Online
 
 *Many California small claims courts don't accept lawsuits filed online.* This is called electronic filing or e-filing. If the small claims court you are filing accepts your lawsuit electronically, be prepared to use a complicated system designed for law firms. Go to your local small claims court website to find out if they have adopted e-filing and which system they use. Be prepared to pay additional transaction fees as well.
 

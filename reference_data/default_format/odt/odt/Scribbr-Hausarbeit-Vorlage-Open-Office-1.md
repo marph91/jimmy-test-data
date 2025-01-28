@@ -55,7 +55,7 @@ Hier listest du alle Tabellen inklusive Seitenzahl auf, die in deiner Arbeit ent
 
 Liste hier in alphabetischer Reihenfolge alle Abkürzungen von Fachausdrücken auf, die du in deiner Arbeit verwendest.
 
-# **1. Einleitung**
+# 1. Einleitung
 
 Deine Einleitung sollte etwa 10 % des gesamten Textes umfassen.
 
