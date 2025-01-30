@@ -46,15 +46,14 @@ An indented text bock, equal to a single new paragraph.
 
 A further-indented text block, equal to a single new paragraph.
 
-**This is all in bold but there’s a double line-break  
+**This is all in bold but there’s a double line-break**  
   
-here that should be split apart.  
-**
+**here that should be split apart.**  
 
-> ~~Here is some continuously striken-out text  
-> with a sudden line-break right here,  
+> ~~Here is some continuously striken-out text~~  
+> ~~with a sudden line-break right here,~~  
 >   
-> **and again right here but also with nested bold text!**~~
+> ~~**and again right here but also with nested bold text!**~~
 >
 > We have some more text here; let’s see if this has survived the formatting issues from above — we have contained this in a blockquote to stop the errors propagating to the rest of the file.
 

@@ -40,8 +40,8 @@ Click on the text with 🔗 to open the desired page.
 
 ### [🔗📑 Create Lit Super Docs](https://nimbusweb.me/guides/getting-started/create-super-docs/)
 
-**–** **Build interactive documents and embed content from other tools to keep everything in one place.  
-****–** **Organize and structure your information effectively with tables and various objects.**
+**–** **Build interactive documents and embed content from other tools to keep everything in one place.**  
+**–** **Organize and structure your information effectively with tables and various objects.**
 
 ------------------------------------------------------------------------
 
@@ -51,8 +51,8 @@ Click on the text with 🔗 to open the desired page.
 
 ### [🔗🧑‍💻 Work with Your Team](https://nimbusweb.me/guides/organization/work-with-your-team/)
 
-**–** **Streamline the brainstorming and feedback processes with chats. Or comment on blocks, texts and pictures.  
-****–** **Control access and permissions with flexible user roles and permissions settings.**
+**–** **Streamline the brainstorming and feedback processes with chats. Or comment on blocks, texts and pictures.**  
+**–** **Control access and permissions with flexible user roles and permissions settings.**
 
 ------------------------------------------------------------------------
 
@@ -62,8 +62,8 @@ Click on the text with 🔗 to open the desired page.
 
 ### [ 🔗📆 Manage Your Projects](https://nimbusweb.me/guides/organization/manage-your-projects/)
 
-**–** **Organize tasks, projects and teams using dedicated workspaces and databases.  
-****–** **Track progress and priorities with Kanban boards and task lists.**
+**–** **Organize tasks, projects and teams using dedicated workspaces and databases.**  
+**–** **Track progress and priorities with Kanban boards and task lists.**
 
   
 
@@ -75,8 +75,8 @@ Click on the text with 🔗 to open the desired page.
 
 ###  🔗💼 [Interact with Clients](https://nimbusweb.me/guides/client-portal/collaborate-with-clients-using-fusebase-portals/)
 
-**–** **Provide clients with controlled access to project information and updates.  
-****–** **Share files and pages securely with password protection and guest roles.**
+**–** **Provide clients with controlled access to project information and updates.**  
+**–** **Share files and pages securely with password protection and guest roles.**
 
   
 
@@ -114,7 +114,7 @@ Click on the text with 🔗 to open the desired page.
 ### 📝  Share Your Feedback
 
 **We are always open to hearing your feedback. Please share what you think about our onboarding process. Just 3 answers and 1 minute of your time can help us a lot.**  
-**  
-Let's make FuseBase better for you, with you!**
+  
+**Let's make FuseBase better for you, with you!**
 
 <https://form.typeform.com/to/VwwBVXAQ>
