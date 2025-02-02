@@ -1,5 +1,3 @@
-# Integrations
-
 Here are some of our integrations to make creating and using Cacher snippets easier.
 
 ## Editors and IDEs

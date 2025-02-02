@@ -1,5 +1,3 @@
-# Zu Beginn
-
 👋 Willkommen bei Notion!
 
 Starten wir mit den Grundlagen:

@@ -1,5 +1,3 @@
-# Teams
-
 A team allows you and your colleagues to collaborate on a shared library of snippets and labels. They are the best way to disseminate best practices and onboard new team members.
 
 ## Team libraries

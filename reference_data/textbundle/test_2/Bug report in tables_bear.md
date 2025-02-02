@@ -1,5 +1,3 @@
-# Bug report in tables
-
 How to reproduce crash:
 1. In last row TABLE 2 I need write something
 2. Add new row below by hotkey ctrl+cmd+enter

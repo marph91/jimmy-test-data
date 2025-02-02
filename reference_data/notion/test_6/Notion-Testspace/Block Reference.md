@@ -1,5 +1,3 @@
-# Block Reference
-
 This page is a reference for all the major block-types in Notion, so that they can be converted appropriately via Obsidian Importer.
 
 ------------------------------------------------------------------------

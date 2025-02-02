@@ -1,5 +1,3 @@
-# Formatting Tests
-
 This page aims to test how different combinations of Notion text- and block-formatting are handled by Importer.
 
 Some tests are very basic, but many have been added to demonstrate some very specific cases of formatting that are known to easily break during the conversion to Obsidian. Some formatting errors may break the entire page, whereas others may be subtle or go unnoticed — such as when a linebreak is inserted in slightly the wrong place, or bits of text disappear.

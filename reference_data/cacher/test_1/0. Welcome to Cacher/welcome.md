@@ -1,5 +1,3 @@
-# Welcome to Cacher
-
 We're delighted you've chosen Cacher to be your snippet organizer! Whether you're a solo developer or a member of your team, Cacher is here to help you organize and use snippets more efficiently.
 
 Our users create snippets to:

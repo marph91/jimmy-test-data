@@ -1,5 +1,3 @@
-# Labels
-
 Labels let you categorize your snippets by purpose and assist in retrieving them later on. Assign nested, color-coded labels to your snippets to maximize productivity.
 
 ![](https://cdn.cacher.io/intro-snippets/creating-a-label.gif)

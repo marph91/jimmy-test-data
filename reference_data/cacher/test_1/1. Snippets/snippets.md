@@ -1,5 +1,3 @@
-# Snippets
-
 Snippets can be used to remember many different pieces of information. Here are a few tips on using them in Cacher.
 
 ## Markdown

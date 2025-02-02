@@ -1,5 +1,3 @@
-# Attachment Tests
-
 # Filenames
 
 The files below are included to test filenames with special characters — sometimes Notion url-encodes these, sometimes the filenames are entirely destroyed.

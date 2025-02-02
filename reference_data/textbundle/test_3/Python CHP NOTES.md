@@ -1,6 +1,3 @@
-# Python
-
-
 ## Basic
 
 ### Python是面向对象的语言，Python中的所有数据类型都是对象

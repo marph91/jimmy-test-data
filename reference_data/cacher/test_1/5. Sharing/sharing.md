@@ -1,5 +1,3 @@
-# Sharing
-
 Every snippet in Cacher has a corresponding page on [Snippets](https://snippets.cacher.io/), our community hub for sharing code. The page's visibility is dependent on whether the snippet is **public or private** and the **Privacy Setting** for the page.
 
 Here are a few examples of snippet pages:

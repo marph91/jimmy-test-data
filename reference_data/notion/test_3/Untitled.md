@@ -1,5 +1,3 @@
-# 
-
 -   néo freelance en première mission
 -   quelle stratégie commerciale pour trouver la 2ème mission ?
 -   spécialisations ? Tests , embarqué
