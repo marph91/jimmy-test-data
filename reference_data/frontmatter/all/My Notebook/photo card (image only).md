@@ -1,7 +1,6 @@
 ---
 created: 2024-04-28 21:53:13.353000+00:00
 source_application: joplin
-tags: []
 title: photo card (image only)
 updated: 2024-04-28 21:53:13.353000+00:00
 ---
