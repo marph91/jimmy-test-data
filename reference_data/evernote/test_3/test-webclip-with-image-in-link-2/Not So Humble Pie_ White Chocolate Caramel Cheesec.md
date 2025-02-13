@@ -174,7 +174,7 @@ Reply
 Your post reminds me of a Bill Cosby routine, about giving his children chocolate cake for breakfast. It has eggs! Eggs are good for you! Milk! Flour! It's all healthy!
 
 Reply
-1. ![pic.jpg](pic.jpg)
+1. ![pic.jpg](pic_0001.jpg)
 ***[Laurin](https://www.blogger.com/profile/13488446275025976863)***[April 14, 2010 at 4:12 PM](https://notsohumblepie.blogspot.com/2010/04/white-chocolate-caramel-cheesecake.html?showComment=1271286741634#c6377460591763232056)
 
 Hi Ms Humble,
@@ -236,7 +236,7 @@ Reply
 I made this cheesecake last night but haven't unmolded it yet.  I don't think I will make the caramel part because nobody in my family cares for caramel.  Caramel happens to be one of my favorite foods EVER so that's too bad. We will probably just use a berry sauce or a dark chocolate sauce.  I will post the results on my blog if things turn out ok...or even if they don't.  The one change I made was to add a fresh vanilla bean to the batter. More vanilla always makes things better, I think! Thanks for the recipe.  I can't wait to eat it. And the fact that it's a Ray's Boathouse recipe makes it all the more exciting! Love that place!
 
 Reply
-1. ![*](_.jpg)
+1. ![*](__0003.jpg)
 ***[The sloth](https://www.blogger.com/profile/12419973149626099457)***[April 19, 2010 at 1:18 PM](https://notsohumblepie.blogspot.com/2010/04/white-chocolate-caramel-cheesecake.html?showComment=1271708292979#c8357724089154821637)
 
 Hi :) 

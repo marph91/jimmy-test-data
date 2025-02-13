@@ -8,4 +8,4 @@ Here is a test of an attachment via email.
 
 ![truncated.png](truncated.png)
 
-[smime.p7s](smime.p7s)
+[smime.p7s](smime_0002.p7s)
