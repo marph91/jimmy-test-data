@@ -1,5 +1,8 @@
-| Universität ABC, Seminar „Deine Praesentation“ Semester WS 2018/2019 Dozent: Prof. Dr. M. Mustermensch Referent: DEIN NAME | 09.02.2019 |
-|----|----|
+| Universität ABC, Seminar „Deine Praesentation“ 
+ Semester WS 2018/2019                           
+ Dozent: Prof. Dr. M. Mustermensch               
+ Referent: DEIN NAME                             | 09.02.2019 |
+|------------------------------------------------|------------|
 
 TITEL DEINES VORTRAGS
 

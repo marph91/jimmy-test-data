@@ -2,7 +2,8 @@
 
 aus Wikipedia, der freien Enzyklopädie
 
-[Zur Navigation springen](#mw-head) [Zur Suche springen](#searchInput)
+[Zur Navigation springen](#mw-head)
+[Zur Suche springen](#searchInput)
 
 | HTML (Hypertext Markup Language) |  |
 |:--:|:--:|
@@ -14,9 +15,14 @@ aus Wikipedia, der freien Enzyklopädie
 | Aktuelle [Version](https://de.wikipedia.org/wiki/Version_(Software) "Version (Software)") | 5.2 <br> (14. Dezember 2017) |
 | Art: | [Auszeichnungssprache](https://de.wikipedia.org/wiki/Auszeichnungssprache "Auszeichnungssprache") |
 | Erweitert zu: | [XHTML](https://de.wikipedia.org/wiki/Extensible_Hypertext_Markup_Language "Extensible Hypertext Markup Language"), [HTML5](https://de.wikipedia.org/wiki/HTML5 "HTML5") |
-| [Standard(s)](https://de.wikipedia.org/wiki/Standard "Standard"): | [ISO](https://de.wikipedia.org/wiki/Internationale_Organisation_f%C3%BCr_Normung "Internationale Organisation für Normung")/[IEC](https://de.wikipedia.org/wiki/International_Electrotechnical_Commission "International Electrotechnical Commission") 15445 W3C HTML 5^[\[1\]](#cite_note-1)^ W3C HTML 4.01^[\[2\]](#cite_note-2)^ W3C HTML 3.2^[\[3\]](#cite_note-3)^ |
+| [Standard(s)](https://de.wikipedia.org/wiki/Standard "Standard"): | [ISO](https://de.wikipedia.org/wiki/Internationale_Organisation_f%C3%BCr_Normung "Internationale Organisation für Normung")/[IEC](https://de.wikipedia.org/wiki/International_Electrotechnical_Commission "International Electrotechnical Commission") 15445
+W3C HTML 5^[\[1\]](#cite_note-1)^
+W3C HTML 4.01^[\[2\]](#cite_note-2)^
+W3C HTML 3.2^[\[3\]](#cite_note-3)^ |
 | [www.w3.org/html](https://www.w3.org/html/) |  |
-| ") ") Beispiel HTML Code |  |
+| ")
+")
+Beispiel HTML Code |  |
 |  |  |
 
 Die **Hypertext Markup Language** (**HTML**, [englisch](https://de.wikipedia.org/wiki/Englische_Sprache "Englische Sprache") für *[Hypertext](https://de.wikipedia.org/wiki/Hypertext "Hypertext")-Auszeichnungssprache*) ist eine textbasierte [Auszeichnungssprache](https://de.wikipedia.org/wiki/Auszeichnungssprache "Auszeichnungssprache") zur Strukturierung [elektronischer Dokumente](https://de.wikipedia.org/wiki/Elektronisches_Dokument "Elektronisches Dokument") wie [Texte](https://de.wikipedia.org/wiki/Textdatei "Textdatei") mit [Hyperlinks](https://de.wikipedia.org/wiki/Hyperlink "Hyperlink"), [Bildern](https://de.wikipedia.org/wiki/Bilddatei "Bilddatei") und anderen Inhalten. [HTML-Dokumente](https://de.wikipedia.org/wiki/Webseite "Webseite") sind die Grundlage des [World Wide Web](https://de.wikipedia.org/wiki/World_Wide_Web "World Wide Web") und werden von [Webbrowsern](https://de.wikipedia.org/wiki/Webbrowser "Webbrowser") dargestellt. Neben den vom Browser angezeigten Inhalten können HTML-Dateien zusätzliche Angaben in Form von [Metainformationen](https://de.wikipedia.org/wiki/Metadaten "Metadaten") enthalten, z. B. über die im Text verwendeten [Sprachen](https://de.wikipedia.org/wiki/Einzelsprache "Einzelsprache"), den [Autor](https://de.wikipedia.org/wiki/Autor "Autor") oder den zusammengefassten Inhalt des Textes.
@@ -58,7 +64,18 @@ HTML dient als Auszeichnungssprache dazu, einen Text [semantisch](https://de.wik
 
 \[[Bearbeiten](https://de.wikipedia.org/w/index.php?title=Hypertext_Markup_Language&veaction=edit&section=1 "Abschnitt bearbeiten: Entstehung") \| [Quelltext bearbeiten](https://de.wikipedia.org/w/index.php?title=Hypertext_Markup_Language&action=edit&section=1 "Quellcode des Abschnitts bearbeiten: Entstehung")\]
 
-Vor der Entwicklung des [World Wide Web](https://de.wikipedia.org/wiki/World_Wide_Web "World Wide Web") und dessen Bestandteilen, zu denen auch HTML gehört, war es nicht möglich, Dokumente auf elektronischem Weg einfach, schnell und strukturiert zwischen mehreren Personen auszutauschen und miteinander effizient zu verknüpfen. Man benötigte neben Übertragungsprotokollen auch eine einfach zu verstehende Textauszeichnungssprache. Genau hier lag der Ansatzpunkt von HTML. Um Forschungsergebnisse mit anderen Mitarbeitern der [Europäischen Organisation für Kernforschung](https://de.wikipedia.org/wiki/CERN "CERN") (CERN) zu teilen und von den beiden Standorten in Frankreich und in der Schweiz aus zugänglich zu machen, entstand 1989 am CERN ein Projekt, welches sich mit der Lösung dieser Aufgabe beschäftigte. Am 3. November 1992 erschien die erste Version der HTML-Spezifikation.
+Vor der Entwicklung des [World Wide Web](https://de.wikipedia.org/wiki/World_Wide_Web "World Wide Web")
+und dessen Bestandteilen, zu denen auch HTML gehört, war es nicht
+möglich, Dokumente auf elektronischem Weg einfach, schnell und
+strukturiert zwischen mehreren Personen auszutauschen und miteinander
+effizient zu verknüpfen. Man benötigte neben Übertragungsprotokollen
+auch eine einfach zu verstehende Textauszeichnungssprache. Genau hier
+lag der Ansatzpunkt von HTML. Um Forschungsergebnisse mit anderen
+Mitarbeitern der [Europäischen Organisation für Kernforschung](https://de.wikipedia.org/wiki/CERN "CERN")
+(CERN) zu teilen und von den beiden Standorten in Frankreich und in der
+Schweiz aus zugänglich zu machen, entstand 1989 am CERN ein Projekt,
+welches sich mit der Lösung dieser Aufgabe beschäftigte. Am
+3. November 1992 erschien die erste Version der HTML-Spezifikation.
 
 ## Syntax
 
@@ -70,24 +87,44 @@ Die Auszeichnung erfolgt durch [genormte (SGML)](https://de.wikipedia.org/wiki/S
 
     <p>Ein Textabsatz, der ein <em>betontes</em> Wort enthält.</p>
 
-Bestimmte Elemente müssen nicht explizit notiert werden. Bei einigen Elementen darf gemäß der SGML-Regel „OMITTAG“ der Endtag fehlen (z. B. `</p>` oder `</li>`). Zudem spielt bei Element- und Attributnamen Groß- und Kleinschreibung keine Rolle (z. B. `<ul>`, `<UL>`, `<uL>`). Zum Vergleich: In [XHTML](https://de.wikipedia.org/wiki/Extensible_Hypertext_Markup_Language "Extensible Hypertext Markup Language") sind diese Regeln strenger verfasst.
+Bestimmte Elemente müssen nicht explizit notiert werden. Bei einigen
+Elementen darf gemäß der SGML-Regel „OMITTAG“ der Endtag fehlen
+(z. B. `</p>` oder `</li>`). Zudem spielt bei Element- und Attributnamen Groß- und Kleinschreibung keine Rolle (z. B. `<ul>`, `<UL>`, `<uL>`). Zum Vergleich: In [XHTML](https://de.wikipedia.org/wiki/Extensible_Hypertext_Markup_Language "Extensible Hypertext Markup Language") sind diese Regeln strenger verfasst.
 
 Neben Elementen mit Start- und Endtag gibt es in HTML auch inhaltsleere Elemente, wie etwa Zeilenumbrüche (`br`) oder Bilder (`img`).
 
     Eine Textzeile,<br>die hier fortgesetzt wird.
     <img src="E-Mail-Button.jpg" alt="E-Mail">
 
-Es geht in HTML um beschreibende (englisch *descriptive*), nicht um verfahrens- (englisch *procedural*) und darstellungsorientierte (englisch *presentational*) [Textauszeichnung](https://de.wikipedia.org/wiki/Auszeichnungssprache "Auszeichnungssprache"), auch wenn sich HTML in früheren Versionen dafür verwenden ließ. HTML-Elemente sind keine Angaben zur Präsentation, die dem Webbrowser mitteilen, wie er den Text [visuell](https://de.wikipedia.org/wiki/Visuell "Visuell") zu formatieren hat. Vielmehr sind Elemente eine strukturierende Auszeichnung, mit der sich Textbereichen eine Bedeutung zuordnen lässt, z. B. `<``h1``>``…``</``h1``>` für eine Überschrift, `<``p``>``…``</``p``>` für einen Textabsatz und `<``em``>``…``</``em``>` für betonten Text. Wie diese Bedeutung letztlich dem [Benutzer](https://de.wikipedia.org/wiki/Benutzer "Benutzer") vermittelt wird (im Falle einer Überschrift z. B. durch vergrößerte, [fette](https://de.wikipedia.org/wiki/Schriftschnitt "Schriftschnitt") Schrift), ist zunächst dem Webbrowser überlassen und hängt von der Ausgabe-Umgebung ab. Denn obwohl HTML-Dokumente in der Regel auf [Computerbildschirmen](https://de.wikipedia.org/wiki/Bildschirm "Bildschirm") dargestellt werden, können sie auch auf anderen Medien ausgegeben werden, etwa auf [Papier](https://de.wikipedia.org/wiki/Papier "Papier") oder mittels [Sprachausgabe](https://de.wikipedia.org/wiki/Sprachausgabe "Sprachausgabe"). [CSS](https://de.wikipedia.org/wiki/Cascading_Style_Sheets "Cascading Style Sheets")-Formatvorlagen eignen sich dazu, um auf die Präsentation eines HTML-Dokuments in verschiedenen Medien Einfluss zu nehmen.
+Es geht in HTML um beschreibende (englisch *descriptive*), nicht um verfahrens- (englisch *procedural*) und darstellungsorientierte (englisch *presentational*) [Textauszeichnung](https://de.wikipedia.org/wiki/Auszeichnungssprache "Auszeichnungssprache"),
+auch wenn sich HTML in früheren Versionen dafür verwenden ließ.
+HTML-Elemente sind keine Angaben zur Präsentation, die dem Webbrowser
+mitteilen, wie er den Text [visuell](https://de.wikipedia.org/wiki/Visuell "Visuell")
+zu formatieren hat. Vielmehr sind Elemente eine strukturierende
+Auszeichnung, mit der sich Textbereichen eine Bedeutung zuordnen lässt,
+z. B.
+`<``h1``>``…``</``h1``>` für eine Überschrift, `<``p``>``…``</``p``>` für einen Textabsatz und `<``em``>``…``</``em``>` für betonten Text. Wie diese Bedeutung letztlich dem [Benutzer](https://de.wikipedia.org/wiki/Benutzer "Benutzer") vermittelt wird (im Falle einer Überschrift z. B. durch vergrößerte, [fette](https://de.wikipedia.org/wiki/Schriftschnitt "Schriftschnitt")
+Schrift), ist zunächst dem Webbrowser überlassen und hängt von der
+Ausgabe-Umgebung ab. Denn obwohl HTML-Dokumente in der Regel auf [Computerbildschirmen](https://de.wikipedia.org/wiki/Bildschirm "Bildschirm") dargestellt werden, können sie auch auf anderen Medien ausgegeben werden, etwa auf [Papier](https://de.wikipedia.org/wiki/Papier "Papier") oder mittels [Sprachausgabe](https://de.wikipedia.org/wiki/Sprachausgabe "Sprachausgabe"). [CSS](https://de.wikipedia.org/wiki/Cascading_Style_Sheets "Cascading Style Sheets")-Formatvorlagen eignen sich dazu, um auf die Präsentation eines HTML-Dokuments in verschiedenen Medien Einfluss zu nehmen.
 
-Daher gelten Elemente und Attribute zur Präsentation wie `<``font``>``…``</``font``>`, `<``u``>``…``</``u``>` und `noshade` als [veraltet](https://de.wikipedia.org/wiki/Deprecated "Deprecated") (englisch *deprecated*) und sollen nach allgemeiner Auffassung vermieden werden; sie sollten in neu entwickelter Software nicht mehr verwendet und bei der Überarbeitung der dokumentengenerienden Software ersetzt werden.
+Daher gelten Elemente und Attribute zur Präsentation wie `<``font``>``…``</``font``>`, `<``u``>``…``</``u``>` und `noshade` als [veraltet](https://de.wikipedia.org/wiki/Deprecated "Deprecated") (englisch *deprecated*)
+und sollen nach allgemeiner Auffassung vermieden werden; sie sollten in
+neu entwickelter Software nicht mehr verwendet und bei der
+Überarbeitung der dokumentengenerienden Software ersetzt werden.
 
-Das Einlesen des [Quelltextes](https://de.wikipedia.org/wiki/Quelltext "Quelltext") sowie das Verarbeiten der vorhandenen Informationen wird in der Fachsprache auch als *[Parsen](https://de.wikipedia.org/wiki/Parser "Parser")* bezeichnet, und die Aufbereitung für das Ausgabemedium als *[Rendern](https://de.wikipedia.org/wiki/HTML-Rendering "HTML-Rendering")*. Die Sprache *HTML* beschreibt, wie der Browser (oder ein anderes Programm, wie z. B. ein [Texteditor](https://de.wikipedia.org/wiki/Texteditor "Texteditor")) die Auszeichnungen des Textes zu „verstehen“ hat, nicht, wie er sie dann in der Darstellung umsetzt. So besagt `<``h1``>` zwar, dass eine Überschrift folgt, nicht aber, in welcher [Schriftgröße](https://de.wikipedia.org/wiki/Schriftgr%C3%B6%C3%9Fe "Schriftgröße") oder [Schriftschnitt](https://de.wikipedia.org/wiki/Schriftschnitt "Schriftschnitt") diese darzustellen ist – hier haben sich nur gewisse übliche Standardeinstellungen eingebürgert, die aber nicht Teil der HTML-Spezifikation sind.
+Das Einlesen des [Quelltextes](https://de.wikipedia.org/wiki/Quelltext "Quelltext") sowie das Verarbeiten der vorhandenen Informationen wird in der Fachsprache auch als *[Parsen](https://de.wikipedia.org/wiki/Parser "Parser")* bezeichnet, und die Aufbereitung für das Ausgabemedium als *[Rendern](https://de.wikipedia.org/wiki/HTML-Rendering "HTML-Rendering")*. Die Sprache *HTML* beschreibt, wie der Browser (oder ein anderes Programm, wie z. B. ein [Texteditor](https://de.wikipedia.org/wiki/Texteditor "Texteditor")) die Auszeichnungen des Textes zu „verstehen“ hat, nicht, wie er sie dann in der Darstellung umsetzt. So besagt `<``h1``>` zwar, dass eine Überschrift folgt, nicht aber, in welcher [Schriftgröße](https://de.wikipedia.org/wiki/Schriftgr%C3%B6%C3%9Fe "Schriftgröße") oder [Schriftschnitt](https://de.wikipedia.org/wiki/Schriftschnitt "Schriftschnitt")
+diese darzustellen ist – hier haben sich nur gewisse übliche
+Standardeinstellungen eingebürgert, die aber nicht Teil der
+HTML-Spezifikation sind.
 
 ## Zeichenvorrat 
 
 \[[Bearbeiten](https://de.wikipedia.org/w/index.php?title=Hypertext_Markup_Language&veaction=edit&section=3 "Abschnitt bearbeiten: Zeichenvorrat") \| [Quelltext bearbeiten](https://de.wikipedia.org/w/index.php?title=Hypertext_Markup_Language&action=edit&section=3 "Quellcode des Abschnitts bearbeiten: Zeichenvorrat")\]
 
-Der ursprünglich auf 7-Bit-[ASCII](https://de.wikipedia.org/wiki/American_Standard_Code_for_Information_Interchange "American Standard Code for Information Interchange") angelegte Standard-Zeichensatz wurde schon in den Frühzeiten des [WWW](https://de.wikipedia.org/wiki/World_Wide_Web "World Wide Web") um zahlreiche Sonderzeichen erweitert und als HTML-[Entität](https://de.wikipedia.org/wiki/Entit%C3%A4t_(Auszeichnungssprache) "Entität (Auszeichnungssprache)") kodiert. Die Unterstützung universeller Zeichensätze für alle gängigen Sprachen weltweit setzte die Unterstützung von [UTF](https://de.wikipedia.org/wiki/Unicode_Transformation_Format "Unicode Transformation Format") (Unicode) voraus, die heute in allen gängigen Browsern implementiert ist. HTML ist damit auf plattformunabhängige Portierbarkeit angelegt, sofern diese vom verwendeten [HTML-Renderer](https://de.wikipedia.org/wiki/HTML-Renderer "HTML-Renderer") unterstützt werden. Die Wahl des zugrunde liegenden Zeichenvorrats für ein Webdokument erfolgt in den [Meta-Elementen](https://de.wikipedia.org/wiki/Meta-Element "Meta-Element") im Dateikopf, der Browser stellt sich dann darauf ein.
+Der ursprünglich auf 7-Bit-[ASCII](https://de.wikipedia.org/wiki/American_Standard_Code_for_Information_Interchange "American Standard Code for Information Interchange") angelegte Standard-Zeichensatz wurde schon in den Frühzeiten des [WWW](https://de.wikipedia.org/wiki/World_Wide_Web "World Wide Web") um zahlreiche Sonderzeichen erweitert und als HTML-[Entität](https://de.wikipedia.org/wiki/Entit%C3%A4t_(Auszeichnungssprache) "Entität (Auszeichnungssprache)") kodiert. Die Unterstützung universeller Zeichensätze für alle gängigen Sprachen weltweit setzte die Unterstützung von [UTF](https://de.wikipedia.org/wiki/Unicode_Transformation_Format "Unicode Transformation Format")
+(Unicode) voraus, die heute in allen gängigen Browsern implementiert
+ist. HTML ist damit auf plattformunabhängige Portierbarkeit angelegt,
+sofern diese vom verwendeten [HTML-Renderer](https://de.wikipedia.org/wiki/HTML-Renderer "HTML-Renderer") unterstützt werden. Die Wahl des zugrunde liegenden Zeichenvorrats für ein Webdokument erfolgt in den [Meta-Elementen](https://de.wikipedia.org/wiki/Meta-Element "Meta-Element") im Dateikopf, der Browser stellt sich dann darauf ein.
 
 Ersteller von Webseiten, deren Tastatur eventuell nicht alle Zeichen direkt zur Verfügung stellt, etwa deutsche [Umlaute](https://de.wikipedia.org/wiki/Umlaut "Umlaut"), können auf mehrere Arten [Sonderzeichen](https://de.wikipedia.org/wiki/Sonderzeichen#HTML "Sonderzeichen") codieren;^[\[7\]](#cite_note-7)^ so kann ein A-Umlaut („ä“) entweder als HTML-Entität (`&auml;`), als Unicode [dezimal](https://de.wikipedia.org/wiki/Dezimalsystem "Dezimalsystem") (`&#228;`) oder als Unicode [hexadezimal](https://de.wikipedia.org/wiki/Hexadezimalsystem "Hexadezimalsystem") (`&#x00E4;`) kodiert werden, vgl. [Unicode \#Codepunkt-Angaben in Dokumenten](https://de.wikipedia.org/wiki/Unicode#Codepunkt-Angaben_in_Dokumenten "Unicode"). Viele komplex arbeitende Website-Editoren lösen Sonderzeichen automatisch bei der Kodierung des Quelltextes auf.
 
@@ -97,7 +134,10 @@ Bei der Auflösung in Adresszeilen ([URLs](https://de.wikipedia.org/wiki/Uniform
 
 \[[Bearbeiten](https://de.wikipedia.org/w/index.php?title=Hypertext_Markup_Language&veaction=edit&section=4 "Abschnitt bearbeiten: Sprachtyp") \| [Quelltext bearbeiten](https://de.wikipedia.org/w/index.php?title=Hypertext_Markup_Language&action=edit&section=4 "Quellcode des Abschnitts bearbeiten: Sprachtyp")\]
 
-HTML ist eine [Auszeichnungssprache](https://de.wikipedia.org/wiki/Auszeichnungssprache "Auszeichnungssprache") und wird als solche meist von [Programmiersprachen](https://de.wikipedia.org/wiki/Programmiersprache "Programmiersprache") abgegrenzt (siehe dazu Abschnitt [Äußere Systematik: Einordnung als Programmiersprache oder Datenformat](https://de.wikipedia.org/wiki/Auszeichnungssprache#%C3%84u%C3%9Fere_Systematik:_Einordnung_als_Programmiersprache_oder_Datenformat "Auszeichnungssprache") im Artikel über Auszeichnungssprachen). Eine Gemeinsamkeit mit den meisten Programmiersprachen ist, dass für die Bearbeitung der Quelldokumente keine spezielle Software (siehe auch [Liste von HTML-Editoren](https://de.wikipedia.org/wiki/Liste_von_HTML-Editoren "Liste von HTML-Editoren")) nötig ist, sondern ein beliebiger [Texteditor](https://de.wikipedia.org/wiki/Texteditor "Texteditor") ausreicht.
+HTML ist eine [Auszeichnungssprache](https://de.wikipedia.org/wiki/Auszeichnungssprache "Auszeichnungssprache") und wird als solche meist von [Programmiersprachen](https://de.wikipedia.org/wiki/Programmiersprache "Programmiersprache") abgegrenzt (siehe dazu Abschnitt [Äußere Systematik: Einordnung als Programmiersprache oder Datenformat](https://de.wikipedia.org/wiki/Auszeichnungssprache#%C3%84u%C3%9Fere_Systematik:_Einordnung_als_Programmiersprache_oder_Datenformat "Auszeichnungssprache")
+im Artikel über Auszeichnungssprachen). Eine Gemeinsamkeit mit den
+meisten Programmiersprachen ist, dass für die Bearbeitung der
+Quelldokumente keine spezielle Software (siehe auch [Liste von HTML-Editoren](https://de.wikipedia.org/wiki/Liste_von_HTML-Editoren "Liste von HTML-Editoren")) nötig ist, sondern ein beliebiger [Texteditor](https://de.wikipedia.org/wiki/Texteditor "Texteditor") ausreicht.
 
 Ein ähnliches Konzept (logische Beschreibung) wie hinter HTML steht hinter dem Satzsystem [TeX](https://de.wikipedia.org/wiki/TeX "TeX")/[LaTeX](https://de.wikipedia.org/wiki/LaTeX "LaTeX"), das im Unterschied zu HTML jedoch auf die Ausgabe per Drucker auf Papier zielt.
 
@@ -108,17 +148,25 @@ Ein ähnliches Konzept (logische Beschreibung) wie hinter HTML steht hinter dem 
 HTML wurde erstmals am 13. März 1989 von [Tim Berners-Lee](https://de.wikipedia.org/wiki/Tim_Berners-Lee "Tim Berners-Lee") am [CERN](https://de.wikipedia.org/wiki/CERN "CERN") in Genf vorgeschlagen.^[\[8\]](#cite_note-8)^
 
 -   **HTML** (ohne Versionsnummer, 3. November 1992): Urversion, die sich nur an Text orientierte.^[\[9\]](#cite_note-9)^
--   **HTML** (ohne Versionsnummer, 30. April 1993): Zu Text kam neben Attributen wie fette oder kursive Darstellung die Bildintegration dazu.
+-   **HTML** (ohne Versionsnummer, 30. April 1993): Zu Text kam neben
+    Attributen wie fette oder kursive Darstellung die Bildintegration dazu.
 -   **HTML+** (November 1993): Geplante Erweiterungen, die in spätere Versionen einflossen, aber nie als HTML+ verabschiedet wurden.^[\[10\]](#cite_note-10)^
--   **HTML 2.0** (November 1995): Die mit RFC 1866 definierte Version führte u. a. Formulartechnik ein. Der Status dieses Standards ist „HISTORIC“. Auch die Vorgänger sind veraltet.^[\[11\]](#cite_note-11)^
+-   **HTML 2.0** (November 1995): Die mit RFC 1866 definierte
+    Version führte u. a. Formulartechnik ein. Der Status dieses
+    Standards ist „HISTORIC“. Auch die Vorgänger sind veraltet.^[\[11\]](#cite_note-11)^
 -   **HTML 3.0**: Nicht erschienen, weil sie mit der Einführung des [Netscape-Browsers](https://de.wikipedia.org/wiki/Netscape_Navigator "Netscape Navigator") in der Version 3 bereits vor der geplanten Veröffentlichung veraltet war.
 -   **HTML 3.2** (14. Januar 1997): Neu waren zahlreiche Features wie Tabellen, Textfluss um Bilder, Einbindung von [Applets](https://de.wikipedia.org/wiki/Java-Applet "Java-Applet").
 -   **HTML 4.0** (18. Dezember 1997): Einführung von [Stylesheets](https://de.wikipedia.org/wiki/Stylesheet "Stylesheet"), Skripten und Frames. Auch eine Trennung in *Strict*, *Frameset* und *Transitional* erfolgte. Am 24. April 1998 erschien eine leicht korrigierte Version.
 -   **HTML 4.01** (24. Dezember 1999): Ersetzte HTML 4.0 mit vielen kleineren Korrekturen. War lange Zeit Standard bis 2014.
 -   **[XHTML](https://de.wikipedia.org/wiki/Extensible_Hypertext_Markup_Language "Extensible Hypertext Markup Language") 1.0** (26. Januar 2000): Neuformulierung von HTML 4.01 mit Hilfe von [XML](https://de.wikipedia.org/wiki/Extensible_Markup_Language "Extensible Markup Language"). Am 1. August 2002 erschien eine überarbeitete Version.
--   **XHTML 1.1** (31. Mai 2001): Nachdem XHTML in Module aufgeteilt wurde, wurde mit XHTML 1.1 eine strikte Version definiert, bei der die mit HTML 4 eingeführten Varianten Frameset und Transitional entfielen.
+-   **XHTML 1.1** (31. Mai 2001): Nachdem XHTML in Module aufgeteilt
+    wurde, wurde mit XHTML 1.1 eine strikte Version definiert, bei der die
+    mit HTML 4 eingeführten Varianten Frameset und Transitional entfielen.
 -   **XHTML 2.0** (geschlossen,^[\[12\]](#cite_note-12)^ 26. Juli 2006): Diese Version sollte nicht mehr auf HTML 4.01 basieren und einige neue Elemente einführen, so z. B. `<nl>` für Navigationslisten. Die Trennung von Auszeichnung und Stil sollte in dieser Version vollendet werden. – Das [W3C](https://de.wikipedia.org/wiki/World_Wide_Web_Consortium "World Wide Web Consortium") beendete die Arbeiten an XHTML 2.0 im Sommer 2009, weil XHTML durch HTML5 ersetzt werden sollte.^[\[13\]](#cite_note-13)[\[14\]](#cite_note-14)[\[5\]](#cite_note-Quelle0-5)^
--   **[HTML5](https://de.wikipedia.org/wiki/HTML5 "HTML5")** (Empfehlung, 28. Oktober 2014): Schuf auf Basis von HTML 4.01 und XHTML 1.0 ein neues Vokabular. Die zu HTML gehörende DOM-Spezifikation wurde ebenfalls überarbeitet und erweitert.^[\[15\]](#cite_note-html5-15)^
+-   **[HTML5](https://de.wikipedia.org/wiki/HTML5 "HTML5")**
+    (Empfehlung, 28. Oktober 2014): Schuf auf Basis von HTML 4.01 und XHTML
+    1.0 ein neues Vokabular. Die zu HTML gehörende DOM-Spezifikation wurde
+    ebenfalls überarbeitet und erweitert.^[\[15\]](#cite_note-html5-15)^
 -   **HTML 5.1** (Empfehlung, 1. November 2016)
 -   **HTML 5.2** (Empfehlung, 14. Dezember 2017): Aktuelle Version.^[\[4\]](#cite_note-html5.1-4)^
 
@@ -137,7 +185,9 @@ HTML element content categories
 Ein HTML-Dokument besteht aus drei Bereichen:
 
 1.  der [Dokumenttypdeklaration](https://de.wikipedia.org/wiki/Dokumenttypdeklaration "Dokumenttypdeklaration") (Doctype) ganz am Anfang der Datei, die die verwendete [Dokumenttypdefinition](https://de.wikipedia.org/wiki/Dokumenttypdefinition "Dokumenttypdefinition") (DTD) angibt, z. B. HTML 5,
-2.  dem HTML-Kopf (`HEAD`), der hauptsächlich technische oder dokumentarische Informationen enthält, die üblicherweise nicht im Anzeigebereich des Browsers dargestellt werden
+2.  dem HTML-Kopf (`HEAD`), der hauptsächlich technische oder
+    dokumentarische Informationen enthält, die üblicherweise nicht im
+    Anzeigebereich des Browsers dargestellt werden
 3.  dem HTML-Körper (`BODY`), der jene Informationen enthält, die gewöhnlich im Anzeigebereich des Browsers zu sehen sind.
 
 Somit sieht die Grundstruktur einer Webseite wie folgt aus:
@@ -180,13 +230,26 @@ bindet [JavaScript](https://de.wikipedia.org/wiki/JavaScript "JavaScript") Code 
 enthält Stilinformationen, hauptsächlich [CSS](https://de.wikipedia.org/wiki/Cascading_Style_Sheets "Cascading Style Sheets")-Deklarationen.
 
 `object`  
-bindet eine externe Datei ein. Browser dürfen solche Objekte im Dokumentkopf nicht darstellen. Ab HTML5 ist das object-Tag nicht mehr im HTML-Kopf erlaubt.^[\[16\]](#cite_note-16)^
+bindet eine externe Datei ein. Browser dürfen solche Objekte im
+Dokumentkopf nicht darstellen. Ab HTML5 ist das object-Tag nicht mehr im
+HTML-Kopf erlaubt.^[\[16\]](#cite_note-16)^
 
 ### HTML-Körper
 
 \[[Bearbeiten](https://de.wikipedia.org/w/index.php?title=Hypertext_Markup_Language&veaction=edit&section=9 "Abschnitt bearbeiten: HTML-Körper") \| [Quelltext bearbeiten](https://de.wikipedia.org/w/index.php?title=Hypertext_Markup_Language&action=edit&section=9 "Quellcode des Abschnitts bearbeiten: HTML-Körper")\]
 
-Der HTML-Körper (englisch *body*) enthält die eigentlichen Seiteninformationen. HTML unterscheidet zwischen Block- und Inline-Elementen. Der wesentliche Unterschied ist, dass erstere in der Ausgabe einen eigenen Block erzeugen, in dem der Inhalt untergebracht wird, während die Inline-Elemente den Textfluss nicht unterbrechen. Vereinfacht gesprochen haben Block-Elemente immer ihren eigenen Absatz. Mithilfe von [CSS](https://de.wikipedia.org/wiki/Cascading_Style_Sheets "Cascading Style Sheets") ist es jedoch möglich, Block-Elemente wie ein Inline-Element darzustellen und umgekehrt. Zudem lassen sich alle Elemente via CSS auch als *inline-block* auszeichnen, mit dem Ergebnis, dass ein solches Element sowohl Eigenschaften eines Block-Elementes als auch eines Inline-Elementes besitzt.
+Der HTML-Körper (englisch *body*) enthält die eigentlichen
+Seiteninformationen. HTML unterscheidet zwischen Block- und
+Inline-Elementen. Der wesentliche Unterschied ist, dass erstere in der
+Ausgabe einen eigenen Block erzeugen, in dem der Inhalt untergebracht
+wird, während die Inline-Elemente den Textfluss nicht unterbrechen.
+Vereinfacht gesprochen haben Block-Elemente immer ihren eigenen Absatz.
+Mithilfe von [CSS](https://de.wikipedia.org/wiki/Cascading_Style_Sheets "Cascading Style Sheets")
+ist es jedoch möglich, Block-Elemente wie ein Inline-Element
+darzustellen und umgekehrt. Zudem lassen sich alle Elemente via CSS auch
+als *inline-block* auszeichnen, mit dem Ergebnis, dass ein solches
+Element sowohl Eigenschaften eines Block-Elementes als auch eines
+Inline-Elementes besitzt.
 
 Eine Überschrift erster Ordnung wird so ausgezeichnet:
 
@@ -198,35 +261,56 @@ Ein [Hyperlink](https://de.wikipedia.org/wiki/Hyperlink "Hyperlink"):
 
     <a href="http://example.com/">Dies ist ein Verweis auf example.com</a>
 
-Hyperlinks sind Verweise auf andere Ressourcen, meistens ebenfalls HTML-Dokumente, die üblicherweise im Browser durch Klick verfolgt werden können. Dieser Link könnte so [gerendert](https://de.wikipedia.org/wiki/HTML-Rendering "HTML-Rendering") werden: [Dies ist ein Verweis auf example.com](http://example.com/) Ebenso ist an diesem Beispiel zu sehen, dass das Link-Element ein Inline-Element ist und keine neue Zeile beginnt.
+Hyperlinks sind Verweise auf andere Ressourcen, meistens ebenfalls
+HTML-Dokumente, die üblicherweise im Browser durch Klick verfolgt werden
+können. Dieser Link könnte so [gerendert](https://de.wikipedia.org/wiki/HTML-Rendering "HTML-Rendering") werden: [Dies ist ein Verweis auf example.com](http://example.com/) Ebenso ist an diesem Beispiel zu sehen, dass das Link-Element ein Inline-Element ist und keine neue Zeile beginnt.
 
-Normaler Text wird standardmäßig mit `p` (für *Paragraph*) angegeben, obwohl ein Text ohne `p` problemlos möglich wäre, allerdings ist es sehr zu empfehlen, da dadurch zum einen eine Abtrennung zwischen Quelltext und Ausgabe möglich ist, und zum anderen spätestens bei CSS-Programmierung der Befehl zwingend notwendig ist.
+Normaler Text wird standardmäßig mit `p` (für *Paragraph*) angegeben, obwohl ein Text ohne `p`
+problemlos möglich wäre, allerdings ist es sehr zu empfehlen, da
+dadurch zum einen eine Abtrennung zwischen Quelltext und Ausgabe möglich
+ist, und zum anderen spätestens bei CSS-Programmierung der Befehl
+zwingend notwendig ist.
 
 So wird ein Text in HTML ausgegeben:
 
     <p>Ich bin ein Beispieltext</p>
 
-Zur Logik stehen zum Beispiel die Elemente `strong` oder `em` bereit, mit denen sich stark hervorgehobener oder betonter Text auszeichnen lässt. Per Voreinstellung (lt. W3C-Empfehlung) werden `strong`- und `em`-Elemente durch **Fettschrift** beziehungsweise *kursive Schrift* gerendert.
+Zur Logik stehen zum Beispiel die Elemente `strong` oder `em`
+bereit, mit denen sich stark hervorgehobener oder betonter Text
+auszeichnen lässt. Per Voreinstellung (lt. W3C-Empfehlung) werden `strong`- und `em`-Elemente durch **Fettschrift** beziehungsweise *kursive Schrift* gerendert.
 
-Die Strukturbeschreibung des Textes vereinfacht es, das Rendern dem Betrachter anzupassen, um etwa den Text einem Sehbehinderten vorzulesen oder als [Braille](https://de.wikipedia.org/wiki/Brailleschrift "Brailleschrift") auszugeben.
+Die Strukturbeschreibung des Textes vereinfacht es, das Rendern
+dem Betrachter anzupassen, um etwa den Text einem Sehbehinderten
+vorzulesen oder als [Braille](https://de.wikipedia.org/wiki/Brailleschrift "Brailleschrift") auszugeben.
 
 ## HTML-Varianten
 
 \[[Bearbeiten](https://de.wikipedia.org/w/index.php?title=Hypertext_Markup_Language&veaction=edit&section=10 "Abschnitt bearbeiten: HTML-Varianten") \| [Quelltext bearbeiten](https://de.wikipedia.org/w/index.php?title=Hypertext_Markup_Language&action=edit&section=10 "Quellcode des Abschnitts bearbeiten: HTML-Varianten")\]
 
-Beim Entwurf der letzten HTML-Version 4 sollte der Tatsache, dass in vielen HTML-Dokumenten noch Elemente und Attribute zur Präsentation eingesetzt werden, Rechnung getragen werden. Das Ergebnis waren schließlich drei Varianten:
+Beim Entwurf der letzten HTML-Version 4 sollte der Tatsache, dass in
+vielen HTML-Dokumenten noch Elemente und Attribute zur Präsentation
+eingesetzt werden, Rechnung getragen werden. Das Ergebnis waren
+schließlich drei Varianten:
 
 ### Strict
 
 \[[Bearbeiten](https://de.wikipedia.org/w/index.php?title=Hypertext_Markup_Language&veaction=edit&section=11 "Abschnitt bearbeiten: Strict") \| [Quelltext bearbeiten](https://de.wikipedia.org/w/index.php?title=Hypertext_Markup_Language&action=edit&section=11 "Quellcode des Abschnitts bearbeiten: Strict")\]
 
-Diese [Dokumenttypdefinition](https://de.wikipedia.org/wiki/Dokumenttypdefinition "Dokumenttypdefinition") (DTD) umfasst den Kernbestand an Elementen und Attributen. Es fehlen die meisten Elemente und Attribute zur Beeinflussung der Präsentation, unter anderem die Elemente `font`, `center` und `u` sowie Attribute wie `bgcolor`, `align` und `target`. Deren Rolle sollen in *Strict*-Dokumenten Stylesheets übernehmen. Text und nicht-blockbildende Elemente innerhalb der Elemente `body`, `form`, `blockquote` und `noscript` müssen sich grundsätzlich innerhalb eines Container-Elements befinden, zum Beispiel in einem `p`-Element.
+Diese [Dokumenttypdefinition](https://de.wikipedia.org/wiki/Dokumenttypdefinition "Dokumenttypdefinition")
+(DTD) umfasst den Kernbestand an Elementen und Attributen. Es fehlen
+die meisten Elemente und Attribute zur Beeinflussung der Präsentation,
+unter anderem die Elemente `font`, `center` und `u` sowie Attribute wie `bgcolor`, `align` und `target`. Deren Rolle sollen in *Strict*-Dokumenten Stylesheets übernehmen. Text und nicht-blockbildende Elemente innerhalb der Elemente `body`, `form`, `blockquote` und `noscript` müssen sich grundsätzlich innerhalb eines Container-Elements befinden, zum Beispiel in einem `p`-Element.
 
 ### Transitional
 
 \[[Bearbeiten](https://de.wikipedia.org/w/index.php?title=Hypertext_Markup_Language&veaction=edit&section=12 "Abschnitt bearbeiten: Transitional") \| [Quelltext bearbeiten](https://de.wikipedia.org/w/index.php?title=Hypertext_Markup_Language&action=edit&section=12 "Quellcode des Abschnitts bearbeiten: Transitional")\]
 
-Die Transitional-Variante enthält noch ältere Elemente und Attribute, die auch *physische* Textauszeichnung ermöglichen. Durch diese DTD soll Webautoren, die noch nicht logische Strukturierung und Präsentation voneinander trennen, die Möglichkeit gegeben werden, standardkonformes HTML zu schreiben. Gleichzeitig soll sie sicherstellen, dass bestehende Webseiten weiterhin durch aktuelle Webbrowser angezeigt werden können.
+Die Transitional-Variante enthält noch ältere Elemente und Attribute, die auch *physische*
+Textauszeichnung ermöglichen. Durch diese DTD soll Webautoren, die noch
+nicht logische Strukturierung und Präsentation voneinander trennen, die
+Möglichkeit gegeben werden, standardkonformes HTML zu schreiben.
+Gleichzeitig soll sie sicherstellen, dass bestehende Webseiten weiterhin
+durch aktuelle Webbrowser angezeigt werden können.
 
 ### Frameset
 
@@ -242,9 +326,24 @@ Diese Variante enthält zusätzlich zu allen Elementen der Transitional-Variante
 
 \[[Bearbeiten](https://de.wikipedia.org/w/index.php?title=Hypertext_Markup_Language&veaction=edit&section=15 "Abschnitt bearbeiten: Cascading Style Sheets") \| [Quelltext bearbeiten](https://de.wikipedia.org/w/index.php?title=Hypertext_Markup_Language&action=edit&section=15 "Quellcode des Abschnitts bearbeiten: Cascading Style Sheets")\]
 
-Im Laufe der Jahre ist HTML um Elemente erweitert worden, die der visuellen Gestaltung der Dokumente dienen. Das lief der ursprünglichen Idee einer Systemunabhängigkeit entgegen. Eine Rückbesinnung auf die Trennung von Struktur und [Layout](https://de.wikipedia.org/wiki/Layout "Layout") (besser: Präsentation) wurde durch die Definition von [Cascading Style Sheets](https://de.wikipedia.org/wiki/Cascading_Style_Sheets "Cascading Style Sheets") (CSS) vorgenommen. So soll das Aussehen bzw. die Darstellung des Dokuments in einer separaten Datei, dem sogenannten Stylesheet, festgelegt werden. Dies verbessert die Anpassungsfähigkeit des Layouts an das jeweilige Ausgabegerät und an spezielle Bedürfnisse der Benutzer, beispielsweise eine spezielle Darstellung für Sehbehinderte. Heutzutage ist die CSS-Unterstützung der Browser ausreichend, um damit eine anspruchsvolle Gestaltung zu realisieren.
+Im Laufe der Jahre ist HTML um Elemente erweitert worden, die der
+visuellen Gestaltung der Dokumente dienen. Das lief der ursprünglichen
+Idee einer Systemunabhängigkeit entgegen. Eine Rückbesinnung auf die
+Trennung von Struktur und [Layout](https://de.wikipedia.org/wiki/Layout "Layout") (besser: Präsentation) wurde durch die Definition von [Cascading Style Sheets](https://de.wikipedia.org/wiki/Cascading_Style_Sheets "Cascading Style Sheets")
+(CSS) vorgenommen. So soll das Aussehen bzw. die Darstellung des
+Dokuments in einer separaten Datei, dem sogenannten Stylesheet,
+festgelegt werden. Dies verbessert die Anpassungsfähigkeit des Layouts
+an das jeweilige Ausgabegerät und an spezielle Bedürfnisse der Benutzer,
+beispielsweise eine spezielle Darstellung für Sehbehinderte. Heutzutage
+ist die CSS-Unterstützung der Browser ausreichend, um damit eine
+anspruchsvolle Gestaltung zu realisieren.
 
-In den Anfangsjahren von HTML bis in die 2000er Jahre hinein wurde noch nicht streng zwischen Layout und Seitenphysik unterschieden. So wurde Design mit Hilfe von Layout-Attributen wie `color="Farbe"` oder Layout-Tags wie `<font>` umgesetzt oder das Aussehen von Tabellen direkt im `table`- Bereich grob vorgegeben. Dies gilt heute als veraltet und unprofessionell. Außerdem lässt sich der CSS-Code auch in einer Seite ohne ausgelagerte Datei einbinden.
+In den Anfangsjahren von HTML bis in die 2000er Jahre hinein
+wurde noch nicht streng zwischen Layout und Seitenphysik unterschieden.
+So wurde Design mit Hilfe von Layout-Attributen wie `color="Farbe"` oder Layout-Tags wie `<font>` umgesetzt oder das Aussehen von Tabellen direkt im `table`-
+Bereich grob vorgegeben. Dies gilt heute als veraltet und
+unprofessionell. Außerdem lässt sich der CSS-Code auch in einer Seite
+ohne ausgelagerte Datei einbinden.
 
 Eine CSS-Datei kann im HTML-Kopf über das link-Element eingebunden werden:
 
@@ -254,7 +353,16 @@ Eine CSS-Datei kann im HTML-Kopf über das link-Element eingebunden werden:
 
 \[[Bearbeiten](https://de.wikipedia.org/w/index.php?title=Hypertext_Markup_Language&veaction=edit&section=16 "Abschnitt bearbeiten: Dynamisches HTML") \| [Quelltext bearbeiten](https://de.wikipedia.org/w/index.php?title=Hypertext_Markup_Language&action=edit&section=16 "Quellcode des Abschnitts bearbeiten: Dynamisches HTML")\]
 
-Schon sehr früh in der Geschichte von HTML wurden Zusatztechniken erfunden, die es ermöglichen, HTML-Dokumente während der Anzeige im Browser dynamisch zu verändern. Die gebräuchlichste ist [JavaScript](https://de.wikipedia.org/wiki/JavaScript "JavaScript"). Man spricht bei solchen interaktiven Dokumenten von [dynamischem HTML](https://de.wikipedia.org/wiki/Dynamisches_HTML "Dynamisches HTML"). Diese Techniken wurden von verschiedenen Browser-Herstellern, allen voran [Microsoft](https://de.wikipedia.org/wiki/Microsoft "Microsoft") und [Netscape](https://de.wikipedia.org/wiki/Netscape_Communications "Netscape Communications"), unabhängig voneinander entwickelt. Daher gab es erhebliche Probleme bei der Umsetzung der Techniken zwischen den verschiedenen Browsern. Mittlerweile interpretieren alle verbreiteten JavaScript-fähigen Browser das [Document Object Model](https://de.wikipedia.org/wiki/Document_Object_Model "Document Object Model") (DOM). Dadurch ist es möglich, in allen Browsern lauffähige Skripte zu schreiben. Es gibt jedoch noch immer Differenzen bei der Unterstützung des DOM-Standards.
+Schon sehr früh in der Geschichte von HTML wurden Zusatztechniken
+erfunden, die es ermöglichen, HTML-Dokumente während der Anzeige im
+Browser dynamisch zu verändern. Die gebräuchlichste ist [JavaScript](https://de.wikipedia.org/wiki/JavaScript "JavaScript"). Man spricht bei solchen interaktiven Dokumenten von [dynamischem HTML](https://de.wikipedia.org/wiki/Dynamisches_HTML "Dynamisches HTML"). Diese Techniken wurden von verschiedenen Browser-Herstellern, allen voran [Microsoft](https://de.wikipedia.org/wiki/Microsoft "Microsoft") und [Netscape](https://de.wikipedia.org/wiki/Netscape_Communications "Netscape Communications"),
+unabhängig voneinander entwickelt. Daher gab es erhebliche Probleme bei
+der Umsetzung der Techniken zwischen den verschiedenen Browsern.
+Mittlerweile interpretieren alle verbreiteten JavaScript-fähigen Browser
+das [Document Object Model](https://de.wikipedia.org/wiki/Document_Object_Model "Document Object Model")
+(DOM). Dadurch ist es möglich, in allen Browsern lauffähige Skripte zu
+schreiben. Es gibt jedoch noch immer Differenzen bei der Unterstützung
+des DOM-Standards.
 
 ### XHTML
 
@@ -270,13 +378,20 @@ Auf Grundlage von HTML 4.01 (SGML) wurde [XHTML 1.0](https://de.wikipedia.org/wi
 
 → *Hauptartikel: [HTML5](https://de.wikipedia.org/wiki/HTML5 "HTML5")*
 
-Die jeweiligen Vorteile von [SGML](https://de.wikipedia.org/wiki/Standard_Generalized_Markup_Language "Standard Generalized Markup Language") und [XML](https://de.wikipedia.org/wiki/Extensible_Markup_Language "Extensible Markup Language") der bisherigen HTML-Versionen wurden vereint in HTML5. Abweichend von den bisherigen HTML-Versionen gibt es in HTML5 keine DTD mehr.
+Die jeweiligen Vorteile von [SGML](https://de.wikipedia.org/wiki/Standard_Generalized_Markup_Language "Standard Generalized Markup Language") und [XML](https://de.wikipedia.org/wiki/Extensible_Markup_Language "Extensible Markup Language")
+der bisherigen HTML-Versionen wurden vereint in HTML5. Abweichend von
+den bisherigen HTML-Versionen gibt es in HTML5 keine DTD mehr.
 
 ### Ajax
 
 \[[Bearbeiten](https://de.wikipedia.org/w/index.php?title=Hypertext_Markup_Language&veaction=edit&section=19 "Abschnitt bearbeiten: Ajax") \| [Quelltext bearbeiten](https://de.wikipedia.org/w/index.php?title=Hypertext_Markup_Language&action=edit&section=19 "Quellcode des Abschnitts bearbeiten: Ajax")\]
 
-Mit der [Ajax](https://de.wikipedia.org/wiki/Ajax_(Programmierung) "Ajax (Programmierung)")-Technologie ist es mittels [JavaScript](https://de.wikipedia.org/wiki/JavaScript "JavaScript") möglich, einzelne bereits geladene Webbrowser-Inhalte gezielt zu ändern und nachzuladen, ohne dass die Webseite komplett neu geladen werden muss. Wegen des geringeren Datenaufkommens wird zum einen eine schnellere Webserver-Antwort ermöglicht, und zum anderen lassen sich Reaktionsweisen von Desktop-Anwendungen simulieren.
+Mit der [Ajax](https://de.wikipedia.org/wiki/Ajax_(Programmierung) "Ajax (Programmierung)")-Technologie ist es mittels [JavaScript](https://de.wikipedia.org/wiki/JavaScript "JavaScript")
+möglich, einzelne bereits geladene Webbrowser-Inhalte gezielt zu ändern
+und nachzuladen, ohne dass die Webseite komplett neu geladen werden
+muss. Wegen des geringeren Datenaufkommens wird zum einen eine
+schnellere Webserver-Antwort ermöglicht, und zum anderen lassen sich
+Reaktionsweisen von Desktop-Anwendungen simulieren.
 
 ## Siehe auch
 

@@ -1036,7 +1036,8 @@ Using the catch-all `AllowedIPs = 0.0.0.0/0, ::/0` will forward all IPv4 (`0.0.
 
 **Notes:** Same topic. (Discuss in [Talk:WireGuard](https://wiki.archlinux.org/title/Talk:WireGuard))
 
-Once a tunnel has been established, one can use [netcat](https://wiki.archlinux.org/title/WireGuard/title/Netcat "Netcat") to send traffic through it to test out throughput, CPU usage, etc. On one side of the tunnel, run `nc` in listen mode and on the other side, pipe some data from `/dev/zero` into `nc` in sending mode.
+Once a tunnel has been established, one can use [netcat](https://wiki.archlinux.org/title/WireGuard/title/Netcat "Netcat") to send traffic through it to test out throughput, CPU usage, etc.
+On one side of the tunnel, run `nc` in listen mode and on the other side, pipe some data from `/dev/zero` into `nc` in sending mode.
 
 In the example below, port 2222 is used for the traffic (be sure to allow traffic on port 2222 if using a firewall).
 
@@ -1253,4 +1254,5 @@ case $2 in
 esac
 ```
 
-If not already running, start and enable `NetworkManager-dispatcher.service`. Also, make sure that NetworkManager is not managing routes for `wg0` ([see above](https://wiki.archlinux.org/title/WireGuard#Routes_are_periodically_reset)).
+If not already running, start and enable `NetworkManager-dispatcher.service`.
+Also, make sure that NetworkManager is not managing routes for `wg0` ([see above](https://wiki.archlinux.org/title/WireGuard#Routes_are_periodically_reset)).

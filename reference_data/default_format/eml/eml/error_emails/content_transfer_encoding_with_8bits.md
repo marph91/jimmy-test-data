@@ -7,17 +7,27 @@
 
 **December 04, 2001**
 
-Can't read this email? [Click here](http://www.provantage.com/scripts/go.dll/e13011_RD/e13011)
+Can't
+read this email? [Click
+here](http://www.provantage.com/scripts/go.dll/e13011_RD/e13011)
 
-**Issue#:** e13011
+**Issue#:**
+e13011
 
-To unsubscribe from the <br> Original Advantage [Click here ](http://www.provantage.com/unsubscribe.htm) *(Do Not Reply to this email)*
+To
+unsubscribe from the <br>
+Original Advantage [Click
+here
+](http://www.provantage.com/unsubscribe.htm)
+*(Do Not Reply to this email)*
 
-**PROVANTAGE Customer:** jeff\_dasovich@enron.com
+**PROVANTAGE
+Customer:** jeff\_dasovich@enron.com
 
 ------------------------------------------------------------------------
 
-**Holiday Gift Ideas for the Computer Professional!**
+**Holiday Gift
+Ideas for the Computer Professional!**
 
 [![](http://www.provantage.com/HW_64790.GIF)](http://www.provantage.com/scripts/go.dll/e13011_1/FP_64790.HTM)
 
@@ -45,9 +55,11 @@ The Nostromo n45 USB game pad's advanced ergonomic design, dual analog and USB-c
 
 [![](http://www.provantage.com/MCSW00M.GIF)](http://www.provantage.com/scripts/go.dll/e13011_3/FP_62272.HTM)
 
-*****New!*** [Plus! for Windows XP](http://www.provantage.com/scripts/go.dll/e13011_3/FP_62272.HTM) By Microsoft**
+*****New!***
+[Plus! for Windows XP](http://www.provantage.com/scripts/go.dll/e13011_3/FP_62272.HTM) By Microsoft**
 
-Personalize your computer experience like never before. <br>Built exclusively to take advantage of the power of Windows XP, MS Plus! delivers exciting *...[More](http://www.provantage.com/FP_62272.HTM?MCSW00M)*
+Personalize your computer experience like never before.
+<br>Built exclusively to take advantage of the power of Windows XP, MS Plus! delivers exciting *...[More](http://www.provantage.com/FP_62272.HTM?MCSW00M)*
 
   **\$33.47**
 
@@ -93,7 +105,8 @@ Share an Internet connection among several computers (Your Internet service prov
 
 [![](http://www.provantage.com/SW_62263.GIF)](http://www.provantage.com/scripts/go.dll/e13011_7/FP_62263.HTM)
 
-*****New!*** [Links 2001 Expansion Pack Volume 1](http://www.provantage.com/scripts/go.dll/e13011_7/FP_62263.HTM) By Microsoft**
+*****New!***
+[Links 2001 Expansion Pack Volume 1](http://www.provantage.com/scripts/go.dll/e13011_7/FP_62263.HTM) By Microsoft**
 
 Join PGA Tour pros Mike Weir & Keith Clearwater on 4 new courses designed for Links 2001:
 
@@ -121,7 +134,8 @@ Start with a high capacity, 156 MB 3" CD-R plus a high resolution, 2.1 megapixel
 
 **[Wireless Bluetooth PC Card](http://www.provantage.com/scripts/go.dll/e13011_9/FP_61615.HTM) By 3Com**
 
-Personal Connections - Instantly <br>For spontaneous connections between your notebook PC and other Bluetooth devices, as well as "light" network *...[More](http://www.provantage.com/FP_61615.HTM?3COM36W)*
+Personal Connections - Instantly
+<br>For spontaneous connections between your notebook PC and other Bluetooth devices, as well as "light" network *...[More](http://www.provantage.com/FP_61615.HTM?3COM36W)*
 
   **\$109.31**
 
@@ -143,9 +157,11 @@ For users who need superior image quality in a small space, the MultiSync LCD Se
 
 [![](http://www.provantage.com/SW_60941.GIF)](http://www.provantage.com/scripts/go.dll/e13011_11/FP_60941.HTM)
 
-*****New!*** [MechCommander 2](http://www.provantage.com/scripts/go.dll/e13011_11/FP_60941.HTM) By Microsoft**
+*****New!***
+[MechCommander 2](http://www.provantage.com/scripts/go.dll/e13011_11/FP_60941.HTM) By Microsoft**
 
-Take control of an entire company of the most fearsome military machines in history - BattleMechs! <br>As a MechCommander, you command a unit of *...[More](http://www.provantage.com/FP_60941.HTM?MSXG009)*
+Take control of an entire company of the most fearsome military machines in history - BattleMechs!
+<br>As a MechCommander, you command a unit of *...[More](http://www.provantage.com/FP_60941.HTM?MSXG009)*
 
   **\$24.02**
 
@@ -193,7 +209,9 @@ Drive. Unlock the power of the new Hi-Speed USB 2.0. IOGEAR's IMPULSE Drive. Bur
 
 **[Spressa CRX175A-A1 Drive 24x/10x/40x Int EIDE](http://www.provantage.com/scripts/go.dll/e13011_15/FP_61994.HTM) By Sony**
 
-Receive a \$30 rebate direct from Sony on SNYC97M purchases between 10/01/01 and 12/31/01. *[... More](http://www.provantage.com/FP_61994.HTM?SNYC97M)* 
+Receive a \$30 rebate direct from Sony on SNYC97M purchases between 10/01/01 and 12/31/01.
+*[... More](http://www.provantage.com/FP_61994.HTM?SNYC97M)*
+
 
   **\$145.46**
 
@@ -224,17 +242,36 @@ Recording time: 63 min (SP)/131 min *...[More](http://www.provantage.com/FP_5874
 |     |
 |-----|
 
-**Web Address:** [www.PROVANTAGE.com](http://www.PROVANTAGE.com)   
- **Toll Free:** 800-336-1166     **Fax:** 330-494-5260     **email:** <sales@provantage.com>
+**Web
+Address:** [www.PROVANTAGE.com](http://www.PROVANTAGE.com)   
+ **Toll Free:** 800-336-1166     **Fax:**
+330-494-5260     **email:** <sales@provantage.com>
 
-| [Privacy Policy](http://www.provantage.com/fpolicy.htm) \| [Terms & Conditions](http://www.provantage.com/fterms.htm) \| [FREE Catalog](http://www.provantage.com/scripts/add2list.dll/f/0) |
-|----|
+| [Privacy                                                     
+ Policy](http://www.provantage.com/fpolicy.htm) \| [Terms &    
+ Conditions](http://www.provantage.com/fterms.htm) \| [FREE    
+ Catalog](http://www.provantage.com/scripts/add2list.dll/f/0)  |
+|--------------------------------------------------------------|
 
-**©2001 PROVANTAGE Corporation, 7249 Whipple Ave. NW, North Canton, OH 44720**
+**©2001
+PROVANTAGE Corporation, 7249 Whipple Ave. NW, North Canton, OH 44720**
 
-Products, prices, terms, conditions, or offers may change at any time. Company and/or product names are generally trademarks, or registered trademarks of their respective companies. Some promotional text may be copyrighted by the product's manufacturer. 
+Products,
+prices, terms, conditions, or offers may change at any time. Company
+and/or product names are generally trademarks, or registered trademarks
+of their respective companies. Some promotional text may be copyrighted
+by the product's manufacturer. 
 
-The Original Advantage promotional email is delivered only to customers of PROVANTAGE Corporation. PROVANTAGE customers have purchased products in the past and submitted their email address as part of the checkout process. Or, customers have entered their name in the "Add to Email List" box on the PROVANTAGE.com home page. Any customer may unsubscribe from the list at any time by going to <http://www.provantage.com/unsubscribe.htm>. The email address is permanently removed from additional promotional electronic mailings, and will not be reactivated unless requested by the customer.  
+The
+Original Advantage promotional email is delivered only to customers of
+PROVANTAGE Corporation. PROVANTAGE customers have purchased products in
+the past and submitted their email address as part of the checkout
+process. Or, customers have entered their name in the "Add to Email
+List" box on the PROVANTAGE.com home page. Any customer may unsubscribe from the list at any time by going
+to <http://www.provantage.com/unsubscribe.htm>.
+The email address is permanently removed from additional promotional
+electronic mailings, and will not be reactivated unless requested by the
+customer.  
 
 | [![](http://a1796.g.akamaitech.net/7/1796/915/0e2a9207bd489a/images.gomez.com/images/certified/certified_logo.gif)](http://www.gomez.com/certification/verify.asp?topcat_id=25&firm_id=2828) | [![BizRate Customer Certified (GOLD) Site](http://medals.bizrate.com/medals/medal_litebg_124x55.gif)](http://www.bizrate.com/merchant/reports/index.xpml?mid=21449) |
 |----|----|

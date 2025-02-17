@@ -1,6 +1,8 @@
 https://linuxize.com/post/how-to-set-up-wireguard-vpn-on-debian-10/
 
-WireGuard is a general-purpose VPN (Virtual Private Network) that utilizes state-of-the-art cryptography. Compared to other popular VPN solutions, such as IPsec and [OpenVPN](https://linuxize.com/post/how-to-set-up-an-openvpn-server-on-debian-9/) , [WireGuard](https://www.wireguard.com/) is generally faster, easier to configure, and has a smaller footprint. It is cross-platform and can run almost anywhere, including Linux, Windows, Android, and macOS.
+WireGuard is a general-purpose VPN (Virtual Private Network) that utilizes state-of-the-art cryptography. Compared to other popular VPN solutions, such as IPsec and [OpenVPN](https://linuxize.com/post/how-to-set-up-an-openvpn-server-on-debian-9/)
+, [WireGuard](https://www.wireguard.com/)
+is generally faster, easier to configure, and has a smaller footprint. It is cross-platform and can run almost anywhere, including Linux, Windows, Android, and macOS.
 
 Wireguard is a peer-to-peer VPN; it does not use the client-server model. Depending on the configuration, a peer can act as a traditional server or client. It works by creating a network interface on each peer device that acts as a tunnel. Peers authenticate each other by exchanging and validating public keys, mimicking the SSH model. Public keys are mapped with a list of IP addresses that are allowed in the tunnel. The VPN traffic is encapsulated in UDP.
 
@@ -42,13 +44,16 @@ Each device in the WireGuard VPN network needs to have a private and public key.
 wg genkey | sudo tee /etc/wireguard/privatekey | wg pubkey | sudo tee /etc/wireguard/publickeyCopy
 ```
 
-The files are generated in the `/etc/wireguard` directory. Use the [`cat`](https://linuxize.com/post/linux-cat-command/) or [`less`](https://linuxize.com/post/linux-cat-command/) commands to view the contents of the files. The private key should never be shared with anyone and should always be kept secure.
+The files are generated in the `/etc/wireguard` directory. Use the [`cat`](https://linuxize.com/post/linux-cat-command/)
+or [`less`](https://linuxize.com/post/linux-cat-command/)
+commands to view the contents of the files. The private key should never be shared with anyone and should always be kept secure.
 
 Wireguard also supports a pre-shared key, which adds an additional layer of symmetric-key cryptography. This key is optional and must be unique for each peer pair.
 
 The next step is to configure the tunnel device that will route the VPN traffic.
 
-The device can be set up either from the command line using the [`ip`](https://linuxize.com/post/linux-ip-command/) and `wg` commands, or by manually creating the configuration file. We’ll create the configuration with a text editor.
+The device can be set up either from the command line using the [`ip`](https://linuxize.com/post/linux-ip-command/)
+and `wg` commands, or by manually creating the configuration file. We’ll create the configuration with a text editor.
 
 Open your editor and create a new file named `wg0.conf` with the following contents:
 
@@ -92,7 +97,8 @@ The settings in the interface section have the following meaning:
 
 -   PostDown - A command or script which is executed before bringing the interface down. The iptables rules will be removed once the interface is down.
 
-The `wg0.conf` and `privatekey` files should not be readable to normal users. Use [`chmod`](https://linuxize.com/post/chmod-command-in-linux/) to set the files permissions to `600`:
+The `wg0.conf` and `privatekey` files should not be readable to normal users. Use [`chmod`](https://linuxize.com/post/chmod-command-in-linux/)
+to set the files permissions to `600`:
 
 ``` terminal
 sudo chmod 600 /etc/wireguard/{privatekey,wg0.conf}Copy
@@ -176,7 +182,8 @@ net.ipv4.ip_forward = 1
 Copy
 ```
 
-If you are using UFW to manage your [firewall](https://linuxize.com/post/how-to-setup-a-firewall-with-ufw-on-debian-10/) you need to open UDP traffic on port `51820`:
+If you are using UFW to manage your [firewall](https://linuxize.com/post/how-to-setup-a-firewall-with-ufw-on-debian-10/)
+you need to open UDP traffic on port `51820`:
 
 ``` terminal
 sudo ufw allow 51820/udpCopy
@@ -186,7 +193,8 @@ That’s it. The Debian peer that will act as a server has been set up.
 
 ## Linux and macOS Clients Setup [\#](https://linuxize.com/post/how-to-set-up-wireguard-vpn-on-debian-10/#linux-and-macos-clients-setup)
 
-The installation instructions for all supported platforms are available at [https://wireguard.com/install/](https://wireguard.com/install/) . On Linux systems, you can install the package using the distribution package manager and on macOS with `brew`.
+The installation instructions for all supported platforms are available at [https://wireguard.com/install/](https://wireguard.com/install/)
+. On Linux systems, you can install the package using the distribution package manager and on macOS with `brew`.
 
 Once installed, follow the steps below to configure the client device.
 
@@ -233,7 +241,8 @@ If you need to configure additional clients, just repeat the same steps using a 
 
 ## Windows Clients Setup [\#](https://linuxize.com/post/how-to-set-up-wireguard-vpn-on-debian-10/#windows-clients-setup)
 
-Download and install the Windows msi package from the [WireGuard website](https://wireguard.com/install/) .
+Download and install the Windows msi package from the [WireGuard website](https://wireguard.com/install/)
+.
 
 Once installed, open the WireGuard application and click on “Add Tunnel” -&gt; “Add empty tunnel…” as shown on the image below:
 

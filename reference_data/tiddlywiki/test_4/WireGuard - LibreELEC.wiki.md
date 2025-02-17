@@ -42,7 +42,17 @@ WireGuard.PersistentKeepalive = 25
 
 ![](data:image/svg+xml;base64,PHN2ZyBjbGFzcz0ici1oN2dkb2IiIGRhdGEtcm53aS1oYW5kbGU9Im5lYXJlc3QiIGZpbGw9Im5vbmUiIHByZXNlcnZlYXNwZWN0cmF0aW89InhNaWRZTWlkIG1lZXQiIHN0eWxlPSJ2ZXJ0aWNhbC1hbGlnbjogbWlkZGxlOyB3aWR0aDogMTRweDsgaGVpZ2h0OiAxNHB4OyIgdmlld2JveD0iMCAwIDE2IDE2Ij48cGF0aCBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0wIC41QS41LjUgMCAwMS41IDBoMTBhLjUuNSAwIDAxLjUuNVY0aC0xVjFIMXY5aDN2MUguNWEuNS41IDAgMDEtLjUtLjVWLjV6IiBkYXRhLWRhcmtyZWFkZXItaW5saW5lLWZpbGwgZmlsbD0iY3VycmVudENvbG9yIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHN0eWxlPSLigJNkYXJrcmVhZGVyLWlubGluZS1maWxsOmN1cnJlbnRDb2xvcjsiIC8+PHBhdGggY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNNSA1LjVhLjUuNSAwIDAxLjUtLjVoMTBhLjUuNSAwIDAxLjUuNXYxMGEuNS41IDAgMDEtLjUuNWgtMTBhLjUuNSAwIDAxLS41LS41di0xMHpNNiA2djloOVY2SDZ6IiBkYXRhLWRhcmtyZWFkZXItaW5saW5lLWZpbGwgZmlsbD0iY3VycmVudENvbG9yIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHN0eWxlPSLigJNkYXJrcmVhZGVyLWlubGluZS1maWxsOmN1cnJlbnRDb2xvcjsiIC8+PC9zdmc+)
 
-Name = AnythingYouLike Host = IP of the WireGuard **server** WireGuard.Address = The internal IP of the **client** node, e.g. a /24 address WireGuard.ListenPort = The **client** listen port (optional) WireGuard.PrivateKey = The **client** private key WireGuard.PublicKey = The **server** public key WireGuard.PresharedKey = The **server** pre-shared key (optional) WireGuard.DNS = Nameserver to be used with the connection (optional) WireGuard.AllowedIPs = Subnets accessed via the tunnel, 0.0.0.0/0 is "route all traffic" WireGuard.EndpointPort = The **server** ListenPort WireGuard.PersistentKeepalive = Periodic keepalive in seconds (optional)
+Name = AnythingYouLike
+Host = IP of the WireGuard **server**
+WireGuard.Address = The internal IP of the **client** node, e.g. a /24 address
+WireGuard.ListenPort = The **client** listen port (optional)
+WireGuard.PrivateKey = The **client** private key
+WireGuard.PublicKey = The **server** public key
+WireGuard.PresharedKey = The **server** pre-shared key (optional)
+WireGuard.DNS = Nameserver to be used with the connection (optional)
+WireGuard.AllowedIPs = Subnets accessed via the tunnel, 0.0.0.0/0 is "route all traffic"
+WireGuard.EndpointPort = The **server** ListenPort
+WireGuard.PersistentKeepalive = Periodic keepalive in seconds (optional)
 
 ## 
 

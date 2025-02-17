@@ -12,33 +12,47 @@ Many of the options aren’t good quality, or you have to sign up for a paid sub
 
 That’s why I’ve put together this guide to the best places to find free [artist](https://proactivecreative.com/best-drawing-tablet-for-art-design/) reference photos. You can use these websites to source your free reference images for your artwork! 
 
-**Table of Contents** [show](https://proactivecreative.com/free-reference-photo-websites-for-artists/#)
+**Table of Contents**
+[show](https://proactivecreative.com/free-reference-photo-websites-for-artists/#)
 
-[1. The Best Sites for Artist Reference Photos](https://proactivecreative.com/free-reference-photo-websites-for-artists/#The_Best_Sites_for_Artist_Reference_Photos)
+[1.
+The Best Sites for Artist Reference Photos](https://proactivecreative.com/free-reference-photo-websites-for-artists/#The_Best_Sites_for_Artist_Reference_Photos)
 
-[1.1. Unsplash](https://proactivecreative.com/free-reference-photo-websites-for-artists/#Unsplash)
+[1.1.
+Unsplash](https://proactivecreative.com/free-reference-photo-websites-for-artists/#Unsplash)
 
-[1.2. Pixabay](https://proactivecreative.com/free-reference-photo-websites-for-artists/#Pixabay)
+[1.2.
+Pixabay](https://proactivecreative.com/free-reference-photo-websites-for-artists/#Pixabay)
 
-[1.3. Flickr](https://proactivecreative.com/free-reference-photo-websites-for-artists/#Flickr)
+[1.3.
+Flickr](https://proactivecreative.com/free-reference-photo-websites-for-artists/#Flickr)
 
-[1.4. Dreamstime](https://proactivecreative.com/free-reference-photo-websites-for-artists/#Dreamstime)
+[1.4.
+Dreamstime](https://proactivecreative.com/free-reference-photo-websites-for-artists/#Dreamstime)
 
-[1.5. FreePik](https://proactivecreative.com/free-reference-photo-websites-for-artists/#FreePik)
+[1.5.
+FreePik](https://proactivecreative.com/free-reference-photo-websites-for-artists/#FreePik)
 
-[1.6. Pexels](https://proactivecreative.com/free-reference-photo-websites-for-artists/#Pexels)
+[1.6.
+Pexels](https://proactivecreative.com/free-reference-photo-websites-for-artists/#Pexels)
 
-[1.7. Wikimedia Commons](https://proactivecreative.com/free-reference-photo-websites-for-artists/#Wikimedia_Commons)
+[1.7.
+Wikimedia Commons](https://proactivecreative.com/free-reference-photo-websites-for-artists/#Wikimedia_Commons)
 
-[1.8. Public Domain Pictures](https://proactivecreative.com/free-reference-photo-websites-for-artists/#Public_Domain_Pictures)
+[1.8.
+Public Domain Pictures](https://proactivecreative.com/free-reference-photo-websites-for-artists/#Public_Domain_Pictures)
 
-[1.9. ISO Republic](https://proactivecreative.com/free-reference-photo-websites-for-artists/#ISO_Republic)
+[1.9.
+ISO Republic](https://proactivecreative.com/free-reference-photo-websites-for-artists/#ISO_Republic)
 
-[1.10. Public Domain Archive](https://proactivecreative.com/free-reference-photo-websites-for-artists/#Public_Domain_Archive)
+[1.10.
+Public Domain Archive](https://proactivecreative.com/free-reference-photo-websites-for-artists/#Public_Domain_Archive)
 
-[2. More Free Reference Photo Websites for Artists](https://proactivecreative.com/free-reference-photo-websites-for-artists/#More_Free_Reference_Photo_Websites_for_Artists)
+[2.
+More Free Reference Photo Websites for Artists](https://proactivecreative.com/free-reference-photo-websites-for-artists/#More_Free_Reference_Photo_Websites_for_Artists)
 
-[3. The Wrap Up](https://proactivecreative.com/free-reference-photo-websites-for-artists/#The_Wrap_Up)
+[3.
+The Wrap Up](https://proactivecreative.com/free-reference-photo-websites-for-artists/#The_Wrap_Up)
 
 ## The Best Sites for Artist Reference Photos
 

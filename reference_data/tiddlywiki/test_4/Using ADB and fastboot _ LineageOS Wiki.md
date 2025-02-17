@@ -2,9 +2,13 @@ https://wiki.lineageos.org/adb_fastboot_guide
 
 ## What is `adb`?
 
-The [Android Debug Bridge](https://en.wikipedia.org/wiki/Android_Debug_Bridge) (`adb`) is a development tool that facilitates communication between an Android device and a personal computer. This communication is most often done over a USB cable, but Wi-Fi connections are also supported.
+The [Android Debug Bridge](https://en.wikipedia.org/wiki/Android_Debug_Bridge) (`adb`) is a development tool that facilitates communication between an Android
+device and a personal computer. This communication is most often done over a USB cable, but Wi-Fi
+connections are also supported.
 
-`adb` is like a “Swiss-army knife” of Android development. It provides numerous functions that are described in detail by the command `adb –help`. Some of the more commonly used commands are listed in the “[popular adb commands](https://wiki.lineageos.org/adb_fastboot_guide#popular-adb-commands)” section below.
+`adb` is like a “Swiss-army knife” of Android development. It provides numerous functions that are
+described in detail by the command `adb –help`. Some of the more commonly used
+commands are listed in the “[popular adb commands](https://wiki.lineageos.org/adb_fastboot_guide#popular-adb-commands)” section below.
 
 ## Installing `adb` and `fastboot`
 
@@ -73,12 +77,15 @@ Congratulations! `adb` is now ready to use with your device.
 
 ## Setting up `fastboot`
 
-Using `fastboot` (if your device supports it) should simply involve rebooting to fastboot mode. While in fastboot mode, you can type `fastboot devices` to verify that your device is being detected.
+Using `fastboot` (if your device supports it) should simply involve rebooting to fastboot mode.
+While in fastboot mode, you can type `fastboot devices` to verify that your device is being detected.
 
 ## Popular `adb` commands
 
 -   `adb shell` - launches a [shell](https://en.wikipedia.org/wiki/Shell_(computing)) on the device
 -   `adb push ` - pushes the file to
--   `adb pull []` - pulls the file to . If isn’t specified, it will pull to the current folder.
--   `adb logcat` - allows you to view the device log in real-time. You can use `adb logcat -b radio` to view radio logs, and `adb logcat -C` to view logs in colour
+-   `adb pull []` - pulls the file to . If isn’t specified,
+    it will pull to the current folder.
+-   `adb logcat` - allows you to view the device log in real-time. You can use `adb logcat -b radio` to view radio logs,
+    and `adb logcat -C` to view logs in colour
 -   `adb install ` - installs the given .apk file to your device

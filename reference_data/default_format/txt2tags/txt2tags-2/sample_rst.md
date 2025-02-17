@@ -14,9 +14,11 @@ But it's OK.
 
 Welcome to the txt2tags sample file.
 
-Here you have examples and a brief explanation of all marks.
+Here you have examples and a brief explanation of all
+marks.
 
-The first 3 lines of the this file are used as headers, on the following format:
+The first 3 lines of the this file are used as headers,
+on the following format:
 
     line1: document title
     line2: author name, email
@@ -30,17 +32,20 @@ We have two sets of fonts:
 
 The NORMAL type that can be improved with beautifiers.
 
-The TYPEWRITER type that uses monospaced font for pre-formatted text.
+The TYPEWRITER type that uses monospaced font for
+pre-formatted text.
 
 We will now enter on a subtitle...
 
 ### Beautifiers
 
-The text marks for beautifiers are simple, just as you type on a plain text email message.
+The text marks for beautifiers are simple, just as you
+type on a plain text email message.
 
 We use double *, /, - and \_ to representbold,*italic\*, strike and underline.
 
-The **\*bold italic**\* style is also supported as a combination.
+The **\*bold italic**\* style is also supported as a
+combination.
 
 ### Pre-Formatted Text
 
@@ -49,7 +54,8 @@ We can put a code sample or other pre-formatted text:
     here    is     pre-formatted
     //marks// are  **not**  ``interpreted``
 
-And also, it's easy to put a one line pre-formatted text:
+And also, it's easy to put a one line pre-formatted
+text:
 
     prompt$ ls /etc
 
@@ -57,7 +63,9 @@ Or use `pre-formatted` inside sentences.
 
 ### More Cosmetics
 
-Special entities like email (<duh@somewhere.com>) and URL (<http://www.duh.com>) are detected automagically, as long as the horizontal line:
+Special entities like email (<duh@somewhere.com>) and
+URL (<http://www.duh.com>) are detected automagically,
+as long as the horizontal line:
 
 ------------------------------------------------------------------------
 
@@ -65,7 +73,8 @@ Special entities like email (<duh@somewhere.com>) and URL (<http://www.duh.com>)
 
 ------------------------------------------------------------------------
 
-You can also specify an [explicit link](http://duh.org) or an [explicit email](duh@somewhere.com) with label.
+You can also specify an [explicit link](http://duh.org)
+or an [explicit email](duh@somewhere.com) with label.
 
 And remember,
 
@@ -77,11 +86,14 @@ Nice.
 
 ## Lists
 
-A list of items is natural, just putting a **dash** or a **plus** at the beginning of the line.
+A list of items is natural, just putting a **dash** or
+a **plus** at the beginning of the line.
 
 ### Plain List
 
-The dash is the default list identifier. For sublists, just add **spaces** at the beginning of the line. More spaces, more sublists.
+The dash is the default list identifier. For sublists,
+just add **spaces** at the beginning of the line. More
+spaces, more sublists.
 
 -   Earth
     -   America
@@ -97,7 +109,8 @@ The list ends with **two** consecutive blank lines.
 
 ### Numbered List
 
-The same rules as the plain list, just a different identifier (plus).
+The same rules as the plain list, just a different
+identifier (plus).
 
 1.  one
 2.  two
@@ -112,7 +125,8 @@ The same rules as the plain list, just a different identifier (plus).
 
 ### Definition List
 
-The definition list identifier is a colon, followed by the term. The term contents is placed on the next line.
+The definition list identifier is a colon, followed by
+the term. The term contents is placed on the next line.
 
 orange  
 a yellow fruit
@@ -128,7 +142,9 @@ other fruits
 
 ## Tables
 
-Use pipes to compose table rows and cells. Double pipe at the line beginning starts a heading row. Natural spaces specify each cell alignment.
+Use pipes to compose table rows and cells.
+Double pipe at the line beginning starts a heading row.
+Natural spaces specify each cell alignment.
 
 > | heading 1 | “heading 2” | “heading 3” |
 > |-----------|-------------|-------------|
@@ -161,13 +177,15 @@ And with some targets the image is linkable :
 
 ### Other
 
-When the target needs, special chars like &lt;, &gt; and & are escaped.
+When the target needs, special chars like &lt;, &gt; and &
+are escaped.
 
 The handy `%%date` macro expands to the current date.
 
 So today is 20110709 on the ISO `YYYYMMDD` format.
 
-You can also specify the date format with the %? flags, as `%%date(%m-%d-%Y)` which gives: 07-09-2011.
+You can also specify the date format with the %? flags,
+as `%%date(%m-%d-%Y)` which gives: 07-09-2011.
 
 That's all for now.
 

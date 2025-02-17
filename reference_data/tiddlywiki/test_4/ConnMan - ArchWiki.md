@@ -79,7 +79,8 @@ ConnMan comes with the [connmanctl(1)](https://man.archlinux.org/man/connmanctl.
 
 **Reason:** Only Wired and Wi-Fi plugins are described. (Discuss in [Talk:ConnMan](https://wiki.archlinux.org/title/Talk:ConnMan))
 
-ConnMan comes with the `connmanctl` command-line interface, see [connmanctl(1)](https://man.archlinux.org/man/connmanctl.1). If you do not provide any commands `connmanctl` starts as an interactive shell.
+ConnMan comes with the `connmanctl` command-line interface, see [connmanctl(1)](https://man.archlinux.org/man/connmanctl.1).
+If you do not provide any commands `connmanctl` starts as an interactive shell.
 
 *ConnMan* automatically handles wired connections.
 
@@ -87,7 +88,9 @@ ConnMan comes with the `connmanctl` command-line interface, see [connmanctl(1)](
 
 #### Enabling and disabling wifi
 
-To check if wifi is enabled you can run `connmanctl technologies` and check for the line that says `Powered: True/False`. To power the wifi on you can run `connmanctl enable wifi` or if you need to disable it you can run `connmanctl disable wifi`. Other ways to enable wifi could include using the `Fn` keys on the laptop to turn it on or running `ip link set up`.
+To check if wifi is enabled you can run `connmanctl technologies` and check for the line that says `Powered: True/False`.
+To power the wifi on you can run `connmanctl enable wifi` or if you need to disable it you can run `connmanctl disable wifi`.
+Other ways to enable wifi could include using the `Fn` keys on the laptop to turn it on or running `ip link set up`.
 
 #### Connecting to an open access point
 
@@ -141,7 +144,9 @@ You now need to connect to one of the protected services. To do this easily, jus
 
     connmanctl> connect wifi_dc85de828967_38303944616e69656c73_managed_psk
 
-The agent will then ask you to provide any information the daemon needs to complete the connection. The information requested will vary depending on the type of network you are connecting to. The agent will also print additional data about the information it needs as shown in the example below.
+The agent will then ask you to provide any information the daemon needs to complete the connection. The
+information requested will vary depending on the type of network you are connecting to. The agent
+will also print additional data about the information it needs as shown in the example below.
 
     Agent RequestInput wifi_dc85de828967_38303944616e69656c73_managed_psk
       Passphrase = [ Type=psk, Requirement=mandatory ]
@@ -339,7 +344,8 @@ You have enabled your wifi with:
 
     $ connmanctl enable wifi
 
-If wireless scanning leads to above error, this may be due to an unresolved bug.[\[5\]](https://01.org/jira/browse/CM-670)^\[[dead\ link](https://en.wikipedia.org/wiki/Wikipedia:Link_rot "wikipedia:Wikipedia:Link rot")\ 2022-09-17 ⓘ\]^ If it does not resolve even though wireless [preconditions](https://lists.01.org/pipermail/connman/2014-December/019203.html) are met, try again after disabling competing network managers and rebooting.
+If wireless scanning leads to above error, this may be due to an unresolved bug.[\[5\]](https://01.org/jira/browse/CM-670)^\[[dead\ link](https://en.wikipedia.org/wiki/Wikipedia:Link_rot "wikipedia:Wikipedia:Link rot")\ 2022-09-17 ⓘ\]^
+If it does not resolve even though wireless [preconditions](https://lists.01.org/pipermail/connman/2014-December/019203.html) are met, try again after disabling competing network managers and rebooting.
 
 This may also simply be caused by the wireless interface being blocked by [rfkill](https://wiki.archlinux.org/title/ConnMan/title/Rfkill "Rfkill"), which can occur after restarting wpa\_supplicant. Use `rfkill list` to check.
 
@@ -386,7 +392,8 @@ A log entry for an unknown route appears each time a connect is done. For exampl
     connmand[473]: wlp2s0 {del} route 82.165.8.211 gw 10.20.30.4 scope 0 
     ...
 
-It likely is Connman performing a connectivity check to the ipv4.connman.net host (which resolves to the IP address `82.165.8.211` at current).[\[6\]](https://01.org/jira/browse/CM-657)^\[[dead\ link](https://en.wikipedia.org/wiki/Wikipedia:Link_rot "wikipedia:Wikipedia:Link rot")\ 2022-09-17 ⓘ\]^ See the [Connman README](https://git.kernel.org/pub/scm/network/connman/connman.git/tree/README#n388) for more information on why and what - apart from the connecting IP - it transmits. This behaviour can be prevented by adding the following to `/etc/connman/main.conf`:
+It likely is Connman performing a connectivity check to the ipv4.connman.net host (which resolves to the IP address `82.165.8.211` at current).[\[6\]](https://01.org/jira/browse/CM-657)^\[[dead\ link](https://en.wikipedia.org/wiki/Wikipedia:Link_rot "wikipedia:Wikipedia:Link rot")\ 2022-09-17 ⓘ\]^ See the [Connman README](https://git.kernel.org/pub/scm/network/connman/connman.git/tree/README#n388) for more information on why and what - apart from the connecting IP - it transmits.
+This behaviour can be prevented by adding the following to `/etc/connman/main.conf`:
 
     [General]
     EnableOnlineCheck=false
