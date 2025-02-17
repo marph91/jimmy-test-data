@@ -1,0 +1,27 @@
+16:
+  text: '=== Tagesziel ===
+
+    Random text
+
+
+    - list item1
+
+    - list item2
+
+    - list item3
+
+
+    Lorem Ipsum
+
+
+    === Zufriedenheit ===
+
+    Another random text
+
+
+
+    **Dankbarkeit**
+
+    Nice day
+
+    '
