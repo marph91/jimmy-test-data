@@ -1,0 +1,9 @@
+|         |                              |
+| ------- | ---------------------------- |
+| From    | {author}                     |
+| Title   | {title}                      |
+| Date    | {created:%Y-%m-%dT%H:%M:%SZ} |
+
+---
+
+{body}

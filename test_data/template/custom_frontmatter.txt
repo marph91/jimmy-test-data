@@ -1,0 +1,14 @@
+---
+title: {title}
+author: {author}
+latitude: {latitude:.3f}
+longitude: {longitude:.0f}
+altitude: {altitude}
+created: {created:%Y-%m-%dT%H:%M:%SZ}
+updated: {updated:%Y-%m-%dT%H:%M:%SZ}
+tags: {tags}
+resources: {resources}
+note_links: {note_links}
+---
+
+{body}

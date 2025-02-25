@@ -1,18 +1,3 @@
----
-Creation date: 2024-03-13
-Description: 
-Layout align: "[[0]]"
-Linked Projects:
-Priority: "[[2]]"
-Status: "[[To Do]]"
-Old Anytype ID: bafyreihmwfsfnvxp3omxj65wpahsnvh7npfzo54go5cgydg4dflwdw3hbm
-Source file path: pb:/home/martin/.config/anytype/data/tmp/tmp.20240313.181303.42.zip/bafyreihmwfsfnvxp3omxj65wpahsnvh7npfzo54go5cgydg4dflwdw3hbm.pb
-Origin: "[[6]]"
-Import Type: "[[3]]"
-Added date: 2024-03-13
-Mentions:
----
-
 ## Details
 
 The Desktop application's Sidebar contains adjustable widgets. The main screen of the mobile app also has the same feature. On both platforms, you can add your own created objects or use the system widgets as

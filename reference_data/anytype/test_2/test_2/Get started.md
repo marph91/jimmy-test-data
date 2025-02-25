@@ -1,20 +1,3 @@
----
-Creation date: 2024-03-13
-Description: How to start using Anytype
-Cover image or color: 
-Cover scale: "[[0]]"
-Cover type: "[[0]]"
-Cover x offset: "[[0]]"
-Cover y offset: "[[0]]"
-Favorited: Yes
-Old Anytype ID: bafyreiamipgdmeef2bhqsykjqr7wur2tfu6qtlgdhwxl3ip24x5p3e3ssm
-Source file path: pb:/home/martin/.config/anytype/data/tmp/tmp.20240313.181303.42.zip/bafyreiamipgdmeef2bhqsykjqr7wur2tfu6qtlgdhwxl3ip24x5p3e3ssm.pb
-Origin: "[[6]]"
-Import Type: "[[3]]"
-Added date: 2024-03-13
-Mentions: "[[bafyreigqllwnj7anhtxfpjzpzgxbxayt33g7tv7ekf5g2elrnfzzf3f3qi]]"
----
-
 ### 1. Create an Object
 
 Press the + button in the Navigation Bar at the bottom of the window. Congrats - you've just created an **Object**! By default, your new object's **Type** is 'Note'. We use object types to categorise objects and make them meaningful. [Study Objects](https://doc.anytype.io/anytype-docs/basics/object-editor)↗︎
@@ -44,4 +27,3 @@ This was a *basic* introduction of what you can do in Anytype.
 Unlock the full potential of Anytype by delving into **Ob[ject Types**](https://doc.anytype.io/anytype-docs/basics/types)↗︎ and **Re[lations**](https://doc.anytype.io/anytype-docs/basics/relations)↗︎. Object Types categorize and define your data, whereas Relations add meaningful linkages and attributes to your objects.
 
 [Community](https://community.anytype.io/)↗︎  |  [Github](https://github.com/anyproto)↗︎  |  [Documentation](https://doc.anytype.io/anytype-docs/intro/readme)↗︎
-
