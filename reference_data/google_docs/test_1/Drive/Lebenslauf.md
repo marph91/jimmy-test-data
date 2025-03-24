@@ -1,37 +1,3 @@
-| Ihr Name
-Text hier einfügen | Ihre Straße 123
-12345 Ihr Ort
-**(+49) 000 – 0000**
-**no\_reply@example.com** |
+| Ihr Name<br>Text hier einfügen | Ihre Straße 123<br>12345 Ihr Ort<br>**(+49) 000 – 0000**<br>**no\_reply@example.com** |
 |------------------------------------------------|-----------------------|
-| **BERUFSERFAHRUNG**
-**Unternehmen, Ort — *Stellenbezeichnung***
-**MONAT 20XX–HEUTE**
-Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen.
-**Unternehmen, Ort — *Stellenbezeichnung***
-**MONAT 20XX–MONAT 20XX**
-Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen.
-**Unternehmen, Ort — *Stellenbezeichnung***
-**MONTH 20XX - MONTH 20XX**
-Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen.
-**BILDUNGSWEG**
-**Name der Bildungseinrichtung, Ort — *Abschluss***
-**MONAT 20XX–MONAT 20XX**
-Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen.
-**Name der Bildungseinrichtung, Ort — *Abschluss***
-**MONAT 20XX–MONAT 20XX**
-Text hier einfügen Text hier einfügen Text hier einfügen.
-**PROJEKTE**
-**Projektname — *Detail***
-Text hier einfügen Text hier einfügen. | **FÄHIGKEITEN UND FERTIGKEITEN**
-<br>- Text hier einfügen.
-<br>- Text hier einfügen.
-<br>- Text hier einfügen Text hier einfügen.
-<br>- Text hier einfügen Text hier einfügen.
-**AUSZEICHNUNGEN**
-**Text hier einfügen** Text hier einfügen Text hier einfügen Text hier einfügen
-**Text hier einfügen** Text hier einfügen Text hier einfügen Text hier einfügen.
-**Text hier einfügen** Text hier einfügen Text hier einfügen Text hier einfügen
-**Text hier einfügen** Text hier einfügen Text hier einfügen Text hier einfügen.
-**SPRACHEN**
-Text hier einfügen Text hier einfügen Text hier einfügen |
+| **BERUFSERFAHRUNG**<br>**Unternehmen, Ort — *Stellenbezeichnung***<br>**MONAT 20XX–HEUTE**<br>Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen.<br>**Unternehmen, Ort — *Stellenbezeichnung***<br>**MONAT 20XX–MONAT 20XX**<br>Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen.<br>**Unternehmen, Ort — *Stellenbezeichnung***<br>**MONTH 20XX - MONTH 20XX**<br>Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen.<br>**BILDUNGSWEG**<br>**Name der Bildungseinrichtung, Ort — *Abschluss***<br>**MONAT 20XX–MONAT 20XX**<br>Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen Text hier einfügen.<br>**Name der Bildungseinrichtung, Ort — *Abschluss***<br>**MONAT 20XX–MONAT 20XX**<br>Text hier einfügen Text hier einfügen Text hier einfügen.<br>**PROJEKTE**<br>**Projektname — *Detail***<br>Text hier einfügen Text hier einfügen. | **FÄHIGKEITEN UND FERTIGKEITEN**<br><br>- Text hier einfügen.<br><br>- Text hier einfügen.<br>- Text hier einfügen Text hier einfügen.<br>- Text hier einfügen Text hier einfügen.**AUSZEICHNUNGEN**<br>**Text hier einfügen** Text hier einfügen Text hier einfügen Text hier einfügen<br>**Text hier einfügen** Text hier einfügen Text hier einfügen Text hier einfügen.<br>**Text hier einfügen** Text hier einfügen Text hier einfügen Text hier einfügen<br>**Text hier einfügen** Text hier einfügen Text hier einfügen Text hier einfügen.<br>**SPRACHEN**<br>Text hier einfügen Text hier einfügen Text hier einfügen |

@@ -15,14 +15,9 @@ aus Wikipedia, der freien Enzyklopädie
 | Aktuelle [Version](https://de.wikipedia.org/wiki/Version_(Software) "Version (Software)") | 5.2 <br> (14. Dezember 2017) |
 | Art: | [Auszeichnungssprache](https://de.wikipedia.org/wiki/Auszeichnungssprache "Auszeichnungssprache") |
 | Erweitert zu: | [XHTML](https://de.wikipedia.org/wiki/Extensible_Hypertext_Markup_Language "Extensible Hypertext Markup Language"), [HTML5](https://de.wikipedia.org/wiki/HTML5 "HTML5") |
-| [Standard(s)](https://de.wikipedia.org/wiki/Standard "Standard"): | [ISO](https://de.wikipedia.org/wiki/Internationale_Organisation_f%C3%BCr_Normung "Internationale Organisation für Normung")/[IEC](https://de.wikipedia.org/wiki/International_Electrotechnical_Commission "International Electrotechnical Commission") 15445
-W3C HTML 5^[\[1\]](#cite_note-1)^
-W3C HTML 4.01^[\[2\]](#cite_note-2)^
-W3C HTML 3.2^[\[3\]](#cite_note-3)^ |
+| [Standard(s)](https://de.wikipedia.org/wiki/Standard "Standard"): | [ISO](https://de.wikipedia.org/wiki/Internationale_Organisation_f%C3%BCr_Normung "Internationale Organisation für Normung")/[IEC](https://de.wikipedia.org/wiki/International_Electrotechnical_Commission "International Electrotechnical Commission") 15445<br>W3C HTML 5^[\[1\]](#cite_note-1)^<br>W3C HTML 4.01^[\[2\]](#cite_note-2)^<br>W3C HTML 3.2^[\[3\]](#cite_note-3)^ |
 | [www.w3.org/html](https://www.w3.org/html/) |  |
-| ")
-")
-Beispiel HTML Code |  |
+| ")")Beispiel HTML Code |  |
 |  |  |
 
 Die **Hypertext Markup Language** (**HTML**, [englisch](https://de.wikipedia.org/wiki/Englische_Sprache "Englische Sprache") für *[Hypertext](https://de.wikipedia.org/wiki/Hypertext "Hypertext")-Auszeichnungssprache*) ist eine textbasierte [Auszeichnungssprache](https://de.wikipedia.org/wiki/Auszeichnungssprache "Auszeichnungssprache") zur Strukturierung [elektronischer Dokumente](https://de.wikipedia.org/wiki/Elektronisches_Dokument "Elektronisches Dokument") wie [Texte](https://de.wikipedia.org/wiki/Textdatei "Textdatei") mit [Hyperlinks](https://de.wikipedia.org/wiki/Hyperlink "Hyperlink"), [Bildern](https://de.wikipedia.org/wiki/Bilddatei "Bilddatei") und anderen Inhalten. [HTML-Dokumente](https://de.wikipedia.org/wiki/Webseite "Webseite") sind die Grundlage des [World Wide Web](https://de.wikipedia.org/wiki/World_Wide_Web "World Wide Web") und werden von [Webbrowsern](https://de.wikipedia.org/wiki/Webbrowser "Webbrowser") dargestellt. Neben den vom Browser angezeigten Inhalten können HTML-Dateien zusätzliche Angaben in Form von [Metainformationen](https://de.wikipedia.org/wiki/Metadaten "Metadaten") enthalten, z. B. über die im Text verwendeten [Sprachen](https://de.wikipedia.org/wiki/Einzelsprache "Einzelsprache"), den [Autor](https://de.wikipedia.org/wiki/Autor "Autor") oder den zusammengefassten Inhalt des Textes.

@@ -5,35 +5,37 @@
 
 ------------------------------------------------------------------------
 
-**December 04, 2001**
+**webbot<br> bot="Timestamp" S-Type="EDITED" S-Format="%B %d, %Y" startspan December 04, 2001webbot<br> bot="Timestamp" endspan i-checksum="39475"**
 
-Can't
-read this email? [Click
-here](http://www.provantage.com/scripts/go.dll/e13011_RD/e13011)
+<br>
 
-**Issue#:**
-e13011
+Can't<br> read this email? [Click<br> here](http://www.provantage.com/scripts/go.dll/e13011_RD/e13011)
 
-To
-unsubscribe from the <br>
-Original Advantage [Click
-here
-](http://www.provantage.com/unsubscribe.htm)
-*(Do Not Reply to this email)*
+<br>
 
-**PROVANTAGE
-Customer:** jeff\_dasovich@enron.com
+**Issue#:<br>** e13011
+
+<br>
+
+To<br> unsubscribe from the <br><br> Original Advantage [Click<br> here](http://www.provantage.com/unsubscribe.htm)*(Do Not Reply to this email)*
+
+<br>
+
+**PROVANTAGE<br> Customer:** jeff\_dasovich@enron.com
 
 ------------------------------------------------------------------------
 
-**Holiday Gift
-Ideas for the Computer Professional!**
+**Holiday Gift <br>Ideas for the Computer Professional!**
+
+<br>
 
 [![](http://www.provantage.com/HW_64790.GIF)](http://www.provantage.com/scripts/go.dll/e13011_1/FP_64790.HTM)
 
 **[11Mbps Wireless Cable/DSL Router](http://www.provantage.com/scripts/go.dll/e13011_1/FP_64790.HTM) By Belkin**
 
-The Belkin Wireless Cable/DSL Gateway Router lets you share files and a broadband Internet connection among all your computers-without using cables. It's *...[More](http://www.provantage.com/FP_64790.HTM?BELW007)*
+<br>The Belkin Wireless Cable/DSL Gateway Router lets you share files and a broadband Internet connection among all your computers-without using cables. It's *...[More](http://www.provantage.com/FP_64790.HTM?BELW007)*
+
+<br>
 
   **\$201.42**
 
@@ -45,7 +47,9 @@ The Belkin Wireless Cable/DSL Gateway Router lets you share files and a broadban
 
 **[Nostromo n45 Dual Analog USB Gamepad](http://www.provantage.com/scripts/go.dll/e13011_2/FP_63903.HTM) By Belkin**
 
-The Nostromo n45 USB game pad's advanced ergonomic design, dual analog and USB-compatibility make the n45 innovative PC game pad to hit the market in years. *...[More](http://www.provantage.com/FP_63903.HTM?BELV003)*
+<br>The Nostromo n45 USB game pad's advanced ergonomic design, dual analog and USB-compatibility make the n45 innovative PC game pad to hit the market in years. *...[More](http://www.provantage.com/FP_63903.HTM?BELV003)*
+
+<br>
 
   **\$12.31**
 
@@ -55,11 +59,11 @@ The Nostromo n45 USB game pad's advanced ergonomic design, dual analog and USB-c
 
 [![](http://www.provantage.com/MCSW00M.GIF)](http://www.provantage.com/scripts/go.dll/e13011_3/FP_62272.HTM)
 
-*****New!***
-[Plus! for Windows XP](http://www.provantage.com/scripts/go.dll/e13011_3/FP_62272.HTM) By Microsoft**
+*****New!***<br>[Plus! for Windows XP](http://www.provantage.com/scripts/go.dll/e13011_3/FP_62272.HTM) By Microsoft**
 
-Personalize your computer experience like never before.
-<br>Built exclusively to take advantage of the power of Windows XP, MS Plus! delivers exciting *...[More](http://www.provantage.com/FP_62272.HTM?MCSW00M)*
+<br>Personalize your computer experience like never before.<br><br>Built exclusively to take advantage of the power of Windows XP, MS Plus! delivers exciting *...[More](http://www.provantage.com/FP_62272.HTM?MCSW00M)*
+
+<br>
 
   **\$33.47**
 
@@ -71,7 +75,9 @@ Personalize your computer experience like never before.
 
 **[iPAQ H3670 Color Pocket PC](http://www.provantage.com/scripts/go.dll/e13011_4/FP_61943.HTM) By Compaq**
 
-You want to do more with life? The iPAQ Pocket PC H3670 is designed to ride along on the voyage of life-in your pocket or mounted to your mountain bike. *...[More](http://www.provantage.com/FP_61943.HTM?CMPH02J)*
+<br>You want to do more with life? The iPAQ Pocket PC H3670 is designed to ride along on the voyage of life-in your pocket or mounted to your mountain bike. *...[More](http://www.provantage.com/FP_61943.HTM?CMPH02J)*
+
+<br>
 
   **\$465.50**
 
@@ -83,7 +89,9 @@ You want to do more with life? The iPAQ Pocket PC H3670 is designed to ride alon
 
 **[FireWire Hub 6-Port](http://www.provantage.com/scripts/go.dll/e13011_5/FP_56731.HTM) By IOGEAR**
 
-IOGEAR's FireWire hubs provide 1394a compliant ports that support data transfer rates of 100, 200 and 400 Mbps (megabits per second), and automatically *...[More](http://www.provantage.com/FP_56731.HTM?IOGR00T)*
+<br>IOGEAR's FireWire hubs provide 1394a compliant ports that support data transfer rates of 100, 200 and 400 Mbps (megabits per second), and automatically *...[More](http://www.provantage.com/FP_56731.HTM?IOGR00T)*
+
+<br>
 
   **\$60.09**
 
@@ -95,7 +103,9 @@ IOGEAR's FireWire hubs provide 1394a compliant ports that support data transfer 
 
 **[HomeConnect 10/100 Mbps Dual Speed Ethernet 5-Port](http://www.provantage.com/scripts/go.dll/e13011_6/FP_43835.HTM) By 3Com**
 
-Share an Internet connection among several computers (Your Internet service provider may charge additional fees.). Surf Web sites, send e-mail, download *...[More](http://www.provantage.com/FP_43835.HTM?3COO03L)*
+<br>Share an Internet connection among several computers (Your Internet service provider may charge additional fees.). Surf Web sites, send e-mail, download *...[More](http://www.provantage.com/FP_43835.HTM?3COO03L)*
+
+<br>
 
   **\$41.76**
 
@@ -105,12 +115,13 @@ Share an Internet connection among several computers (Your Internet service prov
 
 [![](http://www.provantage.com/SW_62263.GIF)](http://www.provantage.com/scripts/go.dll/e13011_7/FP_62263.HTM)
 
-*****New!***
-[Links 2001 Expansion Pack Volume 1](http://www.provantage.com/scripts/go.dll/e13011_7/FP_62263.HTM) By Microsoft**
+*****New!***<br>[Links 2001 Expansion Pack Volume 1](http://www.provantage.com/scripts/go.dll/e13011_7/FP_62263.HTM) By Microsoft**
 
-Join PGA Tour pros Mike Weir & Keith Clearwater on 4 new courses designed for Links 2001:
+<br>Join PGA Tour pros Mike Weir & Keith Clearwater on 4 new courses designed for Links 2001:
 
 The Canyons Course at Bighorn, Thanksgiving Point *...[More](http://www.provantage.com/FP_62263.HTM?MSXG008)*
+
+<br>
 
   **\$20.93**
 
@@ -122,7 +133,9 @@ The Canyons Course at Bighorn, Thanksgiving Point *...[More](http://www.provanta
 
 **[Mavica CD1000 Digital Cam 12Bit 2.1 Pixel 3" CD-R](http://www.provantage.com/scripts/go.dll/e13011_8/FP_55249.HTM) By Sony**
 
-Start with a high capacity, 156 MB 3" CD-R plus a high resolution, 2.1 megapixel image sensor. Attach it to a high-powered 52mm 10x optical zoom lens and *...[More](http://www.provantage.com/FP_55249.HTM?SNYI01C)*
+<br>Start with a high capacity, 156 MB 3" CD-R plus a high resolution, 2.1 megapixel image sensor. Attach it to a high-powered 52mm 10x optical zoom lens and *...[More](http://www.provantage.com/FP_55249.HTM?SNYI01C)*
+
+<br>
 
   **\$908.56**
 
@@ -134,8 +147,9 @@ Start with a high capacity, 156 MB 3" CD-R plus a high resolution, 2.1 megapixel
 
 **[Wireless Bluetooth PC Card](http://www.provantage.com/scripts/go.dll/e13011_9/FP_61615.HTM) By 3Com**
 
-Personal Connections - Instantly
-<br>For spontaneous connections between your notebook PC and other Bluetooth devices, as well as "light" network *...[More](http://www.provantage.com/FP_61615.HTM?3COM36W)*
+<br>Personal Connections - Instantly <br><br>For spontaneous connections between your notebook PC and other Bluetooth devices, as well as "light" network *...[More](http://www.provantage.com/FP_61615.HTM?3COM36W)*
+
+<br>
 
   **\$109.31**
 
@@ -147,7 +161,9 @@ Personal Connections - Instantly
 
 **[MultiSync LCD1830 18in LCD Flat Panel Display](http://www.provantage.com/scripts/go.dll/e13011_10/FP_20090.HTM) By NEC/Mitsubishi**
 
-For users who need superior image quality in a small space, the MultiSync LCD Series monitors deliver bright, sharp screen performance in a slim, lightweight *...[More](http://www.provantage.com/FP_20090.HTM?NECL00Y)*
+<br>For users who need superior image quality in a small space, the MultiSync LCD Series monitors deliver bright, sharp screen performance in a slim, lightweight *...[More](http://www.provantage.com/FP_20090.HTM?NECL00Y)*
+
+<br>
 
   **\$833.05**
 
@@ -157,11 +173,11 @@ For users who need superior image quality in a small space, the MultiSync LCD Se
 
 [![](http://www.provantage.com/SW_60941.GIF)](http://www.provantage.com/scripts/go.dll/e13011_11/FP_60941.HTM)
 
-*****New!***
-[MechCommander 2](http://www.provantage.com/scripts/go.dll/e13011_11/FP_60941.HTM) By Microsoft**
+*****New!***<br>[MechCommander 2](http://www.provantage.com/scripts/go.dll/e13011_11/FP_60941.HTM) By Microsoft**
 
-Take control of an entire company of the most fearsome military machines in history - BattleMechs!
-<br>As a MechCommander, you command a unit of *...[More](http://www.provantage.com/FP_60941.HTM?MSXG009)*
+<br>Take control of an entire company of the most fearsome military machines in history - BattleMechs!<br><br>As a MechCommander, you command a unit of *...[More](http://www.provantage.com/FP_60941.HTM?MSXG009)*
+
+<br>
 
   **\$24.02**
 
@@ -173,7 +189,9 @@ Take control of an entire company of the most fearsome military machines in hist
 
 **[DSP-500 Digitally-Enhanced USB Gaming/Multimedia](http://www.provantage.com/scripts/go.dll/e13011_12/FP_57209.HTM) By Plantronics**
 
-Plantronics' DSP-500 digitally-enhanced gaming/multimedia headset with full-range stereo sound. Perfect for multimedia applications such as games, CDs *...[More](http://www.provantage.com/FP_57209.HTM?PLAH008)*
+<br>Plantronics' DSP-500 digitally-enhanced gaming/multimedia headset with full-range stereo sound. Perfect for multimedia applications such as games, CDs *...[More](http://www.provantage.com/FP_57209.HTM?PLAH008)*
+
+<br>
 
   **\$78.99**
 
@@ -185,7 +203,9 @@ Plantronics' DSP-500 digitally-enhanced gaming/multimedia headset with full-rang
 
 **[RipGo! Handheld 4X6 Mini USB CD Burner/MP3 Player](http://www.provantage.com/scripts/go.dll/e13011_13/FP_64167.HTM) By Imation**
 
-Whether you're a music enthusiast or a mobile business professional, the Imation RipGO! device will satisfy the creative urges of your imagination. Designed *...[More](http://www.provantage.com/FP_64167.HTM?3MDS229)*
+<br>Whether you're a music enthusiast or a mobile business professional, the Imation RipGO! device will satisfy the creative urges of your imagination. Designed *...[More](http://www.provantage.com/FP_64167.HTM?3MDS229)*
+
+<br>
 
   **\$369.96**
 
@@ -197,7 +217,9 @@ Whether you're a music enthusiast or a mobile business professional, the Imation
 
 **[CD-RW Drive 16X/10X/40X USB 2.0 Drive w/USB 2.0](http://www.provantage.com/scripts/go.dll/e13011_14/FP_61638.HTM) By IOGEAR**
 
-Drive. Unlock the power of the new Hi-Speed USB 2.0. IOGEAR's IMPULSE Drive. Burns at a blazing 16x speed, allowing you to create CDs faster than ever *...[More](http://www.provantage.com/FP_61638.HTM?IOGR015)*
+<br>Drive. Unlock the power of the new Hi-Speed USB 2.0. IOGEAR's IMPULSE Drive. Burns at a blazing 16x speed, allowing you to create CDs faster than ever *...[More](http://www.provantage.com/FP_61638.HTM?IOGR015)*
+
+<br>
 
   **\$188.54**
 
@@ -209,9 +231,9 @@ Drive. Unlock the power of the new Hi-Speed USB 2.0. IOGEAR's IMPULSE Drive. Bur
 
 **[Spressa CRX175A-A1 Drive 24x/10x/40x Int EIDE](http://www.provantage.com/scripts/go.dll/e13011_15/FP_61994.HTM) By Sony**
 
-Receive a \$30 rebate direct from Sony on SNYC97M purchases between 10/01/01 and 12/31/01.
-*[... More](http://www.provantage.com/FP_61994.HTM?SNYC97M)*
+<br>Receive a \$30 rebate direct from Sony on SNYC97M purchases between 10/01/01 and 12/31/01. *[... More](http://www.provantage.com/FP_61994.HTM?SNYC97M)*
 
+<br>
 
   **\$145.46**
 
@@ -223,13 +245,15 @@ Receive a \$30 rebate direct from Sony on SNYC97M purchases between 10/01/01 and
 
 **[Digital Voice Recorder w/No Software](http://www.provantage.com/scripts/go.dll/e13011_16/FP_58749.HTM) By Sony**
 
-Features Include
+<br>Features Include
 
 World's first memory stick Digital voice recorder
 
 Uses removable MS (memory stick)
 
 Recording time: 63 min (SP)/131 min *...[More](http://www.provantage.com/FP_58749.HTM?SNYI02K)*
+
+<br>
 
   **\$195.68**
 
@@ -239,28 +263,20 @@ Recording time: 63 min (SP)/131 min *...[More](http://www.provantage.com/FP_5874
 
    
 
-|     |
-|-----|
+| <br>   |
+|----------------------|
 
 **Web
 Address:** [www.PROVANTAGE.com](http://www.PROVANTAGE.com)   
  **Toll Free:** 800-336-1166     **Fax:**
 330-494-5260     **email:** <sales@provantage.com>
 
-| [Privacy                                                     
- Policy](http://www.provantage.com/fpolicy.htm) \| [Terms &    
- Conditions](http://www.provantage.com/fterms.htm) \| [FREE    
- Catalog](http://www.provantage.com/scripts/add2list.dll/f/0)  |
-|--------------------------------------------------------------|
+| [<br> Privacy<br> Policy](http://www.provantage.com/fpolicy.htm) \| [Terms &<br> Conditions](http://www.provantage.com/fterms.htm) \| [FREE<br> Catalog](http://www.provantage.com/scripts/add2list.dll/f/0) |
+|----|
 
-**©2001
-PROVANTAGE Corporation, 7249 Whipple Ave. NW, North Canton, OH 44720**
+**©2001<br> PROVANTAGE Corporation, 7249 Whipple Ave. NW, North Canton, OH 44720**
 
-Products,
-prices, terms, conditions, or offers may change at any time. Company
-and/or product names are generally trademarks, or registered trademarks
-of their respective companies. Some promotional text may be copyrighted
-by the product's manufacturer. 
+Products,<br> prices, terms, conditions, or offers may change at any time. Company<br> and/or product names are generally trademarks, or registered trademarks<br> of their respective companies. Some promotional text may be copyrighted<br> by the product's manufacturer. 
 
 The
 Original Advantage promotional email is delivered only to customers of
