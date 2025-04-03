@@ -27,7 +27,7 @@ numbered list:
 2. num2
 3. num3
 
-link to heading 3:  [[#heading3|heading3]]
+link to heading 3:  [heading3](#heading3)
 
 checklist:
 - [ ] unchecked

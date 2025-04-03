@@ -9,6 +9,10 @@ with image
 
 {{./test.png}}
 
+with resized image:
+
+{{./test.png?width=600}}
+
 and link upwards: [[Home]]
 --------------------
 and link to same level: [[empty page]]

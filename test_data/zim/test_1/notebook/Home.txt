@@ -13,4 +13,13 @@ Angelegt Mittwoch 10 Mai 2023
 
 
 link to note: [[page:nested page]]
-link to web: https://github.com/zim-desktop-wiki/zim-desktop-wiki
+
+link to web without title: https://github.com/zim-desktop-wiki/zim-desktop-wiki
+
+link to web with title: [[https://discourse.joplinapp.org/t/jimmy-a-joplin-import-tool/38503/23|TITLE]]
+
+lists with links:
+
+[ ] [[https://discourse.joplinapp.org/t/jimmy-a-joplin-import-tool/38503/23|TITLE]]
+[>] no link
+[*] [[page:nested page]]

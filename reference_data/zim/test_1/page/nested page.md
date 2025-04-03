@@ -2,6 +2,10 @@ with image
 
 ![test.png](test.png)
 
+with resized image:
+
+![test.png](test.png)
+
 and link upwards: [Home](../Home.md)
 
 ---
