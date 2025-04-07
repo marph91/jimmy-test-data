@@ -9,6 +9,7 @@ updated: {updated:%Y-%m-%dT%H:%M:%SZ}
 tags: {tags}
 resources: {resources}
 note_links: {note_links}
+custom_key: {custom_key}
 ---
 
 {body}
