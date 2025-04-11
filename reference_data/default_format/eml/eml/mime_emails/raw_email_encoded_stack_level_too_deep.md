@@ -1,5 +1,3 @@
-# Nicolas Fouché has accepted your invitation to Gmail
-
 Nicolas Fouché has accepted your invitation to Gmail and has chosen the 
 brand new address x.y@gmail.com. Be one of the first to email Nicolas 
 at this new Gmail address--just hit reply and send Nicolas a message. 

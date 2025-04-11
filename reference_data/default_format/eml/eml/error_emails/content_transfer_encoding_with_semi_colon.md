@@ -1,5 +1,3 @@
-# Attention
-
 Dear Homeowner,
 
  

@@ -1,3 +1,1 @@
-# Redacted
-
 foo

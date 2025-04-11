@@ -1,5 +1,3 @@
-# /home/svn/public/minebox revision 214
-
 <p><b>recordkick</b> 2007-10-22 23:45:23 +0000 (Mon, 22 Oct 2007)</p><p>test
 subversion<br>
 </p><hr noshade><pre><font color=\"gray\">Modified:

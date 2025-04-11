@@ -1,5 +1,3 @@
-# Fwd: Signed email causes file attachments
-
 We should not include these files or vcards as attachments.
 
 ---------- Forwarded message ----------

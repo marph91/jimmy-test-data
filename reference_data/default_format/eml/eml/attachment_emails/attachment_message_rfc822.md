@@ -1,5 +1,3 @@
-# testing
-
 This is the first part.
 
 Just attaching another PDF, here, to see what the message looks like,

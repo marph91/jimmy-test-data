@@ -1,5 +1,3 @@
-# Filth
-
 Some text
 
 

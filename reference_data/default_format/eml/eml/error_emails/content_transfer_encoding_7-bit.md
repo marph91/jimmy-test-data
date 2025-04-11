@@ -1,5 +1,3 @@
-# Discover(R) Card News Online - January 2002
-
 DISCOVERÃ CARD <http://discover.qrs1.net/s/r?l=5893&m=101BN3c3ce68600277550d>	  News Online <http://a948.g.akamai.net/7/948/166/01/discover.qrs1.net/images/newsonline_head.gif> January 2002 <http://a948.g.akamai.net/7/948/166/01/discover.qrs1.net/images/jan2002_head.gif>	 DISCOVER <http://a948.g.akamai.net/7/948/166/01/discover.qrs1.net/images/card-clasplat1_head.gif>	
 log in to the Account Center <http://discover.qrs1.net/s/r?l=5896&m=101BN3c3ce68600277550d>Internet ShopCenter(SM) <http://discover.qrs1.net/s/r?l=5900&m=101BN3c3ce68600277550d>	 
  In This Edition: <http://a948.g.akamai.net/7/948/166/01/discover.qrs1.net/images/thised_head.gif>	    <http://a948.g.akamai.net/7/948/166/01/discover.qrs1.net/images/bullet_gold_ds.gif>Be Charitable	     <http://a948.g.akamai.net/7/948/166/01/discover.qrs1.net/images/bullet_gold_ds.gif>Get Organized	     <http://a948.g.akamai.net/7/948/166/01/discover.qrs1.net/images/bullet_gold_ds.gif>Manage Your Finances Better	 

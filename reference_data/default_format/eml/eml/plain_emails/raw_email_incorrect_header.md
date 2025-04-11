@@ -1,5 +1,3 @@
-# None
-
 quite Delivered-To: xxx@xxx.xxx
 Received: by xxx.xxx.xxx (Wostfix, from userid xxx)
 	  id 0F87F333; Wed, 23 Feb 2005 16:16:17 -0600

@@ -1,5 +1,3 @@
-# Returned mail: see transcript for details
-
 The original message was received at Mon, 24 Dec 2007 10:03:47 +1100
 from 60-0-0-146.static.tttttt.com.au [60.0.0.146]
 

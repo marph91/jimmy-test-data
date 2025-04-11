@@ -1,5 +1,3 @@
-# Testing attachments
-
 Here is a test of an attachment via email.
 
 - Jamis

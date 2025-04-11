@@ -1,5 +1,3 @@
-# PGP Comments on RTO West Release of Dec. 14
-
 Attached are the comments of the Public Generating Pool.
 --
 _________________________________

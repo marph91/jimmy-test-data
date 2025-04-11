@@ -1,3 +1,1 @@
-# Re: TEST 	テストテスト
-
 Hello

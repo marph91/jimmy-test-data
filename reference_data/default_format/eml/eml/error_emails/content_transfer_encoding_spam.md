@@ -1,5 +1,3 @@
-# None
-
 middagh  oldusercompare
 othermachine  one-twist  natascha mz05 ntsoft  netvladi.Pimenovr
 

@@ -1,5 +1,3 @@
-# Undelivered Mail Returned to Sender
-
 This is the mail system at host lvmail01.LL.com.
 
 I'm sorry to have to inform you that your message could not

@@ -1,5 +1,3 @@
-# Western Union Swift Money Transfer
-
 Attention Beneficiary:
  
 This is to officially informed you that we have concluded arrangements to effect your payment of $1,500,000.00 United States Dollars through WESTERN UNION Swift Money transfer services today, but the maximum amount you will be receiving every day starting from tomorrow is $5,000.00 as reflected in our transfer system daily until the funds is completely transferred.

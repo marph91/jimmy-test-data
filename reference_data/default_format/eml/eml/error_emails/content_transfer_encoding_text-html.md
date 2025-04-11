@@ -1,5 +1,3 @@
-# Re: We will help you refinance your home.
-
 Hello,
 
 You have qualified for the lowest rate in years.  

@@ -1,5 +1,3 @@
-# None
-
 To    : Mary Smith
 __
           <mary@example.net>

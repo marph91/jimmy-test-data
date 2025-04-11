@@ -1,5 +1,3 @@
-# bookkeeping Get in on IGTS asap.
-
 acidness
 
           Exciting Easter Investor Alert

@@ -1,5 +1,3 @@
-# Warning: could not send message for past 1 day
-
     **********************************************
     **      THIS IS A WARNING MESSAGE ONLY      **
     **  YOU DO NOT NEED TO RESEND YOUR MESSAGE  **

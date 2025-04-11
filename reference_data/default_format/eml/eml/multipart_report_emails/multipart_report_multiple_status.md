@@ -1,5 +1,3 @@
-# Mail System Error - Returned Mail
-
 This Message was undeliverable due to the following reason:
 
 

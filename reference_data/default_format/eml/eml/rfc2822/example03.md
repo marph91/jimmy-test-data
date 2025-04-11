@@ -1,3 +1,1 @@
-# None
-
 Hi everyone.

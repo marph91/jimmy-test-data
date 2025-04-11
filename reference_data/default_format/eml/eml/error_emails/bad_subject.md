@@ -1,5 +1,3 @@
-# MySurvey.com:  You have a survey waiting!  91123105 
-
 You have a survey waiting!
 
 

@@ -1,5 +1,3 @@
-# The Original Advantage #e13011
-
 | ![](http://www.provantage.com/groupwork.jpg) |
 |----------------------------------------------|
 
