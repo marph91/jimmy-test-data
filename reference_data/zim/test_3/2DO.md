@@ -1,0 +1,16 @@
+- [ ] container runtime
+    - [ ] labels
+    - [ ] uid mapping
+- [ ] image spec
+    - [ ] optional features (user-selectable)
+- [ ] image cache
+    - [ ] add feature+version hash to image names / labels / tarballs
+    - [ ] auto-upload into container registry
+    - [ ] auto-purge of unused tarballs and images
+- [ ] frontend
+    - [ ] let run/deploy command automatically build image on demand
+- [ ] deployment
+    - [ ] cache all properties necessary for running into deployment descriptor, skip full spec loading
+    - [ ] scan through services and generate permission/config map
+- [ ] os-services
+    - [ ] cache dir vs tempdir
