@@ -1,0 +1,4 @@
+numbers
+boolean
+undefined
+symbols

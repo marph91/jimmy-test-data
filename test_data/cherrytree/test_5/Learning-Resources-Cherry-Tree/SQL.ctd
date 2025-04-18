@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <bookmarks list=""/>
+  <node unique_id="1" master_id="0" name="SQL" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1728524812" ts_lastsave="1729689121">
+    <node unique_id="3" master_id="0" name="Fundamentals" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1728524847" ts_lastsave="1728524847"/>
+    <node unique_id="4" master_id="0" name="select" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1728525923" ts_lastsave="1728525925">
+      <rich_text>Select * from Tablename;
+select   column  from  Tablename;
+</rich_text>
+    </node>
+    <node unique_id="5" master_id="0" name="Distinct" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1728526030" ts_lastsave="1728526032">
+      <rich_text>*****     
+used to select and display unique values from the tables
+
+*****
+
+select distinct columnname from tablename;
+
+
+</rich_text>
+    </node>
+    <node unique_id="6" master_id="0" name="where" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1728526121" ts_lastsave="1728526237">
+      <rich_text>*****
+
+where used for select delete update the content with specification
+
+******
+
+
+select * from tablename where salary &gt; 10k
+</rich_text>
+    </node>
+    <node unique_id="7" master_id="0" name="FUNCTION" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1728528173" ts_lastsave="1728532162">
+      <rich_text>******
+
+It includes various functions and methods
+	1.SELECT  MOD (3,2)
+	2.SELECT  ROUND(2.453232, 3)  =&gt; 3 Specifies the values that you need 
+	3.SELECT  FLOOR (3.8)            //  3
+	4.SELECT  CEILING  (3.8)       //4
+	5.SELECT  SQRT(16)                // 4
+	6.SELECT   POWER ( 2,3 )     // 2*2*2
+	
+	SELECT      ‘HELLO WORLD’
+					Select command used to prints values and content in the screen
+	
+	
+	
+	
+	</rich_text>
+    </node>
+    <node unique_id="9" master_id="0" name="Order By" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1728532183" ts_lastsave="1728565006">
+      <rich_text>select * from tablename order by columnname;
+
+SELECT * FROM PRODUCT ORDER BY PRICE ASC
+
+SELECT * FROM PRODUCT ORDER BY PRICE DESC;
+ </rich_text>
+    </node>
+    <node unique_id="10" master_id="0" name="SQL AND OR NOT" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1728565626" ts_lastsave="1728570316">
+      <rich_text>AND   = &gt;   This is used for combining multiple condition results
+OR   = &gt;  This is used for Select the values whether any one condition is true
+NOT = &gt; This is used for select the values only the condition is false
+
+
+
+SELECT * FROM TABLENAME WHERE SALARY&gt;10000 AND AGE&lt;35;
+
+SELECT * FROM Customers  WHERE NOT Country = </rich_text>
+      <rich_text foreground="#a52a2a">'Spain'</rich_text>
+      <rich_text>;
+
+
+
+</rich_text>
+    </node>
+    <node unique_id="11" master_id="0" name="INSERT" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1728570379" ts_lastsave="1728571096">
+      <rich_text>*****Insert Single row   ******
+
+INSERT INTO TABLENAME (col1 ,col2,col3 ) VALUES (val1,val2,val3);
+
+
+****Insert Multiple Row ****
+
+INSERT INTO TABLENAME (col1 ,col2,col3 ) VALUES (val1,val2,val3),(val1,val2,val3),(val1,val2,val3);</rich_text>
+    </node>
+    <node unique_id="12" master_id="0" name="NULL Values" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1728571224" ts_lastsave="1728571287">
+      <rich_text>NULL means empty values present in the field
+
+SELECT * FROM TABLENAME WHERE ID IS NULL;
+
+</rich_text>
+    </node>
+    <node unique_id="13" master_id="0" name="UPDATE" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1728571326" ts_lastsave="1728571339">
+      <rich_text>
+
+UPDATE TABLENAME SET COLUMN1=VALUE COLUMN2 =VALUE  WHERE ID = 2;
+</rich_text>
+    </node>
+    <node unique_id="14" master_id="0" name="DELETE" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1728822163" ts_lastsave="1728822165">
+      <rich_text>DELETE FROM TABLENAME WHERE ID = VALUE;
+
+DELETE FROM STUDENTS WHERE SNO=VALUE;
+</rich_text>
+    </node>
+    <node unique_id="15" master_id="0" name="LIMIT TOP FETCH" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1728823033" ts_lastsave="1729222220">
+      <rich_text>SELE C T * FROM TABLENAME LIMIT 3;
+
+
+SELECT * FROM TABLENAME WHERE ROWNUM=1;
+
+SELECT CITY, LENGTH(CITY)
+FROM (
+    SELECT CITY, LENGTH(CITY)
+    FROM STATION
+    ORDER BY LENGTH(CITY) DESC, CITY ASC
+)
+WHERE ROWNUM = 1;
+</rich_text>
+    </node>
+    <node unique_id="16" master_id="0" name="AGGREGATE FUNCRTION" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1728824443" ts_lastsave="1729262274">
+      <node unique_id="17" master_id="0" name="MIN MAX" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1728824450" ts_lastsave="1728824557">
+        <rich_text>MIN MAX function used to display longest and smallest value from the column
+
+when we apply this concept to the string column it will return the alphabetical order.
+
+
+apple
+orange
+zen
+candle
+
+
+for max function it return zen
+
+for min function it return apple
+
+</rich_text>
+      </node>
+      <node unique_id="19" master_id="0" name="COUNT" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1729047457" ts_lastsave="1729047459">
+        <rich_text>select count(id) from tablename;
+
+
+SELECT COUNT(QUANTITY) FROM PRODUCTS WHERE ID&gt;2;</rich_text>
+      </node>
+      <node unique_id="20" master_id="0" name="SUM" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1729047472" ts_lastsave="1729047489">
+        <rich_text>SELECT SUM (PRICE) FROM PRODUCTS WHERE ID=30;
+</rich_text>
+      </node>
+      <node unique_id="21" master_id="0" name="AVG" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1729047504" ts_lastsave="1729047506">
+        <rich_text>SELECT AVG(MARKS) FROM STUDENTS;
+</rich_text>
+      </node>
+      <node unique_id="33" master_id="0" name="ROUND" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1729262274" ts_lastsave="1729262360">
+        <rich_text>SELECT   ROUND( NUMBER ,  3)  FROM TABLENAME
+
+
+ROUND USED TO MENTION AND ROUNDUP THE DECIMEL VALUE.WE CAN SPECIFY THE VALUE AFTER DECIMAL POINT
+</rich_text>
+      </node>
+    </node>
+    <node unique_id="22" master_id="0" name="LIKE" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1729047616" ts_lastsave="1729047758">
+      <rich_text>SELECT * FROM TABLENAME WHERE NAME LIKE ‘G%’;
+
+% USED AS A WILDCARD VALUE;
+
+PERCENTAGE MENTIONS THE FORMAT OF THE PATTERN
+
+_ (underscore ) used to replace the single value in the word
+</rich_text>
+    </node>
+    <node unique_id="23" master_id="0" name="WILDCARDS" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1729047790" ts_lastsave="1729662127">
+      <rich_text justification="left"></rich_text>
+      <rich_text>
+
+
+select * from tablename where name like   ‘a%’;
+
+SELECT  *  FROM  TABLENAME  WHERE  NAME  LIKE ‘_ONDON’;
+
+SELECT * FROM TABLENAME WHERE NAME LIKE  ‘[ABC] %’;          =&gt;  It retrives the values from the table which starts from a,b or c letter.
+
+SELECT * FROM TABLENAME WHERE NAME LIKE ‘[A-F]%’;          =&gt;  It retrives the values from the table which starts from letters between A and F .
+
+SELECT * FROM  TABLENAME WHERE NAME LIKE ‘{*&amp;%^%}’              </rich_text>
+      <table char_offset="0" justification="left" col_min="60" col_max="60" col_widths="0,0">
+        <row>
+          <cell>_</cell>
+          <cell>Represents a single character</cell>
+        </row>
+        <row>
+          <cell>[]</cell>
+          <cell>Represents any single character within the brackets </cell>
+        </row>
+        <row>
+          <cell>^</cell>
+          <cell>Represents any character not in the brackets </cell>
+        </row>
+        <row>
+          <cell>-</cell>
+          <cell>Represents any single character within the specified range </cell>
+        </row>
+        <row>
+          <cell>{}</cell>
+          <cell>Represents any escaped character </cell>
+        </row>
+        <row>
+          <cell>%</cell>
+          <cell>Represents zero or more characters</cell>
+        </row>
+      </table>
+      <node unique_id="28" master_id="0" name="REGEXP" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1729223161" ts_lastsave="1729258312">
+        <rich_text>SELECT BASED ON FIRST LETTER :
+
+
+
+</rich_text>
+        <rich_text weight="heavy">MYSQL</rich_text>
+        <rich_text>
+
+SELECT * FROM TABLE WHERE CITY  REGEXP ‘^[AEIOUaeiou]’;
+
+
+</rich_text>
+        <rich_text weight="heavy">ORACLE SERVER  :  </rich_text>
+        <rich_text>
+
+SELECT * FROM TABLE WHERE REGEXP_LIKE(CITY, ‘^[AEIOUaeiou]’;
+
+
+
+</rich_text>
+        <rich_text weight="heavy">SQL SERVER   :  
+</rich_text>
+        <rich_text>
+SELECT * FROM TABLE WHERE CITY LIKE   ‘^[AEIOU]’;
+
+
+
+</rich_text>
+        <rich_text weight="heavy">SELECT BASED ON LAST LETTER : </rich_text>
+        <rich_text>
+
+SELECT DISTINCT CITY FROM   STATION  WHERE REGEXP_LIKE(CITY,'[AEIOU]$');
+
+</rich_text>
+        <rich_text weight="heavy">FOR EXCLUDING PARTICULAR CHARACTER WE CAN USE THIS :</rich_text>
+        <rich_text>
+
+SELECT DISTINCT CITY FROM STATION WHERE REGEXP_LIKE(CITY,</rich_text>
+        <rich_text weight="heavy">'^[^AEIOUaeiou]')</rich_text>
+        <rich_text>;</rich_text>
+      </node>
+      <node unique_id="35" master_id="0" name="SUBSTR" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1729662127" ts_lastsave="1729662418">
+        <rich_text>
+</rich_text>
+        <rich_text scale="h3" weight="heavy">SUBSTR in Oracle SQL</rich_text>
+        <rich_text>
+Used to retrieve a part of a string based on positions (similar to Python slicing).
+
+
+-- Extracts value starting from the 3rd position from the left
+SELECT SUBSTR(NAME, 3) FROM TABLENAME;
+
+
+</rich_text>
+        <rich_text scale="h4">Example:</rich_text>
+        <rich_text>
+If </rich_text>
+        <rich_text family="monospace">NAME = 'Cybersecurity'</rich_text>
+        <rich_text>, result = </rich_text>
+        <rich_text family="monospace">'bersecurity'</rich_text>
+        <rich_text>
+
+
+-- Extracts the last 3 characters (starting from the 3rd from the right)
+SELECT SUBSTR(NAME, -3) FROM TABLENAME;
+
+
+</rich_text>
+        <rich_text scale="h4">Example:</rich_text>
+        <rich_text>
+If </rich_text>
+        <rich_text family="monospace">NAME = 'Cybersecurity'</rich_text>
+        <rich_text>, result = </rich_text>
+        <rich_text family="monospace">'ity'</rich_text>
+        <rich_text>
+
+
+-- Extracts 4 characters starting from the 2nd position
+SELECT SUBSTR(NAME, 2, 4) FROM TABLENAME;
+
+
+</rich_text>
+        <rich_text scale="h4">Example:</rich_text>
+        <rich_text>
+If </rich_text>
+        <rich_text family="monospace">NAME = 'OracleSQL'</rich_text>
+        <rich_text>, result = </rich_text>
+        <rich_text family="monospace">'racl'</rich_text>
+        <rich_text>
+</rich_text>
+      </node>
+    </node>
+    <node unique_id="24" master_id="0" name="IN" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1729133887" ts_lastsave="1729133955">
+      <rich_text>SELECT  *  FROM  TABLENAME  WHERE COUNTRY  IN   ('MEXICO', 'NORWAY' , ‘US’) 
+
+
+IN operator used to fetch any particular values from bracket after in operator.
+
+
+</rich_text>
+    </node>
+    <node unique_id="25" master_id="0" name="NOT IN" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1729133983" ts_lastsave="1729134135">
+      <rich_text>SELECT  *  FROM  TABLENAME  WHERE  COUNTRY  NOT IN ('US' , 'DUBAI');
+
+
+
+NOT IN Operators used to ignore the particular values.</rich_text>
+    </node>
+    <node unique_id="26" master_id="0" name="BETWEEN" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1729134164" ts_lastsave="1729134377">
+      <rich_text>SELECT   *  FROM  TABLENAME  WHERE ID BETWEEN  10  AND  20;
+
+SELECT  *  FROM  TABLENAME  WHERE  VALUES  BETWEEN   A  AND  Z;
+
+
+SELECT  *  FROM  TABLENAME  WHERE  COUNTRY   BETWEEN   ‘ARABU’   AND   ‘MASCO’ ;
+
+SELECT  *  FROM  TABLENAME  WHERE  COUNTRY   NOT  BETWEEN  ‘MASCO  ’    AND    ‘SPAIN’ ;
+
+
+</rich_text>
+    </node>
+    <node unique_id="27" master_id="0" name="FUNCTIONS" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1729142734" ts_lastsave="1729142735">
+      <rich_text>
+</rich_text>
+      <rich_text scale="h3">1. </rich_text>
+      <rich_text scale="h3" weight="heavy">Aggregate Functions</rich_text>
+      <rich_text scale="h3">:</rich_text>
+      <rich_text>
+• </rich_text>
+      <rich_text family="monospace" weight="heavy">COUNT()</rich_text>
+      <rich_text>: Returns the count of rows.
+• </rich_text>
+      <rich_text family="monospace" weight="heavy">SUM()</rich_text>
+      <rich_text>: Returns the total sum of a numeric column.
+• </rich_text>
+      <rich_text family="monospace" weight="heavy">AVG()</rich_text>
+      <rich_text>: Returns the average value of a numeric column.
+• </rich_text>
+      <rich_text family="monospace" weight="heavy">MIN()</rich_text>
+      <rich_text>: Returns the smallest value.
+• </rich_text>
+      <rich_text family="monospace" weight="heavy">MAX()</rich_text>
+      <rich_text>: Returns the largest value.
+• </rich_text>
+      <rich_text family="monospace" weight="heavy">GROUP_CONCAT()</rich_text>
+      <rich_text>: Concatenates values from multiple rows into a single string.
+• </rich_text>
+      <rich_text family="monospace" weight="heavy">VARIANCE()</rich_text>
+      <rich_text>: Calculates the statistical variance.
+• </rich_text>
+      <rich_text family="monospace" weight="heavy">STDDEV()</rich_text>
+      <rich_text>: Calculates the standard deviation.
+
+
+</rich_text>
+      <rich_text scale="h3">2. </rich_text>
+      <rich_text scale="h3" weight="heavy">String Functions</rich_text>
+      <rich_text scale="h3">:</rich_text>
+      <rich_text>
+◇ </rich_text>
+      <rich_text family="monospace" weight="heavy">CONCAT()</rich_text>
+      <rich_text>: Combines two or more strings.
+◇ </rich_text>
+      <rich_text family="monospace" weight="heavy">SUBSTRING()</rich_text>
+      <rich_text weight="heavy"> / </rich_text>
+      <rich_text family="monospace" weight="heavy">SUBSTR()</rich_text>
+      <rich_text>: Extracts a part of a string.
+◇ </rich_text>
+      <rich_text family="monospace" weight="heavy">LENGTH()</rich_text>
+      <rich_text>: Returns the length of a string.
+◇ </rich_text>
+      <rich_text family="monospace" weight="heavy">TRIM()</rich_text>
+      <rich_text>: Removes spaces from the start and end of a string.
+◇ </rich_text>
+      <rich_text family="monospace" weight="heavy">UPPER()</rich_text>
+      <rich_text>: Converts a string to uppercase.
+◇ </rich_text>
+      <rich_text family="monospace" weight="heavy">LOWER()</rich_text>
+      <rich_text>: Converts a string to lowercase.
+◇ </rich_text>
+      <rich_text family="monospace" weight="heavy">REPLACE()</rich_text>
+      <rich_text>: Replaces occurrences of a substring.
+◇ </rich_text>
+      <rich_text family="monospace" weight="heavy">LEFT()</rich_text>
+      <rich_text>: Extracts a number of characters from the left side of a string.
+◇ </rich_text>
+      <rich_text family="monospace" weight="heavy">RIGHT()</rich_text>
+      <rich_text>: Extracts a number of characters from the right side.
+◇ </rich_text>
+      <rich_text family="monospace" weight="heavy">INSTR()</rich_text>
+      <rich_text>: Finds the position of a substring.
+
+
+</rich_text>
+      <rich_text scale="h3">3. </rich_text>
+      <rich_text scale="h3" weight="heavy">Date/Time Functions</rich_text>
+      <rich_text scale="h3">:</rich_text>
+      <rich_text>
+◇ </rich_text>
+      <rich_text family="monospace" weight="heavy">NOW()</rich_text>
+      <rich_text>: Returns the current date and time.
+◇ </rich_text>
+      <rich_text family="monospace" weight="heavy">CURDATE()</rich_text>
+      <rich_text>: Returns the current date.
+◇ </rich_text>
+      <rich_text family="monospace" weight="heavy">CURTIME()</rich_text>
+      <rich_text>: Returns the current time.
+◇ </rich_text>
+      <rich_text family="monospace" weight="heavy">DATE()</rich_text>
+      <rich_text>: Extracts the date part of a date/time expression.
+◇ </rich_text>
+      <rich_text family="monospace" weight="heavy">MONTH()</rich_text>
+      <rich_text>: Returns the month from a date.
+◇ </rich_text>
+      <rich_text family="monospace" weight="heavy">YEAR()</rich_text>
+      <rich_text>: Returns the year from a date.
+◇ </rich_text>
+      <rich_text family="monospace" weight="heavy">DAY()</rich_text>
+      <rich_text>: Returns the day from a date.
+◇ </rich_text>
+      <rich_text family="monospace" weight="heavy">DATEDIFF()</rich_text>
+      <rich_text>: Calculates the difference between two dates.
+◇ </rich_text>
+      <rich_text family="monospace" weight="heavy">DATE_ADD()</rich_text>
+      <rich_text>: Adds a time interval to a date.
+◇ </rich_text>
+      <rich_text family="monospace" weight="heavy">DATE_SUB()</rich_text>
+      <rich_text>: Subtracts a time interval from a date.
+
+
+</rich_text>
+      <rich_text scale="h3">4. </rich_text>
+      <rich_text scale="h3" weight="heavy">Numeric Functions</rich_text>
+      <rich_text scale="h3">:</rich_text>
+      <rich_text>
+◇ </rich_text>
+      <rich_text family="monospace" weight="heavy">ABS()</rich_text>
+      <rich_text>: Returns the absolute value of a number.
+◇ </rich_text>
+      <rich_text family="monospace" weight="heavy">CEIL()</rich_text>
+      <rich_text weight="heavy"> / </rich_text>
+      <rich_text family="monospace" weight="heavy">CEILING()</rich_text>
+      <rich_text>: Returns the smallest integer greater than or equal to a number.
+◇ </rich_text>
+      <rich_text family="monospace" weight="heavy">FLOOR()</rich_text>
+      <rich_text>: Returns the largest integer less than or equal to a number.
+◇ </rich_text>
+      <rich_text family="monospace" weight="heavy">ROUND()</rich_text>
+      <rich_text>: Rounds a number to a specified number of decimal places.
+◇ </rich_text>
+      <rich_text family="monospace" weight="heavy">POWER()</rich_text>
+      <rich_text>: Returns the value of a number raised to a power.
+◇ </rich_text>
+      <rich_text family="monospace" weight="heavy">SQRT()</rich_text>
+      <rich_text>: Returns the square root.
+◇ </rich_text>
+      <rich_text family="monospace" weight="heavy">MOD()</rich_text>
+      <rich_text>: Returns the remainder of a division.
+◇ </rich_text>
+      <rich_text family="monospace" weight="heavy">EXP()</rich_text>
+      <rich_text>: Returns e raised to the power of a number.
+◇ </rich_text>
+      <rich_text family="monospace" weight="heavy">LOG()</rich_text>
+      <rich_text>: Returns the natural logarithm.
+
+
+</rich_text>
+      <rich_text scale="h3">5. </rich_text>
+      <rich_text scale="h3" weight="heavy">Conversion Functions</rich_text>
+      <rich_text scale="h3">:</rich_text>
+      <rich_text>
+◇ </rich_text>
+      <rich_text family="monospace" weight="heavy">CAST()</rich_text>
+      <rich_text>: Converts a value from one data type to another.
+◇ </rich_text>
+      <rich_text family="monospace" weight="heavy">CONVERT()</rich_text>
+      <rich_text>: Similar to </rich_text>
+      <rich_text family="monospace">CAST()</rich_text>
+      <rich_text>, but more flexible with formats (supports charset conversion).
+◇ </rich_text>
+      <rich_text family="monospace" weight="heavy">TO_CHAR()</rich_text>
+      <rich_text>: Converts a number or date to a string (used in databases like Oracle).
+◇ </rich_text>
+      <rich_text family="monospace" weight="heavy">TO_DATE()</rich_text>
+      <rich_text>: Converts a string to a date (used in databases like Oracle).
+
+</rich_text>
+    </node>
+    <node unique_id="29" master_id="0" name="HACKER RANK SOLUTION" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1729257992" ts_lastsave="1729668647">
+      <node unique_id="30" master_id="0" name="WEATHER STATION 9" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1729258333" ts_lastsave="1729258334">
+        <rich_text>SELECT DISTINCT CITY FROM STATION WHERE REGEXP_LIKE(CITY,'^[^AEIOUaeiou]');</rich_text>
+      </node>
+      <node unique_id="31" master_id="0" name="WEATHER STATION 8" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1729258347" ts_lastsave="1729258348">
+        <rich_text>
+</rich_text>
+        <rich_text weight="heavy">WEATHER STATION 8</rich_text>
+        <rich_text>
+
+SELECT DISTINCT CITY FROM STATION WHERE REGEXP_LIKE (CITY,'[AEIOUaeiou]$') AND REGEXP_LIKE(CITY,'^[AEIOUaeiou]');</rich_text>
+      </node>
+      <node unique_id="32" master_id="0" name="WEATHER STATION 11" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1729259147" ts_lastsave="1729259148">
+        <rich_text>SELECT DISTINCT CITY FROM STATION WHERE REGEXP_LIKE (CITY, '^[^AEIOUaeiou]') OR REGEXP_LIKE(CITY, '[^AEIOUaeiou]$'); </rich_text>
+      </node>
+      <node unique_id="34" master_id="0" name="POPULATION CENSES" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1729606229" ts_lastsave="1729606264">
+        <rich_text>SELECT SUM(CITY.POPULATION) FROM CITY INNER JOIN COUNTRY ON CITY.COUNTRYCODE = COUNTRY.CODE WHERE CONTINENT='Asia';
+
+
+INNER JOIN FUNCTION
+
+Where condition used to select  asian content and . wildcards are used for mentioning the column name of the tables.</rich_text>
+      </node>
+      <node unique_id="36" master_id="0" name="HIgher than 75" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1729662536" ts_lastsave="1729662537">
+        <rich_text>SELECT Name FROM STUDENTS WHERE Marks&gt;75 ORDER BY SUBSTR(Name,-3)  ;</rich_text>
+      </node>
+      <node unique_id="37" master_id="0" name="TOP EARNERS" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1729664540" ts_lastsave="1729664541">
+        <rich_text>SELECT MAX(salary * months),Count(*) FROM Employee WHERE salary*months = (SELECT MAX(salary*months ) from Employee);
+
+
+Sub query</rich_text>
+      </node>
+      <node unique_id="38" master_id="0" name="WEATHER STATION 13" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1729664917" ts_lastsave="1729667878">
+        <rich_text>SELECT ROUND(SUM(LAT_N),4) FROM STATION WHERE LAT_N&gt;38.7880 AND LAT_N&lt;137.2345;
+
+
+TRUNC Function used to remove value from the decimal like round function
+
+
+result
+
+123.9864300034
+
+after trunc  4
+
+123.9864
+
+</rich_text>
+      </node>
+      <node unique_id="39" master_id="0" name="WEATHER STATION 14" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1729668074" ts_lastsave="1729668075">
+        <rich_text>SELECT TRUNC(MAX(LAT_N),4) FROM STATION WHERE LAT_N&lt;137.2345;
+
+</rich_text>
+      </node>
+      <node unique_id="40" master_id="0" name="WEATHER OBSERVATION 15" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1729668471" ts_lastsave="1729668472">
+        <rich_text>SELECT ROUND(LONG_W,4) FROM STATION WHERE LAT_N=(SELECT MAX(LAT_N) FROM STATION WHERE LAT_N&lt;137.2345);
+
+
+
+
+</rich_text>
+      </node>
+      <node unique_id="41" master_id="0" name="WEATHER STATION 16" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1729668647" ts_lastsave="1729669292">
+        <rich_text>SELECT ROUND(MIN(LAT_N),4) FROM STATION WHERE LAT_N&gt;38.7780;
+
+*****
+****
+***
+**
+*</rich_text>
+      </node>
+    </node>
+    <node unique_id="42" master_id="0" name="View" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1729687551" ts_lastsave="1729687718">
+      <rich_text>CREATE   VIEW   DISPLAY    AS   SELECT   *   FROM  TABLENAME;
+
+View is stored in the memory virtually 
+
+we can use the view instead of using select for multiple time
+
+it reduce the code complexity</rich_text>
+    </node>
+    <node unique_id="43" master_id="0" name="GROUP BY" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1729688398" ts_lastsave="1729689221">
+      <rich_text>SELECT * FROM TABLENAME GROUP BY  VALUE;
+
+
+SELECT COUNT(CustomerID), Country
+FROM Customers
+GROUP BY Country;
+
+
+Group values and display to the user
+</rich_text>
+    </node>
+    <node unique_id="44" master_id="0" name="HAVING" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1729689121" ts_lastsave="1729689158">
+      <rich_text>Having    keyword used to fetch values from the database based on the aggregate function values
+
+
+select * from employees having count(orderid)&gt;5;
+
+</rich_text>
+    </node>
+  </node>
+</cherrytree>

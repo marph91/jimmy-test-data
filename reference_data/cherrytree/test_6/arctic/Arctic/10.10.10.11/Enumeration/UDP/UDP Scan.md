@@ -1,0 +1,2 @@
+nmap -sU -p- target
+---

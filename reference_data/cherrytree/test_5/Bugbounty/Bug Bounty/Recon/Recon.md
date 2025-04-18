@@ -1,0 +1,2 @@
+- <https://systemweakness.com/bug-hunting-recon-methodology-part1-legionhunter-975b7bbe3231>
+- 

@@ -1,0 +1,6 @@
+- About Cyber Security
+- Domains WIthin Cyber Security
+- Skills
+      - Basic Understanding of Programing
+      - Fundamentals of Networking
+      - Data formats | Flow of the network  |  Pu

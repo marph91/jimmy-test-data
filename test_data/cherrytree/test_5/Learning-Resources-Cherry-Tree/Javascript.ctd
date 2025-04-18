@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <bookmarks list=""/>
+  <node unique_id="45" master_id="0" name="JAVASCRIPT" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1732632294" ts_lastsave="1739241258">
+    <rich_text>Act as an expert in javascript 10+ years of experience.my goal is to learn this skill from scratch as a complete beginner.i want you to break it down into simple and actionable steps that i can follow easily.each step should include :  
+⇒ a brief explanation(so iunderstand why its important ). 
+⇒  a simple excercise  or action i can take (so i can practice).
+⇒ a real world exapmple (so i see how it works in action ).
+⇒  common mistakes to avoid (so i dont waste time making errors).
+</rich_text>
+    <node unique_id="46" master_id="0" name="Output Methods" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1732632305" ts_lastsave="1739241911">
+      <rich_text>⇒  Document.getElementById ("idname").innerHTML  = 5+5
+⇒ Window.alert(20)
+      ◇ Windows is global scope so we dont need to mention
+⇒ console.log()
+⇒ document.write(operations)
+⇒ Print( )</rich_text>
+    </node>
+    <node unique_id="48" master_id="0" name="Console" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1739241911" ts_lastsave="1739241912">
+      <rich_text foreground="#9cdcfe">console</rich_text>
+      <rich_text foreground="#cccccc">.</rich_text>
+      <rich_text foreground="#dcdcaa">log</rich_text>
+      <rich_text foreground="#cccccc">(</rich_text>
+      <rich_text foreground="#ce9178">"Javascript Started"</rich_text>
+      <rich_text foreground="#cccccc">);</rich_text>
+      <rich_text>
+</rich_text>
+      <rich_text foreground="#9cdcfe">console</rich_text>
+      <rich_text foreground="#cccccc">.</rich_text>
+      <rich_text foreground="#dcdcaa">error</rich_text>
+      <rich_text foreground="#cccccc">(</rich_text>
+      <rich_text foreground="#ce9178">"rediect to unknown direction"</rich_text>
+      <rich_text foreground="#cccccc">);</rich_text>
+      <rich_text>
+</rich_text>
+      <rich_text foreground="#9cdcfe">console</rich_text>
+      <rich_text foreground="#cccccc">.</rich_text>
+      <rich_text foreground="#dcdcaa">warn</rich_text>
+      <rich_text foreground="#cccccc">(</rich_text>
+      <rich_text foreground="#ce9178">"password length is weak"</rich_text>
+      <rich_text foreground="#cccccc">);</rich_text>
+      <rich_text>
+
+</rich_text>
+    </node>
+    <node unique_id="47" master_id="0" name="Variables" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1738895723" ts_lastsave="1739243386">
+      <rich_text weight="heavy">Scope of the Variable : </rich_text>
+      <rich_text>
+
+</rich_text>
+      <rich_text foreground="#569cd6">var</rich_text>
+      <rich_text foreground="#cccccc"> </rich_text>
+      <rich_text foreground="#9cdcfe">user</rich_text>
+      <rich_text foreground="#d4d4d4">=</rich_text>
+      <rich_text foreground="#ce9178">"Gokul"</rich_text>
+      <rich_text foreground="#cccccc">;</rich_text>
+      <rich_text>
+</rich_text>
+      <rich_text foreground="#cccccc">{</rich_text>
+      <rich_text>
+</rich_text>
+      <rich_text foreground="#cccccc">    </rich_text>
+      <rich_text foreground="#569cd6">let</rich_text>
+      <rich_text foreground="#cccccc"> </rich_text>
+      <rich_text foreground="#9cdcfe">user</rich_text>
+      <rich_text foreground="#d4d4d4">=</rich_text>
+      <rich_text foreground="#ce9178">"Martin"</rich_text>
+      <rich_text foreground="#cccccc">;    </rich_text>
+      <rich_text foreground="#6a9955">//within scope can access</rich_text>
+      <rich_text>
+</rich_text>
+      <rich_text foreground="#cccccc">    </rich_text>
+      <rich_text foreground="#569cd6">const</rich_text>
+      <rich_text foreground="#cccccc">  </rich_text>
+      <rich_text foreground="#4fc1ff">lastname</rich_text>
+      <rich_text foreground="#d4d4d4">=</rich_text>
+      <rich_text foreground="#ce9178">"S"</rich_text>
+      <rich_text foreground="#cccccc">   </rich_text>
+      <rich_text foreground="#6a9955">//within scope can access</rich_text>
+      <rich_text>
+</rich_text>
+      <rich_text foreground="#cccccc">    </rich_text>
+      <rich_text foreground="#9cdcfe">console</rich_text>
+      <rich_text foreground="#cccccc">.</rich_text>
+      <rich_text foreground="#dcdcaa">log</rich_text>
+      <rich_text foreground="#cccccc">(</rich_text>
+      <rich_text foreground="#9cdcfe">user</rich_text>
+      <rich_text foreground="#cccccc">);</rich_text>
+      <rich_text>
+</rich_text>
+      <rich_text foreground="#cccccc">}</rich_text>
+      <rich_text>
+</rich_text>
+      <rich_text foreground="#9cdcfe">console</rich_text>
+      <rich_text foreground="#cccccc">.</rich_text>
+      <rich_text foreground="#dcdcaa">log</rich_text>
+      <rich_text foreground="#cccccc">(</rich_text>
+      <rich_text foreground="#9cdcfe">user</rich_text>
+      <rich_text foreground="#cccccc">);</rich_text>
+      <rich_text>
+</rich_text>
+      <rich_text foreground="#9cdcfe">console</rich_text>
+      <rich_text foreground="#cccccc">.</rich_text>
+      <rich_text foreground="#dcdcaa">log</rich_text>
+      <rich_text foreground="#cccccc">(</rich_text>
+      <rich_text foreground="#9cdcfe">user</rich_text>
+      <rich_text foreground="#cccccc">);</rich_text>
+      <rich_text>
+</rich_text>
+      <rich_text foreground="#9cdcfe">console</rich_text>
+      <rich_text foreground="#cccccc">.</rich_text>
+      <rich_text foreground="#dcdcaa">log</rich_text>
+      <rich_text foreground="#cccccc">(</rich_text>
+      <rich_text foreground="#9cdcfe">lastname</rich_text>
+      <rich_text foreground="#cccccc">);</rich_text>
+      <rich_text>
+
+</rich_text>
+      <rich_text weight="heavy">Redeclaration of Variables : </rich_text>
+      <rich_text>
+
+</rich_text>
+      <rich_text foreground="#569cd6">var</rich_text>
+      <rich_text foreground="#cccccc"> </rich_text>
+      <rich_text foreground="#9cdcfe">a</rich_text>
+      <rich_text foreground="#d4d4d4">=</rich_text>
+      <rich_text foreground="#b5cea8">10</rich_text>
+      <rich_text foreground="#cccccc">;</rich_text>
+      <rich_text>
+</rich_text>
+      <rich_text foreground="#9cdcfe">console</rich_text>
+      <rich_text foreground="#cccccc">.</rich_text>
+      <rich_text foreground="#dcdcaa">log</rich_text>
+      <rich_text foreground="#cccccc">(</rich_text>
+      <rich_text foreground="#9cdcfe">a</rich_text>
+      <rich_text foreground="#cccccc">);</rich_text>
+      <rich_text>     // 10
+</rich_text>
+      <rich_text foreground="#569cd6">var</rich_text>
+      <rich_text foreground="#cccccc"> </rich_text>
+      <rich_text foreground="#9cdcfe">a</rich_text>
+      <rich_text foreground="#cccccc"> </rich_text>
+      <rich_text foreground="#d4d4d4">=</rich_text>
+      <rich_text foreground="#b5cea8">20</rich_text>
+      <rich_text foreground="#cccccc">;</rich_text>
+      <rich_text>              
+</rich_text>
+      <rich_text foreground="#9cdcfe">console</rich_text>
+      <rich_text foreground="#cccccc">.</rich_text>
+      <rich_text foreground="#dcdcaa">log</rich_text>
+      <rich_text foreground="#cccccc">(</rich_text>
+      <rich_text foreground="#9cdcfe">a</rich_text>
+      <rich_text foreground="#cccccc">);</rich_text>
+      <rich_text>       //  20
+
+</rich_text>
+      <rich_text foreground="#569cd6">let</rich_text>
+      <rich_text foreground="#cccccc"> </rich_text>
+      <rich_text foreground="#9cdcfe">b</rich_text>
+      <rich_text foreground="#d4d4d4">=</rich_text>
+      <rich_text foreground="#b5cea8">10</rich_text>
+      <rich_text foreground="#cccccc">;</rich_text>
+      <rich_text>                       
+</rich_text>
+      <rich_text foreground="#569cd6">const</rich_text>
+      <rich_text foreground="#cccccc"> </rich_text>
+      <rich_text foreground="#4fc1ff">c</rich_text>
+      <rich_text foreground="#d4d4d4">=</rich_text>
+      <rich_text foreground="#b5cea8">20</rich_text>
+      <rich_text foreground="#cccccc">;</rich_text>
+      <rich_text>
+</rich_text>
+      <rich_text foreground="#9cdcfe">console</rich_text>
+      <rich_text foreground="#cccccc">.</rich_text>
+      <rich_text foreground="#dcdcaa">log</rich_text>
+      <rich_text foreground="#cccccc">(</rich_text>
+      <rich_text foreground="#9cdcfe">b</rich_text>
+      <rich_text foreground="#cccccc">);</rich_text>
+      <rich_text>         //10
+</rich_text>
+      <rich_text foreground="#9cdcfe">console</rich_text>
+      <rich_text foreground="#cccccc">.</rich_text>
+      <rich_text foreground="#dcdcaa">log</rich_text>
+      <rich_text foreground="#cccccc">(</rich_text>
+      <rich_text foreground="#9cdcfe">b</rich_text>
+      <rich_text foreground="#cccccc">);</rich_text>
+      <rich_text>        //  20
+
+</rich_text>
+      <rich_text weight="heavy">Value reassign :</rich_text>
+      <rich_text>
+
+</rich_text>
+      <rich_text foreground="#569cd6">var</rich_text>
+      <rich_text foreground="#cccccc"> </rich_text>
+      <rich_text foreground="#9cdcfe">d</rich_text>
+      <rich_text foreground="#d4d4d4">=</rich_text>
+      <rich_text foreground="#b5cea8">10</rich_text>
+      <rich_text foreground="#cccccc">;</rich_text>
+      <rich_text>
+</rich_text>
+      <rich_text foreground="#9cdcfe">d</rich_text>
+      <rich_text foreground="#d4d4d4">=</rich_text>
+      <rich_text foreground="#b5cea8">11</rich_text>
+      <rich_text foreground="#cccccc">;              </rich_text>
+      <rich_text>
+</rich_text>
+      <rich_text foreground="#9cdcfe">console</rich_text>
+      <rich_text foreground="#cccccc">.</rich_text>
+      <rich_text foreground="#dcdcaa">log</rich_text>
+      <rich_text foreground="#cccccc">(</rich_text>
+      <rich_text foreground="#9cdcfe">d</rich_text>
+      <rich_text foreground="#cccccc">);</rich_text>
+      <rich_text>
+</rich_text>
+      <rich_text foreground="#569cd6">let</rich_text>
+      <rich_text foreground="#cccccc"> </rich_text>
+      <rich_text foreground="#9cdcfe">e</rich_text>
+      <rich_text foreground="#d4d4d4">=</rich_text>
+      <rich_text foreground="#b5cea8">10</rich_text>
+      <rich_text foreground="#cccccc">;</rich_text>
+      <rich_text>
+</rich_text>
+      <rich_text foreground="#9cdcfe">e</rich_text>
+      <rich_text foreground="#d4d4d4">=</rich_text>
+      <rich_text foreground="#b5cea8">11</rich_text>
+      <rich_text foreground="#cccccc">;</rich_text>
+      <rich_text>
+</rich_text>
+      <rich_text foreground="#9cdcfe">console</rich_text>
+      <rich_text foreground="#cccccc">.</rich_text>
+      <rich_text foreground="#dcdcaa">log</rich_text>
+      <rich_text foreground="#cccccc">(</rich_text>
+      <rich_text foreground="#9cdcfe">e</rich_text>
+      <rich_text foreground="#cccccc">);</rich_text>
+      <rich_text>
+</rich_text>
+      <rich_text foreground="#569cd6">const</rich_text>
+      <rich_text foreground="#cccccc"> </rich_text>
+      <rich_text foreground="#4fc1ff">f</rich_text>
+      <rich_text foreground="#d4d4d4">=</rich_text>
+      <rich_text foreground="#b5cea8">20</rich_text>
+      <rich_text foreground="#cccccc">;</rich_text>
+      <rich_text>
+</rich_text>
+      <rich_text foreground="#4fc1ff">f</rich_text>
+      <rich_text foreground="#d4d4d4">=</rich_text>
+      <rich_text foreground="#b5cea8">30</rich_text>
+      <rich_text foreground="#cccccc">;                  </rich_text>
+      <rich_text foreground="#6a9955">// cant reassign `const` like this</rich_text>
+      <rich_text>
+</rich_text>
+      <rich_text foreground="#9cdcfe">console</rich_text>
+      <rich_text foreground="#cccccc">.</rich_text>
+      <rich_text foreground="#dcdcaa">log</rich_text>
+      <rich_text foreground="#cccccc">(</rich_text>
+      <rich_text foreground="#4fc1ff">f</rich_text>
+      <rich_text foreground="#cccccc">);</rich_text>
+      <rich_text>
+
+</rich_text>
+      <rich_text weight="heavy">Object is assigned as a values  for const we can change the values</rich_text>
+      <rich_text>
+
+</rich_text>
+      <rich_text foreground="#569cd6">const</rich_text>
+      <rich_text foreground="#cccccc"> </rich_text>
+      <rich_text foreground="#4fc1ff">college</rich_text>
+      <rich_text foreground="#d4d4d4">=</rich_text>
+      <rich_text foreground="#cccccc">{</rich_text>
+      <rich_text foreground="#ce9178">"name"</rich_text>
+      <rich_text foreground="#9cdcfe">:</rich_text>
+      <rich_text foreground="#ce9178">"gokul"</rich_text>
+      <rich_text foreground="#cccccc">,</rich_text>
+      <rich_text foreground="#ce9178">"age"</rich_text>
+      <rich_text foreground="#9cdcfe">:</rich_text>
+      <rich_text foreground="#b5cea8">11</rich_text>
+      <rich_text foreground="#cccccc">};</rich_text>
+      <rich_text>
+</rich_text>
+      <rich_text foreground="#9cdcfe">console</rich_text>
+      <rich_text foreground="#cccccc">.</rich_text>
+      <rich_text foreground="#dcdcaa">log</rich_text>
+      <rich_text foreground="#cccccc">(</rich_text>
+      <rich_text foreground="#4fc1ff">college</rich_text>
+      <rich_text foreground="#cccccc">);</rich_text>
+      <rich_text>
+</rich_text>
+      <rich_text foreground="#9cdcfe">console</rich_text>
+      <rich_text foreground="#cccccc">.</rich_text>
+      <rich_text foreground="#dcdcaa">log</rich_text>
+      <rich_text foreground="#cccccc">(</rich_text>
+      <rich_text foreground="#4fc1ff">college</rich_text>
+      <rich_text foreground="#cccccc">.</rich_text>
+      <rich_text foreground="#9cdcfe">name</rich_text>
+      <rich_text foreground="#cccccc">);</rich_text>
+      <rich_text>
+</rich_text>
+      <rich_text foreground="#4fc1ff">college</rich_text>
+      <rich_text foreground="#cccccc">.</rich_text>
+      <rich_text foreground="#9cdcfe">name</rich_text>
+      <rich_text foreground="#d4d4d4">=</rich_text>
+      <rich_text foreground="#ce9178">"Hari"</rich_text>
+      <rich_text>
+</rich_text>
+      <rich_text foreground="#9cdcfe">console</rich_text>
+      <rich_text foreground="#cccccc">.</rich_text>
+      <rich_text foreground="#dcdcaa">log</rich_text>
+      <rich_text foreground="#cccccc">(</rich_text>
+      <rich_text foreground="#4fc1ff">college</rich_text>
+      <rich_text foreground="#cccccc">);</rich_text>
+      <rich_text>
+
+
+
+
+
+</rich_text>
+    </node>
+    <node unique_id="49" master_id="0" name="DataTypes" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1739243386" ts_lastsave="1739244004">
+      <rich_text>numbers
+boolean
+undefined
+symbols
+</rich_text>
+    </node>
+  </node>
+</cherrytree>

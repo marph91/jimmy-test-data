@@ -1,0 +1,3 @@
+- Nuclei used to detect vulnerbility of the target besed on the templates
+- Debug mode used to analyse the requests and responses
+- 

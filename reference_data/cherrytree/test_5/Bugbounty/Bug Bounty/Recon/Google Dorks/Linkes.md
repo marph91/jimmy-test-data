@@ -1,0 +1,3 @@
+- <https://medium.com/@qaafqasim/40-google-dorks-to-find-bug-bounty-programs-unveiling-the-hidden-site-98e134762886>
+- <https://github.com/Proviesec/google-dorks/>
+- <https://dorks.faisalahmed.me/#>

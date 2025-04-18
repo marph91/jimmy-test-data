@@ -1,0 +1,4 @@
+- <https://github.com/gotr00t0day/spyhunt>    :   **SPYHUNT**
+      - Spyhunt is comprehensive network scanning and vulnerability assessment tool
+      - Includes many functionality and features to recon
+- 

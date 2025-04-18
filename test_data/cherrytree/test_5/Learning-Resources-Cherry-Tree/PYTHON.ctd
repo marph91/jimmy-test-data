@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <bookmarks list=""/>
+  <node unique_id="43" master_id="0" name="PYTHON" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1729687655" ts_lastsave="1731307071">
+    <node unique_id="44" master_id="0" name="INTRODUCTION" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1729736194" ts_lastsave="1729736197">
+      <rich_text>Python is a case sensitive language
+</rich_text>
+    </node>
+    <node unique_id="45" master_id="0" name="SYNTAX" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1729737934" ts_lastsave="1729737978">
+      <rich_text weight="heavy">Variable</rich_text>
+      <rich_text>
+
+X=5
+Y="Hello"
+
+</rich_text>
+      <rich_text weight="heavy">
+Comments</rich_text>
+      <rich_text>
+
+# This is for single line comment
+
+“ ” "    This 
+is for 
+multi
+line 
+comment
+
+“ ” "
+
+
+</rich_text>
+    </node>
+    <node unique_id="46" master_id="0" name="VARIABLES" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1729738688" ts_lastsave="1729942844">
+      <rich_text>x = 5
+y = “John”
+
+print(type(x))
+
+print(type(y))   =&gt;  used to print variable type
+
+
+</rich_text>
+      <rich_text weight="heavy">Assign Multiple value
+
+</rich_text>
+      <rich_text>x , y , z  = “Orange ” , “Apple  ”  ,  “Mango ”
+
+print(x)
+print(y)
+print(z)</rich_text>
+      <rich_text weight="heavy">
+</rich_text>
+      <rich_text>
+</rich_text>
+      <rich_text weight="heavy">Output Variable</rich_text>
+      <rich_text>
+
+print(x)
+
+
+
+Either we can mention Global keyword to make the variable global
+
+x= </rich_text>
+      <rich_text foreground="#a31515">"Python"</rich_text>
+      <rich_text>
+
+</rich_text>
+      <rich_text foreground="#0000ff">def</rich_text>
+      <rich_text> </rich_text>
+      <rich_text foreground="#795e26">func</rich_text>
+      <rich_text>():
+    </rich_text>
+      <rich_text foreground="#0000ff">print</rich_text>
+      <rich_text>(x)
+
+</rich_text>
+      <rich_text foreground="#0000ff">def</rich_text>
+      <rich_text> </rich_text>
+      <rich_text foreground="#795e26">func2</rich_text>
+      <rich_text>():
+    </rich_text>
+      <rich_text foreground="#0000ff">print</rich_text>
+      <rich_text>(x)
+    </rich_text>
+      <rich_text foreground="#0000ff">global</rich_text>
+      <rich_text> y
+    y =</rich_text>
+      <rich_text foreground="#a31515">"Change"</rich_text>
+      <rich_text>
+    </rich_text>
+      <rich_text foreground="#0000ff">print</rich_text>
+      <rich_text>(y)
+func()
+func2()
+
+</rich_text>
+      <node unique_id="47" master_id="0" name="Global Variables" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1729942586" ts_lastsave="1729942604">
+        <rich_text>x= “Awesome”
+
+def myfunc():
+		print("Python is" +  x)
+		
+myfunc()
+
+
+</rich_text>
+      </node>
+    </node>
+    <node unique_id="48" master_id="0" name="DATATYPE" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1729943186" ts_lastsave="1731306984">
+      <rich_text justification="left"></rich_text>
+      <rich_text>
+</rich_text>
+      <table char_offset="0" justification="left" col_min="60" col_max="60" col_widths="0,0">
+        <row>
+          <cell>Numeric Types:</cell>
+          <cell>int, float,    complex</cell>
+        </row>
+        <row>
+          <cell>Sequence Types:</cell>
+          <cell>list, tuple,     range</cell>
+        </row>
+        <row>
+          <cell>Mapping Type:</cell>
+          <cell>dict</cell>
+        </row>
+        <row>
+          <cell>Set Types:</cell>
+          <cell>set, frozenset</cell>
+        </row>
+        <row>
+          <cell>Boolean Type:</cell>
+          <cell>bool</cell>
+        </row>
+        <row>
+          <cell>Binary Types:</cell>
+          <cell>bytes, bytearray,     memoryview</cell>
+        </row>
+        <row>
+          <cell>None Type:</cell>
+          <cell>NoneType</cell>
+        </row>
+        <row>
+          <cell>Text Type:</cell>
+          <cell>str</cell>
+        </row>
+      </table>
+      <node unique_id="49" master_id="0" name="NUMBERS" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1729943408" ts_lastsave="1731306924">
+        <rich_text>INT   
+FLOAT
+COMPLEX    6+4j
+
+
+Numbers with unlimited digits
+</rich_text>
+      </node>
+    </node>
+    <node unique_id="54" master_id="0" name="OPERATORS" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1731290296" ts_lastsave="1731290304">
+      <node unique_id="55" master_id="0" name="Division" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1731290304" ts_lastsave="1731290335">
+        <rich_text>Float Division      A   /   B   
+
+Integer Division    A // B   </rich_text>
+      </node>
+    </node>
+    <node unique_id="57" master_id="0" name="TYPE CASTING" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1731307004" ts_lastsave="1731307007">
+      <rich_text>X= int (2)
+y= float (2.5)
+z= float(2)
+
+</rich_text>
+    </node>
+    <node unique_id="58" master_id="0" name="STRINGS" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1731307071" ts_lastsave="1731309095">
+      <rich_text>String =  “ Helow i am Gabrilla”
+
+print  (  ‘i’  in String )   //  True
+print  (  ‘am ’  not  in String )</rich_text>
+      <node unique_id="60" master_id="0" name="Slicing" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1731309095" ts_lastsave="1731309485">
+        <rich_text>
+
+</rich_text>
+        <rich_text weight="heavy">Text [  start   :  end   :  number of steps to skip  ]</rich_text>
+        <rich_text>
+
+⇒ </rich_text>
+        <rich_text weight="heavy">Starting position is represented with  possitive values  
+⇒ Values from end is represented with negative Values</rich_text>
+        <rich_text>
+</rich_text>
+        <rich_text weight="heavy">⇒ Steps count used to skip and reverse the strings </rich_text>
+        <rich_text>
+
+
+a = "Hello world"
+b = "Python Programming"
+c = "abcdefghij"
+d = "Example"
+e = "Cybersecurity"
+f = "Information"
+g = "abcdefghij"
+h = "username@gmail.com"
+i = "Networking"
+j = "Programming"
+
+
+print(a[6:12])  # Output: world
+print(b[::-1])  # Output: gnimmargorP nohtyP
+print(c[::3])   # Output: adgj
+print(d[1:-1])  # Output: xampl
+print(e[3:8])   # Output: ersec
+print(f[:])     # Output: Information
+print(g[::-2])  # Output: jhfdb
+print(i[-3:])   # Output: ing
+
+
+</rich_text>
+      </node>
+    </node>
+    <node unique_id="59" master_id="0" name="Booleans" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1731307081" ts_lastsave="1731307081"/>
+  </node>
+  <node unique_id="50" master_id="0" name="HACKERRANK PROBLEMS" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1731289808" ts_lastsave="1731290028">
+    <node unique_id="51" master_id="0" name="If Else" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1731289820" ts_lastsave="1731289821">
+      <rich_text foreground="#137c36">#!/bin/python3</rich_text>
+      <rich_text>
+
+</rich_text>
+      <rich_text foreground="#0000ff">import</rich_text>
+      <rich_text> math
+</rich_text>
+      <rich_text foreground="#0000ff">import</rich_text>
+      <rich_text> os
+</rich_text>
+      <rich_text foreground="#0000ff">import</rich_text>
+      <rich_text> random
+</rich_text>
+      <rich_text foreground="#0000ff">import</rich_text>
+      <rich_text> re
+</rich_text>
+      <rich_text foreground="#0000ff">import</rich_text>
+      <rich_text> sys
+
+
+
+</rich_text>
+      <rich_text foreground="#0000ff">if</rich_text>
+      <rich_text> </rich_text>
+      <rich_text foreground="#0000ff">__name__</rich_text>
+      <rich_text> == </rich_text>
+      <rich_text foreground="#a31515">'__main__'</rich_text>
+      <rich_text>:
+    n = </rich_text>
+      <rich_text foreground="#0000ff">int</rich_text>
+      <rich_text>(</rich_text>
+      <rich_text foreground="#0000ff">input</rich_text>
+      <rich_text>().strip())
+</rich_text>
+      <rich_text foreground="#0000ff">if</rich_text>
+      <rich_text> n%</rich_text>
+      <rich_text foreground="#137c36">2</rich_text>
+      <rich_text>==</rich_text>
+      <rich_text foreground="#137c36">1</rich_text>
+      <rich_text>:
+    </rich_text>
+      <rich_text foreground="#0000ff">print</rich_text>
+      <rich_text>(</rich_text>
+      <rich_text foreground="#a31515">"Weird"</rich_text>
+      <rich_text>)
+</rich_text>
+      <rich_text foreground="#0000ff">elif</rich_text>
+      <rich_text> n%</rich_text>
+      <rich_text foreground="#137c36">2</rich_text>
+      <rich_text>==</rich_text>
+      <rich_text foreground="#137c36">0</rich_text>
+      <rich_text> </rich_text>
+      <rich_text foreground="#0000ff">and</rich_text>
+      <rich_text> </rich_text>
+      <rich_text foreground="#137c36">1</rich_text>
+      <rich_text>&lt;n&gt;</rich_text>
+      <rich_text foreground="#137c36">6</rich_text>
+      <rich_text>:
+    </rich_text>
+      <rich_text foreground="#0000ff">print</rich_text>
+      <rich_text>(</rich_text>
+      <rich_text foreground="#a31515">"Not Weird"</rich_text>
+      <rich_text>)
+</rich_text>
+      <rich_text foreground="#0000ff">elif</rich_text>
+      <rich_text> n%</rich_text>
+      <rich_text foreground="#137c36">2</rich_text>
+      <rich_text>==</rich_text>
+      <rich_text foreground="#137c36">0</rich_text>
+      <rich_text> </rich_text>
+      <rich_text foreground="#0000ff">and</rich_text>
+      <rich_text> </rich_text>
+      <rich_text foreground="#137c36">5</rich_text>
+      <rich_text>&lt;n&gt;</rich_text>
+      <rich_text foreground="#137c36">21</rich_text>
+      <rich_text>:
+    </rich_text>
+      <rich_text foreground="#0000ff">print</rich_text>
+      <rich_text>(</rich_text>
+      <rich_text foreground="#a31515">"Weird"</rich_text>
+      <rich_text>)
+</rich_text>
+      <rich_text foreground="#0000ff">elif</rich_text>
+      <rich_text> n%</rich_text>
+      <rich_text foreground="#137c36">2</rich_text>
+      <rich_text>==</rich_text>
+      <rich_text foreground="#137c36">0</rich_text>
+      <rich_text> </rich_text>
+      <rich_text foreground="#0000ff">and</rich_text>
+      <rich_text> n&gt;</rich_text>
+      <rich_text foreground="#137c36">20</rich_text>
+      <rich_text>:
+    </rich_text>
+      <rich_text foreground="#0000ff">print</rich_text>
+      <rich_text>(</rich_text>
+      <rich_text foreground="#a31515">"Not Weird"</rich_text>
+      <rich_text>)
+
+
+
+</rich_text>
+    </node>
+    <node unique_id="52" master_id="0" name="Arithmetic" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1731289899" ts_lastsave="1731289900">
+      <rich_text foreground="#0000ff">if</rich_text>
+      <rich_text> </rich_text>
+      <rich_text foreground="#0000ff">__name__</rich_text>
+      <rich_text> == </rich_text>
+      <rich_text foreground="#a31515">'__main__'</rich_text>
+      <rich_text>:
+    a = </rich_text>
+      <rich_text foreground="#0000ff">int</rich_text>
+      <rich_text>(</rich_text>
+      <rich_text foreground="#0000ff">input</rich_text>
+      <rich_text>())
+    b = </rich_text>
+      <rich_text foreground="#0000ff">int</rich_text>
+      <rich_text>(</rich_text>
+      <rich_text foreground="#0000ff">input</rich_text>
+      <rich_text>())
+    </rich_text>
+      <rich_text foreground="#0000ff">print</rich_text>
+      <rich_text>(a+b)
+    </rich_text>
+      <rich_text foreground="#0000ff">print</rich_text>
+      <rich_text>(a-b)
+    </rich_text>
+      <rich_text foreground="#0000ff">print</rich_text>
+      <rich_text>(a*b)
+
+</rich_text>
+    </node>
+    <node unique_id="53" master_id="0" name="Division" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1731290028" ts_lastsave="1731290207">
+      <rich_text weight="heavy">Integer  Division    =&gt;   a//b     3//2    =  1
+Float Division         =&gt;   a/b   3/2   = 1.5</rich_text>
+      <rich_text>
+
+
+
+</rich_text>
+      <rich_text foreground="#ff636f" weight="heavy">if</rich_text>
+      <rich_text foreground="#d4d4d4"> </rich_text>
+      <rich_text foreground="#ff636f" weight="heavy">__name__</rich_text>
+      <rich_text foreground="#d4d4d4"> == </rich_text>
+      <rich_text foreground="#9ddf6e">'__main__'</rich_text>
+      <rich_text foreground="#dcdcdc">:</rich_text>
+      <rich_text>
+</rich_text>
+      <rich_text foreground="#d4d4d4">    </rich_text>
+      <rich_text foreground="#63b7fc">a</rich_text>
+      <rich_text foreground="#d4d4d4"> = </rich_text>
+      <rich_text foreground="#ff636f" weight="heavy">int</rich_text>
+      <rich_text foreground="#dcdcdc">(</rich_text>
+      <rich_text foreground="#ff636f" weight="heavy">input</rich_text>
+      <rich_text foreground="#dcdcdc">())</rich_text>
+      <rich_text>
+</rich_text>
+      <rich_text foreground="#d4d4d4">    </rich_text>
+      <rich_text foreground="#63b7fc">b</rich_text>
+      <rich_text foreground="#d4d4d4"> = </rich_text>
+      <rich_text foreground="#ff636f" weight="heavy">int</rich_text>
+      <rich_text foreground="#dcdcdc">(</rich_text>
+      <rich_text foreground="#ff636f" weight="heavy">input</rich_text>
+      <rich_text foreground="#dcdcdc">())</rich_text>
+      <rich_text>
+</rich_text>
+      <rich_text foreground="#d4d4d4">    </rich_text>
+      <rich_text foreground="#ff636f" weight="heavy">print</rich_text>
+      <rich_text foreground="#dcdcdc">(</rich_text>
+      <rich_text foreground="#63b7fc">a</rich_text>
+      <rich_text foreground="#d4d4d4">//</rich_text>
+      <rich_text foreground="#63b7fc">b</rich_text>
+      <rich_text foreground="#dcdcdc">)</rich_text>
+      <rich_text>
+</rich_text>
+      <rich_text foreground="#d4d4d4">    </rich_text>
+      <rich_text foreground="#ff636f" weight="heavy">print</rich_text>
+      <rich_text foreground="#dcdcdc">(</rich_text>
+      <rich_text foreground="#63b7fc">a</rich_text>
+      <rich_text foreground="#d4d4d4">/</rich_text>
+      <rich_text foreground="#63b7fc">b</rich_text>
+      <rich_text foreground="#dcdcdc">)</rich_text>
+      <rich_text>
+
+</rich_text>
+    </node>
+  </node>
+</cherrytree>

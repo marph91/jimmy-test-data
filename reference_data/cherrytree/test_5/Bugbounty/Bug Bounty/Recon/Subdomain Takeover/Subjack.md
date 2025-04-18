@@ -1,0 +1,2 @@
+subjack   -h  hostname
+
