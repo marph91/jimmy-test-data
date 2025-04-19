@@ -1,0 +1,9 @@
+- Page references are links to [Pages](Pages.md) in your graph
+- You can reference an existing page by typing `[[`, which will open a dropdown menu with reference it in place or reference an existing page
+    - All references to a page that have been linked through this method will appear in that pages [Linked References](Linked%20References.md)
+    - You can transform any mention of a page to a page reference by opening up the [Unlinked References](Unlinked%20References.md) underneath where you can see and link all the mentions of a page that haven't been linked yet
+- Roam Team Videos::
+    - ((Hag_jBWHL))
+    - [wAIwtPtaE](Bidirectional%20linking.md)
+- Community Videos::
+- Articles::

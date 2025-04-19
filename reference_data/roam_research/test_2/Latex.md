@@ -1,0 +1,4 @@
+- Description::
+    - Any text entered with `$$double dollar signs$$` will be evaluated as latex, using [Khan Academy](Khan%20Academy.md)'s katex typesetting library -- see docs for that here https://katex.org/ - particularly here https://katex.org/docs/supported.html
+- [Change Log](Change%20Log.md)
+    - {{embed-path: [UvCvJ2V3T](Change%20Log.md)}}

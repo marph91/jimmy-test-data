@@ -1,0 +1,13 @@
+- You can upload and embed files in Roam, including audio, PDFs, and images, so you can access files right on the spot  
+    - Upload audio [Audio Player](Audio%20Player.md)
+        - [rqnAU0u4n](Audio%20Player.md)
+    - Upload PDFs 
+        - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fhelp-documentation%2FSV5zdzJ_v6.gif?alt=media&token=1cd664ff-cd24-4b0e-80fb-8b139841b07c)
+    - Upload [Images](Images.md)
+        - [p5C0KD6Ju](Images.md)
+- Community Videos::
+    - Roam Research: Adding a File by [Les Kristofs](Les%20Kristofs.md)
+        - <https://www.youtube.com/watch?v=JgT_zGrudko>
+#Upload-Files | #/-Commands
+- Key Commands::
+    - `/upload`
