@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2025-04-20T22:49:26+02:00
+
+====== example-page ======
+Angelegt Sonntag 20 April 2025
+
+attachment: [[./non-zim-text-attachment.txt]]
