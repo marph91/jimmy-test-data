@@ -1,5 +1,5 @@
 
-### 1. ### **Aggregate Functions**### :
+### 1. **Aggregate Functions**:
 - **`COUNT()`**: Returns the count of rows.
 - **`SUM()`**: Returns the total sum of a numeric column.
 - **`AVG()`**: Returns the average value of a numeric column.
@@ -10,7 +10,7 @@
 - **`STDDEV()`**: Calculates the standard deviation.
 
 
-### 2. ### **String Functions**### :
+### 2. **String Functions**:
 - **`CONCAT()`**: Combines two or more strings.
 - **`SUBSTRING()`** **/** **`SUBSTR()`**: Extracts a part of a string.
 - **`LENGTH()`**: Returns the length of a string.
@@ -23,7 +23,7 @@
 - **`INSTR()`**: Finds the position of a substring.
 
 
-### 3. ### **Date/Time Functions**### :
+### 3. **Date/Time Functions**:
 - **`NOW()`**: Returns the current date and time.
 - **`CURDATE()`**: Returns the current date.
 - **`CURTIME()`**: Returns the current time.
@@ -36,7 +36,7 @@
 - **`DATE_SUB()`**: Subtracts a time interval from a date.
 
 
-### 4. ### **Numeric Functions**### :
+### 4. **Numeric Functions**:
 - **`ABS()`**: Returns the absolute value of a number.
 - **`CEIL()`** **/** **`CEILING()`**: Returns the smallest integer greater than or equal to a number.
 - **`FLOOR()`**: Returns the largest integer less than or equal to a number.
@@ -48,7 +48,7 @@
 - **`LOG()`**: Returns the natural logarithm.
 
 
-### 5. ### **Conversion Functions**### :
+### 5. **Conversion Functions**:
 - **`CAST()`**: Converts a value from one data type to another.
 - **`CONVERT()`**: Similar to `CAST()`, but more flexible with formats (supports charset conversion).
 - **`TO_CHAR()`**: Converts a number or date to a string (used in databases like Oracle).

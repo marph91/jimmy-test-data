@@ -4,7 +4,7 @@ Here's a detailed breakdown of the code:
 
 ### **Key Components**
 
-#### 1. #### **Multiboot Header (**#### **`struct mbheader`**#### **)**
+#### 1. **Multiboot Header (****`struct mbheader`****)**
 The Multiboot header is a structure used to identify a Multiboot-compliant kernel and provide necessary metadata about how to load the kernel.
 c
 Copy code

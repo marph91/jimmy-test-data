@@ -1,5 +1,5 @@
 
-#### 3. #### **Helper Functions**
+#### 3. **Helper Functions**
 
 ##### **`waitdisk()`**
 Waits for the disk to be ready for operations:

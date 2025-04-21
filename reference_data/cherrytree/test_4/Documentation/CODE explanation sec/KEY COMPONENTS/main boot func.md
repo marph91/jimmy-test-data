@@ -1,5 +1,5 @@
 
-#### **Main Boot Function (**#### **`bootmain`**#### **)**
+#### **Main Boot Function (****`bootmain`****)**
 The main function of the bootloader loads the kernel and transfers execution to the kernel's entry point.
 **Steps in** **`bootmain()`****:**
 1. **Scratch Space and Multiboot Header Search:**
