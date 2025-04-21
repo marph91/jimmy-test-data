@@ -6,7 +6,7 @@
 
 
 - **Goals:**
-- Provide a **kernel from scratch** that implements essential POSIX functionalities, such as:- Process management (fork, exec).
+- Provide a **kernel from scratch** that implements essential POSIX functionalities, such as:▪ Process management (fork, exec).
 - File system operations.
 - Signals and inter-process communication (IPC).
 

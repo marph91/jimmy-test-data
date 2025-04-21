@@ -1,16 +1,16 @@
 **Three Stratergy**  **:**
-⇒ Authenticated Routes  ( Authentication based urls )
-⇒ UnAthenticated Routes ( pages for everyones )
-⇒ DOM Injection   (Custom Js files and NPM Packages ) 
+- Authenticated Routes  ( Authentication based urls )
+- UnAthenticated Routes ( pages for everyones )
+- DOM Injection   (Custom Js files and NPM Packages ) 
 
 **Compensative Control :** 
-⇒ Cookie Flags
-⇒ Browser Security Headers
-⇒ Content Security Policy
-⇒ WAF
-⇒ Client Side Validation
-⇒ Server Side Valication
-⇒ Output Encoding
+- Cookie Flags
+- Browser Security Headers
+- Content Security Policy
+- WAF
+- Client Side Validation
+- Server Side Valication
+- Output Encoding
 
  **Link to All Recon Tools :**   <https://user-images.githubusercontent.com/73609472/119389097-8a3de200-bca1-11eb-831b-d8739075695f.png>
 
@@ -56,14 +56,14 @@
 - The scan used for finding attack vector for client side injection
 - Search for input returned in response >>  in the Burpsuite Dashboard
 - Check compansative controls
-      ◇  **Cookie Flags**
+      -  **Cookie Flags**
                - Check Storage values in developer console
-      ◇ **Browser Security Headers**
+      - **Browser Security Headers**
                - Check Security Headers like  Xframe,xss protection and more
-      ◇ **Content Security Policy**
+      - **Content Security Policy**
                - **fetch content security header** with values   adn use **csp evaluater** to get more information
                - <https://csp-evaluator.withgoogle.com/>
-      ◇ **WAF**
+      - **WAF**
                - Find WAF 
                - Awesome WAF TOOL used to find the name of the WAF
                - To Bypass 
@@ -83,8 +83,8 @@
                                                          - Use Aditional open tags  like      **< ScrIpT <** 
                                                          - Use Intruder to automate to find the perfect payload to break the encoding
                                                             - **<any tage    ="martin $Payload$" >
-                                                                        ⇒ Check in which stage the tage or special character values not encoded 
-                                                                        ⇒ or Had some difference notice and exploit in further **
+                                                                        - Check in which stage the tage or special character values not encoded 
+                                                                        - or Had some difference notice and exploit in further **
       **◇ Client Side Validation**
                - Check Client validation
       **◇ Server Side Valication**

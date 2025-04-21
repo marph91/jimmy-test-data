@@ -1,5 +1,5 @@
 # Commands
-CVE-2004.1561 - exploit = exploit/windows/http/icecast_header
+CVE-2004-1561 - exploit = exploit/windows/http/icecast_header
 ### Meterpeter shell
 
 ++sys info++ - System info 

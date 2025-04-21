@@ -1,8 +1,8 @@
 sudo nmap -A target
 (-O for just OS, -sV for just service)
 ---
-Starting Nmap 7.80 ( <https://nmap.org> ) at 2020.06.03 14:51 EDT
-Nmap scan report for target (10.10.10.11.
+Starting Nmap 7.80 ( <https://nmap.org> ) at 2020-06-03 14:51 EDT
+Nmap scan report for target (10.10.10.11)
 Host is up (0.032s latency).
 Not shown: 997 filtered ports
 PORT      STATE SERVICE VERSION

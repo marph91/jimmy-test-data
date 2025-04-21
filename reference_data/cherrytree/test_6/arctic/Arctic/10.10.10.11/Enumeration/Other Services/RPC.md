@@ -15,7 +15,7 @@ Starting enum4linux v0.8.9 ( <http://labs.portcullis.co.uk/application/enum4linu
 |    Target Information    |
  ========================== 
 Target ........... target
-RID Range ........ 500.550,1000.1050
+RID Range ........ 500-550,1000-1050
 Username ......... ''
 Password ......... ''
 Known Usernames .. administrator, guest, krbtgt, domain admins, root, bin, none
@@ -38,7 +38,7 @@ No reply from 10.10.10.11
 |    Session Check on target    |
  =============================== 
 Use of uninitialized value $global_workgroup in concatenation (.) or string at ./enum4linux.pl line 437.
-[V] Attempting to make null session using command: smbclient -W '' //'target'/ipc$ -U''%'' -c 'help' 2.&1
+[V] Attempting to make null session using command: smbclient -W '' //'target'/ipc$ -U''%'' -c 'help' 2>&1
 [E] Server doesn't allow session using username '', password ''.  Aborting remainder of tests.
 ---
 user@kalisi:~$ nmblookup -A target

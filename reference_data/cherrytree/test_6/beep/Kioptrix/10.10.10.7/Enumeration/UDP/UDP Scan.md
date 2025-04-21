@@ -1,7 +1,7 @@
 nmap -sU target
 ---
 [sudo] password for user: 
-Starting Nmap 7.80 ( <https://nmap.org> ) at 2020.05.22 08:00 EDT
+Starting Nmap 7.80 ( <https://nmap.org> ) at 2020-05-22 08:00 EDT
 Stats: 0:07:21 elapsed; 0 hosts completed (1 up), 1 undergoing UDP Scan
 UDP Scan Timing: About 46.55% done; ETC: 08:16 (0:08:28 remaining)
 Nmap scan report for 10.10.255.95

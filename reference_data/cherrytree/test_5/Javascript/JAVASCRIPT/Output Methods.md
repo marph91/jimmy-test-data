@@ -1,5 +1,5 @@
 -  Document.getElementById ("idname").innerHTML  = 5+5
-- Window.alert(20.
+- Window.alert(20)
       - Windows is global scope so we dont need to mention
 - console.log()
 - document.write(operations)

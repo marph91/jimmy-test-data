@@ -10,7 +10,7 @@ Loaded 2 password hashes with no different salts (NT [MD4 256/256 AVX2 8x3])
 Press 'q' or Ctrl-C to abort, almost any other key for status
                  (Administrator)
 alqfna22         (Jon)
-2g 0:00:00:04 DONE (2020.05.27 14:54. 0.4889g/s 2493Kp/s 2493Kc/s 2495KC/s alr19882006..alpusidi
+2g 0:00:00:04 DONE (2020-05-27 14:54) 0.4889g/s 2493Kp/s 2493Kc/s 2495KC/s alr19882006..alpusidi
 Warning: passwords printed above might not be all those cracked
 Use the "--show --format=NT" options to display all of the cracked passwords reliably
 Session completed

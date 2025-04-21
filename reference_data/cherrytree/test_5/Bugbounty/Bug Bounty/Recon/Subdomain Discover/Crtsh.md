@@ -10,12 +10,12 @@ the below code used to extract subdomains from the site
     // Create a Blob to save the data as a file
     let subdomains = [];
     
-    // Extract all subdomains from the "Matching Identities" column (index 5.
+    // Extract all subdomains from the "Matching Identities" column (index 5)
     let rows = document.querySelectorAll('table tr');
     rows.forEach(function(row) {
         let cells = row.getElementsByTagName('td');
-        if (cells.length > 5. {
-            // Extract the subdomain data from the 6th column (index 5.
+        if (cells.length > 5) {
+            // Extract the subdomain data from the 6th column (index 5)
             let subdomainData = cells[5].innerText.trim();
             // Split the subdomain data into individual subdomains
             let subdomainList = subdomainData.split('\n');

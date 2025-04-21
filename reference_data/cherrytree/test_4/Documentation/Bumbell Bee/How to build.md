@@ -2,11 +2,11 @@
 #### **How Will We Build It?**
 - **Step 1: Planning the Kernel**
 - Define the **scope of POSIX compliance** (basic syscalls vs full compliance).
-- Choose programming languages:- **C:** Primary language for portability and compliance.
+- Choose programming languages:▪ **C:** Primary language for portability and compliance.
 - **Assembly:** For low-level tasks like context switching.
 
 
-- Set up a **development environment**:- Compiler: `gcc` or `clang`.
+- Set up a **development environment**:▪ Compiler: `gcc` or `clang`.
 - Debugger: `gdb`.
 - Emulator: `QEMU`.
 
@@ -14,7 +14,7 @@
 
 
 - **Step 2: Bootstrapping**
-- Write a minimal bootloader (e.g., GRUB with Multiboot2..
+- Write a minimal bootloader (e.g., GRUB with Multiboot2).
 - Create an entry point for the kernel in assembly.
 - Initialize the stack and transition to C code.
 

@@ -3,7 +3,7 @@
 **Text [  start   :  end   :  number of steps to skip  ]**
 
 - **Starting position is represented with  possitive values  
-⇒ Values from end is represented with negative Values**
+- Values from end is represented with negative Values**
 **⇒ Steps count used to skip and reverse the strings** 
 
 

@@ -8,7 +8,7 @@ search for all SUID bits set:
 SUID gives temporary permissions to a user to run the program/file with the permission of the file owner (rather than the user who runs it).
 For example, the binary file to change your password has the SUID bit set on it (/usr/bin/passwd). This is because to change your password, it will need to write to the shadowers file that you do not have access to, root does, so it has root privileges to make the right changes.
 
-find . -perm /4000 2./dev/null
+find . -perm /4000 2>/dev/null
 /bin/systemctl stood out
 
 <https://medium.com/@klockw3rk/privilege-escalation-leveraging-misconfigured-systemctl-permissions-bc62b0b28d49>

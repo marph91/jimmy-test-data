@@ -40,8 +40,8 @@
       - Paramspider   -   fetch with FUZZ keywords ->we can replace the fuzz with payload using qsreplace tool
       - katana
       -** gau
-      ◇ hakcrawler
-      ◇ subjs**
+      - hakcrawler
+      - subjs**
       - waybackurls
       - Spyhunt 
                   - Web crawling and URL extraction

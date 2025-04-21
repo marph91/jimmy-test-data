@@ -32,7 +32,7 @@ I think you can run it like this too:
 
 
 ## Exploits
-EternalBlue (MS17.010.
+EternalBlue (MS17-010)
 
 ```sh
 nmblookup -A 10.1.1.1

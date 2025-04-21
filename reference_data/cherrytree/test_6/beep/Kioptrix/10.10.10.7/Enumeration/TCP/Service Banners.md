@@ -2,17 +2,17 @@ nmap -sV target
 ---
 
                                                     
-Starting Nmap 7.80 ( <https://nmap.org> ) at 2020.05.29 14:49 EDT                               
+Starting Nmap 7.80 ( <https://nmap.org> ) at 2020-05-29 14:49 EDT                               
 Nmap scan report for 10.10.10.7
 Host is up (0.033s latency).
 Not shown: 988 closed ports
 PORT      STATE SERVICE    VERSION
-22/tcp    open  ssh        OpenSSH 4.3 (protocol 2.0.
+22/tcp    open  ssh        OpenSSH 4.3 (protocol 2.0)
 25/tcp    open  smtp       Postfix smtpd
 80/tcp    open  http       Apache httpd 2.2.3
-110/tcp   open  pop3       Cyrus pop3d 2.3.7.Invoca-RPM-2.3.7.7.el5_6.4
-111/tcp   open  rpcbind    2 (RPC #100000.
-143/tcp   open  imap       Cyrus imapd 2.3.7.Invoca-RPM-2.3.7.7.el5_6.4
+110/tcp   open  pop3       Cyrus pop3d 2.3.7-Invoca-RPM-2.3.7-7.el5_6.4
+111/tcp   open  rpcbind    2 (RPC #100000)
+143/tcp   open  imap       Cyrus imapd 2.3.7-Invoca-RPM-2.3.7-7.el5_6.4
 443/tcp   open  ssl/https?
 993/tcp   open  ssl/imap   Cyrus imapd
 995/tcp   open  pop3       Cyrus pop3d

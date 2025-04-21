@@ -5,7 +5,7 @@
 - Explain how GRUB loads the kernel and passes control.
 
 **Section 2: Process Management**
-- Explain the `fork()` implementation:- Task duplication using process control blocks (PCB).
+- Explain the `fork()` implementation:▪ Task duplication using process control blocks (PCB).
 
 
 - Show how `exec()` works to replace the process memory space.
