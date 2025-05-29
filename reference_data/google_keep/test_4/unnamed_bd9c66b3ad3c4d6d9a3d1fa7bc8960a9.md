@@ -1,0 +1,4 @@
+- [ ] note
+- [ ] bing
+- [ ] run
+- [ ] fast
