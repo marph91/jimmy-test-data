@@ -6,15 +6,15 @@ The section [manual.html](manual.html#page-break) describes how to add a page br
 
 The section [Page break](#page-break) describes how to add a page break.
 
-Refer to [Section A](#_section_a).
+Refer to [Section A](#section-a).
 
 ## Section A
 
-Refer to [Installation Procedure](#install).
+Refer to [Installation Procedure](#installation).
 
 ## Installation
 
-Refer to [Installation Procedure](#install).
+Refer to [Installation Procedure](#installation).
 
 ## 1. Installation
 

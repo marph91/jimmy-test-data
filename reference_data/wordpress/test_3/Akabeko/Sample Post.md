@@ -15,7 +15,7 @@ The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the 
 
 ## List
 
--   [Header 2](#section-1)
+-   [Header 2](#header-2)
 -   Nest
     -   Item 1
     -   Item 2

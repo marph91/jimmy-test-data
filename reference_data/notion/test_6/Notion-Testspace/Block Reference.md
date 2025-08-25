@@ -4,23 +4,23 @@ This page is a reference for all the major block-types in Notion, so that they c
 
 # Table of Contents Block
 
-[Table of Contents Block](#1600080a-a5a3-80d6-8042-fa43b6dc3898)
+[Table of Contents Block](#table-of-contents-block)
 
-[Heading Blocks (Including This One)](#1580080a-a5a3-817b-8d75-d699e89783b6)
+[Heading Blocks (Including This One)](#heading-blocks-including-this-one)
 
-[A Heading 2 Block](#1580080a-a5a3-816f-81c6-c3c3027ef3c7)
+[A Heading 2 Block](#a-heading-2-block)
 
-[A Heading 3 Block](#1580080a-a5a3-817c-880a-f660888c7bf9)
+[A Heading 3 Block](#a-heading-3-block)
 
 [A Toggle Heading 1](#15c0080a-a5a3-8093-a383-f27a9140b1bd)
 
-[Itemisation Blocks](#1580080a-a5a3-811d-95cb-e7da9e75c86f)
+[Itemisation Blocks](#itemisation-blocks)
 
-[Technical Blocks](#1580080a-a5a3-81fa-925e-de0df6661673)
+[Technical Blocks](#technical-blocks)
 
-[Emphasised Blocks](#1580080a-a5a3-8158-ba75-e5245d45df02)
+[Emphasised Blocks](#emphasised-blocks)
 
-[Media Blocks](#1580080a-a5a3-819e-8890-d6d0e8ccd839)
+[Media Blocks](#media-blocks)
 
 ------------------------------------------------------------------------
 
