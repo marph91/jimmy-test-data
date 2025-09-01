@@ -196,33 +196,33 @@ Note: there must be at least **one** non-numeric character in the tag.
 
 The following are recognised as tags in Obsidian so **must be escaped** during import:
 
--   \#123abc
--   \#abc123
--   \#-
--   \#\_
--   \#/
--   \#\_123
--   \#-123
--   \#/123
--   \#abc-123
--   \#abc\_123
--   \#abc/123
--   \#123/abc
--   \#abc/def
--   \#θανος
--   \#§±\_-123
+-   #123abc
+-   #abc123
+-   #-
+-   #\_
+-   #/
+-   #\_123
+-   #-123
+-   #/123
+-   #abc-123
+-   #abc\_123
+-   #abc/123
+-   #123/abc
+-   #abc/def
+-   #θανος
+-   #§±\_-123
 
 The following are not recognised as tags, so **must not be escaped**:
 
--   \#123
+-   #123
 
--   \#+abc
+-   #+abc
 
--   \#=abc
+-   #=abc
 
--   \#.abc
+-   #.abc
 
--   \#\abc
+-   #\abc
 
 -   `#abc`
 

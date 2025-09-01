@@ -45,10 +45,10 @@ const util = require('./util.js');
 const dest = './dest';
 util.mkdirSync(dest);
 wpxml2md('wp.xml', dest, { report: true })
-.then(() =&gt; {
+.then(() =\> {
 console.log('Completed!!!');
 })
-.catch((err) =&gt; {
+.catch((err) =\> {
 console.error(err);
 });
 \[/js\]

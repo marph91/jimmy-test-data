@@ -244,7 +244,7 @@ If you need to configure additional clients, just repeat the same steps using a 
 Download and install the Windows msi package from the [WireGuard website](https://wireguard.com/install/)
 .
 
-Once installed, open the WireGuard application and click on “Add Tunnel” -&gt; “Add empty tunnel…” as shown on the image below:
+Once installed, open the WireGuard application and click on “Add Tunnel” -\> “Add empty tunnel…” as shown on the image below:
 
 ![WireGuard Windows add Tunnel](https://linuxize.com/post/how-to-set-up-wireguard-vpn-on-debian-10/windows-add-tunnel_hu56a3787b65506e3031c39b5f2d23f7ff_36326_768x0_resize_q75_lanczos.jpg)
 

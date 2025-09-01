@@ -19,7 +19,7 @@ A rough introduction to the main concepts used in this article can be found on [
 
 [Install](https://wiki.archlinux.org/title/WireGuard/title/Install "Install") the [wireguard-tools](https://archlinux.org/packages/?name=wireguard-tools) package for userspace utilities.
 
-Alternatively, various network managers provide support for WireGuard, provided that peer keys are available. See [\#Persistent configuration](https://wiki.archlinux.org/title/WireGuard#Persistent_configuration) for details.
+Alternatively, various network managers provide support for WireGuard, provided that peer keys are available. See [#Persistent configuration](https://wiki.archlinux.org/title/WireGuard#Persistent_configuration) for details.
 
 ### Graphical clients
 
@@ -56,7 +56,7 @@ The internal addresses will be new addresses, created either manually using the 
 
 ### Key generation
 
-Create a private and public key for each peer. If connecting dozens of peers optionally consider a vanity keypair to personalize the Base64 encoded public key string. See [\#Vanity keys](https://wiki.archlinux.org/title/WireGuard#Vanity_keys).
+Create a private and public key for each peer. If connecting dozens of peers optionally consider a vanity keypair to personalize the Base64 encoded public key string. See [#Vanity keys](https://wiki.archlinux.org/title/WireGuard#Vanity_keys).
 
 To create a private key run:
 
@@ -108,7 +108,7 @@ Manual setup is accomplished by using [ip(8)](https://man.archlinux.org/man/ip.8
 
 [![Tango-edit-clear.png](https://wiki.archlinux.org/images/8/87/Tango-edit-clear.png)](https://wiki.archlinux.org/title/WireGuard/title/File:Tango-edit-clear.png)**This article or section needs language, wiki syntax or style improvements. See [Help:Style](https://wiki.archlinux.org/title/WireGuard/title/Help:Style "Help:Style") for reference.**[![Tango-edit-clear.png](https://wiki.archlinux.org/images/8/87/Tango-edit-clear.png)](https://wiki.archlinux.org/title/WireGuard/title/File:Tango-edit-clear.png)
 
-**Reason:** These examples use the pre-shared keys which were introduced as *optional* in [\#Key generation](https://wiki.archlinux.org/title/WireGuard#Key_generation). (Discuss in [Talk:WireGuard](https://wiki.archlinux.org/title/Talk:WireGuard))
+**Reason:** These examples use the pre-shared keys which were introduced as *optional* in [#Key generation](https://wiki.archlinux.org/title/WireGuard#Key_generation). (Discuss in [Talk:WireGuard](https://wiki.archlinux.org/title/Talk:WireGuard))
 
 **Peer A setup:**
 
@@ -184,13 +184,13 @@ See [sysctl#Configuration](https://wiki.archlinux.org/title/WireGuard/title/Sysc
 
 ##### Site-to-site
 
-To connect two (or more) networks, apply both [\#Point-to-site](https://wiki.archlinux.org/title/WireGuard#Point-to-site) and [\#Site-to-point](https://wiki.archlinux.org/title/WireGuard#Site-to-point) on all *sites*.
+To connect two (or more) networks, apply both [#Point-to-site](https://wiki.archlinux.org/title/WireGuard#Point-to-site) and [#Site-to-point](https://wiki.archlinux.org/title/WireGuard#Site-to-point) on all *sites*.
 
 ##### Routing all traffic over WireGuard
 
 [![Tango-view-fullscreen.png](https://wiki.archlinux.org/images/3/38/Tango-view-fullscreen.png)](https://wiki.archlinux.org/title/WireGuard/title/File:Tango-view-fullscreen.png)**This article or section needs expansion.**[![Tango-view-fullscreen.png](https://wiki.archlinux.org/images/3/38/Tango-view-fullscreen.png)](https://wiki.archlinux.org/title/WireGuard/title/File:Tango-view-fullscreen.png)
 
-**Reason:** Add instructions on how to *route everything over VPN*.[\[1\]](https://www.wireguard.com/netns/) There is [\#systemd-networkd: routing all traffic over WireGuard](https://wiki.archlinux.org/title/WireGuard#systemd-networkd:_routing_all_traffic_over_WireGuard) already. (Discuss in [Talk:WireGuard](https://wiki.archlinux.org/title/Talk:WireGuard))
+**Reason:** Add instructions on how to *route everything over VPN*.[\[1\]](https://www.wireguard.com/netns/) There is [#systemd-networkd: routing all traffic over WireGuard](https://wiki.archlinux.org/title/WireGuard#systemd-networkd:_routing_all_traffic_over_WireGuard) already. (Discuss in [Talk:WireGuard](https://wiki.archlinux.org/title/Talk:WireGuard))
 
 #### DNS
 
@@ -289,7 +289,7 @@ or use the systemd service—`wg-quick@`*`interfacename`*`.service`. To start th
 
 **Note:**
 
--   Users configuring the WireGuard interface using *wg-quick*, should make sure that no other [network management](https://wiki.archlinux.org/title/WireGuard/title/Network_management "Network management") software tries to manage it. To use [NetworkManager](https://wiki.archlinux.org/title/WireGuard/title/NetworkManager "NetworkManager") and to not configure WireGuard interfaces with it, see [\#Routes are periodically reset](https://wiki.archlinux.org/title/WireGuard#Routes_are_periodically_reset).
+-   Users configuring the WireGuard interface using *wg-quick*, should make sure that no other [network management](https://wiki.archlinux.org/title/WireGuard/title/Network_management "Network management") software tries to manage it. To use [NetworkManager](https://wiki.archlinux.org/title/WireGuard/title/NetworkManager "NetworkManager") and to not configure WireGuard interfaces with it, see [#Routes are periodically reset](https://wiki.archlinux.org/title/WireGuard#Routes_are_periodically_reset).
 -   *wg-quick* adds additional configuration options to the configuration file format thus making it incompatible with [wg(8) § CONFIGURATION FILE FORMAT](https://man.archlinux.org/man/wg.8#CONFIGURATION_FILE_FORMAT). See the [wg-quick(8) § CONFIGURATION](https://man.archlinux.org/man/wg-quick.8#CONFIGURATION) man page for the configuration values in question. A *wg*-compatible configuration file can be produced by using `wg-quick strip`.
 -   *wg-quick* does not provide a way to instruct [resolvconf](https://wiki.archlinux.org/title/WireGuard/title/Resolvconf "Resolvconf") to set the WireGuard interface as *private*. Even if there are search domains specified, all DNS queries from the system, not just those that match the search domains, will be sent to the DNS servers which are set in the WireGuard configuration.
 
@@ -913,7 +913,7 @@ method=manual
 
 ## Specific use-case: VPN server
 
-[![Merge-arrows-2.png](https://wiki.archlinux.org/images/c/c9/Merge-arrows-2.png)](https://wiki.archlinux.org/title/WireGuard/title/File:Merge-arrows-2.png)**This article or section is a candidate for merging with [\#Routing all traffic over WireGuard](https://wiki.archlinux.org/title/WireGuard#Routing_all_traffic_over_WireGuard).**[![Merge-arrows-2.png](https://wiki.archlinux.org/images/c/c9/Merge-arrows-2.png)](https://wiki.archlinux.org/title/WireGuard/title/File:Merge-arrows-2.png)
+[![Merge-arrows-2.png](https://wiki.archlinux.org/images/c/c9/Merge-arrows-2.png)](https://wiki.archlinux.org/title/WireGuard/title/File:Merge-arrows-2.png)**This article or section is a candidate for merging with [#Routing all traffic over WireGuard](https://wiki.archlinux.org/title/WireGuard#Routing_all_traffic_over_WireGuard).**[![Merge-arrows-2.png](https://wiki.archlinux.org/images/c/c9/Merge-arrows-2.png)](https://wiki.archlinux.org/title/WireGuard/title/File:Merge-arrows-2.png)
 
 **Notes:** Same use case. (Discuss in [Talk:WireGuard](https://wiki.archlinux.org/title/Talk:WireGuard))
 
@@ -925,7 +925,7 @@ The purpose of this section is to set up a WireGuard "server" and generic "clien
 
 ### Server
 
-[![Merge-arrows-2.png](https://wiki.archlinux.org/images/c/c9/Merge-arrows-2.png)](https://wiki.archlinux.org/title/WireGuard/title/File:Merge-arrows-2.png)**This article or section is a candidate for merging with [\#Site-to-point](https://wiki.archlinux.org/title/WireGuard#Site-to-point).**[![Merge-arrows-2.png](https://wiki.archlinux.org/images/c/c9/Merge-arrows-2.png)](https://wiki.archlinux.org/title/WireGuard/title/File:Merge-arrows-2.png)
+[![Merge-arrows-2.png](https://wiki.archlinux.org/images/c/c9/Merge-arrows-2.png)](https://wiki.archlinux.org/title/WireGuard/title/File:Merge-arrows-2.png)**This article or section is a candidate for merging with [#Site-to-point](https://wiki.archlinux.org/title/WireGuard#Site-to-point).**[![Merge-arrows-2.png](https://wiki.archlinux.org/images/c/c9/Merge-arrows-2.png)](https://wiki.archlinux.org/title/WireGuard/title/File:Merge-arrows-2.png)
 
 **Notes:** Same use case. (Discuss in [Talk:WireGuard](https://wiki.archlinux.org/title/Talk:WireGuard))
 
@@ -946,7 +946,7 @@ If the server is behind NAT, be sure to forward the specified port(s) on which W
 
 ### Key generation
 
-Generate key pairs for the server and for each client as explained in [\#Key generation](https://wiki.archlinux.org/title/WireGuard#Key_generation).
+Generate key pairs for the server and for each client as explained in [#Key generation](https://wiki.archlinux.org/title/WireGuard#Key_generation).
 
 ### Server configuration
 
@@ -1032,7 +1032,7 @@ Using the catch-all `AllowedIPs = 0.0.0.0/0, ::/0` will forward all IPv4 (`0.0.
 
 ## Testing the tunnel
 
-[![Merge-arrows-2.png](https://wiki.archlinux.org/images/c/c9/Merge-arrows-2.png)](https://wiki.archlinux.org/title/WireGuard/title/File:Merge-arrows-2.png)**This article or section is a candidate for merging with [\#Basic checkups](https://wiki.archlinux.org/title/WireGuard#Basic_checkups).**[![Merge-arrows-2.png](https://wiki.archlinux.org/images/c/c9/Merge-arrows-2.png)](https://wiki.archlinux.org/title/WireGuard/title/File:Merge-arrows-2.png)
+[![Merge-arrows-2.png](https://wiki.archlinux.org/images/c/c9/Merge-arrows-2.png)](https://wiki.archlinux.org/title/WireGuard/title/File:Merge-arrows-2.png)**This article or section is a candidate for merging with [#Basic checkups](https://wiki.archlinux.org/title/WireGuard#Basic_checkups).**[![Merge-arrows-2.png](https://wiki.archlinux.org/images/c/c9/Merge-arrows-2.png)](https://wiki.archlinux.org/title/WireGuard/title/File:Merge-arrows-2.png)
 
 **Notes:** Same topic. (Discuss in [Talk:WireGuard](https://wiki.archlinux.org/title/Talk:WireGuard))
 
@@ -1148,7 +1148,7 @@ Where `$WGNET` is WireGuard interface name or configuration base name, for examp
 
 [![Tango-view-fullscreen.png](https://wiki.archlinux.org/images/3/38/Tango-view-fullscreen.png)](https://wiki.archlinux.org/title/WireGuard/title/File:Tango-view-fullscreen.png)**This article or section needs expansion.**[![Tango-view-fullscreen.png](https://wiki.archlinux.org/images/3/38/Tango-view-fullscreen.png)](https://wiki.archlinux.org/title/WireGuard/title/File:Tango-view-fullscreen.png)
 
-**Reason:** Show how to do this with other network managers from [\#Persistent configuration](https://wiki.archlinux.org/title/WireGuard#Persistent_configuration). (Discuss in [Talk:WireGuard](https://wiki.archlinux.org/title/Talk:WireGuard))
+**Reason:** Show how to do this with other network managers from [#Persistent configuration](https://wiki.archlinux.org/title/WireGuard#Persistent_configuration). (Discuss in [Talk:WireGuard](https://wiki.archlinux.org/title/Talk:WireGuard))
 
 ## Troubleshooting
 

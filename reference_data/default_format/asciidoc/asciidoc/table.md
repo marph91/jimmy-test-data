@@ -63,9 +63,9 @@ Table 1. Table FTW!
 |---------------------------------------------------------------------|
 | First paragraph on row 2<br>Second paragraph on row 2 |
 
-| Prefix the {vbar} with {caret} to center content horizontally | Prefix the {vbar} with &lt; to align the content to the left horizontally | Prefix the {vbar} with &gt; to align the content to the right horizontally |
+| Prefix the {vbar} with {caret} to center content horizontally | Prefix the {vbar} with \< to align the content to the left horizontally | Prefix the {vbar} with \> to align the content to the right horizontally |
 |------------------------|------------------------|------------------------|
-| Prefix the {vbar} with a . and {caret} to center the content in the cell vertically | Prefix the {vbar} with a . and &lt; to align the content to the top of the cell | Prefix the {vbar} with a . and &gt; to align the content to the bottom of the cell |
+| Prefix the {vbar} with a . and {caret} to center the content in the cell vertically | Prefix the {vbar} with a . and \< to align the content to the top of the cell | Prefix the {vbar} with a . and \> to align the content to the bottom of the cell |
 | This content spans three columns (3{plus}) and is centered horizontally ({caret}) and vertically (.{caret}) within the cell. |  |  |
 
 | `This content is duplicated across two columns.`<br>`It is aligned right horizontally.`<br>`And it is monospaced.` | `This content is duplicated across two columns.`<br>`It is aligned right horizontally.`<br>`And it is monospaced.` |

@@ -31,4 +31,4 @@ Hinweise (zum Rauslöschen vor der Abgabe!!!):
 
 -   ACHTUNG: Die Pflichtangaben oben sind als Tabelle formatiert, damit ist die Form und Aufteilung leichter beizubehalten. Es spricht im Grunde bei längeren Seminarnamen auch nix dagegen, z.B. Deinen Namen in die rechte Spalte über das Datum zu schreiben, damit du in der linken Spalte Platz für eine weitere Zeile unter der „Universität ABC“ hast. Manchmal ist es sogar üblich, den Fachbereich nach „Universität ABC“ anzugeben. Dann ist es sicher ratsam, die rechte Spalte nicht nur für das Datum zu nutzen…
 -   Bei der Gliederung in Thema 1,2,3,… usw. orientiere Dich schlicht und einfach an Deinem Vortrag und den Kapiteln dort. Die Beispiele sind natürlich lediglich als Anregung zu verstehen!
--   Literatur z.B. über google scholar suchen &gt; auf „zitieren“ klicken &gt; Literaturangabe in bevorzugtem Zitierstil hier einfügen
+-   Literatur z.B. über google scholar suchen \> auf „zitieren“ klicken \> Literaturangabe in bevorzugtem Zitierstil hier einfügen

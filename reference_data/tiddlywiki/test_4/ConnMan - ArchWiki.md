@@ -33,7 +33,7 @@ Related articles
 
 Before [enabling](https://wiki.archlinux.org/title/ConnMan/title/Enabling "Enabling") `connman.service`, ensure any existing [network configuration](https://wiki.archlinux.org/title/ConnMan/title/Network_configuration "Network configuration") is disabled.
 
-ConnMan comes with the [connmanctl(1)](https://man.archlinux.org/man/connmanctl.1) CLI, there are various [\#Front-ends](https://wiki.archlinux.org/title/ConnMan#Front-ends) available.
+ConnMan comes with the [connmanctl(1)](https://man.archlinux.org/man/connmanctl.1) CLI, there are various [#Front-ends](https://wiki.archlinux.org/title/ConnMan#Front-ends) available.
 
 ### Front-ends
 
@@ -336,7 +336,7 @@ Once `connman.service` has been [restarted](https://wiki.archlinux.org/title/Con
 
 ### Error /net/connman/technology/wifi: Not supported
 
-Currently, connman does not support scanning for WiFi networks with [iwd](https://archlinux.org/packages/?name=iwd), at the moment this functionality is available with `wpa_supplicant` only (see [\[4\]](https://lists.01.org/pipermail/connman/2018-August/022915.html)). To connect to wifi with iwd, [enable](https://wiki.archlinux.org/title/ConnMan/title/Enable "Enable")/[start](https://wiki.archlinux.org/title/ConnMan/title/Start "Start") `iwd.service` and then either follow instructions in [Iwd](https://wiki.archlinux.org/title/ConnMan/title/Iwd "Iwd") to connect to the wifi or you can also use any of the [\#Front-ends](https://wiki.archlinux.org/title/ConnMan#Front-ends). In order to have Wifi Scanning support from within connman, install [wpa\_supplicant](https://archlinux.org/packages/?name=wpa_supplicant) and then [restart](https://wiki.archlinux.org/title/ConnMan/title/Restart "Restart") `connman.service` after you stop `iwd.service`.
+Currently, connman does not support scanning for WiFi networks with [iwd](https://archlinux.org/packages/?name=iwd), at the moment this functionality is available with `wpa_supplicant` only (see [\[4\]](https://lists.01.org/pipermail/connman/2018-August/022915.html)). To connect to wifi with iwd, [enable](https://wiki.archlinux.org/title/ConnMan/title/Enable "Enable")/[start](https://wiki.archlinux.org/title/ConnMan/title/Start "Start") `iwd.service` and then either follow instructions in [Iwd](https://wiki.archlinux.org/title/ConnMan/title/Iwd "Iwd") to connect to the wifi or you can also use any of the [#Front-ends](https://wiki.archlinux.org/title/ConnMan#Front-ends). In order to have Wifi Scanning support from within connman, install [wpa\_supplicant](https://archlinux.org/packages/?name=wpa_supplicant) and then [restart](https://wiki.archlinux.org/title/ConnMan/title/Restart "Restart") `connman.service` after you stop `iwd.service`.
 
 ### Error /net/connman/technology/wifi: No carrier
 

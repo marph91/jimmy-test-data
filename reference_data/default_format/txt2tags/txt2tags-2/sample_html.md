@@ -220,7 +220,7 @@ No spaces inside the brackets!
 
 ## Other
 
-When the target needs, special chars like &lt;, &gt; and &
+When the target needs, special chars like \<, \> and &
 are escaped.
 
 The handy `%%date` macro expands to the current date.

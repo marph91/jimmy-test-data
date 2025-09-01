@@ -200,7 +200,7 @@ And with some targets the image is linkable :
 
 ## Other
 
-When the target needs, special chars like &lt;, &gt; and & are escaped.
+When the target needs, special chars like \<, \> and & are escaped.
 
 The handy %%date macro expands to the current date.
 

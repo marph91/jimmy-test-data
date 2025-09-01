@@ -16,7 +16,7 @@ Interface:
 -   [**QuickRef** 17](https://www.patreon.com/posts/quickref-addon-43439148) (shows fully visible image inside View3D, size and position can be controlled)
 -   [**Selection Sets**](https://a.blendernation.com/go/go.php?url=https://captainhansode.gumroad.com/l/wqaMJ&src=BA) (save & load object selections in 3D viewport)
 -   [**Hide Steps**](https://a.blendernation.com/go/go.php?url=https://amanbairwal.gumroad.com/l/HideSteps&src=BA) (alt-H unhides objects you hid last, not everything. Steps can be changed)
--   [Align Viewports Views.py](https://blenderartists.org/t/rabbit-hole-of-free-add-ons/1446091/uploads/short-url/7kPxlMWhW4UmyE8O5Jl38cY4HUi.py) (adds operator in View &gt; Align View that aligns view in every 3D View window opened)
+-   [Align Viewports Views.py](https://blenderartists.org/t/rabbit-hole-of-free-add-ons/1446091/uploads/short-url/7kPxlMWhW4UmyE8O5Jl38cY4HUi.py) (adds operator in View \> Align View that aligns view in every 3D View window opened)
 -   [**Visual Axis**](https://a.blendernation.com/go/go.php?url=https://kushiro.gumroad.com/l/visualaxis&src=BA) (you can turn of/off axis for any vertex, edge, face, or object)
 
 Modeling:

@@ -2,7 +2,7 @@
 
 [**http://www.tp-link.com/en/faq-181.html**](http://www.tp-link.com/us/faq-181.html)
 
-**Step** **1** Click **Start**-&gt;**Printers and Faxes**-&gt; **Printers**.
+**Step** **1** Click **Start**-\>**Printers and Faxes**-\> **Printers**.
 
 **Step** **2** Double click on **Add Printer**.
 
@@ -76,7 +76,7 @@ e\. Click **Finish**.
 
 You **never** use the printer on your computer before but also want to share printing; you just need to add a printer, follow the steps to create a Standard TCP/IP port, and then install the printer driver.
 
-**Step 1** Click **Start**-&gt; **Control Panel**, and select **Devices and Printers**.
+**Step 1** Click **Start**-\> **Control Panel**, and select **Devices and Printers**.
 
 ![ns_attach_image_2440https%3A%2F%2Fstatic.tp-link.com%2Fimage015_1493261501511a.png](file_1c0c7dea52d659c8b92547b9b7ea4f3c.png)
 
@@ -116,7 +116,7 @@ You **never** use the printer on your computer before but also want to share pri
 
 You ever connected directly a printer to your computer by a USB cable or a parallel cable, and installed the printer driver. Now you want to use a print server to share the printer through your network. You need to change the printer port to Standard TCP/IP port.
 
-Step 1 Click **Start**-&gt; **Control** **Panel** -&gt; **Classic View** -&gt; **Printers**.
+Step 1 Click **Start**-\> **Control** **Panel** -\> **Classic View** -\> **Printers**.
 
 ![ns_attach_image_2458https%3A%2F%2Fstatic.tp-link.com%2Fimage024_1493261762851j.png](file_62e3d00fb4f3c059f785d55727bba29d.png)
 
@@ -124,7 +124,7 @@ Step 2 Find your installed printer icon, right-click, select **Properties**.
 
 ![ns_attach_image_2460https%3A%2F%2Fstatic.tp-link.com%2Fimage025_1493261774799z.png](file_22303badd7b2d69eaeba1a1ff1336006.png)
 
-Step 3 Click **Ports** -&gt; **Add Port** -&gt; **Standard TCP/IP Port** -&gt; **New Port** -&gt; **Next**.
+Step 3 Click **Ports** -\> **Add Port** -\> **Standard TCP/IP Port** -\> **New Port** -\> **Next**.
 
 ![ns_attach_image_2462https%3A%2F%2Fstatic.tp-link.com%2Fimage026_1493261785646t.png](file_28c9ce321df4e105f4ed61d64b6a19c1.png)
 
@@ -162,7 +162,7 @@ Note: Before the installation, please make sure the printer works fine if it is 
 
 ![ns_attach_image_2474https%3A%2F%2Fstatic.tp-link.com%2Fimage032_1493261902225y.png](file_cd40fdb7dd1d0f8f9b5717548d63dc5a.png)
 
-**Step 2** Go to **Control Panel**-&gt;**Hardware and Sound** page, and click **Advanced printer setup**.
+**Step 2** Go to **Control Panel**-\>**Hardware and Sound** page, and click **Advanced printer setup**.
 
 ![ns_attach_image_2476https%3A%2F%2Fstatic.tp-link.com%2Fimage033_1493262007320j.png](file_a5f3bc41b2377d935c19d1fd1055b93f.png)
 
@@ -196,7 +196,7 @@ A window will pop out to search the printers automatically, please ignore it and
 
 ![ns_attach_image_2490https%3A%2F%2Fstatic.tp-link.com%2Fimage040_1493262112446g.png](file_3788a0be36d1919756f073305189d109.png)
 
-Until now, you have finished the installation. You can find the newly added Printer on **Control Panel**-&gt; **Hardware** **and Sound**-&gt; **Devices and Printers** page.
+Until now, you have finished the installation. You can find the newly added Printer on **Control Panel**-\> **Hardware** **and Sound**-\> **Devices and Printers** page.
 
 ![ns_attach_image_2492https%3A%2F%2Fstatic.tp-link.com%2Fimage041_1493262124352a.png](file_f1788496e372f835034c1de6605b4272.png)
 

@@ -2,7 +2,7 @@
 
 # The Dangerous and Thrilling Documentation Chronicles
 
-Kismet Rainbow Chameleon &lt;<kismet@asciidoctor.org>&gt;
+Kismet Rainbow Chameleon \<<kismet@asciidoctor.org>\>
 
 # The Dangerous and Thrilling Documentation Chronicles
 
@@ -10,7 +10,7 @@ Kismet Rainbow Chameleon
 
 # The Dangerous and Thrilling Documentation Chronicles
 
-Kismet Rainbow Chameleon &lt;<kismet@asciidoctor.org>&gt;; Lazarus het\_Draeke &lt;<lazarus@asciidoctor.org>&gt;
+Kismet Rainbow Chameleon \<<kismet@asciidoctor.org>\>; Lazarus het\_Draeke \<<lazarus@asciidoctor.org>\>
 
 # Document Title
 
