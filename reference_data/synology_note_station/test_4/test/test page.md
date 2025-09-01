@@ -30,7 +30,7 @@ This is *italic*
 
 This is **bold**
 
-This is *underlined*
+This is <u>underlined</u>
 
 sub~script~
 

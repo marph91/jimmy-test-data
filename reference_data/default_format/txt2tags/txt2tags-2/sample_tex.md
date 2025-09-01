@@ -31,7 +31,7 @@ The text marks for beautifiers are simple, just as you
 type on a plain text email message.
 
 We use double \*, /, - and \_ to represent **bold**,
-*italic*, ~~strike~~ and *underline*.
+*italic*, ~~strike~~ and <u>underline</u>.
 
 The ***bold italic*** style is also supported as a
 combination.

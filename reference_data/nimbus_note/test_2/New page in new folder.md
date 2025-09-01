@@ -18,7 +18,7 @@
         -   nested
 -   item 2
 
-*numbered list*
+<u>numbered list</u>
 
 1.  first item
     1.  sub item

@@ -32,7 +32,7 @@ We will now enter on a subtitle...
 
 The text marks for beautifiers are simple, just as you type on a plain text email message.
 
-We use double \*, /, - and \_ to represent **bold**, *italic*, ~~strike~~ and *underline*.
+We use double \*, /, - and \_ to represent **bold**, *italic*, ~~strike~~ and <u>underline</u>.
 
 The ***bold italic*** style is also supported as a combination.
 
@@ -51,11 +51,11 @@ Or use `pre-formatted` inside sentences.
 
 **More Cosmetics**
 
-Special entities like email (*<duh@somewhere.com>*) and URL (*<http://www.duh.com>*) are detected automagically, as long as the horizontal line:
+Special entities like email (<u><duh@somewhere.com></u>) and URL (<u><http://www.duh.com></u>) are detected automagically, as long as the horizontal line:
 
 \^ thin or large v
 
-You can also specify an *[explicit link](http://duh.org)* or an *[explicit email](mailto:duh@somewhere.com)* with label.
+You can also specify an <u>[explicit link](http://duh.org)</u> or an <u>[explicit email](mailto:duh@somewhere.com)</u> with label.
 
 And remember,
 
@@ -173,4 +173,4 @@ You can also specify the date format with the %? flags, as `%%date(%m-%d-%Y)` wh
 
 That's all for now.
 
-(*[sample.t2t](sample.t2t)*)
+(<u>[sample.t2t](sample.t2t)</u>)
