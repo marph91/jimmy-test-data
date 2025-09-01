@@ -27,6 +27,8 @@ Currently, we cannot display the task list as it is not supported in this type o
 
   
 
+====
+
 💡
 
 **Quick tip**  
@@ -98,6 +100,8 @@ Click on the text with 🔗 to open the desired page.
 
 **If you want to get more information about specific FuseBase solutions and features, book a call with our team or read** [**our guides &gt;&gt;**](https://nimbusweb.me/guides/)  
   
+
+====
 
 👇
 

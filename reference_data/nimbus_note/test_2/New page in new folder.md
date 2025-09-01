@@ -1,8 +1,7 @@
-|  |  | A | B | C |
-|----|----|----|----|----|
-| 1 |  | table | cells | a |
-| 2 |  | b | c | d |
-|  |  | All:2![unnamed_bdd640fb06674ad19c80317fa3b1799d](unnamed_bdd640fb06674ad19c80317fa3b1799d.svg) | All:2![unnamed_bdd640fb06674ad19c80317fa3b1799d](unnamed_bdd640fb06674ad19c80317fa3b1799d.svg) | All:2![unnamed_bdd640fb06674ad19c80317fa3b1799d](unnamed_bdd640fb06674ad19c80317fa3b1799d.svg) |
+|     |     | A     | B     | C   |
+|-----|-----|-------|-------|-----|
+| 1   |     | table | cells | a   |
+| 2   |     | b     | c     | d   |
 
   
 
@@ -35,11 +34,11 @@
 
 ## file
 
-![unnamed_972a846916414f828b9d2434e465e150](unnamed_972a846916414f828b9d2434e465e150.svg)
+![unnamed_bdd640fb06674ad19c80317fa3b1799d](unnamed_bdd640fb06674ad19c80317fa3b1799d.svg)
 
 [plaintext.txt](XfOyFr3jQ92lni7u.txt)(34 B)
 
-![unnamed_17fc695a07a04a6e8822e8f36c031199](unnamed_17fc695a07a04a6e8822e8f36c031199.svg)
+![unnamed_23b8c1e9392446debeb13b9046685257](unnamed_23b8c1e9392446debeb13b9046685257.svg)
 
   
 
@@ -47,7 +46,7 @@
 
 link to another page:
 
-﻿[abc](https://marph.nimbusweb.me/ws/39dej8qoal3cuzuj/note/2WjywwmdirySJt3X)﻿
+[abc](New%20page.md)
 
 [weblink](https://github.com/marph91/jimmy)
 
