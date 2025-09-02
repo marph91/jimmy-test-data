@@ -30,7 +30,7 @@ HTML dient als Auszeichnungssprache dazu, einen Text [semantisch](https://de.wik
 
 -   [1 Entstehung](#entstehung)
 -   [2 Syntax](#syntax)
--   [3 Zeichenvorrat](#zeichenvorrat-)
+-   [3 Zeichenvorrat](#zeichenvorrat)
 -   [4 Sprachtyp](#sprachtyp)
 -   [5 Versionen](#versionen)
 -   [6 HTML-Struktur](#html-struktur)
