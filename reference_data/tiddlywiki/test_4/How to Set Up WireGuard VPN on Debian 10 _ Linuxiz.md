@@ -106,7 +106,7 @@ sudo chmod 600 /etc/wireguard/{privatekey,wg0.conf}Copy
 
 Once done, bring the `wg0` interface up using the attributes specified in the configuration file:
 
-<u></u>
+++++
 
 ``` terminal
 sudo wg-quick up wg0Copy
@@ -325,7 +325,7 @@ You can also open your browser, type “what is my ip”, and you should see you
 
 To stop the tunneling, bring down the `wg0` interface:
 
-<u></u>
+++++
 
 ``` terminal
 sudo wg-quick down wg0Copy

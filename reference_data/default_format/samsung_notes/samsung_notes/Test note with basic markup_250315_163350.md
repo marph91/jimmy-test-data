@@ -12,7 +12,7 @@ numbered list:
 
 italic *item*
 
-<u>underlined item</u>
+++underlined item++
 
 task list:
 
