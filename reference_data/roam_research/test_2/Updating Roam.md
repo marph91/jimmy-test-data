@@ -6,9 +6,9 @@
 - **If there's an update you'll see**
     - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fhelp%2FxHwW9WnzmE.png?alt=media&token=2c444187-3a33-4a9d-9233-a2e2ea60ec22)
 - **Just click on the update button and you'll get the new version**
-    - (if you have issues see [rPMPZCOsC](Updating%20Roam.md))
+    - (if you have issues see [rPMPZCOsC](<./Updating Roam.md>))
 ### How do I update the desktop app?
-- You can update the desktop app the same way you [update the web app](Updating%20Roam.md)
+- You can update the desktop app the same way you [update the web app](<./Updating Roam.md>)
 - Alternatively, you can
     - Click on "Roam Research" in the menu bar
     - and click on "Check for updates"
@@ -27,4 +27,4 @@
 ### How often do you release updates?
 - We generally release updates as we finish them, so usually we'll deploy changes a few times a week.
 ### Why does the change log not show x feature Conor tweeted about?
-- We do our best to keep the change log up to date, but because [we release very frequently](Updating%20Roam.md), sometimes the change log is a few days behind Conor's twitter updates
+- We do our best to keep the change log up to date, but because [we release very frequently](<./Updating Roam.md>), sometimes the change log is a few days behind Conor's twitter updates

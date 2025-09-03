@@ -84,7 +84,7 @@ Below is a bar chart
 
 Below is an image of the design of the line chart as seen in note-station
 
-![ns_attach_image_787491613404344687.png](file_e79072f793f22434740e64e93cfe5926.png)
+![ns_attach_image_787491613404344687.png](./file_e79072f793f22434740e64e93cfe5926.png)
 
 Below is a hyperlink to the internet
 
@@ -92,23 +92,23 @@ Below is a hyperlink to the internet
 
 Below is a link to test page 2 inside of this notebook
 
-[test page 2](test%20page%202.md)
+[test page 2](<./test page 2.md>)
 
 Below is a renamed link to test page 2 inside of this notebook
 
-[renamed link to test page 2](test%20page%202.md)
+[renamed link to test page 2](<./test page 2.md>)
 
 Below is a a page in the 'Test Book 2' notebook
 
-[Page linked to from test book](../Test%20Book%202/Page%20linked%20to%20from%20test%20book.md)
+[Page linked to from test book](<../Test Book 2/Page linked to from test book.md>)
 
 Below is a renamed link to a page in this notebook, the link will not work
 
-[renamed link to test page 3](test%20page%203.md)
+[renamed link to test page 3](<./test page 3.md>)
 
 Below is a link to a page that has a duplicated page title
 
-[This is a duplicated title](../Test%20Book%202/This%20is%20a%20duplicated%20title.md)
+[This is a duplicated title](<../Test Book 2/This is a duplicated title.md>)
 
 An audio memo recording has been attached - it is silent because Note Station does not record correctly on my computers (if the feature actually works) but this shows it is exported.
 
@@ -138,8 +138,8 @@ A pdf of what this page looks like in Note Station has been attached - see test
 
 This is the end of the text.
 
-[Record 2021-02-15 16:00:13.webm](file_6c4b828f227a096d3374599cae3f94ec.webm)
+[Record 2021-02-15 16:00:13.webm](./file_6c4b828f227a096d3374599cae3f94ec.webm)
 
-[example-attachment.pdf](file_c4ee8b831ad1188509c0f33f0c072af5.pdf)
+[example-attachment.pdf](./file_c4ee8b831ad1188509c0f33f0c072af5.pdf)
 
-[test page.pdf](file_27a9aadc878b718331794c8bc50a1b8c.pdf)
+[test page.pdf](./file_27a9aadc878b718331794c8bc50a1b8c.pdf)

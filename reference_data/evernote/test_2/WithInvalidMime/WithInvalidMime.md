@@ -1,1 +1,1 @@
-[photo.zip](photo.zip)
+[photo.zip](./photo.zip)

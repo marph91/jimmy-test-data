@@ -1,6 +1,6 @@
-- [yet another concept](yet%20another%20concept.md)
+- [yet another concept](<./yet another concept.md>)
     - what happens now?
-        - why do today what could be done: [June 27th, 2020](June%2027th%2C%202020.md)
+        - why do today what could be done: [June 27th, 2020](<./June 27th, 2020.md>)
         - ((O3Jz6XNo_))
             - 2+4
             - ham sandwiches

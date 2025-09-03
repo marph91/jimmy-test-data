@@ -16,7 +16,7 @@
 
 			- **Find in Nodes Names and Tags** - Searches for a sequence of characters in the node title and tag of the node tree.
 	
-				**NOTE:** See Tags for Searching in [Creating Nodes](../Nodes/Creating%20Nodes.md) for more detail.
+				**NOTE:** See Tags for Searching in [Creating Nodes](<../Nodes/Creating Nodes.md>) for more detail.
 
 			- **Find Again** - Find the next instance in the search results.
 
@@ -24,7 +24,7 @@
 		
 				**NOTE**: **Find Again** and **Find Back** are only compatible with the **First From Selection** and **First in All Range** options, which are defined in the next step.
 
-	2. (**Optional**) Select any of the available [Search Options](Search.md).
+	2. (**Optional**) Select any of the available [Search Options](./Search.md).
 
 	3. Enter the characters that you desire to find into **Search For** and click **OK** to execute the search.
 
@@ -40,13 +40,13 @@
 
 		- **Replace in Nodes Names and Tags** - Searches for a sequence of characters in every node title and tag of the node tree, and replaces them with the provided text.
 		
-			**NOTE:** See **Tags for Searching** in [Creating Nodes](../Nodes/Creating%20Nodes.md) for more detail about node names and tags.
+			**NOTE:** See **Tags for Searching** in [Creating Nodes](<../Nodes/Creating Nodes.md>) for more detail about node names and tags.
 
 		- **Replace Again** - Find the next instance in the search results and replace it with the provided text.
 		
 			**NOTE: Replace Again** is only compatible with the **First From Selection** and **First in All Range** options, which are defined in the next step.
 
-	2. (**Optional**) Select from the available [Search Options](Search.md).
+	2. (**Optional**) Select from the available [Search Options](./Search.md).
 
 	3. Enter characters to find into **Search For** and characters to replace in **Replace With**.
 
@@ -83,7 +83,7 @@
 
 		- **Find Next** - Find the next instance of the searched term.
 
-		- **Replace** - Replace the current instance of the searched term with the replacement provided in Step 3 of [Steps to Search and](Search.md) [Replace](http://#_steps_to_search_and_replace). (Applicable only to Search and Replace features.)
+		- **Replace** - Replace the current instance of the searched term with the replacement provided in Step 3 of [Steps to Search and](./Search.md) [Replace](http://#_steps_to_search_and_replace). (Applicable only to Search and Replace features.)
 
 		- **Undo** - Undoes the most recent Replace execution.
 

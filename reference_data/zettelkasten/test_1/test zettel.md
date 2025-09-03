@@ -10,7 +10,7 @@ Test-Tabelle
 
 Bild:
 
-![test.png](test.png)
+![test.png](./test.png)
 
 ==hervorgehoben==
 
@@ -19,7 +19,7 @@ mit Anhang
 
 ## Note Sequences
 
-[2](Zettel%202.md), [3](Zettel3.md)
+[2](<./Zettel 2.md>), [3](./Zettel3.md)
 
 
-[test.md](test.md)
+[test.md](./test.md)

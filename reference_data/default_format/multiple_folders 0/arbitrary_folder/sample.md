@@ -40,8 +40,8 @@ Text
 
 ## Linked image
 
-![test.png](test.png)
+![test.png](./test.png)
 
 ## Linked file
 
-[link to second_sample_file](nested_arbitrary_folder/second_sample_file.md)
+[link to second_sample_file](./nested_arbitrary_folder/second_sample_file.md)

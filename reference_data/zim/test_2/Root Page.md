@@ -75,16 +75,16 @@ We also have ~subscript~ and ^superscript^.
 This is an embedded web link: [Markor on Github](https://github.com/gsantner/markor)
 
 To link relatively **down** the hierarchy to a sub page from the current page, use a "+" in front of the path to the page:
-[Sub-page link to Sub Page 1](Root_Page/Sub%20Page%201.md)
-[Sub-page link to Sub Sub Page 1-1](Root_Page/Sub_Page_1/Sub%20Sub%20Page%201-1.md)
+[Sub-page link to Sub Page 1](<./Root_Page/Sub Page 1.md>)
+[Sub-page link to Sub Sub Page 1-1](<./Root_Page/Sub_Page_1/Sub Sub Page 1-1.md>)
 
 To link absolutely to any page in the notebook, use ":", followed by the notebook root page:
-[Absolute link to Sub Page 1](Root_Page/Sub%20Page%201.md)
+[Absolute link to Sub Page 1](<./Root_Page/Sub Page 1.md>)
 
-For relative links that go **up** in the hierarchy, see the information [on this page](Root_Page/Sub_Page_1/Sub%20Sub%20Page%201-1.md).
+For relative links that go **up** in the hierarchy, see the information [on this page](<./Root_Page/Sub_Page_1/Sub Sub Page 1-1.md>).
 
 If you don't need a different text displayed for the underlying link and just want the link to be visible, there is no need for the "|" delimiter. Just use double square brackets around the link:
-[Sub Page 1](Root_Page/Sub%20Page%201.md)
+[Sub Page 1](<./Root_Page/Sub Page 1.md>)
 
 Directly inserted URLs will be displayed as links automatically and don't need any brackets:
 https://github.com/gsantner/markor
@@ -92,4 +92,4 @@ https://github.com/gsantner/markor
 ## Images
 
 The following image belongs to the current page and is located in the folder for "Root Page":
-![flowerfield.jpg](flowerfield.jpg)
+![flowerfield.jpg](./flowerfield.jpg)

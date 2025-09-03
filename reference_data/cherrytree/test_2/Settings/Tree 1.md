@@ -2,7 +2,7 @@
 # Tree 1
 
 
-	The T**ree 1** preferences menu provides configuration options for the [tree view](../Quick%20Start/Interface.md) panel.
+	The T**ree 1** preferences menu provides configuration options for the [tree view](<../Quick Start/Interface.md>) panel.
 
  ## Theme
 

@@ -1,6 +1,6 @@
 ## Get specialized 1:1 help to master Roam from one of our vetted coaches
-- [Coaches](Coaches.md)
-# [R.J. Nestor](R.J.%20Nestor.md)
+- [Coaches](./Coaches.md)
+# [R.J. Nestor](<./R.J. Nestor.md>)
 - Info::
     - Business & Executive Coach, Musician, Writer
     - Helps you develop and optimize your Roam workflows
@@ -8,17 +8,17 @@
 - Website:: 
     - [roamcoaching.rjnestor.com](https://roamcoaching.rjnestor.com) [rjnestor.com](https://rjnestor.com) [youtube.com/c/rjnestorcoach](https://youtube.com/c/rjnestorcoach)
 - Areas of specialty::
-    - [Roam fundamentals](Roam%20fundamentals.md) ⬅ for ANY Roam skill level
-    - [Workflows](Workflows.md) [Processes](Processes.md)
-    - [Productivity](Productivity.md) [GTD](GTD.md)
-    - [Content creation](Content%20creation.md) [Writing](Writing.md) [Creative writing](Creative%20writing.md)
+    - [Roam fundamentals](<./Roam fundamentals.md>) ⬅ for ANY Roam skill level
+    - [Workflows](./Workflows.md) [Processes](./Processes.md)
+    - [Productivity](./Productivity.md) [GTD](./GTD.md)
+    - [Content creation](<./Content creation.md>) [Writing](./Writing.md) [Creative writing](<./Creative writing.md>)
 - Contact::
     - DM on [Twitter](https://twitter.com/rjnestor)
     - Message through [Facebook coaching page](https://m.me/rjnestorcoach)
 - Price::
     - [Roam coaching packages](https://roamcoaching.rjnestor.com) start at $150
     - [DM](https://twitter.com/rjnestor) or [message](https://m.me/rjnestorcoach) for custom coaching package needs
-# [Cortex Futura](Cortex%20Futura.md) 
+# [Cortex Futura](<./Cortex Futura.md>) 
 - Info::
     - PhD Student, Data Analyst, Teacher, Writer
     - Helps you
@@ -26,17 +26,17 @@
 - Website::
     - [Coaching Website](https://learn.cortexfutura.com/p/roam-research-coaching?utm_source=roamresearch&utm_medium=graph&utm_campaign=helpgraph)
 - Areas of specialty::
-    - [Roam fundamentals](Roam%20fundamentals.md)
-    - [Workflows](Workflows.md)
-    - [Writing](Writing.md), [Publishing](Publishing.md)
-    - [Academia](Academia.md)
+    - [Roam fundamentals](<./Roam fundamentals.md>)
+    - [Workflows](./Workflows.md)
+    - [Writing](./Writing.md), [Publishing](./Publishing.md)
+    - [Academia](./Academia.md)
 - Contact::
     - [DM on Twitter](https://twitter.com/cortexfutura)
     - coaching@cortexfutura.com
 - Price::
     - Roam Coaching Packages starting at $150
     - DM or message for custom coaching package needs
-# [Maarten van Doorn](Maarten%20van%20Doorn.md)
+# [Maarten van Doorn](<./Maarten van Doorn.md>)
 - Info::
     - PhD, Polymath, Tools for Thought Explorer, Essayist, Coach, Author
     - Helps you set up your personal Zettelkasten and smart notes workflow in Roam. You'll remember what you learn, discover new ideas and insights, turn your thoughts and discoveries into convincing written pieces, and build up a treasure of smart and interconnected notes along the way.
@@ -44,11 +44,11 @@
 - Website::
     - [Coaching website](https://maartenvandoorn.com/roam-research-coaching/)
 - Areas of specialty::
-    - [Roam fundamentals](Roam%20fundamentals.md)
-    - [Effective Reading and Note-Taking in Roam Research](Effective%20Reading%20and%20Note-Taking%20in%20Roam%20Research.md)
-    - [Information analysis](Information%20analysis.md)
-    - [Academic writing](Academic%20writing.md)
-    - [Popular writing](Popular%20writing.md)
+    - [Roam fundamentals](<./Roam fundamentals.md>)
+    - [Effective Reading and Note-Taking in Roam Research](<./Effective Reading and Note-Taking in Roam Research.md>)
+    - [Information analysis](<./Information analysis.md>)
+    - [Academic writing](<./Academic writing.md>)
+    - [Popular writing](<./Popular writing.md>)
 - Contact::
     - [DM on Twitter](https://twitter.com/maartenvdoorn)
     - maarten@maartenvandoorn.nl

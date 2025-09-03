@@ -2,11 +2,11 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 
 Some jpg
 
-![tractor-3-1386656.jpg](file_4774521912a394266afdd8dc9510992e.jpg)
+![tractor-3-1386656.jpg](./file_4774521912a394266afdd8dc9510992e.jpg)
 
 Screenshot
 
-![ns_attach_image_43281581623420552.png](file_1a7e371500a77406b098a5630f40ead2.png)
+![ns_attach_image_43281581623420552.png](./file_1a7e371500a77406b098a5630f40ead2.png)
 
 | Test1 | Test2 |
 |------:|-------|

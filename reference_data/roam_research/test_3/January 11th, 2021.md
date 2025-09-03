@@ -1,3 +1,3 @@
-- [tramp](tramp.md) banned
+- [tramp](./tramp.md) banned
 - 修改
 - 

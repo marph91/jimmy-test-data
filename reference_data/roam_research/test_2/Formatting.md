@@ -1,24 +1,24 @@
-### [Bold](Bold.md)
+### [Bold](./Bold.md)
 - Wrap your text in double asterisks `**like this**` to make it **bold**.
     - You can also press `cmd+b`(or `ctrl+b` on PC).
     - Try bolding the next word: Zettelkasten
     - Gif
         - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fhelp-documentation%2FblemH0R1CF.gif?alt=media&token=40b1aef8-c710-4ce4-8224-4983fa8532f9)
-### [Highlight](Highlight.md)
+### [Highlight](./Highlight.md)
 - Add `==double carets==` on both sides to ==highlight==.
     - Try selecting the next sentence and pressing `cmd+h` (`ctrl+h` on PC):
     - "I want to stand out."
     - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fhelp-documentation%2F5pn17Ka0F5.gif?alt=media&token=be484745-49fd-4263-8aa8-825ba4f715d3)
-### [Italics](Italics.md)
+### [Italics](./Italics.md)
 - *Emphasize* part of a sentence using `*double underscores*` 
     - Or press `cmd+i` (`ctrl+i` on PC)!
     - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fhelp-documentation%2F0Pp6XGr_7T.gif?alt=media&token=273e6271-212b-4517-ab45-8cb88f6614a9)
-### [Strikethrough](Strikethrough.md)
+### [Strikethrough](./Strikethrough.md)
 - ~~Strike~~ Cross things out using `~~double tildes~~`.
     - Use `cmd+y` ( `ctrl+y` on PC) to strike out the next word: Evernote
     - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fhelp-documentation%2FlGhHJyz0-r.gif?alt=media&token=6c1bfdf0-8515-4390-8f7d-73abb19952a7)
-- ℹ️ Remember, you don't have to remember all of this- just type `/` in any block to bring up the [slash commands](_%20Commands.md). #.box
-### > Start a block with `> ` to make a cool [Blockquote](Blockquote.md) like this one!
+- ℹ️ Remember, you don't have to remember all of this- just type `/` in any block to bring up the [slash commands](<./_ Commands.md>). #.box
+### > Start a block with `> ` to make a cool [Blockquote](./Blockquote.md) like this one!
 - Try making one below:
     - "Put a `>` and then a space before the quote in this block"
     - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fhelp-documentation%2FT66BKSpl44.gif?alt=media&token=8eebc47a-6a6a-4760-b29f-46635024f8a3)
@@ -28,11 +28,11 @@
         - --
         - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fhelp-documentation%2FAVBL4ROBrH.gif?alt=media&token=f103d860-43a8-461d-b990-0a716d632336)
 ### [Links](((_ewV1sk1N)))
-- The way to alias a link is by writing `[Roam](https://roamresearch.com)`. You can link to blocks, pages or external websites like we've done here: [blocks](Formatting.md), [pages](Page%20References.md), [external websites](http://roamresearch.com).
-- You can select [block ref](Block%20References.md), [page ref](Page%20References.md), or external link text, press `cmd+k` (macOS) / `ctrl+k` (PC) and then type the alias where your cursor is placed to make an aliased link
+- The way to alias a link is by writing `[Roam](https://roamresearch.com)`. You can link to blocks, pages or external websites like we've done here: [blocks](./Formatting.md), [pages](<./Page References.md>), [external websites](http://roamresearch.com).
+- You can select [block ref](<./Block References.md>), [page ref](<./Page References.md>), or external link text, press `cmd+k` (macOS) / `ctrl+k` (PC) and then type the alias where your cursor is placed to make an aliased link
     - Try it out below:
         - Make the page reference below a link with the alias `birthday`
-            - [March 3rd, 2021](March%203rd%2C%202021.md)
+            - [March 3rd, 2021](<./March 3rd, 2021.md>)
             - gif
                 - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fhelp-documentation%2FqUPh6Y7f1T.gif?alt=media&token=6f1adac0-d512-44e8-b7b3-99b7d4469cef)
         - Make the block reference below a link with the alias `Bardia's favourite site`
@@ -40,18 +40,18 @@
             - Gif
                 - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fhelp-documentation%2Fvw3KuvZXXo.gif?alt=media&token=f1cadf64-ee14-41aa-831a-870c3ce60be5)
         - 
-- You can select any text you want to use as an alias and then press `cmd+k` (macOS) / `ctrl+k` (PC) and then enter the [block ref](Block%20References.md), [page ref](Page%20References.md), or external link to make an aliased link
+- You can select any text you want to use as an alias and then press `cmd+k` (macOS) / `ctrl+k` (PC) and then enter the [block ref](<./Block References.md>), [page ref](<./Page References.md>), or external link to make an aliased link
     - Try it out below:
         - Add an external link to your favourite website to the text below
         - My favourite site
         - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fhelp-documentation%2FeWeH-OEKYJ.gif?alt=media&token=19edc36a-6446-4eaf-b4c9-1db069a6b35d)
 - You can hover over any aliased link to view a preview of the underlying data in a tooltip
     - Hover over the following to see how the tooltip works:
-        - [Block](Formatting.md)
-        - [Page](March%203rd%2C%202021.md)
+        - [Block](./Formatting.md)
+        - [Page](<./March 3rd, 2021.md>)
         - [Link](https://maggieappleton.com)
 ### ![Image](https://www.fillmurray.com/75/75)
-- [Images](Images.md)
+- [Images](./Images.md)
     - You can embed an image by placing a link inside an alias with a `!` in front like this:
 `![alt-text](https://www.fillmurray.com/50/50)`
 ### Headings
@@ -66,14 +66,14 @@
         - Toggle Heading 2
     - `cmd+opt+3` (macOS) / `ctrl+opt+3` (PC)
         - Toggle Heading 3
-### [Alignment](Alignment.md)
+### [Alignment](./Alignment.md)
 - You can left-, center-, and right-align your text as well as justify it, like below:
     - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fhelp-documentation%2F4bA2Dl8Y1I.gif?alt=media&token=ca0398c9-1ea8-46d5-af73-684e5f8ee0b2)
-### [KaTeX](KaTeX.md) 
+### [KaTeX](./KaTeX.md) 
 - Write down your equations inside Roam with $$KaTeX$$ by wrapping the text with `$$` on both sides
     - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fhelp-documentation%2F--4QGUhNEL.gif?alt=media&token=daae2b14-d064-46ef-b265-994323813f55)
 - [KaTeX docs](https://katex.org/)
-### [Code Block](Code%20Block.md)
+### [Code Block](<./Code Block.md>)
 - You can make code blocks like in the GIF below with syntax highlighting for most popular languages
     - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fhelp-documentation%2F2_7NNEPN4h.gif?alt=media&token=0ac7f372-49f6-4316-b99c-598b906817c4)
 ### Children View Types
@@ -91,4 +91,4 @@
     - These
     - Blocks
     - Alphabetically
-### [Adding soft line breaks in a block](Adding%20soft%20line%20breaks%20in%20a%20block.md)
+### [Adding soft line breaks in a block](<./Adding soft line breaks in a block.md>)

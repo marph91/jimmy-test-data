@@ -82,4 +82,4 @@
 
 	- **Go Forward** - Move forward once in your node selection history.
 
-![unnamed_b74d0fb132e746298fadc1a606cb0fb3](unnamed_b74d0fb132e746298fadc1a606cb0fb3.png)
+![unnamed_b74d0fb132e746298fadc1a606cb0fb3](./unnamed_b74d0fb132e746298fadc1a606cb0fb3.png)

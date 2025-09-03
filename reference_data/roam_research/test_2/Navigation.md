@@ -15,7 +15,7 @@
         - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fhelp-documentation%2FYgAwR6TLsr.gif?alt=media&token=3bd61b2d-d661-47f9-8679-f5beedcee236)
         - Key Commands::
             - `Cmd+Shift+Period` [*](((Pk8lkM2_w))) on Mac
-            - `Alt+Right` [*](Navigation.md) on Windows
+            - `Alt+Right` [*](./Navigation.md) on Windows
     - **Opening breadcrumbs**
         - Your recently opened pages and blocks are available from the search bar under the "Recent" Section. Here's an example: 
         - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fhelp-documentation%2Ff9lWrKeukf.gif?alt=media&token=7c43fb1a-b505-44ad-b3d2-2c6cfdbf9219)

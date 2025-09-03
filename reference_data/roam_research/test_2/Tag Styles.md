@@ -1,5 +1,5 @@
 - Links and tags whose name begins with a `.` add a css class to the roam block that they are on
-    - This can be useful for [Use Cases](Use%20Cases.md)  like
+    - This can be useful for [Use Cases](<./Use Cases.md>)  like
         - visually organizing your day if you track your time
             - Try it out
                 - {{[[roam/css]]}}

@@ -1,14 +1,14 @@
-# [Welcome to Roam](Welcome%20to%20Roam.md)
+# [Welcome to Roam](<./Welcome to Roam.md>)
 ---
-# [Change Log](Change%20Log.md)
-# [Workflows](Workflows.md)
-# [Features](Features.md)
+# [Change Log](<./Change Log.md>)
+# [Workflows](./Workflows.md)
+# [Features](./Features.md)
 ---
-# [Community](Community.md)
-# [Roam Depot](Roam%20Depot.md)
+# [Community](./Community.md)
+# [Roam Depot](<./Roam Depot.md>)
 ---
 # [🚧](roam-block://dmQooXFj9) [Developer Hub](https://roamresearch.com/#/app/developer-documentation/page/49715b-M2) [🚧](roam-block://dmQooXFj9)
 ---
-# [FAQ](FAQ.md)
-# [Why Roam?](Why%20Roam_.md)
-# [White Paper](White%20Paper.md)
+# [FAQ](./FAQ.md)
+# [Why Roam?](<./Why Roam_.md>)
+# [White Paper](<./White Paper.md>)

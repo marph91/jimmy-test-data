@@ -1,4 +1,4 @@
-![Bear Pro - Illo.png](Bear%20Pro%20-%20Illo.png)
+![Bear Pro - Illo.png](<./Bear Pro - Illo.png>)
 These Welcome Notes are a good introduction to Bear, but the possibilities run much deeper. Here we’ll list some of our favorite useful tips:
 
 ## Bear ==Pro==
@@ -37,7 +37,7 @@ This *still* isn’t the end of all the cool stuff you can do with Bear. If you�
 
 ---
 ## Learn more about Bear 📚
-* [Get started with Bear](Get%20started%20with%20Bear.md)
-* [Organize, search, and customize in Bear](Organize%2C%20search%2C%20and%20customize%20in%20Bear.md)
+* [Get started with Bear](<./Get started with Bear.md>)
+* [Organize, search, and customize in Bear](<./Organize, search, and customize in Bear.md>)
 
 #bear/welcome

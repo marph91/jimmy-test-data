@@ -1,3 +1,3 @@
 - https://roamresearch.com/
-- [Roam Research/Change Log](Roam%20Research_Change%20Log.md)
-- [Roam Research/Support](Roam%20Research_Support.md)
+- [Roam Research/Change Log](<./Roam Research_Change Log.md>)
+- [Roam Research/Support](<./Roam Research_Support.md>)

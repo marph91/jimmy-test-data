@@ -17,7 +17,7 @@ Thema 3
 
 Beispiele: Ergebnisse von Analysen / Diagramme / Statistiken / Bilder / Erkenntnis 3 /…
 
-![ Abbildung : Staatsschuldenquote 2013 \[% BIP\], Quelle: Wikipedia, eigene Darstellung](100000000000030C0000024955B04860EE4EBDAD.jpg)
+![ Abbildung : Staatsschuldenquote 2013 \[% BIP\], Quelle: Wikipedia, eigene Darstellung](./100000000000030C0000024955B04860EE4EBDAD.jpg)
 
 **Thema 4**
 

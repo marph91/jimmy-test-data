@@ -2,9 +2,9 @@
 # Windows
 
 
-		- [Steps 1-8:](Windows.md) Installing Python2.7 and adding it to environment variables.
-		- [Steps 9-16:](Windows.md) Installing Cherrytree dependencies.
-		- [Steps 17-20:](Windows.md) Configuring the Cherrytree directory.
+		- [Steps 1-8:](./Windows.md) Installing Python2.7 and adding it to environment variables.
+		- [Steps 9-16:](./Windows.md) Installing Cherrytree dependencies.
+		- [Steps 17-20:](./Windows.md) Configuring the Cherrytree directory.
 
  ## Installing Python 2.7
 
@@ -70,7 +70,7 @@
 	20. Open **Command Prompt**, change to the directory containing your local copy of Cherrytree, and run:
 	
 
-![unnamed_bd9c66b3ad3c4d6d9a3d1fa7bc8960a9](unnamed_bd9c66b3ad3c4d6d9a3d1fa7bc8960a9.png)
+![unnamed_bd9c66b3ad3c4d6d9a3d1fa7bc8960a9](./unnamed_bd9c66b3ad3c4d6d9a3d1fa7bc8960a9.png)
 
 ```sh
 python2 -m pip install pyenchant

@@ -6,14 +6,14 @@
         - This creates *children blocks*, which we can expand, collapse, and focus. 
         - Indenting provides structure. We can scan pages with ease and find related blocks. Try clicking the **ᐅ** icon on the next block!
 ### Everything is where you need it to be
-- **Organizing information is effortless with** [page](Page%20References.md)/[block references](Block%20References.md).
+- **Organizing information is effortless with** [page](<./Page References.md>)/[block references](<./Block References.md>).
     - Let's say we have a meeting. In our Daily Notes, we might write
-        - [QhoXgk8VU](February%201st%2C%202021.md)
+        - [QhoXgk8VU](<./February 1st, 2021.md>)
     - Those square brackets turn text into ***backlinks***.
         - This automatically creates a page for each keyword--click the backlink to go the keyword's page. 
         - At the bottom, you'll find instances where the page was mentioned--its *page references*.
-        - So the meeting reminder block appears on [meeting](meeting.md), [John Smith](John%20Smith.md), [marketing](marketing.md), and [Roam Research](Roam%20Research.md)!
-        - This way, we never have to worry about which folder to file things in- just [backlink](backlink.md) as you go.
+        - So the meeting reminder block appears on [meeting](./meeting.md), [John Smith](<./John Smith.md>), [marketing](./marketing.md), and [Roam Research](<./Roam Research.md>)!
+        - This way, we never have to worry about which folder to file things in- just [backlink](./backlink.md) as you go.
 ### Everything is a `/` away
 - Roam is packed with powerful features. Anytime you want to do more than type text,
     - just type `/` to bring up the inline command palette.

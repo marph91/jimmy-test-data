@@ -1,3 +1,3 @@
 
 
-[blah.gz](blah.gz)
+[blah.gz](./blah.gz)

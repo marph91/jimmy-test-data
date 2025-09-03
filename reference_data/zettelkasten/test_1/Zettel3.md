@@ -47,4 +47,4 @@ block satz hier[br]immert noch
 
 ## Note Sequences
 
-[2](Zettel%202.md)
+[2](<./Zettel 2.md>)

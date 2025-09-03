@@ -1,4 +1,4 @@
-- TODOs are the core of [task management](Task%20Management.md). We have been using them in our bullet journals, task apps, and now... Roam.
+- TODOs are the core of [task management](<./Task Management.md>). We have been using them in our bullet journals, task apps, and now... Roam.
 - Creating TODOs in Roam is incredibly easy! Below are different ways to do that:
     - **Right clicking on the bullet**
         - `Right-click` on the bullet you want to transform into a todo.
@@ -7,12 +7,12 @@
         - While you're editing the block you want to transform into a TODO, press:
             - `cmd+return` (macOS)
             - `ctrl+enter` (PC)
-    - **Using the** [/ Commands](_%20Commands.md) **Menu**
+    - **Using the** [/ Commands](<./_ Commands.md>) **Menu**
         - Type `/`
         - Hit `enter`
 ## Roam Team Videos::
-- [voHr0lJHm](Task%20Management.md)
-- [Xb8mDkHIY](Task%20Management.md)
+- [voHr0lJHm](<./Task Management.md>)
+- [Xb8mDkHIY](<./Task Management.md>)
 ## Team GIFs::
 ### Cycling state in one block
 - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fhelp-documentation%2FWXFUMcf7Ou.gif?alt=media&token=dc1f0c12-74c1-4ed9-bd32-41129b0654dc)
@@ -27,20 +27,20 @@
     - You can also right click the bullet to "Make TODO"
         - Click the todo box to mark it TODO or DONE
 ## Community Videos::
-### [tVoMrbpWG](Task%20Management.md)
-- [sTIX4PxIT](Task%20Management.md)
-### [0OcsyAQC8](Task%20Management.md)
-- [kZMCCfRlP](Task%20Management.md)
+### [tVoMrbpWG](<./Task Management.md>)
+- [sTIX4PxIT](<./Task Management.md>)
+### [0OcsyAQC8](<./Task Management.md>)
+- [kZMCCfRlP](<./Task Management.md>)
 ### ((FZAF-mGOH))
-- [2F21ynbQG](Task%20Management.md)
-### Todoist to Roam Research - Advanced Task Management in Roam by [Matt Goldenberg](Matt%20Goldenberg.md)
+- [2F21ynbQG](<./Task Management.md>)
+### Todoist to Roam Research - Advanced Task Management in Roam by [Matt Goldenberg](<./Matt Goldenberg.md>)
 - <https://www.youtube.com/watch?v=xOTTyLtgqpM>
 #roam/css | #Extensions | #roam/js | #Sidebar | #TODO/DONE | #Query
 ## Articles::
-### [PGqpHUrBe](Task%20Management.md)
-- [nrz4Ml4dm](Task%20Management.md)
-### [vRhMZVLrd](Task%20Management.md)
-- [gfEkyvuRJ](Task%20Management.md)
+### [PGqpHUrBe](<./Task Management.md>)
+- [nrz4Ml4dm](<./Task Management.md>)
+### [vRhMZVLrd](<./Task Management.md>)
+- [gfEkyvuRJ](<./Task Management.md>)
 ## Key Commands::
 - Cycle through TODO/DONE state:
     - `cmd+return` for macOS

@@ -40,7 +40,7 @@ Text
 
 ## Linked image
 
-![test.png](test.png)
+![test.png](./test.png)
 
 ## Linked file
 

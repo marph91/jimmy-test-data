@@ -1,1 +1,1 @@
-- [Smart Blocks](Smart%20Blocks.md) #integrations
+- [Smart Blocks](<./Smart Blocks.md>) #integrations

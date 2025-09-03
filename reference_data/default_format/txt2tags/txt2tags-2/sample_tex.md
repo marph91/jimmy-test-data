@@ -164,7 +164,7 @@ Because things were too simple.
 
 The image mark is as simple as it can be: `[filename]`.
 
-![image](photo.jpg)
+![image](./photo.jpg)
 
 The filename must end in PNG, JPG, GIF, or similar.
 
@@ -181,4 +181,4 @@ as `%%date(%m-%d-%Y)` which gives: 06-02-2011.
 
 That’s all for now.
 
-![image](t2tpowered.png) ()
+![image](./t2tpowered.png) ()

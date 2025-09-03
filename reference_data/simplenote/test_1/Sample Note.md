@@ -1,2 +1,2 @@
 - [x] is pinned
-- [x] has link to [Second Sample Note](Second%20Sample%20Note%20with%20tag.md)
+- [x] has link to [Second Sample Note](<./Second Sample Note with tag.md>)

@@ -1,3 +1,3 @@
-[another subpage](Testseite/subpage/another%20subpage.md)
+[another subpage](<./Testseite/subpage/another subpage.md>)
 
 more content

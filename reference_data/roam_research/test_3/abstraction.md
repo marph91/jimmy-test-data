@@ -1,2 +1,2 @@
-- Building another [concept](concept.md)
+- Building another [concept](./concept.md)
 - 

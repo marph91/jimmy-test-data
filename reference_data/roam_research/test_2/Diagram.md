@@ -7,16 +7,16 @@
     - The mermaid diagram
         - {{mermaid}}
 - Roam Team Videos::
-    - Diagrams in Roam Research by [Conor White-Sullivan](Conor%20White-Sullivan.md)
+    - Diagrams in Roam Research by [Conor White-Sullivan](<./Conor White-Sullivan.md>)
         - <https://www.youtube.com/watch?v=RD_Gi8EQGVQ>
 #Diagram
     - [nK1SOByAn](roam-block://nK1SOByAn)
         - [RZwG8gQAG](roam-block://RZwG8gQAG)
 - Articles::
-    - [How to build diagrams in Roam Research](https://nesslabs.com/roam-research-diagrams) by [Anne-Laure Le Cunff](Anne-Laure%20Le%20Cunff.md)
+    - [How to build diagrams in Roam Research](https://nesslabs.com/roam-research-diagrams) by [Anne-Laure Le Cunff](<./Anne-Laure Le Cunff.md>)
         - #Diagram
 - Community Videos::
-    - Drawing and Diagrams in Roam Research by [Chester](Chester.md)
+    - Drawing and Diagrams in Roam Research by [Chester](./Chester.md)
         - <https://www.youtube.com/watch?v=-q5JRaZbcrA>
 - Key Commands::
     - `/diagram`

@@ -1,17 +1,17 @@
 - Dev docs #.h
     - Tutorials::
     - How-to guides::
-    - [Reference](Reference.md)
-    - [Examples](Examples.md)
-- [Community](Community.md)
+    - [Reference](./Reference.md)
+    - [Examples](./Examples.md)
+- [Community](./Community.md)
     - Roam Daily Template
-        - Designer:: [Jonathan Borichevskiy](Jonathan%20Borichevskiy.md)
+        - Designer:: [Jonathan Borichevskiy](<./Jonathan Borichevskiy.md>)
         - Special Features::
             - #Slider | #Tags | #TODO/DONE
         - Templates::
-            - Last updated:: [February 27th, 2021](February%2027th%2C%202021.md)
+            - Last updated:: [February 27th, 2021](<./February 27th, 2021.md>)
             - Weekly Agenda (created on a different day, and embedded with /Block Reference)
-                - [Morning Questions](Morning%20Questions.md)
+                - [Morning Questions](<./Morning Questions.md>)
                     - {{[[slider]]}} How many hours of sleep did I get?
                     - What's one thing top of mind today?
                     - What's the one thing I need to get done today to make progress?
@@ -27,7 +27,7 @@
                     - [ ] Evening focus hour
                         - [ ] Do 7 - 30 - 90 review
                     - [ ] read for pleasure, watch something, go for a walk
-                - [Evening Questions](Evening%20Questions.md)
+                - [Evening Questions](<./Evening Questions.md>)
                     - List three things I'm grateful for #habit #gratitude
                     - What made me happy today?
                     - What made me sad?
@@ -35,11 +35,11 @@
                     - What prevented me from reaching my goals today?
                     - What am I looking forward to?
     - Skeletons/Methods/Tags/Tools
-        - Designer:: [Samuel Orion](Samuel%20Orion.md)
+        - Designer:: [Samuel Orion](<./Samuel Orion.md>)
         - Special Features::
             - #Attributes | #Kanban
         - Templates::
-            - Last updated:: [July 1st, 2020](July%201st%2C%202020.md)
+            - Last updated:: [July 1st, 2020](<./July 1st, 2020.md>)
 ### Article::
 - **Topic:**
 - **Tags: **
@@ -72,7 +72,7 @@
 - Success Criteria:
 - Tags:
 - Quarterly Preview
-- Review [Yearly Planning](Yearly%20Planning.md)
+- Review [Yearly Planning](<./Yearly Planning.md>)
 - My biggest wins
 - Process on annual goals for this quarter (% successful)
 - Overall, what worked and what didn’t?
@@ -80,9 +80,9 @@
 - What will you start doing?
 - What will you improve?
 - What will you stop doing?
-- [tools](tools.md)
-- [Find and replace](Find%20and%20replace.md)
-- [KANBAN BOX](KANBAN%20BOX.md)
+- [tools](./tools.md)
+- [Find and replace](<./Find and replace.md>)
+- [KANBAN BOX](<./KANBAN BOX.md>)
     - {{kanban}}
         - indent once for column title
             - and another item
@@ -96,13 +96,13 @@
         - A third column
             - more stuff
     - Daily Log
-        - Designer:: [Mark Robertson](Mark%20Robertson.md)
+        - Designer:: [Mark Robertson](<./Mark Robertson.md>)
             - Twitter:: [@calhistorian](https://twitter.com/calhistorian)
         - Special Features::
             - #Attributes | #Query | #TODO/DONE
             - ![Image](https://aws1.discourse-cdn.com/standard14/uploads/roamresearch/optimized/1X/bc5064932dfa087a1dd53f4edb31be63377b9346_2_690x400.jpeg)
         - Code::
-            - Last updated:: [July 1st, 2020](July%201st%2C%202020.md)
+            - Last updated:: [July 1st, 2020](<./July 1st, 2020.md>)
             - #Morning-Review
                 - #Weather-Report
                     - Location:: #Home
@@ -115,11 +115,11 @@
                 - #Morning-Pages
             - #Morning-Reflection
                 - {{[[query]]: {and: [[-1 Day]] [[Evening Pages]] {not: [[query]]}}}}
-                - [Who benefits from your work?](Who%20benefits%20from%20your%20work_.md)
-                - [What am I grateful for?](What%20am%20I%20grateful%20for_.md)
-                - [What do I want the day’s highlight to be?](What%20do%20I%20want%20the%20day%E2%80%99s%20highlight%20to%20be_.md)
-                - [Daily Affirmations](Daily%20Affirmations.md)
-                - [What am I think of?](What%20am%20I%20think%20of_.md)
+                - [Who benefits from your work?](<./Who benefits from your work_.md>)
+                - [What am I grateful for?](<./What am I grateful for_.md>)
+                - [What do I want the day’s highlight to be?](<./What do I want the day’s highlight to be_.md>)
+                - [Daily Affirmations](<./Daily Affirmations.md>)
+                - [What am I think of?](<./What am I think of_.md>)
             - #Open-Questions
                 - {{[[query]]: {and: [[Question]] [[TODO]] {not: {or:[[query]] [[DONE]] [[Templates]]}}}}}
             - #Calendar
@@ -146,12 +146,12 @@
         - Company::
         - Phone::
     - Choice
-        - [ ] [Choice](Choice.md) 
+        - [ ] [Choice](./Choice.md) 
             - Context::
             - Options::
             - Decision::  
     - Daily agenda Updated
-        - [Daily agenda](Daily%20agenda.md)
+        - [Daily agenda](<./Daily agenda.md>)
             - {{[[kanban]]}}
                 - All day
                 - 00:00
@@ -178,7 +178,7 @@
                 - 21:00
                 - 22:00
                 - 23:00
-                - [Need to plan](Need%20to%20plan.md)
+                - [Need to plan](<./Need to plan.md>)
     - An Engineering Problem Solving Process
         - ==An engineered, systematic approach to problem solving can be invaluable in solving problems, capturing knowledge, and discovering solutions.== An approach that I suggest involves starting with a simple outline consisting of the following sections (as appropriate - sometimes it makes sense to combine or eliminate certain sections). Feel free to delete this paragraph as you fill out the template.
         - Problem Statement:: This should be a simple 1-2 sentence (no more!) statement of the problem. Do not describe symptoms. To the best of your ability, reduce the problem to its bare essence here. Over time this statement may be refined. A key principle is that ==if you cannot state your problem concisely, you probably don't know what it is and you almost certainly cannot communicate it effectively to others==.
@@ -207,23 +207,23 @@
         - Solution:: Based on all of the previous information, provide the solution to the problem. This could be a technical solution, process, new product, etc. Note that if multiple solutions are provided (suppose you provide multiple product offerings to solve the same problem) it is perfectly appropriate to have subpages for each solution.
         - Recommendations:: An alternative to (or something to be used in conjunction with) a solution is one or more recommendations. Again, if appropriate recommendations can merit their own subpages.
     - Hickey Design Process
-        - [Problems](Problems.md)
+        - [Problems](./Problems.md)
             - Take wants/needs and translate them into problems
-        - [Symptoms](Symptoms.md)
+        - [Symptoms](./Symptoms.md)
             - Symptoms of the problems
-        - [Requirements](Requirements.md)
-            - [Knowns](Knowns.md)
+        - [Requirements](./Requirements.md)
+            - [Knowns](./Knowns.md)
                 - What I know how to do
-            - [Unknowns](Unknowns.md)
+            - [Unknowns](./Unknowns.md)
                 - What I don't know how to do
-            - [Domain-side](Domain-side.md)
+            - [Domain-side](./Domain-side.md)
                 - Business requirement
-            - [Solution-side](Solution-side.md)
+            - [Solution-side](./Solution-side.md)
                 - Technical constraints (it has to compile to JS, for example)
-            - [Unstated](Unstated.md)
+            - [Unstated](./Unstated.md)
                 - Things that everyone wants the system to avoid
                     - Doesn't crash, use too much memory, require too much energy, are examples of unstated requirements
-        - [Solutions](Solutions.md)
+        - [Solutions](./Solutions.md)
             - Solution A
                 - Benefits::
                     - 
@@ -301,6 +301,6 @@
         - [ ] 
     - Key Commands::
 - Video/article #.h
-    - [ ] [Article link]() or {{[video](video.md): }}
+    - [ ] [Article link]() or {{[video](./video.md): }}
         - Features mentioned::
             - Page refs to features 

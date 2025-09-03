@@ -19,8 +19,8 @@ Synchronisieren Sie Daten auf allen Ihren Geräten. Melden Sie sich einfach in I
 Sie können Ihre Einträge mit Diaro Online (www.diaroapp.com) auf Ihrem PC oder Mac verwalten. 
 Die Synchronisierung ist nur in der PREMIUM-Version verfügbar.
 
-![entry_demo_image1.jpg](entry_demo_image1.jpg)
+![entry_demo_image1.jpg](./entry_demo_image1.jpg)
 
-![entry_demo_image2.jpg](entry_demo_image2.jpg)
+![entry_demo_image2.jpg](./entry_demo_image2.jpg)
 
-![entry_demo_image3.jpg](entry_demo_image3.jpg)
+![entry_demo_image3.jpg](./entry_demo_image3.jpg)

@@ -14,5 +14,5 @@
                   - the same item again
             - nested
       - items
-- attached file: ![unnamed_bdd640fb06674ad19c80317fa3b1799d](unnamed_bdd640fb06674ad19c80317fa3b1799d.png)
-[plaintext.txt](plaintext.txt)
+- attached file: ![unnamed_bdd640fb06674ad19c80317fa3b1799d](./unnamed_bdd640fb06674ad19c80317fa3b1799d.png)
+[plaintext.txt](./plaintext.txt)

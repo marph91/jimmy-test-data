@@ -1,1 +1,1 @@
-- {{embed: [JbhpoHDv7](Change%20Log.md)}}
+- {{embed: [JbhpoHDv7](<./Change Log.md>)}}

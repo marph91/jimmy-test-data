@@ -1,3 +1,3 @@
-[EvernoteNoteA](EvernoteNoteA.md)
-[EvernoteNoteB](EvernoteNoteB.md)
-[EvernoteNoteC](EvernoteNoteC.md)
+[EvernoteNoteA](./EvernoteNoteA.md)
+[EvernoteNoteB](./EvernoteNoteB.md)
+[EvernoteNoteC](./EvernoteNoteC.md)

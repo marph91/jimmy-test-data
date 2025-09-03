@@ -18,12 +18,12 @@
 
 		- [Anchor](../Objects/Anchors.md)
 
-		- [TOC (Table of Contents)](../Objects/Table%20of%20Contents.md)
+		- [TOC (Table of Contents)](<../Objects/Table of Contents.md>)
 
 		- [Timestamp](../Objects/Timestamps.md)
 
-		- [Special Character](../Objects/Special%20Characters.md)
+		- [Special Character](<../Objects/Special Characters.md>)
 
-		- [Horizontal Rule](../Objects/Horizontal%20Rule.md)
+		- [Horizontal Rule](<../Objects/Horizontal Rule.md>)
 
 	See [Objects](../Objects/Objects.md) for more detail.

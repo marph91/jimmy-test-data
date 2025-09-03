@@ -23,8 +23,8 @@ bullet points:
 - first
 - second
 
-[link to itself](abcd.md)
+[link to itself](./abcd.md)
 
-![link to image](test.png)
+![link to image](./test.png)
 
-![test.png](test.png)
+![test.png](./test.png)

@@ -1,1 +1,1 @@
-- test [Public](Public.md)
+- test [Public](./Public.md)

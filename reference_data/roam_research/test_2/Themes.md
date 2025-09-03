@@ -1,14 +1,14 @@
-- [.--](.--.md)
+- [.--](./.--.md)
 ### [Request to be featured](https://roamresearch.typeform.com/to/g5W8uCqz)
-### Applying Custom Themes to you Graph by [Conor White-Sullivan](Conor%20White-Sullivan.md)
-- {{[video](video.md): https://youtu.be/UY-sAC2eGyI }}
+### Applying Custom Themes to you Graph by [Conor White-Sullivan](<./Conor White-Sullivan.md>)
+- {{[video](./video.md): https://youtu.be/UY-sAC2eGyI }}
 ## **Team Favorites**
-### ["Advaita" aka Better Dark Age / Dracula Pro](_Advaita_%20aka%20Better%20Dark%20Age%20_%20Dracula%20Pro.md)
+### ["Advaita" aka Better Dark Age / Dracula Pro](<./_Advaita_ aka Better Dark Age _ Dracula Pro.md>)
 - Screenshots::
     - Dracula Pro
         - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Froamcss%2FpHrno4MPZY.png?alt=media&token=608fcfc3-3338-4f57-ab6d-c93b51c1ee9d)
-- Last updated:: [December 30th, 2020](December%2030th%2C%202020.md)
-- Designer:: [Abhay Prasanna](Abhay%20Prasanna.md)
+- Last updated:: [December 30th, 2020](<./December 30th, 2020.md>)
+- Designer:: [Abhay Prasanna](<./Abhay Prasanna.md>)
     - Twitter:: [@AbhayPrasanna](https://twitter.com/AbhayPrasanna)
     - Love this theme? Say thanks via [PayPal](https://www.paypal.me/abhayprasanna) or Venmo @Abhay-Prasanna (all proceeds reinvested in the Roam community!)
 - Special Features::
@@ -37,18 +37,18 @@
 ```
     - Replace "dark-age-dracula" with the following for other colorsets:
         - material-palenight-roam [*](((NfZ-xipBw)))
-        - dark-night-roam [*](Themes.md)
-        - shades-of-purple [*](Themes.md)
+        - dark-night-roam [*](./Themes.md)
+        - shades-of-purple [*](./Themes.md)
     - Various optional adjustments I use in my own theme (annotated in code):
         - {{[[roam/css]]}}
 ```css
 @import url('https://abhayprasanna.github.io/optional.css');
 ```
-### [Railscast](Railscast.md)
+### [Railscast](./Railscast.md)
 - Screenshots::
     - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Froamcss%2F866sLcv-ZR.png?alt=media&token=7656688e-3cf9-4d05-9636-16e0ec5eed96)
-- Last updated:: [January 6th, 2021](January%206th%2C%202021.md)
-- Designer:: [Jeff Harris](Jeff%20Harris.md)
+- Last updated:: [January 6th, 2021](<./January 6th, 2021.md>)
+- Designer:: [Jeff Harris](<./Jeff Harris.md>)
     - Twitter:: [@jeffharrissays](https://twitter.com/jeffharrissays)
     - Love this theme? Say thanks via [Cash App](https://cash.app/$jeffharris) or [paypal](https://paypal.me/jmharris903?locale.x=en_US)
 - Special Features::
@@ -257,19 +257,19 @@
 ```css
 @import url('https://jmharris903.github.io/Railscast-for-Roam-Research-Theme/RailsRoam.css');
 ```
-### [Better Roam Research](Better%20Roam%20Research.md)
+### [Better Roam Research](<./Better Roam Research.md>)
 - Screenshots::
     - If your OS is in Light Mode:
         - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fhelp%2FnoeJ9L0SQp.png?alt=media&token=dcfd7281-104d-4fbc-b88b-0f93de7c4f4f)
     - If your OS is in Dark Mode:
         - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Froam%2FqEbHtYl5zg.png?alt=media&token=50a57675-7928-450a-b53d-23a4f5c276fc)
-- Designer:: [Fabrizio Rinaldi](Fabrizio%20Rinaldi.md)
+- Designer:: [Fabrizio Rinaldi](<./Fabrizio Rinaldi.md>)
     - Twitter:: [@linuz90](https://twitter.com/linuz90)
     - Love this theme? Say thanks via [Paypal](https://www.paypal.me/linuz90)
 - Special Features::
     - #Dark-Mode but only if your OS is set to dark! 
 - Code::
-    - Last updated [June 4th, 2020](June%204th%2C%202020.md). If it's been a while, you can check [Github](https://github.com/linuz90/better-roam-research) for the latest version. 
+    - Last updated [June 4th, 2020](<./June 4th, 2020.md>). If it's been a while, you can check [Github](https://github.com/linuz90/better-roam-research) for the latest version. 
     - {{[[roam/css]]}}
 ```css
 :root {
@@ -508,9 +508,9 @@ strong {
     --brackets-color: rgba(0, 0, 0, 0.3) !important;
     --empty-text-color: hsl(203, 5%, 70%); } }
 ```
-### [Leyendecker](Leyendecker.md)
+### [Leyendecker](./Leyendecker.md)
 - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Froam%2Ffc9tIphX_X.png?alt=media&token=f6c09e01-742a-478d-a537-0b3a88796325)
-- Designer:: [Maggie Appleton](Maggie%20Appleton.md)
+- Designer:: [Maggie Appleton](<./Maggie Appleton.md>)
     - Twitter:: [@mappletons](https://twitter.com/mappletons)
     - Love this theme? Say thanks via [Paypal](https://paypal.me/maggieappleton)
 - Special Features::
@@ -518,8 +518,8 @@ strong {
     - Custom data-tags are all at the end of the CSS file, which you'll probably want to edit/customise. 
         - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Froam%2FER9x_LvrLc.png?alt=media&token=4860ec31-f27e-45c7-adaa-194594cc55e2)
 - Code::
-    - Last updated [June 4th, 2020](June%204th%2C%202020.md)
-    - [Site-wide](Site-wide.md)
+    - Last updated [June 4th, 2020](<./June 4th, 2020.md>)
+    - [Site-wide](./Site-wide.md)
         - {{[[roam/css]]}}
             - ```css
 h1,
@@ -893,12 +893,12 @@ span.rm-page-ref[data-tag="Alive"] {
     font-weight: 500;
 }
 ```
-### [Zenith](Zenith.md)
+### [Zenith](./Zenith.md)
 - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Froam%2FpF2OCzwlH2.png?alt=media&token=4bd42cd5-cd10-49a6-a915-a328ff067467)
-- Designer:: [Azlen Elza](Azlen%20Elza.md)
+- Designer:: [Azlen Elza](<./Azlen Elza.md>)
     - Twitter:: [@azlenelza](https://twitter.com/azlenelza) 
     - Love this theme? Say thanks via [Paypal](https://www.paypal.me/azlenelza). 
-    - Also created [dQE5DoOsq](Themes.md) and [tljHVAbLS](Themes.md)
+    - Also created [dQE5DoOsq](./Themes.md) and [tljHVAbLS](./Themes.md)
 - Special Features::
     - Collapsible columns -- side-by-side view for items opened in the sidebar 
     - Searchbar appears in main page 
@@ -943,17 +943,17 @@ canvas[data-id="layer2-node"] {
 }
 ```
 ## **Dark Modes**
-### [Cosmonaut](Cosmonaut.md)
+### [Cosmonaut](./Cosmonaut.md)
 - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Froam%2FZqga3Oe0uc.png?alt=media&token=ca5c4739-ef61-4dea-a241-eaa81a5450bf)
-- Designer:: [Azlen Elza](Azlen%20Elza.md)
-    - [wELq9VXp9](Themes.md)
-    - [YSLds5TJI](Themes.md)
-    - Also created [gmu7ilUeY](Themes.md) and [tljHVAbLS](Themes.md)
+- Designer:: [Azlen Elza](<./Azlen Elza.md>)
+    - [wELq9VXp9](./Themes.md)
+    - [YSLds5TJI](./Themes.md)
+    - Also created [gmu7ilUeY](./Themes.md) and [tljHVAbLS](./Themes.md)
 - Special Features::
     - #Dark-Mode
-    - Variation on [Zenith](Zenith.md) which has: 
+    - Variation on [Zenith](./Zenith.md) which has: 
         - ((PX8wdX_cX))
-        - [n7Pli5CF9](Themes.md)
+        - [n7Pli5CF9](./Themes.md)
         - ((_BQ5T8s43))
 - Code::
     - {{[[roam/css]]}}
@@ -1023,14 +1023,14 @@ span.cm-error { color: #F41000 !important; }
 ## **Feature Expansions**
 ### Nested Links
 - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Froam%2Fqr3tGRCd-s.png?alt=media&token=31913a3e-546a-4955-87fe-2c9ad8fd160f)
-- Designer:: [Cato Minor](Cato%20Minor.md)
+- Designer:: [Cato Minor](<./Cato Minor.md>)
     - Twitter:: [@CatoMinor3](https://twitter.com/CatoMinor3)
     - Love this theme? Say thanks via [Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6AMGMUDRX29XU&source=url)
 - Special Features::
     - Additional underlining for nested tags 
         - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Froam%2FNRBiiUtnF-.png?alt=media&token=233612e7-2aeb-4d13-b28e-8b9cc806d173)
 - Code::
-    - Last updated [June 4th, 2020](June%204th%2C%202020.md)
+    - Last updated [June 4th, 2020](<./June 4th, 2020.md>)
     - {{[[roam/css]]}}
 ```css
 :root {
@@ -1091,15 +1091,15 @@ background: linear-gradient(0deg, var(--custom-background-color-hover) 2px, whit
 }
 ```
 ## **More Colors**
-### [Yggdrasil](Yggdrasil.md)
+### [Yggdrasil](./Yggdrasil.md)
 - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Froam%2FT0iQmFOXwm.png?alt=media&token=3cdca40f-d2bb-4217-9f26-b44c825f88be)
-- Designer:: [Azlen Elza](Azlen%20Elza.md)
-    - [wELq9VXp9](Themes.md)
-    - [YSLds5TJI](Themes.md)
-    - Also created [dQE5DoOsq](Themes.md) and [gmu7ilUeY](Themes.md)
+- Designer:: [Azlen Elza](<./Azlen Elza.md>)
+    - [wELq9VXp9](./Themes.md)
+    - [YSLds5TJI](./Themes.md)
+    - Also created [dQE5DoOsq](./Themes.md) and [gmu7ilUeY](./Themes.md)
 - Special Features:: 
     - ((PX8wdX_cX))
-    - [n7Pli5CF9](Themes.md)
+    - [n7Pli5CF9](./Themes.md)
     - ((_BQ5T8s43))
 - Code::
     - {{[[roam/css]]}}
@@ -1164,5 +1164,5 @@ canvas[data-id="layer2-node"] {
 }
 ```
 ## **Block Level Customizations**
-- from [Maggie Appleton](Maggie%20Appleton.md) in [ilbMpkUFC](Themes.md)
-    - [HdHehJEXV](Themes.md)
+- from [Maggie Appleton](<./Maggie Appleton.md>) in [ilbMpkUFC](./Themes.md)
+    - [HdHehJEXV](./Themes.md)

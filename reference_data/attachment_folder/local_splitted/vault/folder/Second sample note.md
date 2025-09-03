@@ -1,10 +1,10 @@
-aaa [Sample note](../Sample%20note.md)
+aaa [Sample note](<../Sample note.md>)
 
-![test.png](media/test.png)
+![test.png](./media/test.png)
 
 
-[plaintext.txt](attachments/plaintext.txt)
+[plaintext.txt](./attachments/plaintext.txt)
 
 #inline-tag-obsidian
 
-[Sample note alias](../Sample%20note.md)
+[Sample note alias](<../Sample note.md>)

@@ -7,4 +7,4 @@ lorem ipsum
 - [ ] checkpoint1
 - [ ] checkpoint2
 
-link to [TanaNote1](TanaNote1.md)
+link to [TanaNote1](./TanaNote1.md)

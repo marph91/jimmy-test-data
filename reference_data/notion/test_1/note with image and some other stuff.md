@@ -1,6 +1,6 @@
 here is the **image**:
 
-![test.png](test.png)
+![test.png](./test.png)
 
 and some **video**:
 
@@ -12,7 +12,7 @@ also some song
 
 and an empty text file
 
-[plaintext.txt](plaintext.txt)
+[plaintext.txt](./plaintext.txt)
 
 ```jsx
 function i(){

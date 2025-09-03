@@ -12,4 +12,4 @@
     },
 ```
 
-![imageTitle_<>-":\|?*_endOfImageTitle.png?=imagePostfix_<>-":\|?*_endOfImagePostfix](imageTitle___-_______endOfImageTitle.png_%3DimagePos)
+![imageTitle_<>-":\|?*_endOfImageTitle.png?=imagePostfix_<>-":\|?*_endOfImagePostfix](<./imageTitle___-_______endOfImageTitle.png_=imagePos>)

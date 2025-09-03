@@ -1,8 +1,8 @@
-![unnamed_bdd640fb06674ad19c80317fa3b1799d](unnamed_bdd640fb06674ad19c80317fa3b1799d.png)
+![unnamed_bdd640fb06674ad19c80317fa3b1799d](./unnamed_bdd640fb06674ad19c80317fa3b1799d.png)
 
 #### Last Transfer
 
-![bank.svg](bank.svg)
+![bank.svg](./bank.svg)
 
 ##### **Next Day Bank Deposit / USD**
 

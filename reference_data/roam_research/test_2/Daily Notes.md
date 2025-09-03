@@ -1,4 +1,4 @@
-- [.--](.--.md)
+- [.--](./.--.md)
 ## **Daily Notes are the backbone of the Roam experience.**
 - When you sign into Roam, you will start on a page with today's date.
 - We encourage people to start writing on this page because it gives context to your notes.
@@ -7,7 +7,7 @@
 - Even if you create a new page, it's often helpful to do so from the Daily Note. This way, you'll be able to see when you created these pages, and your work will be visible when reviewing your days.
 - Consider the following Daily Note:
 - ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/64002864729/original/jzf65Bfvc_C7CcxpeokK5YM20u9Kv_5G6A.png?1600974564)
-- What does this person get by using the Daily Note instead of just working in the [Weekly Experiments](Weekly%20Experiments.md) and [5 Year Plan](5%20Year%20Plan.md) pages?
+- What does this person get by using the Daily Note instead of just working in the [Weekly Experiments](<./Weekly Experiments.md>) and [5 Year Plan](<./5 Year Plan.md>) pages?
 - The context for why they started Weekly Experiments
 - An overview on what they changed in their 5 Year Plan, and an intention to work on it more next week.
 ## **Conclusion**

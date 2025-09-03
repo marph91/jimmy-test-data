@@ -33,14 +33,14 @@
 
 	- **Timestamp Format** - Defines the format of a [timestamp](../Objects/Timestamps.md).
 
-		**NOTE:** See [Formatting Timestamps](Text%20and%20Code.md) for a list of timestamp directives or visit the [strftime documentation](https://docs.python.org/2/library/time.html#time.strftime) by click the icon next to the timestamp setting.
+		**NOTE:** See [Formatting Timestamps](<./Text and Code.md>) for a list of timestamp directives or visit the [strftime documentation](https://docs.python.org/2/library/time.html#time.strftime) by click the icon next to the timestamp setting.
 
 		 Figure 9.01
 		
 
-	- **Horizontal Rule** - Defines the text inserted for a [horizontal rule](../Objects/Horizontal%20Rule.md).
+	- **Horizontal Rule** - Defines the text inserted for a [horizontal rule](<../Objects/Horizontal Rule.md>).
 
-	- **Special Characters** - Defines the list of special characters to exist in the [Special Characters](../Objects/Special%20Characters.md) submenu.
+	- **Special Characters** - Defines the list of special characters to exist in the [Special Characters](<../Objects/Special Characters.md>) submenu.
 	
 		New characters can be added to the list by pasting them next to the existing characters. Click the yellow arrow icon to reset to the default list of characters.
 
@@ -55,8 +55,8 @@
 
 	
 
-![unnamed_ec1b8ca1f91e4d4c9ff49b7889463e85](unnamed_ec1b8ca1f91e4d4c9ff49b7889463e85.png)
-![unnamed_4b0dbb418d5248f1942c3fe860e7a113](unnamed_4b0dbb418d5248f1942c3fe860e7a113.png)
+![unnamed_ec1b8ca1f91e4d4c9ff49b7889463e85](./unnamed_ec1b8ca1f91e4d4c9ff49b7889463e85.png)
+![unnamed_4b0dbb418d5248f1942c3fe860e7a113](./unnamed_4b0dbb418d5248f1942c3fe860e7a113.png)
 
 | %a<br> | Locale’s abbreviated weekday name.<br> |
 | --- | --- |

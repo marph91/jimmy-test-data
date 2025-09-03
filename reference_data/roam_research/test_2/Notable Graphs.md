@@ -2,7 +2,7 @@
 ## [RoamPublic.com](https://www.roampublic.com/all-texts/)
 ## [The Roaman Agora](https://roamresearch.com/#/app/The-Roaman-Agora/page/wujSyfjAu)
 ## [Roam Collective](https://roamresearch.com/#/app/Roam-Collective/page/MorTyZR-2)
-## [Roam Book Club](Roam%20Book%20Club.md)
+## [Roam Book Club](<./Roam Book Club.md>)
 ## [Creator Cooperative ](https://roamresearch.com/#/app/Creator-Cooperative)
 ## [Roam Slack](https://roamresearch.com/#/app/roam-slack)
 ## [RoamCN](https://roamresearch.com/#/app/RoamCN)

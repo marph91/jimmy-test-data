@@ -1,15 +1,15 @@
-- #Full-Text {{=: | [Kevin Lacker](Kevin%20Lacker.md) [Whiteboarding Challenges](Whiteboarding%20Challenges.md) [Taboos](Taboos.md)}}
+- #Full-Text {{=: | [Kevin Lacker](<./Kevin Lacker.md>) [Whiteboarding Challenges](<./Whiteboarding Challenges.md>) [Taboos](./Taboos.md)}}
     - [Kevin Lacker's blog](https://lacker.io/)
     - [About Me](https://lacker.io/about/)
 # Why You Can't Say
 - Apr 5, 2017
 - Recently on a tip from [Ivan Kirigin](https://twitter.com/ikirigin) I reread this now-ancient Paul Graham article, [What You Can’t Say](http://www.paulgraham.com/say.html). Like the idea of [Straussian reading](http://lacker.io/books/2017/03/26/straussian-reading.html), the essay is looking for secret truths which are currently inappropriate to share publicly.
-- > [jzmoM5q05](What%20You%20Can%27t%20Say.md)
+- > [jzmoM5q05](<./What You Can't Say.md>)
 - At first I was going to dig in, follow the instructions in this essay, perhaps try to get meta and turn them on the essay itself, and find some secret truths. But there was just too much to bite off at once and I ended up gnawing on a tangent.
 - Specifically, the part that really sparked some thought for me was this hypothesis on the source of taboos:
-- > [To launch a taboo, a group has to be poised halfway between weakness and power. A confident group doesn't need taboos to protect it. It's not considered improper to make disparaging remarks about Americans, or the English. And yet a group has to be powerful enough to enforce a taboo.*](What%20You%20Can%27t%20Say.md)
-- > [RSGdezbo4](What%20You%20Can%27t%20Say.md)
-- I’m not totally convinced that most moral taboos come from power struggles. My personal suspicion is that the best explanation of the source of moral taboos comes from the theory of [Social Constructionism](Social%20Constructionism.md)
+- > [To launch a taboo, a group has to be poised halfway between weakness and power. A confident group doesn't need taboos to protect it. It's not considered improper to make disparaging remarks about Americans, or the English. And yet a group has to be powerful enough to enforce a taboo.*](<./What You Can't Say.md>)
+- > [RSGdezbo4](<./What You Can't Say.md>)
+- I’m not totally convinced that most moral taboos come from power struggles. My personal suspicion is that the best explanation of the source of moral taboos comes from the theory of [Social Constructionism](<./Social Constructionism.md>)
 - 
 - *Human beings rationalize their experience by creating models of the social world and share and reify these models through language.*
 - Basically, some truths you believe because they are inherently logical. If at least one of Alice, Bob and Eve has a wrench in their pocket, but Alice and Bob have no pockets, then Eve has the wrench. Some truths you believe because there is empirical evidence. The Earth is round because I saw it on the SpaceX video. But some truths you believe just because other people believe them.

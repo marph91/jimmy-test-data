@@ -4,7 +4,7 @@ Sample content
 | --- | --- |
 | table | content |
 
-[link](photo%20card%20%28image%20only%29.md)   
+[link](<./photo card (image only).md>)   
 
 bullet points:  
 

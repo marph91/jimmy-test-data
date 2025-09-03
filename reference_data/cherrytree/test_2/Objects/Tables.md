@@ -75,7 +75,7 @@
 
  ## Writing to Tables
 
-	Tables currently only support [plain text](../Text/Plain%20Text.md). Double-click a cell to open a textbox within it.
+	Tables currently only support [plain text](<../Text/Plain Text.md>). Double-click a cell to open a textbox within it.
 
 	**CAUTION**: Clicking outside of a table before closing a textbox discards all changes to that textbox. To write changes to a textbox within a table cell, you must click to another cell, press Enter,  or press Tab. This has been reported but is unlikely to be patched in this version of Cherrytree.
 

@@ -13,4 +13,4 @@ Test attachments oddly encoded with japanese charset.
 
 
 
-[01 Quien Te Dij�at. Pitbull.mp3](01%20Quien%20Te%20Dij%EF%BF%BDat.%20Pitbull.mp3)
+[01 Quien Te Dij�at. Pitbull.mp3](<./01 Quien Te Dij�at. Pitbull.mp3>)

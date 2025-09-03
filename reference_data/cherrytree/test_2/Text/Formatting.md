@@ -42,7 +42,7 @@
 		 Figure 7.03
 		
 	
-		**NOTE:** The background color of monospace text can be edited in the [Rich Text preferences menu](../Settings/Rich%20Text.md).
+		**NOTE:** The background color of monospace text can be edited in the [Rich Text preferences menu](<../Settings/Rich Text.md>).
 
 	- **Set/Unset Bulleted Lis**t - Formats the selected lines into a bulleted list, in which the item order does not matter.
 	
@@ -65,13 +65,13 @@
 
 	- **Justify Right** - Aligns content to the right side of the page.
 
-	- **Justify Fill** - Aligns content to the left side of the page and redistributes any empty space at the end of lines to between the words in the paragraph(s). This causes the body of text to fill the complete width of its textbox, demonstrated in [Figure 7.07](Formatting.md).
+	- **Justify Fill** - Aligns content to the left side of the page and redistributes any empty space at the end of lines to between the words in the paragraph(s). This causes the body of text to fill the complete width of its textbox, demonstrated in [Figure 7.07](./Formatting.md).
 	
 		 Figure 7.07
 		
-![unnamed_4737819096da4dacb2ff5d2a386ecbe0](unnamed_4737819096da4dacb2ff5d2a386ecbe0.png)
-![unnamed_c241330b01a9471f9e8a774bcf36d58b](unnamed_c241330b01a9471f9e8a774bcf36d58b.png)
-![unnamed_6c307511b2b9437aa8df6ec4ce4a2bbd](unnamed_6c307511b2b9437aa8df6ec4ce4a2bbd.png)
-![unnamed_371ecd7b27cd413087229389571aa876](unnamed_371ecd7b27cd413087229389571aa876.png)
-![unnamed_1a2a73ed562b4f79837459eef50bea63](unnamed_1a2a73ed562b4f79837459eef50bea63.png)
-![unnamed_5be6128e18c24797a142ea7d17be3111](unnamed_5be6128e18c24797a142ea7d17be3111.png)
+![unnamed_4737819096da4dacb2ff5d2a386ecbe0](./unnamed_4737819096da4dacb2ff5d2a386ecbe0.png)
+![unnamed_c241330b01a9471f9e8a774bcf36d58b](./unnamed_c241330b01a9471f9e8a774bcf36d58b.png)
+![unnamed_6c307511b2b9437aa8df6ec4ce4a2bbd](./unnamed_6c307511b2b9437aa8df6ec4ce4a2bbd.png)
+![unnamed_371ecd7b27cd413087229389571aa876](./unnamed_371ecd7b27cd413087229389571aa876.png)
+![unnamed_1a2a73ed562b4f79837459eef50bea63](./unnamed_1a2a73ed562b4f79837459eef50bea63.png)
+![unnamed_5be6128e18c24797a142ea7d17be3111](./unnamed_5be6128e18c24797a142ea7d17be3111.png)

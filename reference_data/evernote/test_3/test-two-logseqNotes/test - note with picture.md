@@ -1,2 +1,2 @@
 Squirrels 
-![pic.jpg](pic.jpg)
+![pic.jpg](./pic.jpg)

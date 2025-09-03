@@ -15,22 +15,22 @@
         - Ultimately, knowledge is no longer static, but becomes fluid
             - You are free to open up different windows in the sidebar, Roam around and remix and rematch content from articles, people, days, and projects
 - How to use it?
-    - You can replace block references with text, embed, alias, original or with text + alias. The most important of these is [text and alias](Block%20References.md)
+    - You can replace block references with text, embed, alias, original or with text + alias. The most important of these is [text and alias](<./Block References.md>)
         - Example::
-            - from [Beating the Averages](Beating%20the%20Averages.md)
+            - from [Beating the Averages](<./Beating the Averages.md>)
                 - This is a block ref
                     - ((0EEP-FcAj))
                         - It is a window onto a block from somewhere else in your Roam Graph - changes to that block will be reflected here as well. 
-                - To make a block ref, to [IMcMBQgfk](Block%20References.md)
-                    - [9cWAagGHi](Block%20References.md)
-                        - [pxfCemPd7](Block%20References.md)
+                - To make a block ref, to [IMcMBQgfk](<./Block References.md>)
+                    - [9cWAagGHi](<./Block References.md>)
+                        - [pxfCemPd7](<./Block References.md>)
                     - ((GptU-4LXK))
-                        - [Uf6JTVUvU](Block%20References.md)
+                        - [Uf6JTVUvU](<./Block References.md>)
                 - If you click on a block ref you will now see the below menu:
                     - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fhelp%2FMXJp9DtIl0.png?alt=media&token=e32c1861-66ae-4c8e-8709-142824b10ba4)
-                - [Jump to block](Jump%20to%20block.md) and [open in sidebar](open%20in%20sidebar.md) will do the same thing that clicking and shift-clicking (respectively) used to - they move either the focus of your main work area to that block - or open it in it's original context
+                - [Jump to block](<./Jump to block.md>) and [open in sidebar](<./open in sidebar.md>) will do the same thing that clicking and shift-clicking (respectively) used to - they move either the focus of your main work area to that block - or open it in it's original context
                     - You can also do these operations with Control-o and Control-shift-o (o standing for open) respectively. 
-                - If you select [Replace With](Replace%20With.md) you will see the below menu:
+                - If you select [Replace With](<./Replace With.md>) you will see the below menu:
                     - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fhelp%2FANYfuprm6c.png?alt=media&token=109625d3-b64b-4beb-891a-4a070a7037dc)
                 - If you choose to replace with `embed` you will get this:
                     - {{embed: ((0EEP-FcAj))}}
@@ -49,7 +49,7 @@
                                 - We default to having the alias as the `*` footnote symbol, but you can edit this however you feel
                             - This is useful if you want to point to multiple ideas, but refer to them with another phrasing - like [Premise 1](((0EEP-FcAj))) and [Premise 2](((-FdvpO3U0)))
                                 - you will see that if you hover over an alias you can see the text of the block you are pointing to as a preview
-                - If you choose to replace with [text and alias](text%20and%20alias.md) you will get this:
+                - If you choose to replace with [text and alias](<./text and alias.md>) you will get this:
                     - In the summer of 1995, my friend Robert Morris and I started a startup called [Viaweb](http://docs.yahoo.com/docs/pr/release184.html). Our plan was to write software that would let end users build online stores. What was novel about this software, at the time, was that it ran on our server, using ordinary Web pages as the interface. [*](((0EEP-FcAj)))
                         - This is useful for drafting - or making a modified version of the original text - you have an alias pointing to the source material - but the text is conveniently there for editing/rewording etc. #Writing
                 - Apply children
@@ -84,14 +84,14 @@
         - Read status
             - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fhelp-documentation%2FOUwTJ-sF7-.gif?alt=media&token=ac39057d-d4a0-4f3b-aa83-4074c645b9d9)
 - Community Videos::
-    - Quick Intro to Block References in Roam Research by [Matias Faure](Matias%20Faure.md)
+    - Quick Intro to Block References in Roam Research by [Matias Faure](<./Matias Faure.md>)
         - <https://www.youtube.com/watch?v=O413tVCseio>
 #Block-References | #Right-Sidebar
     - Roam Research: Quick access to concepts/definitions using Links and Block References by [Les Kristofs](roam-page://Les Kristofs)
         - <https://www.youtube.com/watch?v=nhGhg0LdgSQ>
 #Linked-References | #Block-References
 - Articles::
-    - [Roam’s Block Reference Context Menu: A Primer](https://roamstack.com/roam-block-reference-menu/) by [RoamStack](RoamStack.md)
+    - [Roam’s Block Reference Context Menu: A Primer](https://roamstack.com/roam-block-reference-menu/) by [RoamStack](./RoamStack.md)
         - #Block-References | #Right-Sidebar | #Block-Embed | #text-and-alias | #Alias 
     - ((jEm-MH174))
 - Key Commands::

@@ -4,22 +4,22 @@
     - Page
         - description:: An object representing a page. The only required key is the title
         - keys::
-            - [2apNlROOY](JSON%20Schema.md)
-            - [8f262nxLs](JSON%20Schema.md)
-            - [TihRTHEQP](JSON%20Schema.md)
-            - [djKrious5](JSON%20Schema.md)
-            - [ZXjN4S0N3](JSON%20Schema.md)
+            - [2apNlROOY](<./JSON Schema.md>)
+            - [8f262nxLs](<./JSON Schema.md>)
+            - [TihRTHEQP](<./JSON Schema.md>)
+            - [djKrious5](<./JSON Schema.md>)
+            - [ZXjN4S0N3](<./JSON Schema.md>)
     - Block
         - description:: An object representing a block. The only required key is the string
         - keys::
-            - [max07J9wZ](JSON%20Schema.md)
+            - [max07J9wZ](<./JSON Schema.md>)
             - ((CXNeSb7C_))
-            - [8f262nxLs](JSON%20Schema.md)
-            - [TihRTHEQP](JSON%20Schema.md)
-            - [djKrious5](JSON%20Schema.md)
-            - [ZXjN4S0N3](JSON%20Schema.md)
-            - [zoebJkeXH](JSON%20Schema.md)
-            - [Vq4SrAoYf](JSON%20Schema.md)
+            - [8f262nxLs](<./JSON Schema.md>)
+            - [TihRTHEQP](<./JSON Schema.md>)
+            - [djKrious5](<./JSON Schema.md>)
+            - [ZXjN4S0N3](<./JSON Schema.md>)
+            - [zoebJkeXH](<./JSON Schema.md>)
+            - [Vq4SrAoYf](<./JSON Schema.md>)
 - **Keys**
     - title
         - description:: The title of a page. The string is unique across a user's database. If importing a title that is already used, it will merge with the already existing content.
@@ -32,7 +32,7 @@
         - type:: string
     - children
         - description:: An array of blocks, the order is implicit from the order of the array
-        - type:: array of [qp4FoeMsY](JSON%20Schema.md)s
+        - type:: array of [qp4FoeMsY](<./JSON Schema.md>)s
     - create-time
         - description:: The time the object was created, measured in ms since unix epoch. If not supplied, the create-time of the object will be filled in by either the edit-time, or now.
         - type:: integer

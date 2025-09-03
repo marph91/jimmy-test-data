@@ -16,6 +16,6 @@
 ### View as Document
 - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fhelp-documentation%2Fw4PR8IRswb.gif?alt=media&token=6f8e2e22-6d16-4280-8100-321c0a02f4e0)
 ## Community Videos::
-### Page-Level block filters & Merging two page contents by [Roam Tips](Roam%20Tips.md) 
+### Page-Level block filters & Merging two page contents by [Roam Tips](<./Roam Tips.md>) 
 - <https://www.youtube.com/watch?v=_AZGz94Uv-c>
 #Pages | #Filter

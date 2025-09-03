@@ -27,8 +27,8 @@
  ## Default Keyboard Shortcuts
 
 	
-![unnamed_5304317faf42412fb838b3268e944239](unnamed_5304317faf42412fb838b3268e944239.png)
-![unnamed_0e51f30dc6a74e3984b032ccd7c524a5](unnamed_0e51f30dc6a74e3984b032ccd7c524a5.png)
+![unnamed_5304317faf42412fb838b3268e944239](./unnamed_5304317faf42412fb838b3268e944239.png)
+![unnamed_0e51f30dc6a74e3984b032ccd7c524a5](./unnamed_0e51f30dc6a74e3984b032ccd7c524a5.png)
 
 |  | Start a New Instance of Cherrytree<br> |
 | --- | --- |

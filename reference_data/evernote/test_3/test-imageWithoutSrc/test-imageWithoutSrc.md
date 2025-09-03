@@ -2,7 +2,7 @@
 
 Other challenges lie in transaction management. Centralised (monolithic) applications, with more localised interactions, can better leverage database transaction scope; i.e. one transaction manages a series of database interactions, and still support relatively simple rollback and commit facilities.
 Microservices, are more isolated, and often use different database technologies. Thus, transaction scope is isolated to the microservice-level; transactions are not shared. This leads to data consistency, and rollback challenges. Another practice must be used to orchestrate transactions. See *Figure 10*.
-![0*RuK5Uc39KyMAOkxr.jpg](0_RuK5Uc39KyMAOkxr.jpg)
+![0*RuK5Uc39KyMAOkxr.jpg](./0_RuK5Uc39KyMAOkxr.jpg)
 *Figure 10 — transactional scope; monolith vs microservices*
 In the first scenario, typical of a monolith, one transaction (Tx A) manages all five database interactions, often into the same (monolithic) database schema. The second case, used in microservices, is quite different. In this case, a transaction is managed per action (assuming each database interaction is encapsulated by a single microservice interaction). This is fine if all transactions succeed, but challenging when part of the flow fails and remedial action is required.
 
@@ -17,12 +17,12 @@ Promoting a level of uniformity is therefore sensible. Better to select a limite
 # Performance
 
 Because each microservice interaction is independent (including their transactions), any significant collaboration (i.e. a workflow involving many parties), can create performance challenges. Specifically, this relates to latency (the time it takes from the initiation of an action, to receiving a response). See *Figure 11*.
-![0*1o3tk4QQCG15z1iT.jpg](0_1o3tk4QQCG15z1iT.jpg)
+![0*1o3tk4QQCG15z1iT.jpg](./0_1o3tk4QQCG15z1iT.jpg)
 *Figure 11 — performance (latency) with microservices*
 No science was harmed in the making of this diagram! It’s merely meant to demonstrate the difference challenges for the architectural styles.
 The scenario represents a distributed (e.g. microservices) system. The workflow interacts with four different domains (1, 2, 3, and 4) to complete a job. The useful functional value (white, numbered boxes) may be of a relatively short duration, whilst the red bar represents the varying latency costs of network negotiation/transfer/marshalling to talk with the next microservice. The orange bar represents the overall time cost so far. There’s quite a bit of red involved in these distributed interactions.
 In *Figure 12* we have a centralised representation.
-![0*x2glWzxpcQ0qselE.jpg](0_x2glWzxpcQ0qselE.jpg)
+![0*x2glWzxpcQ0qselE.jpg](./0_x2glWzxpcQ0qselE.jpg)
 *Figure 12 — monolith latency*
 In this case, the workflow must interact with the same four services/domains, but the cost to communicate with each component is much less (i.e. the short red bars).
 > ***Note — Tactics to Reduce Latency Woes***
@@ -40,5 +40,5 @@ In the end, it depends upon the system. Most technologists I know would favor sc
 # Business & Technical Qualities
 
 Microservices can (under the right conditions) promote the following qualities.
-![1*hXijdOBpM6U6PbIAPaFNlQ@2x.jpeg](1_hXijdOBpM6U6PbIAPaFNlQ%402x.jpeg)
+![1*hXijdOBpM6U6PbIAPaFNlQ@2x.jpeg](<./1_hXijdOBpM6U6PbIAPaFNlQ@2x.jpeg>)
 Some of my qualifications may not be obvious at the moment (e.g. how can scalability support TTM?); however, this will make more sense in future publications.

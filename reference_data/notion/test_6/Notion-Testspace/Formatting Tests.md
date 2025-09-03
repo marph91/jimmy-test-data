@@ -359,15 +359,15 @@ Currently, Notion does not export standalone internal links to headings or block
 
 Link to heading:
 
-[https://www.notion.so/Formatting-Tests-1580080aa5a380d1b0c7c2f979343d88?pvs=4#1590080aa5a380f7a294ee21d69095dc](Formatting%20Tests.md)
+[https://www.notion.so/Formatting-Tests-1580080aa5a380d1b0c7c2f979343d88?pvs=4#1590080aa5a380f7a294ee21d69095dc](<./Formatting Tests.md>)
 
 Link to text block:
 
-[https://www.notion.so/Formatting-Tests-1580080aa5a380d1b0c7c2f979343d88?pvs=4#15b0080aa5a3805aba38c10161727d4c](Formatting%20Tests.md)
+[https://www.notion.so/Formatting-Tests-1580080aa5a380d1b0c7c2f979343d88?pvs=4#15b0080aa5a3805aba38c10161727d4c](<./Formatting Tests.md>)
 
 ------------------------------------------------------------------------
 
-Link to a another page: [Block Reference](Block%20Reference.md)
+Link to a another page: [Block Reference](<./Block Reference.md>)
 
 Link to heading in another page:
 

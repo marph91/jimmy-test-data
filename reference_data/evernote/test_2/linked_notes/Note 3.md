@@ -1,1 +1,1 @@
-[Ambiguous note](Ambiguous%20note.md)
+[Ambiguous note](<./Ambiguous note.md>)

@@ -3,10 +3,10 @@
         - You are able to access your Roam graph anywhere with its URL once you're logged into your account 
     - If it's shared with selected individuals
         - The shared accounts can either read or edit your graph, when they log into Roam and open your graph's URL
-        - See [Sharing](Sharing.md) for more info
+        - See [Sharing](./Sharing.md) for more info
     - If it's publicly available
         - Anyone can see your graph via its URL
-        - See [Sharing](Sharing.md) for more info
+        - See [Sharing](./Sharing.md) for more info
 - How many can you make?
     - as many as you want :)
 - Where is it hosted?

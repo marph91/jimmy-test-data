@@ -29,19 +29,19 @@
         - Headings 
             - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fhelp-documentation%2FCOTx6OZnuD.gif?alt=media&token=a3375edb-1083-4dbb-b5ac-042b7b91dbdc)
 - Roam Team Videos::
-    - Mermaid diagrams combined with version control in Roam Research by [Conor White-Sullivan](Conor%20White-Sullivan.md)
+    - Mermaid diagrams combined with version control in Roam Research by [Conor White-Sullivan](<./Conor White-Sullivan.md>)
         - <https://www.youtube.com/watch?v=UF22iK8fX-A&t>
 #Version-Control | #Diagram
 - Articles::
-    - [Programming your attention with Roam Research and ∆](https://elaptics.co.uk/journal/roam-research-programmable-attention/) by [Elaptics](Elaptics.md)
+    - [Programming your attention with Roam Research and ∆](https://elaptics.co.uk/journal/roam-research-programmable-attention/) by [Elaptics](./Elaptics.md)
         - #Delta | #Spaced-Repetition | #Programmable-Attention
-    - [Beyond Spaced Repetition: Δ in Roam Research](https://www.iantay.dev/post/beyond-spaced-repetition-%CE%B4-in-roam-research/) by [Ian Tay](Ian%20Tay.md)
+    - [Beyond Spaced Repetition: Δ in Roam Research](https://www.iantay.dev/post/beyond-spaced-repetition-%CE%B4-in-roam-research/) by [Ian Tay](<./Ian Tay.md>)
         - #Delta | #Spaced-Repetition | #Programmable-Attention
-    - [A short (preliminary) guide to Spaced Repetition in Roam Research](https://www.cortexfutura.com/preliminary-spaced-repetition-roam/) by [Cortex Futura](Cortex%20Futura.md)
+    - [A short (preliminary) guide to Spaced Repetition in Roam Research](https://www.cortexfutura.com/preliminary-spaced-repetition-roam/) by [Cortex Futura](<./Cortex Futura.md>)
         - #Delta | #Spaced-Repetition 
-    - [Spaced Repetition in Roam Research](https://davidbieber.com/snippets/2021-01-02-spaced-repetition-in-roam-research/) by [David Bieber](David%20Bieber.md)
+    - [Spaced Repetition in Roam Research](https://davidbieber.com/snippets/2021-01-02-spaced-repetition-in-roam-research/) by [David Bieber](<./David Bieber.md>)
 - Community Videos::
-    - Roam Research: Delta Feature by [Les Kristofs](Les%20Kristofs.md)
+    - Roam Research: Delta Feature by [Les Kristofs](<./Les Kristofs.md>)
         - <https://www.youtube.com/watch?v=2DkzqmidG54>
 #Delta
     - Concept of using Delta and Kanban for Time Management by [RoamHacker](roam-page://RoamHacker)

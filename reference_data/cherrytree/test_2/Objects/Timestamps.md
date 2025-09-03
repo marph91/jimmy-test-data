@@ -10,4 +10,4 @@
 
  ## Formatting a Timestamp
 
-	The format of the timestamp can be configured in the [text and code preference menu](../Settings/Text%20and%20Code.md).
+	The format of the timestamp can be configured in the [text and code preference menu](<../Settings/Text and Code.md>).

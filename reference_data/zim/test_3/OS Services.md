@@ -32,7 +32,7 @@ configured for runtime use.
     * a plain app-writable directory for storing application settings
     * only meant for low volume data, mostly-read
     * included in app backups
-    * mounted at [/home/app/settings](settings)
+    * mounted at [/home/app/settings](./settings)
 - [ ] cache-dir:
     * a plain app-writable directory for cache data
     * may grow as large as system (or runtime) allows

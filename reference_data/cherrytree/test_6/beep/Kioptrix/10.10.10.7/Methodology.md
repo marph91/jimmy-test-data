@@ -14,7 +14,7 @@
 **++Service Scanning++**
 
     **WebApp**
-      - [ ]   [Nikto](Methodology.md)
+      - [ ]   [Nikto](./Methodology.md)
       - [ ]   [dirb](52)
       - [ ]   dirbuster
       - [ ]   [wpscan](71)

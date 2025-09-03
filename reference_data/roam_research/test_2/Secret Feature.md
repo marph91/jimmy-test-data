@@ -1,2 +1,2 @@
-- [V1RLPs0ai](Change%20Log.md)
+- [V1RLPs0ai](<./Change Log.md>)
     - https://twitter.com/Conaw/status/1395106529427214337?s=20

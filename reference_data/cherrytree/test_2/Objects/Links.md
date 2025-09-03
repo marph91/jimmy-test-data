@@ -20,7 +20,7 @@
 
 		- **Anchor Name (Optional)** - Routes the link to a particular anchor within the selected node.
 
-			**NOTE:** See [Anchors](Anchors.md) to learn more about anchors.
+			**NOTE:** See [Anchors](./Anchors.md) to learn more about anchors.
 
 	3. Click **OK** to complete the insertion.
 

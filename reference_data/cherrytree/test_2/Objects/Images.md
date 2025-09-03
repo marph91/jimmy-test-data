@@ -8,12 +8,12 @@
 
 	2. Select an image to be uploaded and click **Open**.
 
-	3. (**Optional**) The selected image is displayed in the simplistic editor shown in [Figure 8.01](Images.md), which can be used to rotate or scale the content.
+	3. (**Optional**) The selected image is displayed in the simplistic editor shown in [Figure 8.01](./Images.md), which can be used to rotate or scale the content.
 	
 		 Figure 8.01
 		
 	
-		[Figure 8.01](Images.md) has been highlighted to indicate the parts of its interface.
+		[Figure 8.01](./Images.md) has been highlighted to indicate the parts of its interface.
 	
 			- **One** - Rotates the image counter-clockwise 90°.
 
@@ -38,13 +38,13 @@
 
 	- **Delete Image** - Delete the selected image.
 
-	- **Edit Image** - Displays the window shown in [Figure 8.01](Images.md)
+	- **Edit Image** - Displays the window shown in [Figure 8.01](./Images.md)
 
 	- **Save Image as PNG** - Saves a copy of the selected image to your computer.
 
 	- **Edit Link** - Apply or edit the link of the selected image.
 	
-		See [Links](Links.md) for more information about links.
+		See [Links](./Links.md) for more information about links.
 
 	- **Dismiss Link** - Removes an existing link from the selected image. This option only appears if the image has an assigned link.
-![unnamed_43b7a3a69a8d4a03980d7b71d8f56413](unnamed_43b7a3a69a8d4a03980d7b71d8f56413.png)
+![unnamed_43b7a3a69a8d4a03980d7b71d8f56413](./unnamed_43b7a3a69a8d4a03980d7b71d8f56413.png)

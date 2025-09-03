@@ -8,4 +8,4 @@ Sie können neue Notizen zum Festhalten Ihrer Ideen anlegen, indem Sie den Menü
 
 Dann ordnen Sie die von Ihnen angelegten Notizen, indem Sie zusammengehörende Notizen und Ideen miteinander verknüpfen.
 
-Wir haben eine Notiz [Verknüpfungen in Gnote nutzen](Verkn%C3%BCpfungen%20in%20Gnote%20nutzen.md) angelegt. Beachten Sie, wie jedesmal, wenn Sie [Verknüpfungen in Gnote nutzen](Verkn%C3%BCpfungen%20in%20Gnote%20nutzen.md) eingeben, dieses automatisch unterstrichen wird. Klicken Sie auf diese Verknüpfung, um die Notiz zu öffnen.
+Wir haben eine Notiz [Verknüpfungen in Gnote nutzen](<./Verknüpfungen in Gnote nutzen.md>) angelegt. Beachten Sie, wie jedesmal, wenn Sie [Verknüpfungen in Gnote nutzen](<./Verknüpfungen in Gnote nutzen.md>) eingeben, dieses automatisch unterstrichen wird. Klicken Sie auf diese Verknüpfung, um die Notiz zu öffnen.

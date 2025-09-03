@@ -1,1 +1,1 @@
-[sample.pdf](sample.pdf)
+[sample.pdf](./sample.pdf)

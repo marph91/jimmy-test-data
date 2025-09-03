@@ -1,1 +1,1 @@
-- [ ] Have a [meeting](meeting.md) with [John Smith](John%20Smith.md) about [Roam Research](Roam%20Research.md) on [February 8th, 2021](February%208th%2C%202021.md). #marketing
+- [ ] Have a [meeting](./meeting.md) with [John Smith](<./John Smith.md>) about [Roam Research](<./Roam Research.md>) on [February 8th, 2021](<./February 8th, 2021.md>). #marketing

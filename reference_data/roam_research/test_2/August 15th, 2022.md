@@ -1,1 +1,1 @@
-- {{embed-path: [rdJcOMHVE](Change%20Log.md)}}
+- {{embed-path: [rdJcOMHVE](<./Change Log.md>)}}

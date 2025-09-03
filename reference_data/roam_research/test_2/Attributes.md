@@ -1,5 +1,5 @@
 - Community Videos::
-    - Roam Basics Part 3: Attributes and Use of / by [Dr Alex Popadich](Dr%20Alex%20Popadich.md)
+    - Roam Basics Part 3: Attributes and Use of / by [Dr Alex Popadich](<./Dr Alex Popadich.md>)
         - <https://www.youtube.com/watch?v=uO1zMII3gWs>
 #/-Commands | #Attributes
     - Using Template Pages in Roam (Metadata) by [Dalton Mabery](roam-page://Dalton Mabery)

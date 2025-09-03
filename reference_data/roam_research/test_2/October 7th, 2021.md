@@ -1,1 +1,1 @@
-- {{embed: [0yr0CgkfA](Change%20Log.md)}}
+- {{embed: [0yr0CgkfA](<./Change Log.md>)}}

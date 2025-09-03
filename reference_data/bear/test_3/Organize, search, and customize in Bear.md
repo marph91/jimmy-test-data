@@ -1,5 +1,5 @@
-![Organize - Illo Copy 500001.png](Organize%20-%20Illo%20Copy%20500001.png)
-Next on your [Get started with Bear](Get%20started%20with%20Bear.md) journey, let’s explore how to make our notes more useful with organization, search, and customizing Bear to fit our needs.
+![Organize - Illo Copy 500001.png](<./Organize - Illo Copy 500001.png>)
+Next on your [Get started with Bear](<./Get started with Bear.md>) journey, let’s explore how to make our notes more useful with organization, search, and customizing Bear to fit our needs.
 
 ---
 
@@ -50,7 +50,7 @@ The Note List offers a useful preview of your notes—their contents, photos, an
 
 ---
 ## Learn more about Bear 📚
-* [Get started with Bear](Get%20started%20with%20Bear.md)
-* [Work faster and easier with Bear](Work%20faster%20and%20easier%20with%20Bear.md)
+* [Get started with Bear](<./Get started with Bear.md>)
+* [Work faster and easier with Bear](<./Work faster and easier with Bear.md>)
 
 #bear/welcome

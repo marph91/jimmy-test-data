@@ -8,7 +8,7 @@
 
  ## Configuring Horizontal Rules
 
-	The horizontal rule can be configured in the [text and code preference menu](../Settings/Text%20and%20Code.md) to insert any sequence of characters.
+	The horizontal rule can be configured in the [text and code preference menu](<../Settings/Text and Code.md>) to insert any sequence of characters.
 
  ## Inserting a Horizontal Rule
 

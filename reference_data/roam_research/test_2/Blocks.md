@@ -1,9 +1,9 @@
 - **Each bullet you see is a *block*, and we write them inside pages like this one.**
     - We create new blocks by pressing `Enter`; and nest them using `Tab` (press`Shift+Tab` to unindent)-
         - This creates *children blocks*, which we can expand, collapse, and focus. 
-        - [Indenting](Indentation.md) provides structure. We can scan pages with ease and find related blocks. 
+        - [Indenting](./Indentation.md) provides structure. We can scan pages with ease and find related blocks. 
 - You can press `Shift+⬇` in a block to select it, and click and drag the bullet to move blocks around.
-- One of Roam's most powerful features is [Block References](Block%20References.md).
+- One of Roam's most powerful features is [Block References](<./Block References.md>).
 ## Team GIFs::
 ### Creating a block
 - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fhelp-documentation%2F4KKGac0myW.gif?alt=media&token=23236602-27d8-4e00-aa2a-259a5d1562f3)
@@ -38,11 +38,11 @@
         - `cmd+shift+up` and `cmd+shift+down` on Mac
         - `alt+shift+up` + `alt+shift+down` on Windows
 ## Articles::
-### [What is a block in Roam Research (and what are block embeds)?](https://www.roamtips.com/home/what-is-block-roam-research) by [Roam Tips](Roam%20Tips.md)
+### [What is a block in Roam Research (and what are block embeds)?](https://www.roamtips.com/home/what-is-block-roam-research) by [Roam Tips](<./Roam Tips.md>)
 ## Community Videos::
-### What makes Blocks in Roam Research different by [Cortex Futura](Cortex%20Futura.md)
+### What makes Blocks in Roam Research different by [Cortex Futura](<./Cortex Futura.md>)
 - <https://www.youtube.com/watch?v=6VmtiDYjy_k>
 #Blocks | #Block-References
-### Blocks in Roam Research: Part One - What Makes Them Unique by [Lisa-Marie Cabrelli](Lisa-Marie%20Cabrelli.md)
+### Blocks in Roam Research: Part One - What Makes Them Unique by [Lisa-Marie Cabrelli](<./Lisa-Marie Cabrelli.md>)
 - <https://www.youtube.com/watch?v=hGzTuIPXv7I>
 #Blocks | #Block-References

@@ -1,1 +1,1 @@
-- See [Query](Query.md)
+- See [Query](./Query.md)

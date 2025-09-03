@@ -15,7 +15,7 @@
 
 	3. Click the drop-down menu directly beneath the **Node Type** options.
 
-	4. Choose from the list of [supported languages](Automatic%20Syntax%20Highlighting.md).
+	4. Choose from the list of [supported languages](<./Automatic Syntax Highlighting.md>).
 
  ## Executing a Node
 
@@ -28,7 +28,7 @@
 	2. When prompted, click **OK** to confirm that you want to execute the code.
 
 	Some languages require an execution command to be assigned to the language before the code can be executed.
-	See [Plain Text and Code](../Settings/Plain%20Text%20and%20Code.md) for details on assigning a command.
+	See [Plain Text and Code](<../Settings/Plain Text and Code.md>) for details on assigning a command.
 
  ## Supported Languages
 
@@ -119,4 +119,4 @@
 	- xslt
 	- yacc
 	- yaml
-![unnamed_6b65a6a48b8148f6b38a088ca65ed389](unnamed_6b65a6a48b8148f6b38a088ca65ed389.png)
+![unnamed_6b65a6a48b8148f6b38a088ca65ed389](./unnamed_6b65a6a48b8148f6b38a088ca65ed389.png)

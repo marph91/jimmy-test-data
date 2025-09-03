@@ -1,9 +1,9 @@
-![Get Started - Illo Copy 2.png](Get%20Started%20-%20Illo%20Copy%202.png)
+![Get Started - Illo Copy 2.png](<./Get Started - Illo Copy 2.png>)
 
 These Welcome Notes will help you get to know Bear. Feel free to reference these while working in your own notes. The other Welcome Notes in this series include:
 
-- [Organize, search, and customize in Bear](Organize%2C%20search%2C%20and%20customize%20in%20Bear.md) 
-- [Work faster and easier with Bear](Work%20faster%20and%20easier%20with%20Bear.md)
+- [Organize, search, and customize in Bear](<./Organize, search, and customize in Bear.md>) 
+- [Work faster and easier with Bear](<./Work faster and easier with Bear.md>)
 
 ---
 ## How to create a new note
@@ -12,7 +12,7 @@ Click the **New Note button** (⌘+N) at the top of the Note List and start typi
 ----
 ## Meet the Styles
 Bear's custom keyboard is the control board styling your notes on iPhone and iPad. On macOS, the same functionalities are available in the style bar at the bottom of the editor. Both can be enabled via the **B*I*~U~ button**.
-![Get Started - Keyboard 3.png](Get%20Started%20-%20Keyboard%203.png)
+![Get Started - Keyboard 3.png](<./Get Started - Keyboard 3.png>)
 ### 📝 Write with styles
 You can add all kinds of text styles to your notes, including: **bold**, *italic*, ~underline~, ~~strikethrough~~, ==highlight==, headings,  [links](bear.app), lists, todos, tables, and more—and it all starts with the **Style Bar**.
 ​
@@ -36,8 +36,8 @@ Use the **Table of Contents** tab in the Info Panel to see a layout of your note
 ## Ready to write your first note?
 Your training is complete. Well, at least enough to get started with your own notes. To learn about more features, including: a powerful way to organize your notes with **tags** and the **Sidebar**, how to **sync** everything across all your devices with [Bear Pro](https://bear.app/faq/), and some advanced tips, check out the rest of our Welcome Notes below:
 
-* [Organize, search, and customize in Bear](Organize%2C%20search%2C%20and%20customize%20in%20Bear.md)
-* [Work faster and easier with Bear](Work%20faster%20and%20easier%20with%20Bear.md)
+* [Organize, search, and customize in Bear](<./Organize, search, and customize in Bear.md>)
+* [Work faster and easier with Bear](<./Work faster and easier with Bear.md>)
 
 ---
 #### Footnotes

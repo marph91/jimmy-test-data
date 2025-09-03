@@ -14,9 +14,9 @@
 - sub text
 ---
 - Block refs
-    - [P68pRja7i](Theme%20Tester.md)
-    - the [Theme Tester](Theme%20Tester.md) link
-    - [ME2M37gZr](Theme%20Tester.md)
+    - [P68pRja7i](<./Theme Tester.md>)
+    - the [Theme Tester](<./Theme Tester.md>) link
+    - [ME2M37gZr](<./Theme Tester.md>)
 - Images 
     - typical remote image
         - ![](https://i.imgur.com/SEr4dkd.jpg)
@@ -34,15 +34,15 @@
     - audio
         - some text before <https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fhelp-documentation%2Fhz3WHZhdUg.mp3?alt=media&token=9af83477-66d5-4b97-8643-2d9844ba6b99>
 - Links
-    - The [Theme Tester](Theme%20Tester.md) Page Link
+    - The [Theme Tester](<./Theme Tester.md>) Page Link
         - [bad improv](roam-page://bad improv)
         - [roam/css](roam-page://roam/css)
     - [roam/css](roam-page://roam/css)
     - #mental-health
-    - [Basic Alias](Theme%20Tester.md)
-    - [Block Alias](Theme%20Tester.md)
+    - [Basic Alias](<./Theme Tester.md>)
+    - [Block Alias](<./Theme Tester.md>)
     - [External Alias](https://www.usgbc.org/education/sessions/day-1-study-plan-10411494)
-    - This is a paragraph with several types of tags and aliases [Block Alias](Theme%20Tester.md) [Basic Alias](Theme%20Tester.md) #test [External Alias](https://www.usgbc.org/education/sessions/day-1-study-plan-10411494) [Theme Tester](Theme%20Tester.md) #mental-health
+    - This is a paragraph with several types of tags and aliases [Block Alias](<./Theme Tester.md>) [Basic Alias](<./Theme Tester.md>) #test [External Alias](https://www.usgbc.org/education/sessions/day-1-study-plan-10411494) [Theme Tester](<./Theme Tester.md>) #mental-health
     - metadata:: www.google.com
     - Tags
         - #exercise
@@ -110,14 +110,14 @@ and a second line of amazing code here
                     - sub two
                     - 
     - query
-        - {{[query](roam-page://query): {and: [Theme Tester](Theme%20Tester.md) }}}
+        - {{[query](roam-page://query): {and: [Theme Tester](<./Theme Tester.md>) }}}
     - comments
         - There is lots of controversial ideas in this block {{comment-button}}
     - Blockquotes
         - > Regulare quote using page brackets
         - > bare quote without brackets
     - Collapsable Parenthesis 
-        - A very long ((and interesting)) quote collapsed and one ((open)) also one with regular [xNaGTlLLA](Theme%20Tester.md).
+        - A very long ((and interesting)) quote collapsed and one ((open)) also one with regular [xNaGTlLLA](<./Theme Tester.md>).
     - LayTEX
         - $$O(n^2)$$
     - word and character counts

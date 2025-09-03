@@ -2,7 +2,7 @@
 # Interface
 
 
-	Cherrytree’s interface consists of four sections, highlighted in [Figure 4.01](Interface.md).
+	Cherrytree’s interface consists of four sections, highlighted in [Figure 4.01](./Interface.md).
 
 		 Figure 4.01
 		
@@ -47,7 +47,7 @@
 
 	Most interface options exist within the **View** menu, located in the menu bar.
 	
-	The size of the toolbar icons is enlarged within [Figure 4.01](Interface.md). Icon size can be increased by selecting **Increase Toolbar Icon Size** in the **View** menu or decreased with **Decrease Toolbar Icon Size**.
+	The size of the toolbar icons is enlarged within [Figure 4.01](./Interface.md). Icon size can be increased by selecting **Increase Toolbar Icon Size** in the **View** menu or decreased with **Decrease Toolbar Icon Size**.
 	
 	You can change the size of text within the node view and editor using **CTRL+[Mousewheel]**. Alternatively, use **`CTRL`** and **`+`** to increase or **`CTRL`** and **`-`** to decrease text size.
-![unnamed_972a846916414f828b9d2434e465e150](unnamed_972a846916414f828b9d2434e465e150.png)
+![unnamed_972a846916414f828b9d2434e465e150](./unnamed_972a846916414f828b9d2434e465e150.png)

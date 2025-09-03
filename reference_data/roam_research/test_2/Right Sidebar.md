@@ -1,9 +1,9 @@
 - Roam Team Videos::
-### Sidebar in Roam by [Conor White-Sullivan](Conor%20White-Sullivan.md)
+### Sidebar in Roam by [Conor White-Sullivan](<./Conor White-Sullivan.md>)
 - <https://www.youtube.com/watch?v=7dASSNABtIo>
 #Right-Sidebar | #Linked-References | #TODO/DONE
 - Community Videos::
-### Roam Research: Right Sidebar and Block References by [Les Kristofs](Les%20Kristofs.md)
+### Roam Research: Right Sidebar and Block References by [Les Kristofs](<./Les Kristofs.md>)
 - <https://www.youtube.com/watch?v=rorHyn0BBb4>
 #Block-References | #Right-Sidebar
 - Team GIFs::
@@ -19,18 +19,18 @@
 - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fhelp-documentation%2FVoJDU4Dqoi.gif?alt=media&token=052da9ba-e75d-410d-9694-ee7c8edbed6a)
 ### Pin and unpin windows in sidebar
 - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fhelp-documentation%2FnwoLmwV4FC.gif?alt=media&token=c6ceda4a-24b4-485f-b442-d0a6028c27c4)
-### [48C98fuHP](Pages.md)
+### [48C98fuHP](./Pages.md)
 - ((IyBhP-AnX))
-### [stgbIFZli](Kanban.md)
-- [w5VEWYVUk](Kanban.md)
-### [yjBxNNg2k](All%20Pages.md)
+### [stgbIFZli](./Kanban.md)
+- [w5VEWYVUk](./Kanban.md)
+### [yjBxNNg2k](<./All Pages.md>)
 - ((-4q_7JLm3))
 ### Resizing sidebar
 - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fhelp-documentation%2F9Nd8zc3dsH.gif?alt=media&token=0c0df213-1fff-45bd-a642-1bccc8126bed)
-### [CbraXQ4Au](Graph%20Overview.md)
-- [uH7DEeBML](Graph%20Overview.md)
+### [CbraXQ4Au](<./Graph Overview.md>)
+- [uH7DEeBML](<./Graph Overview.md>)
 - Articles::
-### [How to use the Roam sidebar](https://www.roamtips.com/home/roam-research-sidebar) by [Roam Tips](Roam%20Tips.md)
+### [How to use the Roam sidebar](https://www.roamtips.com/home/roam-research-sidebar) by [Roam Tips](<./Roam Tips.md>)
 - #Right-Sidebar | #Block-Embed | #Linked-References
 - Key Commands::
     - `Shift+click` on the page you want to open in the Right Sidebar

@@ -13,4 +13,4 @@ Use it to try [AsciiDoc](https://asciidoc.org).
 puts 'Hello, World!'
 ```
 
-![test\_image](test.png)
+![test\_image](./test.png)

@@ -196,11 +196,11 @@ Because things were too simple.
 
 The image mark is as simple as it can be: `[filename]`.
 
-![photo.jpg](photo.jpg)
+![photo.jpg](./photo.jpg)
 
 And with some targets the image is linkable :
 
-[![photo.jpg](photo.jpg)](http://www.txt2tags.org)
+[![photo.jpg](./photo.jpg)](http://www.txt2tags.org)
 
 -   The filename must end in PNG, JPG, GIF, or similar.
 -   No spaces inside the brackets!
@@ -221,4 +221,4 @@ That's all for now.
 
 ------------------------------------------------------------------------
 
-![t2tpowered.png](t2tpowered.png) (\[- %%infile\])
+![t2tpowered.png](./t2tpowered.png) (\[- %%infile\])

@@ -1,3 +1,3 @@
-![some image](test.png)
+![some image](./test.png)
 
-[internal link](Markdown%20Cheatsheet.md) description abc
+[internal link](<./Markdown Cheatsheet.md>) description abc

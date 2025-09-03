@@ -1,5 +1,3 @@
-# Sample note with completed reminder
-
 Sample content  
 
 | Table | Header |

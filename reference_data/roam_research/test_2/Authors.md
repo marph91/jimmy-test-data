@@ -1,1 +1,1 @@
-- [Paul Graham](Paul%20Graham.md)
+- [Paul Graham](<./Paul Graham.md>)

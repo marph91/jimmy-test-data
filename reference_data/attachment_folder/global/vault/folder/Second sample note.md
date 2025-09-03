@@ -1,4 +1,4 @@
-aaa [Sample note](../Sample%20note.md)
+aaa [Sample note](<../Sample note.md>)
 
 ![test.png](../../res/test.png)
 
@@ -7,4 +7,4 @@ aaa [Sample note](../Sample%20note.md)
 
 #inline-tag-obsidian
 
-[Sample note alias](../Sample%20note.md)
+[Sample note alias](<../Sample note.md>)

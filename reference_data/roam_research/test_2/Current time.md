@@ -1,7 +1,7 @@
 - Current time displays the current time in your time zone, it's great for tracking time while writing daily logs 
     - For example
         - 21:19
-    - [qE4HHsmad](Task%20Management.md)
-        - [voHr0lJHm](Task%20Management.md)
+    - [qE4HHsmad](<./Task Management.md>)
+        - [voHr0lJHm](<./Task Management.md>)
 - Key Commands::
     - `/time`

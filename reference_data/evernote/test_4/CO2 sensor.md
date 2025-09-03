@@ -1,1 +1,1 @@
-![Snapshot.png](Snapshot.png)
+![Snapshot.png](./Snapshot.png)

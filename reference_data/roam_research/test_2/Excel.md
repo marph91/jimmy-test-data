@@ -1,2 +1,2 @@
-- How is Roam like Excel by [Conor White-Sullivan](Conor%20White-Sullivan.md)
+- How is Roam like Excel by [Conor White-Sullivan](<./Conor White-Sullivan.md>)
     - <https://www.youtube.com/watch?v=mlCiO2oIF2s>

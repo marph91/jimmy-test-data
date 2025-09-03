@@ -1,4 +1,4 @@
 Content
 Pinned
 
-Note link: [Title only](Title%20only.md)
+Note link: [Title only](<./Title only.md>)

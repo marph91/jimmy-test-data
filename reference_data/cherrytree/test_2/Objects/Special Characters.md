@@ -14,4 +14,4 @@
 
 	3. Click the character to be inserted.
 
-	See the [text and code preference](../Settings/Text%20and%20Code.md) menu to add or remove special characters from the special character submenu. That configuration option can also be referenced for a list of supported special characters.
+	See the [text and code preference](<../Settings/Text and Code.md>) menu to add or remove special characters from the special character submenu. That configuration option can also be referenced for a list of supported special characters.

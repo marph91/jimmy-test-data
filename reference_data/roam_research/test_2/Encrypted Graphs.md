@@ -2,17 +2,17 @@
 ### Warning #.bg-red-200
 - If you forget your password for an encrypted graph
     - **We cannot retrieve or reset it, and we cannot recover your encrypted notes**
-- [Roam Depot](Roam%20Depot.md) and [roam/js](roam_js.md) extensions running in an encrypted graph will have access to the unencrypted data
-    - If you want to be sure your notes are secure **do not use** [roam/js](roam_js.md) extensions that you did not write yourself
+- [Roam Depot](<./Roam Depot.md>) and [roam/js](./roam_js.md) extensions running in an encrypted graph will have access to the unencrypted data
+    - If you want to be sure your notes are secure **do not use** [roam/js](./roam_js.md) extensions that you did not write yourself
     - Roam Depot extensions undergo a review process which includes a security review, so they should be okay for most purposes. 
         - If the data is very critical, you may want to not use any Roam Depot extensions either
-- [Quick Capture](Quick%20Capture.md) is disabled
+- [Quick Capture](<./Quick Capture.md>) is disabled
 - Existing graphs cannot be encrypted
 - We recommend creating a new encrypted graph and importing the existing graph, then delete the existing graph
-- Backups and [Export](Export.md)s of the graph are **not encrypted**
+- Backups and [Export](./Export.md)s of the graph are **not encrypted**
 - Backups and exports currently do not contain the unencrypted images and media files
     - We hope to add this in the future
-- [Offline Graph](Offline%20Graph.md)s on the desktop app do not encrypt the images / media files you upload
+- [Offline Graph](<./Offline Graph.md>)s on the desktop app do not encrypt the images / media files you upload
 - The media files are stored on your computer, unencrypted
 - You can still share an encrypted graph with someone else, but they need the password used to encrypt it to access the graph
 - In the future we hope to release the ability to have multiple password to a graph
@@ -22,11 +22,11 @@
 - More Info
 - Images and media files are encrypted only on hosted graphs
     - This may effect the load time of them
-    - [K9DHGYKLx](Encrypted%20Graphs.md)
+    - [K9DHGYKLx](<./Encrypted Graphs.md>)
 - Roam only encrypts blocks, pages, and media files
     - Some metadata about your graph is not encrypted
         - For example whether block text is centered or a heading is not encrypted, but the actual content of the block is
-    - [Developer](Developer.md)
+    - [Developer](./Developer.md)
         - These keys are encrypted
             - `:user/display-name :user/email :create/email :edit/email :node/title :block/string :user/uid :user/photo-url :entity/attrs :block/props :ent/emojis :user/settings`
 - How do I change my password?

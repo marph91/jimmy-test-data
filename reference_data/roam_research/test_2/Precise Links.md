@@ -7,7 +7,7 @@
         - All Men are Mortal
             - certainty:: {{[[slider]]}}
     - Then I can reference those statements into a compound statement like this
-        - If [73qfpWUie](Precise%20Links.md) and [Abv0yk7zT](Precise%20Links.md) then ((eyR_sF2Hr))
+        - If [73qfpWUie](<./Precise Links.md>) and [Abv0yk7zT](<./Precise Links.md>) then ((eyR_sF2Hr))
             - certainty:: {{[[slider]]}}
             - 
     - I will then see that statement whenever I visit one of the blocks that is referenced within it

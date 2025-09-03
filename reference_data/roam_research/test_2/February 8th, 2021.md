@@ -5,12 +5,12 @@
     - [ ] Generate the minimal transaction which will bring A -> B, and vice versa.
     - #Bonus 
         - [ ] Given a set of User-Events which map to certain transactions - find the sequence of user events which brought A -> B, or which would bring B -> A
-        - [ ] Take a roam outline tree, and create a datascript DB with just the data contained within it  - such as this one [cpgzSMTye](February%208th%2C%202021.md)
+        - [ ] Take a roam outline tree, and create a datascript DB with just the data contained within it  - such as this one [cpgzSMTye](<./February 8th, 2021.md>)
         - [ ] Publish your code and the demo on a roam graph using `roam/render` and custom components
             - Roam allows you to write arbitrary CLJS code - and evaluate it in your graph - you can use this code - and the roam Alpha API to query your graph, and create mutations for it.
             - Submit your answer as a roam-graph
             - All code should be in the same Roam Graph as the working demo.
-            - {{[roam/render](roam_render.md): ((uP_2barEP)) [cpgzSMTye](February%208th%2C%202021.md)}}
+            - {{[roam/render](./roam_render.md): ((uP_2barEP)) [cpgzSMTye](<./February 8th, 2021.md>)}}
 ```clojure
 (ns starting-point-for-custom-roam
   (:require
@@ -40,5 +40,5 @@
 - [ ]  generate a UI for displaying the diff 
 - [ ] create a simple component that will let you save the state of a block subtree at various points, and return to these states - by firing new transactions
 - Import
-    - [December 1st, 2020](December%201st%2C%202020.md)
+    - [December 1st, 2020](<./December 1st, 2020.md>)
         - From: December 1st, 2020.json

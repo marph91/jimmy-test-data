@@ -1,9 +1,9 @@
 ## Community Videos::
-### Managing tasks and projects with Roam Research by [Mickey Mellen](Mickey%20Mellen.md)
+### Managing tasks and projects with Roam Research by [Mickey Mellen](<./Mickey Mellen.md>)
 
 - <https://www.youtube.com/watch?v=NoNebWRn9ZQ&ab_channel=MickeyMellen>
 #TODO/DONE | #Page-References | #Daily-Notes | #Linked-References | #Date-picker | #Filter 
-### PARA in Roam Reserach, Managing projects and tasks by [Praveen Anuraj](Praveen%20Anuraj.md)
+### PARA in Roam Reserach, Managing projects and tasks by [Praveen Anuraj](<./Praveen Anuraj.md>)
 
 - <https://www.youtube.com/watch?v=SQ71uG1q79g&ab_channel=PraveenAnuraj>
 #Page-References | #TODO/DONE | #Query | #Date-picker 

@@ -40,7 +40,7 @@
 Increase in murder, as well as rape, torture and discrimination, has led the pope to warn of a ‘form of genocide’
 
 <http://www.theguardian.com/world/2015/jul/27/dying-for-christianity-millions-at-risk-amid-rise-in-persecution-across-the-globe#img-1>
-![unnamed_23b8c1e9392446debeb13b9046685257](unnamed_23b8c1e9392446debeb13b9046685257.jpg)
+![unnamed_23b8c1e9392446debeb13b9046685257](./unnamed_23b8c1e9392446debeb13b9046685257.jpg)
 Christians are scanned with a metal detector outside the Our Lady of Consolation church, in Garissa, Kenya which was attacked with grenades by militants. Photograph: Ben Curtis/AP
 
 **[Harriet Sherwood](http://www.theguardian.com/profile/harrietsherwood)
@@ -68,7 +68,7 @@ Last modified on Monday 27 July 2015 15.47 BST
 
 Christians are facing growing persecution around the world, fuelled mainly by Islamic extremism and repressive governments, leading the pope to warn of “a form of genocide” and for campaigners to speak of “religio-ethnic cleansing”.
 
-![unnamed_9a1de644815e46d1bb8faa1837f8a88b](unnamed_9a1de644815e46d1bb8faa1837f8a88b.jpg)
+![unnamed_9a1de644815e46d1bb8faa1837f8a88b](./unnamed_9a1de644815e46d1bb8faa1837f8a88b.jpg)
 
 # [Christians under pressure: from bigotry at school to imprisonment and murder](http://www.theguardian.com/world/2015/jul/27/null)
 
@@ -81,7 +81,7 @@ On his recent trip to Latin America, Pope Francis said [he was dismayed](http://
 
 At Easter, the archbishop of Canterbury, Justin Welby, the leader of the Anglican church, [spoke of Christian “martyrs”](http://www.bbc.co.uk/news/uk-32187294). Christians were living under persecution in almost half of the 38 Anglican provinces worldwide, [he said this month](http://www.archbishopofcanterbury.org/articles.php/5591/archbishop-of-canterbury-on-religious-freedom-). “They fear for their lives every day.”
 
-![unnamed_43b7a3a69a8d4a03980d7b71d8f56413](unnamed_43b7a3a69a8d4a03980d7b71d8f56413.jpg)
+![unnamed_43b7a3a69a8d4a03980d7b71d8f56413](./unnamed_43b7a3a69a8d4a03980d7b71d8f56413.jpg)
 
 # [Where in the world is the worst place to be a Christian?](http://www.theguardian.com/world/2015/jul/27/null)
 
@@ -94,7 +94,7 @@ According to David Alton, a crossbench peer who campaigns on religious freedom, 
 
 “Whatever the real figures the scale is enormous. From Syria, Iraq, Iran and Egypt to [North Korea](http://www.theguardian.com/world/north-korea), China, Vietnam and Laos, from India, Pakistan, Bangladesh and Sri Lanka to Indonesia, Malaysia, Burma, from Cuba, Colombia and Mexico to Eritrea, Nigeria and Sudan, Christians face serious violations of religious freedom,” Alton said. Persecution ranged from murder, rape and torture to repressive laws, discrimination and social exclusion.
 
-![unnamed_6c307511b2b9437aa8df6ec4ce4a2bbd](unnamed_6c307511b2b9437aa8df6ec4ce4a2bbd.png)
+![unnamed_6c307511b2b9437aa8df6ec4ce4a2bbd](./unnamed_6c307511b2b9437aa8df6ec4ce4a2bbd.png)
 
 One consequence was “a form of religio-ethnic cleansing of Christian communities”, said John Pontifex of [Aid to the Church in Need](http://www.acnuk.org/) (ACN), a Catholic campaign group that monitors persecution. “The persecution of Christians is at a level we’ve not seen for many, many years and the main impact is the migration of Christian people. There are huge swaths of the world which are now experiencing a very sharp decline in the number of Christians.”
 
@@ -110,7 +110,7 @@ In addition, a heavily pregnant woman, [Meriam Ibrahim](http://www.theguardian.c
 
 But monitoring groups say the persecution of Christians goes far beyond high-profile cases. According to the [Pew Research Center](http://www.pewforum.org/), Christians face harassment in 102 countries – more than any other religion. The US government advisory body the [Commission on International Religious Freedom (USCIRF), recommended this year](http://www.uscirf.gov/sites/default/files/IRFA%20Chapter.pdf) that eight countries – the Central African Republic, Egypt, Iraq, Nigeria, Pakistan, Syria, Tajikistan and Vietnam – be added to the State Department’s existing list of nine “countries of particular concern”.
 
-![unnamed_bd9c66b3ad3c4d6d9a3d1fa7bc8960a9](unnamed_bd9c66b3ad3c4d6d9a3d1fa7bc8960a9.png)
+![unnamed_bd9c66b3ad3c4d6d9a3d1fa7bc8960a9](./unnamed_bd9c66b3ad3c4d6d9a3d1fa7bc8960a9.png)
 
 The [2014 report on religious freedom in the world by ACN](http://religion-freedom-report.org.uk/wp-content/uploads/2014/10/executive_summary.pdf) said conditions had deteriorated in 55 countries, and significantly so in six countries: Iraq, Libya, Nigeria, Pakistan, Sudan and Syria. Although Muslims “also face terrible and systematic persecution … and Jewish communities have also suffered increased threats and violence”, Christians were by far the most persecuted faith group, the report said.
 
@@ -122,7 +122,7 @@ The rise of Islamic extremism is driving much of the increase in Christian perse
 
 Lee Marsden, professor of international relations, specialising in religion and security, at the University of East Anglia, said the collapse of authoritarian regimes in the Middle East during the Arab spring was a significant factor. “They had many downsides, but they did protect minority faiths. Take them away, and it becomes open season on minorities – that was one of the unforeseen consequences of toppling these people. And the Arab spring was hijacked by Islamists, which was bad news for religious minorities.”
 
-![unnamed_972a846916414f828b9d2434e465e150](unnamed_972a846916414f828b9d2434e465e150.png)
+![unnamed_972a846916414f828b9d2434e465e150](./unnamed_972a846916414f828b9d2434e465e150.png)
 
 Social media has allowed religious extremists to push their message beyond geographical boundaries. Jonathan Sacks, the former chief rabbi, speaking in a recent debate on religious freedom in the House of Lords, said the internet was “to radical political religions what printing was to Martin Luther. It allows them to circumvent and outflank all existing structures of power. The result has been the politicisation of religion and the religionising of politics, which, throughout history, has been a deadly combination.”
 
@@ -136,7 +136,7 @@ Some campaigners and church leaders acknowledged the danger of religious persecu
 
 Cardinal Vincent Nichols, the archbishop of Westminster and head of the Catholic church in England and Wales, said: “It would be a serious mistake to cast this as a Muslim-Christian conflict.” He cited a bishop in northern [Nigeria](http://www.theguardian.com/world/nigeria), who had told him the most recent killing in his diocese was of 39 Muslims by Boko Haram. “The extremist groups are certainly perpetrating violence, against anyone who does not share their world view. That includes Christians, but it’s not exclusively Christians by any means.”
 
-![unnamed_5be6128e18c24797a142ea7d17be3111](unnamed_5be6128e18c24797a142ea7d17be3111.png)
+![unnamed_5be6128e18c24797a142ea7d17be3111](./unnamed_5be6128e18c24797a142ea7d17be3111.png)
 
 According to Marsden, there could be an element of Islamophobia in some Christian campaign organisations, “but there is also an element of victimhood – a view that the church has always been persecuted, which feeds into the martyrdom narrative”.
 
@@ -146,7 +146,7 @@ In the same debate, Sacks – along with others – pointed to the increasing th
 
 Not all agreed with the pope’s use of the word genocide. But, said Pearce, “if you look at what’s happening in the Middle East, it’s being purged of Christians, and there are definitely elements of religious cleansing. So I can see where the pope got that word from.”
 
-![unnamed_759cde66bacf43d08b1f9163ce9ff57f](unnamed_759cde66bacf43d08b1f9163ce9ff57f.png)
+![unnamed_759cde66bacf43d08b1f9163ce9ff57f](./unnamed_759cde66bacf43d08b1f9163ce9ff57f.png)
 
 She drew a distinction between “smash” – extreme violence – and “squeeze”, where “life as a Christian becomes inexorably harder. The squeeze inevitably makes the church more vulnerable to the smash when it comes.” The groups that were the most violent were not necessarily the worst persecutors, she added.
 
@@ -164,7 +164,7 @@ On 2 April this year, gunmen from the militant Islamic group al-Shabaab attacked
 
 **Pregnant woman sentenced to death for apostasy – Sudan**
 
-![unnamed_4b0dbb418d5248f1942c3fe860e7a113](unnamed_4b0dbb418d5248f1942c3fe860e7a113.png)
+![unnamed_4b0dbb418d5248f1942c3fe860e7a113](./unnamed_4b0dbb418d5248f1942c3fe860e7a113.png)
 
 Meriam Ibrahim, a Sudanese Christian, was sentenced to death for adultery and apostasy after marrying a Christian man, with whom she had a young son. Ibrahim was raised as a Christian by her Christian mother after her Muslim father left the family when she was a young child. The Sudanese court said she should have followed the religion of her absent father, which would have prohibited her from marrying a Christian, and found her guilty of abandoning her Muslim faith. Ibrahim was arrested when she was eight months pregnant and held in a Sudanese prison with her 21-month-old son to await hanging after the birth of her second child. She was denied medical care and prison staff refused to take her to hospital when she went into labour; she gave birth to a daughter in prison with her legs shackled. Amid international outrage, Ibrahim was released on the order of the Sudanese appeal court, but was rearrested as she was boarding a plane with her husband and two children the next day. After intense diplomatic negotiations the whole family were allowed to leave and they are now living in the US.
 
@@ -174,7 +174,7 @@ Iraq’s Christian population has decreased dramatically since the fall of Sadda
 
 **Kidnapping of schoolgirls by Boko Haram – Nigeria**
 
-![unnamed_c241330b01a9471f9e8a774bcf36d58b](unnamed_c241330b01a9471f9e8a774bcf36d58b.png)
+![unnamed_c241330b01a9471f9e8a774bcf36d58b](./unnamed_c241330b01a9471f9e8a774bcf36d58b.png)
 
 A group of Boko Haram militants attacked a school in Chibok, a primarily Christian village in Nigeria, on the night of 14 April 2014. They kidnapped schoolgirls who had returned to the school to sit their final physics exam. It is uncertain how many girls were kidnapped, but estimates put it at between 276 and 329 girls, with 53 escaping in the few weeks following the attack. The girls were taken to Boko Haram strongholds and attempts by the Nigerian government and the girls’ families to rescue them have been unsuccessful. Less than a month after the kidnapping, Boko Haram released a video showing 130 of the kidnapped girls, all wearing Islamic dress. It is believed they are being held as sex slaves and have been forced to convert to Islam. **Kate Lyons**
 
@@ -201,33 +201,33 @@ A group of Boko Haram militants attacked a school in Chibok, a primarily Christi
 ### **Most popular**
 
 - <http://www.theguardian.com/society/2015/jul/27/manchester-royal-infirmary-closes-ae-suspected-mers-cases>
-![unnamed_6b65a6a48b8148f6b38a088ca65ed389](unnamed_6b65a6a48b8148f6b38a088ca65ed389.jpg)
+![unnamed_6b65a6a48b8148f6b38a088ca65ed389](./unnamed_6b65a6a48b8148f6b38a088ca65ed389.jpg)
 
 #### Manchester Royal Infirmary closes A&E due to suspected Mers cases
 
 - <http://www.theguardian.com/fashion/2015/jul/27/kate-moss-refuses-shamed-tabloid-media>
-![unnamed_1a2a73ed562b4f79837459eef50bea63](unnamed_1a2a73ed562b4f79837459eef50bea63.jpg)
+![unnamed_1a2a73ed562b4f79837459eef50bea63](./unnamed_1a2a73ed562b4f79837459eef50bea63.jpg)
 
 #### The brilliant thing about Kate Moss is that she can never be shamed
 
 - <http://www.theguardian.com/technology/2015/jul/27/emoji-true-meanings-explained>
-![unnamed_17fc695a07a04a6e8822e8f36c031199](unnamed_17fc695a07a04a6e8822e8f36c031199.jpg)
+![unnamed_17fc695a07a04a6e8822e8f36c031199](./unnamed_17fc695a07a04a6e8822e8f36c031199.jpg)
 
 #### 'I'm sitting next to a weirdo on the bus' and other true meanings of emoji
 
 - <http://www.theguardian.com/uk-news/2015/jul/27/rail-operators-were-warned-of-cows-near-tracks-before-kent-collision>
-![unnamed_ec1b8ca1f91e4d4c9ff49b7889463e85](unnamed_ec1b8ca1f91e4d4c9ff49b7889463e85.jpg)
+![unnamed_ec1b8ca1f91e4d4c9ff49b7889463e85](./unnamed_ec1b8ca1f91e4d4c9ff49b7889463e85.jpg)
 
 #### Rail operators were warned of cows near tracks before Kent collision
 
 - <http://www.theguardian.com/uk-news/2015/jul/27/salford-mr-big-paul-massey-murder-risk-interview-1998>
-![unnamed_4737819096da4dacb2ff5d2a386ecbe0](unnamed_4737819096da4dacb2ff5d2a386ecbe0.jpg)
+![unnamed_4737819096da4dacb2ff5d2a386ecbe0](./unnamed_4737819096da4dacb2ff5d2a386ecbe0.jpg)
 
 #### Murdered 'Mr Big' said he could be killed 'at any time' in 1998 interview
 
 ## **comments (741)**
 
-![unnamed_371ecd7b27cd413087229389571aa876](unnamed_371ecd7b27cd413087229389571aa876.png)
+![unnamed_371ecd7b27cd413087229389571aa876](./unnamed_371ecd7b27cd413087229389571aa876.png)
 Signed in as **AndrewBrown**
 **Post your comment**
 Order by **oldest**
@@ -235,12 +235,12 @@ Show **25**
 Threads **collapsed**
 **1** **[2](http://www.theguardian.com/discussion/p/4azh6?page=2)** **[3](http://www.theguardian.com/discussion/p/4azh6?page=3)** **[4](http://www.theguardian.com/discussion/p/4azh6?page=4)**… **[8](http://www.theguardian.com/discussion/p/4azh6?page=8)** **[ next](http://www.theguardian.com/discussion/p/4azh6?page=2)**
 
-- ![unnamed_b74d0fb132e746298fadc1a606cb0fb3](unnamed_b74d0fb132e746298fadc1a606cb0fb3.gif)
+- ![unnamed_b74d0fb132e746298fadc1a606cb0fb3](./unnamed_b74d0fb132e746298fadc1a606cb0fb3.gif)
 **[Lillianne](https://profile.theguardian.com/user/id/14670089)**
 <http://discussion.theguardian.com/comment-permalink/56464029>
 3h ago
                             This comment was removed by a moderator because it didn't abide by our                             [community standards](http://www.theguardian.com/community-standards).                             Replies may also be deleted. For more detail see [our FAQs](http://www.theguardian.com/community-faqs).
-- ![unnamed_b74d0fb132e746298fadc1a606cb0fb3](unnamed_b74d0fb132e746298fadc1a606cb0fb3.gif)
+- ![unnamed_b74d0fb132e746298fadc1a606cb0fb3](./unnamed_b74d0fb132e746298fadc1a606cb0fb3.gif)
 **[nevermindlastnight](https://profile.theguardian.com/user/id/14881964)**
 <http://discussion.theguardian.com/comment-permalink/56464149>
 3h ago

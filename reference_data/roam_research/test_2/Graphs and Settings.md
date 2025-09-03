@@ -12,17 +12,17 @@
 ### Upgrade to believer flow
 - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fhelp-documentation%2FnM5wcOhskc.gif?alt=media&token=40ad89ee-40f3-4de9-8eb4-7281afa3f789)
 - 
-### Create new [Graph](Graph.md)
-### [Hosted Graph](Hosted%20Graph.md)
+### Create new [Graph](./Graph.md)
+### [Hosted Graph](<./Hosted Graph.md>)
 - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fhelp-documentation%2Fi8T4ru8TAo.gif?alt=media&token=de655cc0-889b-4735-a01c-8d34e5ad3103)
-### [Local Graph](Local%20Graph.md)
+### [Local Graph](<./Local Graph.md>)
 - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fhelp-documentation%2FUKPFUwGlCg.gif?alt=media&token=5e551237-29da-43ef-bd77-160795d51ca9)
 - 
 ### View all graphs
-### Via [Left Sidebar](Left%20Sidebar.md)
+### Via [Left Sidebar](<./Left Sidebar.md>)
 - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fhelp-documentation%2FTba8Z2P_xZ.gif?alt=media&token=b1ab3dc4-f818-44ab-8dc6-4970b291c4e6)
 - 
-### Via [Graphs and Settings](Graphs%20and%20Settings.md)
+### Via [Graphs and Settings](<./Graphs and Settings.md>)
 - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fhelp-documentation%2FIAhXgt0D7b.gif?alt=media&token=be9f1773-5c61-472c-b207-5fb485a0a461)
 - 
 ### Chat with us through the live chat button

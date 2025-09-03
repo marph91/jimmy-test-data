@@ -50,7 +50,7 @@
 ```plain-text
 ppa:giuspen/ppa
 ```
-![unnamed_23b8c1e9392446debeb13b9046685257](unnamed_23b8c1e9392446debeb13b9046685257.png)
+![unnamed_23b8c1e9392446debeb13b9046685257](./unnamed_23b8c1e9392446debeb13b9046685257.png)
 
 ```sh
 sudo dpkg -i cherrytree.deb

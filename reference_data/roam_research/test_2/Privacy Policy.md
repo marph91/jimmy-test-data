@@ -1,13 +1,13 @@
 ### **TLDR: **Roam does not own your data, nor do we sell it to others or use it for advertising. We will never read or access your private notes without written or verbal consent - unless compelled by law enforcement.
-- As a quick reminder, here is our policy on User Content as per the [Terms and Conditions](Terms%20and%20Conditions.md):
-- [kU5egPzux](Terms%20and%20Conditions.md)
+- As a quick reminder, here is our policy on User Content as per the [Terms and Conditions](<./Terms and Conditions.md>):
+- [kU5egPzux](<./Terms and Conditions.md>)
     - ((Ot-zs8eNv))
-    - [FQF3GakEh](Terms%20and%20Conditions.md)
-    - [M5Cthl4hD](Terms%20and%20Conditions.md)
-    - [fk3WZ9qg8](Terms%20and%20Conditions.md)
+    - [FQF3GakEh](<./Terms and Conditions.md>)
+    - [M5Cthl4hD](<./Terms and Conditions.md>)
+    - [fk3WZ9qg8](<./Terms and Conditions.md>)
     - ((_oF1-thiB))
-    - [u6lASDaYQ](Terms%20and%20Conditions.md)
-    - [aZzdPHTlH](Terms%20and%20Conditions.md)
+    - [u6lASDaYQ](<./Terms and Conditions.md>)
+    - [aZzdPHTlH](<./Terms and Conditions.md>)
     - 
 ### 1. Introduction
 - 1.1. This Privacy Policy applies to both registered **“Members”** and unregistered **“Visitors”** for use of the Roam Research website, operated by Roam Research, Inc. ("Roam", "us", "we", or "our") and of the Roam Services. Both Members and Visitors are hereinafter referred to as **“User(s)”**. By clicking “Join Now,” “Join Roam,” “Sign Up” or similar, registering, accessing or using our Services, User is entering into a legally binding agreement (either individually or on behalf of a Company) that includes the Roam Terms and Conditions and this Privacy Policy.
@@ -42,7 +42,7 @@
 - 3.3. Communication. Roam may communicate with its Users via telephone, email, notices posted on the Roam sites or apps, direct messages, and other means available through the Services. Communications may include welcome and setup communications, Service communications, promotional communications, and other account support communications. These communications will be sent to User based on User’s account information and communication preferences. User understands and acknowledges, however, that User cannot opt out of receiving Service communications from Roam.
     - 3.3.1. User consents to receive autodialed or prerecorded calls and text messages at the telephone number provided on the User’s account, or at any other telephone number provided by the User to Roam, regardless of whether the telephone number is a home, work, or mobile telephone number. Where applicable and permitted by law, User may decline to receive certain communications by opting out via express written notice to Roam.
 - 3.4. Data Analysis. Roam may share certain User data with companies with whom Roam co-markets, partners, and collaborates for their analysis and internal use to provide Users with additional Services. Roam may use and disclose de-identified data shared with Roam either by the User or a third party providing data on behalf of the User, for any purpose. Any and all of this information may be aggregated with information from other Users or may be provided individually in a redacted format as an example of User experience and our Services. Roam is also expressly authorized by User to share with third parties, aggregate and/or de-identified data, including User’s use of the Services provided to User by Roam. 
-    - However, Roam will collect and share additional, identified and/or personal location information about User as specified under Section II hereof and as detailed in the Roam [Terms and Conditions](Terms%20and%20Conditions.md). 
+    - However, Roam will collect and share additional, identified and/or personal location information about User as specified under Section II hereof and as detailed in the Roam [Terms and Conditions](<./Terms and Conditions.md>). 
 - 3.5. Data Sharing with Third Parties. In addition to the sharing specified in **Section 3.4** hereof, Roam may disclose User’s personal and financial information to third party services providers who assist Roam in providing our Services. User understands and accepts that Roam may contract with other companies and individuals to perform certain functions on our behalf, or to provide User with certain services. This includes, but is not limited to, processing credit card payments, issuing ACH deposits, sending postal mail and email, analyzing data, and providing marketing assistance. These third parties will only have access to personal information to the extent necessary to perform their intended function or service and are not authorized to use it for other purposes.
 - 3.6. Marketing. Roam will not sell or rent User’s personal information to third parties for their marketing purposes without User’s explicit consent. However, Roam reserves the right to use User’s information to improve and personalize its Services and content. If User does not wish to receive marketing communications from us, User may indicate this preference at the bottom of Roam’s marketing emails.
 - 3.7. Spam. Roam does not tolerate “Spam”. User is not licensed to add other Roam Users to User’s mailing list (email or postal mail) without that User’s express written consent. To report Roam-related Spam or Spoof emails to Roam, User should forward the suspected Spam or Spoof email to Roam with a notice that the email may be Spam or Spoof. User may not use Roam’s communication channels to send Spam or otherwise send content that would violate the Roam User Agreement. Roam automatically scans and may manually filter messages to check for Spam, viruses, phishing attacks and other malicious activity or illegal or prohibited content, and Roam does not permanently store messages sent through these filters.

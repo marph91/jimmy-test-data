@@ -2,7 +2,7 @@
 # Tree 2
 
 
-	The **Tree 2** preferences menu is a continuation of [Tree 1](Tree%201.md), providing additional configuration options for the [tree view](http://#tree-view) panel.
+	The **Tree 2** preferences menu is a continuation of [Tree 1](<./Tree 1.md>), providing additional configuration options for the [tree view](http://#tree-view) panel.
 
  ## Miscellaneous
 
@@ -18,4 +18,4 @@
 	
 		 Figure 9.12
 		
-	![unnamed_a28defe39bf0427392476f57a5e5a5ab](unnamed_a28defe39bf0427392476f57a5e5a5ab.png)
+	![unnamed_a28defe39bf0427392476f57a5e5a5ab](./unnamed_a28defe39bf0427392476f57a5e5a5ab.png)

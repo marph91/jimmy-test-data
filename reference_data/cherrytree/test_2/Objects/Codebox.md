@@ -2,9 +2,9 @@
 # Codebox
 
 
-	A codebox is a contained, executable section of syntax-highlighted text, which can be inserted into [Rich Text](../Text/Rich%20Text.md) nodes. A Rich Text node can contain more than one codebox for any of the [supported languages](../Text/Automatic%20Syntax%20Highlighting.md).
+	A codebox is a contained, executable section of syntax-highlighted text, which can be inserted into [Rich Text](<../Text/Rich Text.md>) nodes. A Rich Text node can contain more than one codebox for any of the [supported languages](<../Text/Automatic Syntax Highlighting.md>).
 
-	See [Automatic Syntax Highlighting](../Text/Automatic%20Syntax%20Highlighting.md) for more details about syntax highlighting.
+	See [Automatic Syntax Highlighting](<../Text/Automatic Syntax Highlighting.md>) for more details about syntax highlighting.
 
  ## Inserting a Codebox
 
@@ -12,11 +12,11 @@
 
 	2. (**Optional**) Change the codebox type within the Insert Codebox menu:
 	
-		- **Plain Text** - Restricts the codebox to [plain text](../Text/Plain%20Text.md).
+		- **Plain Text** - Restricts the codebox to [plain text](<../Text/Plain Text.md>).
 
-		- **Automatic Syntax Highlighting** - Applies [automatic syntax highlighting](../Text/Automatic%20Syntax%20Highlighting.md) to the codebox. (Default)
+		- **Automatic Syntax Highlighting** - Applies [automatic syntax highlighting](<../Text/Automatic Syntax Highlighting.md>) to the codebox. (Default)
 
-		- **Choose a language** - Select from any of the [supported languages](../Text/Automatic%20Syntax%20Highlighting.md).
+		- **Choose a language** - Select from any of the [supported languages](<../Text/Automatic Syntax Highlighting.md>).
 
 	3. (**Optional**) - Define the codebox size:
 	
@@ -56,7 +56,7 @@
 
 	- **Delete CodeBox** - Delete the selected codebox.
 
-	- **Delete CodeBox Keep Content** - Replace the current codebox with a [plain text](../Text/Plain%20Text.md) copy of its content.
+	- **Delete CodeBox Keep Content** - Replace the current codebox with a [plain text](<../Text/Plain Text.md>) copy of its content.
 
 	- **Increase CodeBox Width** - Increase the width of the selected codebox by 9% if it is defined as a percentage or 15px if it is defined in pixels.
 
@@ -68,7 +68,7 @@
 
  ## Executing a Codebox
 
-	A codebox that is set to [automatic syntax highlighting](../Text/Automatic%20Syntax%20Highlighting.md) can be executed from Cherrytree, assuming you have its assigned language installed to your machine.
+	A codebox that is set to [automatic syntax highlighting](<../Text/Automatic Syntax Highlighting.md>) can be executed from Cherrytree, assuming you have its assigned language installed to your machine.
 
 	**To execute a node:**
 
@@ -78,4 +78,4 @@
 
 	Some languages require an execution command to be assigned to the language before the code can be executed.
 	
-	See [Plain Text and Code](../Settings/Plain%20Text%20and%20Code.md) for details on assigning a command.
+	See [Plain Text and Code](<../Settings/Plain Text and Code.md>) for details on assigning a command.

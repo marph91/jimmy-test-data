@@ -27,17 +27,17 @@
 
 ~~image~~
 
-[![e1GHfrAAh4S96o7k.png](e1GHfrAAh4S96o7k.png)](./assets/e1GHfrAAh4S96o7k.png)
+[![e1GHfrAAh4S96o7k.png](./e1GHfrAAh4S96o7k.png)](./assets/e1GHfrAAh4S96o7k.png)
 
   
 
 ## file
 
-![unnamed_bdd640fb06674ad19c80317fa3b1799d](unnamed_bdd640fb06674ad19c80317fa3b1799d.svg)
+![unnamed_bdd640fb06674ad19c80317fa3b1799d](./unnamed_bdd640fb06674ad19c80317fa3b1799d.svg)
 
-[plaintext.txt](XfOyFr3jQ92lni7u.txt)(34 B)
+[plaintext.txt](./XfOyFr3jQ92lni7u.txt)(34 B)
 
-![unnamed_23b8c1e9392446debeb13b9046685257](unnamed_23b8c1e9392446debeb13b9046685257.svg)
+![unnamed_23b8c1e9392446debeb13b9046685257](./unnamed_23b8c1e9392446debeb13b9046685257.svg)
 
   
 
@@ -45,7 +45,7 @@
 
 link to another page:
 
-[abc](New%20page.md)
+[abc](<./New page.md>)
 
 [weblink](https://github.com/marph91/jimmy)
 
@@ -75,7 +75,7 @@ https://github.com/marph91/jimmy
 
 Convert your notes to Markdown. Contribute to marph91/jimmy development by creating an account on GitHub.
 
-![fhV0eOXTt9oJe7Zt.png](fhV0eOXTt9oJe7Zt.png)
+![fhV0eOXTt9oJe7Zt.png](./fhV0eOXTt9oJe7Zt.png)
 
 ### horizontal line
 

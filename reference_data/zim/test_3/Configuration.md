@@ -1,5 +1,5 @@
 Primary configuration elements are:
-* [OS-Base](Configuration/OS-Base.md)
+* [OS-Base](./Configuration/OS-Base.md)
 * [Platform](Platform)
 * [Image](Image)
 

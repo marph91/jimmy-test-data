@@ -1,1 +1,1 @@
-- This is a test linking to [Another Page](Another%20Page.md)
+- This is a test linking to [Another Page](<./Another Page.md>)

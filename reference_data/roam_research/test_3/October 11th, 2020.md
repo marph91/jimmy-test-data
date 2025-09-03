@@ -1,1 +1,1 @@
-- test [Glaubensätze](Glaubens%C3%A4tze.md)
+- test [Glaubensätze](<./Glaubensätze.md>)
