@@ -1,8 +1,8 @@
 ---
 author: admin
-created: '2024-11-21T13:45:41'
+created: '2024-11-21T14:45:41'
 title: Privacy Policy
-updated: '2024-11-21T13:45:41'
+updated: '2024-11-21T14:45:41'
 ---
 
 ## Who we are

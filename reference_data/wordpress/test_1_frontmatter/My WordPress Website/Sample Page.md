@@ -1,8 +1,8 @@
 ---
 author: admin
-created: '2024-11-21T13:45:41'
+created: '2024-11-21T14:45:41'
 title: Sample Page
-updated: '2024-11-21T13:45:41'
+updated: '2024-11-21T14:45:41'
 ---
 
 This is an example page. It's different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:
