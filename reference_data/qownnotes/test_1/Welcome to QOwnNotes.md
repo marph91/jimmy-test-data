@@ -1,11 +1,3 @@
----
-created: '2025-01-15T18:31:38.205855'
-tags:
-- test-tag
-title: Welcome to QOwnNotes
-updated: '2025-01-15T18:31:38.205855'
----
-
 Welcome to your installation of **QOwnNotes**!
 
 ## TODO

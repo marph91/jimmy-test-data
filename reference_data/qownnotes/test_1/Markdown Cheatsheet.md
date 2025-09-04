@@ -1,12 +1,3 @@
----
-created: '2025-01-15T18:31:38.205855'
-tags:
-- another_test tag
-- test-tag
-title: Markdown Cheatsheet
-updated: '2025-01-15T18:31:38.205855'
----
-
 This cheatsheet is intended as a quick reference and showcase of the markdown syntax in [QOwnNotes](https://www.qownnotes.org).
 
 ## Headers
