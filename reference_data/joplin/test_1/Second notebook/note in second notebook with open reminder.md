@@ -1,2 +1,0 @@
-- bullet point
-- [link](<../My Notebook/Sample note with completed reminder.md>)

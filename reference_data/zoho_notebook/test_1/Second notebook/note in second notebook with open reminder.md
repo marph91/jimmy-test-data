@@ -1,2 +1,0 @@
--   blue background  
--    [link](<../My Notebook/Sample note with completed reminder.md>)

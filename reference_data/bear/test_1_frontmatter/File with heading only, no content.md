@@ -1,0 +1,5 @@
+---
+created: '2023-10-11T08:09:03'
+title: File with heading only, no content
+updated: '2023-10-11T08:09:48'
+---

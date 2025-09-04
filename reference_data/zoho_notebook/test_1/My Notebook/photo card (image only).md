@@ -1,1 +1,0 @@
-![ihl6e963590e9b33a4ff2a01efe047e3ef6a5.png](./ihl6e963590e9b33a4ff2a01efe047e3ef6a5.png)
