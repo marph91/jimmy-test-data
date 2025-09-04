@@ -44,4 +44,4 @@ Text
 
 ## Linked file
 
-[link to second_sample_file](nested_arbitrary_folder/second_sample_file.md)
+[link to second_sample_file](second_sample_file)
