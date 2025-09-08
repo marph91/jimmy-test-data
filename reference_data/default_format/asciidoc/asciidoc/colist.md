@@ -1,43 +1,34 @@
-``` highlight
-require 'sinatra' // (1)
+```ruby
+require 'sinatra' // ①
 
-get '/hi' do  # (2)
-  "Hello World!" ;; (3)
+get '/hi' do  # ②
+  "Hello World!" ;; ③
 end
 ```
+1. Library import
+2. URL mapping
+3. Content for response
 
-1.  Library import
+```ruby
+require 'sinatra' // ①
 
-2.  URL mapping
-
-3.  Content for response
-
-``` highlight
-require 'sinatra' // (1)
-
-get '/hi' do  # (2)
-  "Hello World!" ;; (3)
+get '/hi' do  # ②
+  "Hello World!" ;; ③
 end
 ```
+**Description**
 
-Description
+1. Library import
+2. URL mapping
+3. Content for response
 
-1.  Library import
+```ruby
+require 'sinatra' // ①
 
-2.  URL mapping
-
-3.  Content for response
-
-``` highlight
-require 'sinatra' // (1)
-
-get '/hi' do  # (2)
-  "Hello World!" ;; (3)
+get '/hi' do  # ②
+  "Hello World!" ;; ③
 end
 ```
-
-1.  Library import
-
-2.  URL mapping
-
-3.  Content for response
+1. Library import
+2. URL mapping
+3. Content for response

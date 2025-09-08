@@ -1,5 +1,7 @@
-Rubies are red,  
+Rubies are red,'
+'
 Topazes are blue.
 
-Ruby is red.  
+Ruby is red.'
+'
 Java is black.

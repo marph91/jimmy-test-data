@@ -1,42 +1,48 @@
+```
 echo -n "Please enter your name: "
-    read name
-    echo "Hello, $name!"
+read name
+echo "Hello, $name!"
+```
 
-Reading user input
+**Reading user input**
 
-    echo -n "Please enter your name: "
-    read name
-    echo "Hello, $name!"
+```
+echo -n "Please enter your name: "
+read name
+echo "Hello, $name!"
+```
 
-``` nowrap
+```
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-    echo -n "Please enter your name: "
-    read name
-    echo "Hello, $name!"
+```
+echo -n "Please enter your name: "
+read name
+echo "Hello, $name!"
+```
 
-``` highlight
+```
 5.times do
   print "Odelay!"
 end
 ```
 
-Odelay!
+**Odelay!**
 
-``` highlight
+```
 5.times do
   print "Odelay!"
 end
 ```
 
-``` highlight
+```ruby
 5.times do
   print "Odelay!"
 end
 ```
 
-``` highlight
+```java
 public class ApplicationConfigurationProvider extends HttpConfigurationProvider {
 
    public Configuration getConfiguration(ServletContext context) {

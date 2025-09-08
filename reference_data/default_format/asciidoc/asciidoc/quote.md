@@ -1,20 +1,15 @@
-> Four score and seven years ago our fathers brought forth
-> on this continent a new nation…​
+Four score and seven years ago our fathers brought forth
+on this continent a new nation...
 
-> A person who never made a mistake never tried anything new.
+A person who never made a mistake never tried anything new.
 
-— Albert Einstein
+Everybody remember where we parked.
 
-> Everybody remember where we parked.
+**After landing the cloaked Klingon bird of prey in Golden Gate park:**
 
-— Captain James T. Kirk  
-Star Trek IV: The Voyage Home
+Everybody remember where we parked.
 
-After landing the cloaked Klingon bird of prey in Golden Gate park:
-
-> Everybody remember where we parked.
-
-> Everybody remember where we parked.
+<a name="parking"></a>Everybody remember where we parked.
 
 > Dennis: Come and see the violence inherent in the system. Help! Help! I’m being repressed!
 >

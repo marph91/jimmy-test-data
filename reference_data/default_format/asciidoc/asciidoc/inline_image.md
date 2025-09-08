@@ -4,22 +4,22 @@
 
 ![Tux](linux.svg)
 
-![linux](linux.svg)
+![float="right"](linux.svg)
 
-[![linux](linux.svg)](http://inkscape.org/doc/examples/tux.svg)
+![link="http://inkscape.org/doc/examples/tux.svg"](linux.svg)
 
-![linux](linux.svg)
+![role="black"](linux.svg)
 
-![tags](./images/icons/tags.png)
+icon:tags[]
 
-![tags](./images/icons/tags.png)
+icon:tags[height=25, width=35]
 
-![heart](./images/icons/heart.png)
+icon:heart[float="right"]
 
-[![download](./images/icons/download.png)](http://rubygems.org/downloads/asciidoctor-1.5.2.gem)
+icon:download[link="http://rubygems.org/downloads/asciidoctor-1.5.2.gem"]
 
-![heart](./images/icons/heart.png "I <3 Asciidoctor")
+icon:heart[title="I &lt;3 Asciidoctor"]
 
-![tags](./images/icons/tags.png)
+icon:tags[role="blue"]
 
-![tags](./images/icons/tags.png)
+icon:tags[]
