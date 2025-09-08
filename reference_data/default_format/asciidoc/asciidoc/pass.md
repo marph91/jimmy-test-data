@@ -1,3 +1,2 @@
-Allons-y!
-
-image:tiger.png\[\]
+<p>Allons-y!</p>
+image:tiger.png[]

@@ -2,51 +2,11 @@
 
 ## Introduction
 
-Table of Contents
-
--   [Introduction](#introduction)
--   [The Ravages of Writing](#the-ravages-of-writing)
-    -   [A Recipe for Potion](#a-recipe-for-potion)
--   [Document Title](#document-title)
-    -   [The Ravages of Writing](#the-ravages-of-writing)
-        -   [A Recipe for Potion](#a-recipe-for-potion)
--   [Document Title](#document-title)
-    -   [Introduction](#introduction)
-    -   [The Ravages of Writing](#the-ravages-of-writing)
--   [Document Title](#document-title)
-    -   [Introduction](#introduction)
-    -   [The Ravages of Writing](#the-ravages-of-writing)
-        -   [A Recipe for Potion](#a-recipe-for-potion)
--   [Document Title](#document-title)
-    -   [Introduction](#introduction)
-    -   [The Ravages of Writing](#the-ravages-of-writing)
--   [Document Title](#document-title)
-
 ## The Ravages of Writing
 
 ### A Recipe for Potion
 
 # Document Title
-
-Table of Contents
-
--   [Introduction](#introduction)
--   [The Ravages of Writing](#the-ravages-of-writing)
-    -   [A Recipe for Potion](#a-recipe-for-potion)
--   [Document Title](#document-title)
-    -   [The Ravages of Writing](#the-ravages-of-writing)
-        -   [A Recipe for Potion](#a-recipe-for-potion)
--   [Document Title](#document-title)
-    -   [Introduction](#introduction)
-    -   [The Ravages of Writing](#the-ravages-of-writing)
--   [Document Title](#document-title)
-    -   [Introduction](#introduction)
-    -   [The Ravages of Writing](#the-ravages-of-writing)
-        -   [A Recipe for Potion](#a-recipe-for-potion)
--   [Document Title](#document-title)
-    -   [Introduction](#introduction)
-    -   [The Ravages of Writing](#the-ravages-of-writing)
--   [Document Title](#document-title)
 
 ## The Ravages of Writing
 
@@ -56,25 +16,7 @@ Table of Contents
 
 ## Introduction
 
-Table of Adventures
-
--   [Introduction](#introduction)
--   [The Ravages of Writing](#the-ravages-of-writing)
-    -   [A Recipe for Potion](#a-recipe-for-potion)
--   [Document Title](#document-title)
-    -   [The Ravages of Writing](#the-ravages-of-writing)
-        -   [A Recipe for Potion](#a-recipe-for-potion)
--   [Document Title](#document-title)
-    -   [Introduction](#introduction)
-    -   [The Ravages of Writing](#the-ravages-of-writing)
--   [Document Title](#document-title)
-    -   [Introduction](#introduction)
-    -   [The Ravages of Writing](#the-ravages-of-writing)
-        -   [A Recipe for Potion](#a-recipe-for-potion)
--   [Document Title](#document-title)
-    -   [Introduction](#introduction)
-    -   [The Ravages of Writing](#the-ravages-of-writing)
--   [Document Title](#document-title)
+toc::[title="Table of Adventures"]
 
 ## The Ravages of Writing
 
@@ -82,22 +24,7 @@ Table of Adventures
 
 ## Introduction
 
-Table of Contents
-
--   [Introduction](#introduction)
--   [The Ravages of Writing](#the-ravages-of-writing)
--   [Document Title](#document-title)
-    -   [The Ravages of Writing](#the-ravages-of-writing)
--   [Document Title](#document-title)
-    -   [Introduction](#introduction)
-    -   [The Ravages of Writing](#the-ravages-of-writing)
--   [Document Title](#document-title)
-    -   [Introduction](#introduction)
-    -   [The Ravages of Writing](#the-ravages-of-writing)
--   [Document Title](#document-title)
-    -   [Introduction](#introduction)
-    -   [The Ravages of Writing](#the-ravages-of-writing)
--   [Document Title](#document-title)
+toc::[levels=1]
 
 ## The Ravages of Writing
 
@@ -107,46 +34,8 @@ Table of Contents
 
 ## Introduction
 
-Table of Contents
-
--   [Introduction](#introduction)
--   [The Ravages of Writing](#the-ravages-of-writing)
-    -   [A Recipe for Potion](#a-recipe-for-potion)
--   [Document Title](#document-title)
-    -   [The Ravages of Writing](#the-ravages-of-writing)
-        -   [A Recipe for Potion](#a-recipe-for-potion)
--   [Document Title](#document-title)
-    -   [Introduction](#introduction)
-    -   [The Ravages of Writing](#the-ravages-of-writing)
--   [Document Title](#document-title)
-    -   [Introduction](#introduction)
-    -   [The Ravages of Writing](#the-ravages-of-writing)
-        -   [A Recipe for Potion](#a-recipe-for-potion)
--   [Document Title](#document-title)
-    -   [Introduction](#introduction)
-    -   [The Ravages of Writing](#the-ravages-of-writing)
--   [Document Title](#document-title)
+toc::[id="mytoc", role="taco"]
 
 ## The Ravages of Writing
 
 # Document Title
-
-Table of Contents
-
--   [Introduction](#introduction)
--   [The Ravages of Writing](#the-ravages-of-writing)
-    -   [A Recipe for Potion](#a-recipe-for-potion)
--   [Document Title](#document-title)
-    -   [The Ravages of Writing](#the-ravages-of-writing)
-        -   [A Recipe for Potion](#a-recipe-for-potion)
--   [Document Title](#document-title)
-    -   [Introduction](#introduction)
-    -   [The Ravages of Writing](#the-ravages-of-writing)
--   [Document Title](#document-title)
-    -   [Introduction](#introduction)
-    -   [The Ravages of Writing](#the-ravages-of-writing)
-        -   [A Recipe for Potion](#a-recipe-for-potion)
--   [Document Title](#document-title)
-    -   [Introduction](#introduction)
-    -   [The Ravages of Writing](#the-ravages-of-writing)
--   [Document Title](#document-title)

@@ -1,59 +1,104 @@
-| Note | This is a note. |
-|------|-----------------|
+**📌 NOTE**'
+'
+This is a note.
 
-| Note | Title of note<br>This is a note with title. |
-|------|-----------------------------------------------------------|
+**Title of note**
 
-| Note | This is a note with id and role. |
-|------|----------------------------------|
+**📌 NOTE**'
+'
+This is a note with title.
 
-| Note | This is a note with complex content.<br>- It contains a list. |
-|----|----|
+**📌 NOTE**'
+'
+This is a note with id and role.
 
-| Tip | This is a tip. |
-|-----|----------------|
+<dl><dt><strong>📌 NOTE</strong></dt><dd>
 
-| Tip | Title of tip<br>This is a tip with title. |
-|-----|---------------------------------------------------------|
+This is a note with complex content.
 
-| Tip | This is a tip with id and role. |
-|-----|---------------------------------|
+* It contains a list.
+</dd></dl>
 
-| Tip | This is a tip with complex content.<br>- It contains a list. |
-|----|----|
+**💡 TIP**'
+'
+This is a tip.
 
-| Important | This is an important notice. |
-|-----------|------------------------------|
+**Title of tip**
 
-| Important | Title of important notice<br>This is an important notice with title. |
-|----|----|
+**💡 TIP**'
+'
+This is a tip with title.
 
-| Important | This is an important notice with id and role. |
-|-----------|-----------------------------------------------|
+**💡 TIP**'
+'
+This is a tip with id and role.
 
-| Important | This is an important notice with complex content.<br>- It contains a list. |
-|----|----|
+<dl><dt><strong>💡 TIP</strong></dt><dd>
 
-| Caution | This is a caution. |
-|---------|--------------------|
+This is a tip with complex content.
 
-| Caution | Title of caution<br>This is a caution with title. |
-|---------|-----------------------------------------------------------------|
+* It contains a list.
+</dd></dl>
 
-| Caution | This is a caution with id and role. |
-|---------|-------------------------------------|
+**❗ IMPORTANT**'
+'
+This is an important notice.
 
-| Caution | This is a caution with complex content.<br>- It contains a list. |
-|----|----|
+**Title of important notice**
 
-| Warning | This is a warning. |
-|---------|--------------------|
+**❗ IMPORTANT**'
+'
+This is an important notice with title.
 
-| Warning | Title of warning<br>This is a warning with title. |
-|---------|-----------------------------------------------------------------|
+**❗ IMPORTANT**'
+'
+This is an important notice with id and role.
 
-| Warning | This is a warning with id and role. |
-|---------|-------------------------------------|
+<dl><dt><strong>❗ IMPORTANT</strong></dt><dd>
 
-| Warning | This is a warning with complex content.<br>- It contains a list. |
-|----|----|
+This is an important notice with complex content.
+
+* It contains a list.
+</dd></dl>
+
+**🔥 CAUTION**'
+'
+This is a caution.
+
+**Title of caution**
+
+**🔥 CAUTION**'
+'
+This is a caution with title.
+
+**🔥 CAUTION**'
+'
+This is a caution with id and role.
+
+<dl><dt><strong>🔥 CAUTION</strong></dt><dd>
+
+This is a caution with complex content.
+
+* It contains a list.
+</dd></dl>
+
+**⚠️ WARNING**'
+'
+This is a warning.
+
+**Title of warning**
+
+**⚠️ WARNING**'
+'
+This is a warning with title.
+
+**⚠️ WARNING**'
+'
+This is a warning with id and role.
+
+<dl><dt><strong>⚠️ WARNING</strong></dt><dd>
+
+This is a warning with complex content.
+
+* It contains a list.
+</dd></dl>

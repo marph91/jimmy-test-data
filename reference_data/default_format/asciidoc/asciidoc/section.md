@@ -26,38 +26,38 @@
 
 ## Title with anchor
 
-## [Linked title](#linked-title)
+## Linked title
 
-## [Linked title with anchor](#linked-title-with-anchor)
+## Linked title with anchor
 
-## [1. Introduction to Asciidoctor](#1-introduction-to-asciidoctor)
+## Introduction to Asciidoctor
 
-## [2. Quick Starts](#2-quick-starts)
+## Quick Starts
 
-### [2.1. Usage](#21-usage)
+### Usage
 
-#### [2.1.1. Using the Command Line Interface](#211-using-the-command-line-interface)
+#### Using the Command Line Interface
 
-##### [Processing Your Content](#processing-your-content)
+##### Processing Your Content
 
-### [2.2. Syntax](#22-syntax)
+### Syntax
 
-## [3. Terms and Concepts](#3-terms-and-concepts)
+## Terms and Concepts
 
-## [4. Introduction to Asciidoctor](#4-introduction-to-asciidoctor)
+## Introduction to Asciidoctor
 
-## [5. Quick Starts](#5-quick-starts)
+## Quick Starts
 
-### [Usage](#usage)
+### Usage
 
-#### [Using the Command Line Interface](#using-the-command-line-interface)
+#### Using the Command Line Interface
 
-### [Syntax](#syntax)
+### Syntax
 
-## [6. Terms and Concepts](#6-terms-and-concepts)
+## Terms and Concepts
 
-# [Document Title](#document-title)
+# Document Title
 
-# [Part Title](#part-title)
+# Part Title
 
-## [1. Section Level 1](#1-section-level-1)
+## Section Level 1

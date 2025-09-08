@@ -1,3 +1,3 @@
-F11
+kbd:[F11]
 
-Ctrl+Shift+N
+kbd:[Ctrl+Shift+N]
