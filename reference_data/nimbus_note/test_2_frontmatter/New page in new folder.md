@@ -31,7 +31,7 @@ title: New page in new folder
 
 ~~image~~
 
-[![e1GHfrAAh4S96o7k.png](./e1GHfrAAh4S96o7k.png)](./assets/e1GHfrAAh4S96o7k.png)
+![e1GHfrAAh4S96o7k.png](./e1GHfrAAh4S96o7k.png)
 
   
 
