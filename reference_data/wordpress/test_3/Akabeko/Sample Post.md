@@ -38,7 +38,7 @@ The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the 
 
 ## Shortcode
 
-\[caption\][![Akabeko](http://akabeko.me/blog/wp-content/uploads/2009/10/profile.png)](http://akabeko.me/blog/wp-content/uploads/2009/10/profile.png "Akabeko")\[/caption\]
+\[caption\]![Akabeko](http://akabeko.me/blog/wp-content/uploads/2009/10/profile.png)\[/caption\]
 \[js\]
 const wpxml2md = require('wpxml2md');
 const util = require('./util.js');

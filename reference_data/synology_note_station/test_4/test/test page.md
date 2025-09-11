@@ -138,8 +138,8 @@ A pdf of what this page looks like in Note Station has been attached - see test
 
 This is the end of the text.
 
-[Record 2021-02-15 16:00:13.webm](./file_6c4b828f227a096d3374599cae3f94ec.webm)
+## Unlinked Resources
 
-[example-attachment.pdf](./file_c4ee8b831ad1188509c0f33f0c072af5.pdf)
-
-[test page.pdf](./file_27a9aadc878b718331794c8bc50a1b8c.pdf)
+- [Record 2021-02-15 16:00:13.webm](./file_6c4b828f227a096d3374599cae3f94ec.webm)
+- [example-attachment.pdf](./file_c4ee8b831ad1188509c0f33f0c072af5.pdf)
+- [test page.pdf](./file_27a9aadc878b718331794c8bc50a1b8c.pdf)
