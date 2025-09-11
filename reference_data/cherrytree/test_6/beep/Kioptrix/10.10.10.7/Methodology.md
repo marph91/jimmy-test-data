@@ -3,7 +3,7 @@
    - [ ]  nmap -sn 10.11.1.*
    - [ ]  nmap -sL 10.11.1.*
    - [ ]  nbtscan -r 10.11.1.0/24
-   - [ ]  [smbtree](70)
+   - [ ]  [smbtree](broken-link 70)
 
 **++Individual Host Scanning++**
 
@@ -15,9 +15,9 @@
 
     **WebApp**
       - [ ]   [Nikto](./Methodology.md)
-      - [ ]   [dirb](52)
+      - [ ]   [dirb](broken-link 52)
       - [ ]   dirbuster
-      - [ ]   [wpscan](71)
+      - [ ]   [wpscan](broken-link 71)
       - [ ]   dotdotpwn
       - [ ]   view source 
       - [ ]   davtest\cadevar
@@ -33,8 +33,8 @@
       - [ ]   Enum4Linux
     
     **Anything Else**
-      - [ ]   [nmap scripts](72) (locate *nse* | grep servicename)
-      - [ ]   [hydra](73)
+      - [ ]   [nmap scripts](broken-link 72) (locate *nse* | grep servicename)
+      - [ ]   [hydra](broken-link 73)
       - [ ]   MSF Aux Modules
       - [ ]   Download the softward
 
@@ -60,7 +60,7 @@
       - [ ]  	windows-privesc-check2.exe
 
 **++Priv Escalation++**
-   - [ ]  [acesss internal services (portfwd)](74)
+   - [ ]  [acesss internal services (portfwd)](broken-link 74)
    - [ ]  add account
 
 **Windows**

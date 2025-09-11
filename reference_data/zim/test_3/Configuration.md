@@ -1,7 +1,7 @@
 Primary configuration elements are:
 * [OS-Base](./Configuration/OS-Base.md)
-* [Platform](Platform)
-* [Image](Image)
+* [Platform](broken-link Platform)
+* [Image](broken-link Image)
 
 ## build-jail
 
