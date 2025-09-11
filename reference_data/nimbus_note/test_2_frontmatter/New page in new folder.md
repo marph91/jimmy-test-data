@@ -37,11 +37,7 @@ title: New page in new folder
 
 ## file
 
-![unnamed_bdd640fb06674ad19c80317fa3b1799d](./unnamed_bdd640fb06674ad19c80317fa3b1799d.svg)
-
 [plaintext.txt](./XfOyFr3jQ92lni7u.txt)(34 B)
-
-![unnamed_23b8c1e9392446debeb13b9046685257](./unnamed_23b8c1e9392446debeb13b9046685257.svg)
 
   
 
