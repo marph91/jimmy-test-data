@@ -37,7 +37,7 @@ title: New page in new folder
 
 ## file
 
-[plaintext.txt](./XfOyFr3jQ92lni7u.txt)(34 B)
+[plaintext.txt](./XfOyFr3jQ92lni7u.txt)
 
   
 
