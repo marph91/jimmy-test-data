@@ -96,7 +96,7 @@ Below is a link to test page 2 inside of this notebook
 
 Below is a renamed link to test page 2 inside of this notebook
 
-[renamed link to test page 2](<./test page 2.md>)
+[renamed link to test page 2](notestation://remote/self/1026_1547KOMP551EN92DDB4FIOFUNK)
 
 Below is a a page in the 'Test Book 2' notebook
 
@@ -104,7 +104,7 @@ Below is a a page in the 'Test Book 2' notebook
 
 Below is a renamed link to a page in this notebook, the link will not work
 
-[renamed link to test page 3](<./test page 3.md>)
+[renamed link to test page 3](notestation://remote/self/1026_1LRHUFL5U57TP9HI6RDC41U7LG)
 
 Below is a link to a page that has a duplicated page title
 
