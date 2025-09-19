@@ -67,8 +67,6 @@ def abc()
 
 GitHub - marph91/jimmy: Convert your notes to Markdown
 
-
-
 ![](https://github.com/fluidicon.png)
 
 https://github.com/marph91/jimmy
