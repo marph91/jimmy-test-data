@@ -1,9 +1,15 @@
-\\sqrt(4) = 2\\
+```math
+sqrt(4) = 2
+```
 
-\\C = \alpha + \beta Y\^{\gamma} + \epsilon\\
+```math
+C = \alpha + \beta Y^{\gamma} + \epsilon
+```
 
-Equation
+```math
+sqrt(4) = 2
+```
 
-\\sqrt(4) = 2\\
-
-\\sqrt(4) = 2\\
+```math
+sqrt(4) = 2
+```

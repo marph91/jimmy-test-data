@@ -1,8 +1,8 @@
 chunky bacon
 
-*chunky bacon*
+_chunky bacon_
 
-*chunky bacon*
+_chunky bacon_
 
 **chunky bacon**
 
@@ -14,26 +14,26 @@ chunky bacon
 
 ^super^chunky bacon
 
-^super^chunky bacon
+[why]^super^chunky bacon
 
 ~sub~chunky bacon
 
-~sub~chunky bacon
+[why]~sub~chunky bacon
 
-==chunky bacon==
+<mark>chunky bacon</mark>
 
-“chunky bacon”
+'chunky bacon'
 
-“chunky bacon”
+[why]'chunky bacon'
 
-‘chunky bacon’
+'chunky bacon'
 
-‘chunky bacon’
+[why]'chunky bacon'
 
-\\sqrt(4) = 2\\
+asciimath:[sqrt(4) = 2]
 
-\\C = \alpha + \beta Y\^{\gamma} + \epsilon\\
+latexmath:[C = \alpha + \beta Y^{\gamma} + \epsilon]
 
-*chunky bacon*
+_chunky bacon_
 
-***`monospace bold italic phrase`*** and le***`tt`***ers
+`**_monospace bold italic phrase_**` and le``***__tt__***``ers

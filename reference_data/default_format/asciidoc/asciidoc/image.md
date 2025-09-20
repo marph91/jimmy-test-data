@@ -2,18 +2,18 @@
 
 ![Shining sun](sunset.jpg)
 
-![sunset](sunset.jpg)
+![align="center"](sunset.jpg)
 
-![sunset](sunset.jpg)
+![float="right"](sunset.jpg)
 
 ![Shining sun](sunset.jpg)
 
-[![sunset](sunset.jpg)](http://www.flickr.com/photos/javh/5448336655)
+![link="http://www.flickr.com/photos/javh/5448336655"](sunset.jpg)
+
+**A mountain sunset**
 
 ![sunset](sunset.jpg)
 
-Figure 1. A mountain sunset
-
 ![sunset](sunset.jpg)
 
-![sunset](sunset.jpg)
+![role="right text-center"](sunset.jpg)

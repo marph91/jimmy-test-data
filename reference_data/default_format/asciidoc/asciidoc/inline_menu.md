@@ -1,5 +1,5 @@
-**File**
+menu:File[]
 
-**File** **›** **Save**
+menu:File[Save]
 
-**View** **›** **Zoom** **›** **Reset**
+menu:View[Zoom > Reset]

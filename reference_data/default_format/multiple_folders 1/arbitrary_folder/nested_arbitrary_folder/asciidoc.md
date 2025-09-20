@@ -5,12 +5,11 @@ Use it to try [AsciiDoc](https://asciidoc.org).
 
 ## Section Title
 
--   A list item
+* A list item
+* Another list item
 
--   Another list item
-
-``` highlight
+```ruby
 puts 'Hello, World!'
 ```
 
-![test\_image](./test.png)
+![test_image](./test.png)

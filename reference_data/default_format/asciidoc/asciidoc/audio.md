@@ -1,9 +1,9 @@
-Your browser does not support the audio tag.
+audio::ocean_waves.mp3[]
 
-Your browser does not support the audio tag.
+audio::ocean_waves.mp3[options="autoplay, nocontrols, loop"]
 
-Waves!
+**Waves!**
 
-Your browser does not support the audio tag.
+audio::ocean_waves.mp3[]
 
-Your browser does not support the audio tag.
+<a name="ocean"></a>audio::ocean_waves.mp3[]

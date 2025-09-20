@@ -1,17 +1,17 @@
-Your browser does not support the video tag.
+video::video_file.mp4[]
 
-Your browser does not support the video tag.
+video::video_file.mp4[poster="sunset.jpg"]
 
-Your browser does not support the video tag.
+video::video_file.mp4[width=640, height=480]
 
-Your browser does not support the video tag.
+video::video_file.mp4[start=10]
 
-Your browser does not support the video tag.
+video::video_file.mp4[end=60]
 
-Your browser does not support the video tag.
+video::video_file.mp4[options="autoplay, loop, nocontrols"]
 
-Must watch!
+**Must watch!**
 
-Your browser does not support the video tag.
+video::video_file.mp4[]
 
-Your browser does not support the video tag.
+video::video_file.mp4[id="lindsey", role="watch"]
