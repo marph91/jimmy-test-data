@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node unique_id="356" master_id="0" name="table_test" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1662752520" ts_lastsave="1664708065">
+    <rich_text>line before table
+
+
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text>
+
+
+line after table
+
+
+</rich_text>
+    <rich_text justification="left"></rich_text>
+    <rich_text>
+
+
+line after second table</rich_text>
+    <table char_offset="20" justification="left" col_min="100" col_max="100" col_widths="0,0">
+      <row>
+        <cell>
+    c11        </cell>
+        <cell>
+    c12        </cell>
+      </row>
+    </table>
+    <table char_offset="43" justification="left" col_min="100" col_max="100" col_widths="0,0">
+      <row>
+        <cell></cell>
+        <cell></cell>
+      </row>
+      <row>
+        <cell></cell>
+        <cell>d32</cell>
+      </row>
+      <row>
+        <cell>d11</cell>
+        <cell>d12</cell>
+      </row>
+    </table>
+  </node>
+</cherrytree>

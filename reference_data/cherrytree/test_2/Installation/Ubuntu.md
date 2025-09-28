@@ -17,13 +17,17 @@
    4.  Enter the following snippet into the textbox:
 
 
+```plain-text
+ppa:giuspen/ppa
+```
+
 
    5.  Click **Add Source** and enter your password when prompted.
 
    6.  Confirm that the PPA is added then close the window.
 
 		 Figure 2.01
-		
+		![unnamed_23b8c1e9392446debeb13b9046685257](./unnamed_23b8c1e9392446debeb13b9046685257.png)
 
    7. Click **Reload** and enter your password to install updates from the newly added source.
 
@@ -44,14 +48,9 @@
 	3. Enter the following command, replacing **cherrytree.deb** with the name of your installation file:
 
 	
-
-	4. Provide your user password when prompted to begin the installation.
-
-```plain-text
-ppa:giuspen/ppa
-```
-![unnamed_23b8c1e9392446debeb13b9046685257](./unnamed_23b8c1e9392446debeb13b9046685257.png)
-
 ```sh
 sudo dpkg -i cherrytree.deb
 ```
+
+
+	4. Provide your user password when prompted to begin the installation.

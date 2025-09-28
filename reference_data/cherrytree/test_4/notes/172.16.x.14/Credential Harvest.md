@@ -5,7 +5,6 @@ We will asrep using **jim credentials** and we will get **michelle hash**.
 
 michelle:NotMyPassword0k?
 
-We can RDP as michelle in **172.16.x.7**.
 ```sh
 User name                    michelle
 Full Name                    Michelle Smith
@@ -32,3 +31,5 @@ Logon hours allowed          All
 Local Group Memberships      
 Global Group memberships     *Domain Users         *INTRANETRDP
 ```
+
+We can RDP as michelle in **172.16.x.7**.

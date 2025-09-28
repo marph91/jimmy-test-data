@@ -12,7 +12,7 @@
 - Server Side Valication
 - Output Encoding
 
- **Link to All Recon Tools :**   <https://user-images.githubusercontent.com/73609472/119389097-8a3de200-bca1-11eb-831b-d8739075695f.png>
+![unnamed_bdd640fb06674ad19c80317fa3b1799d](./unnamed_bdd640fb06674ad19c80317fa3b1799d.png) **Link to All Recon Tools :**   <https://user-images.githubusercontent.com/73609472/119389097-8a3de200-bca1-11eb-831b-d8739075695f.png>
 
 - **Recon using Ars0n Framework or find all the subdomains**    ( **Categorize the subdomains** )
       - No Functionality
@@ -142,4 +142,3 @@
          -                    
 
 
-![unnamed_bdd640fb06674ad19c80317fa3b1799d](./unnamed_bdd640fb06674ad19c80317fa3b1799d.png)

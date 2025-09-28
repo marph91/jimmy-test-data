@@ -8,7 +8,7 @@ updated: '2024-06-22T09:33:39'
 ---
 
 - link to [bbb](../aaa/bbb.md)
-- test image: 
+- test image: ![unnamed_bdd640fb06674ad19c80317fa3b1799d](./unnamed_bdd640fb06674ad19c80317fa3b1799d.png)
 - link to [url](https://github.com/giuspen/cherrytree/releases/tag/v1.1.3)
    - nested
    - items
@@ -23,5 +23,4 @@ updated: '2024-06-22T09:33:39'
                   - the same item again
             - nested
       - items
-- attached file: ![unnamed_bdd640fb06674ad19c80317fa3b1799d](./unnamed_bdd640fb06674ad19c80317fa3b1799d.png)
-[plaintext.txt](./plaintext.txt)
+- attached file: [plaintext.txt](./plaintext.txt)

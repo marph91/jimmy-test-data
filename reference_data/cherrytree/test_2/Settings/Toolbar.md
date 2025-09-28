@@ -9,7 +9,7 @@
 	1. Click the **`+`** icon, shown in [Figure 9.13](./Toolbar.md) to display the **Select Element to Add** window.
 	
 		 Figure 9.13
-		
+		![unnamed_3eabedcbbaa84dd488bd64072bcfbe01](./unnamed_3eabedcbbaa84dd488bd64072bcfbe01.png)
 
 	2. Select an action to add.
 	
@@ -28,12 +28,10 @@
 		 Figure 9.14
 		
 
- ## Reset Toolbar Settings
+ ![unnamed_451b4cf361234df7b656af7229d4beef](./unnamed_451b4cf361234df7b656af7229d4beef.png)## Reset Toolbar Settings
 
 	Click the yellow return button to return to Cherrytree’s default toolbar settings.
 
 	 Figure 9.15
 	
-![unnamed_3eabedcbbaa84dd488bd64072bcfbe01](./unnamed_3eabedcbbaa84dd488bd64072bcfbe01.png)
-![unnamed_451b4cf361234df7b656af7229d4beef](./unnamed_451b4cf361234df7b656af7229d4beef.png)
 ![unnamed_b02b61c4a3d74628ace66fa2fd5166e6](./unnamed_b02b61c4a3d74628ace66fa2fd5166e6.png)

@@ -11,7 +11,7 @@
 	3. (**Optional**) The selected image is displayed in the simplistic editor shown in [Figure 8.01](./Images.md), which can be used to rotate or scale the content.
 	
 		 Figure 8.01
-		
+		![unnamed_43b7a3a69a8d4a03980d7b71d8f56413](./unnamed_43b7a3a69a8d4a03980d7b71d8f56413.png)
 	
 		[Figure 8.01](./Images.md) has been highlighted to indicate the parts of its interface.
 	
@@ -47,4 +47,3 @@
 		See [Links](./Links.md) for more information about links.
 
 	- **Dismiss Link** - Removes an existing link from the selected image. This option only appears if the image has an assigned link.
-![unnamed_43b7a3a69a8d4a03980d7b71d8f56413](./unnamed_43b7a3a69a8d4a03980d7b71d8f56413.png)

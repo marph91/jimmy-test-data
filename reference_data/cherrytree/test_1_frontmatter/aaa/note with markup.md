@@ -56,34 +56,14 @@ normal text
 ## code block
 
 
-# latex block
-
-
-
-another latex block
-
-
-
-#### lower
-
-
-
-##### level
-
-centered text
-
-left aligned text
-
-right aligned text
-
-###### headings
-
-...
 ```sh
 # some shell code
 export abc=def
 some	tab
 ```
+
+# latex block
+
 
 ```latex
 \documentclass{article}
@@ -98,6 +78,12 @@ F(x) &= \int^a_b \frac{1}{3}x^3
 \end{document}
 ```
 
+
+another latex block
+
+
+
+
 ```latex
 \documentclass{article}
 \pagestyle{empty}
@@ -108,7 +94,22 @@ f(x) &= abc
 \end{align*}
 \end{document}
 ```
+#### lower
+
+
+
 
 ```plain-text
 plain text code block
 ```
+##### level
+
+centered text
+
+left aligned text
+
+right aligned text
+
+###### headings
+
+...

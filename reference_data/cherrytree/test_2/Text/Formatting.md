@@ -29,7 +29,7 @@
 	- **Toggle h3 Property** - Styles the selected paragraph as a low-level header.
 	
 		 Figure 7.02
-		
+		![unnamed_4737819096da4dacb2ff5d2a386ecbe0](./unnamed_4737819096da4dacb2ff5d2a386ecbe0.png)
 
 	- **Toggle Small Property** - Decreases the size of selected text.
 
@@ -40,7 +40,7 @@
 	- **Toggle Monospace Property** - Applies a Monospace format to selected text. (All characters assume the same amount of width.)
 	
 		 Figure 7.03
-		
+		![unnamed_c241330b01a9471f9e8a774bcf36d58b](./unnamed_c241330b01a9471f9e8a774bcf36d58b.png)
 	
 		**NOTE:** The background color of monospace text can be edited in the [Rich Text preferences menu](<../Settings/Rich Text.md>).
 
@@ -49,17 +49,17 @@
 		 Figure 7.04
 		
 
-	- **Set/Unset Numbered List** - Formats the selected lines into a numbered list, in which the order of items has purpose.
+	- ![unnamed_6c307511b2b9437aa8df6ec4ce4a2bbd](./unnamed_6c307511b2b9437aa8df6ec4ce4a2bbd.png)**Set/Unset Numbered List** - Formats the selected lines into a numbered list, in which the order of items has purpose.
 	
 		 Figure 7.05
 		
 
-	- **Set/Unset To-Do List** - Formats the selected lines into a list of checkbox items. Click a checkbox to mark it as complete.
+	- ![unnamed_371ecd7b27cd413087229389571aa876](./unnamed_371ecd7b27cd413087229389571aa876.png)**Set/Unset To-Do List** - Formats the selected lines into a list of checkbox items. Click a checkbox to mark it as complete.
 	
 		 Figure 7.06
 		
 
-	- **Justify Left** - Aligns content to the left side of the page. (Default)
+	- ![unnamed_1a2a73ed562b4f79837459eef50bea63](./unnamed_1a2a73ed562b4f79837459eef50bea63.png)**Justify Left** - Aligns content to the left side of the page. (Default)
 
 	- **Justify Center** - Aligns content to the center of the page.
 
@@ -69,9 +69,4 @@
 	
 		 Figure 7.07
 		
-![unnamed_4737819096da4dacb2ff5d2a386ecbe0](./unnamed_4737819096da4dacb2ff5d2a386ecbe0.png)
-![unnamed_c241330b01a9471f9e8a774bcf36d58b](./unnamed_c241330b01a9471f9e8a774bcf36d58b.png)
-![unnamed_6c307511b2b9437aa8df6ec4ce4a2bbd](./unnamed_6c307511b2b9437aa8df6ec4ce4a2bbd.png)
-![unnamed_371ecd7b27cd413087229389571aa876](./unnamed_371ecd7b27cd413087229389571aa876.png)
-![unnamed_1a2a73ed562b4f79837459eef50bea63](./unnamed_1a2a73ed562b4f79837459eef50bea63.png)
 ![unnamed_5be6128e18c24797a142ea7d17be3111](./unnamed_5be6128e18c24797a142ea7d17be3111.png)

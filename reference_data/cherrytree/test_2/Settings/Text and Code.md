@@ -36,7 +36,7 @@
 		**NOTE:** See [Formatting Timestamps](<./Text and Code.md>) for a list of timestamp directives or visit the [strftime documentation](https://docs.python.org/2/library/time.html#time.strftime) by click the icon next to the timestamp setting.
 
 		 Figure 9.01
-		
+		![unnamed_ec1b8ca1f91e4d4c9ff49b7889463e85](./unnamed_ec1b8ca1f91e4d4c9ff49b7889463e85.png)
 
 	- **Horizontal Rule** - Defines the text inserted for a [horizontal rule](<../Objects/Horizontal Rule.md>).
 
@@ -47,7 +47,7 @@
 		 Figure 9.02
 		
 
-	- **Chars to Select at Double Click** - By default, double-clicking text selects the sequence of letters and numbers that are under the mouse pointer and are not separated by whitespace, punctuation, or special characters. Adding characters to the **Chars to Select at Double Click** setting includes those characters in a double-click selection.
+	- ![unnamed_4b0dbb418d5248f1942c3fe860e7a113](./unnamed_4b0dbb418d5248f1942c3fe860e7a113.png)**Chars to Select at Double Click** - By default, double-clicking text selects the sequence of letters and numbers that are under the mouse pointer and are not separated by whitespace, punctuation, or special characters. Adding characters to the **Chars to Select at Double Click** setting includes those characters in a double-click selection.
 
  ## Formatting Timestamps
 
@@ -55,11 +55,10 @@
 
 	
 
-![unnamed_ec1b8ca1f91e4d4c9ff49b7889463e85](./unnamed_ec1b8ca1f91e4d4c9ff49b7889463e85.png)
-![unnamed_4b0dbb418d5248f1942c3fe860e7a113](./unnamed_4b0dbb418d5248f1942c3fe860e7a113.png)
 
-| %a<br> | Locale’s abbreviated weekday name.<br> |
+| Directive | Value |
 | --- | --- |
+| %a<br> | Locale’s abbreviated weekday name.<br> |
 | %A<br> | Locale’s full weekday name.<br> |
 | %b<br> | Locale’s abbreviated month name.<br> |
 | %B<br> | Locale’s full month name.<br> |
@@ -81,4 +80,3 @@
 | %Y<br> | Year with century as a decimal number.<br> |
 | %Z<br> | Time zone name (no characters if no time zone exists).<br> |
 | %%<br> | A literal '%' character.<br> |
-| Directive | Value |
