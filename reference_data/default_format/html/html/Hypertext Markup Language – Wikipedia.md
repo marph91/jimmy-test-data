@@ -467,14 +467,12 @@ Reaktionsweisen von Desktop-Anwendungen simulieren.
 3.  [↑](#cite_ref-3 "Hochspringen") [W3C HTML 3.2](https://www.w3.org/TR/REC-html32-19970114) w3.org
 4.  ↑ ^[Hochspringen\ nach:\ a](#cite_ref-html5.1_4-0)^ ^[b](#cite_ref-html5.1_4-1)^ [*HTML 5.2.*](https://www.w3.org/TR/html5/) Recommendation (Empfehlung). W3C, 14. Dezember 2017, abgerufen am 1. Januar 2018 (englisch). 
 5.  ↑ ^[Hochspringen\ nach:\ a](#cite_ref-Quelle0_5-0)^ ^[b](#cite_ref-Quelle0_5-1)^ Simon Pieters: [*HTML 5 differences from HTML 4.*](https://www.w3.org/TR/html5-diff/) w3.org, 18. September 2014, abgerufen am 1. Oktober 2014 (englisch): „HTML 5 replaces these documents. \[DOM2HTML\] \[HTML4\] \[XHTML1\]“ 
-6.  [↑](#cite_ref-6 "Hochspringen")
-    [HTML/Regeln/Textauszeichnung](https://web.archive.org/web/20190417073730/https://wiki.selfhtml.org/wiki/HTML/Regeln/Textauszeichnung) ([Memento](https://de.wikipedia.org/wiki/Web-Archivierung#Begrifflichkeiten "Web-Archivierung") vom 17. April 2019 im *[Internet Archive](https://de.wikipedia.org/wiki/Internet_Archive "Internet Archive")*) im [SELFHTML](https://de.wikipedia.org/wiki/SELFHTML "SELFHTML")-Wiki
+6.  [↑](#cite_ref-6 "Hochspringen") [HTML/Regeln/Textauszeichnung](https://web.archive.org/web/20190417073730/https://wiki.selfhtml.org/wiki/HTML/Regeln/Textauszeichnung) ([Memento](https://de.wikipedia.org/wiki/Web-Archivierung#Begrifflichkeiten "Web-Archivierung") vom 17. April 2019 im *[Internet Archive](https://de.wikipedia.org/wiki/Internet_Archive "Internet Archive")*) im [SELFHTML](https://de.wikipedia.org/wiki/SELFHTML "SELFHTML")-Wiki
 7.  [↑](#cite_ref-7 "Hochspringen") [*HTML-Entities.*](http://unicode.e-workers.de/entities.php) Abgerufen am 10. Juli 2023. 
 8.  [↑](#cite_ref-8 "Hochspringen") [Tim Berners-Lee](https://de.wikipedia.org/wiki/Tim_Berners-Lee "Tim Berners-Lee"): [*Information Management: A Proposal.*](https://www.w3.org/History/1989/proposal.html) März 1989, abgerufen am 25. November 2014. 
 9.  [↑](#cite_ref-9 "Hochspringen") [*HyperText Mark-up Language.*](https://www.w3.org/History/19921103-hypertext/hypertext/WWW/MarkUp/MarkUp.html) Abgerufen am 10. Juli 2023. 
 10. [↑](#cite_ref-10 "Hochspringen") [*A Review of the HTML+ Document Format.*](https://www.w3.org/MarkUp/htmlplus_paper/htmlplus.html) Abgerufen am 10. Juli 2023. 
-11. [↑](#cite_ref-11 "Hochspringen") *[RFC](https://de.wikipedia.org/wiki/Request_for_Comments "Request for Comments"):*
-    [1866](https://datatracker.ietf.org/doc/html/rfc1866 "rfc:1866") – *Hypertext Markup Language – 2.0*. November 1995 (englisch).
+11. [↑](#cite_ref-11 "Hochspringen") *[RFC](https://de.wikipedia.org/wiki/Request_for_Comments "Request for Comments"):* [1866](https://datatracker.ietf.org/doc/html/rfc1866 "rfc:1866") – *Hypertext Markup Language – 2.0*. November 1995 (englisch).
 12. [↑](#cite_ref-12 "Hochspringen") [*XHTML™ 2.0.*](https://www.w3.org/TR/xhtml2/Overview.html) Abgerufen am 10. Juli 2023. 
 13. [↑](#cite_ref-13 "Hochspringen") heise online: [*XHTML 2 wird eingestellt.*](https://www.heise.de/news/XHTML-2-wird-eingestellt-189090.html) 3. Juli 2009, abgerufen am 10. Juli 2023. 
 14. [↑](#cite_ref-14 "Hochspringen") [*2009 – W3C.*](https://www.w3.org/News/2009.html) Abgerufen am 10. Juli 2023. 

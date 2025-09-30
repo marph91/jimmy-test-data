@@ -256,9 +256,7 @@ This paragraph block is about the complex exponential function:
 
 $$f(t)=Ae^{i\omega t},$$
 
-where
-
-$t$﻿ is time.
+where $t$﻿ is time.
 
 ![](https://www.notion.so/icons/info-alternate_green.svg)
 
@@ -271,14 +269,8 @@ f(t) &=Ae^{i\omega t} \\
 g(t) &= Be^{i\sigma t},
 \end{align}$$
 
-where
-
-$t$﻿ is time. And
-
-$f(x) =
-g(x)$﻿ when
-
-$\small A=
+where $t$﻿ is time. And $f(x) =
+g(x)$﻿ when $\small A=
 B = \begin{cases}  
 1:x>0 \\
 0:x<0
@@ -290,9 +282,7 @@ The complex exponential function is
 
 $$f(t)=Ae^{i\omega t},$$
 
-where
-
-$t$﻿ is time.
+where $t$﻿ is time.
 
 ## Math with Cases
 
@@ -314,8 +304,8 @@ x  : & x\ge 0
 1.  $f(x)$﻿ has no trailing spaces: `$f(x)$`.
 2.  $ g(x)$﻿ has two trailing spaces: `$ g(x) $`.
 3.  $h(x)$﻿ has an escaped trailing space: `$h(x)\ $`.
-4.  $
-    p(x) = e^{x}$﻿ has trailing linebreaks: `$<br><br>p(x) = e^{x}<br><br>$`.
+4.  
+    $p(x) = e^{x}$﻿ has trailing linebreaks: `$<br><br>p(x) = e^{x}<br><br>$`.
 
 Multiline display math with trailing space:
 

@@ -28,7 +28,7 @@ UpNote is designed to help you take notes quickly and keep them organized. Here 
 ### Write your thoughts with rich formatting:
 
 -   Use list and nested list, like this:
-    -   Write text in **bold, ***italic,* ++underline++, ~~strike-through~~
+    -   Write text in **bold,** *italic,* ++underline++, ~~strike-through~~
     -   Highlight text in multiple colors: ==orange==, ==red==, ==blue==, ==yellow==, ==green== and ==purple==.
 -   Select your preferred font in Settings  
 -   Add a [link](https://medium.com/upnote) to your note
