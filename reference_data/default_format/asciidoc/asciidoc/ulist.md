@@ -1,52 +1,52 @@
--   Edgar Allen Poe
+- Edgar Allen Poe
 
--   Sheri S. Tepper
+- Sheri S. Tepper
 
--   Bill Bryson
+- Bill Bryson
 
 Writers
 
--   Edgar Allen Poe
+- Edgar Allen Poe
 
--   Sheri S. Tepper
+- Sheri S. Tepper
 
--   Bill Bryson
+- Bill Bryson
 
--   Edgar Allen Poe
+- Edgar Allen Poe
 
--   Sheri S. Tepper
+- Sheri S. Tepper
 
--   Bill Bryson
+- Bill Bryson
 
--   level 1
+- level 1
 
-    -   level 2
+  - level 2
 
-        -   level 3
+    - level 3
 
-            -   level 4
+      - level 4
 
-                -   level 5
+        - level 5
 
-    -   level 2
+  - level 2
 
--   Every list item has at least one paragraph of content,
-    which may be wrapped, even using a hanging indent.
+- Every list item has at least one paragraph of content,
+  which may be wrapped, even using a hanging indent.
 
-    Additional paragraphs or blocks are adjoined by putting
-    a list continuation on a line adjacent to both blocks.
+  Additional paragraphs or blocks are adjoined by putting
+  a list continuation on a line adjacent to both blocks.
 
-    list continuation  
-    a plus sign (`+`) on a line by itself
+  list continuation  
+  a plus sign (`+`) on a line by itself
 
--   A literal paragraph does not require a list continuation.
+- A literal paragraph does not require a list continuation.
 
-        $ gem install asciidoctor
+      $ gem install asciidoctor
 
--   -   [x] checked
+- - [x] checked
 
-    -   [x] also checked
+  - [x] also checked
 
-    -   [ ] not checked
+  - [ ] not checked
 
-    -   normal list item
+  - normal list item

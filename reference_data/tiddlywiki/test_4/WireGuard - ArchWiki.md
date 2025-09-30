@@ -7,7 +7,7 @@ https://wiki.archlinux.org/title/WireGuard
 
 Related articles
 
--   [Linux Containers/Using VPNs](https://wiki.archlinux.org/title/WireGuard/title/Linux_Containers/Using_VPNs "Linux Containers/Using VPNs")
+- [Linux Containers/Using VPNs](https://wiki.archlinux.org/title/WireGuard/title/Linux_Containers/Using_VPNs "Linux Containers/Using VPNs")
 
 From the [WireGuard](https://www.wireguard.com/) project homepage:
 
@@ -23,13 +23,13 @@ Alternatively, various network managers provide support for WireGuard, provided 
 
 ### Graphical clients
 
--   **Qomui** — OpenVPN GUI with advanced features and support for multiple providers.
+- **Qomui** — OpenVPN GUI with advanced features and support for multiple providers.
 
 [https://github.com/corrad1nho/qomui](https://github.com/corrad1nho/qomui) \|\| [qomui](https://aur.archlinux.org/packages/qomui/)^AUR^
 
 ### Command-line tools
 
--   **wg\_tool** — Tool to manage wireguard configs for server and users.
+- **wg\_tool** — Tool to manage wireguard configs for server and users.
 
 [https://github.com/gene-git/wg\_tool](https://github.com/gene-git/wg_tool) \|\| [wg\_tool](https://aur.archlinux.org/packages/wg_tool/)^AUR^
 
@@ -270,8 +270,8 @@ Persistent configuration can be achieved using `wg-quick@.service`, which is shi
 
 **Note:**
 
--   [netctl](https://wiki.archlinux.org/title/WireGuard/title/Netctl "Netctl") relies on [wg(8)](https://man.archlinux.org/man/wg.8) from [wireguard-tools](https://archlinux.org/packages/?name=wireguard-tools) and `/etc/wireguard/`*`interfacename`*`.conf` configuration files for establishing WireGuard connections.
--   [ConnMan](https://wiki.archlinux.org/title/WireGuard/title/ConnMan "ConnMan") has a very limited support for WireGuard. It can connect to only one peer.[\[4\]](https://git.kernel.org/pub/scm/network/connman/connman.git/commit/?id=95b25140bec7c4d9b6ae4e479dc1b94b7d409b39)
+- [netctl](https://wiki.archlinux.org/title/WireGuard/title/Netctl "Netctl") relies on [wg(8)](https://man.archlinux.org/man/wg.8) from [wireguard-tools](https://archlinux.org/packages/?name=wireguard-tools) and `/etc/wireguard/`*`interfacename`*`.conf` configuration files for establishing WireGuard connections.
+- [ConnMan](https://wiki.archlinux.org/title/WireGuard/title/ConnMan "ConnMan") has a very limited support for WireGuard. It can connect to only one peer.[\[4\]](https://git.kernel.org/pub/scm/network/connman/connman.git/commit/?id=95b25140bec7c4d9b6ae4e479dc1b94b7d409b39)
 
 #### wg-quick
 
@@ -289,9 +289,9 @@ or use the systemd service—`wg-quick@`*`interfacename`*`.service`. To start th
 
 **Note:**
 
--   Users configuring the WireGuard interface using *wg-quick*, should make sure that no other [network management](https://wiki.archlinux.org/title/WireGuard/title/Network_management "Network management") software tries to manage it. To use [NetworkManager](https://wiki.archlinux.org/title/WireGuard/title/NetworkManager "NetworkManager") and to not configure WireGuard interfaces with it, see [#Routes are periodically reset](https://wiki.archlinux.org/title/WireGuard#Routes_are_periodically_reset).
--   *wg-quick* adds additional configuration options to the configuration file format thus making it incompatible with [wg(8) § CONFIGURATION FILE FORMAT](https://man.archlinux.org/man/wg.8#CONFIGURATION_FILE_FORMAT). See the [wg-quick(8) § CONFIGURATION](https://man.archlinux.org/man/wg-quick.8#CONFIGURATION) man page for the configuration values in question. A *wg*-compatible configuration file can be produced by using `wg-quick strip`.
--   *wg-quick* does not provide a way to instruct [resolvconf](https://wiki.archlinux.org/title/WireGuard/title/Resolvconf "Resolvconf") to set the WireGuard interface as *private*. Even if there are search domains specified, all DNS queries from the system, not just those that match the search domains, will be sent to the DNS servers which are set in the WireGuard configuration.
+- Users configuring the WireGuard interface using *wg-quick*, should make sure that no other [network management](https://wiki.archlinux.org/title/WireGuard/title/Network_management "Network management") software tries to manage it. To use [NetworkManager](https://wiki.archlinux.org/title/WireGuard/title/NetworkManager "NetworkManager") and to not configure WireGuard interfaces with it, see [#Routes are periodically reset](https://wiki.archlinux.org/title/WireGuard#Routes_are_periodically_reset).
+- *wg-quick* adds additional configuration options to the configuration file format thus making it incompatible with [wg(8) § CONFIGURATION FILE FORMAT](https://man.archlinux.org/man/wg.8#CONFIGURATION_FILE_FORMAT). See the [wg-quick(8) § CONFIGURATION](https://man.archlinux.org/man/wg-quick.8#CONFIGURATION) man page for the configuration values in question. A *wg*-compatible configuration file can be produced by using `wg-quick strip`.
+- *wg-quick* does not provide a way to instruct [resolvconf](https://wiki.archlinux.org/title/WireGuard/title/Resolvconf "Resolvconf") to set the WireGuard interface as *private*. Even if there are search domains specified, all DNS queries from the system, not just those that match the search domains, will be sent to the DNS servers which are set in the WireGuard configuration.
 
 **Peer A setup:**
 
@@ -317,8 +317,8 @@ PresharedKey = PEER_A-PEER_C-PRESHARED_KEY
 AllowedIPs = 10.0.0.3/32, fdc9:281f:04d7:9ee9::3/128
 ```
 
--   To *route all traffic* through the tunnel to a specific peer, add the [default route](https://en.wikipedia.org/wiki/Default_route "wikipedia:Default route") (`0.0.0.0/0` for IPv4 and `::/0` for IPv6) to `AllowedIPs`. E.g. `AllowedIPs = 0.0.0.0/0, ::/0`. wg-quick will automatically take care of setting up correct routing and fwmark[\[5\]](https://www.wireguard.com/netns/#routing-all-your-traffic) so that networking still functions.
--   To use a peer as a DNS server, set `DNS = `*`wireguard_internal_ip_address_of_peer`* in the `[Interface]` section. [Search domains](https://en.wikipedia.org/wiki/Search_domain "wikipedia:Search domain") are also set with the `DNS =` option. Separate all values in the list with commas.
+- To *route all traffic* through the tunnel to a specific peer, add the [default route](https://en.wikipedia.org/wiki/Default_route "wikipedia:Default route") (`0.0.0.0/0` for IPv4 and `::/0` for IPv6) to `AllowedIPs`. E.g. `AllowedIPs = 0.0.0.0/0, ::/0`. wg-quick will automatically take care of setting up correct routing and fwmark[\[5\]](https://www.wireguard.com/netns/#routing-all-your-traffic) so that networking still functions.
+- To use a peer as a DNS server, set `DNS = `*`wireguard_internal_ip_address_of_peer`* in the `[Interface]` section. [Search domains](https://en.wikipedia.org/wiki/Search_domain "wikipedia:Search domain") are also set with the `DNS =` option. Separate all values in the list with commas.
 
 **Peer B setup:**
 
@@ -418,9 +418,9 @@ Address=10.0.0.1/24
 Address=fdc9:281f:04d7:9ee9::1/64
 ```
 
--   To use a peer as a DNS server, specify its WireGuard tunnel's IP address(es) in the *.network* file using the `DNS=` option. For [search domains](https://en.wikipedia.org/wiki/Search_domain "wikipedia:Search domain") use the `Domains=` option. See [systemd.network(5) § \[NETWORK\] SECTION OPTIONS](https://man.archlinux.org/man/systemd.network.5#%5BNETWORK%5D_SECTION_OPTIONS) for details.
--   To use a peer as the **only** DNS server, then in the *.network* file's `[Network]` section set `DNSDefaultRoute=true` and add `~.` to `Domains=` option.
--   To route additional subnets add them as `[Route]` sections in the *.network* file. For example:
+- To use a peer as a DNS server, specify its WireGuard tunnel's IP address(es) in the *.network* file using the `DNS=` option. For [search domains](https://en.wikipedia.org/wiki/Search_domain "wikipedia:Search domain") use the `Domains=` option. See [systemd.network(5) § \[NETWORK\] SECTION OPTIONS](https://man.archlinux.org/man/systemd.network.5#%5BNETWORK%5D_SECTION_OPTIONS) for details.
+- To use a peer as the **only** DNS server, then in the *.network* file's `[Network]` section set `DNSDefaultRoute=true` and add `~.` to `Domains=` option.
+- To route additional subnets add them as `[Route]` sections in the *.network* file. For example:
 
 ```
 /etc/systemd/network/99-wg0.network
@@ -817,8 +817,8 @@ address1=fdc9:281f:04d7:9ee9::1/64
 method=manual
 ```
 
--   To *route all traffic* through the tunnel to a specific peer, add the [default route](https://en.wikipedia.org/wiki/Default_route "wikipedia:Default route") (`0.0.0.0/0` for IPv4 and `::/0` for IPv6) to `wireguard-peer.`*`PEER_X_PUBLIC_KEY`*`.allowed-ips`. E.g. `wireguard-peer.`*`PEER_B_PUBLIC_KEY`*`.allowed-ips=0.0.0.0/0;::/0;`. Special handling of the default route in WireGuard connections is supported since NetworkManager 1.20.0.
--   To use a peer as a DNS server, specify its WireGuard tunnel's IP address(es) with the `ipv4.dns` and `ipv6.dns` settings. [Search domains](https://en.wikipedia.org/wiki/Search_domain "wikipedia:Search domain") can be specified with the `ipv4.dns-search=` and `ipv6.dns-search=` options. See [nm-settings(5)](https://man.archlinux.org/man/nm-settings.5) for more details. For example, using the keyfile format:
+- To *route all traffic* through the tunnel to a specific peer, add the [default route](https://en.wikipedia.org/wiki/Default_route "wikipedia:Default route") (`0.0.0.0/0` for IPv4 and `::/0` for IPv6) to `wireguard-peer.`*`PEER_X_PUBLIC_KEY`*`.allowed-ips`. E.g. `wireguard-peer.`*`PEER_B_PUBLIC_KEY`*`.allowed-ips=0.0.0.0/0;::/0;`. Special handling of the default route in WireGuard connections is supported since NetworkManager 1.20.0.
+- To use a peer as a DNS server, specify its WireGuard tunnel's IP address(es) with the `ipv4.dns` and `ipv6.dns` settings. [Search domains](https://en.wikipedia.org/wiki/Search_domain "wikipedia:Search domain") can be specified with the `ipv4.dns-search=` and `ipv6.dns-search=` options. See [nm-settings(5)](https://man.archlinux.org/man/nm-settings.5) for more details. For example, using the keyfile format:
 
 &nbsp;
 
@@ -939,8 +939,8 @@ A properly configured [firewall](https://wiki.archlinux.org/title/WireGuard/titl
 
 If the server has a public IP configured, be sure to:
 
--   Allow UDP traffic on the specified port(s) on which WireGuard will be running (for example allowing traffic on `51820/UDP`).
--   Setup the forwarding policy for the firewall if it is not included in the WireGuard configuration for the interface itself `/etc/wireguard/wg0.conf`. The example below should have the iptables rules and work as-is.
+- Allow UDP traffic on the specified port(s) on which WireGuard will be running (for example allowing traffic on `51820/UDP`).
+- Setup the forwarding policy for the firewall if it is not included in the WireGuard configuration for the interface itself `/etc/wireguard/wg0.conf`. The example below should have the iptables rules and work as-is.
 
 If the server is behind NAT, be sure to forward the specified port(s) on which WireGuard will be running (for example, `51820/UDP`) from the router to the WireGuard server.
 

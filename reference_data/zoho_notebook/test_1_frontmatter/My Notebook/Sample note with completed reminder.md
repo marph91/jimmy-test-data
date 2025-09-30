@@ -22,5 +22,5 @@ Sample content
 
 bullet points:  
 
--   first  
--   second
+- first  
+- second

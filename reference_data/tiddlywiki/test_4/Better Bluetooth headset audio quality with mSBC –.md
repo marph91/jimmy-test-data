@@ -30,13 +30,13 @@ Do note that the microphones I use are not exactly studio quality. Therefore, th
 
 In this recording I simply talk while wearing my [Sony WH-1000XM3](https://www.sony.com/ug/electronics/headband-headphones/wh-1000xm3) headset. This headset is not known for having very a very good microphone, but the difference is nevertheless very clear to me.
 
--   [CVSD vs mSBC - recording](https://www.redpill-linpro.com/techblog/2021/05/31/better-bluetooth-headset-audio-with-msbc.html/techblog/images/posts/better-bluetooth-headset-audio-with-msbc/CVSD_vs_mSBC_recording.mp3)
+- [CVSD vs mSBC - recording](https://www.redpill-linpro.com/techblog/2021/05/31/better-bluetooth-headset-audio-with-msbc.html/techblog/images/posts/better-bluetooth-headset-audio-with-msbc/CVSD_vs_mSBC_recording.mp3)
 
 #### Playback
 
 This recording was performed by placing the microphone of the standard wired earbuds that came with my phone over my ear before putting my headset on over it. I then play back audio from our [IT Talks podcast](https://ittalks.libsyn.com) while alternating the codecs.
 
--   [CVSD vs mSBC - playback](https://www.redpill-linpro.com/techblog/2021/05/31/better-bluetooth-headset-audio-with-msbc.html/techblog/images/posts/better-bluetooth-headset-audio-with-msbc/CVSD_vs_mSBC_playback.mp3)
+- [CVSD vs mSBC - playback](https://www.redpill-linpro.com/techblog/2021/05/31/better-bluetooth-headset-audio-with-msbc.html/techblog/images/posts/better-bluetooth-headset-audio-with-msbc/CVSD_vs_mSBC_playback.mp3)
 
 ### Related tips and tricks
 

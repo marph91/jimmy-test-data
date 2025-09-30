@@ -18,9 +18,9 @@ Refer to [Installation Procedure](#installation).
 
 ## 1. Installation
 
--   \[prag\] Andy Hunt & Dave Thomas. The Pragmatic Programmer
+- \[prag\] Andy Hunt & Dave Thomas. The Pragmatic Programmer
 
--   \[1\] Andy Hunt & Dave Thomas. The Pragmatic Programmer
+- \[1\] Andy Hunt & Dave Thomas. The Pragmatic Programmer
 
 [http://www.asciidoctor.org](http://www.asciidoctor.org)
 

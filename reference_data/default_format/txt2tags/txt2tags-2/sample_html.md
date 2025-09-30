@@ -100,17 +100,17 @@ Earth
 
 America
 
--   South America
-    -   Brazil
-        -   How deep can I go?
+- South America
+  - Brazil
+    - How deep can I go?
 
 Europe
 
--   Lots of countries
+- Lots of countries
 
 Mars
 
--   Who knows?
+- Who knows?
 
 The list ends with **two** consecutive blank lines.
 

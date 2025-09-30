@@ -101,7 +101,7 @@ The dash is the default list identifier. For sublists,
 just add '''spaces''' at the beginning of the line. More
 spaces, more sublists.
 
--   Earth
+- Earth
 
 \*\* America
 \*\*\* South America
@@ -110,7 +110,7 @@ spaces, more sublists.
 \*\* Europe
 \*\*\* Lots of countries
 
--   Mars
+- Mars
 
 \*\* Who knows?
 
@@ -195,8 +195,8 @@ The image mark is as simple as it can be: `[filename]`.
 
 > [center](Image:img/photo.jpg)
 
--   The filename must end in PNG, JPG, GIF, or similar.
--   No spaces inside the brackets!
+- The filename must end in PNG, JPG, GIF, or similar.
+- No spaces inside the brackets!
 
 ### Other
 

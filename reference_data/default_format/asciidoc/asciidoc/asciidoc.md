@@ -5,9 +5,9 @@ Use it to try [AsciiDoc](https://asciidoc.org).
 
 ## Section Title
 
--   A list item
+- A list item
 
--   Another list item
+- Another list item
 
 ``` highlight
 puts 'Hello, World!'

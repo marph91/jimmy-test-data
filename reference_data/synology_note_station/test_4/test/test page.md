@@ -42,12 +42,12 @@ super^script^
     2.  Number sub 2
 3.  Number 3
 
--   Bullet 1
--   Bullet 2
-    -   Sub bullet 1
-    -   Sub bullet 2
-        -   Sub sub bullet 
--   Bullet 3
+- Bullet 1
+- Bullet 2
+  - Sub bullet 1
+  - Sub bullet 2
+    - Sub sub bullet 
+- Bullet 3
 
 Check 1
 

@@ -10,16 +10,16 @@ title: New page in new folder
 
 **checklist**
 
--   [ ] todo item 1
--   [ ] todo item 2
+- [ ] todo item 1
+- [ ] todo item 2
 
 **unnumbered** *list*
 
--   item 1
-    -   nested
-        -   even ==more==
-        -   nested
--   item 2
+- item 1
+  - nested
+    - even ==more==
+    - nested
+- item 2
 
 ++numbered list++
 

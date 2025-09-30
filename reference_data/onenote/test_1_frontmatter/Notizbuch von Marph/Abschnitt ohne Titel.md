@@ -2,4 +2,4 @@
 title: Abschnitt ohne Titel
 ---
 
--   [Untitled Page](<./Abschnitt ohne Titel/Untitled Page.md>)
+- [Untitled Page](<./Abschnitt ohne Titel/Untitled Page.md>)

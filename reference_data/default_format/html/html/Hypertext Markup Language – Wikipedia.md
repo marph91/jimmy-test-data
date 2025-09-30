@@ -28,32 +28,32 @@ HTML dient als Auszeichnungssprache dazu, einen Text [semantisch](https://de.wik
 
 ## Inhaltsverzeichnis
 
--   [1 Entstehung](#entstehung)
--   [2 Syntax](#syntax)
--   [3 Zeichenvorrat](#zeichenvorrat)
--   [4 Sprachtyp](#sprachtyp)
--   [5 Versionen](#versionen)
--   [6 HTML-Struktur](#html-struktur)
-    -   [6.1 Allgemeine Struktur](#allgemeine-struktur)
-    -   [6.2 HTML-Kopf](#html-kopf)
-    -   [6.3 HTML-Körper](#html-körper)
--   [7 HTML-Varianten](#html-varianten)
-    -   [7.1 Strict](#strict)
-    -   [7.2 Transitional](#transitional)
-    -   [7.3 Frameset](#frameset)
--   [8 Zusatztechniken und Weiterentwicklungen](#zusatztechniken-und-weiterentwicklungen)
-    -   [8.1 Cascading Style Sheets](#cascading-style-sheets)
-    -   [8.2 Dynamisches HTML](#dynamisches-html)
-    -   [8.3 XHTML](#xhtml)
-    -   [8.4 HTML5](#html5)
-    -   [8.5 Ajax](#ajax)
--   [9 Siehe auch](#siehe-auch)
--   [10 Literatur](#literatur)
--   [11 Weblinks](#weblinks)
-    -   [11.1 Tutorials](#tutorials)
-    -   [11.2 Validierung](#validierung)
-    -   [11.3 Ältere Standards](#ältere-standards)
--   [12 Einzelnachweise](#einzelnachweise)
+- [1 Entstehung](#entstehung)
+- [2 Syntax](#syntax)
+- [3 Zeichenvorrat](#zeichenvorrat)
+- [4 Sprachtyp](#sprachtyp)
+- [5 Versionen](#versionen)
+- [6 HTML-Struktur](#html-struktur)
+  - [6.1 Allgemeine Struktur](#allgemeine-struktur)
+  - [6.2 HTML-Kopf](#html-kopf)
+  - [6.3 HTML-Körper](#html-körper)
+- [7 HTML-Varianten](#html-varianten)
+  - [7.1 Strict](#strict)
+  - [7.2 Transitional](#transitional)
+  - [7.3 Frameset](#frameset)
+- [8 Zusatztechniken und Weiterentwicklungen](#zusatztechniken-und-weiterentwicklungen)
+  - [8.1 Cascading Style Sheets](#cascading-style-sheets)
+  - [8.2 Dynamisches HTML](#dynamisches-html)
+  - [8.3 XHTML](#xhtml)
+  - [8.4 HTML5](#html5)
+  - [8.5 Ajax](#ajax)
+- [9 Siehe auch](#siehe-auch)
+- [10 Literatur](#literatur)
+- [11 Weblinks](#weblinks)
+  - [11.1 Tutorials](#tutorials)
+  - [11.2 Validierung](#validierung)
+  - [11.3 Ältere Standards](#ältere-standards)
+- [12 Einzelnachweise](#einzelnachweise)
 
 ## Entstehung
 
@@ -142,28 +142,28 @@ Ein ähnliches Konzept (logische Beschreibung) wie hinter HTML steht hinter dem 
 
 HTML wurde erstmals am 13. März 1989 von [Tim Berners-Lee](https://de.wikipedia.org/wiki/Tim_Berners-Lee "Tim Berners-Lee") am [CERN](https://de.wikipedia.org/wiki/CERN "CERN") in Genf vorgeschlagen.^[\[8\]](#cite_note-8)^
 
--   **HTML** (ohne Versionsnummer, 3. November 1992): Urversion, die sich nur an Text orientierte.^[\[9\]](#cite_note-9)^
--   **HTML** (ohne Versionsnummer, 30. April 1993): Zu Text kam neben
-    Attributen wie fette oder kursive Darstellung die Bildintegration dazu.
--   **HTML+** (November 1993): Geplante Erweiterungen, die in spätere Versionen einflossen, aber nie als HTML+ verabschiedet wurden.^[\[10\]](#cite_note-10)^
--   **HTML 2.0** (November 1995): Die mit RFC 1866 definierte
-    Version führte u. a. Formulartechnik ein. Der Status dieses
-    Standards ist „HISTORIC“. Auch die Vorgänger sind veraltet.^[\[11\]](#cite_note-11)^
--   **HTML 3.0**: Nicht erschienen, weil sie mit der Einführung des [Netscape-Browsers](https://de.wikipedia.org/wiki/Netscape_Navigator "Netscape Navigator") in der Version 3 bereits vor der geplanten Veröffentlichung veraltet war.
--   **HTML 3.2** (14. Januar 1997): Neu waren zahlreiche Features wie Tabellen, Textfluss um Bilder, Einbindung von [Applets](https://de.wikipedia.org/wiki/Java-Applet "Java-Applet").
--   **HTML 4.0** (18. Dezember 1997): Einführung von [Stylesheets](https://de.wikipedia.org/wiki/Stylesheet "Stylesheet"), Skripten und Frames. Auch eine Trennung in *Strict*, *Frameset* und *Transitional* erfolgte. Am 24. April 1998 erschien eine leicht korrigierte Version.
--   **HTML 4.01** (24. Dezember 1999): Ersetzte HTML 4.0 mit vielen kleineren Korrekturen. War lange Zeit Standard bis 2014.
--   **[XHTML](https://de.wikipedia.org/wiki/Extensible_Hypertext_Markup_Language "Extensible Hypertext Markup Language") 1.0** (26. Januar 2000): Neuformulierung von HTML 4.01 mit Hilfe von [XML](https://de.wikipedia.org/wiki/Extensible_Markup_Language "Extensible Markup Language"). Am 1. August 2002 erschien eine überarbeitete Version.
--   **XHTML 1.1** (31. Mai 2001): Nachdem XHTML in Module aufgeteilt
-    wurde, wurde mit XHTML 1.1 eine strikte Version definiert, bei der die
-    mit HTML 4 eingeführten Varianten Frameset und Transitional entfielen.
--   **XHTML 2.0** (geschlossen,^[\[12\]](#cite_note-12)^ 26. Juli 2006): Diese Version sollte nicht mehr auf HTML 4.01 basieren und einige neue Elemente einführen, so z. B. `<nl>` für Navigationslisten. Die Trennung von Auszeichnung und Stil sollte in dieser Version vollendet werden. – Das [W3C](https://de.wikipedia.org/wiki/World_Wide_Web_Consortium "World Wide Web Consortium") beendete die Arbeiten an XHTML 2.0 im Sommer 2009, weil XHTML durch HTML5 ersetzt werden sollte.^[\[13\]](#cite_note-13)[\[14\]](#cite_note-14)[\[5\]](#cite_note-Quelle0-5)^
--   **[HTML5](https://de.wikipedia.org/wiki/HTML5 "HTML5")**
-    (Empfehlung, 28. Oktober 2014): Schuf auf Basis von HTML 4.01 und XHTML
-    1.0 ein neues Vokabular. Die zu HTML gehörende DOM-Spezifikation wurde
-    ebenfalls überarbeitet und erweitert.^[\[15\]](#cite_note-html5-15)^
--   **HTML 5.1** (Empfehlung, 1. November 2016)
--   **HTML 5.2** (Empfehlung, 14. Dezember 2017): Aktuelle Version.^[\[4\]](#cite_note-html5.1-4)^
+- **HTML** (ohne Versionsnummer, 3. November 1992): Urversion, die sich nur an Text orientierte.^[\[9\]](#cite_note-9)^
+- **HTML** (ohne Versionsnummer, 30. April 1993): Zu Text kam neben
+  Attributen wie fette oder kursive Darstellung die Bildintegration dazu.
+- **HTML+** (November 1993): Geplante Erweiterungen, die in spätere Versionen einflossen, aber nie als HTML+ verabschiedet wurden.^[\[10\]](#cite_note-10)^
+- **HTML 2.0** (November 1995): Die mit RFC 1866 definierte
+  Version führte u. a. Formulartechnik ein. Der Status dieses
+  Standards ist „HISTORIC“. Auch die Vorgänger sind veraltet.^[\[11\]](#cite_note-11)^
+- **HTML 3.0**: Nicht erschienen, weil sie mit der Einführung des [Netscape-Browsers](https://de.wikipedia.org/wiki/Netscape_Navigator "Netscape Navigator") in der Version 3 bereits vor der geplanten Veröffentlichung veraltet war.
+- **HTML 3.2** (14. Januar 1997): Neu waren zahlreiche Features wie Tabellen, Textfluss um Bilder, Einbindung von [Applets](https://de.wikipedia.org/wiki/Java-Applet "Java-Applet").
+- **HTML 4.0** (18. Dezember 1997): Einführung von [Stylesheets](https://de.wikipedia.org/wiki/Stylesheet "Stylesheet"), Skripten und Frames. Auch eine Trennung in *Strict*, *Frameset* und *Transitional* erfolgte. Am 24. April 1998 erschien eine leicht korrigierte Version.
+- **HTML 4.01** (24. Dezember 1999): Ersetzte HTML 4.0 mit vielen kleineren Korrekturen. War lange Zeit Standard bis 2014.
+- **[XHTML](https://de.wikipedia.org/wiki/Extensible_Hypertext_Markup_Language "Extensible Hypertext Markup Language") 1.0** (26. Januar 2000): Neuformulierung von HTML 4.01 mit Hilfe von [XML](https://de.wikipedia.org/wiki/Extensible_Markup_Language "Extensible Markup Language"). Am 1. August 2002 erschien eine überarbeitete Version.
+- **XHTML 1.1** (31. Mai 2001): Nachdem XHTML in Module aufgeteilt
+  wurde, wurde mit XHTML 1.1 eine strikte Version definiert, bei der die
+  mit HTML 4 eingeführten Varianten Frameset und Transitional entfielen.
+- **XHTML 2.0** (geschlossen,^[\[12\]](#cite_note-12)^ 26. Juli 2006): Diese Version sollte nicht mehr auf HTML 4.01 basieren und einige neue Elemente einführen, so z. B. `<nl>` für Navigationslisten. Die Trennung von Auszeichnung und Stil sollte in dieser Version vollendet werden. – Das [W3C](https://de.wikipedia.org/wiki/World_Wide_Web_Consortium "World Wide Web Consortium") beendete die Arbeiten an XHTML 2.0 im Sommer 2009, weil XHTML durch HTML5 ersetzt werden sollte.^[\[13\]](#cite_note-13)[\[14\]](#cite_note-14)[\[5\]](#cite_note-Quelle0-5)^
+- **[HTML5](https://de.wikipedia.org/wiki/HTML5 "HTML5")**
+  (Empfehlung, 28. Oktober 2014): Schuf auf Basis von HTML 4.01 und XHTML
+  1.0 ein neues Vokabular. Die zu HTML gehörende DOM-Spezifikation wurde
+  ebenfalls überarbeitet und erweitert.^[\[15\]](#cite_note-html5-15)^
+- **HTML 5.1** (Empfehlung, 1. November 2016)
+- **HTML 5.2** (Empfehlung, 14. Dezember 2017): Aktuelle Version.^[\[4\]](#cite_note-html5.1-4)^
 
 ## HTML-Struktur
 
@@ -392,8 +392,8 @@ Reaktionsweisen von Desktop-Anwendungen simulieren.
 
 \[[Bearbeiten](https://de.wikipedia.org/w/index.php?title=Hypertext_Markup_Language&veaction=edit&section=20 "Abschnitt bearbeiten: Siehe auch") \| [Quelltext bearbeiten](https://de.wikipedia.org/w/index.php?title=Hypertext_Markup_Language&action=edit&section=20 "Quellcode des Abschnitts bearbeiten: Siehe auch")\]
 
--   [Entität (Auszeichnungssprache)](https://de.wikipedia.org/wiki/Entit%C3%A4t_(Auszeichnungssprache) "Entität (Auszeichnungssprache)")
--   [MIME Encapsulation of Aggregate HTML Documents](https://de.wikipedia.org/wiki/MIME_Encapsulation_of_Aggregate_HTML_Documents "MIME Encapsulation of Aggregate HTML Documents") (MHTML)
+- [Entität (Auszeichnungssprache)](https://de.wikipedia.org/wiki/Entit%C3%A4t_(Auszeichnungssprache) "Entität (Auszeichnungssprache)")
+- [MIME Encapsulation of Aggregate HTML Documents](https://de.wikipedia.org/wiki/MIME_Encapsulation_of_Aggregate_HTML_Documents "MIME Encapsulation of Aggregate HTML Documents") (MHTML)
 
 ## Literatur
 
@@ -401,27 +401,27 @@ Reaktionsweisen von Desktop-Anwendungen simulieren.
 
 **Standardwerke** (mit mindestens 2. Auflage):
 
--   Björn Seibert, Manuela Hoffmann: *Professionelles Webdesign mit (X)HTML und CSS*. 2. Auflage. Galileo Computing, Bonn 2008, [ISBN 978-3-8362-1104-8](https://de.wikipedia.org/wiki/Spezial:ISBN-Suche/9783836211048).
--   Robert R. Agular, Thomas Kobert: *HTML für Kids*. 5. Auflage. mitp, Frechen 2012, [ISBN 978-3-8266-8681-8](https://de.wikipedia.org/wiki/Spezial:ISBN-Suche/9783826686818).
--   Elisabeth Robson, Eric Freeman: *HTML und CSS von Kopf bis Fuß*. 2. Auflage. O’Reilly, Köln 2012, [ISBN 978-3-86899-934-1](https://de.wikipedia.org/wiki/Spezial:ISBN-Suche/9783868999341).
--   [Stefan Münz](https://de.wikipedia.org/wiki/Stefan_M%C3%BCnz "Stefan Münz"), [Clemens Gull](https://de.wikipedia.org/wiki/Clemens_Gull "Clemens Gull"): *HTML5 Handbuch*. 10. Auflage. Franzis-Verlag, Haar 2014, [ISBN 978-3-645-20345-6](https://de.wikipedia.org/wiki/Spezial:ISBN-Suche/9783645203456).
--   Jennifer Niederst Robbins: *HTML5 – kurz & gut*. 5. Aufl. O’Reilly, 2014, [ISBN 978-3-95561-656-4](https://de.wikipedia.org/wiki/Spezial:ISBN-Suche/9783955616564).
--   Kai Günster: *Schrödinger lernt HTML5, CSS und JavaScript. Das etwas andere Fachbuch*. 3. Auflage. Rheinwerk, Bonn 2018, [ISBN 978-3-8362-6825-7](https://de.wikipedia.org/wiki/Spezial:ISBN-Suche/9783836268257).
--   Thomas Kobert: *HTML und CSS für Kids*. 2. Auflage. mitp, Frechen 2020, [ISBN 978-3-7475-0117-7](https://de.wikipedia.org/wiki/Spezial:ISBN-Suche/9783747501177).
--   Jürgen Wolf: *HTML und CSS. Das umfassende Handbuch*. 4. Auflage. Rheinwerk, Bonn 2021, [ISBN 978-3-8362-8117-1](https://de.wikipedia.org/wiki/Spezial:ISBN-Suche/9783836281171).
--   Peter Müller: *Einstieg in HTML und CSS*. 2. Auflage. Rheinwerk, Bonn 2022, [ISBN 978-3-8362-9089-0](https://de.wikipedia.org/wiki/Spezial:ISBN-Suche/9783836290890).
--   Florence Maurice: *HTML & CSS für Dummies*. 2. Auflage. Wiley-VCH, Weinheim 2022, [ISBN 978-3-527-72014-9](https://de.wikipedia.org/wiki/Spezial:ISBN-Suche/9783527720149).
--   Christian Wenz, Christoph Prevezanos: *Jetzt lerne ich HTML5 und CSS3*. 2. Auflage. Markt+Technik Verlag, Burgthann 2022, [ISBN 978-3-95982-549-8](https://de.wikipedia.org/wiki/Spezial:ISBN-Suche/9783959825498).
+- Björn Seibert, Manuela Hoffmann: *Professionelles Webdesign mit (X)HTML und CSS*. 2. Auflage. Galileo Computing, Bonn 2008, [ISBN 978-3-8362-1104-8](https://de.wikipedia.org/wiki/Spezial:ISBN-Suche/9783836211048).
+- Robert R. Agular, Thomas Kobert: *HTML für Kids*. 5. Auflage. mitp, Frechen 2012, [ISBN 978-3-8266-8681-8](https://de.wikipedia.org/wiki/Spezial:ISBN-Suche/9783826686818).
+- Elisabeth Robson, Eric Freeman: *HTML und CSS von Kopf bis Fuß*. 2. Auflage. O’Reilly, Köln 2012, [ISBN 978-3-86899-934-1](https://de.wikipedia.org/wiki/Spezial:ISBN-Suche/9783868999341).
+- [Stefan Münz](https://de.wikipedia.org/wiki/Stefan_M%C3%BCnz "Stefan Münz"), [Clemens Gull](https://de.wikipedia.org/wiki/Clemens_Gull "Clemens Gull"): *HTML5 Handbuch*. 10. Auflage. Franzis-Verlag, Haar 2014, [ISBN 978-3-645-20345-6](https://de.wikipedia.org/wiki/Spezial:ISBN-Suche/9783645203456).
+- Jennifer Niederst Robbins: *HTML5 – kurz & gut*. 5. Aufl. O’Reilly, 2014, [ISBN 978-3-95561-656-4](https://de.wikipedia.org/wiki/Spezial:ISBN-Suche/9783955616564).
+- Kai Günster: *Schrödinger lernt HTML5, CSS und JavaScript. Das etwas andere Fachbuch*. 3. Auflage. Rheinwerk, Bonn 2018, [ISBN 978-3-8362-6825-7](https://de.wikipedia.org/wiki/Spezial:ISBN-Suche/9783836268257).
+- Thomas Kobert: *HTML und CSS für Kids*. 2. Auflage. mitp, Frechen 2020, [ISBN 978-3-7475-0117-7](https://de.wikipedia.org/wiki/Spezial:ISBN-Suche/9783747501177).
+- Jürgen Wolf: *HTML und CSS. Das umfassende Handbuch*. 4. Auflage. Rheinwerk, Bonn 2021, [ISBN 978-3-8362-8117-1](https://de.wikipedia.org/wiki/Spezial:ISBN-Suche/9783836281171).
+- Peter Müller: *Einstieg in HTML und CSS*. 2. Auflage. Rheinwerk, Bonn 2022, [ISBN 978-3-8362-9089-0](https://de.wikipedia.org/wiki/Spezial:ISBN-Suche/9783836290890).
+- Florence Maurice: *HTML & CSS für Dummies*. 2. Auflage. Wiley-VCH, Weinheim 2022, [ISBN 978-3-527-72014-9](https://de.wikipedia.org/wiki/Spezial:ISBN-Suche/9783527720149).
+- Christian Wenz, Christoph Prevezanos: *Jetzt lerne ich HTML5 und CSS3*. 2. Auflage. Markt+Technik Verlag, Burgthann 2022, [ISBN 978-3-95982-549-8](https://de.wikipedia.org/wiki/Spezial:ISBN-Suche/9783959825498).
 
 ## Weblinks
 
 \[[Bearbeiten](https://de.wikipedia.org/w/index.php?title=Hypertext_Markup_Language&veaction=edit&section=22 "Abschnitt bearbeiten: Weblinks") \| [Quelltext bearbeiten](https://de.wikipedia.org/w/index.php?title=Hypertext_Markup_Language&action=edit&section=22 "Quellcode des Abschnitts bearbeiten: Weblinks")\]
 
--   [*HTML5, A vocabulary and associated APIs for HTML and XHTML.*](https://www.w3.org/TR/html5/) W3C Recommendation 28 October 2014. W3C, 28. Oktober 2014, abgerufen am 28. Oktober 2014 (englisch, aktueller HTML-Standard). 
--   [*HTML5 Differences from HTML4.*](https://www.w3.org/TR/2014/WD-html5-diff-20140918/) W3C Working Draft 18 September 2014. W3C, 18. September 2014, abgerufen am 25. September 2014 (englisch). 
--   [*HTML working group.*](https://www.w3.org/html/wg/) W3C, 12. Juni 2014, abgerufen am 26. September 2014 (englisch). 
--   [*HTML.*](https://wiki.selfhtml.org/wiki/HTML) [SELFHTML](https://de.wikipedia.org/wiki/SELFHTML "SELFHTML")-Wiki, 6. September 2014, abgerufen am 25. September 2014 (Ausführliche Darstellung zusammen mit CSS). 
--   [*Some early ideas for HTML.*](https://www.w3.org/MarkUp/historical) W3C, 9. Januar 2003, abgerufen am 25. November 2014 (englisch, zum Ursprung von HTML). 
+- [*HTML5, A vocabulary and associated APIs for HTML and XHTML.*](https://www.w3.org/TR/html5/) W3C Recommendation 28 October 2014. W3C, 28. Oktober 2014, abgerufen am 28. Oktober 2014 (englisch, aktueller HTML-Standard). 
+- [*HTML5 Differences from HTML4.*](https://www.w3.org/TR/2014/WD-html5-diff-20140918/) W3C Working Draft 18 September 2014. W3C, 18. September 2014, abgerufen am 25. September 2014 (englisch). 
+- [*HTML working group.*](https://www.w3.org/html/wg/) W3C, 12. Juni 2014, abgerufen am 26. September 2014 (englisch). 
+- [*HTML.*](https://wiki.selfhtml.org/wiki/HTML) [SELFHTML](https://de.wikipedia.org/wiki/SELFHTML "SELFHTML")-Wiki, 6. September 2014, abgerufen am 25. September 2014 (Ausführliche Darstellung zusammen mit CSS). 
+- [*Some early ideas for HTML.*](https://www.w3.org/MarkUp/historical) W3C, 9. Januar 2003, abgerufen am 25. November 2014 (englisch, zum Ursprung von HTML). 
 
 ![](Hypertext%20Markup%20Language%20%E2%80%93%20Wikipedia-Dateien/Commons-logo.svg.webp)
 
@@ -443,20 +443,20 @@ Reaktionsweisen von Desktop-Anwendungen simulieren.
 
 \[[Bearbeiten](https://de.wikipedia.org/w/index.php?title=Hypertext_Markup_Language&veaction=edit&section=24 "Abschnitt bearbeiten: Validierung") \| [Quelltext bearbeiten](https://de.wikipedia.org/w/index.php?title=Hypertext_Markup_Language&action=edit&section=24 "Quellcode des Abschnitts bearbeiten: Validierung")\]
 
--   [Checkliste für Webstandards](http://www.lingo4u.de/article/checklist)
--   [W3C-Validator](https://validator.w3.org/) zur Überprüfung der syntaktischen Richtigkeit eines HTML-Dokuments (englisch)
--   [Verschiedene nützliche Testwerkzeuge](http://uitest.com/de/analysis/), [Site Check](http://uitest.com/en/check/) (englisch)
--   [WDG Validator](https://www.htmlhelp.com/tools/validator/) zur Überprüfung einer kompletten Webseite, Link defekt am 10. Juli 2023
+- [Checkliste für Webstandards](http://www.lingo4u.de/article/checklist)
+- [W3C-Validator](https://validator.w3.org/) zur Überprüfung der syntaktischen Richtigkeit eines HTML-Dokuments (englisch)
+- [Verschiedene nützliche Testwerkzeuge](http://uitest.com/de/analysis/), [Site Check](http://uitest.com/en/check/) (englisch)
+- [WDG Validator](https://www.htmlhelp.com/tools/validator/) zur Überprüfung einer kompletten Webseite, Link defekt am 10. Juli 2023
 
 ### Ältere Standards
 
 \[[Bearbeiten](https://de.wikipedia.org/w/index.php?title=Hypertext_Markup_Language&veaction=edit&section=25 "Abschnitt bearbeiten: Ältere Standards") \| [Quelltext bearbeiten](https://de.wikipedia.org/w/index.php?title=Hypertext_Markup_Language&action=edit&section=25 "Quellcode des Abschnitts bearbeiten: Ältere Standards")\]
 
--   [*Hypertext Markup Language 2.0.*](https://www.w3.org/TR/WD-html2/) W3C, 22. September 1995, abgerufen am 25. September 2014 (englisch). 
--   [*HTML 3.2 Reference Specification.*](https://www.w3.org/TR/REC-html32) W3C Recommendation 14-Jan-1997. W3C, 14. Januar 1997, abgerufen am 25. September 2014 (englisch). 
--   [*HTML 4.0 Specification.*](https://www.w3.org/TR/1998/REC-html40-19980424/) W3C Recommendation, revised on 24-Apr-1998. W3C, 24. April 1998, abgerufen am 25. September 2014 (englisch). 
--   [*HTML 4.01 Specification.*](https://www.w3.org/TR/html401/) W3C Recommendation 24 December 1999. W3C, 24. Dezember 1999, abgerufen am 25. September 2014 (englisch). 
--   [*HTML 4.01-Spezifikation.*](https://www.edition-w3.de/TR/1999/REC-html401-19991224/) Deutsche Übersetzung. edition W3.de, 24. Dezember 1999, abgerufen am 25. September 2014. 
+- [*Hypertext Markup Language 2.0.*](https://www.w3.org/TR/WD-html2/) W3C, 22. September 1995, abgerufen am 25. September 2014 (englisch). 
+- [*HTML 3.2 Reference Specification.*](https://www.w3.org/TR/REC-html32) W3C Recommendation 14-Jan-1997. W3C, 14. Januar 1997, abgerufen am 25. September 2014 (englisch). 
+- [*HTML 4.0 Specification.*](https://www.w3.org/TR/1998/REC-html40-19980424/) W3C Recommendation, revised on 24-Apr-1998. W3C, 24. April 1998, abgerufen am 25. September 2014 (englisch). 
+- [*HTML 4.01 Specification.*](https://www.w3.org/TR/html401/) W3C Recommendation 24 December 1999. W3C, 24. Dezember 1999, abgerufen am 25. September 2014 (englisch). 
+- [*HTML 4.01-Spezifikation.*](https://www.edition-w3.de/TR/1999/REC-html401-19991224/) Deutsche Übersetzung. edition W3.de, 24. Dezember 1999, abgerufen am 25. September 2014. 
 
 ## Einzelnachweise
 
@@ -500,8 +500,8 @@ Abgerufen von „[https://de.wikipedia.org/w/index.php?title=Hypertext\_Markup\_
 
 [Kategorien](https://de.wikipedia.org/wiki/Wikipedia:Kategorien "Wikipedia:Kategorien"):
 
--   [Offenes Format](https://de.wikipedia.org/wiki/Kategorie:Offenes_Format "Kategorie:Offenes Format")
--   [Web-Entwicklung](https://de.wikipedia.org/wiki/Kategorie:Web-Entwicklung "Kategorie:Web-Entwicklung")
--   [HTML](https://de.wikipedia.org/wiki/Kategorie:HTML "Kategorie:HTML")
--   [SGML](https://de.wikipedia.org/wiki/Kategorie:SGML "Kategorie:SGML")
--   [Beschreibungssprache](https://de.wikipedia.org/wiki/Kategorie:Beschreibungssprache "Kategorie:Beschreibungssprache")
+- [Offenes Format](https://de.wikipedia.org/wiki/Kategorie:Offenes_Format "Kategorie:Offenes Format")
+- [Web-Entwicklung](https://de.wikipedia.org/wiki/Kategorie:Web-Entwicklung "Kategorie:Web-Entwicklung")
+- [HTML](https://de.wikipedia.org/wiki/Kategorie:HTML "Kategorie:HTML")
+- [SGML](https://de.wikipedia.org/wiki/Kategorie:SGML "Kategorie:SGML")
+- [Beschreibungssprache](https://de.wikipedia.org/wiki/Kategorie:Beschreibungssprache "Kategorie:Beschreibungssprache")

@@ -1,1 +1,1 @@
--   [Te](./OneNote_DeletedPages/Te.md)
+- [Te](./OneNote_DeletedPages/Te.md)

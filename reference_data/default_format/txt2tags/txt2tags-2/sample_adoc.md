@@ -88,23 +88,23 @@ The dash is the default list identifier. For sublists,
 just add **spaces** at the beginning of the line. More
 spaces, more sublists.
 
--   Earth
+- Earth
 
-    -   America
+  - America
 
-        -   South America
+    - South America
 
-            -   Brazil
+      - Brazil
 
-                -   How deep can I go?
+        - How deep can I go?
 
-    -   Europe
+  - Europe
 
-        -   Lots of countries
+    - Lots of countries
 
--   Mars
+- Mars
 
-    -   Who knows?
+  - Who knows?
 
 The list ends with **two** consecutive blank lines.
 
@@ -119,9 +119,9 @@ identifier (plus).
 
 3.  three
 
-    -   mixed lists!
+    - mixed lists!
 
-    -   what a mess
+    - what a mess
 
 4.  counting again
 
@@ -141,13 +141,13 @@ apple
 a green or red fruit
 
 other fruits  
--   wee!
+- wee!
 
--   mixing lists
+- mixing lists
 
-    1.  again!
+  1.  again!
 
-    2.  and again!
+  2.  and again!
 
 ## Tables
 
@@ -203,9 +203,9 @@ And with some targets the image is linkable :
 
     http://www.txt2tags.org[(img/photo.jpg)]
 
--   The filename must end in PNG, JPG, GIF, or similar.
+- The filename must end in PNG, JPG, GIF, or similar.
 
--   No spaces inside the brackets!
+- No spaces inside the brackets!
 
 ### Other
 

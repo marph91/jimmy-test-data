@@ -6,9 +6,9 @@ A text document format for writing notes, documentation, articles, books,
 ebooks, slideshows, web pages, man pages and blogs.
 
 About  
--   An implementation of the AsciiDoc processor in Ruby.
+- An implementation of the AsciiDoc processor in Ruby.
 
--   Fast text processor and publishing toolchain.
+- Fast text processor and publishing toolchain.
 
 Authors  
 Asciidoctor is lead by Dan Allen and Sarah White and has received contributions
@@ -35,9 +35,9 @@ MIT
 
 1.  *What is Asciidoctor?*
 
-    -   An implementation of the AsciiDoc processor in Ruby.
+    - An implementation of the AsciiDoc processor in Ruby.
 
-    -   Fast text processor and publishing toolchain.
+    - Fast text processor and publishing toolchain.
 
 2.  *Who is behind Asciidoctor?*
 
@@ -80,13 +80,13 @@ Operating Systems
 Linux  
 1.  Fedora
 
-    -   Desktop
+    - Desktop
 
 2.  Ubuntu
 
-    -   Desktop
+    - Desktop
 
-    -   Server
+    - Server
 
 BSD  
 1.  FreeBSD

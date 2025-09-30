@@ -10,7 +10,7 @@ updated: '2024-04-28T12:49:26.829000+00:00'
 
 checklist:
 
--   [ ] with tag
--   [x] and checklist
--   [ ] and #inline-tag
--   [ ] why doesn’t this checklist appear at the todo category?
+- [ ] with tag
+- [x] and checklist
+- [ ] and #inline-tag
+- [ ] why doesn’t this checklist appear at the todo category?

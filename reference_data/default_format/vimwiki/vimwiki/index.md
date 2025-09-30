@@ -16,9 +16,9 @@ Sit amet, consectetur adipiscing elit. Etiam sed efficitur lectus, sit amet cons
 
 Sed tincidunt vestibulum nunc, in dapibus eros dictum in. Nullam ut dolor nisi.
 
--   blandit nulla mi
--   at gravida magna
--   maximus eu
+- blandit nulla mi
+- at gravida magna
+- maximus eu
 
 ### Morbi id sodales sem
 
