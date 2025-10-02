@@ -17,6 +17,7 @@ marks.
 The first 3 lines of this file are used as headers,
 on the following format:
 
+
       line1: document title
       line2: author name, email
       line3: date, version
@@ -49,11 +50,13 @@ combination.
 
 We can put a code sample or other pre-formatted text:
 
+
         here    is     pre-formatted
       //marks// are  **not**  ``interpreted``
 
 And also, it's easy to put a one line pre-formatted
 text:
+
 
       prompt$ ls /etc
 
@@ -97,17 +100,17 @@ Earth
 
 America
 
--   South America
-    -   Brazil
-        -   How deep can I go?
+- South America
+  - Brazil
+    - How deep can I go?
 
 Europe
 
--   Lots of countries
+- Lots of countries
 
 Mars
 
--   Who knows?
+- Who knows?
 
 The list ends with **two** consecutive blank lines.
 

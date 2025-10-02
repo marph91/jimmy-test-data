@@ -5,7 +5,7 @@
 	Automatic syntax highlighting styles text with a readable color scheme that corresponds with the grammar of a language.
 	
 	 Figure 7.01
-	
+	![unnamed_6b65a6a48b8148f6b38a088ca65ed389](./unnamed_6b65a6a48b8148f6b38a088ca65ed389.png)
 
  ## Choosing a Language
 
@@ -119,4 +119,3 @@
 	- xslt
 	- yacc
 	- yaml
-![unnamed_6b65a6a48b8148f6b38a088ca65ed389](./unnamed_6b65a6a48b8148f6b38a088ca65ed389.png)

@@ -6,7 +6,7 @@ Fragen? [Antworten!](https://blog.fefe.de/faq.html) Siehe auch: [Alternativlos](
 
 ### Thu Jan 16 2025
 
--   [\[l\]](https://blog.fefe.de/?ts=99763b62) Ein Leser schickt [diesen Screenshot](https://ptrace.fefe.de/Newstral%20FAZ.png) als Medienkompetenzübung ein :-)
+- [\[l\]](https://blog.fefe.de/?ts=99763b62) Ein Leser schickt [diesen Screenshot](https://ptrace.fefe.de/Newstral%20FAZ.png) als Medienkompetenzübung ein :-)
 
 [ganzer Monat](https://blog.fefe.de/?mon=202501)
 

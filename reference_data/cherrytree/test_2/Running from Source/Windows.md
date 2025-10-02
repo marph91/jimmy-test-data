@@ -42,7 +42,7 @@
 	13. Run the installation file and follow its steps to install. Ensure **PYGtkSourceView2** is toggled on the **Custom Setup** page.
 	
 			 Figure 3.01
-			
+			![unnamed_bd9c66b3ad3c4d6d9a3d1fa7bc8960a9](./unnamed_bd9c66b3ad3c4d6d9a3d1fa7bc8960a9.png)
 
 	14. [Download python 2.7 lib files](http://www.giuspen.com/software/C_Python27_Lib.7z).
 
@@ -53,13 +53,21 @@
 		-  For spell check functionality.
 		
 		
+```sh
+python2 -m pip install pyenchant
+```
+
 		
 		-  For better decoding support of imported and pasted text.
 		
 		
 
 
- ## Configuring the Cherrytree Directory
+ 
+```sh
+python2 -m pip install chardet
+```
+## Configuring the Cherrytree Directory
 
 	17. [Clone](https://git-scm.com/docs/git-clone) or download the [Cherrytree repository](https://github.com/giuspen/cherrytree).
 
@@ -70,15 +78,6 @@
 	20. Open **Command Prompt**, change to the directory containing your local copy of Cherrytree, and run:
 	
 
-![unnamed_bd9c66b3ad3c4d6d9a3d1fa7bc8960a9](./unnamed_bd9c66b3ad3c4d6d9a3d1fa7bc8960a9.png)
-
-```sh
-python2 -m pip install pyenchant
-```
-
-```sh
-python2 -m pip install chardet
-```
 
 ```sh
 python2 cherrytree

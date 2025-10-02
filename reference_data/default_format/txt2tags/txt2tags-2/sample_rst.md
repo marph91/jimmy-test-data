@@ -95,15 +95,15 @@ The dash is the default list identifier. For sublists,
 just add **spaces** at the beginning of the line. More
 spaces, more sublists.
 
--   Earth
-    -   America
-        -   South America
-            -   Brazil
-                -   How deep can I go?
-    -   Europe
-        -   Lots of countries
--   Mars
-    -   Who knows?
+- Earth
+  - America
+    - South America
+      - Brazil
+        - How deep can I go?
+  - Europe
+    - Lots of countries
+- Mars
+  - Who knows?
 
 The list ends with **two** consecutive blank lines.
 
@@ -116,10 +116,10 @@ identifier (plus).
 2.  two
 3.  three
 
-> -   mixed lists!
-> -   what a mess
->     1.  counting again
->     2.  ...
+> - mixed lists!
+> - what a mess
+>   1.  counting again
+>   2.  ...
 
 1.  four
 
@@ -135,10 +135,10 @@ apple
 a green or red fruit
 
 other fruits  
--   wee!
--   mixing lists
-    1.  again!
-    2.  and again!
+- wee!
+- mixing lists
+  1.  again!
+  2.  and again!
 
 ## Tables
 
@@ -153,10 +153,10 @@ Natural spaces specify each cell alignment.
 
 Without the last pipe, no border:
 
-> | heading 1  | heading 2  | heading 3  |
-> |------------|------------|------------|
-> | “cell 1.1” | “cell 1.2” | “cell 1.3” |
-> | “cell 2.1” | “cell 2.2” | “cell 2.3” |
+> | heading 1 | heading 2 | heading 3 |
+> |-----------|-----------|-----------|
+> | cell 1.1  | cell 1.2  | cell 1.3  |
+> | cell 2.1  | cell 2.2  | cell 2.3  |
 
 ## Special Entities
 
@@ -172,8 +172,8 @@ And with some targets the image is linkable :
 
 [![image](./photo.jpg)](http://www.txt2tags.org)
 
--   The filename must end in PNG, JPG, GIF, or similar.
--   No spaces inside the brackets!
+- The filename must end in PNG, JPG, GIF, or similar.
+- No spaces inside the brackets!
 
 ### Other
 

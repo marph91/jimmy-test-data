@@ -5,7 +5,6 @@ tags:
 - second-sample tag
 - standard_notes-starred
 title: Sample Note
-updated: '1970-01-01T00:00:00'
 ---
 
 - tagged and starred

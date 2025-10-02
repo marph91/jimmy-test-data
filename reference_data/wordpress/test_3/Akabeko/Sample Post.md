@@ -15,18 +15,18 @@ The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the 
 
 ## List
 
--   [Header 2](#header-2)
--   Nest
-    -   Item 1
-    -   Item 2
+- [Header 2](#header-2)
+- Nest
+  - Item 1
+  - Item 2
 
 ## Number List
 
 1.  Item 1
 2.  Item 2
 3.  Item 3
-    -   Item 3-1
-    -   Item 3-2
+    - Item 3-1
+    - Item 3-2
 4.  Item 4
 
 ## Table
@@ -38,7 +38,7 @@ The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the 
 
 ## Shortcode
 
-\[caption\][![Akabeko](http://akabeko.me/blog/wp-content/uploads/2009/10/profile.png)](http://akabeko.me/blog/wp-content/uploads/2009/10/profile.png "Akabeko")\[/caption\]
+\[caption\]![Akabeko](http://akabeko.me/blog/wp-content/uploads/2009/10/profile.png)\[/caption\]
 \[js\]
 const wpxml2md = require('wpxml2md');
 const util = require('./util.js');

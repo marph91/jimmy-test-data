@@ -11,5 +11,5 @@ updated: '2020-02-13T19:44:54'
 
 This is a simple test note without any attachment.
 
--   bullet point 1
--   bullet point 2
+- bullet point 1
+- bullet point 2

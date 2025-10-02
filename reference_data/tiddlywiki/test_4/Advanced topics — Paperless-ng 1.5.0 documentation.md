@@ -26,22 +26,22 @@ to documents.
 
 The following algorithms are available:
 
--   **Any:** Looks for any occurrence of any word provided in match in the PDF.
-    If you define the match as `Bank1`` ``Bank2`, it will match documents containing
-    either of these terms.
+- **Any:** Looks for any occurrence of any word provided in match in the PDF.
+  If you define the match as `Bank1`` ``Bank2`, it will match documents containing
+  either of these terms.
 
--   **All:** Requires that every word provided appears in the PDF, albeit not in the
-    order provided.
+- **All:** Requires that every word provided appears in the PDF, albeit not in the
+  order provided.
 
--   **Literal:** Matches only if the match appears exactly as provided in the PDF.
+- **Literal:** Matches only if the match appears exactly as provided in the PDF.
 
--   **Regular expression:** Parses the match as a regular expression and tries to
-    find a match within the document.
+- **Regular expression:** Parses the match as a regular expression and tries to
+  find a match within the document.
 
--   **Fuzzy match:** I dont know. Look at the source.
+- **Fuzzy match:** I dont know. Look at the source.
 
--   **Auto:** Tries to automatically match new documents. This does not require you
-    to set a match. See the notes below.
+- **Auto:** Tries to automatically match new documents. This does not require you
+  to set a match. See the notes below.
 
 When using the “any” or “all” matching algorithms, you can search for terms
 that consist of multiple words by enclosing them in double quotes. For example,
@@ -69,33 +69,33 @@ Paperless tries to hide much of the involved complexity with this approach.
 However, there are a couple caveats you need to keep in mind when using this
 feature:
 
--   Changes to your documents are not immediately reflected by the matching
-    algorithm. The neural network needs to be *trained* on your documents after
-    changes. Paperless periodically (default: once each hour) checks for changes
-    and does this automatically for you.
+- Changes to your documents are not immediately reflected by the matching
+  algorithm. The neural network needs to be *trained* on your documents after
+  changes. Paperless periodically (default: once each hour) checks for changes
+  and does this automatically for you.
 
--   The Auto matching algorithm only takes documents into account which are NOT
-    placed in your inbox (i.e., have inbox tags assigned to them). This ensures
-    that the neural network only learns from documents which you have correctly
-    tagged before.
+- The Auto matching algorithm only takes documents into account which are NOT
+  placed in your inbox (i.e., have inbox tags assigned to them). This ensures
+  that the neural network only learns from documents which you have correctly
+  tagged before.
 
--   The matching algorithm can only work if there is a correlation between the
-    tag, correspondent or document type and the document itself. Your bank
-    statements usually contain your bank account number and the name of the bank,
-    so this works reasonably well, However, tags such as “TODO” cannot be
-    automatically assigned.
+- The matching algorithm can only work if there is a correlation between the
+  tag, correspondent or document type and the document itself. Your bank
+  statements usually contain your bank account number and the name of the bank,
+  so this works reasonably well, However, tags such as “TODO” cannot be
+  automatically assigned.
 
--   The matching algorithm needs a reasonable number of documents to identify when
-    to assign tags, correspondents, and types. If one out of a thousand documents
-    has the correspondent “Very obscure web shop I bought something five years
-    ago”, it will probably not assign this correspondent automatically if you buy
-    something from them again. The more documents, the better.
+- The matching algorithm needs a reasonable number of documents to identify when
+  to assign tags, correspondents, and types. If one out of a thousand documents
+  has the correspondent “Very obscure web shop I bought something five years
+  ago”, it will probably not assign this correspondent automatically if you buy
+  something from them again. The more documents, the better.
 
--   Paperless also needs a reasonable amount of negative examples to decide when
-    not to assign a certain tag, correspondent or type. This will usually be the
-    case as you start filling up paperless with documents. Example: If all your
-    documents are either from “Webshop” and “Bank”, paperless will assign one of
-    these correspondents to ANY new document, if both are set to automatic matching.
+- Paperless also needs a reasonable amount of negative examples to decide when
+  not to assign a certain tag, correspondent or type. This will usually be the
+  case as you start filling up paperless with documents. Example: If all your
+  documents are either from “Webshop” and “Bank”, paperless will assign one of
+  these correspondents to ANY new document, if both are set to automatic matching.
 
 ## Hooking into the consumption process[](https://paperless-ng.readthedocs.io/en/latest/advanced_usage.html#advanced-file-name-handling#hooking-into-the-consumption-process "Permalink to this headline")
 
@@ -122,7 +122,7 @@ Executed after the consumer sees a new document in the consumption folder, but
 before any processing of the document is performed. This script receives exactly
 one argument:
 
--   Document file name
+- Document file name
 
 A simple but common example for this would be creating a simple script like
 this:
@@ -148,21 +148,21 @@ the consumption process will begin with the newly modified file.
 Executed after the consumer has successfully processed a document and has moved it
 into paperless. It receives the following arguments:
 
--   Document id
+- Document id
 
--   Generated file name
+- Generated file name
 
--   Source path
+- Source path
 
--   Thumbnail path
+- Thumbnail path
 
--   Download URL
+- Download URL
 
--   Thumbnail URL
+- Thumbnail URL
 
--   Correspondent
+- Correspondent
 
--   Tags
+- Tags
 
 The script can be in any language you like, but for a simple shell script
 example, you can take a look at `post-consumption-example.sh` in the
@@ -206,31 +206,31 @@ report your files as missing and won’t be able to find them.
 
 Paperless provides the following placeholders withing filenames:
 
--   `{asn}`: The archive serial number of the document, or “none”.
+- `{asn}`: The archive serial number of the document, or “none”.
 
--   `{correspondent}`: The name of the correspondent, or “none”.
+- `{correspondent}`: The name of the correspondent, or “none”.
 
--   `{document_type}`: The name of the document type, or “none”.
+- `{document_type}`: The name of the document type, or “none”.
 
--   `{tag_list}`: A comma separated list of all tags assigned to the document.
+- `{tag_list}`: A comma separated list of all tags assigned to the document.
 
--   `{title}`: The title of the document.
+- `{title}`: The title of the document.
 
--   `{created}`: The full date and time the document was created.
+- `{created}`: The full date and time the document was created.
 
--   `{created_year}`: Year created only.
+- `{created_year}`: Year created only.
 
--   `{created_month}`: Month created only (number 1-12).
+- `{created_month}`: Month created only (number 1-12).
 
--   `{created_day}`: Day created only (number 1-31).
+- `{created_day}`: Day created only (number 1-31).
 
--   `{added}`: The full date and time the document was added to paperless.
+- `{added}`: The full date and time the document was added to paperless.
 
--   `{added_year}`: Year added only.
+- `{added_year}`: Year added only.
 
--   `{added_month}`: Month added only (number 1-12).
+- `{added_month}`: Month added only (number 1-12).
 
--   `{added_day}`: Day added only (number 1-31).
+- `{added_day}`: Day added only (number 1-31).
 
 Paperless will try to conserve the information from your database as much as possible.
 However, some characters that you can use in document titles and correspondent names (such

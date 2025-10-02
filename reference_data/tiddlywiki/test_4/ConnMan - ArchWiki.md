@@ -2,28 +2,28 @@ https://wiki.archlinux.org/title/ConnMan
 
 # ConnMan
 
--   [Page](https://wiki.archlinux.org/title/ConnMan/title/ConnMan "View the content page [alt-shift-c]")
--   [Discussion](https://wiki.archlinux.org/title/ConnMan/title/Talk:ConnMan "Discussion about the content page [alt-shift-t]")
+- [Page](https://wiki.archlinux.org/title/ConnMan/title/ConnMan "View the content page [alt-shift-c]")
+- [Discussion](https://wiki.archlinux.org/title/ConnMan/title/Talk:ConnMan "Discussion about the content page [alt-shift-t]")
 
 English
 
--   [Read](https://wiki.archlinux.org/title/ConnMan/title/ConnMan)
--   [View source](https://wiki.archlinux.org/title/ConnMan/index.php?title=ConnMan&action=edit "This page is protected.
-    You can view its source [alt-shift-e]")
--   [View history](https://wiki.archlinux.org/title/ConnMan/index.php?title=ConnMan&action=history "Past revisions of this page [alt-shift-h]")
+- [Read](https://wiki.archlinux.org/title/ConnMan/title/ConnMan)
+- [View source](https://wiki.archlinux.org/title/ConnMan/index.php?title=ConnMan&action=edit "This page is protected.
+  You can view its source [alt-shift-e]")
+- [View history](https://wiki.archlinux.org/title/ConnMan/index.php?title=ConnMan&action=history "Past revisions of this page [alt-shift-h]")
 
 More
 
--   [Read](https://wiki.archlinux.org/title/ConnMan/title/ConnMan)
--   [View source](https://wiki.archlinux.org/title/ConnMan/index.php?title=ConnMan&action=edit)
--   [View history](https://wiki.archlinux.org/title/ConnMan/index.php?title=ConnMan&action=history)
+- [Read](https://wiki.archlinux.org/title/ConnMan/title/ConnMan)
+- [View source](https://wiki.archlinux.org/title/ConnMan/index.php?title=ConnMan&action=edit)
+- [View history](https://wiki.archlinux.org/title/ConnMan/index.php?title=ConnMan&action=history)
 
 From ArchWiki
 
 Related articles
 
--   [Network configuration](https://wiki.archlinux.org/title/ConnMan/title/Network_configuration "Network configuration")
--   [Wireless network configuration](https://wiki.archlinux.org/title/ConnMan/title/Wireless_network_configuration "Wireless network configuration")
+- [Network configuration](https://wiki.archlinux.org/title/ConnMan/title/Network_configuration "Network configuration")
+- [Wireless network configuration](https://wiki.archlinux.org/title/ConnMan/title/Wireless_network_configuration "Wireless network configuration")
 
 [ConnMan](https://web.archive.org/web/20210224075615/https://01.org/connman) is a command-line network manager designed for use with embedded devices and fast resolve times. It is modular through a [plugin architecture](https://git.kernel.org/cgit/network/connman/connman.git/tree/plugins), but has native [DHCP](https://en.wikipedia.org/wiki/DHCP "wikipedia:DHCP") and [NTP](https://wiki.archlinux.org/title/ConnMan/title/NTP "NTP") support.[\[1\]](https://git.kernel.org/cgit/network/connman/connman.git/tree/src/)
 
@@ -37,39 +37,39 @@ ConnMan comes with the [connmanctl(1)](https://man.archlinux.org/man/connmanctl.
 
 ### Front-ends
 
--   **cmst** — Qt GUI for ConnMan.
+- **cmst** — Qt GUI for ConnMan.
 
 [https://github.com/andrew-bibb/cmst](https://github.com/andrew-bibb/cmst) \|\| [cmst](https://aur.archlinux.org/packages/cmst/)^AUR^
 
--   **connman-ncurses** — Simple ncurses UI for ConnMan; not all of connman functionality is implemented, but usable (with X or from terminal without X), see the [wiki](https://github.com/eurogiciel-oss/connman-json-client/wiki).
+- **connman-ncurses** — Simple ncurses UI for ConnMan; not all of connman functionality is implemented, but usable (with X or from terminal without X), see the [wiki](https://github.com/eurogiciel-oss/connman-json-client/wiki).
 
 [https://github.com/eurogiciel-oss/connman-json-client](https://github.com/eurogiciel-oss/connman-json-client) \|\| [connman-ncurses-git](https://aur.archlinux.org/packages/connman-ncurses-git/)^AUR^
 
--   **ConnMan-UI** — GTK3 client applet.
+- **ConnMan-UI** — GTK3 client applet.
 
 [https://github.com/tbursztyka/connman-ui](https://github.com/tbursztyka/connman-ui) \|\| [connman-ui-git](https://aur.archlinux.org/packages/connman-ui-git/)^AUR^
 
--   **connman\_dmenu** — Client/frontend for dmenu.
+- **connman\_dmenu** — Client/frontend for dmenu.
 
 [https://github.com/taylorchu/connman\_dmenu](https://github.com/taylorchu/connman_dmenu) \|\| [connman\_dmenu-git](https://aur.archlinux.org/packages/connman_dmenu-git/)^AUR^
 
--   **rofi-connman** — rofi/dmenu-powered frontend
+- **rofi-connman** — rofi/dmenu-powered frontend
 
 [https://github.com/sourcemage/rofi-connman](https://github.com/sourcemage/rofi-connman) \|\| [rofi-connman](https://aur.archlinux.org/packages/rofi-connman/)^AUR^
 
--   **Econnman** — Enlightenment desktop panel applet.
+- **Econnman** — Enlightenment desktop panel applet.
 
 [https://www.enlightenment.org](https://www.enlightenment.org) \|\| [econnman](https://aur.archlinux.org/packages/econnman/)^AUR^
 
--   **LXQt-Connman-Applet** — LXQt desktop panel applet.
+- **LXQt-Connman-Applet** — LXQt desktop panel applet.
 
 [https://github.com/lxqt/lxqt-connman-applet](https://github.com/lxqt/lxqt-connman-applet) \|\| [lxqt-connman-applet](https://aur.archlinux.org/packages/lxqt-connman-applet/)^AUR^
 
--   **connman-gtk** — GTK client.
+- **connman-gtk** — GTK client.
 
 [https://github.com/jgke/connman-gtk](https://github.com/jgke/connman-gtk) \|\| [connman-gtk](https://aur.archlinux.org/packages/connman-gtk/)^AUR^
 
--   **gnome-extension-connman** — Gnome3 extension for connman; it contains only some of the functionality without installing connman-gtk.
+- **gnome-extension-connman** — Gnome3 extension for connman; it contains only some of the functionality without installing connman-gtk.
 
 [https://github.com/jgke/gnome-extension-connman](https://github.com/jgke/gnome-extension-connman) \|\| [https://extensions.gnome.org/extension/981/connman-extension/](https://extensions.gnome.org/extension/981/connman-extension/)
 
@@ -288,8 +288,8 @@ Passphrase=password
 
 **Note:**
 
--   Options are case-sensitive, e.g. `EAP = ttls` instead of `EAP = TTLS`.[\[3\]](https://together.jolla.com/question/55969/connman-fails-due-to-case-sensitive-settings/)
--   Consult the institution hosting the eduroam network for various settings such as username, password, `EAP`, `Phase2output`, and needed certificates.
+- Options are case-sensitive, e.g. `EAP = ttls` instead of `EAP = TTLS`.[\[3\]](https://together.jolla.com/question/55969/connman-fails-due-to-case-sensitive-settings/)
+- Consult the institution hosting the eduroam network for various settings such as username, password, `EAP`, `Phase2output`, and needed certificates.
 
 For more information, see [connman-service.config(5)](https://man.archlinux.org/man/connman-service.config.5) and [Wireless network configuration#eduroam](https://wiki.archlinux.org/title/ConnMan/title/Wireless_network_configuration#eduroam "Wireless network configuration").
 
@@ -411,4 +411,4 @@ If you see this in your error log it is caused by bug in connman [\[7\]](https:/
 
 ## See also
 
--   [Git repository documentation](https://git.kernel.org/cgit/network/connman/connman.git/tree/doc) — for further detailed documentation
+- [Git repository documentation](https://git.kernel.org/cgit/network/connman/connman.git/tree/doc) — for further detailed documentation

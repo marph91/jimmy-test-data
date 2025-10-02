@@ -40,4 +40,4 @@ list continuation:: a plus sign (`{plus}`) on a line by itself
 - [*] checked
 - [x] also checked
 - [ ] not checked
--     normal list item
+-   normal list item

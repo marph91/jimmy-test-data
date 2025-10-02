@@ -2,19 +2,11 @@ On port 8000 we have default XAMPP page.
 We can access phpinfo on <http://192.168.215.249:8000/dashboard/phpinfo.php>.
 
 
-
-We find the following directories:
-
-
-On */cms* we find **RiteCMS version v3**.
-We can login into the administrator via **admin:admin** credentials.
-
-On port 80, endpoint */Orchard*, we find an Orchard instance
-
-In *C:/staging*, we find a repository:
-
 | Server Root | C:/xampp/apache |
 | --- | --- |
+
+
+We find the following directories:
 
 ```sh
 200      GET      167l      649w     7577c http://192.168.215.249:8000/dashboard/
@@ -56,6 +48,14 @@ In *C:/staging*, we find a repository:
 200      GET       79l      250w     3607c http://192.168.215.249:8000/APPLICATIONS.html
 200      GET       15l       52w      784c http://192.168.215.249:8000/WEBALIZER/
 ```
+
+
+On */cms* we find **RiteCMS version v3**.
+We can login into the administrator via **admin:admin** credentials.
+
+On port 80, endpoint */Orchard*, we find an Orchard instance
+
+In *C:/staging*, we find a repository:
 
 ```sh
 commit 8b430c17c16e6c0515e49c4eafdd129f719fde74 (HEAD -> master)

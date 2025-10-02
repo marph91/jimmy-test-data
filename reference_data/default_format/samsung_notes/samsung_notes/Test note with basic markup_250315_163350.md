@@ -1,10 +1,10 @@
 test content
 
--   an unnumbered
+- an unnumbered
 
--   list
+- list
 
--   nesting seems to be not possible
+- nesting seems to be not possible
 
 numbered list:
 
@@ -16,13 +16,13 @@ italic *item*
 
 task list:
 
--   [ ] unchecked
+- [ ] unchecked
 
--   [ ] strikethrough
+- [ ] strikethrough
 
--   [ ] item
+- [ ] item
 
--   checked item
+- checked item
 
 unindented
 

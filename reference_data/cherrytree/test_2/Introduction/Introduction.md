@@ -1,7 +1,7 @@
 
 
 
-# Cherrytree User Manual
+![unnamed_bdd640fb06674ad19c80317fa3b1799d](./unnamed_bdd640fb06674ad19c80317fa3b1799d.png)# Cherrytree User Manual
           version 0.38.9, October, 2019
 
 
@@ -172,4 +172,3 @@
       -  [Installing with Ubuntu Software](../Installation/Ubuntu.md)
       -  [Installing via Command Line](../Installation/Ubuntu.md)
 
-![unnamed_bdd640fb06674ad19c80317fa3b1799d](./unnamed_bdd640fb06674ad19c80317fa3b1799d.png)

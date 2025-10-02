@@ -1,6 +1,10 @@
 ## **Service Enumeration**
 
 
+| Server IP Address | Ports Open | Services |
+| --- | --- | --- |
+| 10.xx.x.xx | TCP:  |  |
+
 
 Nmap Scan Results:
 
@@ -17,6 +21,10 @@ Nmap Scan Results:
 
 **Vulnerable endpoint:**
  
+```sh
+/cgi-bin/admin.cgi:
+```
+
 
 **Initial Shell Screenshot:**
 
@@ -38,11 +46,3 @@ Nmap Scan Results:
 
 **Proof.txt Contents:**
 
-
-| 10.xx.x.xx | TCP:  |  |
-| --- | --- | --- |
-| Server IP Address | Ports Open | Services |
-
-```sh
-/cgi-bin/admin.cgi:
-```

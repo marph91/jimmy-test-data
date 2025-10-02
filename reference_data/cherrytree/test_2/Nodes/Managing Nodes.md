@@ -17,7 +17,7 @@
 	- **Insert Today’s Node** - Creates a top-level node with a title set to the current year, a subnode of the current month, and a third-level node of the current day of the month and week.
 
 			 Figure 6.03
-			
+			![unnamed_b74d0fb132e746298fadc1a606cb0fb3](./unnamed_b74d0fb132e746298fadc1a606cb0fb3.png)
 	
 	Each time **Insert Today’s Node** is used, it adds the current date to tree, cataloguing it with the existing nodes by year, month, and day. If today’s node already exists, no new nodes are added and you are directed to the existing node instead.
 
@@ -82,4 +82,3 @@
 
 	- **Go Forward** - Move forward once in your node selection history.
 
-![unnamed_b74d0fb132e746298fadc1a606cb0fb3](./unnamed_b74d0fb132e746298fadc1a606cb0fb3.png)

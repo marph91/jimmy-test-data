@@ -6,8 +6,8 @@ title: note in other notebook with same name
 updated: '2025-01-18T16:53:04'
 ---
 
--   [ ] todo 1
--   [x] todo 2
+- [ ] todo 1
+- [x] todo 2
 
 ------------------------------------------------------------------------
 
@@ -17,7 +17,7 @@ updated: '2025-01-18T16:53:04'
 
   
 
--   [ ] todo 3
-    -   [ ] nested todo 4
-        -   [ ] nested nested todo 5
--   [ ] todo 6
+- [ ] todo 3
+  - [ ] nested todo 4
+    - [ ] nested nested todo 5
+- [ ] todo 6

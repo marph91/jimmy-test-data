@@ -13,6 +13,10 @@ How to install Cherrytree in Fedora 30 and earlier:
 	3. Enter the following command, replacing **cherrytree.rpm** with the name of your installation file:
 
 
+```sh
+sudo rpm -Uvh --force cherrytree.rpm
+```
+
 
 	4. Provide your password when prompted to complete the installation
 
@@ -24,18 +28,14 @@ How to install Cherrytree in Fedora 31 and later:
     1. Enable the Cherrytree COPR repository.
       
       
-      
-    2. Install Cherrytree
-    
-    
-```sh
-sudo rpm -Uvh --force cherrytree.rpm
-```
-
 ```sh
 sudo dnf copr enable bcotton/cherrytree
 ```
 
+      
+    2. Install Cherrytree
+    
+    
 ```sh
 sudo dnf install cherrytree
 ```

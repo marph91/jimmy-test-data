@@ -19,19 +19,19 @@ Google hosts zips including only `adb` and `fastboot`. You can set these up for 
 1.  Download the [Windows zip](https://dl.google.com/android/repository/platform-tools-latest-windows.zip) from Google.
 2.  Extract it somewhere - for example, `%USERPROFILE%\adb-fastboot`
 3.  On Windows 7/8:
-    -   From the desktop, right-click My Computer and select Properties
-    -   In the System Properties window, click on the Advanced tab
-    -   In the Advanced section, click the Environment Variables button
-    -   In the Environment Variables window, highlight the Path variable in the Systems Variable section and click the Edit button
-    -   Append `;%USERPROFILE%\adb-fastboot\platform-tools` to the end of the existing Path definition (the semi-colon separates each path entry)
+    - From the desktop, right-click My Computer and select Properties
+    - In the System Properties window, click on the Advanced tab
+    - In the Advanced section, click the Environment Variables button
+    - In the Environment Variables window, highlight the Path variable in the Systems Variable section and click the Edit button
+    - Append `;%USERPROFILE%\adb-fastboot\platform-tools` to the end of the existing Path definition (the semi-colon separates each path entry)
 4.  On Windows 10:
-    -   Open the Start menu, and type “advanced system settings”
-    -   Select “View advanced system settings”
-    -   Click on the Advanced tab
-    -   Open the “Environment Variables” window
-    -   Select the Path variable under “System Variables” and click the “Edit” button
-    -   Click the “New” button
-    -   Insert `%USERPROFILE%\adb-fastboot\platform-tools` in the text field
+    - Open the Start menu, and type “advanced system settings”
+    - Select “View advanced system settings”
+    - Click on the Advanced tab
+    - Open the “Environment Variables” window
+    - Select the Path variable under “System Variables” and click the “Edit” button
+    - Click the “New” button
+    - Insert `%USERPROFILE%\adb-fastboot\platform-tools` in the text field
 5.  Download the [USB drivers](https://developer.android.com/studio/run/win-usb) and follow the instructions there.
 
 ### On macOS
@@ -71,7 +71,7 @@ To use `adb` with your device, you’ll need to enable developer options and USB
 6.  On the computer, open up a terminal/command prompt and type `adb devices`.
 7.  A dialog should show on your device, asking you to allow usb debugging. Check “always allow”, and choose “OK”.  
     If the dialog is not appearing or the list of devices is empty, check if you installed `adb` properly.
-    -   On Windows: Make sure your device manager does show your phone and doesn’t show a yellow triangle next to it!
+    - On Windows: Make sure your device manager does show your phone and doesn’t show a yellow triangle next to it!
 
 Congratulations! `adb` is now ready to use with your device.
 
@@ -82,10 +82,10 @@ While in fastboot mode, you can type `fastboot devices` to verify that your devi
 
 ## Popular `adb` commands
 
--   `adb shell` - launches a [shell](https://en.wikipedia.org/wiki/Shell_(computing)) on the device
--   `adb push ` - pushes the file to
--   `adb pull []` - pulls the file to . If isn’t specified,
-    it will pull to the current folder.
--   `adb logcat` - allows you to view the device log in real-time. You can use `adb logcat -b radio` to view radio logs,
-    and `adb logcat -C` to view logs in colour
--   `adb install ` - installs the given .apk file to your device
+- `adb shell` - launches a [shell](https://en.wikipedia.org/wiki/Shell_(computing)) on the device
+- `adb push ` - pushes the file to
+- `adb pull []` - pulls the file to . If isn’t specified,
+  it will pull to the current folder.
+- `adb logcat` - allows you to view the device log in real-time. You can use `adb logcat -b radio` to view radio logs,
+  and `adb logcat -C` to view logs in colour
+- `adb install ` - installs the given .apk file to your device

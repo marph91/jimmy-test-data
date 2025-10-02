@@ -1,3 +1,5 @@
 
 
-![Eelanalüüsi päring.jpg](<./Eelanalüüsi päring.jpg>)
+## Unlinked Resources
+
+- ![Eelanalüüsi päring.jpg](<./Eelanalüüsi päring.jpg>)

@@ -44,4 +44,4 @@ Text
 
 ## Linked file
 
-[link to second_sample_file](second_sample_file)
+[link to second_sample_file](broken-link second_sample_file)

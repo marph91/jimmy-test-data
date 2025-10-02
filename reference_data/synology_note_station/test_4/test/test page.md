@@ -42,12 +42,12 @@ super^script^
     2.  Number sub 2
 3.  Number 3
 
--   Bullet 1
--   Bullet 2
-    -   Sub bullet 1
-    -   Sub bullet 2
-        -   Sub sub bullet 
--   Bullet 3
+- Bullet 1
+- Bullet 2
+  - Sub bullet 1
+  - Sub bullet 2
+    - Sub sub bullet 
+- Bullet 3
 
 Check 1
 
@@ -96,7 +96,7 @@ Below is a link to test page 2 inside of this notebook
 
 Below is a renamed link to test page 2 inside of this notebook
 
-[renamed link to test page 2](<./test page 2.md>)
+[renamed link to test page 2](notestation://remote/self/1026_1547KOMP551EN92DDB4FIOFUNK)
 
 Below is a a page in the 'Test Book 2' notebook
 
@@ -104,7 +104,7 @@ Below is a a page in the 'Test Book 2' notebook
 
 Below is a renamed link to a page in this notebook, the link will not work
 
-[renamed link to test page 3](<./test page 3.md>)
+[renamed link to test page 3](notestation://remote/self/1026_1LRHUFL5U57TP9HI6RDC41U7LG)
 
 Below is a link to a page that has a duplicated page title
 
@@ -138,8 +138,8 @@ A pdf of what this page looks like in Note Station has been attached - see test
 
 This is the end of the text.
 
-[Record 2021-02-15 16:00:13.webm](./file_6c4b828f227a096d3374599cae3f94ec.webm)
+## Unlinked Resources
 
-[example-attachment.pdf](./file_c4ee8b831ad1188509c0f33f0c072af5.pdf)
-
-[test page.pdf](./file_27a9aadc878b718331794c8bc50a1b8c.pdf)
+- [Record 2021-02-15 16:00:13.webm](./file_6c4b828f227a096d3374599cae3f94ec.webm)
+- [example-attachment.pdf](./file_c4ee8b831ad1188509c0f33f0c072af5.pdf)
+- [test page.pdf](./file_27a9aadc878b718331794c8bc50a1b8c.pdf)

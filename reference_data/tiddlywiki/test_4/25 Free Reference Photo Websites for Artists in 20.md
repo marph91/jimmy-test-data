@@ -76,13 +76,13 @@ You can download as many images as you like. Plus, all photos come with a CC0 li
 
 When navigating Unsplash, you have two options. You can click on one of the categories to explore a page full of images all around the same topic. You’ll find all sorts of categories, such as:
 
--   Nature
--   People 
--   Architecture
--   Fashion 
--   Film
--   Health & Wellness
--   And many more.
+- Nature
+- People 
+- Architecture
+- Fashion 
+- Film
+- Health & Wellness
+- And many more.
 
 But these categories are very wide, so it’s hard to find exactly what you need. If you have something specific in mind, your other option is to use the search function.
 
@@ -92,14 +92,14 @@ But overall, Unsplash is one of the best places to look for [artist](https://pro
 
 **Pros**:
 
--   More than 2 million images to choose from
--   There are a wide variety of images of excellent quality
--   All the images have a Creative Commons license – no accreditation is necessary
--   You can use the Categories pages or the search function to find what you need
+- More than 2 million images to choose from
+- There are a wide variety of images of excellent quality
+- All the images have a Creative Commons license – no accreditation is necessary
+- You can use the Categories pages or the search function to find what you need
 
 **Cons:**
 
--   It can be tricky to work out which keywords to use when searching for an image
+- It can be tricky to work out which keywords to use when searching for an image
 
 ### Pixabay
 
@@ -125,16 +125,16 @@ But despite this, Pixabay is another excellent website for art reference photos.
 
 **Pros:**
 
--   Every image is available for use commercially with no credit necessary
--   There are 2 million photos to choose from
--   You can also download illustrations, vectors, videos, etc 
--   Excellent filtering options by size, type, color, and more
--   You can choose the image size when you download
+- Every image is available for use commercially with no credit necessary
+- There are 2 million photos to choose from
+- You can also download illustrations, vectors, videos, etc 
+- Excellent filtering options by size, type, color, and more
+- You can choose the image size when you download
 
 **Cons:**
 
--   You need to sign up for a free account to avoid a Captcha when you download
--   It also displays paid stock images which can be confusing
+- You need to sign up for a free account to avoid a Captcha when you download
+- It also displays paid stock images which can be confusing
 
 ### Flickr
 
@@ -152,14 +152,14 @@ If you can’t find what you need on other websites, then give Flickr a try. Or,
 
 **Pros:**
 
--   There are billions of photos on Flickr
--   You can browse through tags and galleries or use the search bar
--   You can filter by license type, so you’re confident using your chosen photos
+- There are billions of photos on Flickr
+- You can browse through tags and galleries or use the search bar
+- You can filter by license type, so you’re confident using your chosen photos
 
 **Cons:**
 
--   There are lower-quality images mixed in – you’ll need to choose carefully
--   Not all photos have a Creative Commons license
+- There are lower-quality images mixed in – you’ll need to choose carefully
+- Not all photos have a Creative Commons license
 
 ### Dreamstime
 
@@ -179,14 +179,14 @@ This website isn’t as user-friendly at first, as you’ll need to learn how to
 
 **Pros:**
 
--   It has free and paid stock images available
--   You can filter it so you only see free stock images in the public domain
+- It has free and paid stock images available
+- You can filter it so you only see free stock images in the public domain
 
 **Cons:**
 
--   You have to sign up for a free account to download images
--   The photos are displayed with a watermark on them
--   There’s a lot of marketing of the paid images and subscriptions across the entire website 
+- You have to sign up for a free account to download images
+- The photos are displayed with a watermark on them
+- There’s a lot of marketing of the paid images and subscriptions across the entire website 
 
 ### FreePik
 
@@ -204,14 +204,14 @@ There is some advertising of FreePik’s paid plans. But it’s not too in your 
 
 **Pros:**
 
--   This website is very easy to use and provides a great user experience
--   It’s easy to search for any type of image and filter to see only free images
--   You can use FreePik photos for commercial and personal use
+- This website is very easy to use and provides a great user experience
+- It’s easy to search for any type of image and filter to see only free images
+- You can use FreePik photos for commercial and personal use
 
 **Cons:**
 
--   You will need to credit the photographer when you use their images
--   There are some ads on the website which not everyone likes
+- You will need to credit the photographer when you use their images
+- There are some ads on the website which not everyone likes
 
 ### Pexels
 
@@ -233,14 +233,14 @@ So, you can feel confident using Pexels images for your artwork! 
 
 **Pros:**
 
--   Pexels has a massive selection of images for your inspiration and artwork
--   The website is simple and easy to use
--   Downloading images is very quick – no account is necessary
+- Pexels has a massive selection of images for your inspiration and artwork
+- The website is simple and easy to use
+- Downloading images is very quick – no account is necessary
 
 **Cons:**
 
--   The Pexels License allows you to use every image commercially without accreditation
--   It doesn’t have as many images as Pixabay
+- The Pexels License allows you to use every image commercially without accreditation
+- It doesn’t have as many images as Pixabay
 
 ### Wikimedia Commons
 
@@ -262,13 +262,13 @@ It does have a search function, though. You can get more tailored results by fil
 
 **Pros:**
 
--   This website is a little clunky but has lots of photos to choose from
--   Anyone can contribute, so not all images are high quality
--   You can filter images by license type
+- This website is a little clunky but has lots of photos to choose from
+- Anyone can contribute, so not all images are high quality
+- You can filter images by license type
 
 **Cons:**
 
--   There aren’t any categories to look through
+- There aren’t any categories to look through
 
 ### Public Domain Pictures
 
@@ -284,12 +284,12 @@ Most of the images on this website are of excellent quality. They will work perf
 
 **Pros:**
 
--   It has an excellent selection of professional [photography](https://proactivecreative.com/the-best-cameras-for-photographing-your-artwork/) to choose from
--   You can browse within tons of different categories or search for a specific word
+- It has an excellent selection of professional [photography](https://proactivecreative.com/the-best-cameras-for-photographing-your-artwork/) to choose from
+- You can browse within tons of different categories or search for a specific word
 
 **Cons:**
 
--   The licensing is a little confusing – make sure you’re clear on what type of license you need
+- The licensing is a little confusing – make sure you’re clear on what type of license you need
 
 ### ISO Republic
 
@@ -307,14 +307,14 @@ You can download an image with one click of a button. That’s just one of the r
 
 **Pros:**
 
--   It’s easy to download images – no account is necessary
--   Every image is free to use and has a CC0 license
--   You don’t need to credit the photographer
--   The website has categories and a simple search function you can use to find images
+- It’s easy to download images – no account is necessary
+- Every image is free to use and has a CC0 license
+- You don’t need to credit the photographer
+- The website has categories and a simple search function you can use to find images
 
 **Cons:**
 
--   The selection isn’t as large as other stock image websites
+- The selection isn’t as large as other stock image websites
 
 ### Public Domain Archive
 
@@ -334,29 +334,29 @@ There are no categories, and it doesn’t even have a search bar. So, you need t
 
 **Pros:**
 
--   This website has gorgeous, high-quality images
--   You can use all these images for free and for commercial purposes
+- This website has gorgeous, high-quality images
+- You can use all these images for free and for commercial purposes
 
 **Cons:**
 
--   The selection is quite limited
--   There’s no search bar or categories – you have to click between pages of photos
--   It’s hard to find what you need
+- The selection is quite limited
+- There’s no search bar or categories – you have to click between pages of photos
+- It’s hard to find what you need
 
 ## More Free Reference Photo Websites for Artists
 
--   [Wildlife Reference Photos](http://wildlifereferencephotos.com)
--   [Photo Bash](http://photobash.co)
--   [Splitshire](https://www.splitshire.com/)
--   [CtrlPaint](https://www.ctrlpaint.com/)
--   [DrawABox](https://drawabox.com/)
--   [Morguefile](https://morguefile.com/)
--   [Kaboompics](https://kaboompics.com/)
--   [Stocksnap](https://stocksnap.io/)
--   [Wildlifeart](https://www.wildlifeart-online.com/)
--   [Rawpixel](https://www.rawpixel.com/)
--   [Picjumbo](https://picjumbo.com/)
--   [Libreshot](https://libreshot.com/)
--   [FREEImages](https://www.freeimages.com/)
--   [Stockvault](https://www.stockvault.net/)
--   [Gratisography](https://gratisography.com/)
+- [Wildlife Reference Photos](http://wildlifereferencephotos.com)
+- [Photo Bash](http://photobash.co)
+- [Splitshire](https://www.splitshire.com/)
+- [CtrlPaint](https://www.ctrlpaint.com/)
+- [DrawABox](https://drawabox.com/)
+- [Morguefile](https://morguefile.com/)
+- [Kaboompics](https://kaboompics.com/)
+- [Stocksnap](https://stocksnap.io/)
+- [Wildlifeart](https://www.wildlifeart-online.com/)
+- [Rawpixel](https://www.rawpixel.com/)
+- [Picjumbo](https://picjumbo.com/)
+- [Libreshot](https://libreshot.com/)
+- [FREEImages](https://www.freeimages.com/)
+- [Stockvault](https://www.stockvault.net/)
+- [Gratisography](https://gratisography.com/)

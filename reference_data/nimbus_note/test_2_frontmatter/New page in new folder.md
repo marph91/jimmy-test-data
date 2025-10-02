@@ -10,16 +10,16 @@ title: New page in new folder
 
 **checklist**
 
--   [ ] todo item 1
--   [ ] todo item 2
+- [ ] todo item 1
+- [ ] todo item 2
 
 **unnumbered** *list*
 
--   item 1
-    -   nested
-        -   even ==more==
-        -   nested
--   item 2
+- item 1
+  - nested
+    - even ==more==
+    - nested
+- item 2
 
 ++numbered list++
 
@@ -31,17 +31,13 @@ title: New page in new folder
 
 ~~image~~
 
-[![e1GHfrAAh4S96o7k.png](./e1GHfrAAh4S96o7k.png)](./assets/e1GHfrAAh4S96o7k.png)
+![e1GHfrAAh4S96o7k.png](./e1GHfrAAh4S96o7k.png)
 
   
 
 ## file
 
-![unnamed_bdd640fb06674ad19c80317fa3b1799d](./unnamed_bdd640fb06674ad19c80317fa3b1799d.svg)
-
-[plaintext.txt](./XfOyFr3jQ92lni7u.txt)(34 B)
-
-![unnamed_23b8c1e9392446debeb13b9046685257](./unnamed_23b8c1e9392446debeb13b9046685257.svg)
+[plaintext.txt](./XfOyFr3jQ92lni7u.txt)
 
   
 
@@ -70,8 +66,6 @@ def abc()
 
 
 GitHub - marph91/jimmy: Convert your notes to Markdown
-
-
 
 ![](https://github.com/fluidicon.png)
 

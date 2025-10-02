@@ -29,4 +29,6 @@ mit Anhang
 
 [2](<./Zettel 2.md>), [3](./Zettel3.md)
 
-[test.md](./test.md)
+## Unlinked Resources
+
+- [test.md](./test.md)

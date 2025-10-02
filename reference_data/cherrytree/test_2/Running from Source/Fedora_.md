@@ -6,28 +6,52 @@ This only works in Fedora 30 and earlier. PYGtkSourceView2, one of Cherrytree's 
 	1. Install Python2
 	
 	
+```sh
+sudo dnf install python2
+```
+
 
 	2. Install Cherrytree’s core dependencies with the command:
 
 	
+```sh
+sudo dnf install pygtk2 pygtksourceview p7zip p7zip-plugins
+```
+
 
 	3. (**Optional**) Install dependencies for additional functionality:
 
 		- To use an appindicator in systray instead of the standard systray.
 		   
 				
+```sh
+sudo dnf install python-appindicator
+```
+
 
 		- For multiple instances centralization. (Double-clicking a file that is already open displays the open document instead of opening another instance of that file.)
 		
 				
+```sh
+sudo dnf install python-dbus
+```
+
 
 		- For spell check fuctionality.
 		   
 				
+```sh
+sudo dnf install python-enchant
+```
+
 
 		- For better decoding support of imported and pasted text.
 		   
 				
+```sh
+sudo dnf install python-chardet
+```
+
 
 	4. [Clone](https://git-scm.com/docs/git-clone) or download the [Cherrytree repository](https://github.com/giuspen/cherrytree).
 
@@ -35,30 +59,6 @@ This only works in Fedora 30 and earlier. PYGtkSourceView2, one of Cherrytree's 
 	
 	
 	
-```sh
-sudo dnf install python2
-```
-
-```sh
-sudo dnf install pygtk2 pygtksourceview p7zip p7zip-plugins
-```
-
-```sh
-sudo dnf install python-appindicator
-```
-
-```sh
-sudo dnf install python-dbus
-```
-
-```sh
-sudo dnf install python-enchant
-```
-
-```sh
-sudo dnf install python-chardet
-```
-
 ```sh
 python2 cherrytree
 ```

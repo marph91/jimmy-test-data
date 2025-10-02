@@ -19,19 +19,19 @@ UpNote is designed to help you take notes quickly and keep them organized. Here 
 
 ### Create a checklist to manage your todos:
 
--   [x] Finish homework by Friday
--   [ ] Book ticket for summer vacation
--   [ ] Return library books
+- [x] Finish homework by Friday
+- [ ] Book ticket for summer vacation
+- [ ] Return library books
 
   
 
 ### Write your thoughts with rich formatting:
 
--   Use list and nested list, like this:
-    -   Write text in **bold, ***italic,* ++underline++, ~~strike-through~~
-    -   Highlight text in multiple colors: ==orange==, ==red==, ==blue==, ==yellow==, ==green== and ==purple==.
--   Select your preferred font in Settings  
--   Add a [link](https://medium.com/upnote) to your note
+- Use list and nested list, like this:
+  - Write text in **bold,** *italic,* ++underline++, ~~strike-through~~
+  - Highlight text in multiple colors: ==orange==, ==red==, ==blue==, ==yellow==, ==green== and ==purple==.
+- Select your preferred font in Settings  
+- Add a [link](https://medium.com/upnote) to your note
 
   
 
@@ -74,22 +74,22 @@ $$x=\frac{-b\pm \sqrt{b^2-4ac}}{2a}$$
 
 ### Link between notes 🔗
 
--   You can link to other notes, for example see [Explore UpNote features](<./Explore UpNote features.md>)
--   To link to another note, simply type `[[` and you can select the note you want to refer to. (You can find out more about note linking [here](https://medium.com/upnote/bi-directional-links-in-upnote-63631bd36b2a))
+- You can link to other notes, for example see [Explore UpNote features](<./Explore UpNote features.md>)
+- To link to another note, simply type `[[` and you can select the note you want to refer to. (You can find out more about note linking [here](https://medium.com/upnote/bi-directional-links-in-upnote-63631bd36b2a))
 
   
 
 ### Sync notes across devices 💻📱
 
--   Create a free account and log in to your devices
--   You can use UpNote on iPhone, iPad, Mac, Android, Windows and Linux
+- Create a free account and log in to your devices
+- You can use UpNote on iPhone, iPad, Mac, Android, Windows and Linux
 
   
 
 ### Unlock full power of UpNote with Premium
 
--   Upgrade once and use on all devices  
--   Check out Settings \> Premium for more details ⭐
+- Upgrade once and use on all devices  
+- Check out Settings \> Premium for more details ⭐
 
   
 

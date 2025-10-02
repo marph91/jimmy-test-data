@@ -12,6 +12,7 @@ And yet when push comes to shove, sometimes you just really need your code to kn
 A minimal size reporting component looks like this 👇
 
 ```
+
 class ReportSize extends React.Component {
   refCallback = element => {
     if (element) {
@@ -33,6 +34,7 @@ The `render` method outputs a `<div>` with a ref callback and a red border. Insi
 After React places this element, it calls `refCallback` with a reference to the rendered DOM node. We can then use [`getBoundingClientRect`](https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect) to measure its size.
 
 ```
+
 {
   "x": 8,
   "y": 158.8125,
@@ -60,6 +62,7 @@ Keep clicking `shuffle` and sizing info is always correct.
 The key is enabling size reporting when you logically know size is going to change, in `shuffle`, and disabling it as soon as you report the change in `componentDidUpdate`.
 
 ```
+
 shuffle = () => {
     this.doReportSize = true;
     this.setState({

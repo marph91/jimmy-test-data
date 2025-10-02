@@ -42,17 +42,17 @@ With a hidden text block.
 
 # Itemisation Blocks
 
--   [ ] This is a todo-list item.
+- [ ] This is a todo-list item.
 
--   This is a toggle-list item…
+- This is a toggle-list item…
 
-    …with hidden content!
+  …with hidden content!
 
 &nbsp;
 
--   This is a bullet-list item…
-    -   with three distinct…
-        -   bullet icon levels.
+- This is a bullet-list item…
+  - with three distinct…
+    - bullet icon levels.
 
 1.  This is an ordered-list item…
     1.  with three distinct…
@@ -112,6 +112,6 @@ The cat, also referred to as the domestic cat or house cat, is a small domestica
 
 **Embedded webpage**
 
-[![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Felis_catus-cat_on_snow.jpg/2560px-Felis_catus-cat_on_snow.jpg)](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Felis_catus-cat_on_snow.jpg/2560px-Felis_catus-cat_on_snow.jpg)
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Felis_catus-cat_on_snow.jpg/2560px-Felis_catus-cat_on_snow.jpg)
 
 **Embedded image**

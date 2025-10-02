@@ -91,15 +91,15 @@ The dash is the default list identifier. For sublists,
 just add **spaces** at the beginning of the line. More
 spaces, more sublists.
 
--   Earth
-    -   America
-        -   South America
-            -   Brazil
-                -   How deep can I go?
-    -   Europe
-        -   Lots of countries
--   Mars
-    -   Who knows?
+- Earth
+  - America
+    - South America
+      - Brazil
+        - How deep can I go?
+  - Europe
+    - Lots of countries
+- Mars
+  - Who knows?
 
 The list ends with **two** consecutive blank lines.
 
@@ -111,10 +111,10 @@ identifier (plus).
 1.  one
 2.  two
 3.  three
-    -   mixed lists!
-    -   what a mess
-        1.  counting again
-        2.  ...
+    - mixed lists!
+    - what a mess
+      1.  counting again
+      2.  ...
 4.  four
 
 ## Definition List
@@ -129,14 +129,14 @@ apple
 a green or red fruit
 
 other fruits  
--   wee!
+- wee!
 
--   mixing lists
+- mixing lists
 
-    1.  again!
-    2.  and again!
+  1.  again!
+  2.  and again!
 
-    # Tables
+  # Tables
 
 Use pipes to compose table rows and cells.
 Double pipe at the line beginning starts a heading row.
@@ -202,8 +202,8 @@ And with some targets the image is linkable :
 
 [![photo.jpg](./photo.jpg)](http://www.txt2tags.org)
 
--   The filename must end in PNG, JPG, GIF, or similar.
--   No spaces inside the brackets!
+- The filename must end in PNG, JPG, GIF, or similar.
+- No spaces inside the brackets!
 
 ## Other
 

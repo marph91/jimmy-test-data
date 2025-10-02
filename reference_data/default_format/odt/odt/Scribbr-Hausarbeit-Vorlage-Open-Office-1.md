@@ -61,10 +61,10 @@ Deine Einleitung sollte etwa 10 % des gesamten Textes umfassen.
 
 Sie sollte folgende Inhalte haben:
 
--   Kurze Themendarstellung
--   Relevanz des Themas
--   Forschungsfrage
--   Aufbau der Arbeit
+- Kurze Themendarstellung
+- Relevanz des Themas
+- Forschungsfrage
+- Aufbau der Arbeit
 
 Tipp: Lies dir deine Einleitung noch einmal durch, nachdem du dein Fazit geschrieben hast. Die Einleitung sollte genau zum Fazit passen. 
 
@@ -134,10 +134,10 @@ Dein Fazit sollte etwa 5–10 % des gesamten Textes umfassen.
 
 Es sollte die folgenden Inhalte haben:
 
--   Kurzer Rückblick auf die Arbeit: Was war deine Forschungsfrage und wie bist du vorgegangen, um sie zu beantworten?
--   Darstellung der Ergebnisse
--   Beantwortung der Forschungsfrage
--   Ausblick auf weitere mögliche Forschungsarbeiten
+- Kurzer Rückblick auf die Arbeit: Was war deine Forschungsfrage und wie bist du vorgegangen, um sie zu beantworten?
+- Darstellung der Ergebnisse
+- Beantwortung der Forschungsfrage
+- Ausblick auf weitere mögliche Forschungsarbeiten
 
 Hinweis: Stelle hier keine neuen Informationen oder Beispiele vor, sondern fasse bereits Gesagtes sinnvoll zusammen.
 
@@ -159,9 +159,9 @@ Du kannst die lesende Person im Fließtext auf Dokumente im Anhang aufmerksam ma
 
 Hinweise:
 
--   Nummeriere alle Anhänge.
--   Gib allen Anhängen einen eindeutigen Titel.
--   Trenne die Anhänge, sodass jeder auf einer neuen Seite beginnt.
+- Nummeriere alle Anhänge.
+- Gib allen Anhängen einen eindeutigen Titel.
+- Trenne die Anhänge, sodass jeder auf einer neuen Seite beginnt.
 
 Mehr Informationen zum Anhang findest du unter:
 
