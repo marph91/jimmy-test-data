@@ -52,6 +52,6 @@
 - [ ]
 - [ ]
 
-==↑ Trage hier deine To-dos ein. Du kannst jederzeit weitere hinzufügen, indem du ====`/to-do`==== in eine leere Zeile eintippst.==
+==↑ Trage hier deine To-dos ein. Du kannst jederzeit weitere hinzufügen, indem du `/to-do` in eine leere Zeile eintippst.==
 
 [😄todo 1](<./Wöchentliche To-do-Liste/todo 1.md>)

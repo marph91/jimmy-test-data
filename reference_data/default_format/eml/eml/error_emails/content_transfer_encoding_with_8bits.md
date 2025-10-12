@@ -57,7 +57,7 @@ To<br> unsubscribe from the <br><br> Original Advantage [Click<br> here](http:/
 
 [![](http://www.provantage.com/MCSW00M.GIF)](http://www.provantage.com/scripts/go.dll/e13011_3/FP_62272.HTM)
 
-*****New!***<br>[Plus! for Windows XP](http://www.provantage.com/scripts/go.dll/e13011_3/FP_62272.HTM) By Microsoft**
+***New!*<br>[Plus! for Windows XP](http://www.provantage.com/scripts/go.dll/e13011_3/FP_62272.HTM) By Microsoft**
 
 <br>Personalize your computer experience like never before.<br><br>Built exclusively to take advantage of the power of Windows XP, MS Plus! delivers exciting *...[More](http://www.provantage.com/FP_62272.HTM?MCSW00M)*
 
@@ -113,7 +113,7 @@ To<br> unsubscribe from the <br><br> Original Advantage [Click<br> here](http:/
 
 [![](http://www.provantage.com/SW_62263.GIF)](http://www.provantage.com/scripts/go.dll/e13011_7/FP_62263.HTM)
 
-*****New!***<br>[Links 2001 Expansion Pack Volume 1](http://www.provantage.com/scripts/go.dll/e13011_7/FP_62263.HTM) By Microsoft**
+***New!*<br>[Links 2001 Expansion Pack Volume 1](http://www.provantage.com/scripts/go.dll/e13011_7/FP_62263.HTM) By Microsoft**
 
 <br>Join PGA Tour pros Mike Weir & Keith Clearwater on 4 new courses designed for Links 2001:
 
@@ -171,7 +171,7 @@ The Canyons Course at Bighorn, Thanksgiving Point *...[More](http://www.provanta
 
 [![](http://www.provantage.com/SW_60941.GIF)](http://www.provantage.com/scripts/go.dll/e13011_11/FP_60941.HTM)
 
-*****New!***<br>[MechCommander 2](http://www.provantage.com/scripts/go.dll/e13011_11/FP_60941.HTM) By Microsoft**
+***New!*<br>[MechCommander 2](http://www.provantage.com/scripts/go.dll/e13011_11/FP_60941.HTM) By Microsoft**
 
 <br>Take control of an entire company of the most fearsome military machines in history - BattleMechs!<br><br>As a MechCommander, you command a unit of *...[More](http://www.provantage.com/FP_60941.HTM?MSXG009)*
 

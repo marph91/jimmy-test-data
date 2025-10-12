@@ -94,9 +94,9 @@ Callout body with no title.
 
 # Nested Formatting
 
-### ====A Highlighted Heading====
+### ==A Highlighted Heading==
 
-====Here is some text that has been highlighted multiple times.====
+==Here is some text that has been highlighted multiple times.==
 
 # Quotes, Callouts + Nesting
 

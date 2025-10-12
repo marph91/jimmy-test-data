@@ -51,7 +51,7 @@ We can put a code sample or other pre-formatted text:
     here is pre-formatted
     //marks// are 
 
-****not**** \``interpreted`\`
+**not** \``interpreted`\`
 
 And also, it's easy to put a one line pre-formatted
 text:
