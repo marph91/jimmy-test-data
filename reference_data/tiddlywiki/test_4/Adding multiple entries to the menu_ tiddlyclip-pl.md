@@ -10,5 +10,5 @@ https://github.com/buggyj/tiddlyclip-plugin/discussions/115
 
 You can modify the rule given in this post for the markdown content. I don't use markdown format in my wiki. So I don't have much experience with it
 
-![](image.png)
+![image.png](image.png)
 
