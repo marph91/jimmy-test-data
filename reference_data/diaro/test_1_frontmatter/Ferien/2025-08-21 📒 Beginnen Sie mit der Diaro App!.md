@@ -6,7 +6,7 @@ tags:
 - film
 - idee
 - traum
-title: "2025-08-21 \U0001F4D2 Beginnen Sie mit der Diaro App!"
+title: 2025-08-21 📒 Beginnen Sie mit der Diaro App!
 updated: '2025-08-21T14:44:16'
 ---
 
