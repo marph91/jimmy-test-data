@@ -1,5 +1,4 @@
 ---
-created: '2020-07-07T14:36:19'
 tags:
 - awe
 - budding

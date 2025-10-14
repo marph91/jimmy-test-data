@@ -1,5 +1,5 @@
 - 
-- [Hiring](roam-page://Hiring) [Work at Roam](roam-page://Work at Roam) [Clojure Engineer](roam-page://Clojure Engineer) - [Backend Role](roam-page://Backend Role) [Take Home Project](roam-page://Take Home Project)
+- [Hiring](./Hiring.md) [Work at Roam](<./Work at Roam.md>) [Clojure Engineer](<./Clojure Engineer.md>) - [Backend Role](<./Backend Role.md>) [Take Home Project](<./Take Home Project.md>)
     - [ ] Given a map, or a [datascript](https://github.com/tonsky/datascript) database at two points in time
     - [ ] Generate a diff of the two structures
     - [ ] Generate the minimal transaction which will bring A -> B, and vice versa.
