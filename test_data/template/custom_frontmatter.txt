@@ -10,6 +10,7 @@ tags: {tags}
 resources: {resources}
 note_links: {note_links}
 custom_key: {custom_key}
+custom_key_not_available_with_date_format: {custom_key_not_available_with_date_format:%Y-%m-%dT%H:%M:%SZ}
 ---
 
 {body}

@@ -10,6 +10,7 @@ tags: ['some_tag']
 resources: ['link to image']
 note_links: ['link to itself']
 custom_key: custom_value
+custom_key_not_available_with_date_format: null
 ---
 
 Sample content  
