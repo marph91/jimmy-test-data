@@ -13,7 +13,7 @@ The TiddlyWiki core provides the following deserializers:
 | Deserializer | Description |
 | --- | --- |
 | (DOM) | Extracts tiddlers from a DOM node, should not be used with the <<.op deserialize[]>> operator |
-| application/javascript | Parses a JavaScript module as a tiddler extracting fields from the header comment |
+| application/javascript | Parses a [JavaScript](./JavaScript.md) module as a tiddler extracting fields from the header comment |
 | application/json | Parses [JSON](<./JSON in TiddlyWiki.md>) into tiddlers |
 | application/x-tiddler | Parses the [.tid file format](./TiddlerFiles.md) as a tiddler |
 | application/x-tiddler-html-div | Parses the [<DIV>.tiddler file format](tiddlywiki://TiddlerFiles) as a tiddler |

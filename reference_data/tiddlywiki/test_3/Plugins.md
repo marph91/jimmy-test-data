@@ -4,13 +4,13 @@ Plugins in TiddlyWiki5 can be used to distribute optional components that custom
 
 Internally, plugins are a bundle of tiddlers packaged together as a single tiddler that can be installed, copied, disabled or deleted as a unit. The individual tiddlers within a plugin appear as shadow tiddlers. 
 
-Plugins can contain ~JavaScript modules, style sheets, and templates. Plugins can also be used to distribute ordinary text, images or any other content.
+Plugins can contain ~JavaScript modules, style sheets, and templates. [Plugins](./Plugins.md) can also be used to distribute ordinary text, images or any other content.
 
-# Handling Plugins with a Single File Wiki
+# Handling [Plugins](./Plugins.md) with a Single File Wiki
 
-<<list-links "[Plugins](tiddlywiki://Plugins) -[draft.of](tiddlywiki://draft.of)">>
+<<list-links "[Plugins](./Plugins.md) -[draft.of](tiddlywiki://draft.of)">>
 
-# Handling Plugins with a Client - Server Configuration (Node.js)
+# Handling [Plugins](./Plugins.md) with a Client - Server Configuration (Node.js)
 
 <<list-links "[PluginsCS](tiddlywiki://PluginsCS) -[draft.of](tiddlywiki://draft.of)">>
 

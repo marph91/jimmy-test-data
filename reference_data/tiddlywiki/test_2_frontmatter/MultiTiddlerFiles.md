@@ -6,7 +6,7 @@ title: MultiTiddlerFiles
 updated: '2015-06-21T18:21:40.407000'
 ---
 
-MultiTiddlerFiles allow multiple tiddlers to be concisely represented in a single text file.
+[MultiTiddlerFiles](./MultiTiddlerFiles.md) allow multiple tiddlers to be concisely represented in a single text file.
 
 The goals of this format are:
 
