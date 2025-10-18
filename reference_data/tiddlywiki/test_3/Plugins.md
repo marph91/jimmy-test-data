@@ -1,10 +1,10 @@
 # Introduction
 
-Plugins in TiddlyWiki5 can be used to distribute optional components that customise and extend wiki. You can install them from the official plugin library or from community sites.
+[Plugins](./Plugins.md) in TiddlyWiki5 can be used to distribute optional components that customise and extend wiki. You can install them from the official plugin library or from community sites.
 
 Internally, plugins are a bundle of tiddlers packaged together as a single tiddler that can be installed, copied, disabled or deleted as a unit. The individual tiddlers within a plugin appear as shadow tiddlers. 
 
-Plugins can contain ~JavaScript modules, style sheets, and templates. [Plugins](./Plugins.md) can also be used to distribute ordinary text, images or any other content.
+[Plugins](./Plugins.md) can contain ~JavaScript modules, style sheets, and templates. [Plugins](./Plugins.md) can also be used to distribute ordinary text, images or any other content.
 
 # Handling [Plugins](./Plugins.md) with a Single File Wiki
 

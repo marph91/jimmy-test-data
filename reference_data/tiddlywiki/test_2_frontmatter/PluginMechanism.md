@@ -12,7 +12,7 @@ updated: '2024-05-20T16:28:28.577000'
 
 <<.from-version "5.1.22">> [Plugins](./Plugins.md) that contain [JavaScript](./JavaScript.md) modules require a reload of the wiki before they will work. [Plugins](./Plugins.md) that do not contain [JavaScript](./JavaScript.md) modules are automatically dynamically loaded and unloaded. 
 
-Plugins can be used to package any tiddler content, including [JavaScript](./JavaScript.md) [modules](./Modules.md) that extend and enhance the core TiddlyWiki5 functionality. The tiddlers within registered plugins are ShadowTiddlers: they can be freely overwritten by creating a tiddler with the same title, but deleting that tiddler restores the underlying tiddler value from the plugin.
+[Plugins](./Plugins.md) can be used to package any tiddler content, including [JavaScript](./JavaScript.md) [modules](./Modules.md) that extend and enhance the core TiddlyWiki5 functionality. The tiddlers within registered plugins are ShadowTiddlers: they can be freely overwritten by creating a tiddler with the same title, but deleting that tiddler restores the underlying tiddler value from the plugin.
 
 By convention, plugin titles have the form `$:/plugins/<publisher>/<name>`. [Plugins](./Plugins.md) that are part of the core TiddlyWiki distribution have titles of the form `$:/plugins/tiddlywiki/<name>`.
 
