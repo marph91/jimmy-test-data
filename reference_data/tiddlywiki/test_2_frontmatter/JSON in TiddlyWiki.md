@@ -6,6 +6,8 @@ title: JSON in TiddlyWiki
 updated: '2022-06-11T10:47:37.314000'
 ---
 
+[Features](broken-link Features)
+
 ## Introduction
 
 JSON (~JavaScript Object Notation) is a standardised text representation for data structures that is widely used for the storage and transfer of data.

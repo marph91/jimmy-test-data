@@ -1,3 +1,5 @@
+[tiddlyclip](broken-link tiddlyclip)
+
 https://github.com/buggyj/tiddlyclip/discussions/80#discussioncomment-4687632
 
 The default is to copy plain text, but this can be changed to html in the `defaultSnip` tiddler:

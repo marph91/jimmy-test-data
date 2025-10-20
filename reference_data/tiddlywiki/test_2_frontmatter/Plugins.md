@@ -7,6 +7,8 @@ title: Plugins
 updated: '2022-06-17T13:38:19.755000'
 ---
 
+[Concepts](./Concepts.md), [TableOfContents](broken-link TableOfContents)
+
 # Introduction
 
 Plugins in TiddlyWiki5 can be used to distribute optional components that customise and extend wiki. You can install them from the official plugin library or from community sites.

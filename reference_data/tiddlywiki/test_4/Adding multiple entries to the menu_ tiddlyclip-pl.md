@@ -1,3 +1,5 @@
+[tiddlyclip](broken-link tiddlyclip)
+
 https://github.com/buggyj/tiddlyclip-plugin/discussions/115
 
 Only html and text are supported.

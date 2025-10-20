@@ -6,6 +6,8 @@ title: PluginMechanism
 updated: '2024-05-20T16:28:28.577000'
 ---
 
+[Mechanisms](broken-link Mechanisms)
+
 # Introduction
 
 [Plugins](./Plugins.md) are bundles of tiddlers that are distributed and managed as a single unit. Users can install them with drag and drop, or using the [plugin library](broken-link Installing a plugin from the plugin library).

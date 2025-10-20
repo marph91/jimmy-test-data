@@ -1,3 +1,5 @@
+[linux](broken-link linux)
+
 https://superuser.com/questions/181733/how-can-i-restore-grub-without-a-live-cd
 
 I managed to boot using the grub rescue prompt with the help of the [Ubuntu grub2 reference](https://help.ubuntu.com/community/Grub2) using these commands:
