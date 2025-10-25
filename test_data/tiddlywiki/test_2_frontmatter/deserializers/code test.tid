@@ -1,0 +1,16 @@
+created: 20251021170911324
+modified: 20251021171004912
+status: complete
+title: code test
+
+this is `inline code <code>that should</code> stay`.
+
+this is another one: `function halloWelt() {alert('Hello World');}`.
+
+This is
+
+```
+a
+code block
+that <div>should stay</div>
+```
