@@ -42,4 +42,4 @@ When [running TiddlyWiki under Node.js](broken-link TiddlyWiki on Node.js), plug
 
 # More information
 
-<<list-links "[PluginMechanism](tiddlywiki://PluginMechanism)">>
+<<list-links "[tag[PluginMechanism]]">>

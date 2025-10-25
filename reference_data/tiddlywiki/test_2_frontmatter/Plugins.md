@@ -19,11 +19,11 @@ Plugins can contain ~JavaScript modules, style sheets, and templates. Plugins ca
 
 # Handling Plugins with a Single File Wiki
 
-<<list-links "[Plugins](tiddlywiki://Plugins) -[draft.of](tiddlywiki://draft.of)">>
+<<list-links "[tag[Plugins]] -[has[draft.of]]">>
 
 # Handling Plugins with a Client - Server Configuration (Node.js)
 
-<<list-links "[PluginsCS](tiddlywiki://PluginsCS) -[draft.of](tiddlywiki://draft.of)">>
+<<list-links "[tag[PluginsCS]] -[has[draft.of]]">>
 
 # Plugin Mechanism
 
