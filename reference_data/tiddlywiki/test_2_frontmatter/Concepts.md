@@ -10,4 +10,4 @@ updated: '2025-01-04T11:06:43.596000'
 
 These are the concepts underlying TiddlyWiki. Understanding how these ideas fit together is the key to getting the most from TiddlyWiki.
 
-<<list-links "[tag[Concepts]sort[title]]" class:"multi-columns">>
+<<list-links "[tag[concepts]sort[title]]" class:"multi-columns">>

@@ -23,9 +23,9 @@ The `:map` filter run will return at least as many outputs as given in the input
 | `:map` | `:map:flat` |
 | --- | --- |
 | <<.operator-example m0.1 "[range[4]] :map[match[this matches nothing]]">> | <<.operator-example m0.2 "[range[4]] :map:flat[match[this matches nothing]]">> |
-| <<.operator-example m1.1 "[range[4]] :map[range<currentTiddler>]">> | <<.operator-example m1.2 "[range[4]] :map:flat[range<currentTiddler>]">> |
-| <<.operator-example m2.1 "[range[4]] :map[range<currentTiddler>]">> | <<.operator-example m2.2 "[range[4]] :map:flat[range<currentTiddler>first[]]">> |
-| <<.operator-example m3.1 "[range[4]] :map[range<currentTiddler>sum[]]">> | <<.operator-example m3.2 "[range[4]] :map:flat[range<currentTiddler>sum[]]">> |
+| <<.operator-example m1.1 "[range[4]] :map[range<currenttiddler>]">> | <<.operator-example m1.2 "[range[4]] :map:flat[range<currenttiddler>]">> |
+| <<.operator-example m2.1 "[range[4]] :map[range<currenttiddler>]">> | <<.operator-example m2.2 "[range[4]] :map:flat[range<currenttiddler>first[]]">> |
+| <<.operator-example m3.1 "[range[4]] :map[range<currenttiddler>sum[]]">> | <<.operator-example m3.2 "[range[4]] :map:flat[range<currenttiddler>sum[]]">> |
 | <<.operator-example m4.1 "[1,2,3](broken-link 1,2,3) [4,5](broken-link 4,5) :map[split[,]]">> | <<.operator-example m4.2 "[1,2,3](broken-link 1,2,3) [4,5](broken-link 4,5) :map:flat[split[,]]">> |
 | <<.operator-example m5.1 "[1,2,3](broken-link 1,2,3) [4,5](broken-link 4,5) :map[split[,]]">> | <<.operator-example m5.2 "[1,2,3](broken-link 1,2,3) [4,5](broken-link 4,5) :map:flat[split[,]first[]]">> |
 
@@ -53,5 +53,5 @@ The functionality of the `:map` filter run prefix has some overlap with the `:an
 | !de-duplication |  |
 | <<.operator-example 7.1 "[range[5]] :map[hello](broken-link hello)">> | <<.operator-example 7.2 "[range[5]] :and[hello](broken-link hello)">> |
 | !currentTiddler |  |
-| <<.operator-example 8.1 "[tag[shopping]] :map[<currentTiddler>]">> | <<.operator-example 8.2 "[tag[shopping]] :and[<currentTiddler>]">> |
+| <<.operator-example 8.1 "[tag[shopping]] :map[<currenttiddler>]">> | <<.operator-example 8.2 "[tag[shopping]] :and[<currenttiddler>]">> |
 | <<.operator-example 9.1 "[tag[shopping]] :map[{!!quantity}]">> | <<.operator-example 9.2 "[tag[shopping]] :and[{!!quantity}]">> |
