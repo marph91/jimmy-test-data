@@ -24,7 +24,7 @@ This is some more text
 
 This is highlighted Text
 
-This is crossed out
+This is ~~crossed~~ out
 
 This is *italic*
 
