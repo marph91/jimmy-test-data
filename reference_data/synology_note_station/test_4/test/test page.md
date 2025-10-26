@@ -49,19 +49,13 @@ super^script^
     - Sub sub bullet 
 - Bullet 3
 
-Check 1
-
-Check 2
-
-Sub check 1
-
-Sub check 2
-
-Sub sub check 1
-
-Sub sub check 2
-
-Check 3
+- [x] Check 1
+- [ ] Check 2
+  - [ ] Sub check 1
+  - [x] Sub check 2
+    - [ ] Sub sub check 1
+    - [x] Sub sub check 2
+- [ ] Check 3
 
 There is a horizontal line below this text
 
