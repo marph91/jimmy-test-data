@@ -6,7 +6,7 @@ title: 'Start with FuseBase Here: Skyrocket Your Workflow'
 
   
 
-## * ✅ Explore Everything Step By Step*
+##  *✅ Explore Everything Step By Step*
 
 **Let us help you become a fully-fledged FuseBase citizen. Stick to our task list below and cross one task off at a time to mark your progress. You can always come back to this page and check what's left. Or open Tasks in the left sidebar to find the task list in the dashboard.**  
   

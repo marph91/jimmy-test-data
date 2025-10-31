@@ -4,9 +4,9 @@
 
 # Wöchentliche To-do-Liste
 
-== ↓ Klicke auf den Button, um eine To-do-Liste für die neue Woche zu erstellen. Du kannst alte To-dos der letzten Woche einfach in die neue Liste ziehen. ==
+==↓ Klicke auf den Button, um eine To-do-Liste für die neue Woche zu erstellen. Du kannst alte To-dos der letzten Woche einfach in die neue Liste ziehen.==
 
-# == 04. März-09.März==
+# ==04. März-09.März==
 
 ------------------------------------------------------------------------
 

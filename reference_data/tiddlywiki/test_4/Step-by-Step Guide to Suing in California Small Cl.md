@@ -45,7 +45,7 @@ In this guide, learn about:
 | **Hearing Dates** | Hearings are scheduled 30- 75 Days after filing.  |
 | **Virtual Hearings** | Many courts have the option to attend the hearing virtually.  |
 | **Mediation** | Free mediation is available in many courts after the lawsuit is filed.  |
-| **Main Forms ** | [Lawsuit](https://www.courts.ca.gov/documents/sc100.pdf), [Proof of Service](https://www.courts.ca.gov/documents/sc104.pdf), [Fee Waiver](https://www.courts.ca.gov/documents/fw001.pdf) |
+| **Main Forms**  | [Lawsuit](https://www.courts.ca.gov/documents/sc100.pdf), [Proof of Service](https://www.courts.ca.gov/documents/sc104.pdf), [Fee Waiver](https://www.courts.ca.gov/documents/fw001.pdf) |
 
 \* Court filing fees and serving costs are \$0 if a judge approves your application for a [court fee waiver](https://www.peopleclerk.com/post/california-fw-001).
 
@@ -319,7 +319,7 @@ Once you file your case, the next step is to notify the person you are suing tha
 
 **Who can serve a small claims lawsuit?**
 
-- **NOT YOU! **You cannot serve your own small claims lawsuit.
+- **NOT YOU!** You cannot serve your own small claims lawsuit.
 
 - **Process Server.** The most straightforward person who can serve your lawsuit is a "process server." A process server is someone licensed to serve lawsuits. This is what they do for a living so they are pretty good at it. In California, process servers charge around \$75- \$125 to serve small claims lawsuits.
 
