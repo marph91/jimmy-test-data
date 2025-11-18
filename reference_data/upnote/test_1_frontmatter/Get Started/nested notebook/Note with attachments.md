@@ -1,7 +1,7 @@
 ---
-created: '2025-10-30T16:32:08.392000+00:00'
+created: '2025-10-30T16:32:08'
 title: Note with attachments
-updated: '2025-10-30T16:34:03.221000+00:00'
+updated: '2025-10-30T16:34:03'
 ---
 
 ## Note with attachments

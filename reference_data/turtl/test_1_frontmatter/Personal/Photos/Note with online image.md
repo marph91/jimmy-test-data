@@ -1,6 +1,7 @@
 ---
-created: '2024-10-17T14:21:14+00:00'
+created: '2024-10-17T14:21:14'
 title: Note with online image
+updated: '2024-10-17T14:21:14'
 ---
 
 And some text

@@ -1,9 +1,9 @@
 ---
-created: '2024-04-28T12:36:26.198000+00:00'
+created: '2024-04-28T12:36:26'
 tags:
 - upnote
 title: Explore UpNote features
-updated: '2024-04-28T12:36:26.198000+00:00'
+updated: '2024-04-28T12:36:26'
 ---
 
 ## Explore UpNote features

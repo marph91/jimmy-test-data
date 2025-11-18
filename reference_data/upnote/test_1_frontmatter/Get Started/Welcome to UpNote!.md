@@ -1,10 +1,10 @@
 ---
-created: '2024-04-28T12:36:26.199000+00:00'
+created: '2024-04-28T12:36:26'
 tags:
 - upnote-bookmarked
 - upnote-pinned
 title: Welcome to UpNote!
-updated: '2024-04-28T12:36:26.199000+00:00'
+updated: '2024-04-28T12:36:26'
 ---
 
 ## Welcome to UpNote!

@@ -1,6 +1,7 @@
 ---
-created: '2024-10-17T14:30:26+00:00'
+created: '2024-10-17T14:30:26'
 title: Format test
+updated: '2024-10-17T14:30:26'
 ---
 
 - Should be straight **markdown**

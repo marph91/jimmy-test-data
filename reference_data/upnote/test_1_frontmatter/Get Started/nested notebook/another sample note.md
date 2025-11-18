@@ -1,9 +1,9 @@
 ---
-created: '2024-04-28T12:41:23.273000+00:00'
+created: '2024-04-28T12:41:23'
 tags:
 - inline-tag
 title: another sample note
-updated: '2024-04-28T12:49:26.829000+00:00'
+updated: '2024-04-28T12:49:26'
 ---
 
 ## another sample note
