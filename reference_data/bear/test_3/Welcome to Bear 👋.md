@@ -41,6 +41,6 @@ Bear is a beautiful, powerfully simple note taking app to capture, write, and or
 ---
 
 ## 🐻‍❄️ Join our community
-This *still* isn’t the end of all the cool stuff you can do with Bear. If you’d like to keep learning, please check out [our blog](https://blog.bear.app) and [support docs](https://bear.app/faq/), then join our community at [Reddit](https://www.reddit.com/r/bearapp/), [Twitter](twitter.com/bearNotesApp), [Facebook](https://www.facebook.com/BearNotes), and [Instagram](https://www.instagram.com/bearnotesapp/).
+This *still* isn’t the end of all the cool stuff you can do with Bear. If you’d like to keep learning, please check out [our blog](https://blog.bear.app) and [support docs](https://bear.app/faq/), then join our community at [Reddit](https://www.reddit.com/r/bearapp/), [Twitter](https://twitter.com/bearNotesApp), [Facebook](https://www.facebook.com/BearNotes), and [Instagram](https://www.instagram.com/bearnotesapp/).
 
 #bear/welcome

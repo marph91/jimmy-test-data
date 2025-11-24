@@ -14,7 +14,7 @@ Click the **New Note button** (⌘+N) at the top of the Note List and start typi
 Bear's custom keyboard is the control board styling your notes on iPhone and iPad. On macOS, the same functionalities are available in the style bar at the bottom of the editor. Both can be enabled via the **B*I*~U~ button**.
 ![Get Started - Keyboard 3.png](<./Get Started - Keyboard 3.png>)
 ### 📝 Write with styles
-You can add all kinds of text styles to your notes, including: **bold**, *italic*, ~underline~, ~~strikethrough~~, ==highlight==, headings,  [links](bear.app), lists, todos, tables, and more—and it all starts with the **Style Bar**.
+You can add all kinds of text styles to your notes, including: **bold**, *italic*, ~underline~, ~~strikethrough~~, ==highlight==, headings,  [links](https://bear.app), lists, todos, tables, and more—and it all starts with the **Style Bar**.
 ​
 Use the **B*I*~U~ button** (⇧+⌘+Y) at the top of Bear to reveal the Style Bar and many of the core tools available to you. You can combine styles together, like **bold** and ~underline~ on the same **~word~**. To apply all this formatting, Bear uses Markdown[^1], a simple way to add style to plain text by wrapping it with special characters. [Visit our support docs](https://bear.app/faq/) to learn more about using Markdown in Bear and how you can apply this formatting yourself.
 
