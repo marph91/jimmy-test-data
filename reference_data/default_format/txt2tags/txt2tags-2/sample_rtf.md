@@ -159,6 +159,8 @@ Because things were too simple.
 
 The image mark is as simple as it can be: `[filename]`.
 
+(img/photo.jpg)
+
 - The filename must end in PNG, JPG, GIF, or similar.
 
 - No spaces inside the brackets!
@@ -173,4 +175,4 @@ You can also specify the date format with the %? flags, as `%%date(%m-%d-%Y)` wh
 
 That's all for now.
 
-(++[sample.t2t](sample.t2t)++)
+(img/t2tpowered.png) (++[sample.t2t](sample.t2t)++)
