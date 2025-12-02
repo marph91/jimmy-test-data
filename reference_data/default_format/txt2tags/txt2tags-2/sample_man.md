@@ -1,3 +1,7 @@
+# TXT2TAGS SAMPLE
+
+03/15/2013
+
 This text is before the introduction.
 
 But it's OK.

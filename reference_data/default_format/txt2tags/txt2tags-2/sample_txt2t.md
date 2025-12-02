@@ -1,5 +1,7 @@
-TXT2TAGS SAMPLE
+# TXT2TAGS SAMPLE
+
 Aurelio Jargas
+
 02/28/2011
 
 # Introduction

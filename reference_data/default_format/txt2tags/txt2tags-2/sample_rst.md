@@ -1,16 +1,14 @@
 # TXT2TAGS SAMPLE
 
-Author  
 Aurelio Jargas
 
-Date  
 07/09/2011
 
 This text is before the introduction.
 
 But it's OK.
 
-## Introduction
+# Introduction
 
 Welcome to the txt2tags sample file.
 
@@ -26,7 +24,7 @@ on the following format:
 
 Lines with balanced equal signs = around are titles.
 
-## Fonts and Beautifiers
+# Fonts and Beautifiers
 
 We have two sets of fonts:
 
@@ -37,7 +35,7 @@ pre-formatted text.
 
 We will now enter on a subtitle...
 
-### Beautifiers
+## Beautifiers
 
 The text marks for beautifiers are simple, just as you
 type on a plain text email message.
@@ -47,7 +45,7 @@ We use double *, /, - and \_ to representbold,*italic\*, strike and underline.
 The **\*bold italic**\* style is also supported as a
 combination.
 
-### Pre-Formatted Text
+## Pre-Formatted Text
 
 We can put a code sample or other pre-formatted text:
 
@@ -61,7 +59,7 @@ text:
 
 Or use `pre-formatted` inside sentences.
 
-### More Cosmetics
+## More Cosmetics
 
 Special entities like email (<duh@somewhere.com>) and
 URL (<http://www.duh.com>) are detected automagically,
@@ -84,12 +82,12 @@ And remember,
 
 Nice.
 
-## Lists
+# Lists
 
 A list of items is natural, just putting a **dash** or
 a **plus** at the beginning of the line.
 
-### Plain List
+## Plain List
 
 The dash is the default list identifier. For sublists,
 just add **spaces** at the beginning of the line. More
@@ -107,7 +105,7 @@ spaces, more sublists.
 
 The list ends with **two** consecutive blank lines.
 
-### Numbered List
+## Numbered List
 
 The same rules as the plain list, just a different
 identifier (plus).
@@ -123,7 +121,7 @@ identifier (plus).
 
 1.  four
 
-### Definition List
+## Definition List
 
 The definition list identifier is a colon, followed by
 the term. The term contents is placed on the next line.
@@ -140,7 +138,7 @@ other fruits
   1.  again!
   2.  and again!
 
-## Tables
+# Tables
 
 Use pipes to compose table rows and cells.
 Double pipe at the line beginning starts a heading row.
@@ -158,11 +156,11 @@ Without the last pipe, no border:
 > | cell 1.1  | cell 1.2  | cell 1.3  |
 > | cell 2.1  | cell 2.2  | cell 2.3  |
 
-## Special Entities
+# Special Entities
 
 Because things were too simple.
 
-### Images
+## Images
 
 The image mark is as simple as it can be: `[filename]`.
 
@@ -175,7 +173,7 @@ And with some targets the image is linkable :
 - The filename must end in PNG, JPG, GIF, or similar.
 - No spaces inside the brackets!
 
-### Other
+## Other
 
 When the target needs, special chars like \<, \> and &
 are escaped.

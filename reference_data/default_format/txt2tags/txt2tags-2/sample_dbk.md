@@ -1,3 +1,9 @@
+# TXT2TAGS SAMPLE
+
+Aurelio Jargas
+
+06/13/2012
+
 This text is before the introduction.
 
 But it's OK.

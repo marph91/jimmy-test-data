@@ -1,3 +1,9 @@
+# TXT2TAGS SAMPLE
+
+Aurelio Jargas
+
+02/28/2011
+
 # Introduction
 
 Welcome to the txt2tags sample file.

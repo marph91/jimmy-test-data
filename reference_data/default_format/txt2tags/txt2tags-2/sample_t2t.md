@@ -1,4 +1,5 @@
-TXT2TAGS SAMPLE
+# TXT2TAGS SAMPLE
+
 Aurelio Jargas
 
 This text is before the introduction.
