@@ -1,12 +1,14 @@
-Apocalyptic party.^\[[1](#_footnotedef_1 "View footnote.")\]^
+Apocalyptic party.[1]
 
-A bold statement.^\[[2](#_footnotedef_2 "View footnote.")\]^
-Another outrageous statement.^\[[2](#_footnotedef_2 "View footnote.")\]^
+A bold statement.[2]
+Another outrageous statement.[3]
 
-A bold statement.^\[foobar\]^
+A bold statement.[4]
 
-------------------------------------------------------------------------
+[1] The double hail-and-rainbow level makes my toes tingle.
 
-[1](#_footnoteref_1). The double hail-and-rainbow level makes my toes tingle.
+[2] Opinions are my own.
 
-[2](#_footnoteref_2). Opinions are my own.
+[3] Opinions are my own.
+
+[4]

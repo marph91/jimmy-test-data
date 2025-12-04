@@ -1,3 +1,4 @@
-F11
+**F11**
 
-Ctrl+Shift+N
+:experimental:
+**Ctrl**+**Shift**+**N**

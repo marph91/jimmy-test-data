@@ -1,14 +1,13 @@
 > Four score and seven years ago our fathers brought forth
-> on this continent a new nation…​
+> on this continent a new nation…
 
 > A person who never made a mistake never tried anything new.
-
-— Albert Einstein
+>
+> — Albert Einstein
 
 > Everybody remember where we parked.
-
-— Captain James T. Kirk  
-Star Trek IV: The Voyage Home
+>
+> — Captain James T. Kirk, Star Trek IV: The Voyage Home
 
 After landing the cloaked Klingon bird of prey in Golden Gate park:
 

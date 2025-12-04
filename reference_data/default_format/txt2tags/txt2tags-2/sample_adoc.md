@@ -1,6 +1,7 @@
 # TXT2TAGS SAMPLE
 
-Aurelio Jargas  
+Aurelio Jargas
+
 02/12/2013
 
 This text is before the introduction.
@@ -32,14 +33,14 @@ The NORMAL type that can be improved with beautifiers.
 The TYPEWRITER type that uses monospaced font for
 pre-formatted text.
 
-We will now enter on a subtitle…​
+We will now enter on a subtitle…
 
 ### Beautifiers
 
 The text marks for beautifiers are simple, just as you
 type on a plain text email message.
 
-We use double **, /, - and \_ to represent \*bold**,
+We use double \*, /, - and \_ to represent **bold**,
 *italic*, strike and underline.
 
 The ***bold italic*** style is also supported as a
@@ -61,14 +62,14 @@ Or use pre-formatted inside sentences.
 
 ### More Cosmetics
 
-Special entities like email (mailto:duh@somewhere.com) and
-URL ([http://www.duh.com](http://www.duh.com)) are detected automagically,
+Special entities like email ([mailto:duh@somewhere.com](mailto:duh@somewhere.com)) and
+URL (<http://www.duh.com>) are detected automagically,
 as long as the horizontal line:
 
 \^ thin or large v
 
 You can also specify an [explicit link](http://duh.org)
-or an [explicit email](mailto:duh@somewhere.com) with label.
+or an [explicit email](duh@somewhere.com) with label.
 
 And remember,
 
@@ -125,7 +126,7 @@ identifier (plus).
 
 4.  counting again
 
-5.  …​
+5.  …
 
 6.  four
 
@@ -197,11 +198,12 @@ Because things were too simple.
 
 The image mark is as simple as it can be: \[filename\].
 
-    image::img/photo.jpg[]
+image  
+img/photo.jpg\[\]
 
 And with some targets the image is linkable :
 
-    http://www.txt2tags.org[(img/photo.jpg)]
+    http://www.txt2tags.org[(img/photo.jpg)]  
 
 - The filename must end in PNG, JPG, GIF, or similar.
 
@@ -221,4 +223,6 @@ as %%date(%m-%d-%Y) which gives: 02-13-2013.
 
 That’s all for now.
 
-image::img/t2tpowered.png\[\] (sample.t2t\[sample.t2t\])
+![t2tpowered.png](./t2tpowered.png)
+
+    (sample.t2t[sample.t2t])

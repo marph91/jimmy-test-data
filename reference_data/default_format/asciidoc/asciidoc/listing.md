@@ -8,35 +8,33 @@ Reading user input
     read name
     echo "Hello, $name!"
 
-``` nowrap
+```
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-    echo -n "Please enter your name: "
-    read name
-    echo "Hello, $name!"
-
-``` highlight
-5.times do
-  print "Odelay!"
-end
+``` example
+echo -n "Please enter your name: "
+read name
+echo "Hello, $name!"
 ```
+
+    5.times do
+      print "Odelay!"
+    end
 
 Odelay!
 
-``` highlight
+    5.times do
+      print "Odelay!"
+    end
+
+``` ruby
 5.times do
   print "Odelay!"
 end
 ```
 
-``` highlight
-5.times do
-  print "Odelay!"
-end
-```
-
-``` highlight
+``` java
 public class ApplicationConfigurationProvider extends HttpConfigurationProvider {
 
    public Configuration getConfiguration(ServletContext context) {

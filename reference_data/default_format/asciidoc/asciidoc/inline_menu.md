@@ -1,5 +1,7 @@
 **File**
 
-**File** **›** **Save**
+:experimental:
+**File › Save**
 
-**View** **›** **Zoom** **›** **Reset**
+:experimental:
+**View › Zoom › Reset**

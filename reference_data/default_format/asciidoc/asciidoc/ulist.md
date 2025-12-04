@@ -18,6 +18,8 @@ Writers
 
 - Bill Bryson
 
+&nbsp;
+
 - level 1
 
   - level 2
@@ -30,6 +32,8 @@ Writers
 
   - level 2
 
+&nbsp;
+
 - Every list item has at least one paragraph of content,
   which may be wrapped, even using a hanging indent.
 
@@ -41,12 +45,14 @@ Writers
 
 - A literal paragraph does not require a list continuation.
 
-      $ gem install asciidoctor
+&nbsp;
 
-- - [x] checked
+    $ gem install asciidoctor
 
-  - [x] also checked
+- [x] checked
 
-  - [ ] not checked
+- [x] also checked
 
-  - normal list item
+- [ ] not checked
+
+- normal list item

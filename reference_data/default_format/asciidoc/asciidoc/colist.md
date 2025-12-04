@@ -1,8 +1,8 @@
-``` highlight
-require 'sinatra' // (1)
+``` ruby
+require 'sinatra' // ①
 
-get '/hi' do  # (2)
-  "Hello World!" ;; (3)
+get '/hi' do  # ②
+  "Hello World!" ;; ③
 end
 ```
 
@@ -12,11 +12,11 @@ end
 
 3.  Content for response
 
-``` highlight
-require 'sinatra' // (1)
+``` ruby
+require 'sinatra' // ①
 
-get '/hi' do  # (2)
-  "Hello World!" ;; (3)
+get '/hi' do  # ②
+  "Hello World!" ;; ③
 end
 ```
 
@@ -28,11 +28,11 @@ Description
 
 3.  Content for response
 
-``` highlight
-require 'sinatra' // (1)
+``` ruby
+require 'sinatra' // ①
 
-get '/hi' do  # (2)
-  "Hello World!" ;; (3)
+get '/hi' do  # ②
+  "Hello World!" ;; ③
 end
 ```
 

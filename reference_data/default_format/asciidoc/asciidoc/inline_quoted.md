@@ -8,9 +8,9 @@ chunky bacon
 
 **chunky bacon**
 
-`hello world!`
+`hello` `world!`
 
-`hello world!`
+`hello` `world!`
 
 ^super^chunky bacon
 
@@ -30,10 +30,10 @@ chunky bacon
 
 ‘chunky bacon’
 
-\\sqrt(4) = 2\\
+*sqrt*(4) = 2
 
-\\C = \alpha + \beta Y\^{\gamma} + \epsilon\\
+*C* = *α* + *βY^γ^* + *ϵ*
 
 *chunky bacon*
 
-***`monospace bold italic phrase`*** and le***`tt`***ers
+***`monospace` `bold` `italic` `phrase`*** and le***`tt`***ers

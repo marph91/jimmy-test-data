@@ -17,7 +17,8 @@ from many other individuals in Asciidoctor’s awesome community.
 AsciiDoc was started by Stuart Rackham.
 
 Definition without a description  
-.Asciidoctor
+
+Asciidoctor
 
 License  
 MIT
@@ -25,56 +26,68 @@ MIT
 License  
 MIT
 
-1.  *What is Asciidoctor?*
+&nbsp;
 
-    An implementation of the AsciiDoc processor in Ruby.
+What is Asciidoctor?  
+An implementation of the AsciiDoc processor in Ruby.
 
-2.  *What is the answer to the Ultimate Question?*
+What is the answer to the Ultimate Question?  
+42
 
-    42
+&nbsp;
 
-1.  *What is Asciidoctor?*
+What is Asciidoctor?  
+- An implementation of the AsciiDoc processor in Ruby.
 
-    - An implementation of the AsciiDoc processor in Ruby.
+- Fast text processor and publishing toolchain.
 
-    - Fast text processor and publishing toolchain.
+Who is behind Asciidoctor?  
+Asciidoctor is lead by Dan Allen and Sarah White and has received contributions
+from many other individuals in Asciidoctor’s awesome community.
 
-2.  *Who is behind Asciidoctor?*
+AsciiDoc was started by Stuart Rackham.
 
-    Asciidoctor is lead by Dan Allen and Sarah White and has received contributions
-    from many other individuals in Asciidoctor’s awesome community.
+&nbsp;
 
-    AsciiDoc was started by Stuart Rackham.
-
-1.  *Who knows the answer?*
+Who knows the answer?  
 
 The most important questions
 
-1.  *What is the answer to the Ultimate Question?*
+What is the answer to the Ultimate Question?  
+42
 
-    42
+What is the answer to the Ultimate Question?  
+42
 
-1.  *What is the answer to the Ultimate Question?*
+&nbsp;
 
-    42
+Hard drive  
+Permanent storage for operating system and/or user files.
 
-| Hard drive | Permanent storage for operating system and/or user files.     |
-|------------|---------------------------------------------------------------|
-| RAM        | Temporarily stores information the CPU uses during operation. |
+RAM  
+Temporarily stores information the CPU uses during operation.
 
-| Hard drive | Permanent storage for operating system and/or user files.     |
-|---------------|------------------------------------|
-| RAM        | Temporarily stores information the CPU uses during operation. |
+&nbsp;
+
+Hard drive  
+Permanent storage for operating system and/or user files.
+
+RAM  
+Temporarily stores information the CPU uses during operation.
 
 Computer terminology for noobs
 
-| Hard drive | Permanent storage for operating system and/or user files.     |
-|------------|---------------------------------------------------------------|
-| RAM        | Temporarily stores information the CPU uses during operation. |
+Hard drive  
+Permanent storage for operating system and/or user files.
 
-| Hard drive | Permanent storage for operating system and/or user files.     |
-|------------|---------------------------------------------------------------|
-| RAM        | Temporarily stores information the CPU uses during operation. |
+RAM  
+Temporarily stores information the CPU uses during operation.
+
+Hard drive  
+Permanent storage for operating system and/or user files.
+
+RAM  
+Temporarily stores information the CPU uses during operation.
 
 Operating Systems  
 Linux  

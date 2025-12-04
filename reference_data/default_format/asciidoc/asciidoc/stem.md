@@ -1,9 +1,15 @@
-\\sqrt(4) = 2\\
+*sqrt*(4) = 2
 
-\\C = \alpha + \beta Y\^{\gamma} + \epsilon\\
+:stem: latexmath
+
+*C* = *α* + *βY^γ^* + *ϵ*
+
+:stem:
 
 Equation
 
-\\sqrt(4) = 2\\
+*sqrt*(4) = 2
 
-\\sqrt(4) = 2\\
+:stem:
+
+*sqrt*(4) = 2

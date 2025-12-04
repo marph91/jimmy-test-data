@@ -1,31 +1,35 @@
 Inline anchors make arbitrary content referenceable.
 
-The section [\[page-break\]](#page-break) describes how to add a page break.
+The section [page-break](#page-break) describes how to add a page break.
 
-The section [manual.html](manual.html#page-break) describes how to add a page break.
+The section [manual.adoc#page-break](#manual.adoc#page-break) describes how to add a page break.
 
 The section [Page break](#page-break) describes how to add a page break.
 
-Refer to [Section A](#section-a).
+Refer to [Section A](#Section%20A).
 
 ## Section A
 
-Refer to [Installation Procedure](#installation).
+Refer to [Installation](#installation).
 
 ## Installation
 
-Refer to [Installation Procedure](#installation).
+:sectnums:
+:section-refsig: Sec.
+:xrefstyle: short
+Refer to [Installation](#installation).
 
-## 1. Installation
+## Installation
 
-- \[prag\] Andy Hunt & Dave Thomas. The Pragmatic Programmer
+- Andy Hunt & Dave Thomas. The Pragmatic Programmer
 
-- \[1\] Andy Hunt & Dave Thomas. The Pragmatic Programmer
+- Andy Hunt & Dave Thomas. The Pragmatic Programmer
 
-[http://www.asciidoctor.org](http://www.asciidoctor.org)
+<http://www.asciidoctor.org>
 
 [Asciidoctor IRC channel](irc://irc.freenode.org/#asciidoctor)
 
-[Asciidoctor homepage](view-source:asciidoctor.org)
+[Asciidoctor homepage\^](view-source:asciidoctor.org)
 
+:linkattrs:
 [**mailing list**](http://discuss.asciidoctor.org/)

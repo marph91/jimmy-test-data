@@ -9,7 +9,7 @@ Use it to try [AsciiDoc](https://asciidoc.org).
 
 - Another list item
 
-``` highlight
+``` ruby
 puts 'Hello, World!'
 ```
 

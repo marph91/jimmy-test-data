@@ -4,17 +4,23 @@
 
 3.  Step 3
 
-1.  Step 1
-
-2.  Step 2
-
-3.  Step 3
+&nbsp;
 
 1.  Step 1
 
 2.  Step 2
 
 3.  Step 3
+
+&nbsp;
+
+1.  Step 1
+
+2.  Step 2
+
+3.  Step 3
+
+&nbsp;
 
 1.  level 1
 
@@ -40,6 +46,8 @@ Steps
 
 3.  Step 3
 
+&nbsp;
+
 1.  level 1
 
     1.  level 2
@@ -52,6 +60,8 @@ Steps
 
     2.  level 2
 
+&nbsp;
+
 1.  Every list item has at least one paragraph of content,
     which may be wrapped, even using a hanging indent.
 
@@ -63,4 +73,6 @@ Steps
 
 2.  A literal paragraph does not require a list continuation.
 
-        $ gem install asciidoctor
+&nbsp;
+
+    $ gem install asciidoctor
