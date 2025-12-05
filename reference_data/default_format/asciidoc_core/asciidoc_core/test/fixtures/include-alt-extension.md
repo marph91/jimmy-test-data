@@ -1,0 +1,6 @@
+first line
+
+ifdef  
+asciidoctor-version\[Asciidoctor!\]
+
+last line
