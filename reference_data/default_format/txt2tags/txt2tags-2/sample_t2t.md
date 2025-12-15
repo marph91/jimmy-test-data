@@ -213,7 +213,7 @@ are escaped.
 
 The handy `%%date` macro expands to the current date.
 
-So today is 2025-12-05 on the ISO `YYYYMMDD` format.
+So today is `%%date` on the ISO `YYYYMMDD` format.
 
 You can also specify the date format with the %? flags,
 as `%%date(%m-%d-%Y)` which gives: %%date(%m-%d-%Y).
