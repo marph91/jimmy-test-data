@@ -18,7 +18,7 @@ Nummerierte Liste:
 
 Formel
 
-\$\$y = {x \ast \frac{1}{2}}\$\$
+$$y = {x \ast \frac{1}{2}}$$
 
 asdf
 

@@ -30,9 +30,9 @@ chunky bacon
 
 ‘chunky bacon’
 
-*sqrt*(4) = 2
+$sqrt(4) = 2$
 
-*C* = *α* + *βY^γ^* + *ϵ*
+$C = \alpha + \beta Y^{\gamma} + \epsilon$
 
 *chunky bacon*
 
