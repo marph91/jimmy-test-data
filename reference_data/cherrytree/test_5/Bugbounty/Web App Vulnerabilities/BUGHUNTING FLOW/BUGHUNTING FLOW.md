@@ -39,7 +39,7 @@
 - Fetch  URLS 
       - Paramspider   -   fetch with FUZZ keywords ->we can replace the fuzz with payload using qsreplace tool
       - katana
-      -** gau
+      - **gau
       - hakcrawler
       - subjs**
       - waybackurls

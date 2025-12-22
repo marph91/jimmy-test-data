@@ -11,8 +11,8 @@ typedef struct task {
     uint64_t *stack;
     struct task *next;
 } task_t;
-
 ```
+
 
 
 
@@ -28,8 +28,8 @@ int fork() {
     copy_memory(new_task->stack, current_task->stack, STACK_SIZE);
     return new_task->pid;
 }
-
 ```
+
 
 
 

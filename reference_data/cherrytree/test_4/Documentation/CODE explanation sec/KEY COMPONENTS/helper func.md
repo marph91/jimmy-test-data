@@ -28,8 +28,8 @@ outb(0x1F3, offset); // Set sector offset (low byte)
 outb(0x1F7, 0x20); // Command: Read sector
 waitdisk(); // Wait for operation to complete
 insl(0x1F0, dst, SECTSIZE/4); // Copy data into destination
-
 ```
+
 
 
 
@@ -47,8 +47,8 @@ offset = (offset / SECTSIZE) + 1; // Start sector at offset 1
 
 for(; pa < epa; pa += SECTSIZE, offset++)
     readsect(pa, offset); // Read each sector
-
 ```
+
 
 
 - Aligns the address to sector boundaries.

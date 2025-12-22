@@ -22,7 +22,7 @@ struct mbheader {
   uint32 bss_end_addr;  // End address of the uninitialized data segment (BSS)
   uint32 entry_addr;    // Address of the kernel's entry point
 };
-
 ```
+
 
 

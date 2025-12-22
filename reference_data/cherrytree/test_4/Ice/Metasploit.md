@@ -6,8 +6,8 @@ CVE-2004-1561 - exploit = exploit/windows/http/icecast_header
 
 Output
 
-meterpreter > sysinfo*
-Computer        : DARK-PC
+meterpreter > sysinfo
+*Computer        : DARK-PC
 OS              : Windows 7 (6.1 Build 7601, Service Pack 1).
 Architecture    : x64
 System Language : en_US

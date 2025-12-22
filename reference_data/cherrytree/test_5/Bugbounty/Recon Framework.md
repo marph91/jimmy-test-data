@@ -84,7 +84,7 @@
                                                          - Use Intruder to automate to find the perfect payload to break the encoding
                                                             - **<any tage    ="martin $Payload$" >
                                                                         - Check in which stage the tage or special character values not encoded 
-                                                                        - or Had some difference notice and exploit in further **
+                                                                        - or Had some difference notice and exploit in further** 
       **◇ Client Side Validation**
                - Check Client validation
       **◇ Server Side Valication**
