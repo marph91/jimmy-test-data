@@ -17,7 +17,7 @@ You can also link an existing object using the @ symbol or selecting **Link Obje
 To manage multiple objects in Anytype, you have **Sets** and **Collections**.
 
 - **Sets** allow you to create a dynamic queries that group **Objects** based on their **Type**. For instance, the 'Tasks ' in sidebar is a Set, containing all objects with the 'Task' type. [Study Sets](https://doc.anytype.io/anytype-docs/basics/sets)↗︎
-- **Collections** offer a folder-like structure, letting you organize various objects in one place. [Study Collections](https://doc.anytype.io/anytype-docs/basics/collections)[↗︎]()
+- **Collections** offer a folder-like structure, letting you organize various objects in one place. [Study Collections](https://doc.anytype.io/anytype-docs/basics/collections)[↗︎](broken-link test_2)
 To create a Set or a Collection, click the + button and select the desired option on top of your new obejct.
 
 ### Next steps

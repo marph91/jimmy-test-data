@@ -2,11 +2,11 @@ Inline anchors make arbitrary content referenceable.
 
 The section [page-break](#page-break) describes how to add a page break.
 
-The section [manual.adoc#page-break](#manual.adoc#page-break) describes how to add a page break.
+The section [manual.adoc#page-break](#manualadocpage-break) describes how to add a page break.
 
 The section [Page break](#page-break) describes how to add a page break.
 
-Refer to [Section A](#Section%20A).
+Refer to [Section A](#section20a).
 
 ## Section A
 

@@ -3,7 +3,7 @@
 aus Wikipedia, der freien Enzyklopädie
 
 [Zur Navigation springen](#mw-head)
-[Zur Suche springen](#searchInput)
+[Zur Suche springen](#searchinput)
 
 | HTML (Hypertext Markup Language) |  |
 |:--:|:--:|
@@ -22,7 +22,7 @@ aus Wikipedia, der freien Enzyklopädie
 
 Die **Hypertext Markup Language** (**HTML**, [englisch](https://de.wikipedia.org/wiki/Englische_Sprache "Englische Sprache") für *[Hypertext](https://de.wikipedia.org/wiki/Hypertext "Hypertext")-Auszeichnungssprache*) ist eine textbasierte [Auszeichnungssprache](https://de.wikipedia.org/wiki/Auszeichnungssprache "Auszeichnungssprache") zur Strukturierung [elektronischer Dokumente](https://de.wikipedia.org/wiki/Elektronisches_Dokument "Elektronisches Dokument") wie [Texte](https://de.wikipedia.org/wiki/Textdatei "Textdatei") mit [Hyperlinks](https://de.wikipedia.org/wiki/Hyperlink "Hyperlink"), [Bildern](https://de.wikipedia.org/wiki/Bilddatei "Bilddatei") und anderen Inhalten. [HTML-Dokumente](https://de.wikipedia.org/wiki/Webseite "Webseite") sind die Grundlage des [World Wide Web](https://de.wikipedia.org/wiki/World_Wide_Web "World Wide Web") und werden von [Webbrowsern](https://de.wikipedia.org/wiki/Webbrowser "Webbrowser") dargestellt. Neben den vom Browser angezeigten Inhalten können HTML-Dateien zusätzliche Angaben in Form von [Metainformationen](https://de.wikipedia.org/wiki/Metadaten "Metadaten") enthalten, z. B. über die im Text verwendeten [Sprachen](https://de.wikipedia.org/wiki/Einzelsprache "Einzelsprache"), den [Autor](https://de.wikipedia.org/wiki/Autor "Autor") oder den zusammengefassten Inhalt des Textes.
 
-HTML wird vom [World Wide Web Consortium](https://de.wikipedia.org/wiki/World_Wide_Web_Consortium "World Wide Web Consortium") (W3C) und der [Web Hypertext Application Technology Working Group](https://de.wikipedia.org/wiki/Web_Hypertext_Application_Technology_Working_Group "Web Hypertext Application Technology Working Group") (WHATWG) weiterentwickelt. Die aktuelle Version ist seit dem 14. Dezember 2017 *HTML 5.2*,^[\[4\]](#cite_note-html5.1-4)^ die bereits von vielen aktuellen [Webbrowsern](https://de.wikipedia.org/wiki/Webbrowser "Webbrowser") und anderen [Layout-Engines](https://de.wikipedia.org/wiki/Layout-Engine "Layout-Engine") unterstützt wird. Auch die *[Extensible Hypertext Markup Language](https://de.wikipedia.org/wiki/Extensible_Hypertext_Markup_Language "Extensible Hypertext Markup Language")* (XHTML) wird durch HTML5 ersetzt.^[\[5\]](#cite_note-Quelle0-5)^
+HTML wird vom [World Wide Web Consortium](https://de.wikipedia.org/wiki/World_Wide_Web_Consortium "World Wide Web Consortium") (W3C) und der [Web Hypertext Application Technology Working Group](https://de.wikipedia.org/wiki/Web_Hypertext_Application_Technology_Working_Group "Web Hypertext Application Technology Working Group") (WHATWG) weiterentwickelt. Die aktuelle Version ist seit dem 14. Dezember 2017 *HTML 5.2*,^[\[4\]](#cite_note-html51-4)^ die bereits von vielen aktuellen [Webbrowsern](https://de.wikipedia.org/wiki/Webbrowser "Webbrowser") und anderen [Layout-Engines](https://de.wikipedia.org/wiki/Layout-Engine "Layout-Engine") unterstützt wird. Auch die *[Extensible Hypertext Markup Language](https://de.wikipedia.org/wiki/Extensible_Hypertext_Markup_Language "Extensible Hypertext Markup Language")* (XHTML) wird durch HTML5 ersetzt.^[\[5\]](#cite_note-quelle0-5)^
 
 HTML dient als Auszeichnungssprache dazu, einen Text [semantisch](https://de.wikipedia.org/wiki/Semantik "Semantik") zu strukturieren, nicht aber zu formatieren.^[\[6\]](#cite_note-6)^ Die visuelle Darstellung ist nicht Teil der HTML-Spezifikationen und wird durch den Webbrowser und Gestaltungsvorlagen wie [CSS](https://de.wikipedia.org/wiki/Cascading_Style_Sheets "Cascading Style Sheets") bestimmt. Ausnahme sind die als veraltet ([englisch](https://de.wikipedia.org/wiki/Englische_Sprache "Englische Sprache") *[deprecated](https://de.wikipedia.org/wiki/Deprecated "Deprecated")*) markierten präsentationsbezogenen Elemente.
 
@@ -157,13 +157,13 @@ HTML wurde erstmals am 13. März 1989 von [Tim Berners-Lee](https://de.wikipedi
 - **XHTML 1.1** (31. Mai 2001): Nachdem XHTML in Module aufgeteilt
   wurde, wurde mit XHTML 1.1 eine strikte Version definiert, bei der die
   mit HTML 4 eingeführten Varianten Frameset und Transitional entfielen.
-- **XHTML 2.0** (geschlossen,^[\[12\]](#cite_note-12)^ 26. Juli 2006): Diese Version sollte nicht mehr auf HTML 4.01 basieren und einige neue Elemente einführen, so z. B. `<nl>` für Navigationslisten. Die Trennung von Auszeichnung und Stil sollte in dieser Version vollendet werden. – Das [W3C](https://de.wikipedia.org/wiki/World_Wide_Web_Consortium "World Wide Web Consortium") beendete die Arbeiten an XHTML 2.0 im Sommer 2009, weil XHTML durch HTML5 ersetzt werden sollte.^[\[13\]](#cite_note-13)[\[14\]](#cite_note-14)[\[5\]](#cite_note-Quelle0-5)^
+- **XHTML 2.0** (geschlossen,^[\[12\]](#cite_note-12)^ 26. Juli 2006): Diese Version sollte nicht mehr auf HTML 4.01 basieren und einige neue Elemente einführen, so z. B. `<nl>` für Navigationslisten. Die Trennung von Auszeichnung und Stil sollte in dieser Version vollendet werden. – Das [W3C](https://de.wikipedia.org/wiki/World_Wide_Web_Consortium "World Wide Web Consortium") beendete die Arbeiten an XHTML 2.0 im Sommer 2009, weil XHTML durch HTML5 ersetzt werden sollte.^[\[13\]](#cite_note-13)[\[14\]](#cite_note-14)[\[5\]](#cite_note-quelle0-5)^
 - **[HTML5](https://de.wikipedia.org/wiki/HTML5 "HTML5")**
   (Empfehlung, 28. Oktober 2014): Schuf auf Basis von HTML 4.01 und XHTML
   1.0 ein neues Vokabular. Die zu HTML gehörende DOM-Spezifikation wurde
   ebenfalls überarbeitet und erweitert.^[\[15\]](#cite_note-html5-15)^
 - **HTML 5.1** (Empfehlung, 1. November 2016)
-- **HTML 5.2** (Empfehlung, 14. Dezember 2017): Aktuelle Version.^[\[4\]](#cite_note-html5.1-4)^
+- **HTML 5.2** (Empfehlung, 14. Dezember 2017): Aktuelle Version.^[\[4\]](#cite_note-html51-4)^
 
 ## HTML-Struktur
 
@@ -465,8 +465,8 @@ Reaktionsweisen von Desktop-Anwendungen simulieren.
 1.  [↑](#cite_ref-1 "Hochspringen") [W3C HTML 5](https://www.w3.org/TR/html5/) w3.org
 2.  [↑](#cite_ref-2 "Hochspringen") [W3C HTML 4.01](https://www.w3.org/TR/html401/) w3.org
 3.  [↑](#cite_ref-3 "Hochspringen") [W3C HTML 3.2](https://www.w3.org/TR/REC-html32-19970114) w3.org
-4.  ↑ ^[Hochspringen\ nach:\ a](#cite_ref-html5.1_4-0)^ ^[b](#cite_ref-html5.1_4-1)^ [*HTML 5.2.*](https://www.w3.org/TR/html5/) Recommendation (Empfehlung). W3C, 14. Dezember 2017, abgerufen am 1. Januar 2018 (englisch). 
-5.  ↑ ^[Hochspringen\ nach:\ a](#cite_ref-Quelle0_5-0)^ ^[b](#cite_ref-Quelle0_5-1)^ Simon Pieters: [*HTML 5 differences from HTML 4.*](https://www.w3.org/TR/html5-diff/) w3.org, 18. September 2014, abgerufen am 1. Oktober 2014 (englisch): „HTML 5 replaces these documents. \[DOM2HTML\] \[HTML4\] \[XHTML1\]“ 
+4.  ↑ ^[Hochspringen\ nach:\ a](#cite_ref-html51_4-0)^ ^[b](#cite_ref-html51_4-1)^ [*HTML 5.2.*](https://www.w3.org/TR/html5/) Recommendation (Empfehlung). W3C, 14. Dezember 2017, abgerufen am 1. Januar 2018 (englisch). 
+5.  ↑ ^[Hochspringen\ nach:\ a](#cite_ref-quelle0_5-0)^ ^[b](#cite_ref-quelle0_5-1)^ Simon Pieters: [*HTML 5 differences from HTML 4.*](https://www.w3.org/TR/html5-diff/) w3.org, 18. September 2014, abgerufen am 1. Oktober 2014 (englisch): „HTML 5 replaces these documents. \[DOM2HTML\] \[HTML4\] \[XHTML1\]“ 
 6.  [↑](#cite_ref-6 "Hochspringen") [HTML/Regeln/Textauszeichnung](https://web.archive.org/web/20190417073730/https://wiki.selfhtml.org/wiki/HTML/Regeln/Textauszeichnung) ([Memento](https://de.wikipedia.org/wiki/Web-Archivierung#Begrifflichkeiten "Web-Archivierung") vom 17. April 2019 im *[Internet Archive](https://de.wikipedia.org/wiki/Internet_Archive "Internet Archive")*) im [SELFHTML](https://de.wikipedia.org/wiki/SELFHTML "SELFHTML")-Wiki
 7.  [↑](#cite_ref-7 "Hochspringen") [*HTML-Entities.*](http://unicode.e-workers.de/entities.php) Abgerufen am 10. Juli 2023. 
 8.  [↑](#cite_ref-8 "Hochspringen") [Tim Berners-Lee](https://de.wikipedia.org/wiki/Tim_Berners-Lee "Tim Berners-Lee"): [*Information Management: A Proposal.*](https://www.w3.org/History/1989/proposal.html) März 1989, abgerufen am 25. November 2014. 

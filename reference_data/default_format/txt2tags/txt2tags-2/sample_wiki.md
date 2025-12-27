@@ -193,7 +193,7 @@ Because things were too simple.
 
 The image mark is as simple as it can be: `[filename]`.
 
-> [center](Image:img/photo.jpg)
+> ![center](./photo.jpg)
 
 - The filename must end in PNG, JPG, GIF, or similar.
 - No spaces inside the brackets!
@@ -211,4 +211,4 @@ That's all for now.
 
 ------------------------------------------------------------------------
 
-[left](Image:img/t2tpowered.png) (\[sample.t2t sample.t2t\])
+![left](./t2tpowered.png) (\[sample.t2t sample.t2t\])
