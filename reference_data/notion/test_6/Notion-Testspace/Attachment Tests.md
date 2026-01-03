@@ -4,7 +4,7 @@ The files below are included to test filenames with special characters — somet
 
 ![felis-catus.jpg](./felis-catus.jpg)
 
-![кошки-самые-лучшие.jpg](<./%D0%BA%D0%BE%D1%88%D0%BA%D0%B8-%D1%81%D0%B0%D0%BC%.jpg>)
+![кошки-самые-лучшие.jpg](<./%D0%BA%D0%BE%D1%88%D0%BA%D0%B8-%D1%81%D0%B0%D0.jpg>)
 
 ![οι-γατες-ειναι-οι-καλυτερες.jpg](./----.jpg)
 
