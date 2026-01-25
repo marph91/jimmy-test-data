@@ -16,6 +16,6 @@ and an empty text file
 
 ``` code
 function i(){
-    let cantWrite = "Code";
+	let cantWrite = "Code";
 }
 ```
