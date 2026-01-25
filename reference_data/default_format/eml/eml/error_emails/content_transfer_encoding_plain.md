@@ -22,7 +22,7 @@ Youth And Amateur Sports Company Poised For Growth
 
 Intelligent Sports, Inc. is a publicly held company
 trading on the OTC markets under the ticker symbol
-��IGTS��. Intelligent Sports will be the holding company
+ìIGTSî. Intelligent Sports will be the holding company
 for several sports related businesses. Intelligent
 Sports provides business units with strategic guidance
 and support in the areas of marketing, sales,
