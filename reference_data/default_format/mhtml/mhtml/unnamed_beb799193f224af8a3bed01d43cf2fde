@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+.keyfactors-h4 { background-color: transparent; }
+
+#main_content ul.slides li h2 { background-color: transparent; color: rgb(227, 0, 22); font-weight: 300; margin-bottom: 0px; border-bottom: none; font-size: 3.5em; }
+
+.info-message { width: 80%; max-width: 800px; margin: 0px auto 100px; padding: 20px; background-color: rgb(246, 246, 246); border-radius: 10px; border: 2px solid rgba(35, 31, 32, 0.18); box-shadow: rgba(0, 0, 0, 0.17) 0px 3px 10px; }
+
+#main_content .info-message ul { list-style-type: initial; list-style-position: inside; }
+
+#TUXEDO-config-banner { transform: scale(0.85); opacity: 0.75; transition: 1s; width: 100%; }
+
+.tuxedo-USPs { width: 400px; }
+
+a.a-red { color: rgb(227, 0, 22); }
