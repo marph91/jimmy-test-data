@@ -302,10 +302,9 @@ x  : & x\ge 0
 ------------------------------------------------------------------------
 
 1.  $f(x)$﻿ has no trailing spaces: `$f(x)$`.
-2.  $ g(x)$﻿ has two trailing spaces: `$ g(x) $`.
+2.  $g(x)$﻿ has two trailing spaces: `$ g(x) $`.
 3.  $h(x)$﻿ has an escaped trailing space: `$h(x)\ $`.
-4.  
-    $p(x) = e^{x}$﻿ has trailing linebreaks: `$<br><br>p(x) = e^{x}<br><br>$`.
+4.  $p(x) = e^{x}$﻿ has trailing linebreaks: `$<br><br>p(x) = e^{x}<br><br>$`.
 
 Multiline display math with trailing space:
 

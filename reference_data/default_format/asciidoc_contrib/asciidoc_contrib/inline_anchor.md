@@ -14,9 +14,6 @@ Refer to [Installation](#installation).
 
 ## Installation
 
-:sectnums:
-:section-refsig: Sec.
-:xrefstyle: short
 Refer to [Installation](#installation).
 
 ## Installation
@@ -31,5 +28,4 @@ Refer to [Installation](#installation).
 
 [Asciidoctor homepage\^](view-source:asciidoctor.org)
 
-:linkattrs:
 [**mailing list**](http://discuss.asciidoctor.org/)

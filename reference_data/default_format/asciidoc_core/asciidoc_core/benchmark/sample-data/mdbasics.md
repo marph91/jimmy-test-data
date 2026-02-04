@@ -111,7 +111,7 @@ Output:
 ### Lists
 
 Unordered (bulleted) lists use asterisks, pluses, and hyphens (\*,
-+++, and -) as list markers. These three markers are
+++, and -+) as list markers. These three markers are
 interchangable; this:
 
     *   Candy.
