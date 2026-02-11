@@ -78,15 +78,9 @@ or an \[[mailto:duh@somewhere.com](mailto:duh@somewhere.com) explicit email\] wi
 
 And remember,
 
-> > 
-
-A TAB in front of the line does a quotation.
-
-> > 
-
-More TABs, more depth (if allowed).
-
-> 
+> A TAB in front of the line does a quotation.
+>
+> > More TABs, more depth (if allowed).
 
 Nice.
 

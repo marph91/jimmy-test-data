@@ -2,6 +2,8 @@
 
 Aurelio Jargas
 
+00:00:00
+
 This text is before the introduction.
 
 But it's OK.
@@ -222,4 +224,4 @@ That's all for now.
 
 ------------------------------------------------------------------------
 
-![t2tpowered.png](./t2tpowered.png) (\[- %%infile\])
+![t2tpowered.png](./t2tpowered.png) (\[ %%infile\])

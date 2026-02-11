@@ -180,4 +180,4 @@ That’s all for now.
 
 ------------------------------------------------------------------------
 
-![img/t2tpowered.png](./t2tpowered.png) ([sample.t2t](sample.t2t))
+![t2tpowered.png](./t2tpowered.png) ([sample.t2t](sample.t2t))
