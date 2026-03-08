@@ -12,4 +12,5 @@ link[ zu zettel 3](./Zettel3.md)
 
 das ist ein [hyperlink](https://zettelkasten.de/)!
 
-**[br]random [brack]ets**
+**
+random [brack]ets**

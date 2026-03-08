@@ -777,12 +777,12 @@ Readiness Score:: hh:mm:ss
 - [May 25th, 2022](<./May 25th, 2022.md>)
     - Fix the parsing of bold in italics and italics in bold (and highlight and strikethrough). It no longer matters what order you put them in.
         - Examples::
-            - `***^^bih^^***`: ***^^bih^^***
-            - `***^^ibh^^***`: ***^^ibh^^***
-            - `**==__bhi__==**`: **==__bhi__==**
-            - `***^^ibh^^***`: ***^^ibh^^***
-            - `==**__hbi__**==`: ==**__hbi__**==
-            - `***^^bih^^***`: ***^^bih^^***
+            - `***==bih==***`: ***==bih==***
+            - `***==ibh==***`: ***==ibh==***
+            - `**==*bhi*==**`: **==*bhi*==**
+            - `***==ibh==***`: ***==ibh==***
+            - `==***hbi***==`: ==***hbi***==
+            - `***==bih==***`: ***==bih==***
     - Small improvement to all pages search ((Longer debounce time and normalize the search value))
 - [May 23rd, 2022](<./May 23rd, 2022.md>)
     - Fix [mobile](./mobile.md) quick capture crashing when displaying old quick captures

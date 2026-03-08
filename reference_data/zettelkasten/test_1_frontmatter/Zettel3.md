@@ -52,7 +52,8 @@ long code
 block
 ```
 
-block satz hier[br]immert noch
+block satz hier
+immert noch
 
 ## Note Sequences
 
