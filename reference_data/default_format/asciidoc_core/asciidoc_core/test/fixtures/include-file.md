@@ -8,13 +8,10 @@ seventh line of included content
 eighth line of included content
 
 snippetA content
-// end::snippetA\[\]
 
 non-tagged content
 
 snippetB content
-// end::snippetB\[\]
-// end::snippet\[\]
 
 more non-tagged content
 
