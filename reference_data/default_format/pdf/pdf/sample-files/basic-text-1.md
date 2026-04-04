@@ -1,0 +1,54 @@
+# Sample Document for PDF T
+
+# esting
+
+## Introduction
+
+This is a simple document created to test basic PDF functionality. It includes various text formatting
+
+options to ensure proper rendering in PDF readers.
+
+**T**
+
+### ext Formatting Examples
+
+**Lists**
+
+Here's an example of an unordered list:
+
+Item 1
+
+Item 2
+
+Item 3
+
+And here's an ordered list:
+
+**Quote**
+
+This is an example of a block quote. It can be used to highlight important information or
+
+citations.
+
+**T****able**
+
+| Header 1 | Header 2 | Header 3 |
+|---|---|---|
+| Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 |
+| Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 |
+
+This document demonstrates various formatting options that should translate well to PDF format.
+
+*This sample PDF file is provided by Sample-Files.com. Visit us for more sample files and resources.*
+
+1. Bold text is used for emphasis.
+
+2. Italic text can be used for titles or subtle emphasis.
+
+3. Strikethrough is used to show deleted text.
+
+1. First item
+
+2. Second item
+
+3. Third item
