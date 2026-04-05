@@ -1,9 +1,10 @@
-|  |  | Ima | | |  | ge-Heavy |
-|---|---|---|---|---|---|---|
-|  |  |  |  |  |  | PDF |
-|  | Prepared | | By: |  |  | Website: |
-|  | Sample |  | Team |  |  | sample-files.com |
+|  |  | Ima | |  | ge-Heavy |
+|---|---|---|---|---|---|
+|  |  |  |  |  | PDF |
+|  | Prepared |  | By: |  | Website: |
+|  | Sample | Team |  |  | sample-files.com |
 
+Prepared By: Sample Team
 
 ---
 
@@ -52,38 +53,12 @@
 
 ---
 
-**r**
+| r | ¬ ¾ | d¾ | ¬ £ | e S | © Ë | tË | ¤ | rap© | û |  |  |  |  |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| An | upƴ |  | close | capture |  | of | wildlife | in | their | natural |  | habitat. |  |
+| This | sample | PDF | file | is provided | by |  | Sample-Files.com. | Visit | us for | more sample | files | and | resource . |
 
-# ¬
-
-# ¾
-
-# d¾
-
-# ¬
-
-# £
-
-# e S
-
-# ©
-
-# Ë
-
-# tË
-
-# ¤
-
-# rap©
-
-# û
-
-### An upƴ
-
-### close capture of wildlife in their natural habitat.
-
-*This sample PDF file is provided by Sample-Files.com. Visit us for more sample files and resource**.*
-
+An upƴ close capture of wildlife in their natural habitat. This sample PDF file is provided by Sample-Files.com. Visit us for more sample files and resource
 
 ---
 
@@ -140,9 +115,7 @@ r
 
 # Ù
 
-# ¾
-
--
+# ¾ -
 
 ### ŽÙ
 
@@ -218,7 +191,7 @@ r
 
 ### ™
 
-**7** **KL****V** **VamSO****ePDF** **IL****O****eL****V** **SURvL****G** **eG** **E** **y6** **amSO****e-FL****O****eV** **F** **Rm**
+**7 KLV VamSOePDF ILOeLV SURvLG eG E y6 amSOe-FLOeV F Rm**
 
 ### Ë
 
@@ -232,7 +205,9 @@ r
 
 ### ƣ
 
-**9** **L****VL****WXV** **IRU** **mRUeVamSO****eIL****O****eV** **aQG** **UeVRXUF** **e**
+**9 LVLWXV IRU mRUeVamSO**
+
+**eILOeV aQG UeVRXUF e**
 
 
 ---

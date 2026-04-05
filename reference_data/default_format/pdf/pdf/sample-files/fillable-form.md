@@ -1,9 +1,10 @@
-|  |  |  | Fillable |  | Form |
-|---|---|---|---|---|---|
-|  |  |  |  | PDF |  |
-|  | Prepared | By: |  |  | Website: |
-| Sample |  | Team |  |  | sample-files.com |
+|  |  | Fillable | Form |
+|---|---|---|---|
+|  |  | PDF |  |
+| Prepared | By: |  | Website: |
+| Sample | Team |  | sample-files.com |
 
+Fillable Form Prepared By: Sample Team
 ---
 
 # Personal Information
@@ -30,4 +31,4 @@
 
 # I agree to the terms and conditions.
 
-*This sample PDF file is provided by Sample-Files.com. Visit us for more sample files and resource**.*
+*This sample PDF file is provided by Sample-Files.com. Visit us for more sample files and resource.*

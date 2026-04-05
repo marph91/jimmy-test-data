@@ -30,7 +30,7 @@ This is an example of a block quote. It can be used to highlight important infor
 
 citations.
 
-**T****able**
+**Table**
 
 | Header 1 | Header 2 | Header 3 |
 |---|---|---|
