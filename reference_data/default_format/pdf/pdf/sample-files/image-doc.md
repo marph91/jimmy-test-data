@@ -191,7 +191,7 @@ r
 
 ### ™
 
-**7 KLV VamSOePDF ILOeLV SURvLG eG E y6 amSOe-FLOeV F Rm**
+**7 K LV V amS Oe PDF I LOe LV S UR vLG eG E y 6 amS Oe-FLOeV F R m**
 
 ### Ë
 
@@ -205,9 +205,9 @@ r
 
 ### ƣ
 
-**9 LVLWXV IRU mRUeVamSO**
+**9 LV LW X V I R U mR Ue V amS O**
 
-**eILOeV aQG UeVRXUF e**
+**e I LOeV aQ G UeV R X UF e**
 
 
 ---
