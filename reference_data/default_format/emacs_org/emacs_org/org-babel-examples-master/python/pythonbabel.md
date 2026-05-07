@@ -1,0 +1,1282 @@
+# python org-babel exporting
+
+Derek Feichtinger
+
+# Version information
+
+``` numberSource
+(princ (concat
+        (format "Emacs version: %s\n"
+                (emacs-version))
+        (format "org version: %s\n"
+                (org-version))))        
+```
+
+    Emacs version: GNU Emacs 24.5.1 (x86_64-unknown-linux-gnu, GTK+ Version 3.10.8)
+     of 2015-05-04 on dflt1w
+    org version: 8.3.2
+
+``` bash
+python -V 2>&1
+```
+
+    Python 2.7.11 :: Continuum Analytics, Inc.
+
+# Links and Documentation
+
+- <http://orgmode.org/worg/org-contrib/babel/languages/ob-doc-python.html>
+
+# Python helper module orgbabelhelper.py
+
+In order to work easier with python code blocks, I will define a
+number of functions within this org file which get tangled into
+a helper library.
+
+The conda package can be downloaded from my channel at
+<https://anaconda.org/dfeich/orgbabelhelper>
+
+## basic package setup
+
+Package init file:
+
+``` python
+######################################################################
+# orgbabelhelper.py
+#
+# Author: Derek Feichtinger <derek.feichtinger@psi.ch>
+#
+######################################################################
+from orgbabelhelper import *
+```
+
+Setup.py file:
+
+``` python
+# we use the distribute framework that has a backward compatible invocation
+# to the setuptools
+from setuptools import setup
+
+setup(
+    name = "orgbabelhelper",
+    version = "1.0.3",
+    description = "python helper module for Emacs org mode babel",
+    long_description = "python helper module for working with Emacs"
+    + " org babel source blocks",
+    author = "Derek Feichtinger",
+    author_email = "dfeich@gmail.com",
+    license = "GPL",
+    url = "https://github.com/dfeich/org-babel-examples/tree/master/python",
+    packages = ['orgbabelhelper'],
+
+    install_requires = ['pandas']
+)
+```
+
+## module imports for orgbabelhelper.py
+
+``` python
+######################################################################
+# orgbabelhelper.py
+#
+# Author: Derek Feichtinger <derek.feichtinger@psi.ch>
+#
+######################################################################
+
+""" This module provides a number of functions for passing informations between
+the org document and python source code blocks."""
+
+import pandas as pd
+import datetime as dt
+import re
+```
+
+## building the conda package
+
+1.  update the version info in *setup.py* above
+2.  update the version info in <file:orgbabelhelper/conda-recipe/meta.yaml>
+3.  tangle the files
+4.  execute the source block, below
+
+Building the conda package
+
+``` bash
+cd orgbabelhelper
+conda build conda-recipe &> conda-build.out
+if test $? -eq 0; then
+    echo "Build OK"
+else
+    echo "Build FAILED. investigate conda-build.out"
+fi
+```
+
+    Build OK
+
+To install the newly built local package, use
+
+``` bash
+conda install --use-local orgbabelhelper
+```
+
+Be aware that if you did not raise the version number, the command will not install the
+newly built package, but it will fetch the previous one from your conda cache!
+
+# Reading from an org table as input
+
+| name  | tokens |
+|-------|--------|
+| Peter | 4      |
+| Paul  | 6      |
+| Mary  | 8      |
+
+If no `:colnames` parameter is given, it is nil by default and the first line
+above the header is interpreted as column name row that will be removed.
+
+``` python
+print tbl
+```
+
+    [[u'Peter', 4], [u'Paul', 6], [u'Mary', 8]]
+
+If one wants to retain the first row to be accessible by python, one
+must explicitly pass `:colnames no`
+
+``` python
+print tbl
+```
+
+    [['name', 'tokns'], ['Peter', 4], ['Paul', 6], ['Mary', 8]]
+
+Printing such a list of lists with `:results value` produces an org table.
+
+``` python
+return tbl
+```
+
+| Peter | 4   |
+|-------|-----|
+| Paul  | 6   |
+| Mary  | 8   |
+
+The column names from the first row of the original table can be
+retained by giving the `:colnames yes` argument. This is handled
+fully by the babel framework and python never sees the column
+names.
+
+``` python
+return tbl
+```
+
+| name  | tokns |
+|-------|-------|
+| Peter | 4     |
+| Paul  | 6     |
+| Mary  | 8     |
+
+# Generating tables as output
+
+Example 1:
+
+``` numberSource
+x = range(1,10)
+y = [xe*3 for xe in x]
+return [x,y]
+```
+
+| 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| 3   | 6   | 9   | 12  | 15  | 18  | 21  | 24  | 27  |
+
+Example 2:
+
+``` numberSource
+import numpy as np
+
+x = range(1,10)
+y = [xe*3 for xe in x]
+return np.array([x,y]).transpose()
+```
+
+| 1   | 3   |
+|-----|-----|
+| 2   | 6   |
+| 3   | 9   |
+| 4   | 12  |
+| 5   | 15  |
+| 6   | 18  |
+| 7   | 21  |
+| 8   | 24  |
+| 9   | 27  |
+
+# Calling a python function from inside an org table
+
+Here I define the function. It takes `epoch` as the variable, which
+is a unix time stamp. I want to have it converted to an Org type
+time format.
+
+``` python
+time = epoch
+import datetime
+strtime = str(time)
+datetimestamp = datetime.datetime.utcfromtimestamp(int(strtime[:10]))
+print datetimestamp.strftime('[%Y-%m-%d %a %H:%M:%S]')
+```
+
+    [2010-01-05 Tue 07:11:05]
+
+In the table we need to refer to the named source block by using the
+a short lisp form involving `org-sbe`. If the table value that is
+referred to in the function is to be interpreted as a number, the
+reference uses a single dollar sign, e.g. \$1 (as here). If it should
+be interpreted as a string, one puts an additional dollar sign in
+front, e.g. \$\$1.
+
+| epoch         | day                         |
+|---------------|-----------------------------|
+| 1262675465119 | \[2010-01-05 Tue 07:11:05\] |
+| 123456        | \[1970-01-02 Fri 10:17:36\] |
+| 99998754      | \[1973-03-03 Sat 09:25:54\] |
+
+# Dates
+
+``` python
+# NOTANGLE-START
+import re
+import datetime as dt
+# NOTANGLE-END
+
+def orgdate_to_date(datestr):
+    """Returns a python datetime for the org date given in datestr.
+
+    Allows passing in an empty/whitespace string."""
+    if re.match(r'^ *$', datestr):
+        return ''
+
+    #m = re.match(r'^\[(\d+-\d+-\d+) +[a-zA-Z]{3}\]$', datestr)
+    m = re.match(r'^[\[<](\d+-\d+-\d+) +[a-zA-Z]{3}[\]>]$', datestr)
+    if not m:
+        raise ValueError("Input String is not a date: >%s<" % datestr)
+
+    return dt.datetime.strptime(m.group(1), '%Y-%m-%d').date()
+
+def date_to_orgdate(date, active=False):
+    orgstr = date.strftime("%Y-%m-%d %a")
+    if active:
+        return "<%s>" % orgstr
+    return "[%s]" % orgstr
+```
+
+**Note:** I am using the noweb syntax and header argument to include
+the code of the named block into this source block. The noweb syntax
+is mostly used in literate programing, where we produce code files
+from the org file (the process is called *tangling*), and this allows
+us to specify the sequence of the tangled blocks in the final file.
+But it also is a very nice way to write the first functional test of
+a code block like here:
+
+``` python
+<<src_orgdate_to_date>>
+
+print orgdate_to_date('[2016-08-16 Tue]')
+print orgdate_to_date('<2016-08-17 Tue>')
+print date_to_orgdate(dt.datetime(2016,8,18))
+print date_to_orgdate(dt.datetime(2016,8,18), active=True)
+```
+
+    2016-08-16
+    2016-08-17
+    [2016-08-18 Thu]
+    <2016-08-18 Thu>
+
+# Matplotlib
+
+## plotting of a simple graph
+
+``` python
+import matplotlib, numpy
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+fig=plt.figure(figsize=(4,2))
+x=numpy.linspace(-15,15)
+plt.plot(numpy.sin(x)/x)
+fig.tight_layout()
+plt.savefig('python-matplot-fig.png')
+return 'python-matplot-fig.png' # return filename to org-mode
+```
+
+## Plotting from an Org table
+
+The table is passed to python as a list
+
+| x   | y   |
+|-----|-----|
+| 1   | 1   |
+| 2   | 4   |
+| 3   | 9   |
+| 4   | 16  |
+| 5   | 25  |
+| 6   | 36  |
+| 7   | 49  |
+
+``` python
+import matplotlib
+import numpy as np
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+import seaborn
+
+fname='python-matplot-fig2.png'
+ar = np.array(data).transpose()
+fig=plt.figure(figsize=(4,2))
+plt.plot(ar[0],ar[1])
+plt.title('Square function')
+fig.tight_layout()
+plt.savefig(fname)
+return fname # return filename to org-mode
+```
+
+# Pandas
+
+## Reading in a data frame from a table with the column names
+
+``` python
+# NOTANGLE-START
+import pandas as pd
+
+<<src_orgdate_to_date>>
+# NOTANGLE-END
+
+def orgtable_to_dataframe(tbl, index=None, datecols=None):
+    """Read an org table into a data frame.
+
+    Parameters
+    ----------
+    tbl : org table passed in by src block header
+    index : name or index of column to use for index, optional
+    datecols : 'auto' or list of column names, optional. Try
+        to convert cells in these columns to python datetime objects. 
+
+    Returns
+    -------
+    Pandas data frame
+
+    Make sure you use ':colnames no' in your src block header. Else
+    the table's first row containing the column names will not be
+    available to the python code.
+
+    """
+    df = pd.DataFrame(tbl)
+    df.columns = df.iloc[0,:]
+    df = df.iloc[1:,:]
+    df.columns.name = ""
+
+    if datecols is None:
+        datecols = []
+    elif datecols == "auto":
+        datecols = df.columns
+
+    for col in datecols:
+        try:
+            df[col] = df[col].apply(orgdate_to_date)
+            df[col] = pd.to_datetime(df[col])
+        except:
+            pass
+
+    if index in df.columns:
+        df.set_index(index, inplace=True)
+    elif type(index) is int:
+        df.set_index(df.columns[index], inplace=True)
+
+    return df
+```
+
+    None
+
+We define a new test table:
+
+| Date               | End                | Name  |
+|--------------------|--------------------|-------|
+| \[2016-08-10 Wed\] | \[2016-08-17 Wed\] | Peter |
+| \[2016-08-11 Thu\] | \[2016-08-18 Thu\] | Paul  |
+| \[2016-08-12 Fri\] | \[2016-08-19 Fri\] | Mary  |
+
+``` python
+<<src_orgtable_to_dataframe>>
+
+print orgtable_to_dataframe(tbl)
+print
+print orgtable_to_dataframe(tbl, index='Name', datecols='auto')
+print
+print orgtable_to_dataframe(tbl,1, datecols=['End'])
+```
+
+           Date               End   Name
+    1  [2016-08-17 Wed]  [2016-08-10 Wed]  Peter
+    2  [2016-08-18 Thu]  [2016-08-11 Thu]   Paul
+    3  [2016-08-19 Fri]  [2016-08-12 Fri]   Mary
+
+            Date        End
+    Name                       
+    Peter 2016-08-17 2016-08-10
+    Paul  2016-08-18 2016-08-11
+    Mary  2016-08-19 2016-08-12
+
+                Date   Name
+    End                                
+    2016-08-10  [2016-08-17 Wed]  Peter
+    2016-08-11  [2016-08-18 Thu]   Paul
+    2016-08-12  [2016-08-19 Fri]   Mary
+
+## printing a data frame as a table
+
+I define a function in a named src block with name `dataframe_to_orgtable`.
+The following function will return a nicely formatted org table.
+
+``` python
+# NOTANGLE-START
+import datetime as dt
+# NOTANGLE-END
+
+def dataframe_to_orgtable(dframe, name=None, caption=None, attr=None,
+                          index=True, date_format=None, hlines=None,
+                          encoding='ascii'):
+    """
+    Parameters
+    ----------
+    dframe : data frame
+    name : defines org table's name (#+NAME:), optional
+    caption defines org table's caption (#+CAPTION:): , optional
+    attr : defines org table's LaTeX attributes (#+ATTR_LATEX:), optional
+    index : write the row names, optional
+    date_format : Format string for datetime objects, optional
+    hlines : list  of numbers. Where to put horizontal lines, optional
+    encoding : Encoding for the resulting string, optional
+
+    Returns
+    -------
+    Returns a string containing the data frame formatted as an org table.
+    """
+    result=""
+    if attr:
+        result += "#+ATTR_LATEX: %s\n" % attr
+
+    if caption:
+        result += "#+CAPTION: %s\n" % caption
+
+    if name:
+        result += "#+NAME: %s\n" % name
+
+    lines = '|' + dframe.to_csv(None, sep='|', line_terminator='|\n|',
+                                encoding=encoding, index=index, date_format=date_format).rstrip("|").rstrip("\n")
+
+    hlines_tmp=[]
+    if hlines is None:
+        hlines_tmp.append(1) # per default add a hl after the 1st line
+    else:
+        for hl in hlines:
+            if hl < 0:
+                hlines_tmp.append(len(lines.split('\n')) + hl)
+            else:
+                hlines_tmp.append(hl)
+
+    for i,l in enumerate(lines.split('\n')):
+        if i in hlines_tmp:
+            result +=  "|-----\n"
+        result += l
+        result += "\n"
+    return result
+```
+
+As before, I use the noweb syntax for including the previous
+source block in the following test source block.
+
+``` python
+import pandas as pd
+import numpy as np
+from datetime import datetime
+
+<<dframeToOrg>>
+
+df = pd.DataFrame({'A' : range(10, 22),
+                   'B' : ['A', 'B', 'C'] * 4,
+                   'C' : ['foo', 'foo', 'foo', 'bar', 'bar', 'bar'] * 2,
+                   'E' : [datetime(2016,8,1), datetime(2016,8,2), datetime(2016,8,3)] * 4,
+                   'F' : ['one', 'one', 'two', 'three'] * 3})
+
+print dataframe_to_orgtable(df)
+```
+
+|     | A   | B   | C   | E          | F     |
+|-----|-----|-----|-----|------------|-------|
+| 0   | 10  | A   | foo | 2016-08-01 | one   |
+| 1   | 11  | B   | foo | 2016-08-02 | one   |
+| 2   | 12  | C   | foo | 2016-08-03 | two   |
+| 3   | 13  | A   | bar | 2016-08-01 | three |
+| 4   | 14  | B   | bar | 2016-08-02 | one   |
+| 5   | 15  | C   | bar | 2016-08-03 | one   |
+| 6   | 16  | A   | foo | 2016-08-01 | two   |
+| 7   | 17  | B   | foo | 2016-08-02 | three |
+| 8   | 18  | C   | foo | 2016-08-03 | one   |
+| 9   | 19  | A   | bar | 2016-08-01 | one   |
+| 10  | 20  | B   | bar | 2016-08-02 | two   |
+| 11  | 21  | C   | bar | 2016-08-03 | three |
+
+And a second test that demonstrates the handling of dates:
+
+``` python
+import pandas as pd
+import numpy as np
+from datetime import datetime
+
+<<dframeToOrg>>
+<<src_orgtable_to_dataframe>>
+
+df = orgtable_to_dataframe(tbl, datecols='auto', index='Name')
+
+print dataframe_to_orgtable(df, date_format='%d. %b %Y')
+```
+
+| Name  | Date          | End           |
+|-------|---------------|---------------|
+| Peter | 10\. Aug 2016 | 17\. Aug 2016 |
+| Paul  | 11\. Aug 2016 | 18\. Aug 2016 |
+| Mary  | 12\. Aug 2016 | 19\. Aug 2016 |
+
+### data frame printing using Ipython.display
+
+As an alternative, the display function from Ipython is also able
+to align a frame. I only managed to get `diplay_pretty` working
+up to now, and its output is lacking table separators. So, it
+only displays nicely in an example environment.
+
+The display~latex~ and display~html~ functions produce no output.
+
+``` python
+import pandas as pd
+import numpy as np
+from IPython.display import display_pretty
+
+df = pd.DataFrame({'A' : ['one', 'one', 'two', 'three'] * 3,
+                 'B' : ['A', 'B', 'C'] * 4,
+                 'C' : ['foo', 'foo', 'foo', 'bar', 'bar', 'bar'] * 2,
+                 'D' : np.random.randn(12),
+                 'E' : np.random.randn(12)})
+
+display_pretty(df)
+```
+
+        A  B    C         D         E
+    0     one  A  foo  0.667950 -0.266868
+    1     one  B  foo  0.369191 -0.795070
+    2     two  C  foo -0.780600 -1.273259
+    3   three  A  bar  0.150728 -1.535735
+    4     one  B  bar  0.026353 -0.316189
+    5     one  C  bar  0.485256 -0.254337
+    6     two  A  foo  0.119993  0.698165
+    7   three  B  foo -1.014094 -0.055146
+    8     one  C  foo -0.302114 -0.414778
+    9     one  A  bar -0.508872  0.852937
+    10    two  B  bar  0.095404  1.048710
+    11  three  C  bar -1.303801 -0.491319
+
+### an older and simpler dataFrame printing alternative:
+
+In order to get a nice org table, it is necessary to pass the
+frame's contents back as a list. The column names end up as the
+first row in the table. I cut this row away by using the \[1:\]
+slice.
+
+``` python
+import pandas as pd
+import numpy as np
+import sys
+
+df = pd.DataFrame({'A' : ['one', 'one', 'two', 'three'] * 3,
+                 'B' : ['A', 'B', 'C'] * 4,
+                 'C' : ['foo', 'foo', 'foo', 'bar', 'bar', 'bar'] * 2,
+                 'D' : np.random.randn(12),
+                 'E' : np.random.randn(12)})
+
+return(np.array(list(df.T.itertuples())).transpose()[1:])
+```
+
+| one   | A   | foo | 0.0938808446011   | 0.164297355457  |
+|-------|-----|-----|-------------------|-----------------|
+| one   | B   | foo | -0.789300199571   | -0.511961867306 |
+| two   | C   | foo | 1.95021689376     | 0.0232752902683 |
+| three | A   | bar | 0.510081471979    | 0.528985415096  |
+| one   | B   | bar | -0.488878857101   | 1.25402845388   |
+| one   | C   | bar | -0.184935360749   | -0.732186323506 |
+| two   | A   | foo | -1.77738274849    | -0.955535365892 |
+| three | B   | foo | -0.804053077993   | -1.53545424683  |
+| one   | C   | foo | -0.475823420406   | -0.597569166696 |
+| one   | A   | bar | -0.122500579966   | -0.390227759637 |
+| two   | B   | bar | -0.182471796578   | -0.394139328993 |
+| three | C   | bar | -0.00648778760846 | 0.0199194965102 |
+
+## plotting a data frame (and placing a code reference)
+
+| x   | y   |
+|-----|-----|
+| 1   | 1   |
+| 2   | 4   |
+| 3   | 9   |
+| 4   | 16  |
+| 5   | 25  |
+| 6   | 36  |
+| 7   | 49  |
+
+Here we also show how a code reference works. It can be inserted using
+the **org-store-link** command while editing the src code in the dedicated
+buffer:
+
+In line *(zcol)* we define a new column (in this sentence you should see
+the number of the respective line in the exported file)
+
+The **-r** flag in the `BEGIN_SRC` line removes the reference string
+from the source code listing in the output (else the string would have
+ended up in the exported version's source code). Regrettably the
+reference is not removed when the code gets executed, so I need to
+insert language specific commenting to keep the code functional.
+
+    import matplotlib
+    import matplotlib.pyplot as plt
+    import pandas as pd
+    import numpy as np
+    matplotlib.use('Agg')
+    import seaborn
+
+    fname='python-matplot-fig3.png'
+    df = pd.DataFrame(data)
+    df.columns = ['x','y']
+    df['z'] = df['x'] * 3                                             #(ref:zcol)
+
+    df.plot(figsize=(4,2))
+    plt.savefig(fname)
+    return fname
+
+## Pie plot from table
+
+Instead of the default percent labels in the pie sections, I use a lambda
+function to put in the original values.
+
+``` python
+import matplotlib
+import matplotlib.pyplot as plt
+import pandas as pd
+import numpy as np
+import seaborn
+import orgbabelhelper as obh
+
+df = obh.orgtable_to_dataframe(tbl,'name')
+
+dfsum = df['tokns'].sum()
+df.plot(kind='pie',
+        y='tokns',
+        fontsize=20,
+        autopct=lambda v: int(np.round(v*dfsum/100, 0)),
+        figsize=(6,6))
+plt.savefig(fname)
+return fname
+```
+
+## time series resampling
+
+Let's say we are taking measurements twice a day, every 12h.
+
+``` python
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+
+ts = pd.date_range('2013-07-01 06:00:00', periods=20, freq='12h')
+val = [x * 10.0 for x in range(len(ts))]
+
+tdf = pd.DataFrame({'value': val}, index=ts)
+# Now we put one observation as invalid
+tdf.value[14] = np.NaN
+# and we delete another one
+#tdf = tdf.drop(tdf.index[2])
+tdf = tdf.drop(tdf.index[6:8])
+
+newdf = tdf.resample('1D', loffset='6h',how='min').rename(columns={'value': '1D_resample'})
+newdf['diff'] = newdf.diff()
+
+return pd.concat([tdf,newdf], join='inner',axis=1)
+```
+
+    value  1D_resample  diff
+    2013-07-01 06:00:00      0            0   NaN
+    2013-07-02 06:00:00     20           20    20
+    2013-07-03 06:00:00     40           40    20
+    2013-07-05 06:00:00     80           80   NaN
+    2013-07-06 06:00:00    100          100    20
+    2013-07-07 06:00:00    120          120    20
+    2013-07-08 06:00:00    NaN          150    30
+    2013-07-09 06:00:00    160          160    10
+    2013-07-10 06:00:00    180          180    20
+
+# Sympy
+
+I define a post-wrapping function for putting the results into the desired equation environment for
+LaTeX exporting.
+
+``` bash
+cat <<EOF
+\begin{equation}
+$outp
+\end{equation}
+EOF
+```
+
+The correct preview of the resulting LaTeX fragment I only get with
+the *output drawer* results options. I tested rendering with the
+`:results latex` option, but the resulting LaTeX block is not
+rendered by the `org-toggle-latex-fragment` command (`C-c C-x C-l`).
+
+``` python
+import sympy as sym
+
+x = sym.Symbol('x')
+k = sym.Symbol('k')
+
+print sym.latex(sym.Integral(1/x, x))
+```
+
+$$\begin{equation}
+  \int \frac{1}{x}\, dx
+  \end{equation}$$
+
+The above LaTeX equation is also rendered nicely in the HTML export.
+
+For simple in-buffer consummation, one may also want to just use the ASCII output
+
+``` python
+import sympy as sym
+import sys
+
+x = sym.Symbol('x')
+k = sym.Symbol('k')
+
+print sym.pretty_print(sym.Integral(1/x, x))
+```
+
+      /    
+     |     
+     | 1   
+     | - dx
+     | x   
+     |     
+    /      
+    None
+
+Or as an alternative, the unicode rendering.
+
+``` python
+import sympy as sym
+import sys
+
+import codecs
+sys.stdout = codecs.getwriter('utf8')(sys.stdout)
+
+x = sym.Symbol('x')
+k = sym.Symbol('k')
+
+print sym.pretty_print(sym.Integral(1/x, x), use_unicode=True)
+```
+
+    ⌠     
+    ⎮ 1   
+    ⎮ ─ dx
+    ⎮ x   
+    ⌡     
+    None
+
+# Unicode related problems with python in Org Babel
+
+## some tests of stdout encoding for different use cases
+
+Here, I am looking at the default encoding that is set on stdin and
+stdout for a number of situations involving script execution in
+a normal subprocess, in a shell, and to a pipe.
+
+Running the commands in a python shell (session) environment
+
+``` python
+import sys
+print 'stdin encoding is ', sys.stdin.encoding, '| tty: ', sys.stdout.isatty()
+print 'stdout encoding is ', sys.stdout.encoding,'| tty: ', sys.stdout.isatty()
+```
+
+
+    stdin encoding is  UTF-8 | tty:  True
+    stdout encoding is  UTF-8 | tty:  True
+
+Running them in a standard babel block
+
+``` python
+import sys
+print 'stdin encoding is ', sys.stdin.encoding, '| tty: ', sys.stdout.isatty()
+print 'stdout encoding is ', sys.stdout.encoding, '| tty: ', sys.stdout.isatty()
+```
+
+    stdin encoding is  None | tty:  False
+    stdout encoding is  None | tty:  False
+
+I tangle the code and redo both experiments by invoking the resulting python
+file.
+
+``` bash
+python /tmp/pyencode.py
+```
+
+    stdin encoding is  None | tty:  False
+    stdout encoding is  None | tty:  False
+
+``` bash
+python /tmp/pyencode.py
+```
+
+    stdin encoding is  UTF-8 | tty:  True
+    stdout encoding is  UTF-8 | tty:  True
+
+When piping into another command, the stdout encoding is set to None, even
+though we are still in an interactive shell.
+
+``` bash
+python /tmp/pyencode.py | cat
+```
+
+    stdin encoding is  UTF-8 | tty:  False
+    stdout encoding is  None | tty:  False
+
+Note: The stdout.encoding value tells what kind of encoded string
+**is expected** on stdout, not what encoder is set when sending the
+bytes towards stdout!
+
+Printing unicode to a stdout that has its encoding set to "None"
+(=ASCII) leads to an error.
+
+``` python
+import sys
+try:
+    print u'äöü'
+except:
+    print sys.exc_info()[0]
+```
+
+    <type 'exceptions.UnicodeEncodeError'>
+
+In an interactive shell session this works, because the stdout's encoding
+is set to UTF-8.
+
+``` python
+print u'äöü'
+```
+
+    äöü
+
+But if we redirect to e.g. cat, then the stdout encoding of the
+python script is set to 'None' as demonstrated above, and this leads to an
+encoding error.
+
+``` bash
+python /tmp/pyencode4.py | cat
+```
+
+
+    <type 'exceptions.UnicodeEncodeError'>
+
+## defining the src block coding system with a prologue
+
+The coding system for the babel source block itself should be set
+with a prologue like this (which actually python copied from the
+Emacs way of doing things)
+
+    :prologue "# -*- coding: utf-8 -*-"
+
+You should not put the coding information as the first line in a
+babel block, because you cannot be sure that it will end up
+as the first line in the file that is executed. E.g. if you
+define variables using `:var`, lines with these variable settings
+will end up in front of the lines from the babel block. The
+preamble is the safer option. This solution is mentioned on
+[the Worg website](http://orgmode.org/worg/org-contrib/babel/languages/ob-doc-python.html#orgheadline12).
+
+Without the preamble the following src block would produce an error
+
+    SyntaxError: Non-ASCII character '\xc3' in file <stdin> on line 1, but no encoding declared
+
+``` python
+a="äöü"
+print a, 'len=', len(a)
+```
+
+    äöü len= 6
+
+As can be seen when looking at the string's length, there is more
+going on then a naive look at input and output suggests. The
+passed-in string is actually an utf-8 encoded bytestring with
+length 6. Emacs just renders it correctly, because it expects UTF-8.
+But for python, it is just a plain bytestring of length 6.
+
+## Strings sent to stdout must be encoded to be correct ASCII
+
+The stdout to which org babel writes expects an ASCII stream. If
+one wants to print python unicode strings, the unicode strings must
+get encoded using 'utf-8' encoding, so that none of the bytes in the
+string contain values \> 127.
+
+This is all a bit cumbersome but seems to be solved when only using python3.
+
+``` python
+import sys
+print 'stdout encoding is ', sys.stdout.encoding
+print 'default encoding is %s\n' % sys.getdefaultencoding()
+
+strg = u'Can we see Umlauts? äöü. And accents? éè.'
+
+try:
+    print strg
+except:
+    print "Expected error printing unicode string to ascii stdout:\n", sys.exc_info()[0]
+
+print '\nexplicit utf-8 encoding of the unicode string'
+print strg.encode('utf-8')
+
+
+import codecs
+sys.stdout = codecs.getwriter('utf8')(sys.stdout)
+
+print "\nSetting an encoder for all stdout output:\n", strg
+```
+
+    stdout encoding is  None
+    default encoding is ascii
+
+    Expected error printing unicode string to ascii stdout:
+    <type 'exceptions.UnicodeEncodeError'>
+
+    explicit utf-8 encoding of the unicode string
+    Can we see Umlauts? äöü. And accents? éè.
+
+    Setting an encoder for all stdout output:
+    Can we see Umlauts? äöü. And accents? éè.
+
+When the codec has been set using getwriter, it is no longer possible to
+naively print the original bytestreams to stdout.
+
+``` python
+import sys
+
+a = "äöü"
+print a
+
+import codecs
+sys.stdout = codecs.getwriter('utf8')(sys.stdout)
+
+print "After setting codec, I can print unicode strings:\n", a.decode('utf-8')
+
+print "\nBut I can no longer naively print the original bytestring:"
+try:
+    print a
+except:
+    print "Expected error:\n", sys.exc_info()[0]
+    print sys.exc_info()[1]
+```
+
+    äöü
+    After setting codec, I can print unicode strings:
+    äöü
+
+    But I can no longer naively print the original bytestring:
+    Expected error:
+    <type 'exceptions.UnicodeDecodeError'>
+    'ascii' codec can't decode byte 0xc3 in position 0: ordinal not in range(128)
+
+Another possibility is to change the default encoding fromm ASCII
+to utf-8 in sys, even though this is discouraged, since it requires
+reloading sys.
+
+``` python
+import sys
+
+strg = u'Can we see Umlauts? äöü. And accents? éè.'
+
+print 'default encoding is now %s' % sys.getdefaultencoding()
+try:
+    print strg
+except:
+    print "Expected error:", sys.exc_info()[0]
+
+print '\nexplicit encoding:\n', strg.encode('utf-8')
+
+# THESE ARE THE RELEVANT LINES
+reload(sys)  
+sys.setdefaultencoding('utf8')
+
+print '\ndefault encoding is now %s' % sys.getdefaultencoding()
+print "Now it works:\n", strg
+```
+
+    default encoding is now ascii
+    Expected error: <type 'exceptions.UnicodeEncodeError'>
+
+    explicit encoding:
+    Can we see Umlauts? äöü. And accents? éè.
+
+    default encoding is now utf8
+    Now it works:
+    Can we see Umlauts? äöü. And accents? éè.
+
+## passing data into the source block using the :var header argument
+
+### simple string arguments
+
+``` python
+import sys
+print 'default encoding is %s' % sys.getdefaultencoding()
+
+print "defined in header var: ", s, type(s), len(s)
+
+b="äöü"
+print "defined as byte string in src block: ", b, type(b), len (b)
+
+c=u'äöü'
+print 'defined as unicode in src block with explicit encoding: ',
+print c.encode('utf-8'), type(c), len(c)
+```
+
+    default encoding is ascii
+    defined in header var:  äöü <type 'str'> 6
+    defined as byte string in src block:  äöü <type 'str'> 6
+    defined as unicode in src block with explicit encoding:  äöü <type 'unicode'> 3
+
+### passing in a table containing unicode strings
+
+Let's look at passing a table into a babel block:
+
+| name  | tokens |
+|-------|--------|
+| Peter | 14     |
+| René  | 15     |
+| Sämi  | 15     |
+| Paul  | 16     |
+| Mary  | 18     |
+
+The strings in the table end up as utf-8 encoded bytestrings (type
+'str'). The bytestrings are correctly rendered when interpreted by
+Emacs, but inside of the python code we are dealing with the
+bytestrings.
+
+Inside the following script, I convert the values to unicode.
+To print unicode to the stdout (which here again by default
+expects an ASCII string, because stdout.encoding is set to None)
+When they are explicitely converted to unicode strings with either
+`item.decode('utf-8')` or `unicode(item, 'utf-8')` it is again necessary to
+specify a codec that converts them to utf-8 encoded bytestrings that are expected
+on stdout.
+
+It is certainly cleaner to work with strings converted to unicode. E.g., as is shown below, the
+length of a bytestring is often not equal to the length of characters in the string.
+
+I provide a simple function for the conversion.
+
+``` python
+def orgtable_to_unicode(tbl):
+    """convert all bytestring elements in a list to unicode strings"""
+    new=[]
+    for row in tbl:
+        new.append([i.decode('utf-8') if type(i) is str else i for i in row])
+    return new
+```
+
+Using noweb syntax to read in the previous code block
+
+``` python
+import sys
+
+<<src_orgtable_to_unicode>>
+
+print 'stdout encoding is ', sys.stdout.encoding
+print
+
+for row in tbl:
+    print row[0], row[1]
+print
+
+print tbl
+print
+
+import codecs
+sys.stdout = codecs.getwriter('utf8')(sys.stdout)
+
+for row in tbl:
+    for item in row:
+        if type(item) is str:
+            sys.stdout.write("str len=%d ->  %s  unicode len=%d  | " %
+                             (len(item),
+                              unicode(item,'utf-8'), len(unicode(item,'utf-8'))))
+        else:
+            sys.stdout.write("%d" % item)
+    sys.stdout.write("\n")
+
+print "\n", orgtable_to_unicode(tbl), "\n"
+for row in orgtable_to_unicode(tbl):
+    print row[0], row[1]
+```
+
+    stdout encoding is  None
+
+    Peter 14
+    René 15
+    Sämi 15
+    Paul 16
+    Mary 18
+
+    [['Peter', 14], ['Ren\xc3\xa9', 15], ['S\xc3\xa4mi', 15], ['Paul', 16], ['Mary', 18]]
+
+    str len=5 ->  Peter  unicode len=5  | 14
+    str len=5 ->  René  unicode len=4  | 15
+    str len=5 ->  Sämi  unicode len=4  | 15
+    str len=4 ->  Paul  unicode len=4  | 16
+    str len=4 ->  Mary  unicode len=4  | 18
+
+    [[u'Peter', 14], [u'Ren\xe9', 15], [u'S\xe4mi', 15], [u'Paul', 16], [u'Mary', 18]] 
+
+    Peter 14
+    René 15
+    Sämi 15
+    Paul 16
+    Mary 18
+
+### passing in a table for a data frame in pandas
+
+``` python
+import sys
+import pandas as pd
+import orgbabelhelper as obh
+
+print 'stdout encoding is ', sys.stdout.encoding
+print
+
+df = obh.orgtable_to_dataframe(tbl)
+
+print 'printing the bytestring dataframe fields may render correct, but the len'
+print 'of the fields proves that the character count is wrong:'
+for n in df['name']:
+    print n, type(n), "len: %d" % len(n)
+print
+
+print df
+print
+
+print "We prepare a unicode encoded data frame"
+df_unicode = pd.DataFrame(obh.orgtable_to_unicode(tbl))
+df_unicode.columns = df_unicode.iloc[0,:]
+df_unicode = df_unicode.iloc[1:,:]
+
+print 'printing this directly seems to work due to pandas being smart'
+print df_unicode
+
+
+print 'printing the utf-8 encoded fields of the unicode frame:'
+for n in df_unicode['name']:
+    print n.encode('utf-8'), type(n), "len: %d" % len(n)
+print
+
+print 'the data frame can be printed when converted to utf-8'
+print obh.dataframe_to_orgtable(df_unicode, encoding='utf-8')
+
+#################################################
+
+print "\n\n---other approach----\nwe configure a UTF-8 writer codec for stdout"
+import codecs
+sys.stdout = codecs.getwriter('utf8')(sys.stdout)
+
+print "The writer expects unicode strings and will "
+print "   convert everything written to stdout to utf8"
+
+print "\nnaively printing the dataset containing the bytestrings does not work anymore:"
+try:
+    print df
+except:
+    print "Expected error:", sys.exc_info()[0]
+
+
+print "\nfor some reason directly printing the unicode data frame also fails:"
+try:
+    print df_unicode
+except:
+    print "Expected error:", sys.exc_info()[0]
+
+print "Our library dataframe_to_orgtable function produces a bytestring"
+df_str = obh.dataframe_to_orgtable(df_unicode, encoding='utf-8')
+# the result is a utf-8 encoded byte string
+#print type(df_str)
+
+print "that can be printed with the defined utf-8 writer, if one again makes it unicode again"
+print unicode(df_str,'utf-8')
+```
+
+    stdout encoding is  None
+
+    printing the bytestring dataframe fields may render correct, but the len
+    of the fields proves that the character count is wrong:
+    Peter <type 'str'> len: 5
+    René <type 'str'> len: 5
+    Sämi <type 'str'> len: 5
+    Paul <type 'str'> len: 4
+    Mary <type 'str'> len: 4
+
+        name tokens
+    1  Peter     14
+    2   René     15
+    3   Sämi     15
+    4   Paul     16
+    5   Mary     18
+
+    We prepare a unicode encoded data frame
+    printing this directly seems to work due to pandas being smart
+    0   name tokens
+    1  Peter     14
+    2   René     15
+    3   Sämi     15
+    4   Paul     16
+    5   Mary     18
+    printing the utf-8 encoded fields of the unicode frame:
+    Peter <type 'unicode'> len: 5
+    René <type 'unicode'> len: 4
+    Sämi <type 'unicode'> len: 4
+    Paul <type 'unicode'> len: 4
+    Mary <type 'unicode'> len: 4
+
+    the data frame can be printed when converted to utf-8
+    ||name|tokens|
+    |-----
+    |1|Peter|14|
+    |2|René|15|
+    |3|Sämi|15|
+    |4|Paul|16|
+    |5|Mary|18|
+
+
+
+    ---other approach----
+    we configure a UTF-8 writer codec for stdout
+    The writer expects unicode strings and will 
+       convert everything written to stdout to utf8
+
+    naively printing the dataset containing the bytestrings does not work anymore:
+    Expected error: <type 'exceptions.UnicodeDecodeError'>
+
+    for some reason directly printing the unicode data frame also fails:
+    Expected error: <type 'exceptions.UnicodeDecodeError'>
+    Our library dataframe_to_orgtable function produces a bytestring
+    that can be printed with the defined utf-8 writer, if one again makes it unicode again
+    ||name|tokens|
+    |-----
+    |1|Peter|14|
+    |2|René|15|
+    |3|Sämi|15|
+    |4|Paul|16|
+    |5|Mary|18|

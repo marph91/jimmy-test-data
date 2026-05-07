@@ -1,0 +1,1211 @@
+# python3 org-babel exporting
+
+Derek Feichtinger
+
+# Python executable definition
+
+Done in the "Local Variables" section at the end of the document
+by using the variable `org-babel-python-command`
+
+# Version information
+
+``` numberSource
+(princ (concat
+        (format "Emacs version: %s\n"
+                (emacs-version))
+        (format "org version: %s\n"
+                (org-version))))        
+```
+
+    Emacs version: GNU Emacs 28.2 (build 2, x86_64-pc-linux-gnu, GTK+ Version 3.24.33, cairo version 1.16.0)
+     of 2023-04-16
+    org version: 9.6.1
+
+``` python
+import sys
+import pandas as pd
+print(sys.version)
+
+print(f"Pandas Version: {pd.__version__}")
+```
+
+    3.10.10 | packaged by conda-forge | (main, Mar 24 2023, 20:08:06) [GCC 11.3.0]
+    Pandas Version: 2.0.0
+
+# Links and Documentation
+
+- <http://orgmode.org/worg/org-contrib/babel/languages/ob-doc-python.html>
+
+# Python helper module orgbabelhelper.py
+
+In order to work easier with python code blocks, I will define a
+number of functions within this org file which get tangled into
+a helper library.
+
+The conda package can be downloaded from my channel at
+<https://anaconda.org/dfeich/orgbabelhelper>
+
+## basic files for package setup
+
+Package init file:
+
+``` python
+######################################################################
+# orgbabelhelper.py
+#
+# Author: Derek Feichtinger <derek.feichtinger@psi.ch>
+#
+######################################################################
+from .orgbabelhelper import *
+```
+
+Setup.py file:
+
+``` python
+# we use the distribute framework that has a backward compatible invocation
+# to the setuptools
+from setuptools import setup
+
+setup(
+    name = "orgbabelhelper",
+    version = "1.0.8",
+    description = "python helper module for Emacs org mode babel",
+    long_description = "python helper module for working with Emacs"
+    + " org babel source blocks",
+    author = "Derek Feichtinger",
+    author_email = "dfeich@gmail.com",
+    license = "GPL",
+    url = "https://github.com/dfeich/org-babel-examples/tree/master/python",
+    packages = ['orgbabelhelper'],
+
+    install_requires = ['pandas'],
+    classifiers = [
+        "Development Status :: 4 - Beta",
+        "Intended Audience :: Developers",
+        "Programming Language :: Python :: 3"
+    ]
+)
+```
+
+``` bash
+cat > orgbabelhelper/pyproject.toml <<EOF
+[build-system]
+# requires = ["hatchling"]
+# build-backend = "hatchling.build"
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "orgbabelhelper"
+version = "1.0.8"
+description = "python helper module for Emacs org mode babel"
+authors = [{name="Derek Feichtinger", email="dfeich@gmail.com"},]
+# readme = "README.md"
+requires-python = ">=3.4"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+homepage = "https://github.com/dfeich/org-babel-examples/tree/master/python"
+
+EOF
+```
+
+``` bash
+cat > orgbabelhelper/LICENSE <<EOF
+MIT License
+
+Copyright (c) [2023] [Derek Feichtinger]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+EOF
+```
+
+## module imports for orgbabelhelper.py
+
+``` python
+######################################################################
+# orgbabelhelper.py
+#
+# Author: Derek Feichtinger <derek.feichtinger@psi.ch>
+#
+######################################################################
+
+""" This module provides a number of functions for passing information between
+the org document and python source code blocks."""
+
+import pandas as pd
+import datetime as dt
+import re
+```
+
+## building the conda package
+
+1.  update the version info in *setup.py* above
+2.  update the version info in <file:orgbabelhelper/conda-recipe/meta.yaml>
+3.  tangle the files
+4.  execute the source block, below
+
+We prepare the build file [orgbabelhelper/conda-recipe/build.sh](./build.sh)
+
+``` bash
+#!/bin/bash
+
+# a monkeypatch for solving a conda problem with the installed
+# packages in the python 3.7 environment where conda insists to
+# install a compatible package containing a py3.10 string part.
+# That 
+if [[ -e $CONDA_PREFIX/lib/python3.7/site-packages/pytz-2021.3-py3.10.egg-info ]]; then
+    ln -s pytz-2021.3-py3.10.egg-info $CONDA_PREFIX/lib/python3.7/site-packages/pytz-2021.3-py3.7.egg-info
+    MKPATCH=y
+fi
+
+$PYTHON setup.py install
+
+[[ $MKPATCH = "y" ]] && rm $CONDA_PREFIX/lib/python3.7/site-packages/pytz-2021.3-py3.7.egg-info
+```
+
+Building the conda package
+
+``` bash
+cd orgbabelhelper
+conda build conda-recipe &> conda-build.out
+if test $? -eq 0; then
+    echo "Build OK"
+else
+    echo "Build FAILED. investigate conda-build.out"
+    tail -30 conda-build.out
+fi
+```
+
+    Build FAILED. investigate conda-build.out
+
+To install the newly built local package, use
+
+``` bash
+conda install --use-local orgbabelhelper
+```
+
+Be aware that if you did not raise the version number, the command will not install the
+newly built package, but it will fetch the previous one from your conda cache!
+
+## uploading the package to anaconda
+
+Needs the anaconda-client package to be present in the environment.
+
+    anaconda upload /home/dfeich/desk/conda-build/linux-64/orgbabelhelper-1.0.4-py36_0.tar.bz2
+
+## uploading package to pypi
+
+follow <https://packaging.python.org/tutorials/distributing-packages/>
+
+Produce package in the dist/ directory
+
+``` bash
+python3 setup.py sdist   
+```
+
+    running sdist
+    running egg_info
+    writing orgbabelhelper.egg-info/PKG-INFO
+    writing dependency_links to orgbabelhelper.egg-info/dependency_links.txt
+    writing requirements to orgbabelhelper.egg-info/requires.txt
+    writing top-level names to orgbabelhelper.egg-info/top_level.txt
+    reading manifest file 'orgbabelhelper.egg-info/SOURCES.txt'
+    writing manifest file 'orgbabelhelper.egg-info/SOURCES.txt'
+    running check
+    creating orgbabelhelper-1.0.4
+    creating orgbabelhelper-1.0.4/orgbabelhelper
+    creating orgbabelhelper-1.0.4/orgbabelhelper.egg-info
+    copying files to orgbabelhelper-1.0.4...
+    copying setup.py -> orgbabelhelper-1.0.4
+    copying orgbabelhelper/__init__.py -> orgbabelhelper-1.0.4/orgbabelhelper
+    copying orgbabelhelper/orgbabelhelper.py -> orgbabelhelper-1.0.4/orgbabelhelper
+    copying orgbabelhelper.egg-info/PKG-INFO -> orgbabelhelper-1.0.4/orgbabelhelper.egg-info
+    copying orgbabelhelper.egg-info/SOURCES.txt -> orgbabelhelper-1.0.4/orgbabelhelper.egg-info
+    copying orgbabelhelper.egg-info/dependency_links.txt -> orgbabelhelper-1.0.4/orgbabelhelper.egg-info
+    copying orgbabelhelper.egg-info/requires.txt -> orgbabelhelper-1.0.4/orgbabelhelper.egg-info
+    copying orgbabelhelper.egg-info/top_level.txt -> orgbabelhelper-1.0.4/orgbabelhelper.egg-info
+    Writing orgbabelhelper-1.0.4/setup.cfg
+    Creating tar archive
+    removing 'orgbabelhelper-1.0.4' (and everything under it)
+
+Then use the following command line for the installation (needs username/password)
+
+To the test PyPi
+
+    twine upload --repository-url https://test.pypi.org/legacy/ dist/orgbabelhelper-1.0.4.tar.gz
+
+For the production PyPi
+
+    twine upload --repository-url https://upload.pypi.org/legacy/  dist/orgbabelhelper-1.0.4.tar.gz
+
+# Reading from an org table as input
+
+| name  | tokns |
+|-------|-------|
+| Peter | 4     |
+| Paul  | 6     |
+| Mary  | 8     |
+
+If no `:colnames` parameter is given, it is nil by default and the first line
+above the header is interpreted as column name row that will be removed.
+
+``` python
+print(tbl)
+```
+
+    [['Peter', 4], ['Paul', 6], ['Mary', 8]]
+
+If one wants to retain the first row to be accessible by python, one
+must explicitly pass `:colnames no`
+
+``` python
+print(tbl)
+```
+
+    [['name', 'tokns'], ['Peter', 4], ['Paul', 6], ['Mary', 8]]
+
+Printing such a list of lists with `:results value` produces an org table.
+
+``` python
+return tbl
+```
+
+| Peter | 4   |
+|-------|-----|
+| Paul  | 6   |
+| Mary  | 8   |
+
+The column names from the first row of the original table can be
+retained by giving the `:colnames yes` argument. This is handled
+fully by the babel framework and python never sees the column
+names.
+
+``` python
+return tbl
+```
+
+| name  | tokns |
+|-------|-------|
+| Peter | 4     |
+| Paul  | 6     |
+| Mary  | 8     |
+
+# Generating tables as output
+
+Example 1:
+
+``` numberSource
+x = list(range(1,10))
+y = [xe*3 for xe in x]
+return [x,y]
+```
+
+| 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| 3   | 6   | 9   | 12  | 15  | 18  | 21  | 24  | 27  |
+
+Example 2:
+
+``` numberSource
+import numpy as np
+
+x = list(range(1,10))
+y = [xe*3 for xe in x]
+return np.array([x,y]).transpose()
+```
+
+| 1   | 3   |
+|-----|-----|
+| 2   | 6   |
+| 3   | 9   |
+| 4   | 12  |
+| 5   | 15  |
+| 6   | 18  |
+| 7   | 21  |
+| 8   | 24  |
+| 9   | 27  |
+
+# Calling a python src block function from inside an org table
+
+Here I define the function. It takes `epoch` as the variable, which
+is a unix time stamp. I want to have it converted to an Org type
+time format.
+
+``` python
+time = epoch
+import datetime
+strtime = str(time)
+datetimestamp = datetime.datetime.utcfromtimestamp(int(strtime[:10]))
+print(datetimestamp.strftime('[%Y-%m-%d %a %H:%M:%S]'))
+```
+
+    [2010-01-05 Tue 07:11:05]
+
+Let's first call the function as a normal org CALL
+
+    [2010-01-05 Tue 07:10:00]
+
+In the table we need to refer to the named source block by using the
+a short lisp form involving `org-sbe`. If the table value that is
+referred to in the function is to be interpreted as a number, the
+reference uses a single dollar sign, e.g. \$1 (as here). If it should
+be interpreted as a string, one puts an additional dollar sign in
+front, e.g. \$\$1.
+
+| epoch         | day                         |
+|---------------|-----------------------------|
+| 1262675465119 | \[2010-01-05 Tue 07:11:05\] |
+| 123456        | \[1970-01-02 Fri 10:17:36\] |
+| 99998754      | \[1973-03-03 Sat 09:25:54\] |
+
+# Dates
+
+``` python
+# NOTANGLE-START
+import re
+import datetime as dt
+# NOTANGLE-END
+
+def orgdate_to_date(datestr):
+    """Returns a python date or datetime for the org date given in datestr.
+
+    Allows passing in an empty/whitespace string."""
+    if re.match(r'^ *$', datestr):
+        return ''
+
+    #m = re.match(r'^\[(\d+-\d+-\d+) +[a-zA-Z]{3}\]$', datestr)
+    m = re.match(r'^[\[<](\d+-\d+-\d+) +[a-zA-Z]{2,3}( \d+:\d+)?[\]>]$', datestr)
+    if not m:
+        raise ValueError("Input String is not an Org date time: >%s<" % datestr)
+
+    if m.group(2):
+        return dt.datetime.strptime(m.group(1) + ' ' + m.group(2), '%Y-%m-%d %H:%M')
+    return dt.datetime.strptime(m.group(1), '%Y-%m-%d').date()
+
+def date_to_orgdate(date, active=False):
+    orgstr = date.strftime("%Y-%m-%d %a")
+    if active:
+        return "<%s>" % orgstr
+    return "[%s]" % orgstr
+```
+
+**Note:** I am using the noweb syntax and header argument to include
+the code of the named block into this source block. The noweb syntax
+is mostly used in literate programing, where we produce code files
+from the org file (the process is called *tangling*), and this allows
+us to specify the sequence of the tangled blocks in the final file.
+But it also is a very nice way to write the first functional test of
+a code block like here:
+
+``` python
+<<src_orgdate_to_date>>
+
+print(orgdate_to_date('[2016-08-16 Tue]'))
+print(orgdate_to_date('[2016-08-17 Wed 18:30]'))
+print(orgdate_to_date('[2016-08-18 Thu]'))
+print(orgdate_to_date('<2016-08-17 Tue>'))
+print(date_to_orgdate(dt.datetime(2016,8,18)))
+print(date_to_orgdate(dt.datetime(2016,8,18), active=True))
+```
+
+    2016-08-16
+    2016-08-17 18:30:00
+    2016-08-18
+    2016-08-17
+    [2016-08-18 Thu]
+    <2016-08-18 Thu>
+
+# Matplotlib
+
+## plotting of a simple graph
+
+``` python
+import matplotlib, numpy
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+fig=plt.figure(figsize=(4,2))
+x=numpy.linspace(-15,15)
+plt.plot(numpy.sin(x)/x)
+fig.tight_layout()
+plt.savefig('python3-matplot-fig.png')
+return 'python3-matplot-fig.png' # return filename to org-mode
+```
+
+## TODO Plotting from an Org table
+
+The table is passed to python as a list
+
+| x   | y   |
+|-----|-----|
+| 1   | 1   |
+| 2   | 4   |
+| 3   | 9   |
+| 4   | 16  |
+| 5   | 25  |
+| 6   | 36  |
+| 7   | 49  |
+
+``` python
+import matplotlib
+import numpy as np
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+import seaborn
+
+fname='python3-matplot-fig2.png'
+ar = np.array(data).transpose()
+fig=plt.figure(figsize=(4,2))
+plt.plot(ar[0],ar[1])
+plt.title('Square function')
+fig.tight_layout()
+plt.savefig(fname)
+return fname # return filename to org-mode
+```
+
+# Pandas
+
+## orgtable\_to\_dataframe - reading in a data frame from a table with the column names
+
+### src for orgtable\_to\_dataframe
+
+``` python
+# NOTANGLE-START  aaa
+import pandas as pd
+
+<<src_orgdate_to_date>>
+# NOTANGLE-END aaa
+
+def orgtable_to_dataframe(tbl, index=None, datecols=None,
+                          clean_adv=True, num_titlerows=1):
+    """Read an org table into a data frame.
+
+    Parameters
+    ----------
+    tbl : org table passed in by src block header
+    index : name or index of column to use for index, optional
+    datecols : 'auto' or list of column names, optional. Try
+        to convert cells in these columns to python datetime objects.
+    clean_adv : if True, remove column with advanced org markup
+        (column containing !, ^, _, $,) and associated rows.
+    num_titlerows : number of title rows
+
+    Returns
+    -------
+    Pandas data frame
+
+    Make sure you use ':colnames no' in your src block header. Else
+    the table's first row containing the column names will not be
+    available to the python code.
+
+    """
+    df = pd.DataFrame(tbl)
+
+    if clean_adv:
+        s = df.iloc[:,0]
+        if '!' in s.values:
+            df = df.drop(s[[x in ['^', '$', '_', '!'] for x in s]].index)
+            df = df.iloc[:,1:]
+
+    if num_titlerows > 0:
+        for x in range(0,len(df.columns)):
+            df.iloc[num_titlerows-1,x] = df.iloc[0:num_titlerows,x].str.cat(sep=' ')
+        df.columns = df.iloc[num_titlerows-1,:]
+        df = df.iloc[num_titlerows:,:]
+    df.columns.name = ""
+
+    if datecols is None:
+        datecols = []
+    elif datecols == "auto":
+        datecols = df.columns
+
+    for col in datecols:
+        try:
+            df[col] = df[col].apply(orgdate_to_date)
+            df[col] = pd.to_datetime(df[col])
+        except:
+            pass
+
+    if index in df.columns:
+        df.set_index(index, inplace=True)
+    elif type(index) is int:
+        df.set_index(df.columns[index], inplace=True)
+
+    return df
+```
+
+### Tests of orgtable\_to\_dataframe
+
+1.  Test with date columns
+
+    We define a new test table:
+
+    | Date                     | End                | Name  |
+    |--------------------------|--------------------|-------|
+    | \[2016-08-10 Wed 10:00\] | \[2016-08-17 Wed\] | Peter |
+    | \[2016-08-11 Thu 11:00\] | \[2016-08-18 Thu\] | Paul  |
+    | \[2016-08-12 Fri 12:00\] | \[2016-08-19 Fri\] | Mary  |
+
+    ``` python
+    <<src_orgtable_to_dataframe>>
+
+    print(orgtable_to_dataframe(tbl))
+    print()
+    print(orgtable_to_dataframe(tbl, index='Name', datecols='auto'))
+    print()
+    print(orgtable_to_dataframe(tbl,1, datecols=['End']))
+    ```
+
+                             Date               End   Name
+        1  [2016-08-10 Wed 10:00]  [2016-08-17 Wed]  Peter
+        2  [2016-08-11 Thu 11:00]  [2016-08-18 Thu]   Paul
+        3  [2016-08-12 Fri 12:00]  [2016-08-19 Fri]   Mary
+
+                             Date        End
+        Name                                
+        Peter 2016-08-10 10:00:00 2016-08-17
+        Paul  2016-08-11 11:00:00 2016-08-18
+        Mary  2016-08-12 12:00:00 2016-08-19
+
+                                      Date   Name
+        End                                      
+        2016-08-17  [2016-08-10 Wed 10:00]  Peter
+        2016-08-18  [2016-08-11 Thu 11:00]   Paul
+        2016-08-19  [2016-08-12 Fri 12:00]   Mary
+
+2.  Test with advanced org table features
+
+    - [ ] maybe allow to use org column names from !-row
+    - [x] option to delete !-column
+
+    |     | First Name | Group  | Usage flag | Value |
+    |-----|------------|--------|------------|-------|
+    | !   | name       | group  | use        | value |
+    | \$  | x=20       |        |            |       |
+    |     | john       | B      | 1          | 1     |
+    | \^  |            | jgroup |            |       |
+    |     | beth       | B      | 0          | 3     |
+    |     | mike       | C      | 1          | 5     |
+    |     | leslie     | A      | 0          | 7     |
+    | \_  |            |        | label      |       |
+    |     | barbara    | A      | 1          | 4     |
+    |     | ken        | C      | 0          | 2     |
+    |     | thomas     | A      | 1          | 8     |
+
+    ``` python
+    import pandas as pd
+    import numpy as np
+
+    <<src_orgtable_to_dataframe>>
+
+    df = orgtable_to_dataframe(tbl,clean_adv=True)
+    print(df)
+    ```
+
+           First Name Group Usage flag Value
+        3        john     B          1     1
+        5        beth     B          0     3
+        6        mike     C          1     5
+        7      leslie     A          0     7
+        9     barbara     A          1     4
+        10        ken     C          0     2
+        11     thomas     A          1     8
+
+3.  Test for joining of multiple title rows
+
+    | First | Game   | costs  |
+    |-------|--------|--------|
+    | name  | tokens | in CHF |
+    | Peter | 4      | 20     |
+    | Paul  | 6      | 30     |
+    | Mary  | 8      | 40     |
+
+    |     | First    | Game   | costs   |
+    |-----|----------|--------|---------|
+    |     | name     | tokens | in CHF  |
+    | !   | name     | tokens | costs   |
+    |     | (string) | (int)  | (float) |
+    |     | Peter    | 4      | 20.0    |
+    |     | Paul     | 6      | 30.0    |
+    |     | Mary     | 8      | 40.0    |
+
+    ``` python
+    import pandas as pd
+    import numpy as np
+
+    <<src_orgtable_to_dataframe>>
+
+    print("first table with 2 title rows:\n")
+    print(orgtable_to_dataframe(tblA, num_titlerows=2))
+    print("\nfirst table with 0 title rows:\n")
+    print(orgtable_to_dataframe(tblA, num_titlerows=0))
+    print("\nsecond table with 3 title rows:\n")
+    print(orgtable_to_dataframe(tblB, num_titlerows=3))
+    ```
+
+        first table with 2 title rows:
+
+          First name Game tokens costs in CHF
+        2      Peter           4           20
+        3       Paul           6           30
+        4       Mary           8           40
+
+        first table with 0 title rows:
+
+               0       1       2
+        0  First    Game   costs
+        1   name  tokens  in CHF
+        2  Peter       4      20
+        3   Paul       6      30
+        4   Mary       8      40
+
+        second table with 3 title rows:
+
+          First name (string) Game tokens (int) costs in CHF (float)
+        4               Peter                 4                 20.0
+        5                Paul                 6                 30.0
+        6                Mary                 8                 40.0
+
+## dataframe\_to\_orgtable - printing a data frame as a table
+
+### src for dataframe\_to\_orgtable
+
+I define a function in a named src block with name `dataframe_to_orgtable`.
+The following function will return a nicely formatted org table.
+
+``` python
+# NOTANGLE-START
+import datetime as dt
+# NOTANGLE-END
+
+def dataframe_to_orgtable(dframe, name=None, caption=None, attr=None,
+          index=True, date_format=None, hlines=None,
+          encoding='utf-8'):
+    """
+    Parameters
+    ----------
+    dframe : data frame
+    name : defines org table's name (#+NAME:), optional
+    caption defines org table's caption (#+CAPTION:): , optional
+    attr : defines org table's LaTeX attributes (#+ATTR_LATEX:), optional
+    index : if True, write the row names as the first column, optional
+    date_format : Format string for datetime objects, optional
+    hlines : list  of numbers. Where to put horizontal lines, optional
+    encoding : Encoding for the resulting string, optional
+
+    Returns
+    -------
+    Returns a string containing the data frame formatted as an org table.
+    """
+    result=""
+    if attr:
+        result += "#+ATTR_LATEX: %s\n" % attr
+
+    if caption:
+        result += "#+CAPTION: %s\n" % caption
+
+    if name:
+        result += "#+NAME: %s\n" % name
+
+    lines = '|' + dframe.to_csv(None, sep='|', lineterminator='|\n|',
+                                encoding=encoding, index=index, date_format=date_format).rstrip("|").rstrip("\n")
+
+    hlines_tmp=[]
+    if hlines is None:
+        hlines_tmp.append(1) # per default add a hl after the 1st line
+    else:
+        for hl in hlines:
+            if hl < 0:
+                hlines_tmp.append(len(lines.split('\n')) + hl)
+            else:
+                hlines_tmp.append(hl)
+
+    for i,l in enumerate(lines.split('\n')):
+        if i in hlines_tmp:
+            result +=  "|-----\n"
+        result += l
+        result += "\n"
+    return result
+```
+
+### Tests for dataframe\_to\_orgtable
+
+As before, I use the noweb syntax for including the previous
+source block in the following test source block.
+
+1.  Test with columns of different types (including datetime)
+
+    ``` python
+    import pandas as pd
+    import numpy as np
+    from datetime import datetime
+
+    <<dframeToOrg>>
+
+    df = pd.DataFrame({'A' : range(10, 22),
+           'B' : ['A', 'B', 'C'] * 4,
+           'C' : ['foo', 'foo', 'foo', 'bar', 'bar', 'bar'] * 2,
+           'E' : [datetime(2016,8,1), datetime(2016,8,2), datetime(2016,8,3)] * 4,
+           'F' : ['one', 'one', 'two', 'three'] * 3})
+
+    print(dataframe_to_orgtable(df))
+    ```
+
+    |     | A   | B   | C   | E          | F     |
+    |-----|-----|-----|-----|------------|-------|
+    | 0   | 10  | A   | foo | 2016-08-01 | one   |
+    | 1   | 11  | B   | foo | 2016-08-02 | one   |
+    | 2   | 12  | C   | foo | 2016-08-03 | two   |
+    | 3   | 13  | A   | bar | 2016-08-01 | three |
+    | 4   | 14  | B   | bar | 2016-08-02 | one   |
+    | 5   | 15  | C   | bar | 2016-08-03 | one   |
+    | 6   | 16  | A   | foo | 2016-08-01 | two   |
+    | 7   | 17  | B   | foo | 2016-08-02 | three |
+    | 8   | 18  | C   | foo | 2016-08-03 | one   |
+    | 9   | 19  | A   | bar | 2016-08-01 | one   |
+    | 10  | 20  | B   | bar | 2016-08-02 | two   |
+    | 11  | 21  | C   | bar | 2016-08-03 | three |
+
+2.  Test using date format specification:
+
+    ``` python
+    import pandas as pd
+    import numpy as np
+    from datetime import datetime
+
+    <<dframeToOrg>>
+    <<src_orgtable_to_dataframe>>
+
+    df = orgtable_to_dataframe(tbl, datecols='auto', index='Name')
+
+    print(dataframe_to_orgtable(df, date_format='%d. %b %Y'))
+    ```
+
+    | Name  | Date          | End           |
+    |-------|---------------|---------------|
+    | Peter | 10\. Aug 2016 | 17\. Aug 2016 |
+    | Paul  | 11\. Aug 2016 | 18\. Aug 2016 |
+    | Mary  | 12\. Aug 2016 | 19\. Aug 2016 |
+
+3.  Test with horizontal line separator specification
+
+    ``` python
+    import pandas as pd
+    import numpy as np
+
+    <<src_orgtable_to_dataframe>>
+    <<dframeToOrg>>
+
+    df = orgtable_to_dataframe(tblB, num_titlerows=2,clean_adv=True)
+    df.drop(3, inplace=True) # drop row from original table (description strings)
+    df = pd .concat([df,
+                     pd.DataFrame.from_dict(
+                         {'First name': ['SUM'],
+                          'Game tokens': [df['Game tokens'].sum()],
+                          'costs in CHF': [df['costs in CHF'].sum()]}
+                     )])
+    print(dataframe_to_orgtable(df, hlines=[1,-1], index=False))
+    ```
+
+    | First name | Game tokens | costs in CHF |
+    |------------|-------------|--------------|
+    | Peter      | 4           | 20.0         |
+    | Paul       | 6           | 30.0         |
+    | Mary       | 8           | 40.0         |
+    | SUM        | 18          | 90.0         |
+
+## other methods for printing a data frame
+
+### data frame printing using Ipython.display
+
+As an alternative, the display function from Ipython is also able
+to align a frame. I only managed to get `diplay_pretty` working
+up to now, and its output is lacking table separators. So, it
+only displays nicely in an example environment.
+
+The display\_latex and display\_html functions produce no output.
+
+``` python
+import pandas as pd
+import numpy as np
+from IPython.display import display_pretty
+
+df = pd.DataFrame({'A' : ['one', 'one', 'two', 'three'] * 3,
+                 'B' : ['A', 'B', 'C'] * 4,
+                 'C' : ['foo', 'foo', 'foo', 'bar', 'bar', 'bar'] * 2,
+                 'D' : np.random.randn(12),
+                 'E' : np.random.randn(12)})
+
+display_pretty(df)
+```
+
+        A  B    C         D         E
+    0     one  A  foo  0.806869  0.203922
+    1     one  B  foo  1.154905  0.575621
+    2     two  C  foo -0.668775 -0.580192
+    3   three  A  bar  0.305664 -0.584782
+    4     one  B  bar -0.241157  0.966334
+    5     one  C  bar -1.566110  0.786920
+    6     two  A  foo -0.219846  0.219746
+    7   three  B  foo -0.754962 -0.733362
+    8     one  C  foo  1.139128  0.201013
+    9     one  A  bar  1.173745  1.877245
+    10    two  B  bar  0.409883 -0.002807
+    11  three  C  bar  1.259812  0.032088
+
+### an older and simpler dataFrame printing alternative:
+
+In order to get a nice org table, it is necessary to pass the
+frame's contents back as a list. The column names end up as the
+first row in the table. I cut this row away by using the \[1:\]
+slice.
+
+``` python
+import pandas as pd
+import numpy as np
+import sys
+
+df = pd.DataFrame({'A' : ['one', 'one', 'two', 'three'] * 3,
+                 'B' : ['A', 'B', 'C'] * 4,
+                 'C' : ['foo', 'foo', 'foo', 'bar', 'bar', 'bar'] * 2,
+                 'D' : np.random.randn(12),
+                 'E' : np.random.randn(12)})
+
+return(np.array(list(df.T.itertuples())).transpose()[1:])
+```
+
+| one   | A   | foo | 2.508310927690858   | 1.4212167647263316   |
+|-------|-----|-----|---------------------|----------------------|
+| one   | B   | foo | 0.28239765022454894 | 0.47616134885185635  |
+| two   | C   | foo | 1.14895581934408    | -0.09326447746112657 |
+| three | A   | bar | 1.0927923682133607  | 0.28452792547511996  |
+| one   | B   | bar | 0.49904403422738475 | -0.8005146943576631  |
+| one   | C   | bar | 1.2699278695887504  | -0.3168765757932704  |
+| two   | A   | foo | 0.7656249226386683  | -0.5065906840681278  |
+| three | B   | foo | 1.6869541724323962  | 1.5750248694840912   |
+| one   | C   | foo | 0.09983816806873623 | 1.4653088893641633   |
+| one   | A   | bar | 0.9747638218129419  | 0.9442942333443328   |
+| two   | B   | bar | 0.4321258569996147  | 0.8781227903348797   |
+| three | C   | bar | -0.611529395694038  | 0.045972487651284366 |
+
+## plotting a data frame with matplotlib (and placing a code reference)
+
+| x   | y   |
+|-----|-----|
+| 1   | 1   |
+| 2   | 4   |
+| 3   | 9   |
+| 4   | 16  |
+| 5   | 25  |
+| 6   | 36  |
+| 7   | 49  |
+
+Here we also show how a code reference works. It can be inserted using
+the **org-store-link** command while editing the src code in the dedicated
+buffer:
+
+In line *(zcol)* we define a new column (in this sentence you should see
+the number of the respective line in the exported file)
+
+The **-r** flag in the `BEGIN_SRC` line removes the reference string
+from the source code listing in the output (else the string would have
+ended up in the exported version's source code). Regrettably the
+reference is not removed when the code gets executed, so I need to
+insert language specific commenting to keep the code functional.
+
+    import matplotlib
+    import matplotlib.pyplot as plt
+    import pandas as pd
+    import numpy as np
+    matplotlib.use('Agg')
+    import seaborn
+
+    fname='python-matplot-fig3.png'
+    df = pd.DataFrame(data)
+    df.columns = ['x','y']
+    df['z'] = df['x'] * 3                                (ref:zcol)
+
+    df.plot(figsize=(4,2))
+    plt.savefig(fname)
+    return fname
+
+## Pie plot from table via orgbabelhelper
+
+I use the orgbabelhelper `orgtable_to_dataframe` function to convert tha
+table to a data frame.
+I do not want the default percent labels in the pie sections, so I use a lambda
+function to put in the original absolute values.
+
+``` python
+import matplotlib
+import matplotlib.pyplot as plt
+import pandas as pd
+import numpy as np
+import seaborn
+import orgbabelhelper as obh
+
+df = obh.orgtable_to_dataframe(tbl,'name')
+
+dfsum = df['tokns'].sum()
+df.plot(kind='pie',
+        y='tokns',
+        fontsize=20,
+        autopct=lambda v: int(np.round(v*dfsum/100, 0)),
+        figsize=(6,6))
+plt.savefig(fname)
+return fname
+```
+
+## time series resampling
+
+Let's say we are taking measurements twice a day, every 12h.
+
+``` python
+import pandas as pd
+import numpy as np
+import orgbabelhelper as obh
+
+ts = pd.date_range('2013-07-01 06:00:00', periods=20, freq='12h')
+val = [x * 10.0 for x in range(len(ts))]
+
+tdf = pd.DataFrame({'value': val}, index=ts)
+# Now we put one observation as invalid
+tdf.value[14] = np.NaN
+# and we delete another one
+#tdf = tdf.drop(tdf.index[2])
+tdf = tdf.drop(tdf.index[6:8])
+
+newdf = tdf.resample('1D', loffset='6h',how='min').rename(columns={'value': '1D_resample'})
+newdf['diff'] = newdf.diff()
+
+print(obh.dataframe_to_orgtable(pd.concat([tdf,newdf], join='inner',axis=1)))
+```
+
+|                     | value | 1D\_resample | diff |
+|---------------------|-------|--------------|------|
+| 2013-07-01 06:00:00 | 0.0   | 0.0          |      |
+| 2013-07-02 06:00:00 | 20.0  | 20.0         | 20.0 |
+| 2013-07-03 06:00:00 | 40.0  | 40.0         | 20.0 |
+| 2013-07-05 06:00:00 | 80.0  | 80.0         |      |
+| 2013-07-06 06:00:00 | 100.0 | 100.0        | 20.0 |
+| 2013-07-07 06:00:00 | 120.0 | 120.0        | 20.0 |
+| 2013-07-08 06:00:00 |       | 150.0        | 30.0 |
+| 2013-07-09 06:00:00 | 160.0 | 160.0        | 10.0 |
+| 2013-07-10 06:00:00 | 180.0 | 180.0        | 20.0 |
+
+# TODO Sympy
+
+I define a post-wrapping function for putting the results into the desired equation environment for
+LaTeX exporting.
+
+``` bash
+cat <<EOF
+\begin{equation}
+$outp
+\end{equation}
+EOF
+```
+
+The correct preview of the resulting LaTeX fragment I only get with
+the *output drawer* results options. I tested rendering with the
+`:results latex` option, but the resulting LaTeX block is not
+rendered by the `org-toggle-latex-fragment` command (`C-c C-x C-l`).
+
+``` python
+import sympy as sym
+
+x = sym.Symbol('x')
+k = sym.Symbol('k')
+
+print sym.latex(sym.Integral(1/x, x))
+```
+
+$$\begin{equation}
+  \int \frac{1}{x}\, dx
+  \end{equation}$$
+
+The above LaTeX equation is also rendered nicely in the HTML export.
+
+For simple in-buffer consummation, one may also want to just use the ASCII output
+
+``` python
+import sympy as sym
+import sys
+
+x = sym.Symbol('x')
+k = sym.Symbol('k')
+
+print sym.pretty_print(sym.Integral(1/x, x))
+```
+
+      /    
+     |     
+     | 1   
+     | - dx
+     | x   
+     |     
+    /      
+    None
+
+Or as an alternative, the unicode rendering.
+
+``` python
+import sympy as sym
+import sys
+
+import codecs
+sys.stdout = codecs.getwriter('utf8')(sys.stdout)
+
+x = sym.Symbol('x')
+k = sym.Symbol('k')
+
+print sym.pretty_print(sym.Integral(1/x, x), use_unicode=True)
+```
+
+    ⌠     
+    ⎮ 1   
+    ⎮ ─ dx
+    ⎮ x   
+    ⌡     
+    None
+
+# No more unicode related problems with python3 in Org Babel
+
+## Strings sent to stdout must be encoded to be correct ASCII
+
+The stdout to which org babel writes expects an ASCII stream. If
+one wants to print python unicode strings, the unicode strings must
+get encoded using 'utf-8' encoding, so that none of the bytes in the
+string contain values \> 127.
+
+While this was very cumbersome in python2, it just works out of the box
+using python3.
+
+``` python
+import sys
+print('stdout encoding is ', sys.stdout.encoding)
+print('default encoding is %s\n' % sys.getdefaultencoding())
+
+strg = u'Can we see Umlauts? äöü. And accents? éè.'
+```
+
+    stdout encoding is  UTF-8
+    default encoding is utf-8
+
+## passing data into the source block using the :var header argument
+
+### simple string arguments
+
+``` python
+import sys
+print('default encoding is %s' % sys.getdefaultencoding())
+
+print("defined in header var: ", s, type(s), len(s))
+
+b="äöü"
+print("defined as byte string in src block: ", b, type(b), len (b))
+
+c=u'äöü'
+print('defined as unicode in src block with explicit encoding: ',c.encode('utf-8'), type(c), len(c))
+```
+
+    default encoding is utf-8
+    defined in header var:  äöü <class 'str'> 3
+    defined as byte string in src block:  äöü <class 'str'> 3
+    defined as unicode in src block with explicit encoding:  b'\xc3\xa4\xc3\xb6\xc3\xbc' <class 'str'> 3    
+
+### passing in a table containing unicode strings
+
+Let's look at passing a table into a babel block:
+
+| name  | tokens |
+|-------|--------|
+| Peter | 14     |
+| René  | 15     |
+| Sämi  | 15     |
+| Paul  | 16     |
+| Mary  | 18     |
+
+In python3 all of the unicode passing problems seem to be nicely resolved
+
+``` python
+import sys
+
+print('stdout encoding is ', sys.stdout.encoding)
+print()
+
+for row in tbl:
+print(row[0], row[1])
+print()
+
+print(tbl)
+```
+
+    stdout encoding is  UTF-8
+
+    Peter 14
+    René 15
+    Sämi 15
+    Paul 16
+    Mary 18
+
+    [['Peter', 14], ['René', 15], ['Sämi', 15], ['Paul', 16], ['Mary', 18]]
+
+### passing in a table for a data frame in pandas
+
+``` python
+import sys
+import pandas as pd
+import orgbabelhelper as obh
+
+print('stdout encoding is ', sys.stdout.encoding)
+print()
+
+df = obh.orgtable_to_dataframe(tbl)
+
+print('printing the bytestring dataframe fields renders correct with python3')
+print('and also the character count is correct:')
+for n in df['name']:
+print(n, type(n), "len: %d" % len(n))
+print()
+
+print(df)
+```
+
+    stdout encoding is  UTF-8
+
+    printing the bytestring dataframe fields renders correct with python3
+    and also the character count is correct:
+    Peter <class 'str'> len: 5
+    René <class 'str'> len: 4
+    Sämi <class 'str'> len: 4
+    Paul <class 'str'> len: 4
+    Mary <class 'str'> len: 4
+
+        name tokens
+    1  Peter     14
+    2   René     15
+    3   Sämi     15
+    4   Paul     16
+    5   Mary     18

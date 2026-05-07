@@ -1,0 +1,1 @@
+This document is just for producing a style to be used together with org odt exporting

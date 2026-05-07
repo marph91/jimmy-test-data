@@ -1,0 +1,940 @@
+# plantuml-babel.org
+
+Derek Feichtinger
+
+# Links
+
+- Homepage: <http://plantuml.com/>
+- Downloads: <https://plantuml.com/download>
+- Source code: <https://github.com/plantuml/plantuml>
+- Language Reference: <http://plantuml.com/PlantUML_Language_Reference_Guide.pdf>
+
+# Information on the local installation
+
+    Emacs version: GNU Emacs 28.2 (build 2, x86_64-pc-linux-gnu, GTK+ Version 3.24.33, cairo version 1.16.0)
+     of 2023-04-16
+    org version: 9.6.1
+
+    Emacs variable org-plantuml-jar-path:/home/dfeich/.emacs.d/javalib/plantuml.jar
+
+
+    PlantUML version 1.2023.7 (Fri May 12 19:23:42 CEST 2023)
+    (GPL source distribution)
+    Java Runtime: OpenJDK Runtime Environment
+    JVM: OpenJDK 64-Bit Server VM
+    Default Encoding: UTF-8
+    Language: en
+    Country: US
+
+    PLANTUML_LIMIT_SIZE: 4096
+
+    Dot version: dot - graphviz version 2.43.0 (0)
+    Installation seems OK. File generation OK
+
+## Help text
+
+``` bash
+java -jar "$jpath" -help
+```
+
+    Usage: java -jar plantuml.jar [options] -gui
+            (to execute the GUI)
+        or java -jar plantuml.jar [options] [file/dir] [file/dir] [file/dir]
+            (to process files or directories)
+
+    You can use the following wildcards in files/dirs:
+            *    means any characters but '/'
+            ? one and only one character but '/'
+            **   means any characters (used to recurse through directories)
+
+    where options include:
+        -darkmode     To use dark mode for diagrams
+        -gui      To run the graphical user interface
+        -tpng     To generate images using PNG format (default)
+        -tsvg     To generate images using SVG format
+        -teps     To generate images using EPS format
+        -tpdf     To generate images using PDF format
+        -tvdx     To generate images using VDX format
+        -txmi     To generate XMI file for class diagram
+        -tscxml       To generate SCXML file for state diagram
+        -thtml        To generate HTML file for class diagram
+        -ttxt     To generate images with ASCII art
+        -tutxt        To generate images with ASCII art using Unicode characters
+        -tlatex       To generate images using LaTeX/Tikz format
+        -tlatex:nopreamble    To generate images using LaTeX/Tikz format without preamble
+        -o[utput] "dir"   To generate images in the specified directory
+        -DVAR1=value  To set a preprocessing variable as if '!define VAR1 value' were used
+        -Sparam1=value    To set a skin parameter as if 'skinparam param1 value' were used
+        -Ppragma1=value   To set pragma as if '!pragma pragma1 value' were used
+        -I/path/to/file   To include file as if '!include file' were used
+        -I/path/to/*.puml To include files with pattern
+        -theme xxx        To use a specific theme
+        -charset xxx  To use a specific charset (default is UTF-8)
+        -e[x]clude pattern    To exclude files that match the provided pattern
+        -metadata     To retrieve PlantUML sources from PNG images
+        -nometadata       To NOT export metadata in PNG/SVG generated files
+        -checkmetadata        Skip PNG files that don't need to be regenerated
+        -version      To display information about PlantUML and Java versions
+        -v[erbose]        To have log information
+        -quiet        To NOT print error message into the console
+        -debugsvek        To generate intermediate svek files
+        -h[elp]       To display this help message
+        -testdot      To test the installation of graphviz
+        -graphvizdot "exe"    To specify dot executable
+        -p[ipe]       To use stdin for PlantUML source and stdout for PNG/SVG/EPS generation
+        -encodesprite 4|8|16[z] "file"    To encode a sprite at gray level (z for compression) from an image
+        -computeurl|-encodeurl    To compute the encoded URL of a PlantUML source file
+        -decodeurl        To retrieve the PlantUML source from an encoded URL
+        -syntax       To report any syntax error from standard input without generating images
+        -language     To print the list of PlantUML keywords
+        -checkonly        To check the syntax of files without generating images
+        -failfast     To stop processing as soon as a syntax error in diagram occurs
+        -failfast2        To do a first syntax check before processing files, to fail even faster
+        -noerror      To skip images when error in diagrams
+        -duration     To print the duration of complete diagrams processing
+        -nbthread N       To use (N) threads for processing
+        -nbthread auto    To use 16 threads for processing
+        -timeout N        Processing timeout in (N) seconds. Defaults to 15 minutes (900 seconds).
+        -author[s]        To print information about PlantUML authors
+        -overwrite        To allow to overwrite read only files
+        -printfonts       To print fonts available on your system
+        -enablestats  To enable statistics computation
+        -disablestats To disable statistics computation (default)
+        -htmlstats        To output general statistics in file plantuml-stats.html
+        -xmlstats     To output general statistics in file plantuml-stats.xml
+        -realtimestats    To generate statistics on the fly rather than at the end
+        -loopstats        To continuously print statistics about usage
+        -splash       To display a splash screen with some progress bar
+        -progress     To display a textual progress bar in console
+        -pipeimageindex N To generate the Nth image with pipe option
+        -stdlib       To print standard library info
+        -extractstdlib    To extract PlantUML Standard Library into stdlib folder
+        -filedir xxx  To behave as if the PlantUML source is in this dir (only affects '-pipe' and PicoWeb 'POST /render')
+        -filename "example.puml"  To override %filename% variable
+        -preproc      To output preprocessor text of diagrams
+        -cypher       To cypher texts of diagrams so that you can share them
+        -picoweb      To start internal HTTP Server. See https://plantuml.com/picoweb
+
+    If needed, you can setup the environment variable GRAPHVIZ_DOT.
+
+# simple test
+
+``` plantuml
+@startuml
+' this is a comment
+Alice -> Bob: Authentication Request
+Bob --> Alice: Authentication Response
+John --> Alice: another Authentication Request
+Alice --> John: another Authentication Response
+@enduml
+```
+
+# Diagram type examples
+
+## sequence diagrams
+
+Note: The `skin` parameter I used in the earlier versions of this document is no longer supported by plantuml.
+
+``` plantuml
+@startuml
+title Example Sequence Diagram
+activate Client
+Client -> Server: Session Initiation
+note right: Client requests new session
+activate Server
+Client <-- Server: Authorization Request
+note left: Server requires authentication
+Client -> Server: Authorization Response
+note right: Client provides authentication details
+Server --> Client: Session Token
+note left: Session established
+deactivate Server
+Client -> Client: Saves token
+deactivate Client
+@enduml
+```
+
+``` plantuml
+@startuml
+actor User
+participant "First Class" as A
+participant "Second Class" as B
+participant "Last Class" as C
+
+
+User -> A: DoWork
+activate A
+
+A -> B: << createRequest >>
+activate B
+
+B -> C: DoWork
+activate C
+C --> B: WorkDone
+destroy C
+
+B --> A: Request <u>Created</u>
+deactivate B
+
+A --> User: Done
+deactivate A
+@enduml
+```
+
+``` plantuml
+left to right direction
+actor remoteUser
+actor service
+rectangle Gateway {
+  remoteUser -- (connect camera)
+  (connect camera) -- service
+  remoteUser -- (console)
+  (console) -- service
+}
+```
+
+## old style activity diagrams
+
+``` plantuml
+title Example Activity Diagram
+note right: Example Function
+(*)--> "Step 1"
+--> "Step 2"
+-> "Step 3"
+--> "Step 4"
+--> === STARTLOOP ===
+note top: For each element in the array
+if "Are we done?" then
+  -> [no] "Do this"
+  -> "Do that"
+  note bottom: Important note\ngoes here
+  -up-> "Increment counters"
+  --> === STARTLOOP ===
+else
+  --> [yes] === ENDLOOP ===
+endif
+--> "Last Step"
+--> (*)
+```
+
+``` plantuml
+title Servlet Container
+
+(*) --> "ClickServlet.handleRequest()"
+--> "new Page"
+
+if "Page.onSecurityCheck" then
+  ->[true] "Page.onInit()"
+
+  if "isForward?" then
+   ->[no] "Process controls"
+
+   if "continue processing?" then
+     -->[yes] ===RENDERING===
+   else
+     -->[no] ===REDIRECT_CHECK===
+   endif
+
+  else
+   -->[yes] ===RENDERING===
+  endif
+
+  if "is Post?" then
+    -->[yes] "Page.onPost()"
+    --> "Page.onRender()" as render
+    --> ===REDIRECT_CHECK===
+  else
+    -->[no] "Page.onGet()"
+    --> render
+  endif
+
+else
+  -->[false] ===REDIRECT_CHECK===
+endif
+
+if "Do redirect?" then
+ ->[yes] "redirect request"
+ --> ==BEFORE_DESTROY===
+else
+ if "Do Forward?" then
+  -left->[yes] "Forward request"
+  --> ==BEFORE_DESTROY===
+ else
+  -right->[no] "Render page template"
+  --> ==BEFORE_DESTROY===
+ endif
+endif
+
+--> "Page.onDestroy()"
+-->(*)
+```
+
+## new style activity diagrams
+
+- <http://plantuml.sourceforge.net/activity2.html>
+
+### swimlanes
+
+Swimlanes actually are activity diagrams using the new syntax.
+
+``` plantuml
+@startuml
+|Swimlane1|
+start
+:foo1;
+|#AntiqueWhite|Swimlane2|
+:foo2;
+:foo3;
+|Swimlane1|
+:foo4;
+|Swimlane2|
+:foo5;
+stop
+@enduml
+```
+
+## Class diagrams
+
+<http://plantuml.sourceforge.net/classes.html>
+
+``` plantuml
+class Proposal {
+also called a "study"
+..
+ProposalID
+Proposer
+PrincipalInvestigator
+}
+
+class Visit << (V,#Ff8c00) >> {
+has a 1:1 mapping to a
+single user. Also used to
+reserve badges.
+..
+Username
+starttime
+endtime
+proposalID
+beamline
+}
+
+note left: why is Visit linked\nto a single beamline?
+
+class Shift {
+ProposalID
+starttime
+endtime
+contactPerson
+}
+
+Proposal *-- Shift
+Proposal *-- Visit
+```
+
+## Component diagrams
+
+``` plantuml
+@startuml
+
+package "Some Group" {
+    HTTP - [First Component]
+    [Another Component]
+}
+
+node "Other Groups" {
+    FTP - [Second Component]
+    [First Component] --> FTP
+    } 
+
+    cloud {
+        [Example 1]
+        }
+
+
+        database "MySql" {
+                folder "This is my folder" {
+                    [Folder 3]
+                    }
+                    frame "Foo" {
+                        [Frame 4]
+                        }
+                        }
+
+
+                        [Another Component] --> [Example 1]
+                        [Example 1] --> [Folder 3]
+                        [Folder 3] --> [Frame 4]
+
+                        @enduml
+```
+
+The next example was posted by Cecil Westerhof on emacs-orgmode.gnu.org mailing list \[2019-10-18 Fri\]
+
+``` plantuml
+@startuml
+
+component [Producer 1\nProducer 2\nProducer ...\nProducer n] as Producers
+
+cloud {
+    [Internet] as Internet1
+}
+
+node RabbitMQ #LightSteelBlue {
+    [Exchange]
+    [Queue 1\nQueue 2\nQueue ...\nQueue n] as Queues
+}
+
+cloud {
+    [Internet] as Internet2
+}
+
+[Consumer 1\nConsumer 2\nConsumer ...\nConsumer n] as Consumers
+
+
+[Producers] -> [Internet1]  : Publish
+[Internet1] -> [Exchange]   : Publish
+[Exchange]  -> [Queues]     : Route
+[Queues]    -> [Internet2]  : Consume
+[Internet2] -> [Consumers]  : Consume
+
+@enduml
+```
+
+## Mindmaps
+
+- \[2019-07-21 Sun\] Needs plantuml-1.2019.08 or newer. Still in testing and features may change
+- <http://plantuml.com/mindmap-diagram>
+- Nice Link about mindmaps in PlantUML: <http://hangaroundtheweb.com/2019/07/mind-maps-in-spacemacs/>
+
+The examples are taken from the official plantuml page.
+
+This syntax looks like the most versatile and useful to me
+
+- Leading "+/-" specify hierarchy level and whether the node is on the right or left of the central
+  node.
+
+- Undescores directly following the leading position characters prevent the creation of a box around an item.
+
+  ``` plantuml
+  @startmindmap
+  + OS
+  ++ Ubuntu
+  +++_ Linux Mint
+  +++_ Kubuntu
+  +++_ Lubuntu
+  +++_ KDE Neon
+  ++ LMDE
+  ++ SolydXK
+  ++ SteamOS
+  ++ Raspbian
+  -- Windows 95
+  -- Windows 98
+  -- Windows NT
+  ---_ Windows 8
+  ---_ Windows 10
+  @endmindmap
+  ```
+
+A mindmap based on org mode syntax. Note that the org headline asterisks need to be escaped by "," inside
+of a source block. It's nice that they allow for an org mode syntax, but I think this is less convenient
+to write and work with. The org headlines do not allow for text following them (syntax error).
+
+``` plantuml
+@startmindmap
+* Debian
+** Ubuntu
+*** Linux Mint
+*** Kubuntu
+*** Lubuntu
+*** KDE Neon
+** LMDE
+** SolydXK
+** SteamOS
+** Raspbian with a very long name
+*** <s>Raspmbc</s> => OSMC
+*** <s>Raspyfi</s> => Volumio
+@endmindmap
+```
+
+``` plantuml
+@startmindmap
+caption figure 1
+title My super title
+
+* <&flag>Debian
+** <&globe>Ubuntu
+*** Linux Mint
+*** Kubuntu
+*** Lubuntu
+*** KDE Neon
+** <&graph>LMDE
+** <&pulse>SolydXK
+** <&people>SteamOS
+** <&star>Raspbian with a very long name
+*** <s>Raspmbc</s> => OSMC
+*** <s>Raspyfi</s> => Volumio
+
+header
+My super header
+endheader
+
+center footer My super footer
+
+legend right
+  Short
+  legend
+endlegend
+@endmindmap
+```
+
+## network
+
+``` plantuml
+@startuml
+scale 1.5
+nwdiag {
+   network dmz {
+              address = "210.x.x.x/24"
+
+              // set multiple addresses (using comma)
+              web01 [address = "210.x.x.1, 210.x.x.20"];
+              web02 [address = "210.x.x.2"];
+              }
+              network internal {
+                    address = "172.x.x.x/24";
+
+                    web01 [address = "172.x.x.1"];
+                    web02 [address = "172.x.x.2"];
+                    db01;
+                    db02;
+              }
+              }
+ @enduml
+```
+
+Regrettably rackdiag is not yet (\[2021-08-18 Wed\]) part of the
+functionality that was integrated in plantuml from
+nwdiag. q.v. <http://blockdiag.com/en/nwdiag/rackdiag-examples.html>
+
+``` plantuml
+@startuml
+scale 1.5
+rackdiag {
+  // define height of rack
+  16U;
+
+  // define rack items
+  1: UPS [2U];
+  3: DB Server
+  4: Web Server
+  5: Web Server
+  6: Web Server
+  7: Load Balancer
+  8: L3 Switch
+}
+@enduml
+```
+
+## Work Breakdown Structure (WBS)
+
+<https://plantuml.com/wbs-diagram>
+
+``` plantuml
+@startwbs
++[#SkyBlue] New Job
+++ Decide on Job Requirements
++++ Identity gapsy
++++ Review JDs
+++++ Sign-Up for courses
+++++ Volunteer
+++++ Reading
+++- Checklist
++++- Responsibilities
++++- Location
+++ CV Upload Done
++++ CV Updated
+++++ Spelling & Grammar
+++++ Check dates
+---- Skills
++++ Recruitment sites chosen
+@endwbs
+```
+
+Using org mode headlines
+
+``` plantuml
+@startwbs
+scale 2
+* Business Process Modelling WBS
+** Launch the project
+*** Complete Stakeholder Research
+*** Initial Implementation Plan
+** Design phase
+*** Model of AsIs Processes Completed
+**** Model of AsIs Processes Completed1
+**** Model of AsIs Processes Completed2
+*** Measure AsIs performance metrics
+*** Identify Quick Wins
+** Complete innovate phase
+@endwbs
+```
+
+``` plantuml
+@startwbs
+' skinparam backgroundColor blue
+<style>
+wbsDiagram {
+        .pink {
+                BackgroundColor pink
+        }
+        .your_style_name {
+                BackgroundColor SkyBlue
+        }
+}
+</style>
++ this is the partner workpackage <<your_style_name>>
+++ this is my workpackage <<pink>>
+++ this is another workpackage
+@endwbs
+```
+
+``` plantuml
+@startwbs
+
+
+<style>
+node {
+        Padding 12
+        Margin 3
+        HorizontalAlignment center
+        LineColor blue
+        LineThickness 3.0
+        BackgroundColor gold
+        RoundCorner 40
+        MaximumWidth 100
+}
+
+rootNode {
+        LineStyle 8.0;3.0
+        LineColor red
+        BackgroundColor white
+        LineThickness 1.0
+        RoundCorner 0
+        Shadowing 0.0
+}
+
+leafNode {
+        LineColor gold
+        RoundCorner 0
+        Padding 3
+}
+
+arrow {
+        LineStyle 4
+        LineThickness 0.5
+        LineColor green
+}
+</style>
+
++ Hi =)
+++ sometimes i have node in wich i want to write a long text
++++ this results in really huge diagram
+++++ of course, i can explicit split with a\nnew line
+++++ but it could be cool if PlantUML was able to split long lines, maybe with an option who specify the maximum width of a node
+
+@endwbs
+```
+
+## TODO how to change font size in WBS?
+
+Which skinparam can be used to change font size?
+
+``` plantuml
+@startwbs
+skinparam classFontSize 30
+' skinparam backgroundColor blue
+<style>
+wbsDiagram {
+        .pink {
+                BackgroundColor pink
+        }
+        .your_style_name {
+                BackgroundColor SkyBlue
+        }
+}
+</style>
++ this is the partner workpackage <<your_style_name>>
+++ this is my workpackage <<pink>>
+++ this is another workpackage
+@endwbs
+```
+
+## gantt
+
+``` plantuml
+@startgantt
+scale 2
+saturday are closed
+sunday are closed
+
+Project starts 2021-01-01
+[Prototype design end] as [TASK1] lasts 19 days
+[TASK1] is colored in Lavender/LightBlue
+[Testing] lasts 14 days
+[TASK1]->[Testing]
+
+2021-01-18 to 2021-01-22 are colored in salmon 
+@endgantt
+```
+
+``` plantuml
+@startgantt
+scale 2
+Projectscale weekly
+saturday are closed
+sunday are closed
+
+Project starts 2021-01-01
+[Prototype design end] as [TASK1] lasts 19 days
+[TASK1] is colored in Lavender/LightBlue
+[Testing] lasts 14 days
+[TASK1]->[Testing]
+
+2021-01-18 to 2021-01-22 are colored in salmon 
+@endgantt
+```
+
+## JSON
+
+``` plantuml
+@startjson
+scale 2
+{
+   "fruit":"Apple",
+   "size":"Large",
+   "color": ["Red", "Green"]
+}
+@endjson
+```
+
+``` plantuml
+@startjson
+scale 2
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "isAlive": true,
+  "age": 27,
+  "address": {
+    "streetAddress": "21 2nd Street",
+    "city": "New York",
+    "state": "NY",
+    "postalCode": "10021-3100"
+  },
+  "phoneNumbers": [
+    {
+      "type": "home",
+      "number": "212 555-1234"
+    },
+    {
+      "type": "office",
+      "number": "646 555-4567"
+    }
+  ],
+  "children": [],
+  "spouse": null
+}
+@endjson
+```
+
+Note: **the highlight style assignment will clash with the org mode noweb
+syntax**
+
+``` plantuml
+@startjson
+scale 2
+<style>
+  .h1 {
+    BackGroundColor green
+    FontColor white
+    FontStyle italic
+  }
+  .h2 {
+    BackGroundColor red
+    FontColor white
+    FontStyle bold
+  }
+</style>
+#highlight "lastName"
+#highlight "address" / "city" <<h1>>
+#highlight "phoneNumbers" / "0" / "number" <<h2>>
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "isAlive": true,
+  "age": 28,
+  "address": {
+    "streetAddress": "21 2nd Street",
+    "city": "New York",
+    "state": "NY",
+    "postalCode": "10021-3100"
+  },
+  "phoneNumbers": [
+    {
+      "type": "home",
+      "number": "212 555-1234"
+    },
+    {
+      "type": "office",
+      "number": "646 555-4567"
+    }
+  ],
+  "children": [],
+  "spouse": null
+}
+@endjson
+```
+
+# Listing sprites
+
+``` plantuml
+@startuml
+scale 2
+
+!define osaPuml https://raw.githubusercontent.com/Crashedmind/PlantUML-opensecurityarchitecture2-icons/master
+!include osaPuml/Common.puml
+!include osaPuml/User/all.puml
+!include osaPuml/Hardware/all.puml
+!include osaPuml/Misc/all.puml
+!include osaPuml/Server/all.puml
+!include osaPuml/Site/all.puml
+
+listsprites
+
+footer %filename() rendered with PlantUML version %version()\nThe Hitchhiker’s Guide to PlantUML
+@enduml
+```
+
+# Preprocessing
+
+<https://plantuml.com/preprocessing>
+
+The simple preprocessor allows the definition of variables and functions. Some
+standard functions like %date are already provided.
+
+``` plantuml
+@startuml
+scale 1.5
+!function $inc($value, $step=1)
+!return $value + $step
+!endfunction
+
+Alice -> Bob : Just one more $inc(3)
+Alice -> Bob : Add two to three : $inc(3, 2)
+
+center footer generated on %date("yyyy.MM.dd 'at' HH:mm")
+@enduml
+```
+
+# skinparam
+
+## Gradients
+
+Minimally adapted from <https://blog.jdriven.com/2017/10/plantuml-pleasantness-use-gradients-diagrams/>
+
+``` plantuml
+@startuml
+
+title Gradient
+
+skinparam defaultTextAlignment center
+skinparam RectangleFontSize 20
+
+skinparam TitleFontStyle bold
+skinparam TitleFontColor #e723e7
+
+' Define two colors for a gradient of the background
+' and use "-" to define that the gradient goes from top to bottom.
+skinparam BackgroundColor  #000000-#afafaf
+
+' Define two colors for a default background gradient of Rectangles
+' and use / for top left to bottom right.
+skinparam RectangleBackgroundColor #ffd200/#8cfcff
+
+rectangle A [
+From top left
+to bottom right
+<&fullscreen-enter>
+]
+
+' Use "\" for bottom left to top right
+rectangle B #ffd200\8cfcff [
+From bottom left
+to top right
+<&resize-both>
+]
+
+' Use "|" for left to right
+rectangle C #ffd200|8cfcff [
+From left
+to right
+<&resize-width>
+]
+
+' Use "-" for top to bottom
+rectangle D #ffd200-8cfcff [
+From top
+to bottom
+<&resize-height>
+]
+
+@enduml
+```
+
+# colors
+
+The available default colors can be displayed using this snippet
+
+``` plantuml
+@startuml
+colors
+@enduml
+```
+
+# Scaling
+
+``` plantuml
+@startuml
+scale 2
+
+Alice -> Bob: Authentication Request
+Bob --> Alice: Authentication Response
+John --> Alice: another Authentication Request
+Alice --> John: another Authentication Response
+@enduml
+```
+
+# TODO using SVG graphics
+
+The *svg* package uses inkscape to separate the text and graphical
+elements of the SVG into a Tex file (\*.pdf~tex~) and a PDF file
+containig the graph elements. E.g. svg-sequence1.svg into
+svg-sequence1.pdf~tex~ and svg-sequence1.pdf.
+
+Currently, SVG pictures can only be rendered correctly, **if the picture
+is in the same directory** as the tex source file (and therefore also the org source file).
+
+Note: with the current org version 9.1.14 and Emacs 26.1 the SVG is not correctly displayed in
+the org buffer, but the SVG renders fine in the exported Latex PDF.
+
+``` plantuml
+@startuml
+' this is a comment
+Alice -> Bob: Authentication Request
+Bob --> Alice: Authentication Response
+John --> Alice: another Authentication Request
+Alice --> John: another Authentication Response
+@enduml
+```
+
+![svg-sequence1.svg](./svg-sequence1.svg)

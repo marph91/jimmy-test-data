@@ -1,0 +1,3 @@
+Export this file as an odt file to create a styles.odt template
+file. The styles can be modified further in LibreOffice using the
+`Format > Styles and Formatting` menu item.

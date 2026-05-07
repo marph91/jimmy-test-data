@@ -1,0 +1,256 @@
+# ipython-babel
+
+Derek
+
+\<2015-07-02 Thu\>
+
+# Version information
+
+``` numberSource
+(princ (concat
+        (format "Emacs version: %s\n"
+                (emacs-version))
+        (format "org version: %s\n"
+                (org-version))
+        ;; (format "ob-ipython version: %s\n"
+        ;; (pkg-info-version-info 'ob-ipython))
+        ))        
+```
+
+    Emacs version: GNU Emacs 26.2 (build 2, x86_64-pc-linux-gnu, GTK+ Version 3.22.30)
+     of 2019-04-14
+    org version: 9.3
+
+These examples require the `ob-ipython` package from MELPA
+
+``` commonlisp
+(princ (format "ob-ipython version: %s"
+           (apply #'concat
+              (directory-files
+               (file-name-as-directory
+            package-user-dir) nil "ob-ipython.*"))))
+```
+
+    ob-ipython version: ob-ipython-20180224.953
+
+``` bash
+echo ipython version: $(ipython -V)
+```
+
+    ipython version: 7.4.0
+
+# Session setup
+
+``` ipython
+%matplotlib inline
+import matplotlib.pyplot as plt
+import numpy as np
+
+print("Finished imports")
+```
+
+    Finished imports
+
+# Results as value and as output
+
+``` ipython
+def foo(x):
+    return x + 9
+
+[foo(x) + 7 for x in range(7)]
+```
+
+    # Out[3]:
+    : [16, 17, 18, 19, 20, 21, 22]
+
+``` ipython
+print "this is an echo"
+```
+
+# Producing a graph
+
+``` ipython
+plt.hist(np.random.randn(20000), bins=200)
+```
+
+    # Out[4]:
+    #+BEGIN_EXAMPLE
+      (array([  1.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,
+      0.,   0.,   0.,   0.,   0.,   0.,   0.,   1.,   0.,   0.,   0.,
+      0.,   0.,   0.,   1.,   2.,   1.,   0.,   0.,   2.,   0.,   2.,
+      1.,   0.,   0.,   5.,   3.,   4.,   1.,   4.,   4.,   9.,   4.,
+      7.,   6.,   5.,  12.,   7.,   8.,  14.,  11.,  14.,  22.,  22.,
+      20.,  24.,  29.,  37.,  29.,  39.,  42.,  33.,  44.,  44.,  63.,
+      72.,  56.,  65.,  64.,  84.,  79.,  96., 100., 106., 111., 118.,
+      123., 132., 145., 138., 147., 162., 150., 149., 174., 188., 211.,
+      201., 217., 272., 228., 220., 256., 283., 256., 283., 294., 304.,
+      313., 272., 315., 316., 323., 286., 316., 304., 329., 328., 333.,
+      329., 297., 353., 340., 347., 342., 318., 331., 324., 317., 305.,
+      273., 327., 296., 265., 305., 263., 266., 247., 235., 242., 228.,
+      258., 246., 195., 251., 209., 173., 165., 183., 183., 128., 147.,
+      136., 130., 119., 108., 126.,  86.,  60.,  79.,  84.,  80.,  75.,
+      72.,  48.,  54.,  56.,  49.,  44.,  39.,  35.,  28.,  27.,  37.,
+      29.,  16.,  28.,  14.,  20.,  18.,  14.,  12.,   6.,   7.,   9.,
+      10.,   8.,   5.,   5.,   4.,   5.,   5.,   2.,   7.,   3.,   3.,
+      1.,   3.,   1.,   1.,   3.,   2.,   2.,   0.,   0.,   0.,   0.,
+      0.,   1.]),
+      array([-4.66786352, -4.62595634, -4.58404916, -4.54214198, -4.50023479,
+      -4.45832761, -4.41642043, -4.37451325, -4.33260606, -4.29069888,
+      -4.2487917 , -4.20688452, -4.16497733, -4.12307015, -4.08116297,
+      -4.03925579, -3.9973486 , -3.95544142, -3.91353424, -3.87162706,
+      -3.82971987, -3.78781269, -3.74590551, -3.70399833, -3.66209114,
+      -3.62018396, -3.57827678, -3.5363696 , -3.49446241, -3.45255523,
+      -3.41064805, -3.36874087, -3.32683368, -3.2849265 , -3.24301932,
+      -3.20111214, -3.15920495, -3.11729777, -3.07539059, -3.03348341,
+      -2.99157622, -2.94966904, -2.90776186, -2.86585468, -2.82394749,
+      -2.78204031, -2.74013313, -2.69822595, -2.65631876, -2.61441158,
+      -2.5725044 , -2.53059722, -2.48869003, -2.44678285, -2.40487567,
+      -2.36296849, -2.32106131, -2.27915412, -2.23724694, -2.19533976,
+      -2.15343258, -2.11152539, -2.06961821, -2.02771103, -1.98580385,
+      -1.94389666, -1.90198948, -1.8600823 , -1.81817512, -1.77626793,
+      -1.73436075, -1.69245357, -1.65054639, -1.6086392 , -1.56673202,
+      -1.52482484, -1.48291766, -1.44101047, -1.39910329, -1.35719611,
+      -1.31528893, -1.27338174, -1.23147456, -1.18956738, -1.1476602 ,
+      -1.10575301, -1.06384583, -1.02193865, -0.98003147, -0.93812428,
+      -0.8962171 , -0.85430992, -0.81240274, -0.77049555, -0.72858837,
+      -0.68668119, -0.64477401, -0.60286682, -0.56095964, -0.51905246,
+      -0.47714528, -0.43523809, -0.39333091, -0.35142373, -0.30951655,
+      -0.26760936, -0.22570218, -0.183795  , -0.14188782, -0.09998063,
+      -0.05807345, -0.01616627,  0.02574091,  0.0676481 ,  0.10955528,
+      0.15146246,  0.19336964,  0.23527683,  0.27718401,  0.31909119,
+      0.36099837,  0.40290556,  0.44481274,  0.48671992,  0.5286271 ,
+      0.57053429,  0.61244147,  0.65434865,  0.69625583,  0.73816301,
+      0.7800702 ,  0.82197738,  0.86388456,  0.90579174,  0.94769893,
+      0.98960611,  1.03151329,  1.07342047,  1.11532766,  1.15723484,
+      1.19914202,  1.2410492 ,  1.28295639,  1.32486357,  1.36677075,
+      1.40867793,  1.45058512,  1.4924923 ,  1.53439948,  1.57630666,
+      1.61821385,  1.66012103,  1.70202821,  1.74393539,  1.78584258,
+      1.82774976,  1.86965694,  1.91156412,  1.95347131,  1.99537849,
+      2.03728567,  2.07919285,  2.12110004,  2.16300722,  2.2049144 ,
+      2.24682158,  2.28872877,  2.33063595,  2.37254313,  2.41445031,
+      2.4563575 ,  2.49826468,  2.54017186,  2.58207904,  2.62398623,
+      2.66589341,  2.70780059,  2.74970777,  2.79161496,  2.83352214,
+      2.87542932,  2.9173365 ,  2.95924369,  3.00115087,  3.04305805,
+      3.08496523,  3.12687242,  3.1687796 ,  3.21068678,  3.25259396,
+      3.29450115,  3.33640833,  3.37831551,  3.42022269,  3.46212988,
+      3.50403706,  3.54594424,  3.58785142,  3.62975861,  3.67166579,
+      3.71357297]),
+      <a list of 200 Patch objects>)
+    #+END_EXAMPLE
+    [[file:./obipy-resources/YH7QN4.png]]
+
+# Opening another session
+
+``` ipython
+%matplotlib inline
+import matplotlib.pyplot as plt
+import numpy as np
+
+print "Finished imports for session ip2"
+```
+
+    Finished imports for session ip2
+
+# Examples using ipython magic commands
+
+``` ipython
+%timeit 1+1
+```
+
+``` ipython
+%%timeit
+lst = range(1,1000)
+while len(lst) > 0:
+    lst.pop()
+```
+
+# Troubleshooting
+
+## Some tips
+
+- `M-x ob-ipython-interrupt-kernel`: interrupt a busy kernel
+- `M-x ob-ipython-kill-kernel`: kill the kernel process. A new one will be
+  restarted upon the next src block evaluation.
+
+## Race condition due to security cookie not yet available
+
+I got an error message in ob-ipython-debug
+
+    HTTP/1.1 500 Internal Server Error
+    Date: Sun, 27 Dec 2015 13:35:32 GMT
+    Content-Length: 93
+    Content-Type: text/html; charset=UTF-8
+    Server: TornadoServer/4.2
+
+    <html><title>500: Internal Server Error</title><body>500: Internal Server Error</body></html>
+
+Further investigation in the buffer **ob-ipython-ob-ipython-driver** associated with the
+ipython driver process.
+
+    ERROR:tornado.application:Uncaught exception POST /execute/ip2 (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='localhost:9988', method='POST', uri='/execute/ip2', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Content-Length': '111', 'Accept-Encoding': 'gzip', 'Extension': 'Security/Digest Security/SSL', 'Connection': 'keep-alive', 'Accept': '*/*', 'User-Agent': 'URL/Emacs', 'Host': 'localhost:9988', 'Mime-Version': '1.0'})
+    Traceback (most recent call last):
+      File "/opt/anaconda/python2.7/lib/python2.7/site-packages/tornado/web.py", line 1369, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "/opt/anaconda/python2.7/lib/python2.7/site-packages/tornado/web.py", line 1572, in wrapper
+        result = method(self, *args, **kwargs)
+      File "/home/dfeich/.emacs.d/elpa/ob-ipython-20151010.307/driver.py", line 75, in post
+        c = get_client(name)
+      File "/home/dfeich/.emacs.d/elpa/ob-ipython-20151010.307/driver.py", line 58, in get_client
+        clients[name] = create_client(name)
+      File "/home/dfeich/.emacs.d/elpa/ob-ipython-20151010.307/driver.py", line 46, in create_client
+        cf = find_connection_file('emacs-' + name)
+      File "/opt/anaconda/python2.7/lib/python2.7/site-packages/IPython/kernel/connect.py", line 224, in find_connection_file
+        raise IOError("Could not find %r in %r" % (filename, security_dir))
+    IOError: Could not find u'emacs-ip2' in u'/home/dfeich/.ipython/profile_default/security'
+    ERROR:tornado.access:500 POST /execute/ip2 (127.0.0.1) 9.24ms
+
+The file exists. Possibly a race condition?
+
+``` bash
+ls -l /home/dfeich/.ipython/profile_default/security/emacs-ip2*
+```
+
+    -rw-rw-r-- 1 dfeich dfeich 253 Dez 27 14:35 /home/dfeich/.ipython/profile_default/security/emacs-ip2.json
+
+## server fails to start due to port taken
+
+This happens when shutting down and restarting emacs too fast. The
+socket is still not freed. In the kernel buffer one sees
+
+    ...
+    /opt/anaconda/python2.7/lib/python2.7/site-packages/zmq/backend/cython/checkrc.pxd in zmq.backend.cython.checkrc._check_rc (zmq/backend/cython/socket.c:7055)()
+         23         else:
+         24             from zmq.error import ZMQError
+    ---> 25             raise ZMQError(errno)
+            global ZMQError = <class 'zmq.error.ZMQError'>
+            global errno = undefined
+         26     return 0
+
+    ZMQError: Address already in use
+
+    Process kernel-ip1 exited abnormally with code 1
+
+# Older method for running ipython (mostly obsolete)
+
+This chapter described workarounds to execute ipython as the python
+shell using the standard ob-python babel implementation before I started
+using ob-ipython.
+
+ipython babel works best for testing interactive magic commands, but there are problems
+when code blocks are copied into the babel session (in ipython these snippets need
+to get pasted using %paste or %cpaste).
+
+there is a discussion and a defadvice in this discussion
+<http://emacs.stackexchange.com/questions/3859/working-setup-for-ipython-in-babel>
+
+``` commonlisp
+; use %cpaste to paste code into ipython in org mode
+(defadvice org-babel-python-evaluate-session
+  (around org-python-use-cpaste
+         (session body &optional result-type result-params) activate)
+  "add a %cpaste and '--' to the body, so that ipython does the right thing."
+  (setq body (concat "%cpaste -q \n" body "\n--"))
+  ad-do-it
+  )
+```
