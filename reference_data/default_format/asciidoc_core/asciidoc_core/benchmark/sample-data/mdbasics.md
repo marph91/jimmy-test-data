@@ -34,11 +34,11 @@ blank line — a line containing nothing spaces or tabs is considered
 blank.) Normal paragraphs should not be intended with spaces or tabs.
 
 Markdown offers two styles of headers: *Setext* and *atx*.
-Setext-style headers for
-
-# and
-
-## are created by "underlining" with equal signs (=) and hyphens (-), respectively. To create an atx-style header, you put 1-6 hash marks (#) at the beginning of the line — the number of hashes equals the resulting HTML header level.
+Setext-style headers for \<h1\> and \<h2\> are created by
+"underlining" with equal signs (=) and hyphens (-), respectively.
+To create an atx-style header, you put 1-6 hash marks (#) at the
+beginning of the line — the number of hashes equals the resulting
+HTML header level.
 
 Blockquotes are indicated using email-style '\>’ angle brackets.
 
@@ -153,9 +153,7 @@ Output:
     <li>Blue</li>
     </ol>
 
-If you put blank lines between items, you’ll get
-
-tags for the
+If you put blank lines between items, you’ll get \<p\> tags for the
 list item text. You can create multi-paragraph list items by indenting
 the paragraphs by 4 spaces or 1 tab:
 

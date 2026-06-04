@@ -31,10 +31,10 @@ Table 2.1: PSI CMS Tier-3 Resources
 
 At first I wanted to use soft-page-break elements, as I saw them
 in some LibreOffice generated files. But I found out that they only
-work if in the enclosing
-
-there is some definition
+work if in the enclosing \<office:body\> there is some definition
 like this:
+
+\<office:text text:use-soft-page-breaks="true"\>
 
 Therefore the following inline ODT block does not work with the
 default documents produced by the org ODT exporter, where that
@@ -62,6 +62,8 @@ where I want to use it. And it works!
                   style:parent-style-name="Text_20_body">
        <style:paragraph-properties fo:break-before="page"/>
      </style:style>
+
+\</office:styles\>
 
 Now, will we get a page break following this line?
 

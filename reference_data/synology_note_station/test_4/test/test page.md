@@ -118,9 +118,7 @@ if not files_to_convert:
     exit(1)
 ```
 
-There is no way to insert 'code' in line in a Note.  Note formatted HTML does not use the ` tag it just uses a `
-
-     tag so code is always it's own block even if only one word. Just like
+There is no way to insert 'code' in line in a Note.  Note formatted HTML does not use the \<code\> tag it just uses a \<pre\> tag so code is always it's own block even if only one word. Just like
 
 ```
 while
