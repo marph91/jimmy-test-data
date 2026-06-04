@@ -1,30 +1,36 @@
 # Sample Document for PDF T
 
-# esting
-
 ## Introduction
 
-This is a simple document created to test basic PDF functionality. It includes various text formatting
+This is a simple document created to test basic PDF functionality
 
 options to ensure proper rendering in PDF readers.
 
-**T**
+### Text Formatting Examples 1.
 
-### ext Formatting Examples
+- **Bold text** is used for emphasis.
 
-**Lists**
+2.
 
-Here's an example of an unordered list:
+- *Italic text* can be used for titles or subtle emphasis.
 
-Item 1
+3. Strikethrough is used to show deleted text.
 
-Item 2
+#### Lists
 
-Item 3
+Here's an example of an unordered list: - Item 1
 
-And here's an ordered list:
+- Item 2
 
-**Quote**
+- Item 3
+
+And here's an ordered list: 1. First item
+
+2. Second item
+
+3. Third item
+
+##### Quote
 
 This is an example of a block quote. It can be used to highlight important information or
 
@@ -32,7 +38,7 @@ citations.
 
 **Table**
 
-| Header 1 | Header 2 | Header 3 |
+| **Header 1** | **Header 2** | **Header 3** |
 |---|---|---|
 | Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 |
 | Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 |
@@ -41,14 +47,6 @@ This document demonstrates various formatting options that should translate well
 
 *This sample PDF file is provided by Sample-Files.com. Visit us for more sample files and resources.*
 
-1. Bold text is used for emphasis.
+# esting
 
-2. Italic text can be used for titles or subtle emphasis.
-
-3. Strikethrough is used to show deleted text.
-
-1. First item
-
-2. Second item
-
-3. Third item
+. It includes various text formatting

@@ -1,34 +1,39 @@
-|  |  | Fillable | Form |
-|---|---|---|---|
-|  |  | PDF |  |
-| Prepared | By: |  | Website: |
-| Sample | Team |  | sample-files.com |
+# Fillable Form
 
-Fillable Form Prepared By: Sample Team
+## Prepared By:
+
+### Sample Team
+
+## Website:
+
+## sample-files.com
+
+# PDF
+
 ---
 
 # Personal Information
 
-# Full Name:
+## Full Name:
 
-# Email:
+## Email:
 
-# Address:
+## Address:
 
-# Gender:
+## Gender:
 
-# Male
+## Male
 
-# Female
+## Female
 
-# Newsletter Subscription:
+## Newsletter Subscription:
 
-# Comments:
+## Comments:
 
-# Terms and Conditions:
+## Terms and Conditions:
 
-## Please read and agree before submission.
+#### Please read and agree before submission.
 
-# I agree to the terms and conditions.
+### I agree to the terms and conditions.
 
-*This sample PDF file is provided by Sample-Files.com. Visit us for more sample files and resource.*
+*This sample PDF file is provided by Sample-Files.com. Visit us for more sample files and resource*

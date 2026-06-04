@@ -1,10 +1,15 @@
-|  |  | Ima | |  | ge-Heavy |
-|---|---|---|---|---|---|
-|  |  |  |  |  | PDF |
-|  | Prepared |  | By: |  | Website: |
-|  | Sample | Team |  |  | sample-files.com |
+# Image-Heavy
 
-Prepared By: Sample Team
+## Prepared By:
+
+## Website:
+
+### Sample Team
+
+## sample-files.com
+
+# PDF
+
 
 ---
 
@@ -15,13 +20,11 @@ Prepared By: Sample Team
 
 # Nature Landscape
 
-### A beautiful landscape showcasing the wonders of
+## A beautiful landscape showcasing the wonders of
 
 *This sample PDF file is provided by Sample-Files.com. Visit us for more sample files and resource*
 
-### nature.
-
-*.*
+## nature.
 
 
 ---
@@ -37,13 +40,11 @@ Prepared By: Sample Team
 
 # City Skyline
 
-### A high-resolution image of a bustling city skyline at
+## A high-resolution image of a bustling city skyline at
 
 *This sample PDF file is provided by Sample-Files.com. Visit us for more sample files and resource*
 
-### night.
-
-*.*
+## night.
 
 
 ---
@@ -53,12 +54,12 @@ Prepared By: Sample Team
 
 ---
 
-| r | ¬ ¾ | d¾ | ¬ £ | e S | © Ë | tË | ¤ | rap© | û |  |  |  |  |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| An | upƴ |  | close | capture |  | of | wildlife | in | their | natural |  | habitat. |  |
-| This | sample | PDF | file | is provided | by |  | Sample-Files.com. | Visit | us for | more sample | files | and | resource . |
+# Wildlife Photography
 
-An upƴ close capture of wildlife in their natural habitat. This sample PDF file is provided by Sample-Files.com. Visit us for more sample files and resource
+## An up-close capture of wildlife in their natural habitat.
+
+*This sample PDF file is provided by Sample-Files.com. Visit us for more sample files and resource*
+
 
 ---
 
@@ -73,13 +74,11 @@ An upƴ close capture of wildlife in their natural habitat. This sample PDF file
 
 # Space Exploration
 
-### An artistic representation of space exploration and
+## An artistic representation of space exploration and
 
 *This sample PDF file is provided by Sample-Files.com. Visit us for more sample files and resource*
 
-### galaxies.
-
-*.*
+## galaxies.
 
 
 ---
@@ -91,123 +90,13 @@ An upƴ close capture of wildlife in their natural habitat. This sample PDF file
 
 ---
 
-f
+# Underwater World
 
-# p•
+## A breathtaking view of marine life deep beneath the
 
-# ™
+*This sample PDF file is provided by Sample-Files.com. Visit us for more sample files and resource*
 
-# Ù
-
-# õ
-
-# ‚
-
-# ä
-
-# ™
-
-# Ù
-
-r
-
-# Ë
-
-# Ù
-
-# ¾ -
-
-### ŽÙ
-
-### ™
-
-### ‚
-
-### ä
-
-### ©
-
-### ä
-
-### ‚
-
-### »
-
-### ¬
-
-**p**
-
-### ¤ô
-
-### ¬
-
-### ™
-
-### õ
-
-### Ë
-
-### £Ä
-
-### ‚
-
-### Ù
-
-### ¬
-
-**p**
-
-### ™
-
-### ¾
-
-### ¬
-
-### £
-
-### ™
-
-- **™**
-
-### ™
-
-### Ö
-
-### Ž™
-
-**p**
-
-### ™
-
-### ‚
-
-### ä
-
-### ©
-
-### ä
-
-### ©
-
-### ™
-
-**7 K LV V amS Oe PDF I LOe LV S UR vLG eG E y 6 amS Oe-FLOeV F R m**
-
-### Ë
-
-**e**
-
-### ™
-
-### ‚
-
-**p**
-
-### ƣ
-
-**9 LV LW X V I R U mR Ue V amS O**
-
-**e I LOeV aQ G UeV R X UF e**
+## ocean.
 
 
 ---
