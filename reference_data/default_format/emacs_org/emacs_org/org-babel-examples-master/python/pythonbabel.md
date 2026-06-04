@@ -807,7 +807,6 @@ print 'stdin encoding is ', sys.stdin.encoding, '| tty: ', sys.stdout.isatty()
 print 'stdout encoding is ', sys.stdout.encoding,'| tty: ', sys.stdout.isatty()
 ```
 
-
     stdin encoding is  UTF-8 | tty:  True
     stdout encoding is  UTF-8 | tty:  True
 
@@ -882,7 +881,6 @@ encoding error.
 ``` bash
 python /tmp/pyencode4.py | cat
 ```
-
 
     <type 'exceptions.UnicodeEncodeError'>
 

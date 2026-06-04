@@ -14,7 +14,6 @@ marks.
 The first 3 lines of the this file are used as headers,
 on the following format:
 
-
     line1: document title
     line2: author name, email
     line3: date, version
@@ -47,7 +46,6 @@ combination.
 
 We can put a code sample or other pre-formatted text:
 
-
     here is pre-formatted
     //marks// are 
 
@@ -55,7 +53,6 @@ We can put a code sample or other pre-formatted text:
 
 And also, it's easy to put a one line pre-formatted
 text:
-
 
     prompt$ ls /etc
 

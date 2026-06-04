@@ -75,27 +75,23 @@ A list of items is natural, just putting a **dash** or a **plus** at the beginni
 
 The dash is the default list identifier. For sublists, just add **spaces** at the beginning of the line. More spaces, more sublists.
 
-> - Earth
+> Earth
 >
->   - America
+> > America
+> >
+> > > South America
+> > >
+> > > > Brazil
+> > > >
+> > > > > - How deep can I go?
+> >
+> > Europe
+> >
+> > > - Lots of countries
 >
->     - South America
+> Mars
 >
->       - Brazil
->
->         - How deep can I go?
->
->   &nbsp;
->
->   - Europe
->
->     - Lots of countries
->
-> &nbsp;
->
-> - Mars
->
->   - Who knows?
+> > - Who knows?
 
 The list ends with **two** consecutive blank lines.
 
@@ -107,17 +103,17 @@ The same rules as the plain list, just a different identifier (plus).
 >
 > 2.  two
 >
-> 3.  three
+> three
 >
->     - mixed lists!
+> > - mixed lists!
+> >
+> > what a mess
+> >
+> > > 1.  counting again
+> > >
+> > > 2.  
 >
->     - what a mess
->
->       1.  counting again
->
->       2.  
->
-> 4.  four
+> 1.  four
 
 ## Definition List
 
@@ -129,14 +125,15 @@ a yellow fruit
 apple  
 a green or red fruit
 
-other fruits  
+other fruits
+
 > - wee!
 >
-> - mixing lists
+> mixing lists
 >
->   1.  again!
->
->   2.  and again!
+> > 1.  again!
+> >
+> > 2.  and again!
 
 # Tables
 
@@ -147,7 +144,7 @@ Use pipes to compose table rows and cells. Double pipe at the line beginning sta
 | cell 2.1 | cell 2.2 | cell 2.3 |
 | cell 3.1 | cell 3.2 | cell 3.3 |
 
-| **heading 1** | **heading 2** | **heading 3** |
+| fBheading 1fR | fBheading 2fR | fBheading 3fR |
 |:--------------|:-------------:|--------------:|
 | cell 1.1      |   cell 1.2    |      cell 1.3 |
 | cell 2.1      |   cell 2.2    |      cell 2.3 |
@@ -157,7 +154,7 @@ Use pipes to compose table rows and cells. Double pipe at the line beginning sta
 | heading 2 | cell 2.1 | cell 2.2 |
 | heading 3 | cell 3.1 | cell 3.2 |
 
-| **heading** | **heading 1** | **heading 2** |
+| fBheadingfR | fBheading 1fR | fBheading 2fR |
 |:------------|:-------------:|--------------:|
 | heading 1   |   cell 1.1    |      cell 1.2 |
 | heading 2   |   cell 2.1    |      cell 2.2 |
@@ -169,7 +166,7 @@ Without the last pipe, no border:
 | cell 2.1 | cell 2.2 | cell 2.3 |
 | cell 3.1 | cell 3.2 | cell 3.3 |
 
-| **heading 1** | **heading 2** | **heading 3** |
+| fBheading 1fR | fBheading 2fR | fBheading 3fR |
 |:--------------|:-------------:|--------------:|
 | cell 1.1      |   cell 1.2    |      cell 1.3 |
 | cell 2.1      |   cell 2.2    |      cell 2.3 |
@@ -179,7 +176,7 @@ Without the last pipe, no border:
 | heading 2 | cell 2.1 | cell 2.2 |
 | heading 3 | cell 3.1 | cell 3.2 |
 
-| **heading** | **heading 1** | **heading 2** |
+| fBheadingfR | fBheading 1fR | fBheading 2fR |
 |:------------|:-------------:|--------------:|
 | heading 1   |   cell 1.1    |      cell 1.2 |
 | heading 2   |   cell 2.1    |      cell 2.2 |

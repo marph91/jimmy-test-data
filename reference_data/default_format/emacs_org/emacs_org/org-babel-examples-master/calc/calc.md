@@ -108,7 +108,6 @@ The variables in formulas are replaced by the additional arguments. Arguments ca
 (print (calc-eval "2#1111"))
 ```
 
-
     "12"
 
     "340282366920938463463374607431768211455"
@@ -135,7 +134,6 @@ is printed comma-separated.
 (print (calc-eval "10+5, 7*3, 5/2" ";"))
 (print (calc-eval "10+5, 7*3, 5/2" "___"))
 ```
-
 
     "15, 21, 2.5"
 
@@ -244,7 +242,6 @@ extra parentheses).
 (calc-eval 1 'pop)
 ```
 
-
     "3.048 m"
 
 It is also possible to execute Calc keyboard macros, i.e. the string is interpreted as
@@ -258,7 +255,6 @@ interactive keyboard strokes in calc mode.
 ;; pop one item from stack
 (calc-eval "\C-d" 'macro)
 ```
-
 
     "3.048 m"
 

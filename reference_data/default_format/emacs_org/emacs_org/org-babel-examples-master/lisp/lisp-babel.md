@@ -263,7 +263,6 @@ This function is also used for table formulas
 (princ (org-sbe srcRepeatStrings (s1 $"hello") (s2 $"world")))
 ```
 
-
     (s1 (quote "hello"))
 
     (s2 (quote "world"))
@@ -277,7 +276,6 @@ This function is also used for table formulas
                               ((:var . "results=mydivide")))
                             '((:results . "silent")))
 ```
-
 
     (x (quote 30))
 
