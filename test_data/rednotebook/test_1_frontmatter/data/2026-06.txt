@@ -1,0 +1,11 @@
+14:
+  {text: !!python/unicode 'test Reproducer for https://github.com/marph91/jimmy/issues/82  very very
+    long line
+
+
+    aaa #sampletag
+
+
+    bbb #anothersampletag
+
+    '}
