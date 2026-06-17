@@ -1,4 +1,4 @@
-# Image-Heavy
+# Image-Heavy PDF
 
 ## Prepared By:
 
@@ -6,9 +6,7 @@
 
 ### Sample Team
 
-## sample-files.com
-
-# PDF
+## [sample-files.com](https://sample-files.com/)
 
 
 ---
@@ -20,11 +18,9 @@
 
 # Nature Landscape
 
-## A beautiful landscape showcasing the wonders of
+## A beautiful landscape showcasing the wonders of nature.
 
-*This sample PDF file is provided by Sample-Files.com. Visit us for more sample files and resource*
-
-## nature.
+*This sample PDF file is provided by [Sample-Files.com. Visit us for more sample files and resource](https://sample-files.com/)*
 
 
 ---
@@ -40,11 +36,9 @@
 
 # City Skyline
 
-## A high-resolution image of a bustling city skyline at
+## A high-resolution image of a bustling city skyline at night.
 
-*This sample PDF file is provided by Sample-Files.com. Visit us for more sample files and resource*
-
-## night.
+*This sample PDF file is provided by [Sample-Files.com. Visit us for more sample files and resource](https://sample-files.com/)*
 
 
 ---
@@ -58,7 +52,7 @@
 
 ## An up-close capture of wildlife in their natural habitat.
 
-*This sample PDF file is provided by Sample-Files.com. Visit us for more sample files and resource*
+*This sample PDF file is provided by [Sample-Files.com. Visit us for more sample files and resource](https://sample-files.com/)*
 
 
 ---
@@ -74,11 +68,9 @@
 
 # Space Exploration
 
-## An artistic representation of space exploration and
+## An artistic representation of space exploration and galaxies.
 
-*This sample PDF file is provided by Sample-Files.com. Visit us for more sample files and resource*
-
-## galaxies.
+*This sample PDF file is provided by [Sample-Files.com. Visit us for more sample files and resource](https://sample-files.com/)*
 
 
 ---
@@ -92,11 +84,9 @@
 
 # Underwater World
 
-## A breathtaking view of marine life deep beneath the
+## A breathtaking view of marine life deep beneath the ocean.
 
-*This sample PDF file is provided by Sample-Files.com. Visit us for more sample files and resource*
-
-## ocean.
+*This sample PDF file is provided by [Sample-Files.com. Visit us for more sample files and resource](https://sample-files.com/)*
 
 
 ---

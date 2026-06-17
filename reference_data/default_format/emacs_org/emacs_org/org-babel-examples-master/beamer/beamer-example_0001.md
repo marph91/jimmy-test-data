@@ -14,15 +14,17 @@ Subtitle
 
 Derek Feichtinger
 
-myInstitute 9. 04. 2026
+myInstitute
+
+9. 04. 2026
 
 Org-Mode Beamer Example
 
 Multiple Columns
 
-Conclusions 9. 04. 2026
+Conclusions
 
-1 / 45
+9. 04. 2026 1 / 45
 
 ---
 
@@ -46,7 +48,9 @@ Org-Mode Beamer Example
 
 Multiple Columns
 
-Conclusions 9. 04. 2026
+Conclusions
+
+9. 04. 2026
 
 ---
 
@@ -70,7 +74,9 @@ Org-Mode Beamer Example
 
 Multiple Columns
 
-Conclusions 9. 04. 2026
+Conclusions
+
+9. 04. 2026
 
 ---
 
@@ -90,7 +96,9 @@ Conclusions
 
 # Introduction
 
-Org-Mode Beamer Example 9. 04. 2026
+Org-Mode Beamer Example
+
+9. 04. 2026
 
 ---
 
@@ -116,7 +124,9 @@ Org-Mode Beamer Example
 
 Multiple Columns
 
-Conclusions 9. 04. 2026
+Conclusions
+
+9. 04. 2026
 
 ---
 
@@ -166,7 +176,9 @@ Org-Mode Beamer Example
 
 Multiple Columns
 
-Conclusions 9. 04. 2026
+Conclusions
+
+9. 04. 2026
 
 ---
 
@@ -176,7 +188,7 @@ A collection of example pages
 
 ## Sources and Links
 
-I started this example based on the Worg Basic LAT X Beamer linksE An introduction to Beamer (German) great beamer reference card by Fabrice nice link for choosing a theme: beamer theme matrix nice example of beamer features (pure Latex) Presentations using Latex - the Beamer Class by Amber Smith. Excellent introduction  beamer features.
+[I started this example based on the Worg](http://orgmode.org/worg/exporters/beamer/tutorial.html) Basic LAT X Beamer linksE [An introduction to Beamer (German)](http://www2.informatik.hu-berlin.de/~mischulz/beamer.html) [great beamer reference card by Fabrice](http://www2.informatik.hu-berlin.de/~mischulz/beamer.html) [nice link for choosing a theme: beamer theme matrix](https://github.com/fniessen/refcard-org-beamer) [nice example of beamer features (pure Latex)](http://www.hartwork.org/beamer-theme-matrix/) [Presentations using Latex - the Beamer Class by Amber Smith. Excellent introduction](http://www.mathematik.uni-leipzig.de/~hellmund/LaTeX/beamer2.pdf) [beamer features.](http://www.math.utah.edu/~smith/AmberSmith_GSAC_Beamer.pdf)
 
 Derek Feichtinger (myInstitute)
 
@@ -188,11 +200,13 @@ Multiple Columns
 
 Conclusions
 
-hosted example by Eric S. Fraga
+[hosted example by Eric S. Fraga](http://orgmode.org/worg/exporters/beamer/tutorial.html)
 
 Niessen on GitHub.
 
-showing many 9. 04. 2026
+showing many
+
+9. 04. 2026
 
 ---
 
@@ -220,7 +234,9 @@ Multiple Columns
 
 Conclusions
 
-specific 9. 04. 2026
+specific
+
+9. 04. 2026
 
 ---
 
@@ -254,14 +270,16 @@ Multiple Columns
 
 Conclusions
 
-with its own headline, is displayed in 9. 04. 2026
+with its own headline, is displayed in
+
+9. 04. 2026
 
 ---
 
-| Introduction A collection of example | pages Animations by overlays | Multiple | Columns Conclusions |
+| Introduction A collection of example pages | Animations by overlays | Multiple | Columns Conclusions |
 |---|---|---|---|
 | Tables |  |  |  |
-| The size of the table font can be | chosen by giving a #+LATEX: | \small command | (or \tiny or |
+| The size of the table font can be chosen | by giving a #+LATEX: | \small command | (or \tiny or |
 | \footnotesize) |  |  |  |
 | WNs Processors | Cores/node HS06/node | total cores | total HS06 |
 | 20 2*Xeon X5560 | 8 | 118 160 | 2360 |
@@ -270,7 +288,7 @@ with its own headline, is displayed in 9. 04. 2026
 | 35 |  | 464 | 6217 |
 | Derek Feichtinger (myInstitute) | Org-Mode Beamer Example |  | 9. 04. 2026 11 / 45 |
 
-The size of the table font can be chosen by giving a A collection of example pages 2*AMD 6272 2.40GHz #+LATEX: \small Multiple Columns command (or
+The size of the table font can be chosen by giving a 2*AMD 6272 2.40GHz #+LATEX: \small Multiple Columns command (or
 ---
 
 Introduction
@@ -299,7 +317,9 @@ powerpoint for sharing or
 
 Derek Feichtinger (myInstitute)
 
-Org-Mode Beamer Example 9. 04. 2026
+Org-Mode Beamer Example
+
+9. 04. 2026
 
 ---
 
@@ -323,7 +343,9 @@ Org-Mode Beamer Example
 
 Multiple Columns
 
-Conclusions 9. 04. 2026
+Conclusions
+
+9. 04. 2026
 
 ---
 
@@ -347,7 +369,9 @@ Org-Mode Beamer Example
 
 Multiple Columns
 
-Conclusions 9. 04. 2026
+Conclusions
+
+9. 04. 2026
 
 ---
 
@@ -375,7 +399,9 @@ Conclusions
 
 code
 
-Org-Mode Beamer Example 9. 04. 2026
+Org-Mode Beamer Example
+
+9. 04. 2026
 
 ---
 
@@ -393,7 +419,9 @@ A fullframe is a frame with an ignored slide title. frametitle is set to the emp
 
 Derek Feichtinger (myInstitute)
 
-Org-Mode Beamer Example 9. 04. 2026
+Org-Mode Beamer Example
+
+9. 04. 2026
 
 ---
 
@@ -407,17 +435,15 @@ Multiple Columns
 
 Conclusions
 
-A headline with an ignoreheading environment will only have its contents displayed in the
+A headline with an ignoreheading environment will only have its contents displayed in the output. The heading text itself is ignored, and no heading bar is shown.
 
-output. The heading text itself is ignored, and no heading bar is shown.
-
-Contents are not inserted in any frame environment. It makes no sense to use this as major element
-
-for a slide.
+Contents are not inserted in any frame environment. It makes no sense to use this as major element for a slide.
 
 ignoreheading is useful as a structural element in order to again place normal text after a previous element (like a block or a column environment). Derek Feichtinger (myInstitute)
 
-Org-Mode Beamer Example 9. 04. 2026
+Org-Mode Beamer Example
+
+9. 04. 2026
 
 ---
 
@@ -439,13 +465,13 @@ To help the audience see the structure of your presentation.
 
 On this slide you should see that the text of the upper items is differently typeset from the bottom item in the structureenv
 
-you need to use ignoreheading (like here) in order to then insert some more normal text after the
-
-structureenv.
+you need to use ignoreheading (like here) in order to then insert some more normal text after the structureenv.
 
 Derek Feichtinger (myInstitute)
 
-Org-Mode Beamer Example 9. 04. 2026
+Org-Mode Beamer Example
+
+9. 04. 2026
 
 ---
 
@@ -467,7 +493,9 @@ Org-Mode Beamer Example
 
 Multiple Columns
 
-Conclusions 9. 04. 2026
+Conclusions
+
+9. 04. 2026
 
 ---
 
@@ -487,7 +515,9 @@ proof. Suppose p were the largest prime number.
 
 Derek Feichtinger (myInstitute)
 
-Org-Mode Beamer Example 9. 04. 2026
+Org-Mode Beamer Example
+
+9. 04. 2026
 
 ---
 
@@ -509,7 +539,9 @@ Let q be the product of the first p numbers.
 
 Derek Feichtinger (myInstitute)
 
-Org-Mode Beamer Example 9. 04. 2026
+Org-Mode Beamer Example
+
+9. 04. 2026
 
 ---
 
@@ -533,7 +565,9 @@ Then q + 1 is not divisible by any of them.
 
 Derek Feichtinger (myInstitute)
 
-Org-Mode Beamer Example 9. 04. 2026
+Org-Mode Beamer Example
+
+9. 04. 2026
 
 ---
 
@@ -559,7 +593,9 @@ But q + 1 is greater than 1, thus divisible by some prime number not in the firs
 
 Derek Feichtinger (myInstitute)
 
-Org-Mode Beamer Example 9. 04. 2026
+Org-Mode Beamer Example
+
+9. 04. 2026
 
 ---
 
@@ -577,7 +613,9 @@ Org-Mode Beamer Example
 
 Multiple Columns
 
-Conclusions 9. 04. 2026
+Conclusions
+
+9. 04. 2026
 
 ---
 
@@ -601,7 +639,9 @@ block B 8 eight 9 nine 10 ten
 
 Derek Feichtinger (myInstitute)
 
-Org-Mode Beamer Example 9. 04. 2026
+Org-Mode Beamer Example
+
+9. 04. 2026
 
 ---
 
@@ -617,21 +657,17 @@ Conclusions
 
 ## long source code over two pages I
 
-Use the allowframebreaks Beamer option.
-
-(use-package python
+Use the allowframebreaks Beamer option. (use-package python
 
 :config (progn ;; load my own python helper functions (load-file (concat dfeich/site-lisp "/my-pydoc-helper.el"))
 
 (defun dfeich/python-keydefs () (define-key python-mode-map (kbd "<M-right>") python-indent-shift-right)
 
-(define-key python-mode-map (kbd "<M-left>") python-indent-shift-left))
+(define-key python-mode-map (kbd "<M-left>") python-indent-shift-left)) (add-hook python-mode-hook # dfeich/python-keydefs)
 
-(add-hook python-mode-hook # dfeich/python-keydefs)
+;; show line numbers on the left for python (add-hook python-mode-hook linum-mode)
 
-;; show line numbers on the left for python (add-hook python-mode-hook linum-mode) (when (featurep flycheck)
-
-(add-hook python-mode-hook
+(when (featurep flycheck) (add-hook python-mode-hook
 
 (use-package jedi-core :ensure t
 
@@ -639,7 +675,9 @@ Derek Feichtinger (myInstitute)
 
 flycheck-mode))
 
-Org-Mode Beamer Example 9. 04. 2026
+Org-Mode Beamer Example
+
+9. 04. 2026
 
 ---
 
@@ -655,9 +693,9 @@ Conclusions
 
 long source code over two pages II
 
-:config (progn (autoload jedi:setup "jedi-core" nil t) (add-hook python-mode-hook
+:config (progn (autoload jedi:setup "jedi-core" nil t)
 
-(setq jedi:complete-on-dot t) (setq jedi:server-args
+(add-hook python-mode-hook (setq jedi:complete-on-dot t) (setq jedi:server-args
 
 jedi:setup) ("--log" "/tmp/jedi.log"
 
@@ -669,7 +707,9 @@ jedi:setup) ("--log" "/tmp/jedi.log"
 
 Derek Feichtinger (myInstitute)
 
-Org-Mode Beamer Example 9. 04. 2026
+Org-Mode Beamer Example
+
+9. 04. 2026
 
 ---
 
@@ -689,7 +729,9 @@ Conclusions
 
 This text is on the bottom Derek Feichtinger (myInstitute)
 
-Org-Mode Beamer Example 9. 04. 2026
+Org-Mode Beamer Example
+
+9. 04. 2026
 
 ---
 
@@ -723,7 +765,9 @@ example
 
 Derek Feichtinger (myInstitute)
 
-Org-Mode Beamer Example 9. 04. 2026
+Org-Mode Beamer Example
+
+9. 04. 2026
 
 ---
 
@@ -739,15 +783,9 @@ Conclusions
 
 ## Text colors
 
-Examples for colored text (using the xcolor package): Text1 Text2 Text3 Text4 Text5
+Examples for colored text (using the xcolor package): Text1 Text2 Text3 Text4 Text5 The basic LAT X colors are: black, blue, brown, cyan, darkgray, gray, green, lightgray, lime, magenta,
 
-The basic LAT X colors are: black, blue, brown, cyan, darkgray, gray, green, lightgray, lime, magenta,
-
-E
-
-olive, orange, pink, purple, red, teal, violet, white, yellow. TODO: The Beamer class loads the xcolor package by default. By including the xcolor option
-
-dvipsnames in the beamer class definition, we should also be able to use those names:
+E olive, orange, pink, purple, red, teal, violet, white, yellow. TODO: The Beamer class loads the xcolor package by default. By including the xcolor option dvipsnames in the beamer class definition, we should also be able to use those names:
 
 #+LaTeX_CLASS_OPTIONS: [t,10pt,xcolor={dvipsnames}]
 
@@ -755,7 +793,9 @@ But this does not seem to work. Cyan Emerald
 
 Derek Feichtinger (myInstitute)
 
-Org-Mode Beamer Example 9. 04. 2026
+Org-Mode Beamer Example
+
+9. 04. 2026
 
 ---
 
@@ -779,7 +819,9 @@ Org-Mode Beamer Example
 
 Multiple Columns
 
-Conclusions 9. 04. 2026
+Conclusions
+
+9. 04. 2026
 
 ---
 
@@ -789,9 +831,7 @@ A collection of example pages
 
 ## Highlighting text
 
-The double can be used to enclose active code. Here we use it to specify beamer code
-
-highlight text by specifying an overlay. A useful feature
+The double can be used to enclose active code. Here we use it to specify beamer code  highlight text by specifying an overlay. A useful feature
 
 Derek Feichtinger (myInstitute)
 
@@ -803,7 +843,9 @@ Multiple Columns
 
 Conclusions
 
-that will 9. 04. 2026
+that will
+
+9. 04. 2026
 
 ---
 
@@ -813,9 +855,7 @@ A collection of example pages
 
 ## Highlighting text
 
-The double can be used to enclose active code. Here we use it to specify beamer code
-
-highlight text by specifying an overlay. A useful feature
+The double can be used to enclose active code. Here we use it to specify beamer code  highlight text by specifying an overlay. A useful feature
 
 Derek Feichtinger (myInstitute)
 
@@ -827,7 +867,9 @@ Multiple Columns
 
 Conclusions
 
-that will 9. 04. 2026
+that will
+
+9. 04. 2026
 
 ---
 
@@ -837,11 +879,7 @@ A collection of example pages
 
 ## Lists
 
-For the first list we use an #+ATTR_BEAMER: :overlay +-
-
-It acts like \begin{itemize}[<+->]. So, it will cause the list items to appear one after the other.
-
-item 1
+For the first list we use an #+ATTR_BEAMER: :overlay +- It acts like \begin{itemize}[<+->]. So, it will cause the list items to appear one after the other. item 1
 
 For the second list we classify each line by angular brackets each item.
 
@@ -859,7 +897,9 @@ specification.
 
 to explicitely define the order of revealing
 
-Org-Mode Beamer Example 9. 04. 2026
+Org-Mode Beamer Example
+
+9. 04. 2026
 
 ---
 
@@ -869,11 +909,7 @@ A collection of example pages
 
 ## Lists
 
-For the first list we use an #+ATTR_BEAMER: :overlay +-
-
-It acts like \begin{itemize}[<+->]. So, it will cause the list items to appear one after the other.
-
-item 1
+For the first list we use an #+ATTR_BEAMER: :overlay +- It acts like \begin{itemize}[<+->]. So, it will cause the list items to appear one after the other. item 1
 
 Animations by overlays
 
@@ -885,9 +921,7 @@ specification.
 
 item 2
 
-For the second list we classify each line by angular brackets to explicitely define the order of revealing
-
-each item.
+For the second list we classify each line by angular brackets to explicitely define the order of revealing each item.
 
 item 1
 
@@ -895,7 +929,9 @@ item 3
 
 Derek Feichtinger (myInstitute)
 
-Org-Mode Beamer Example 9. 04. 2026
+Org-Mode Beamer Example
+
+9. 04. 2026
 
 ---
 
@@ -903,9 +939,7 @@ Introduction
 
 ## Lists
 
-For the first list we use an It acts like \begin{itemize}[<+->]
-
-item 1
+For the first list we use an It acts like \begin{itemize}[<+->] item 1
 
 item 2
 
@@ -929,13 +963,13 @@ Multiple Columns
 
 Conclusions
 
-#+ATTR_BEAMER: :overlay +- specification.
-
-. So, it will cause the list items to appear one after the other.
+#+ATTR_BEAMER: :overlay +- specification. . So, it will cause the list items to appear one after the other.
 
 to explicitely define the order of revealing
 
-Org-Mode Beamer Example 9. 04. 2026
+Org-Mode Beamer Example
+
+9. 04. 2026
 
 ---
 
@@ -955,7 +989,9 @@ Multiple Columns
 
 Org-Mode Beamer Example
 
-Conclusions 9. 04. 2026
+Conclusions
+
+9. 04. 2026
 
 ---
 
@@ -967,9 +1003,7 @@ A collection of example pages
 
 First Block this is visible from the beginning
 
-Second Block and this one is revealed afterwards by using the BEAMER_act
-
-section.
+Second Block and this one is revealed afterwards by using the BEAMER_act  section.
 
 Derek Feichtinger (myInstitute)
 
@@ -981,7 +1015,9 @@ Conclusions
 
 keyword in the PROPERTIES
 
-Org-Mode Beamer Example 9. 04. 2026
+Org-Mode Beamer Example
+
+9. 04. 2026
 
 ---
 
@@ -1001,7 +1037,9 @@ Org-Mode Beamer Example
 
 Multiple Columns
 
-Conclusions 9. 04. 2026
+Conclusions
+
+9. 04. 2026
 
 
 ---
@@ -1027,7 +1065,9 @@ Org-Mode Beamer Example
 
 Multiple Columns
 
-Conclusions 9. 04. 2026
+Conclusions
+
+9. 04. 2026
 
 
 ---
@@ -1053,7 +1093,9 @@ Multiple Columns
 
 Org-Mode Beamer Example
 
-Conclusions 9. 04. 2026
+Conclusions
+
+9. 04. 2026
 
 ---
 
@@ -1081,7 +1123,9 @@ for this frame
 
 in the PROPERTIES section.
 
-Org-Mode Beamer Example 9. 04. 2026
+Org-Mode Beamer Example
+
+9. 04. 2026
 
 ---
 
@@ -1107,7 +1151,9 @@ transparency compared to the previous
 
 Derek Feichtinger (myInstitute)
 
-Org-Mode Beamer Example 9. 04. 2026
+Org-Mode Beamer Example
+
+9. 04. 2026
 
 ---
 
@@ -1133,7 +1179,9 @@ transparency compared to the previous
 
 Derek Feichtinger (myInstitute)
 
-Org-Mode Beamer Example 9. 04. 2026
+Org-Mode Beamer Example
+
+9. 04. 2026
 
 ---
 
@@ -1159,7 +1207,9 @@ transparency compared to the previous
 
 Derek Feichtinger (myInstitute)
 
-Org-Mode Beamer Example 9. 04. 2026
+Org-Mode Beamer Example
+
+9. 04. 2026
 
 ---
 
@@ -1189,7 +1239,9 @@ Multiple Columns
 
 Conclusions
 
-\setbeamercovered{highly dynamic} so that other 9. 04. 2026
+\setbeamercovered{highly dynamic} so that other
+
+9. 04. 2026
 
 ---
 
@@ -1219,7 +1271,9 @@ Multiple Columns
 
 Conclusions
 
-\setbeamercovered{highly dynamic} so that other 9. 04. 2026
+\setbeamercovered{highly dynamic} so that other
+
+9. 04. 2026
 
 ---
 
@@ -1249,7 +1303,9 @@ Multiple Columns
 
 Conclusions
 
-\setbeamercovered{highly dynamic} so that other 9. 04. 2026
+\setbeamercovered{highly dynamic} so that other
+
+9. 04. 2026
 
 ---
 
@@ -1279,7 +1335,9 @@ Multiple Columns
 
 Conclusions
 
-\setbeamercovered{highly dynamic} so that other 9. 04. 2026
+\setbeamercovered{highly dynamic} so that other
+
+9. 04. 2026
 
 ---
 
@@ -1299,7 +1357,9 @@ block 1 The first block
 
 Derek Feichtinger (myInstitute)
 
-Org-Mode Beamer Example 9. 04. 2026
+Org-Mode Beamer Example
+
+9. 04. 2026
 
 ---
 
@@ -1319,13 +1379,13 @@ block 1
 
 The first block
 
-A plain text paragraph. I only managed to get the right uncovering behavior by using #+LATEX:
-
-\onslide<2-> in front of the paragraph.
+A plain text paragraph. I only managed to get the right uncovering behavior by using #+LATEX: \onslide<2-> in front of the paragraph.
 
 Derek Feichtinger (myInstitute)
 
-Org-Mode Beamer Example 9. 04. 2026
+Org-Mode Beamer Example
+
+9. 04. 2026
 
 ---
 
@@ -1353,7 +1413,9 @@ behavior by using #+LATEX:
 
 Derek Feichtinger (myInstitute)
 
-Org-Mode Beamer Example 9. 04. 2026
+Org-Mode Beamer Example
+
+9. 04. 2026
 
 ---
 
@@ -1377,7 +1439,9 @@ Org-Mode Beamer Example
 
 Multiple Columns
 
-Conclusions 9. 04. 2026
+Conclusions
+
+9. 04. 2026
 
 ---
 
@@ -1389,9 +1453,7 @@ A collection of example pages
 
 A left block this slide consists of two columns
 
-this is the right column
-
-This is the first column
+this is the right column This is the first column
 
 Derek Feichtinger (myInstitute)
 
@@ -1403,7 +1465,9 @@ Conclusions
 
 A right block
 
-Org-Mode Beamer Example 9. 04. 2026
+Org-Mode Beamer Example
+
+9. 04. 2026
 
 ---
 
@@ -1429,7 +1493,9 @@ Conclusions
 
 Example (A screenshot)
 
-Org-Mode Beamer Example 9. 04. 2026
+Org-Mode Beamer Example
+
+9. 04. 2026
 
 
 ---
@@ -1445,9 +1511,7 @@ A collection of example pages
 
 ## A centered text section and a figure
 
-a centered text section. I found no good way for using \vfill or
-
-\minipage as referenced here
+a centered text section. I found no good way for using \vfill or \minipage [as referenced here](http://tex.stackexchange.com/questions/15244/why-does-vfill-not-work-inside-a-beamer-column)
 
 Derek Feichtinger (myInstitute)
 
@@ -1459,7 +1523,9 @@ Conclusions
 
 Example (A screenshot)
 
-Org-Mode Beamer Example 9. 04. 2026
+Org-Mode Beamer Example
+
+9. 04. 2026
 
 
 ---
@@ -1485,9 +1551,7 @@ The output
 
 A =
 
-1 2
-
-3 4
+1 2 3 4
 
 x =
 
@@ -1497,7 +1561,9 @@ Org-Mode Beamer Example
 
 Multiple Columns
 
-Conclusions 9. 04. 2026
+Conclusions
+
+9. 04. 2026
 
 ---
 
@@ -1521,7 +1587,9 @@ Org-Mode Beamer Example
 
 Multiple Columns
 
-Conclusions 9. 04. 2026
+Conclusions
+
+9. 04. 2026
 
 ---
 
@@ -1539,13 +1607,13 @@ Conclusions
 
 org is an incredible tool for time management it is also excellent for composing documents
 
-Beamer is a very powerful LAT X package for presentationsE
-
-the combination is unbeatable: Org Beamer ease of composing slides fast and being able to use all the other Org features though, it takes a bit of a learning curve and examples to copy from
+Beamer is a very powerful LAT X package for presentationsE the combination is unbeatable: Org Beamer ease of composing slides fast and being able to use all the other Org features though, it takes a bit of a learning curve and examples to copy from
 
 Derek Feichtinger (myInstitute)
 
-Org-Mode Beamer Example 9. 04. 2026
+Org-Mode Beamer Example
+
+9. 04. 2026
 
 ---
 
@@ -1557,7 +1625,7 @@ Org-Mode Beamer Example 9. 04. 2026
 SOME BACKUP SLIDES. The Derek Feichtinger (myInstitute) Appendix will not be listed in the Org-Mode Beamer Example
 ---
 
-| Backup | slide | 1 |
+| Backup |  | slide 1 |
 |---|---|---|
 | Some | backup | info |
 |  | Derek Feichtinger | (myInstitute) Org-Mode Beamer Example 9. 04. 2026 44 / 45 |
@@ -1565,12 +1633,9 @@ SOME BACKUP SLIDES. The Derek Feichtinger (myInstitute) Appendix will not be lis
 Backup slide 1 Some backup info Derek Feichtinger (myInstitute)
 ---
 
-## Backup slide 2
+|  | Backup | slide 2 |
+|---|---|---|
+| These | details | are not part of the main talk. |
+|  | Derek Feichtinger | (myInstitute) Org-Mode Beamer Example 9. 04. 2026 45 / 45 |
 
-These details are not part of the
-
-Derek Feichtinger (myInstitute)
-
-main talk.
-
-Org-Mode Beamer Example 9. 04. 2026
+Backup slide 2 These details are not part of the Derek Feichtinger (myInstitute)

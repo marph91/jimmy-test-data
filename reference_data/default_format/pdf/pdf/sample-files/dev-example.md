@@ -1,31 +1,33 @@
-|  | **PDF** | **Example** |
+|  | PDF | Example |
 |---|---|---|
-|  | **for** | **Developers** |
-| **Prepared** |  | **By:** |
+| **for** |  | **Developers** |
+|  | **Prepared** | **By:** |
 | Sample | Team | |
-|  | **Website:** |  |
+| **Website:** |  |  |
 |  | sample-files.com | |
 
-PDF Example Prepared By: Sample Team for Develope
+PDF Example for Develope Prepared By: Sample Team
 ---
 
 # PDF Example for Developers
 
 ## This document is designed to showcase
 
-*This sample PDF file is provided by Sample-Files.com. Visit us for more sample files and resource*
+## various features available for PDF generation
 
-# various features available for PDF generation
+## and manipulation. It includes formatted text,
 
-and manipulation. It includes formatted text,
+## tables, images, hyperlinks, and more.
 
-# tables, images, hyperlinks, and more.
+*This sample PDF file is provided by [Sample-Files.com. Visit us for more sample files and resource](https://sample-files.com/)*
 
 ---
 
 # PDF Example for Developers
 
-### Bold Text
+### Bold Text Italicized Text, and Underlined Text
+
+### can be used to emphasize content.
 
 ## Bullet Points:
 
@@ -39,19 +41,23 @@ and manipulation. It includes formatted text,
 
 ## Numbered Lists:
 
-*This sample PDF file is provided by Sample-Files.com. Visit us for more sample files and resource*
+# - Support for styled text
 
-# Italicized Text, and Underlined Text
+# - Bullet and numbered lists
 
-# can be used to emphasize content.
+# - Custom fonts and colors
 
-1. Support for styled text
+# - Rich text formatting
 
-2. Bullet and numbered lists
+*This sample PDF file is provided by [Sample-Files.com. Visit us for more sample files and resource](https://sample-files.com/)*
 
-3. Custom fonts and colors
+1.
 
-4. Rich text formatting
+2.
+
+3.
+
+4.
 
 ---
 
@@ -65,23 +71,23 @@ and manipulation. It includes formatted text,
 
 ## Officia veniam nisi quis irure dolore elit tempor
 
-ea aliquip culpa quis ullamco veniam. Minim
+## ea aliquip culpa quis ullamco veniam. Minim
 
-# dolore deserunt aliquip laborum culpa mollit
+## dolore deserunt aliquip laborum culpa mollit
 
-# anim cillum nostrud laborum veniam non
+## anim cillum nostrud laborum veniam non
 
-# voluptate.
+## voluptate.
 
 ## Reprehenderit sit pariatur reprehenderit non
 
-sint aliqua est reprehenderit. Incididunt
+## sint aliqua est reprehenderit. Incididunt
 
-# commodo enim magna magna ipsum voluptate
+## commodo enim magna magna ipsum voluptate
 
-# aute voluptate.
+## aute voluptate.
 
-*This sample PDF file is provided by Sample-Files.com. Visit us for more sample files and resource*
+*This sample PDF file is provided by [Sample-Files.com. Visit us for more sample files and resource](https://sample-files.com/)*
 
 ---
 
@@ -89,11 +95,11 @@ sint aliqua est reprehenderit. Incididunt
 
 ## Below is an example image inserted into the
 
-### Visit Sample-Files.com for more sample documents.
+## PDF:
 
-*This sample PDF file is provided by Sample-Files.com. Visit us for more sample files and resource*
+### [Visit Sample-Files.com for more](https://sample-files.com/)[sample documents.](https://sample-files.com/)
 
-# PDF:
+*This sample PDF file is provided by [Sample-Files.com. Visit us for more sample files and resource](https://sample-files.com/)*
 
 
 ---
@@ -103,9 +109,13 @@ sint aliqua est reprehenderit. Incididunt
 
 ---
 
-# Forms and Annotations
+# Forms and Annotations Overview
 
 ##### Forms allow users to input information directly into a PDF
+
+##### document. Annotations can be used to highlight,
+
+##### comment, or mark up specific sections of the document.
 
 ## Form Elements:
 
@@ -119,10 +129,4 @@ sint aliqua est reprehenderit. Incididunt
 
 ### No
 
-*This sample PDF file is provided by Sample-Files.com. Visit us for more sample files and resource*
-
-# Overview
-
-document. Annotations can be used to highlight,
-
-## comment, or mark up specific sections of the document.
+*This sample PDF file is provided by [Sample-Files.com. Visit us for more sample files and resource](https://sample-files.com/)*

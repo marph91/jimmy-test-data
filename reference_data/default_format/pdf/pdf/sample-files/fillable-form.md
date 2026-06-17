@@ -1,4 +1,4 @@
-# Fillable Form
+# Fillable Form PDF
 
 ## Prepared By:
 
@@ -6,9 +6,7 @@
 
 ## Website:
 
-## sample-files.com
-
-# PDF
+## [sample-files.com](https://sample-files.com/)
 
 ---
 
@@ -36,4 +34,4 @@
 
 ### I agree to the terms and conditions.
 
-*This sample PDF file is provided by Sample-Files.com. Visit us for more sample files and resource*
+*This sample PDF file is provided by [Sample-Files.com. Visit us for more sample files and resource](https://sample-files.com/)*

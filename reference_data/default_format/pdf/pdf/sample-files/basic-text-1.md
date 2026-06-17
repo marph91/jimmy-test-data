@@ -14,38 +14,38 @@ options to ensure proper rendering in PDF readers.
 
 - *Italic text* can be used for titles or subtle emphasis.
 
-3. Strikethrough is used to show deleted text.
+3.
+
+- Strikethrough is used to show deleted text.
 
 #### Lists
 
-Here's an example of an unordered list: - Item 1
+Here's an example of an unordered list:
 
+- Item 1
 - Item 2
-
 - Item 3
 
-And here's an ordered list: 1. First item
+And here's an ordered list: 1.
 
-2. Second item
-
-3. Third item
+- First item 2.
+- Second item 3.
+- Third item
 
 ##### Quote
 
-This is an example of a block quote. It can be used to highlight important information or
-
-citations.
+This is an example of a block quote. It can be used to highlight important information or citations.
 
 **Table**
 
-| **Header 1** | **Header 2** | **Header 3** |
+| Header 1 | Header 2 | Header 3 |
 |---|---|---|
 | Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 |
 | Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 |
 
 This document demonstrates various formatting options that should translate well to PDF format.
 
-*This sample PDF file is provided by Sample-Files.com. Visit us for more sample files and resources.*
+*[This sample PDF file is provided by](https://sample-files.com/)[Sample-Files.com](https://sample-files.com/)[. Visit us for more sample files and resources.](https://sample-files.com/)*
 
 # esting
 

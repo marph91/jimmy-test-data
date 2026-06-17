@@ -18,23 +18,9 @@ Derek Feichtinger
 
 4 Examples
 
-3
+3 4.1 color . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3 4.2 subcluster . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4 4.3 owchart . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10 5 git graphs
 
-4.1 color . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
-
-4.2 subcluster . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
-
-4.3 owchart . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10 5 git graphs
-
-14
-
-5.1 schemas with points . . . . . . . . . . . . . . . . . . . . . . . 14
-
-5.1.1 using weight . . . . . . . . . . . . . . . . . . . . . . . . 14
-
-5.1.2 aligning by using groups . . . . . . . . . . . . . . . . . 16
-
-5.2 subgraph . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18 1 Version information
+14 5.1 schemas with points . . . . . . . . . . . . . . . . . . . . . . . 14 5.1.1 using weight . . . . . . . . . . . . . . . . . . . . . . . . 14 5.1.2 aligning by using groups . . . . . . . . . . . . . . . . . 16 5.2 subgraph . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18 1 Version information
 
 (princ (concat (format "Emacs version: %s\n" (emacs-version)) (format "org version: %s\n" (org-version))))
 
@@ -44,11 +30,11 @@ Emacs version: GNU Emacs 24.5.1 (x86_64-unknown-linux-gnu, GTK+ Version 3.10.8) 
 
 2 Links
 
-graphviz colors
+[graphviz colors](http://www.graphviz.org/doc/info/colors.html)
 
-Node, Edge and Graph Attributes
+[Node, Edge and Graph Attributes](http://www.graphviz.org/doc/info/attrs.html)
 
-excellent tutorial 3 rst test
+[excellent tutorial](http://4webmaster.de/wiki/Graphviz-Tutorial) 3 rst test
 
 digraph {
 
@@ -188,9 +174,7 @@ protected [shape=box, label="protected"] private [shape=box, label="private"]
 
 { rank=same; decision; public } { rank=same; notpublic; private }
 
-digraph G { Back [shape=house,color=gray,style=filled,fillcolor=lightgray] [URL="Back Page"] [tooltip="Back to Main Diagram"]
-
-subgraph cluster0 { Node1 Back -> Node1 Node2 Node1 -> Node2 Node3
+digraph G { Back [shape=house,color=gray,style=filled,fillcolor=lightgray] [URL="Back Page"] [tooltip="Back to Main Diagram"] subgraph cluster0 { Node1 Back -> Node1 Node2 Node1 -> Node2 Node3
 
 
 ---
@@ -204,9 +188,7 @@ Node1 -> Node3
 
 color=invis
 
-Forward [shape=invhouse,color=gray,style=filled,fillcolor=lightgray] [URL="Forward Page"] [tooltip="On to Next Diagram"]
-
-Node3 -> Forward
+Forward [shape=invhouse,color=gray,style=filled,fillcolor=lightgray] [URL="Forward Page"] [tooltip="On to Next Diagram"] Node3 -> Forward
 
 
 ---
@@ -222,11 +204,7 @@ Node3 -> Forward
 
 5.1.1 using weight
 
-weight can be used to keep the main nodes on the main line (stackoverow
-
-link). The larger the weight factor of an edge is, the straighter, shorter, and
-
-in the direction of the graph it will be.
+weight [can be used to keep the main nodes on the main line (stackoverow](http://stackoverflow.com/questions/4671238/forcing-main-line-nodes-into-a-straight-line-in-graphviz-or-alternatives/4673624) [link). The larger the weight](http://stackoverflow.com/questions/4671238/forcing-main-line-nodes-into-a-straight-line-in-graphviz-or-alternatives/4673624)[factor of an edge is, the straighter, shorter, and](http://stackoverflow.com/questions/4671238/forcing-main-line-nodes-into-a-straight-line-in-graphviz-or-alternatives/4673624) [in the direction of the graph it will be.](http://stackoverflow.com/questions/4671238/forcing-main-line-nodes-into-a-straight-line-in-graphviz-or-alternatives/4673624)
 
 digraph G { rankdir="LR"; node[width=0.15, height=0.15, shape=point]; edge[weight=2, arrowhead=none]; 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 9; edge[weight=1]; 2 -> b1 -> b2 ; 6-> c1 -> c2;
 
@@ -288,21 +266,15 @@ digraph g{
 
 rankdir="LR"; node[width=0.15, height=0.15, shape=point, group=main]; edge[arrowhead=none]; 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8; node[group=branches];
 
-2 -> 9 -> 10;
+2 -> 9 -> 10; 5 -> 11 -> 12[color="red1"];
 
-5 -> 11 -> 12[color="red1"];
-
-the same
-
-crossings and keep the edges
+the same crossings and keep the edges
 
 Group seems to be well suited for making graphs with branches
 
 digraph g{
 
-rankdir="LR"; edge[arrowhead=none]; // ranksep=0.30; // this influences the length of edges
-
-//splines=ortho;
+rankdir="LR"; edge[arrowhead=none]; // ranksep=0.30; // this influences the length of edges //splines=ortho;
 
 node[width=0.15, height=0.15, shape=point, group=master]; 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8; lmaster[shape="box", label="master", fontsize=8.0]; 8 -> lmaster[style="invisible"];
 
@@ -318,13 +290,9 @@ tag_v1[shape="box", group="", color="cyan", fontsize=8.0, style=filled];
 
 ---
 
-// to place the tag vertically above 4, I need to define it so that it // ends up in the same hierarchy level as 4, e.g. by declaring it // above 5 using tag -> 5
+// to place the tag vertically above 4, I need to define it so that it // ends up in the same hierarchy level as 4, e.g. by declaring it // above 5 using tag -> 5 tag_v1 -> 5[weight=1, style=invisible]; tag_v1 -> 4[arrowhead="", constraint=false]; //tag_v1 -> 5[style=invisible];
 
-tag_v1 -> 5[weight=1, style=invisible]; tag_v1 -> 4[arrowhead="", constraint=false]; //tag_v1 -> 5[style=invisible];
-
-node[group=branchA]; 2 -> a1 -> a2;
-
-lbrancha[shape="box", label="branch A", fontsize=8.0]; a2 -> lbrancha[style="invisible"];
+node[group=branchA]; 2 -> a1 -> a2; lbrancha[shape="box", label="branch A", fontsize=8.0]; a2 -> lbrancha[style="invisible"];
 
 node[group=branchB] 3 -> b1 -> b2[color="red1"]; lbranchb[shape="box", label="branch B", fontsize=8.0]; b2 -> lbranchb[style="invisible"];
 
