@@ -879,7 +879,7 @@ A collection of example pages
 
 ## Lists
 
-For the first list we use an #+ATTR_BEAMER: :overlay +- It acts like \begin{itemize}[<+->]. So, it will cause the list items to appear one after the other. item 1
+For the first list we use an #+ATTR_BEAMER: :overlay +-It acts like \begin{itemize}[<+->]. So, it will cause the list items to appear one after the other. item 1
 
 For the second list we classify each line by angular brackets each item.
 
@@ -909,7 +909,7 @@ A collection of example pages
 
 ## Lists
 
-For the first list we use an #+ATTR_BEAMER: :overlay +- It acts like \begin{itemize}[<+->]. So, it will cause the list items to appear one after the other. item 1
+For the first list we use an #+ATTR_BEAMER: :overlay +-It acts like \begin{itemize}[<+->]. So, it will cause the list items to appear one after the other. item 1
 
 Animations by overlays
 

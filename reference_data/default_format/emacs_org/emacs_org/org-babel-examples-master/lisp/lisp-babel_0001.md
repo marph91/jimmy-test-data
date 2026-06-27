@@ -242,7 +242,7 @@ The same example with the :post function:
 
 8 Library of babel
 
-The "Library of Babel" feature provides a kind of primitive function li- brary system for org les. It allows running source blocks that have added to it in every org le.  ation list with the source block names as the keys.  org-babel-library-of-babel
+The "Library of Babel" feature provides a kind of primitive function li-brary system for org les. It allows running source blocks that have added to it in every org le.  ation list with the source block names as the keys.  org-babel-library-of-babel
 
 Table 1: Test1 A B C 1 20 300 200 30 4
 
@@ -250,7 +250,7 @@ Table 2: Test2 A B C 1 20 300 200 30 4
 
 Table 3: Test1 A B C 1 20 300 200 30 4 201 50 304
 
-been The library is implemented as an associ- It is stored in the variable.
+been The library is implemented as an associ-It is stored in the variable.
 
 ---
 

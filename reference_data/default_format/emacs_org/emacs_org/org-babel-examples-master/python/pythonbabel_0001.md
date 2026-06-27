@@ -200,17 +200,15 @@ dataFrameToOrgTbl(df)
 
 A B C
 
-D  0 one A foo -0.177492553046  1 one B foo 0.307372063379  2 two C foo -0.506459622617  3 three A bar -0.672410967263  4 one B bar 0.148010312125  5 one C bar 0.96101584612  6 two A foo -1.1184963973  7 three B foo 0.302270097906  8 one C foo -1.24775380532  9 one A bar -1.39539099135  10 two B bar -0.130769234691  11 three C bar -0.663429922864
+D
 
-The noweb syntax is mostly used in literate programing, where we pro- duce code les from the org le (the process is called
+E 0 one A foo -0.177492553046 -0.374836967216 1 one B foo 0.307372063379 1.30933334256 2 two C foo -0.506459622617 -1.24683168285 3 three A bar -0.672410967263 -1.54583742192 4 one B bar 0.148010312125 1.26706909082 5 one C bar 0.96101584612 0.185088824718 6 two A foo -1.1184963973 -0.688959136818 7 three B foo 0.302270097906 -0.187694779632 8 one C foo -1.24775380532 -0.372942271299 9 one A bar -1.39539099135 0.0619111727805 10 two B bar -0.130769234691 -1.85543558128 11 three C bar -0.663429922864 0.474627019679
+
+The noweb syntax is mostly used in literate programing, where we pro-duce code les from the org le (the process is called tangling
 
 6.1.1 data frame printing using Ipython.display
 
 As an alternative, the display function from Ipython is also able to align a frame. I only managed to get diplay_pretty working up to now, and its output is lacking table separators. So, it only displays nicely in an example environment.
-
-E -0.374836967216 1.30933334256 -1.24683168285 -1.54583742192 1.26706909082 0.185088824718 -0.688959136818 -0.187694779632 -0.372942271299 0.0619111727805 -1.85543558128 0.474627019679
-
-tangling
 
 ---
 
@@ -242,13 +240,13 @@ df = pd.DataFrame({’A’ : [’one’, ’one’, ’two’, ’three’] * 3,
 
 ---
 
+’D’ : np.random.randn(12), ’E’ : np.random.randn(12)})
+
 return(np.array(list(df.T.itertuples())).transpose()[1:]) #df.to_csv(sys.stdout, sep=’|’,line_terminator=’|\n’) #return (df.to_string(col_space=5, justify=’right’,index=False))
 
 # this is a good one #print ’|’,(df.to_csv(None, sep=’|’, line_terminator=’|\n|’, encoding=’utf-8’))
 
 6.2 plotting a data frame (and placing a code reference)
-
-’D’ : np.random.randn(12), ’E’ : np.random.randn(12)})
 
 x  1  2  3 4  5  6  7
 
@@ -386,7 +384,7 @@ Now it works: Can we see Umlauts? äöü. And accents? ØŁ.
 
 Another possibility is to change the default encoding, even though this seems less clean, since it requires reloading sys.
 
-# -*- coding: iso-8859-15 -*- import sys
+# -*- coding: iso-8859-15 -*-import sys
 
 strg = u’Can we see Umlauts? . And accents? ’
 
