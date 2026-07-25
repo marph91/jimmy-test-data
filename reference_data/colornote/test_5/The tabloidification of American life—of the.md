@@ -1,0 +1,1 @@
+The tabloidification of American life—of the news, of the culture, yea, of human behavior—is such a sweeping phenomenon that it can't be

@@ -1,0 +1,1 @@
+A two-em dash, ——, is used to indicate missing letters in a word and, less frequently, to indicate a missing word.

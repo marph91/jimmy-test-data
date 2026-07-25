@@ -1,0 +1,1 @@
+no idea what they had on their hands—no idea that they’d arrested a celebrity

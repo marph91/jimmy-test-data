@@ -1,0 +1,1 @@
+this is a note created in the note section that i changed from the default color to red 

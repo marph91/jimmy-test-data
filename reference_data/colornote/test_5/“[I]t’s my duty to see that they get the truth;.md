@@ -1,0 +1,3 @@
+“[I]t’s my duty to see that they get the truth; but that’s not enough, I’ve got to put it before them briefly so that they will read it, clearly so that they will understand it, forcibly so that they will appreciate it, picturesquely so that they will remember it, and, above all, accurately so that they may be wisely guided by its light.” - Joseph Pulitzer
+
+https://www.pulitzer.org/page/additional-resources
