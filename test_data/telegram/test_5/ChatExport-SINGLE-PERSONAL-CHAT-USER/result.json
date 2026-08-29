@@ -1,0 +1,1268 @@
+{
+ "name": "Maria",
+ "type": "personal_chat",
+ "id": 1642033225,
+ "messages": [
+  {
+   "id": 771681,
+   "type": "message",
+   "date": "2026-08-07T08:33:59",
+   "date_unixtime": "1786102439",
+   "from": "João",
+   "from_id": "user123456789",
+   "text": "Message",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Message"
+    }
+   ]
+  },
+  {
+   "id": 771682,
+   "type": "message",
+   "date": "2026-08-07T08:34:08",
+   "date_unixtime": "1786102448",
+   "from": "João",
+   "from_id": "user123456789",
+   "text": "Testing a longer message",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Testing a longer message"
+    }
+   ]
+  },
+  {
+   "id": 771683,
+   "type": "message",
+   "date": "2026-08-07T08:34:13",
+   "date_unixtime": "1786102453",
+   "from": "João",
+   "from_id": "user123456789",
+   "file": "voice_messages/audio_1@07-08-2026_08-34-13.ogg",
+   "file_size": 31360,
+   "media_type": "voice_message",
+   "mime_type": "audio/ogg",
+   "duration_seconds": 1,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 771684,
+   "type": "message",
+   "date": "2026-08-07T08:34:22",
+   "date_unixtime": "1786102462",
+   "from": "João",
+   "from_id": "user123456789",
+   "file": "round_video_messages/1786102457563_-217802.mp4",
+   "file_name": "1786102457563_-217802.mp4",
+   "file_size": 445493,
+   "thumbnail": "round_video_messages/1786102457563_-217802.mp4_thumb.jpg",
+   "thumbnail_file_size": 14177,
+   "media_type": "video_message",
+   "mime_type": "video/mp4",
+   "duration_seconds": 3,
+   "width": 384,
+   "height": 384,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 771685,
+   "type": "message",
+   "date": "2026-08-07T08:34:48",
+   "date_unixtime": "1786102488",
+   "from": "João",
+   "from_id": "user123456789",
+   "photo": "photos/photo_31@07-08-2026_08-34-48.jpg",
+   "photo_file_size": 186458,
+   "width": 720,
+   "height": 1280,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 771686,
+   "type": "message",
+   "date": "2026-08-07T08:34:56",
+   "date_unixtime": "1786102496",
+   "from": "João",
+   "from_id": "user123456789",
+   "text": "👍",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "👍"
+    }
+   ]
+  },
+  {
+   "id": 771687,
+   "type": "message",
+   "date": "2026-08-07T08:35:18",
+   "date_unixtime": "1786102518",
+   "edited": "2026-08-07T09:08:20",
+   "edited_unixtime": "1786104500",
+   "from": "João",
+   "from_id": "user123456789",
+   "text": "message with single reaction",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "message with single reaction"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "👍",
+      "recent": [
+       {
+        "from": "Maria da Silva",
+        "from_id": "user987654321",
+        "date": "2026-08-07T09:08:20"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 771688,
+   "type": "message",
+   "date": "2026-08-07T08:35:26",
+   "date_unixtime": "1786102526",
+   "edited": "2026-08-07T09:08:29",
+   "edited_unixtime": "1786104509",
+   "from": "João",
+   "from_id": "user123456789",
+   "text": "message with multiple reactions",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "message with multiple reactions"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "❤",
+      "recent": [
+       {
+        "from": "Maria da Silva",
+        "from_id": "user987654321",
+        "date": "2026-08-07T09:08:22"
+       }
+      ]
+     },
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "👀",
+      "recent": [
+       {
+        "from": "João",
+        "from_id": "user123456789",
+        "date": "2026-08-07T09:08:29"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 771689,
+   "type": "message",
+   "date": "2026-08-07T08:35:36",
+   "date_unixtime": "1786102536",
+   "from": "João",
+   "from_id": "user123456789",
+   "file": "video_files/mind-blown.mp4",
+   "file_name": "mind-blown.mp4",
+   "file_size": 250548,
+   "media_type": "animation",
+   "mime_type": "video/mp4",
+   "duration_seconds": 6,
+   "width": 200,
+   "height": 132,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 771690,
+   "type": "message",
+   "date": "2026-08-07T08:35:48",
+   "date_unixtime": "1786102548",
+   "from": "João",
+   "from_id": "user123456789",
+   "file": "stickers/-2147483648_-211374.webp",
+   "file_name": "-2147483648_-211374.webp",
+   "file_size": 170232,
+   "thumbnail": "stickers/-2147483648_-211374.webp_thumb.jpg",
+   "thumbnail_file_size": 16846,
+   "media_type": "sticker",
+   "mime_type": "image/webp",
+   "width": 512,
+   "height": 512,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 771691,
+   "type": "message",
+   "date": "2026-08-07T08:36:22",
+   "date_unixtime": "1786102582",
+   "from": "João",
+   "from_id": "user123456789",
+   "text": "❤️❤️‍🩹❣❤️🤎🔍🤎❤️‍🩹💟💖💖💟🇧🇾🇧🇮🇧🇮🇧🇪🇧🇮🇻🇬🇧🇮🇨🇻🇧🇸🇻🇬🇦🇴🇧🇾🇨🇬🇨🇩🇲🇲🇳🇬🇬🇲🇬🇫🇧🇷🇧🇧🇧🇴🇦🇱🇧🇭🏁🇦🇶🇧🇸🇧🇹🏴🇦🇶🏳🇺🇳🏴🏁🇧🇸🇦🇹🇧🇸🇦🇼🇧🇹🇪🇨🇰🇿🇰🇿🇮🇸🇯🇲🇯🇴🇯🇲🇱🇧🇰🇬🇯🇴🎌🇰🇿🇮🇱🇯🇪🇽🇰🇬🇾",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "❤️❤️‍🩹❣❤️🤎🔍🤎❤️‍🩹💟💖💖💟🇧🇾🇧🇮🇧🇮🇧🇪🇧🇮🇻🇬🇧🇮🇨🇻🇧🇸🇻🇬🇦🇴🇧🇾🇨🇬🇨🇩🇲🇲🇳🇬🇬🇲🇬🇫🇧🇷🇧🇧🇧🇴🇦🇱🇧🇭🏁🇦🇶🇧🇸🇧🇹🏴🇦🇶🏳🇺🇳🏴🏁🇧🇸🇦🇹🇧🇸🇦🇼🇧🇹🇪🇨🇰🇿🇰🇿🇮🇸🇯🇲🇯🇴🇯🇲🇱🇧🇰🇬🇯🇴🎌🇰🇿🇮🇱🇯🇪🇽🇰🇬🇾"
+    }
+   ]
+  },
+  {
+   "id": 771692,
+   "type": "message",
+   "date": "2026-08-07T08:37:14",
+   "date_unixtime": "1786102634",
+   "from": "João",
+   "from_id": "user123456789",
+   "location_information": {
+    "latitude": -15.871084,
+    "longitude": -47.982297
+   },
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 771693,
+   "type": "message",
+   "date": "2026-08-07T08:40:07",
+   "date_unixtime": "1786102807",
+   "from": "João",
+   "from_id": "user123456789",
+   "file": "files/text-file.txt",
+   "file_name": "text-file.txt",
+   "file_size": 17,
+   "mime_type": "text/plain",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 771694,
+   "type": "message",
+   "date": "2026-08-07T08:40:15",
+   "date_unixtime": "1786102815",
+   "edited": "2026-08-07T08:40:29",
+   "edited_unixtime": "1786102829",
+   "from": "João",
+   "from_id": "user123456789",
+   "file": "files/text-file-with-caption.txt",
+   "file_name": "text-file-with-caption.txt",
+   "file_size": 30,
+   "mime_type": "text/plain",
+   "text": "Caption of text file",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Caption of text file"
+    }
+   ]
+  },
+  {
+   "id": 771695,
+   "type": "message",
+   "date": "2026-08-07T08:40:38",
+   "date_unixtime": "1786102838",
+   "from": "João",
+   "from_id": "user123456789",
+   "file": "files/duplicate-file.txt",
+   "file_name": "duplicate-file.txt",
+   "file_size": 41,
+   "mime_type": "text/plain",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 771696,
+   "type": "message",
+   "date": "2026-08-07T08:40:44",
+   "date_unixtime": "1786102844",
+   "from": "João",
+   "from_id": "user123456789",
+   "file": "files/duplicate-file (1).txt",
+   "file_name": "duplicate-file.txt",
+   "file_size": 41,
+   "mime_type": "text/plain",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 771697,
+   "type": "message",
+   "date": "2026-08-07T08:41:00",
+   "date_unixtime": "1786102860",
+   "edited": "2026-08-07T08:41:08",
+   "edited_unixtime": "1786102868",
+   "from": "João",
+   "from_id": "user123456789",
+   "file": "files/duplicate-file (2).txt",
+   "file_name": "duplicate-file.txt",
+   "file_size": 41,
+   "mime_type": "text/plain",
+   "text": "Caption in duplicate file",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Caption in duplicate file"
+    }
+   ]
+  },
+  {
+   "id": 771698,
+   "type": "message",
+   "date": "2026-08-07T08:42:34",
+   "date_unixtime": "1786102954",
+   "from": "João",
+   "from_id": "user123456789",
+   "contact_information": {
+    "first_name": "Maria",
+    "last_name": "da Silva",
+    "phone_number": "+55 11 91234 5678"
+   },
+   "contact_vcard": "contacts/contact_2.vcard",
+   "contact_vcard_file_size": 85,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 771699,
+   "type": "message",
+   "date": "2026-08-07T08:42:51",
+   "date_unixtime": "1786102971",
+   "from": "João",
+   "from_id": "user123456789",
+   "contact_information": {
+    "first_name": "Maria",
+    "last_name": "",
+    "phone_number": "+55 11 91234 5678"
+   },
+   "contact_vcard": "contacts/contact_3.vcard",
+   "contact_vcard_file_size": 1114,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 771700,
+   "type": "message",
+   "date": "2026-08-07T08:43:03",
+   "date_unixtime": "1786102983",
+   "from": "João",
+   "from_id": "user123456789",
+   "text": "message with reply",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "message with reply"
+    }
+   ]
+  },
+  {
+   "id": 771701,
+   "type": "message",
+   "date": "2026-08-07T08:43:09",
+   "date_unixtime": "1786102989",
+   "from": "João",
+   "from_id": "user123456789",
+   "text": "Message with multiple replies",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Message with multiple replies"
+    }
+   ]
+  },
+  {
+   "id": 771702,
+   "type": "message",
+   "date": "2026-08-07T08:43:18",
+   "date_unixtime": "1786102998",
+   "from": "João",
+   "from_id": "user123456789",
+   "reply_to_message_id": 771701,
+   "text": "Reply to a message",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Reply to a message"
+    }
+   ]
+  },
+  {
+   "id": 771703,
+   "type": "message",
+   "date": "2026-08-07T08:43:38",
+   "date_unixtime": "1786103018",
+   "from": "João",
+   "from_id": "user123456789",
+   "reply_to_message_id": 771701,
+   "text": "Reply with a nested reply",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Reply with a nested reply"
+    }
+   ]
+  },
+  {
+   "id": 771704,
+   "type": "message",
+   "date": "2026-08-07T08:43:47",
+   "date_unixtime": "1786103027",
+   "from": "João",
+   "from_id": "user123456789",
+   "reply_to_message_id": 771703,
+   "text": "Nested reply to a reply",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Nested reply to a reply"
+    }
+   ]
+  },
+  {
+   "id": 771705,
+   "type": "message",
+   "date": "2026-08-07T08:44:18",
+   "date_unixtime": "1786103058",
+   "from": "João",
+   "from_id": "user123456789",
+   "photo": "photos/photo_32@07-08-2026_08-44-18.jpg",
+   "photo_file_size": 94303,
+   "width": 720,
+   "height": 1280,
+   "text": "Caption of image media",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Caption of image media"
+    }
+   ]
+  },
+  {
+   "id": 771706,
+   "type": "message",
+   "date": "2026-08-07T08:53:06",
+   "date_unixtime": "1786103586",
+   "from": "João",
+   "from_id": "user123456789",
+   "file": "video_files/video_2@07-08-2026_08-53-06.mp4",
+   "file_size": 254086,
+   "thumbnail": "video_files/video_2@07-08-2026_08-53-06.mp4_thumb.jpg",
+   "thumbnail_file_size": 1902,
+   "media_type": "video_file",
+   "mime_type": "video/mp4",
+   "duration_seconds": 2,
+   "width": 268,
+   "height": 480,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 771707,
+   "type": "message",
+   "date": "2026-08-07T08:53:31",
+   "date_unixtime": "1786103611",
+   "from": "João",
+   "from_id": "user123456789",
+   "file": "video_files/video_3@07-08-2026_08-53-31.mp4",
+   "file_size": 160093,
+   "thumbnail": "video_files/video_3@07-08-2026_08-53-31.mp4_thumb.jpg",
+   "thumbnail_file_size": 6885,
+   "media_type": "video_file",
+   "mime_type": "video/mp4",
+   "duration_seconds": 1,
+   "width": 268,
+   "height": 480,
+   "text": "Caption of video media message",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Caption of video media message"
+    }
+   ]
+  },
+  {
+   "id": 771708,
+   "type": "message",
+   "date": "2026-08-07T08:54:59",
+   "date_unixtime": "1786103699",
+   "from": "João",
+   "from_id": "user123456789",
+   "forwarded_from": "Rafael Loyola",
+   "forwarded_from_id": "user5463625310",
+   "text": "Peguei 1 vaga",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Peguei 1 vaga"
+    }
+   ]
+  },
+  {
+   "id": 771709,
+   "type": "message",
+   "date": "2026-08-07T08:55:20",
+   "date_unixtime": "1786103720",
+   "from": "João",
+   "from_id": "user123456789",
+   "forwarded_from": "Érica Freitas 🍭",
+   "forwarded_from_id": "user5892488018",
+   "photo": "photos/photo_33@07-08-2026_08-55-20.jpg",
+   "photo_file_size": 156290,
+   "width": 960,
+   "height": 1280,
+   "text": [
+    "Me julguem mais amo essas coisinhas de casa 🥹\n\nBoleira De Vidro C/ Tampa Porta Bolo Sobremesas Decoração\n\nPor: R$127,42\nUse o cupom: OFFPRACASA\n",
+    {
+     "type": "link",
+     "text": "https://meli.la/23bxtRR"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Me julguem mais amo essas coisinhas de casa 🥹\n\nBoleira De Vidro C/ Tampa Porta Bolo Sobremesas Decoração\n\nPor: R$127,42\nUse o cupom: OFFPRACASA\n"
+    },
+    {
+     "type": "link",
+     "text": "https://meli.la/23bxtRR"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 771710,
+   "type": "message",
+   "date": "2026-08-07T08:55:33",
+   "date_unixtime": "1786103733",
+   "from": "João",
+   "from_id": "user123456789",
+   "forwarded_from": "Érica Freitas 🍭",
+   "forwarded_from_id": "user5892488018",
+   "photo": "photos/photo_33@07-08-2026_08-55-20.jpg",
+   "photo_file_size": 156290,
+   "width": 960,
+   "height": 1280,
+   "text": [
+    "Me julguem mais amo essas coisinhas de casa 🥹\n\nBoleira De Vidro C/ Tampa Porta Bolo Sobremesas Decoração\n\nPor: R$127,42\nUse o cupom: OFFPRACASA\n",
+    {
+     "type": "link",
+     "text": "https://meli.la/23bxtRR"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Me julguem mais amo essas coisinhas de casa 🥹\n\nBoleira De Vidro C/ Tampa Porta Bolo Sobremesas Decoração\n\nPor: R$127,42\nUse o cupom: OFFPRACASA\n"
+    },
+    {
+     "type": "link",
+     "text": "https://meli.la/23bxtRR"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 771711,
+   "type": "message",
+   "date": "2026-08-07T08:55:45",
+   "date_unixtime": "1786103745",
+   "from": "João",
+   "from_id": "user123456789",
+   "text": "Comment",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Comment"
+    }
+   ]
+  },
+  {
+   "id": 771712,
+   "type": "message",
+   "date": "2026-08-07T08:55:45",
+   "date_unixtime": "1786103745",
+   "from": "João",
+   "from_id": "user123456789",
+   "forwarded_from": "Érica Freitas 🍭",
+   "forwarded_from_id": "user5892488018",
+   "photo": "photos/photo_35@07-08-2026_08-55-45.jpg",
+   "photo_file_size": 165786,
+   "width": 960,
+   "height": 1280,
+   "text": [
+    "VALE MUITO A PENA\n\nMantegueira Tampa Vidro Espátula Porta Manteiga Premium Luxo\n\nPor; R$30,63\nCupom; OFFPARACASA \n",
+    {
+     "type": "link",
+     "text": "https://meli.la/2xmgYLk"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "VALE MUITO A PENA\n\nMantegueira Tampa Vidro Espátula Porta Manteiga Premium Luxo\n\nPor; R$30,63\nCupom; OFFPARACASA \n"
+    },
+    {
+     "type": "link",
+     "text": "https://meli.la/2xmgYLk"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 771713,
+   "type": "message",
+   "date": "2026-08-07T08:55:57",
+   "date_unixtime": "1786103757",
+   "from": "João",
+   "from_id": "user123456789",
+   "text": "Comment",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Comment"
+    }
+   ]
+  },
+  {
+   "id": 771714,
+   "type": "message",
+   "date": "2026-08-07T08:55:57",
+   "date_unixtime": "1786103757",
+   "from": "João",
+   "from_id": "user123456789",
+   "forwarded_from": "Érica Freitas 🍭",
+   "forwarded_from_id": "user5892488018",
+   "text": "Quem ama cerveja, vai amar o cheiro",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Quem ama cerveja, vai amar o cheiro"
+    }
+   ]
+  },
+  {
+   "id": 771715,
+   "type": "message",
+   "date": "2026-08-07T08:56:03",
+   "date_unixtime": "1786103763",
+   "from": "João",
+   "from_id": "user123456789",
+   "text": "Quem ama cerveja, vai amar o cheiro",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Quem ama cerveja, vai amar o cheiro"
+    }
+   ]
+  },
+  {
+   "id": 771716,
+   "type": "message",
+   "date": "2026-08-07T08:56:33",
+   "date_unixtime": "1786103793",
+   "from": "João",
+   "from_id": "user123456789",
+   "text": [
+    {
+     "type": "link",
+     "text": "https://t.me/compraemgrupo"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "link",
+     "text": "https://t.me/compraemgrupo"
+    }
+   ]
+  },
+  {
+   "id": 771717,
+   "type": "message",
+   "date": "2026-08-07T08:57:35",
+   "date_unixtime": "1786103855",
+   "from": "João",
+   "from_id": "user123456789",
+   "text": [
+    {
+     "type": "link",
+     "text": "https://www.globo.com/"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "link",
+     "text": "https://www.globo.com/"
+    }
+   ]
+  },
+  {
+   "id": 771718,
+   "type": "message",
+   "date": "2026-08-07T08:57:42",
+   "date_unixtime": "1786103862",
+   "from": "João",
+   "from_id": "user123456789",
+   "photo": "photos/photo_36@07-08-2026_08-57-42.jpg",
+   "photo_file_size": 28741,
+   "width": 1200,
+   "height": 630,
+   "text": [
+    {
+     "type": "link",
+     "text": "https://www.globo.com/"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "link",
+     "text": "https://www.globo.com/"
+    }
+   ]
+  },
+  {
+   "id": 771719,
+   "type": "message",
+   "date": "2026-08-07T08:57:51",
+   "date_unixtime": "1786103871",
+   "from": "João",
+   "from_id": "user123456789",
+   "text": [
+    {
+     "type": "link",
+     "text": "https://www.globo.com/"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "link",
+     "text": "https://www.globo.com/"
+    }
+   ]
+  },
+  {
+   "id": 771720,
+   "type": "message",
+   "date": "2026-08-07T08:58:06",
+   "date_unixtime": "1786103886",
+   "from": "João",
+   "from_id": "user123456789",
+   "text": [
+    {
+     "type": "link",
+     "text": "https://www.corinthians.com.br/"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "link",
+     "text": "https://www.corinthians.com.br/"
+    }
+   ]
+  },
+  {
+   "id": 771721,
+   "type": "message",
+   "date": "2026-08-07T08:59:43",
+   "date_unixtime": "1786103983",
+   "from": "João",
+   "from_id": "user123456789",
+   "text": [
+    "multiple formatting message\n",
+    {
+     "type": "bold",
+     "text": "multiple formatting message"
+    },
+    "\n",
+    {
+     "type": "italic",
+     "text": "multiple formatting message"
+    },
+    "\n",
+    {
+     "type": "underline",
+     "text": "multiple formatting message"
+    },
+    "\n",
+    {
+     "type": "strikethrough",
+     "text": "multiple formatting message"
+    },
+    "\n",
+    {
+     "type": "blockquote",
+     "text": "multiple formatting message",
+     "collapsed": false
+    },
+    "\n",
+    {
+     "type": "code",
+     "text": "multiple formatting message"
+    },
+    "\n",
+    {
+     "type": "spoiler",
+     "text": "multiple formatting message"
+    },
+    "\n",
+    {
+     "type": "text_link",
+     "text": "multiple formatting message",
+     "href": "https://test.com/"
+    },
+    "\n",
+    {
+     "type": "unknown",
+     "text": "multiple formatting message\n"
+    },
+    "multiple formatting message"
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "multiple formatting message\n"
+    },
+    {
+     "type": "bold",
+     "text": "multiple formatting message"
+    },
+    {
+     "type": "plain",
+     "text": "\n"
+    },
+    {
+     "type": "italic",
+     "text": "multiple formatting message"
+    },
+    {
+     "type": "plain",
+     "text": "\n"
+    },
+    {
+     "type": "underline",
+     "text": "multiple formatting message"
+    },
+    {
+     "type": "plain",
+     "text": "\n"
+    },
+    {
+     "type": "strikethrough",
+     "text": "multiple formatting message"
+    },
+    {
+     "type": "plain",
+     "text": "\n"
+    },
+    {
+     "type": "blockquote",
+     "text": "multiple formatting message",
+     "collapsed": false
+    },
+    {
+     "type": "plain",
+     "text": "\n"
+    },
+    {
+     "type": "code",
+     "text": "multiple formatting message"
+    },
+    {
+     "type": "plain",
+     "text": "\n"
+    },
+    {
+     "type": "spoiler",
+     "text": "multiple formatting message"
+    },
+    {
+     "type": "plain",
+     "text": "\n"
+    },
+    {
+     "type": "text_link",
+     "text": "multiple formatting message",
+     "href": "https://test.com/"
+    },
+    {
+     "type": "plain",
+     "text": "\n"
+    },
+    {
+     "type": "unknown",
+     "text": "multiple formatting message\n"
+    },
+    {
+     "type": "plain",
+     "text": "multiple formatting message"
+    }
+   ]
+  },
+  {
+   "id": 771722,
+   "type": "message",
+   "date": "2026-08-07T08:59:54",
+   "date_unixtime": "1786103994",
+   "from": "João",
+   "from_id": "user123456789",
+   "text": [
+    {
+     "type": "bold",
+     "text": "bold message"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "bold",
+     "text": "bold message"
+    }
+   ]
+  },
+  {
+   "id": 771723,
+   "type": "message",
+   "date": "2026-08-07T09:00:06",
+   "date_unixtime": "1786104006",
+   "from": "João",
+   "from_id": "user123456789",
+   "text": [
+    {
+     "type": "italic",
+     "text": "italic message"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "italic",
+     "text": "italic message"
+    }
+   ]
+  },
+  {
+   "id": 771724,
+   "type": "message",
+   "date": "2026-08-07T09:00:19",
+   "date_unixtime": "1786104019",
+   "from": "João",
+   "from_id": "user123456789",
+   "text": [
+    {
+     "type": "underline",
+     "text": "underline message"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "underline",
+     "text": "underline message"
+    }
+   ]
+  },
+  {
+   "id": 771725,
+   "type": "message",
+   "date": "2026-08-07T09:00:32",
+   "date_unixtime": "1786104032",
+   "from": "João",
+   "from_id": "user123456789",
+   "text": [
+    {
+     "type": "strikethrough",
+     "text": "strikethrough message"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "strikethrough",
+     "text": "strikethrough message"
+    }
+   ]
+  },
+  {
+   "id": 771726,
+   "type": "message",
+   "date": "2026-08-07T09:00:37",
+   "date_unixtime": "1786104037",
+   "from": "João",
+   "from_id": "user123456789",
+   "text": [
+    {
+     "type": "blockquote",
+     "text": "quote message",
+     "collapsed": false
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "blockquote",
+     "text": "quote message",
+     "collapsed": false
+    }
+   ]
+  },
+  {
+   "id": 771727,
+   "type": "message",
+   "date": "2026-08-07T09:00:44",
+   "date_unixtime": "1786104044",
+   "from": "João",
+   "from_id": "user123456789",
+   "text": [
+    {
+     "type": "code",
+     "text": "monospace message"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "code",
+     "text": "monospace message"
+    }
+   ]
+  },
+  {
+   "id": 771728,
+   "type": "message",
+   "date": "2026-08-07T09:00:54",
+   "date_unixtime": "1786104054",
+   "from": "João",
+   "from_id": "user123456789",
+   "text": [
+    {
+     "type": "spoiler",
+     "text": "spoiler message"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "spoiler",
+     "text": "spoiler message"
+    }
+   ]
+  },
+  {
+   "id": 771729,
+   "type": "message",
+   "date": "2026-08-07T09:01:08",
+   "date_unixtime": "1786104068",
+   "from": "João",
+   "from_id": "user123456789",
+   "text": [
+    {
+     "type": "text_link",
+     "text": "link message",
+     "href": "https://link.com/"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "text_link",
+     "text": "link message",
+     "href": "https://link.com/"
+    }
+   ]
+  },
+  {
+   "id": 771730,
+   "type": "message",
+   "date": "2026-08-07T09:01:26",
+   "date_unixtime": "1786104086",
+   "from": "João",
+   "from_id": "user123456789",
+   "text": [
+    {
+     "type": "unknown",
+     "text": "date message"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "unknown",
+     "text": "date message"
+    }
+   ]
+  },
+  {
+   "id": 771731,
+   "type": "message",
+   "date": "2026-08-07T09:02:05",
+   "date_unixtime": "1786104125",
+   "from": "João",
+   "from_id": "user123456789",
+   "text": "🇧🇷 message with emojis around  ❤️",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "🇧🇷 message with emojis around  ❤️"
+    }
+   ]
+  },
+  {
+   "id": 771733,
+   "type": "message",
+   "date": "2026-08-07T09:07:20",
+   "date_unixtime": "1786104440",
+   "from": "João",
+   "from_id": "user123456789",
+   "text": "pinned message",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "pinned message"
+    }
+   ]
+  },
+  {
+   "id": 771734,
+   "type": "service",
+   "date": "2026-08-07T09:07:27",
+   "date_unixtime": "1786104447",
+   "actor": "João",
+   "actor_id": "user123456789",
+   "action": "pin_message",
+   "message_id": 771733,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 771735,
+   "type": "message",
+   "date": "2026-08-07T09:07:32",
+   "date_unixtime": "1786104452",
+   "from": "João",
+   "from_id": "user123456789",
+   "text": "pinned just for sender",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "pinned just for sender"
+    }
+   ]
+  },
+  {
+   "id": 771736,
+   "type": "message",
+   "date": "2026-08-07T09:09:18",
+   "date_unixtime": "1786104558",
+   "from": "Maria da Silva",
+   "from_id": "user987654321",
+   "reply_to_message_id": 771701,
+   "text": "reply to message with multiple replies",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "reply to message with multiple replies"
+    }
+   ]
+  },
+  {
+   "id": 771737,
+   "type": "message",
+   "date": "2026-08-07T09:13:14",
+   "date_unixtime": "1786104794",
+   "edited": "2026-08-07T09:13:27",
+   "edited_unixtime": "1786104807",
+   "from": "João",
+   "from_id": "user123456789",
+   "text": "edited message\n\nEdit1: here\n\nEdit2: more edits",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "edited message\n\nEdit1: here\n\nEdit2: more edits"
+    }
+   ]
+  },
+  {
+   "id": 771738,
+   "type": "message",
+   "date": "2026-08-07T09:14:49",
+   "date_unixtime": "1786104889",
+   "from": "João",
+   "from_id": "user123456789",
+   "contact_information": {
+    "first_name": "Maria",
+    "last_name": "da Silva",
+    "phone_number": "+55 11 91234 5678"
+   },
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 771739,
+   "type": "message",
+   "date": "2026-08-07T09:14:55",
+   "date_unixtime": "1786104895",
+   "from": "João",
+   "from_id": "user123456789",
+   "text": [
+    {
+     "type": "link",
+     "text": "https://t.me/pfSense"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "link",
+     "text": "https://t.me/pfSense"
+    }
+   ]
+  },
+  {
+   "id": 771740,
+   "type": "message",
+   "date": "2026-08-07T09:15:40",
+   "date_unixtime": "1786104940",
+   "edited": "2026-08-07T09:15:53",
+   "edited_unixtime": "1786104953",
+   "from": "João",
+   "from_id": "user123456789",
+   "text": "message with reaction again",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "message with reaction again"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "💯",
+      "recent": [
+       {
+        "from": "João",
+        "from_id": "user123456789",
+        "date": "2026-08-07T09:15:53"
+       }
+      ]
+     }
+    ]
+  }
+ ]
+}

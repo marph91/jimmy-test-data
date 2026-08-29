@@ -1,0 +1,1946 @@
+{
+ "name": "SMARPHONE | UPDATES",
+ "type": "public_channel",
+ "id": 5532444444,
+ "messages": [
+  {
+   "id": 5430,
+   "type": "message",
+   "date": "2026-06-23T04:54:49",
+   "date_unixtime": "1782201289",
+   "edited": "2026-06-23T04:54:53",
+   "edited_unixtime": "1782201293",
+   "from": "SMARPHONE | UPDATES",
+   "from_id": "channel5532444444",
+   "author": "Mobin",
+   "file": "stickers/AnimatedSticker.tgs",
+   "file_name": "AnimatedSticker.tgs",
+   "file_size": 7449,
+   "thumbnail": "stickers/AnimatedSticker.tgs_thumb.jpg",
+   "thumbnail_file_size": 2610,
+   "media_type": "sticker",
+   "sticker_emoji": "❤️",
+   "mime_type": "application/x-tgsticker",
+   "width": 512,
+   "height": 512,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 5431,
+   "type": "message",
+   "date": "2026-06-23T04:54:50",
+   "date_unixtime": "1782201290",
+   "edited": "2026-06-23T04:56:02",
+   "edited_unixtime": "1782201362",
+   "from": "SMARPHONE | UPDATES",
+   "from_id": "channel5532444444",
+   "author": "Mobin",
+   "photo": "photos/photo_2293@23-06-2026_04-54-50.jpg",
+   "photo_file_size": 423736,
+   "width": 2560,
+   "height": 1441,
+   "text": [
+    {
+     "type": "hashtag",
+     "text": "#InfinityX"
+    },
+    " ",
+    {
+     "type": "hashtag",
+     "text": "#Rom"
+    },
+    " ",
+    {
+     "type": "hashtag",
+     "text": "#Official"
+    },
+    " ",
+    {
+     "type": "hashtag",
+     "text": "#Surya"
+    },
+    "\n",
+    {
+     "type": "bold",
+     "text": "Project Infinity X v3.11 | Android 16.\nBy"
+    },
+    " ",
+    {
+     "type": "mention",
+     "text": "@Muichiro"
+    },
+    " Tokito\n\n×| ",
+    {
+     "type": "text_link",
+     "text": "Download",
+     "href": "https://projectinfinity-x.com/downloads/surya"
+    },
+    " \n×| ",
+    {
+     "type": "text_link",
+     "text": "Support",
+     "href": "https://t.me/muichirolair"
+    },
+    "\n×| Changelog: ",
+    {
+     "type": "text_link",
+     "text": "Source",
+     "href": "https://t.me/ProjectInfinityX/1882"
+    },
+    " | ",
+    {
+     "type": "text_link",
+     "text": "Device",
+     "href": "https://raw.githubusercontent.com/ProjectInfinity-X/official_devices/refs/heads/16/changelog/surya.txt"
+    },
+    "\n\n",
+    {
+     "type": "bold",
+     "text": "Released"
+    },
+    ": June 9\n",
+    {
+     "type": "mention",
+     "text": "@Smartphone_Official"
+    },
+    " | ",
+    {
+     "type": "mention",
+     "text": "@SmartphoneDiscussions"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "hashtag",
+     "text": "#InfinityX"
+    },
+    {
+     "type": "plain",
+     "text": " "
+    },
+    {
+     "type": "hashtag",
+     "text": "#Rom"
+    },
+    {
+     "type": "plain",
+     "text": " "
+    },
+    {
+     "type": "hashtag",
+     "text": "#Official"
+    },
+    {
+     "type": "plain",
+     "text": " "
+    },
+    {
+     "type": "hashtag",
+     "text": "#Surya"
+    },
+    {
+     "type": "plain",
+     "text": "\n"
+    },
+    {
+     "type": "bold",
+     "text": "Project Infinity X v3.11 | Android 16.\nBy"
+    },
+    {
+     "type": "plain",
+     "text": " "
+    },
+    {
+     "type": "mention",
+     "text": "@Muichiro"
+    },
+    {
+     "type": "plain",
+     "text": " Tokito\n\n×| "
+    },
+    {
+     "type": "text_link",
+     "text": "Download",
+     "href": "https://projectinfinity-x.com/downloads/surya"
+    },
+    {
+     "type": "plain",
+     "text": " \n×| "
+    },
+    {
+     "type": "text_link",
+     "text": "Support",
+     "href": "https://t.me/muichirolair"
+    },
+    {
+     "type": "plain",
+     "text": "\n×| Changelog: "
+    },
+    {
+     "type": "text_link",
+     "text": "Source",
+     "href": "https://t.me/ProjectInfinityX/1882"
+    },
+    {
+     "type": "plain",
+     "text": " | "
+    },
+    {
+     "type": "text_link",
+     "text": "Device",
+     "href": "https://raw.githubusercontent.com/ProjectInfinity-X/official_devices/refs/heads/16/changelog/surya.txt"
+    },
+    {
+     "type": "plain",
+     "text": "\n\n"
+    },
+    {
+     "type": "bold",
+     "text": "Released"
+    },
+    {
+     "type": "plain",
+     "text": ": June 9\n"
+    },
+    {
+     "type": "mention",
+     "text": "@Smartphone_Official"
+    },
+    {
+     "type": "plain",
+     "text": " | "
+    },
+    {
+     "type": "mention",
+     "text": "@SmartphoneDiscussions"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 3,
+      "emoji": "⚡"
+     }
+    ]
+  },
+  {
+   "id": 5432,
+   "type": "message",
+   "date": "2026-06-23T04:57:14",
+   "date_unixtime": "1782201434",
+   "edited": "2026-06-23T04:57:17",
+   "edited_unixtime": "1782201437",
+   "from": "SMARPHONE | UPDATES",
+   "from_id": "channel5532444444",
+   "author": "Mobin",
+   "file": "stickers/AnimatedSticker.tgs",
+   "file_name": "AnimatedSticker.tgs",
+   "file_size": 7449,
+   "thumbnail": "stickers/AnimatedSticker.tgs_thumb.jpg",
+   "thumbnail_file_size": 2610,
+   "media_type": "sticker",
+   "sticker_emoji": "❤️",
+   "mime_type": "application/x-tgsticker",
+   "width": 512,
+   "height": 512,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 5433,
+   "type": "message",
+   "date": "2026-06-23T04:57:15",
+   "date_unixtime": "1782201435",
+   "edited": "2026-06-23T06:51:50",
+   "edited_unixtime": "1782208310",
+   "from": "SMARPHONE | UPDATES",
+   "from_id": "channel5532444444",
+   "author": "Mobin",
+   "photo": "photos/photo_2294@23-06-2026_04-57-15.jpg",
+   "photo_file_size": 44072,
+   "width": 1280,
+   "height": 615,
+   "text": [
+    {
+     "type": "hashtag",
+     "text": "#Crdroid"
+    },
+    " ",
+    {
+     "type": "hashtag",
+     "text": "#Rom"
+    },
+    " ",
+    {
+     "type": "hashtag",
+     "text": "#Official"
+    },
+    " ",
+    {
+     "type": "hashtag",
+     "text": "#Surya"
+    },
+    "\n",
+    {
+     "type": "bold",
+     "text": "Crdroid v12.11 | Android 16.\nBy"
+    },
+    " ",
+    {
+     "type": "mention",
+     "text": "@braindead55"
+    },
+    " \n\n×| ",
+    {
+     "type": "text_link",
+     "text": "Download",
+     "href": "https://crdroid.net/surya/12"
+    },
+    " \n×| ",
+    {
+     "type": "text_link",
+     "text": "Support",
+     "href": "https://t.me/BrainCellSG"
+    },
+    "\n×| ",
+    {
+     "type": "text_link",
+     "text": "Changelog",
+     "href": "https://crdroid.net/surya/12#changelog"
+    },
+    "\n×| ",
+    {
+     "type": "text_link",
+     "text": "Wiki",
+     "href": "https://crdroid.net/surya/12/install"
+    },
+    "\n\n",
+    {
+     "type": "bold",
+     "text": "Released"
+    },
+    ": June 10\n",
+    {
+     "type": "mention",
+     "text": "@Smartphone_Official"
+    },
+    " | ",
+    {
+     "type": "mention",
+     "text": "@SmartphoneDiscussions"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "hashtag",
+     "text": "#Crdroid"
+    },
+    {
+     "type": "plain",
+     "text": " "
+    },
+    {
+     "type": "hashtag",
+     "text": "#Rom"
+    },
+    {
+     "type": "plain",
+     "text": " "
+    },
+    {
+     "type": "hashtag",
+     "text": "#Official"
+    },
+    {
+     "type": "plain",
+     "text": " "
+    },
+    {
+     "type": "hashtag",
+     "text": "#Surya"
+    },
+    {
+     "type": "plain",
+     "text": "\n"
+    },
+    {
+     "type": "bold",
+     "text": "Crdroid v12.11 | Android 16.\nBy"
+    },
+    {
+     "type": "plain",
+     "text": " "
+    },
+    {
+     "type": "mention",
+     "text": "@braindead55"
+    },
+    {
+     "type": "plain",
+     "text": " \n\n×| "
+    },
+    {
+     "type": "text_link",
+     "text": "Download",
+     "href": "https://crdroid.net/surya/12"
+    },
+    {
+     "type": "plain",
+     "text": " \n×| "
+    },
+    {
+     "type": "text_link",
+     "text": "Support",
+     "href": "https://t.me/BrainCellSG"
+    },
+    {
+     "type": "plain",
+     "text": "\n×| "
+    },
+    {
+     "type": "text_link",
+     "text": "Changelog",
+     "href": "https://crdroid.net/surya/12#changelog"
+    },
+    {
+     "type": "plain",
+     "text": "\n×| "
+    },
+    {
+     "type": "text_link",
+     "text": "Wiki",
+     "href": "https://crdroid.net/surya/12/install"
+    },
+    {
+     "type": "plain",
+     "text": "\n\n"
+    },
+    {
+     "type": "bold",
+     "text": "Released"
+    },
+    {
+     "type": "plain",
+     "text": ": June 10\n"
+    },
+    {
+     "type": "mention",
+     "text": "@Smartphone_Official"
+    },
+    {
+     "type": "plain",
+     "text": " | "
+    },
+    {
+     "type": "mention",
+     "text": "@SmartphoneDiscussions"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 2,
+      "emoji": "🔥"
+     }
+    ]
+  },
+  {
+   "id": 5434,
+   "type": "message",
+   "date": "2026-06-23T04:59:39",
+   "date_unixtime": "1782201579",
+   "edited": "2026-06-23T04:59:42",
+   "edited_unixtime": "1782201582",
+   "from": "SMARPHONE | UPDATES",
+   "from_id": "channel5532444444",
+   "author": "Mobin",
+   "file": "stickers/AnimatedSticker.tgs",
+   "file_name": "AnimatedSticker.tgs",
+   "file_size": 7449,
+   "thumbnail": "stickers/AnimatedSticker.tgs_thumb.jpg",
+   "thumbnail_file_size": 2610,
+   "media_type": "sticker",
+   "sticker_emoji": "❤️",
+   "mime_type": "application/x-tgsticker",
+   "width": 512,
+   "height": 512,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 5435,
+   "type": "message",
+   "date": "2026-06-23T04:59:39",
+   "date_unixtime": "1782201579",
+   "edited": "2026-06-23T06:51:55",
+   "edited_unixtime": "1782208315",
+   "from": "SMARPHONE | UPDATES",
+   "from_id": "channel5532444444",
+   "author": "Mobin",
+   "photo": "photos/photo_2295@23-06-2026_04-59-39.jpg",
+   "photo_file_size": 48085,
+   "width": 1280,
+   "height": 720,
+   "text": [
+    {
+     "type": "hashtag",
+     "text": "#AlphaDroid"
+    },
+    " ",
+    {
+     "type": "hashtag",
+     "text": "#Rom"
+    },
+    " ",
+    {
+     "type": "hashtag",
+     "text": "#Official"
+    },
+    " ",
+    {
+     "type": "hashtag",
+     "text": "#Surya"
+    },
+    "\n",
+    {
+     "type": "bold",
+     "text": "AlphaDroid 4.5 | Android 16.\nBy"
+    },
+    " ",
+    {
+     "type": "mention",
+     "text": "@braindead55"
+    },
+    " \n\n×| ",
+    {
+     "type": "text_link",
+     "text": "Download",
+     "href": "https://sourceforge.net/projects/alphadroid-project/files/surya"
+    },
+    " \n×| ",
+    {
+     "type": "text_link",
+     "text": "Support",
+     "href": "https://t.me/BrainCellSG"
+    },
+    "\n×| Changelog: ",
+    {
+     "type": "text_link",
+     "text": "Source",
+     "href": "https://t.me/alphadroid_chat/82751"
+    },
+    " | ",
+    {
+     "type": "text_link",
+     "text": "Device",
+     "href": "https://raw.githubusercontent.com/AlphaDroid-devices/OTA/alpha-16.2/changelog_surya.txt"
+    },
+    "\n\n",
+    {
+     "type": "bold",
+     "text": "Released"
+    },
+    ": June 10\n",
+    {
+     "type": "mention",
+     "text": "@Smartphone_Official"
+    },
+    " | ",
+    {
+     "type": "mention",
+     "text": "@SmartphoneDiscussions"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "hashtag",
+     "text": "#AlphaDroid"
+    },
+    {
+     "type": "plain",
+     "text": " "
+    },
+    {
+     "type": "hashtag",
+     "text": "#Rom"
+    },
+    {
+     "type": "plain",
+     "text": " "
+    },
+    {
+     "type": "hashtag",
+     "text": "#Official"
+    },
+    {
+     "type": "plain",
+     "text": " "
+    },
+    {
+     "type": "hashtag",
+     "text": "#Surya"
+    },
+    {
+     "type": "plain",
+     "text": "\n"
+    },
+    {
+     "type": "bold",
+     "text": "AlphaDroid 4.5 | Android 16.\nBy"
+    },
+    {
+     "type": "plain",
+     "text": " "
+    },
+    {
+     "type": "mention",
+     "text": "@braindead55"
+    },
+    {
+     "type": "plain",
+     "text": " \n\n×| "
+    },
+    {
+     "type": "text_link",
+     "text": "Download",
+     "href": "https://sourceforge.net/projects/alphadroid-project/files/surya"
+    },
+    {
+     "type": "plain",
+     "text": " \n×| "
+    },
+    {
+     "type": "text_link",
+     "text": "Support",
+     "href": "https://t.me/BrainCellSG"
+    },
+    {
+     "type": "plain",
+     "text": "\n×| Changelog: "
+    },
+    {
+     "type": "text_link",
+     "text": "Source",
+     "href": "https://t.me/alphadroid_chat/82751"
+    },
+    {
+     "type": "plain",
+     "text": " | "
+    },
+    {
+     "type": "text_link",
+     "text": "Device",
+     "href": "https://raw.githubusercontent.com/AlphaDroid-devices/OTA/alpha-16.2/changelog_surya.txt"
+    },
+    {
+     "type": "plain",
+     "text": "\n\n"
+    },
+    {
+     "type": "bold",
+     "text": "Released"
+    },
+    {
+     "type": "plain",
+     "text": ": June 10\n"
+    },
+    {
+     "type": "mention",
+     "text": "@Smartphone_Official"
+    },
+    {
+     "type": "plain",
+     "text": " | "
+    },
+    {
+     "type": "mention",
+     "text": "@SmartphoneDiscussions"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 2,
+      "emoji": "🔥"
+     }
+    ]
+  },
+  {
+   "id": 5436,
+   "type": "message",
+   "date": "2026-06-23T05:02:02",
+   "date_unixtime": "1782201722",
+   "edited": "2026-06-23T05:02:05",
+   "edited_unixtime": "1782201725",
+   "from": "SMARPHONE | UPDATES",
+   "from_id": "channel5532444444",
+   "author": "Mobin",
+   "file": "stickers/AnimatedSticker.tgs",
+   "file_name": "AnimatedSticker.tgs",
+   "file_size": 7449,
+   "thumbnail": "stickers/AnimatedSticker.tgs_thumb.jpg",
+   "thumbnail_file_size": 2610,
+   "media_type": "sticker",
+   "sticker_emoji": "❤️",
+   "mime_type": "application/x-tgsticker",
+   "width": 512,
+   "height": 512,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 5437,
+   "type": "message",
+   "date": "2026-06-23T05:02:02",
+   "date_unixtime": "1782201722",
+   "edited": "2026-06-23T06:51:59",
+   "edited_unixtime": "1782208319",
+   "from": "SMARPHONE | UPDATES",
+   "from_id": "channel5532444444",
+   "author": "Mobin",
+   "photo": "photos/photo_2296@23-06-2026_05-02-02.jpg",
+   "photo_file_size": 91191,
+   "width": 1280,
+   "height": 721,
+   "text": [
+    {
+     "type": "hashtag",
+     "text": "#AxionOS"
+    },
+    " ",
+    {
+     "type": "hashtag",
+     "text": "#Rom"
+    },
+    " ",
+    {
+     "type": "hashtag",
+     "text": "#Official"
+    },
+    " ",
+    {
+     "type": "hashtag",
+     "text": "#Surya"
+    },
+    "\n",
+    {
+     "type": "bold",
+     "text": "AxionAOSP v2.7 | Android 16.\nBy"
+    },
+    " ",
+    {
+     "type": "mention",
+     "text": "@kardebayan"
+    },
+    "\n\n×| ",
+    {
+     "type": "text_link",
+     "text": "Download",
+     "href": "https://cdn.axionos.org/surya/axion-2.7-PROXIMA_BETA-20260609-OFFICIAL-GMS-surya.zip"
+    },
+    "\n×| ",
+    {
+     "type": "text_link",
+     "text": "Flash guide ",
+     "href": "https://github.com/AxionAOSP/official_devices/blob/main/Wiki/surya.md"
+    },
+    "\n×| Changelog: ",
+    {
+     "type": "text_link",
+     "text": "Source",
+     "href": "https://github.com/AxionAOSP/axion_changelogs"
+    },
+    " | ",
+    {
+     "type": "text_link",
+     "text": "Device",
+     "href": "https://github.com/AxionAOSP/official_devices/blob/main/OTA/CHANGELOG/surya.txt"
+    },
+    "\n\n",
+    {
+     "type": "bold",
+     "text": "Released"
+    },
+    ": June 13\n",
+    {
+     "type": "mention",
+     "text": "@Smartphone_Official"
+    },
+    " | ",
+    {
+     "type": "mention",
+     "text": "@SmartphoneDiscussions"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "hashtag",
+     "text": "#AxionOS"
+    },
+    {
+     "type": "plain",
+     "text": " "
+    },
+    {
+     "type": "hashtag",
+     "text": "#Rom"
+    },
+    {
+     "type": "plain",
+     "text": " "
+    },
+    {
+     "type": "hashtag",
+     "text": "#Official"
+    },
+    {
+     "type": "plain",
+     "text": " "
+    },
+    {
+     "type": "hashtag",
+     "text": "#Surya"
+    },
+    {
+     "type": "plain",
+     "text": "\n"
+    },
+    {
+     "type": "bold",
+     "text": "AxionAOSP v2.7 | Android 16.\nBy"
+    },
+    {
+     "type": "plain",
+     "text": " "
+    },
+    {
+     "type": "mention",
+     "text": "@kardebayan"
+    },
+    {
+     "type": "plain",
+     "text": "\n\n×| "
+    },
+    {
+     "type": "text_link",
+     "text": "Download",
+     "href": "https://cdn.axionos.org/surya/axion-2.7-PROXIMA_BETA-20260609-OFFICIAL-GMS-surya.zip"
+    },
+    {
+     "type": "plain",
+     "text": "\n×| "
+    },
+    {
+     "type": "text_link",
+     "text": "Flash guide ",
+     "href": "https://github.com/AxionAOSP/official_devices/blob/main/Wiki/surya.md"
+    },
+    {
+     "type": "plain",
+     "text": "\n×| Changelog: "
+    },
+    {
+     "type": "text_link",
+     "text": "Source",
+     "href": "https://github.com/AxionAOSP/axion_changelogs"
+    },
+    {
+     "type": "plain",
+     "text": " | "
+    },
+    {
+     "type": "text_link",
+     "text": "Device",
+     "href": "https://github.com/AxionAOSP/official_devices/blob/main/OTA/CHANGELOG/surya.txt"
+    },
+    {
+     "type": "plain",
+     "text": "\n\n"
+    },
+    {
+     "type": "bold",
+     "text": "Released"
+    },
+    {
+     "type": "plain",
+     "text": ": June 13\n"
+    },
+    {
+     "type": "mention",
+     "text": "@Smartphone_Official"
+    },
+    {
+     "type": "plain",
+     "text": " | "
+    },
+    {
+     "type": "mention",
+     "text": "@SmartphoneDiscussions"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 6,
+      "emoji": "🔥"
+     }
+    ]
+  },
+  {
+   "id": 5438,
+   "type": "message",
+   "date": "2026-06-23T05:05:26",
+   "date_unixtime": "1782201926",
+   "edited": "2026-06-23T05:05:30",
+   "edited_unixtime": "1782201930",
+   "from": "SMARPHONE | UPDATES",
+   "from_id": "channel5532444444",
+   "author": "Mobin",
+   "file": "stickers/AnimatedSticker.tgs",
+   "file_name": "AnimatedSticker.tgs",
+   "file_size": 7449,
+   "thumbnail": "stickers/AnimatedSticker.tgs_thumb.jpg",
+   "thumbnail_file_size": 2610,
+   "media_type": "sticker",
+   "sticker_emoji": "❤️",
+   "mime_type": "application/x-tgsticker",
+   "width": 512,
+   "height": 512,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 5439,
+   "type": "message",
+   "date": "2026-06-23T05:05:27",
+   "date_unixtime": "1782201927",
+   "edited": "2026-06-23T06:52:06",
+   "edited_unixtime": "1782208326",
+   "from": "SMARPHONE | UPDATES",
+   "from_id": "channel5532444444",
+   "author": "Mobin",
+   "photo": "photos/photo_2297@23-06-2026_05-05-27.jpg",
+   "photo_file_size": 128878,
+   "width": 1280,
+   "height": 640,
+   "text": [
+    {
+     "type": "hashtag",
+     "text": "#Recovery"
+    },
+    " ",
+    {
+     "type": "hashtag",
+     "text": "#Unofficial"
+    },
+    " ",
+    {
+     "type": "hashtag",
+     "text": "#Ofox"
+    },
+    " ",
+    {
+     "type": "hashtag",
+     "text": "#Surya"
+    },
+    " \n",
+    {
+     "type": "bold",
+     "text": "OrangeFox Recovery 12.0 | Android 16.\nBy"
+    },
+    " ",
+    {
+     "type": "mention",
+     "text": "@IBoreasI"
+    },
+    "\n\n×| ",
+    {
+     "type": "text_link",
+     "text": "Download",
+     "href": "https://github.com/QCerberusQ/android_device_xiaomi_surya_twrp/releases/tag/R12_0"
+    },
+    " \n×| ",
+    {
+     "type": "text_link",
+     "text": "Screenshots",
+     "href": "https://t.me/Smartphone_Chat/305405?single"
+    },
+    "\n\n",
+    {
+     "type": "bold",
+     "text": "Notes"
+    },
+    ":\n• Based on the brigudav repository, various improvements and fixes have been made.\n\n",
+    {
+     "type": "bold",
+     "text": "Released"
+    },
+    ": June 14\n",
+    {
+     "type": "mention",
+     "text": "@Smartphone_Official"
+    },
+    " | ",
+    {
+     "type": "mention",
+     "text": "@SmartphoneDiscussions"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "hashtag",
+     "text": "#Recovery"
+    },
+    {
+     "type": "plain",
+     "text": " "
+    },
+    {
+     "type": "hashtag",
+     "text": "#Unofficial"
+    },
+    {
+     "type": "plain",
+     "text": " "
+    },
+    {
+     "type": "hashtag",
+     "text": "#Ofox"
+    },
+    {
+     "type": "plain",
+     "text": " "
+    },
+    {
+     "type": "hashtag",
+     "text": "#Surya"
+    },
+    {
+     "type": "plain",
+     "text": " \n"
+    },
+    {
+     "type": "bold",
+     "text": "OrangeFox Recovery 12.0 | Android 16.\nBy"
+    },
+    {
+     "type": "plain",
+     "text": " "
+    },
+    {
+     "type": "mention",
+     "text": "@IBoreasI"
+    },
+    {
+     "type": "plain",
+     "text": "\n\n×| "
+    },
+    {
+     "type": "text_link",
+     "text": "Download",
+     "href": "https://github.com/QCerberusQ/android_device_xiaomi_surya_twrp/releases/tag/R12_0"
+    },
+    {
+     "type": "plain",
+     "text": " \n×| "
+    },
+    {
+     "type": "text_link",
+     "text": "Screenshots",
+     "href": "https://t.me/Smartphone_Chat/305405?single"
+    },
+    {
+     "type": "plain",
+     "text": "\n\n"
+    },
+    {
+     "type": "bold",
+     "text": "Notes"
+    },
+    {
+     "type": "plain",
+     "text": ":\n• Based on the brigudav repository, various improvements and fixes have been made.\n\n"
+    },
+    {
+     "type": "bold",
+     "text": "Released"
+    },
+    {
+     "type": "plain",
+     "text": ": June 14\n"
+    },
+    {
+     "type": "mention",
+     "text": "@Smartphone_Official"
+    },
+    {
+     "type": "plain",
+     "text": " | "
+    },
+    {
+     "type": "mention",
+     "text": "@SmartphoneDiscussions"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 4,
+      "emoji": "🔥"
+     },
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "❤‍🔥"
+     }
+    ]
+  },
+  {
+   "id": 5440,
+   "type": "message",
+   "date": "2026-06-23T05:07:32",
+   "date_unixtime": "1782202052",
+   "edited": "2026-06-23T05:07:35",
+   "edited_unixtime": "1782202055",
+   "from": "SMARPHONE | UPDATES",
+   "from_id": "channel5532444444",
+   "author": "Mobin",
+   "file": "stickers/AnimatedSticker.tgs",
+   "file_name": "AnimatedSticker.tgs",
+   "file_size": 7449,
+   "thumbnail": "stickers/AnimatedSticker.tgs_thumb.jpg",
+   "thumbnail_file_size": 2610,
+   "media_type": "sticker",
+   "sticker_emoji": "❤️",
+   "mime_type": "application/x-tgsticker",
+   "width": 512,
+   "height": 512,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 5441,
+   "type": "message",
+   "date": "2026-06-23T05:07:32",
+   "date_unixtime": "1782202052",
+   "edited": "2026-06-23T06:52:08",
+   "edited_unixtime": "1782208328",
+   "from": "SMARPHONE | UPDATES",
+   "from_id": "channel5532444444",
+   "author": "Mobin",
+   "photo": "photos/photo_2298@23-06-2026_05-07-32.jpg",
+   "photo_file_size": 85211,
+   "width": 1280,
+   "height": 524,
+   "text": [
+    {
+     "type": "hashtag",
+     "text": "#PixelOS"
+    },
+    " ",
+    {
+     "type": "hashtag",
+     "text": "#Rom"
+    },
+    " ",
+    {
+     "type": "hashtag",
+     "text": "#Official"
+    },
+    " ",
+    {
+     "type": "hashtag",
+     "text": "#Surya"
+    },
+    "\n",
+    {
+     "type": "bold",
+     "text": "PixelOS 16.2 | Android 16.\nBy"
+    },
+    " ",
+    {
+     "type": "mention",
+     "text": "@DebayanKar"
+    },
+    "\n\n×| ",
+    {
+     "type": "text_link",
+     "text": "Download",
+     "href": "https://pixelos.net/download/surya"
+    },
+    " \n×| ",
+    {
+     "type": "text_link",
+     "text": "Support",
+     "href": "https://t.me/pixelossurya"
+    },
+    " \n\n",
+    {
+     "type": "bold",
+     "text": "Released"
+    },
+    ": June 21\n",
+    {
+     "type": "mention",
+     "text": "@Smartphone_Official"
+    },
+    " | ",
+    {
+     "type": "mention",
+     "text": "@SmartphoneDiscussions"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "hashtag",
+     "text": "#PixelOS"
+    },
+    {
+     "type": "plain",
+     "text": " "
+    },
+    {
+     "type": "hashtag",
+     "text": "#Rom"
+    },
+    {
+     "type": "plain",
+     "text": " "
+    },
+    {
+     "type": "hashtag",
+     "text": "#Official"
+    },
+    {
+     "type": "plain",
+     "text": " "
+    },
+    {
+     "type": "hashtag",
+     "text": "#Surya"
+    },
+    {
+     "type": "plain",
+     "text": "\n"
+    },
+    {
+     "type": "bold",
+     "text": "PixelOS 16.2 | Android 16.\nBy"
+    },
+    {
+     "type": "plain",
+     "text": " "
+    },
+    {
+     "type": "mention",
+     "text": "@DebayanKar"
+    },
+    {
+     "type": "plain",
+     "text": "\n\n×| "
+    },
+    {
+     "type": "text_link",
+     "text": "Download",
+     "href": "https://pixelos.net/download/surya"
+    },
+    {
+     "type": "plain",
+     "text": " \n×| "
+    },
+    {
+     "type": "text_link",
+     "text": "Support",
+     "href": "https://t.me/pixelossurya"
+    },
+    {
+     "type": "plain",
+     "text": " \n\n"
+    },
+    {
+     "type": "bold",
+     "text": "Released"
+    },
+    {
+     "type": "plain",
+     "text": ": June 21\n"
+    },
+    {
+     "type": "mention",
+     "text": "@Smartphone_Official"
+    },
+    {
+     "type": "plain",
+     "text": " | "
+    },
+    {
+     "type": "mention",
+     "text": "@SmartphoneDiscussions"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 8,
+      "emoji": "🔥"
+     },
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "🍓"
+     }
+    ]
+  },
+  {
+   "id": 5442,
+   "type": "message",
+   "date": "2026-06-24T00:20:02",
+   "date_unixtime": "1782271202",
+   "edited": "2026-06-24T00:23:12",
+   "edited_unixtime": "1782271392",
+   "from": "SMARPHONE | UPDATES",
+   "from_id": "channel5532444444",
+   "author": "Mobin",
+   "file": "stickers/AnimatedSticker.tgs",
+   "file_name": "AnimatedSticker.tgs",
+   "file_size": 7449,
+   "thumbnail": "stickers/AnimatedSticker.tgs_thumb.jpg",
+   "thumbnail_file_size": 2610,
+   "media_type": "sticker",
+   "sticker_emoji": "❤️",
+   "mime_type": "application/x-tgsticker",
+   "width": 512,
+   "height": 512,
+   "text": "",
+   "text_entities": [],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "🤯"
+     }
+    ]
+  },
+  {
+   "id": 5443,
+   "type": "message",
+   "date": "2026-06-24T00:25:34",
+   "date_unixtime": "1782271534",
+   "edited": "2026-06-24T01:11:14",
+   "edited_unixtime": "1782274274",
+   "from": "SMARPHONE | UPDATES",
+   "from_id": "channel5532444444",
+   "author": "Mobin",
+   "text": [
+    {
+     "type": "hashtag",
+     "text": "#Archive"
+    },
+    " ",
+    {
+     "type": "hashtag",
+     "text": "#Surya"
+    },
+    " \nProbably this is the biggest archive channel of custom roms for Smart phone\n",
+    {
+     "type": "mention",
+     "text": "@host_surya"
+    },
+    " \n\n    my friend Reza, mirrored those memorable stuffs in telegram from December 2020 till October 2023, ",
+    {
+     "type": "bold",
+     "text": "2434 Files!"
+    },
+    "\n    sometimes i miss those OLD roms and ports(Android 10-13), btw i decided to introduce and make public. if download links was dead, maybe you can find there."
+   ],
+   "text_entities": [
+    {
+     "type": "hashtag",
+     "text": "#Archive"
+    },
+    {
+     "type": "plain",
+     "text": " "
+    },
+    {
+     "type": "hashtag",
+     "text": "#Surya"
+    },
+    {
+     "type": "plain",
+     "text": " \nProbably this is the biggest archive channel of custom roms for Smart phone\n"
+    },
+    {
+     "type": "mention",
+     "text": "@host_surya"
+    },
+    {
+     "type": "plain",
+     "text": " \n\n    my friend Reza, mirrored those memorable stuffs in telegram from December 2020 till October 2023, "
+    },
+    {
+     "type": "bold",
+     "text": "2434 Files!"
+    },
+    {
+     "type": "plain",
+     "text": "\n    sometimes i miss those OLD roms and ports(Android 10-13), btw i decided to introduce and make public. if download links was dead, maybe you can find there."
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 28,
+      "emoji": "❤‍🔥"
+     },
+     {
+      "type": "emoji",
+      "count": 2,
+      "emoji": "🔥"
+     },
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "👍"
+     },
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "🐳"
+     }
+    ]
+  },
+  {
+   "id": 5445,
+   "type": "message",
+   "date": "2026-06-24T00:36:25",
+   "date_unixtime": "1782272185",
+   "edited": "2026-06-24T00:40:23",
+   "edited_unixtime": "1782272423",
+   "from": "SMARPHONE | UPDATES",
+   "from_id": "channel5532444444",
+   "author": "Mobin",
+   "text": [
+    "also thanks to Arsalan for continuing this from 2022 and his channel is still alive\n",
+    {
+     "type": "mention",
+     "text": "@suryarom"
+    },
+    "\nyou can find archives from 2022 till now."
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "also thanks to Arsalan for continuing this from 2022 and his channel is still alive\n"
+    },
+    {
+     "type": "mention",
+     "text": "@suryarom"
+    },
+    {
+     "type": "plain",
+     "text": "\nyou can find archives from 2022 till now."
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 18,
+      "emoji": "⚡"
+     },
+     {
+      "type": "emoji",
+      "count": 4,
+      "emoji": "❤‍🔥"
+     },
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "🍓"
+     }
+    ]
+  },
+  {
+   "id": 5446,
+   "type": "message",
+   "date": "2026-07-13T17:05:03",
+   "date_unixtime": "1783973103",
+   "edited": "2026-07-17T19:25:10",
+   "edited_unixtime": "1784327110",
+   "from": "SMARPHONE | UPDATES",
+   "from_id": "channel5532444444",
+   "author": "Mobin",
+   "file": "stickers/AnimatedSticker.tgs",
+   "file_name": "AnimatedSticker.tgs",
+   "file_size": 7449,
+   "thumbnail": "stickers/AnimatedSticker.tgs_thumb.jpg",
+   "thumbnail_file_size": 2610,
+   "media_type": "sticker",
+   "sticker_emoji": "❤️",
+   "mime_type": "application/x-tgsticker",
+   "width": 512,
+   "height": 512,
+   "text": "",
+   "text_entities": [],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "☃"
+     }
+    ]
+  },
+  {
+   "id": 5447,
+   "type": "message",
+   "date": "2026-07-13T17:05:03",
+   "date_unixtime": "1783973103",
+   "edited": "2026-07-13T17:07:18",
+   "edited_unixtime": "1783973238",
+   "from": "SMARPHONE | UPDATES",
+   "from_id": "channel5532444444",
+   "author": "Mobin",
+   "photo": "photos/photo_2299@13-07-2026_17-05-03.jpg",
+   "photo_file_size": 113157,
+   "width": 1280,
+   "height": 721,
+   "text": [
+    {
+     "type": "hashtag",
+     "text": "#InfinityX"
+    },
+    " ",
+    {
+     "type": "hashtag",
+     "text": "#Rom"
+    },
+    " ",
+    {
+     "type": "hashtag",
+     "text": "#Official"
+    },
+    " ",
+    {
+     "type": "hashtag",
+     "text": "#Surya"
+    },
+    "\n",
+    {
+     "type": "bold",
+     "text": "Project Infinity X v3.12 | Android 16.\nBy "
+    },
+    "Muichiro Tokito\n\n×| ",
+    {
+     "type": "text_link",
+     "text": "Download",
+     "href": "https://projectinfinity-x.com/downloads/surya"
+    },
+    " \n×| Changelog: ",
+    {
+     "type": "text_link",
+     "text": "Device",
+     "href": "https://raw.githubusercontent.com/ProjectInfinity-X/official_devices/refs/heads/16/changelog/surya.txt"
+    },
+    " | ",
+    {
+     "type": "text_link",
+     "text": "Source",
+     "href": "https://t.me/ProjectInfinityX/1886"
+    },
+    "\n×| ",
+    {
+     "type": "text_link",
+     "text": "Flash guide",
+     "href": "https://raw.githubusercontent.com/ProjectInfinity-X/official_devices/refs/heads/16/flashguide/surya.txt"
+    },
+    "\n\n",
+    {
+     "type": "bold",
+     "text": "Released"
+    },
+    ": July 8\n",
+    {
+     "type": "mention",
+     "text": "@Smartphone_Official"
+    },
+    " | ",
+    {
+     "type": "mention",
+     "text": "@SmartphoneDiscussions"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "hashtag",
+     "text": "#InfinityX"
+    },
+    {
+     "type": "plain",
+     "text": " "
+    },
+    {
+     "type": "hashtag",
+     "text": "#Rom"
+    },
+    {
+     "type": "plain",
+     "text": " "
+    },
+    {
+     "type": "hashtag",
+     "text": "#Official"
+    },
+    {
+     "type": "plain",
+     "text": " "
+    },
+    {
+     "type": "hashtag",
+     "text": "#Surya"
+    },
+    {
+     "type": "plain",
+     "text": "\n"
+    },
+    {
+     "type": "bold",
+     "text": "Project Infinity X v3.12 | Android 16.\nBy "
+    },
+    {
+     "type": "plain",
+     "text": "Muichiro Tokito\n\n×| "
+    },
+    {
+     "type": "text_link",
+     "text": "Download",
+     "href": "https://projectinfinity-x.com/downloads/surya"
+    },
+    {
+     "type": "plain",
+     "text": " \n×| Changelog: "
+    },
+    {
+     "type": "text_link",
+     "text": "Device",
+     "href": "https://raw.githubusercontent.com/ProjectInfinity-X/official_devices/refs/heads/16/changelog/surya.txt"
+    },
+    {
+     "type": "plain",
+     "text": " | "
+    },
+    {
+     "type": "text_link",
+     "text": "Source",
+     "href": "https://t.me/ProjectInfinityX/1886"
+    },
+    {
+     "type": "plain",
+     "text": "\n×| "
+    },
+    {
+     "type": "text_link",
+     "text": "Flash guide",
+     "href": "https://raw.githubusercontent.com/ProjectInfinity-X/official_devices/refs/heads/16/flashguide/surya.txt"
+    },
+    {
+     "type": "plain",
+     "text": "\n\n"
+    },
+    {
+     "type": "bold",
+     "text": "Released"
+    },
+    {
+     "type": "plain",
+     "text": ": July 8\n"
+    },
+    {
+     "type": "mention",
+     "text": "@Smartphone_Official"
+    },
+    {
+     "type": "plain",
+     "text": " | "
+    },
+    {
+     "type": "mention",
+     "text": "@SmartphoneDiscussions"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 7,
+      "emoji": "⚡"
+     },
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "❤‍🔥"
+     },
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "☃"
+     }
+    ]
+  },
+  {
+   "id": 5448,
+   "type": "message",
+   "date": "2026-07-13T17:09:54",
+   "date_unixtime": "1783973394",
+   "edited": "2026-07-13T17:09:57",
+   "edited_unixtime": "1783973397",
+   "from": "SMARPHONE | UPDATES",
+   "from_id": "channel5532444444",
+   "author": "Mobin",
+   "file": "stickers/AnimatedSticker.tgs",
+   "file_name": "AnimatedSticker.tgs",
+   "file_size": 7449,
+   "thumbnail": "stickers/AnimatedSticker.tgs_thumb.jpg",
+   "thumbnail_file_size": 2610,
+   "media_type": "sticker",
+   "sticker_emoji": "❤️",
+   "mime_type": "application/x-tgsticker",
+   "width": 512,
+   "height": 512,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 5449,
+   "type": "message",
+   "date": "2026-07-13T17:09:54",
+   "date_unixtime": "1783973394",
+   "edited": "2026-07-13T17:15:16",
+   "edited_unixtime": "1783973716",
+   "from": "SMARPHONE | UPDATES",
+   "from_id": "channel5532444444",
+   "author": "Mobin",
+   "photo": "photos/photo_2300@13-07-2026_17-09-54.jpg",
+   "photo_file_size": 41628,
+   "width": 1280,
+   "height": 675,
+   "text": [
+    {
+     "type": "hashtag",
+     "text": "#VoltageOS"
+    },
+    " ",
+    {
+     "type": "hashtag",
+     "text": "#Rom"
+    },
+    " ",
+    {
+     "type": "hashtag",
+     "text": "#Unofficial"
+    },
+    " ",
+    {
+     "type": "hashtag",
+     "text": "#Surya"
+    },
+    " \n",
+    {
+     "type": "bold",
+     "text": "VoltageOS 5.11 EOL | Android 16.\nBy"
+    },
+    " Muichiro Tokito\n\n×| ",
+    {
+     "type": "text_link",
+     "text": "Download",
+     "href": "https://gofile.io/d/u8j5EJ"
+    },
+    "\n×| ",
+    {
+     "type": "text_link",
+     "text": "Recovery",
+     "href": "https://t.me/muirecovery/5"
+    },
+    " \n×| ",
+    {
+     "type": "text_link",
+     "text": "Screenshots",
+     "href": "https://t.me/muichirobuilds/188"
+    },
+    "\n\n",
+    {
+     "type": "bold",
+     "text": "Notes"
+    },
+    ":\n• Use Latest Firmware\n• Use MindTheGApps\n• Dolby & Leica included\n• Misc Changes and improvements\n\n",
+    {
+     "type": "bold",
+     "text": "Released"
+    },
+    ": July 8\n",
+    {
+     "type": "mention",
+     "text": "@Smartphone_Official"
+    },
+    " | ",
+    {
+     "type": "mention",
+     "text": "@SmartphoneDiscussions"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "hashtag",
+     "text": "#VoltageOS"
+    },
+    {
+     "type": "plain",
+     "text": " "
+    },
+    {
+     "type": "hashtag",
+     "text": "#Rom"
+    },
+    {
+     "type": "plain",
+     "text": " "
+    },
+    {
+     "type": "hashtag",
+     "text": "#Unofficial"
+    },
+    {
+     "type": "plain",
+     "text": " "
+    },
+    {
+     "type": "hashtag",
+     "text": "#Surya"
+    },
+    {
+     "type": "plain",
+     "text": " \n"
+    },
+    {
+     "type": "bold",
+     "text": "VoltageOS 5.11 EOL | Android 16.\nBy"
+    },
+    {
+     "type": "plain",
+     "text": " Muichiro Tokito\n\n×| "
+    },
+    {
+     "type": "text_link",
+     "text": "Download",
+     "href": "https://gofile.io/d/u8j5EJ"
+    },
+    {
+     "type": "plain",
+     "text": "\n×| "
+    },
+    {
+     "type": "text_link",
+     "text": "Recovery",
+     "href": "https://t.me/muirecovery/5"
+    },
+    {
+     "type": "plain",
+     "text": " \n×| "
+    },
+    {
+     "type": "text_link",
+     "text": "Screenshots",
+     "href": "https://t.me/muichirobuilds/188"
+    },
+    {
+     "type": "plain",
+     "text": "\n\n"
+    },
+    {
+     "type": "bold",
+     "text": "Notes"
+    },
+    {
+     "type": "plain",
+     "text": ":\n• Use Latest Firmware\n• Use MindTheGApps\n• Dolby & Leica included\n• Misc Changes and improvements\n\n"
+    },
+    {
+     "type": "bold",
+     "text": "Released"
+    },
+    {
+     "type": "plain",
+     "text": ": July 8\n"
+    },
+    {
+     "type": "mention",
+     "text": "@Smartphone_Official"
+    },
+    {
+     "type": "plain",
+     "text": " | "
+    },
+    {
+     "type": "mention",
+     "text": "@SmartphoneDiscussions"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 8,
+      "emoji": "⚡"
+     },
+     {
+      "type": "emoji",
+      "count": 3,
+      "emoji": "🍓"
+     },
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "👍"
+     }
+    ]
+  }
+ ]
+}

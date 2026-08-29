@@ -1,0 +1,144 @@
+{
+ "name": "Public Global Group",
+ "type": "public_supergroup",
+ "id": 5734626222,
+ "messages": [
+  {
+   "id": 22669,
+   "type": "message",
+   "date": "2026-08-04T11:30:31",
+   "date_unixtime": "1785853831",
+   "edited": "2026-08-04T11:30:46",
+   "edited_unixtime": "1785853846",
+   "from": "S F",
+   "from_id": "user100000000",
+   "text": "How do I figure out if the sync for HA did actually work? When does it get triggered to be synced? Especially if you sync the users and groups? Does it sync the auth backend configs as well?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "How do I figure out if the sync for HA did actually work? When does it get triggered to be synced? Especially if you sync the users and groups? Does it sync the auth backend configs as well?"
+    }
+   ]
+  },
+  {
+   "id": 22670,
+   "type": "message",
+   "date": "2026-08-04T11:47:55",
+   "date_unixtime": "1785854875",
+   "from": "Abolfazl",
+   "from_id": "user2222222222",
+   "reply_to_message_id": 22669,
+   "text": "you can figure that out via configuring an alias or firewall rule for example and then checking your backup (s-la-ve) firewall to see if that contains it as well or not, if it does then it works, if it doesn't it has not worked",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "you can figure that out via configuring an alias or firewall rule for example and then checking your backup (s-la-ve) firewall to see if that contains it as well or not, if it does then it works, if it doesn't it has not worked"
+    }
+   ]
+  },
+  {
+   "id": 22671,
+   "type": "message",
+   "date": "2026-08-04T11:51:08",
+   "date_unixtime": "1785855068",
+   "from": "Abolfazl",
+   "from_id": "user2222222222",
+   "text": "about users and groups, do you mean users and groups from pfsense itself or have you installed the freeradius package and you mean that? for everything outside of packages, i'm 100 percent sure that the sync works, for packages i'm not quite sure currently but they should work as well, i have not worked with freeradius package myself and use other AAA options outside of pfsense but have used the snort package and its configuration can be synced but it's per package, like snort has a configuration for it in the pages it adds when you install its package",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "about users and groups, do you mean users and groups from pfsense itself or have you installed the freeradius package and you mean that? for everything outside of packages, i'm 100 percent sure that the sync works, for packages i'm not quite sure currently but they should work as well, i have not worked with freeradius package myself and use other AAA options outside of pfsense but have used the snort package and its configuration can be synced but it's per package, like snort has a configuration for it in the pages it adds when you install its package"
+    }
+   ]
+  },
+  {
+   "id": 22674,
+   "type": "message",
+   "date": "2026-08-04T12:06:03",
+   "date_unixtime": "1785855963",
+   "edited": "2026-08-04T12:06:11",
+   "edited_unixtime": "1785855971",
+   "from": "S F",
+   "from_id": "user100000000",
+   "reply_to_message_id": 22671,
+   "photo": "photos/photo_924@04-08-2026_12-06-03.jpg",
+   "photo_file_size": 8086,
+   "width": 559,
+   "height": 138,
+   "text": "I'm talking about these settings:",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "I'm talking about these settings:"
+    }
+   ]
+  },
+  {
+   "id": 22675,
+   "type": "message",
+   "date": "2026-08-04T12:07:36",
+   "date_unixtime": "1785856056",
+   "from": "Abolfazl",
+   "from_id": "user2222222222",
+   "reply_to_message_id": 22674,
+   "text": "should transfer",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "should transfer"
+    }
+   ]
+  },
+  {
+   "id": 22676,
+   "type": "message",
+   "date": "2026-08-04T12:07:48",
+   "date_unixtime": "1785856068",
+   "from": "Abolfazl",
+   "from_id": "user2222222222",
+   "text": "while HA and xmlrpc sync is active",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "while HA and xmlrpc sync is active"
+    }
+   ]
+  },
+  {
+   "id": 22677,
+   "type": "message",
+   "date": "2026-08-04T12:10:48",
+   "date_unixtime": "1785856248",
+   "edited": "2026-08-04T12:11:22",
+   "edited_unixtime": "1785856282",
+   "from": "S F",
+   "from_id": "user100000000",
+   "text": "Thank you. Including the Settings and Authentication Servers?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Thank you. Including the Settings and Authentication Servers?"
+    }
+   ]
+  },
+  {
+   "id": 22679,
+   "type": "message",
+   "date": "2026-08-07T07:51:12",
+   "date_unixtime": "1786099872",
+   "from": "Grigory",
+   "from_id": "user166666666",
+   "photo": "photos/photo_925@07-08-2026_07-51-12.jpg",
+   "photo_file_size": 49344,
+   "width": 1036,
+   "height": 305,
+   "text": "Hi everyone!I'm having an issue with an IPsec tunnel between two pfSense boxes. The tunnel stays up for about 5 minutes and then drops and reconnects.The settings on both sides are identical and left at their defaults (encryption algorithms, lifetimes, etc.). Could anyone suggest which settings I should look into? I'm sure someone has run into this before.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hi everyone!I'm having an issue with an IPsec tunnel between two pfSense boxes. The tunnel stays up for about 5 minutes and then drops and reconnects.The settings on both sides are identical and left at their defaults (encryption algorithms, lifetimes, etc.). Could anyone suggest which settings I should look into? I'm sure someone has run into this before."
+    }
+   ]
+  }
+ ]
+}
