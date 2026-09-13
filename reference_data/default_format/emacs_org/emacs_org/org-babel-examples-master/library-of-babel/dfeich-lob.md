@@ -11,7 +11,7 @@ for these functions.
 
 When changing this file, I need to execute the following, to reload the babel functions
 
-``` elisp
+```
 (dfeich/lib-babel-reinitialize)
 ```
 
@@ -74,7 +74,7 @@ Test2
 
 ## InsertTableFromFile
 
-``` elisp
+```
   (let* ((klist (cl-remove-if (lambda (x) (equal (cadr x) ""))
               `(("ATTR_LATEX" ,newattr) ("CAPTION" ,newcaption) ("NAME" ,newname))))
      (tbl
@@ -112,7 +112,7 @@ Test2
 
 Creating a file for testing
 
-``` elisp
+```
   (with-temp-file "/tmp/insert-file-test.org"
 (goto-char (point-max))
 (insert "some text at the start
@@ -165,7 +165,7 @@ new caption
 
 ## TableFilter
 
-``` elisp
+```
 (let ((lst (split-string vals)))
   (concatenate 'list  (loop for row in tbl
                             if (member (let ((field (nth col row)))
@@ -197,7 +197,7 @@ new caption
 
 ## lobTableFilterRe
 
-``` elisp
+```
 (let ((lst (split-string vals)))
   (concatenate 'list  (loop for row in tbl
                             if (let* ((rawfield (nth col row))
@@ -316,7 +316,7 @@ a particular source block is called by executing
 structure, where the call is given as part of that source block's
 `:var` definition.
 
-``` elisp
+```
 (when (file-exists-p fname)
   (if (string=  overwrite "yes")
       (delete-file fname)
@@ -348,7 +348,7 @@ Test with overwrite option
 
 ## Insert file in a suitable block
 
-``` elisp
+```
 (cl-labels ((wrap-src
         (lang)
         (list (format "#+BEGIN_SRC %s :eval never :exports source\n" lang)

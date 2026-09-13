@@ -27,7 +27,7 @@ Not too useful, yet. Embedded calc certainly is better for
 inlining math in documents. Using Elisp to directly interacting with
 calc also is more powerful.
 
-``` calc
+```
 24
 3
 '/
@@ -37,7 +37,7 @@ calc also is more powerful.
 
 - solving an equation
 
-  ``` calc
+  ```
   fsolve(x*2+x=4,x)
   ```
 
@@ -45,7 +45,7 @@ calc also is more powerful.
 
 - solving a linear system of equations
 
-  ``` calc
+  ```
   fsolve([x + y = a, x - y = b],[x,y])
   ```
 
@@ -191,13 +191,13 @@ AST of the expression.
 Lets try executing the lisp (note that the result is enclosed by an
 extra parentheses).
 
-``` elisp
+```
 (calcFunc-eq '(var x var-x) (calcFunc-vsum 1 2 3))
 ```
 
     (calcFunc-eq (var x var-x) 6)
 
-``` elisp
+```
 (calc-eval (calcFunc-eq '(var x var-x) (calcFunc-vsum 1 2 3)))
 ```
 
@@ -276,7 +276,7 @@ interactive keyboard strokes in calc mode.
 - <https://emacs.stackexchange.com/questions/59179/specify-precision-using-calc-in-org-mode-spreadsheets/59181#59181>
   The variable org-calc-default-modes is used to customize Calc for org usage
 
-  ``` elisp
+  ```
   (defcustom org-calc-default-modes
     '(calc-internal-prec 12
                calc-float-format  (float 8)
@@ -348,7 +348,7 @@ case:
 
 A lisp equivalent of the above
 
-``` elisp
+```
 (calc-eval "usimplify(2.5 km / ft)")
 ```
 
@@ -356,7 +356,7 @@ A lisp equivalent of the above
 
 Let's define a function that converts to base units
 
-``` elisp
+```
 (defmath ustd (expr) (math-simplify-units (math-to-standard-units expr nil)))
 ```
 

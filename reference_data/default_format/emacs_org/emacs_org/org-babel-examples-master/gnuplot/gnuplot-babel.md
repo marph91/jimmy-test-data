@@ -6,7 +6,7 @@ Derek Feichtinger
 
 # Version information
 
-``` numberSource
+``` commonlisp
 (princ (concat
         (format "Emacs version: %s\n"
                 (emacs-version))
@@ -26,7 +26,7 @@ Derek Feichtinger
 
 From an example by Eric Schulte
 
-``` gnuplot
+```
 reset
 
 set title "a simple graph"
@@ -38,7 +38,7 @@ set xlabel "frequency of A"
 plot x * x title 'AA', (1-x) * (1-x) title 'aa', 2 * x * (1-x) title 'Aa'  
 ```
 
-``` gnuplot
+```
 reset
 
 set title "Putting it All Together"
@@ -67,7 +67,7 @@ stack exchange problem: [How to embed svg output of org-mode src block as inline
 
 First I define a filter function in this source block
 
-``` elisp
+```
 (with-temp-buffer
   (erase-buffer)
   (cl-assert text nil "PostAlignTables received nil instead of text ")
@@ -86,7 +86,7 @@ First I define a filter function in this source block
 
 And here we use the filter function in the `:post` option.
 
-``` gnuplot
+```
 plot sin(x)
 ```
 

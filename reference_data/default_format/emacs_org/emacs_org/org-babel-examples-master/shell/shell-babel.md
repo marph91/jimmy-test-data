@@ -4,7 +4,7 @@ Derek Feichtinger
 
 # Version information
 
-``` numberSource
+``` commonlisp
 (princ (concat
         (format "Emacs version: %s\n"
                 (emacs-version))
@@ -72,7 +72,7 @@ echo $tbl
 
 Internally the variable expansion into the bash script is done by this org function:
 
-``` elisp
+```
 (org-babel--variable-assignments:sh-generic 'tbl '((11 12 13) (21 22 23) (31 32 33)) nil nil)
 ```
 
@@ -186,7 +186,7 @@ The internal expansion of such a vector table is done via
 `org-babel--variable-assignments:bash` and then
 `org-babel--variable-assignments:bash_array`
 
-``` elisp
+```
 (org-babel--variable-assignments:bash 'tbl '((1) (2) (3) (4) (5)) nil nil)
 ```
 
@@ -307,7 +307,7 @@ Let's have a look at how the expansion is implemented. The array
 is set through `org-babel--variable-assignments:bash` and then
 `org-babel--variable-assignments:bash_assoc`.
 
-``` elisp
+```
 (org-babel--variable-assignments:bash 'tbl '((11 12 13) (21 22 23) (31 32 33)) nil nil)
 ```
 
@@ -378,7 +378,7 @@ the three columns.
 
 sidenote: the -n flag results in line numbers for the exported source code.
 
-``` numberSource
+``` bash
 for idx in ${!tbl[*]}; do
     echo $idx ${tbl[$idx]} $((${tbl[$idx]}*2))
 done

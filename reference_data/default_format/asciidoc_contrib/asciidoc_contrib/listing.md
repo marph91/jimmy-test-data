@@ -12,7 +12,7 @@ Reading user input
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-``` example
+```
 echo -n "Please enter your name: "
 read name
 echo "Hello, $name!"

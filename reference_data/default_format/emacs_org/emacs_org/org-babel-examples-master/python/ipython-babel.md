@@ -6,7 +6,7 @@ Derek
 
 # Version information
 
-``` numberSource
+``` commonlisp
 (princ (concat
         (format "Emacs version: %s\n"
                 (emacs-version))
@@ -41,7 +41,7 @@ echo ipython version: $(ipython -V)
 
 # Session setup
 
-``` ipython
+```
 %matplotlib inline
 import matplotlib.pyplot as plt
 import numpy as np
@@ -53,7 +53,7 @@ print("Finished imports")
 
 # Results as value and as output
 
-``` ipython
+```
 def foo(x):
     return x + 9
 
@@ -63,13 +63,13 @@ def foo(x):
     # Out[3]:
     : [16, 17, 18, 19, 20, 21, 22]
 
-``` ipython
+```
 print "this is an echo"
 ```
 
 # Producing a graph
 
-``` ipython
+```
 plt.hist(np.random.randn(20000), bins=200)
 ```
 
@@ -141,7 +141,7 @@ plt.hist(np.random.randn(20000), bins=200)
 
 # Opening another session
 
-``` ipython
+```
 %matplotlib inline
 import matplotlib.pyplot as plt
 import numpy as np
@@ -153,11 +153,11 @@ print "Finished imports for session ip2"
 
 # Examples using ipython magic commands
 
-``` ipython
+```
 %timeit 1+1
 ```
 
-``` ipython
+```
 %%timeit
 lst = range(1,1000)
 while len(lst) > 0:

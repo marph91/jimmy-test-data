@@ -4,7 +4,7 @@ https://www.redpill-linpro.com/techblog/2021/05/31/better-bluetooth-headset-audi
 
 Support for the mSBC codec is unfortunately disabled by default in Pipewire, because not all Bluetooth adapters and headsets support it. In order to enable it, create the file `~/.config/pipewire/media-session.d/bluez-monitor.conf` (or `/etc/pipewire/media-session.d/bluez-monitor.conf`) with the following contents:
 
-``` highlight
+```
 properties = {
     bluez5.msbc-support = true
 }
@@ -46,7 +46,7 @@ Pipewire also comes with support for the SBC-XQ codec for A2DP, which supposedly
 
 SBC-XQ can be enabled in the pretty much same way as mSBC is. Just edit the `bluez-monitor.conf` file and add another line so it reads:
 
-``` highlight
+```
 properties = {
     bluez5.msbc-support = true
     bluez5.sbc-xq-support = true
@@ -59,7 +59,7 @@ After restarting PipeWire you should now find the SBC-XQ codec in the Output *Co
 
 Having Pipewire report the battery level requires manually enabling an experimental API in the [BlueZ](http://www.bluez.org/) Bluetooth stack. This can be done by running `sudo systemctl edit bluetooth.service` and entering the following lines where the comments prompt you to:
 
-``` highlight
+```
 [Service]
 ExecStart=
 ExecStart=/usr/libexec/bluetooth/bluetoothd –experimental

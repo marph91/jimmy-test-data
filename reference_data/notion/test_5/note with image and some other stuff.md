@@ -14,7 +14,7 @@ and an empty text file
 
 [plaintext.txt](./plaintext.txt)
 
-``` code
+```
 function i(){
     let cantWrite = "Code";
 }

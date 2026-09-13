@@ -64,7 +64,7 @@ Derek
 
 # Ditaa tests
 
-``` ditaa
+```
 
 +--------+   +-------+    +-------+
 |        | --+ ditaa +--> |       |
@@ -80,7 +80,7 @@ Derek
 The following graph contains all available default shapes. The available shapes can be
 seen in the [source code](https://github.com/stathissideris/ditaa/blob/master/src/org/stathissideris/ascii2image/graphics/Diagram.java).
 
-``` ditaa
+```
 
 +----------------------+         +------------------+----+
 | This is a box   |    +---------+  and this is     |    |
@@ -111,7 +111,7 @@ seen in the [source code](https://github.com/stathissideris/ditaa/blob/master/sr
 
 Example from <http://doc.norang.ca/org-mode.html#playingwithditaa>
 
-``` ditaa
+```
     +-----------+        +---------+
     |    PLC    |        |         |
     |  Network  +<------>+   PLC   +<---=---------+
@@ -138,7 +138,7 @@ Example from <http://doc.norang.ca/org-mode.html#playingwithditaa>
 +-----------------+
 ```
 
-``` ditaa
+```
 
 +---+    +----+    +---+                                   
 |   |    |    |    |   |          +--+  +--+               

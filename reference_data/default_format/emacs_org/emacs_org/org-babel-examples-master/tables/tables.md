@@ -518,7 +518,7 @@ I posted this in reply to [this stackexchange question](http://emacs.stackexchan
 
 We produce an example table to work upon
 
-``` elisp
+```
 (let ((countries
        (mapcar #'symbol-name '(CH D USA CN JP PL USA D PL CN CH))))
   (cl-loop for country1 in countries
@@ -555,7 +555,7 @@ table with the required values. Notice that I am
 using the **colnames** argument in the BEGIN line
 in order to preserve the column headings.
 
-``` elisp
+```
 (loop for row in tbl
       if (equal (nth 3 row) val)
       collect row into newtbl

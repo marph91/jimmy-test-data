@@ -56,7 +56,7 @@ Table FTW!
 | Cell in column 1, row 1 | Cell in column 2, row 1 | Cell in column 3, row 1 |
 |----|----|----|
 | Content in a single cell that spans rows 2 and 3 | Cell in column 2, row 2 | Cell in column 3, row 2 |
-| Cell in column 2, row 3 | Cell in column 3, row 3 |  |
+|  | Cell in column 2, row 3 | Cell in column 3, row 3 |
 
 | Single paragraph on row 1                                           |
 |---------------------------------------------------------------------|
@@ -75,4 +75,4 @@ Table FTW!
 |:--:|----|
 | **This cell spans 3 rows. The content is centered horizontally, aligned to the bottom of the cell, and strong.** | *This content is emphasized.* |
 |  | `This content is aligned to the top of the cell and literal.` |
-| `puts "This is a source block!"` |  |
+|  | `puts "This is a source block!"` |

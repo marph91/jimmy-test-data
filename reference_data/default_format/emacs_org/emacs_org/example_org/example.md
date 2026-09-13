@@ -87,7 +87,7 @@ Google's web site
 
 (ignore the \*\_SRC blocks for now, we'll get there)
 
-``` fundamental
+```
 [[http://google.com/][Google]]
 ```
 

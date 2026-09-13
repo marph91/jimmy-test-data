@@ -8,7 +8,7 @@ Fortunately, these actions can be programmed using a UNIX shell script build aro
 
 When used without any parameters it prints the list of monitor outputs alongside the information about the connected monitors:
 
-``` example
+```
 artem@artbox:~$ xrandr
 Screen 0: minimum 8 x 8, current 1366 x 768, maximum 32767 x 32767
 LVDS1 connected 1366x768+0+0 (normal left inverted right x axis y axis) 340mm x 190mm
@@ -31,7 +31,7 @@ VIRTUAL1 disconnected (normal left inverted right x axis y axis)
 
 We could filter out the information about the available outputs using the UNIX tools:
 
-``` example
+```
 artem@artbox:~$ xrandr | grep connected | cut -d ' ' -f 1-2
 LVDS1 connected
 DP1 disconnected
@@ -44,7 +44,7 @@ Keeping in mind that an internal laptop screen is usually connected using the `L
 
 Let's outline the logic of the script using pseudo-code:
 
-``` example
+```
 var primary_out = nil
 var to_disable = nil
 
@@ -70,7 +70,7 @@ endif
 
 After translating the pseudo-code above into a shell script, I got the following code:
 
-``` src
+```
 #!/bin/sh
 
 # the script will not work if xrandr is not available
@@ -128,7 +128,7 @@ To use the script, one should save it into an **executable** file and alter the 
 
 In order to accomplish this one should change the `display-setup-script` in the `[Seat:*]` section of the LightDM configuration file (`/etc/lightdm/lightdm.conf`):
 
-``` example
+```
 [Seat:*]
 ...
 display-setup-script=/path/to/the-script

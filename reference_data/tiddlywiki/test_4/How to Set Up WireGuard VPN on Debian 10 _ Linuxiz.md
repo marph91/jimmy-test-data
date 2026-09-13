@@ -22,13 +22,13 @@ We’ll start by installing the WireGuard package on the Debian machine and set 
 
 WireGuard is available from the Debian backports repositories. To add the repository to your system, run:
 
-``` terminal
+```
 echo 'deb http://ftp.debian.org/debian buster-backports main' | sudo tee /etc/apt/sources.list.d/buster-backports.listCopy
 ```
 
 Once the repository is enabled, update the apt cache and install the WireGuard module and tools:
 
-``` terminal
+```
 sudo apt updatesudo apt install wireguardCopyCopy
 ```
 
@@ -40,7 +40,7 @@ You can configure and manage the WireGuard interfaces with the `wg` and `wg-quic
 
 Each device in the WireGuard VPN network needs to have a private and public key. Run the following command to generate the key pair:
 
-``` terminal
+```
 wg genkey | sudo tee /etc/wireguard/privatekey | wg pubkey | sudo tee /etc/wireguard/publickeyCopy
 ```
 
@@ -57,13 +57,13 @@ and `wg` commands, or by manually creating the configuration file. We’ll creat
 
 Open your editor and create a new file named `wg0.conf` with the following contents:
 
-``` terminal
+```
 sudo nano /etc/wireguard/wg0.confCopy
 ```
 
 /etc/wireguard/wg0.conf
 
-``` chroma
+```
 [Interface]
 Address = 10.0.0.1/24
 SaveConfig = true
@@ -91,7 +91,7 @@ The settings in the interface section have the following meaning:
 
   Make sure to replace `ens3` after `-A POSTROUTING` to match the name of your public network interface. You can easily find the interface with:
 
-  ``` terminal
+  ```
   ip -o -4 route show to default | awk '{print $5}'Copy
   ```
 
@@ -100,7 +100,7 @@ The settings in the interface section have the following meaning:
 The `wg0.conf` and `privatekey` files should not be readable to normal users. Use [`chmod`](https://linuxize.com/post/chmod-command-in-linux/)
 to set the files permissions to `600`:
 
-``` terminal
+```
 sudo chmod 600 /etc/wireguard/{privatekey,wg0.conf}Copy
 ```
 
@@ -108,7 +108,7 @@ Once done, bring the `wg0` interface up using the attributes specified in the co
 
 ++++
 
-``` terminal
+```
 sudo wg-quick up wg0Copy
 ```
 
@@ -125,7 +125,7 @@ Copy
 
 To check the interface state and configuration, run:
 
-``` terminal
+```
 sudo wg show wg0Copy
 ```
 
@@ -139,7 +139,7 @@ Copy
 
 You can also verify the interface state with `ip a show wg0`:
 
-``` terminal
+```
 ip a show wg0Copy
 ```
 
@@ -153,7 +153,7 @@ Copy
 
 WireGuard can be managed with Systemd. To bring the WireGuard interface at boot time, run the following command:
 
-``` terminal
+```
 sudo systemctl enable wg-quick@wg0Copy
 ```
 
@@ -161,13 +161,13 @@ sudo systemctl enable wg-quick@wg0Copy
 
 IP forwarding must be enabled for NAT to work. Open the `/etc/sysctl.conf` file and add or uncomment the following line:
 
-``` terminal
+```
 sudo nano /etc/sysctl.confCopy
 ```
 
 /etc/sysctl.conf
 
-``` chroma
+```
 net.ipv4.ip_forward=1
 ```
 
@@ -175,7 +175,7 @@ Copy
 
 Save the file and apply the change:
 
-``` terminal
+```
 sudo sysctl -pCopy
 ```
 
@@ -187,7 +187,7 @@ Copy
 If you are using UFW to manage your [firewall](https://linuxize.com/post/how-to-setup-a-firewall-with-ufw-on-debian-10/)
 you need to open UDP traffic on port `51820`:
 
-``` terminal
+```
 sudo ufw allow 51820/udpCopy
 ```
 
@@ -202,19 +202,19 @@ Once installed, follow the steps below to configure the client device.
 
 The process for setting up a Linux and macOS client is pretty much the same as you did for the server. First, generate the public and private keys:
 
-``` terminal
+```
 wg genkey | sudo tee /etc/wireguard/privatekey | wg pubkey | sudo tee /etc/wireguard/publickeyCopy
 ```
 
 Create the file `wg0.conf` and add the following contents:
 
-``` terminal
+```
 sudo nano /etc/wireguard/wg0.confCopy
 ```
 
 /etc/wireguard/wg0.conf
 
-``` chroma
+```
 [Interface]
 PrivateKey = CLIENT_PRIVATE_KEY
 Address = 10.0.0.2/24
@@ -256,7 +256,7 @@ A publickey pair is automatically created and displayed on the screen.
 
 Enter a name for the tunnel and edit the configuration as follows:
 
-``` chroma
+```
 [Interface]
 PrivateKey = CLIENT_PRIVATE_KEY
 Address = 10.0.0.2/24
@@ -284,7 +284,7 @@ Once done, click on the “Save” button.
 
 The last step is to add the client’s public key and IP address to the server. To do that, run the following command on the Debian server:
 
-``` terminal
+```
 sudo wg set wg0 peer CLIENT_PUBLIC_KEY allowed-ips 10.0.0.2Copy
 ```
 
@@ -296,13 +296,13 @@ Once done, go back to the client machine and bring up the tunneling interface.
 
 Run the following command the bring up the interface:
 
-``` terminal
+```
 sudo wg-quick up wg0Copy
 ```
 
 Now you should be connected to the Debian server, and the traffic from your client machine should be routed through it. You can check the connection with:
 
-``` terminal
+```
 sudo wgCopy
 ```
 
@@ -327,7 +327,7 @@ To stop the tunneling, bring down the `wg0` interface:
 
 ++++
 
-``` terminal
+```
 sudo wg-quick down wg0Copy
 ```
 

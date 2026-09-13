@@ -58,7 +58,7 @@ same number of columns as the original table)
 Here I also demonstrate the use of the **-n** option that will export
 the code with line numbers.
 
-``` numberSource
+``` commonlisp
 (let (result)
   (dolist (row tbl result)
     (setf (nth 2 row) (* 2 (nth 1 row)))
@@ -85,7 +85,7 @@ the code with line numbers.
 It is possible to specify a sub-range for the table that is handed over through `:var`. But currently
 it does not work well with the `:colnames yes` option, as the following example shows.
 
-``` numberSource
+``` commonlisp
 (let (result)
   (dolist (row tbl result)
     (setf (nth 2 row) (* 2 (nth 1 row)))
@@ -135,7 +135,7 @@ tbl
 
 Let's look at the resulting structure that is passed to a source block
 
-``` elisp
+```
 (pp lst)
 ```
 
@@ -158,7 +158,7 @@ what the Org function `org-list-to-lisp` returns? Comparing with that output we 
 current handing over of a list by the `:var` argument is losing the outermost layer of information
 that describes whether the top level list is of the ordered, unordered, … type.
 
-``` elisp
+```
 (pp (save-excursion
   (goto-char (point-min))
   (unless (search-forward-regexp (concat  "#\\\+NAME: .*" lname) nil t)
@@ -247,19 +247,19 @@ Another alternative calling syntax
 
 This function is also used for table formulas
 
-``` elisp
+```
 (org-sbe mydivide (x 10) (y 3))
 ```
 
     3
 
-``` elisp
+```
 (princ (concat s1 " " s2))
 ```
 
     hello world
 
-``` elisp
+```
 (princ (org-sbe srcRepeatStrings (s1 $"hello") (s2 $"world")))
 ```
 
@@ -270,7 +270,7 @@ This function is also used for table formulas
     (results (quote "hello world"))
     hello world
 
-``` elisp
+```
 (org-babel-execute-src-block nil
                             '("emacs-lisp" "results"
                               ((:var . "results=mydivide")))
@@ -283,7 +283,7 @@ This function is also used for table formulas
 
     (results (quote 6))
 
-``` elisp
+```
 (org-babel-execute-src-block nil
                               '("emacs-lisp" "(princ (format \"%s haahahaa\n\"results))"
                                 ((:var . "results=mydivide")))
@@ -489,7 +489,7 @@ I can call the function like any normally defined named source code block which 
 
 But more interesting for this example, I can also use it in the `:post` block:
 
-``` elisp
+```
 (princ text)
 ```
 

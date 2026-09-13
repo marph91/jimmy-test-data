@@ -228,7 +228,7 @@ The following are not recognised as tags, so **must not be escaped**:
 
 - Display code block:
 
-  ``` code
+  ```
   #abc
   ```
 
@@ -308,7 +308,7 @@ x  : & x\ge 0
 
 Multiline display math with trailing space:
 
-``` code
+```
 $$  \ \\\mathrm{abs}(x)=|x|
 =\begin{cases} 
 -x : & x \lt 0 \\

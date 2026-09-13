@@ -22,17 +22,17 @@ Zwar argumentiert Sheldon in der TBBT-Episode nicht so en detail, kommt aber zu 
 
 Nun könnte man Sheldon Schlampigkeit in der Argumentation vorwerfen, doch auch in der Binärdarstellung des ASCII-Textes wird aus Chuck Norris kein Palindrom:
 
-``` rte__tx--listing
+```
 01000011 01101000 01110101 01100011
 01101011 00100000 01001110 01101111 
 01110010 01110010 01101001 01110011 
 ```
 
-``` rte__tx--listing
+```
 um Unterschied zu "Sirron Kcuhc":
 ```
 
-``` rte__tx--listing
+```
 01010011 01101001 01110010 01110010
 01101111 01101110 00100000 01001011 
 01100011 01110101 01101000 01100011 

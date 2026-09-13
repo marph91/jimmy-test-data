@@ -119,7 +119,7 @@ java -jar "$jpath" -help
 
 # simple test
 
-``` plantuml
+```
 @startuml
 ' this is a comment
 Alice -> Bob: Authentication Request
@@ -135,7 +135,7 @@ Alice --> John: another Authentication Response
 
 Note: The `skin` parameter I used in the earlier versions of this document is no longer supported by plantuml.
 
-``` plantuml
+```
 @startuml
 title Example Sequence Diagram
 activate Client
@@ -154,7 +154,7 @@ deactivate Client
 @enduml
 ```
 
-``` plantuml
+```
 @startuml
 actor User
 participant "First Class" as A
@@ -181,7 +181,7 @@ deactivate A
 @enduml
 ```
 
-``` plantuml
+```
 left to right direction
 actor remoteUser
 actor service
@@ -195,7 +195,7 @@ rectangle Gateway {
 
 ## old style activity diagrams
 
-``` plantuml
+```
 title Example Activity Diagram
 note right: Example Function
 (*)--> "Step 1"
@@ -217,7 +217,7 @@ endif
 --> (*)
 ```
 
-``` plantuml
+```
 title Servlet Container
 
 (*) --> "ClickServlet.handleRequest()"
@@ -277,7 +277,7 @@ endif
 
 Swimlanes actually are activity diagrams using the new syntax.
 
-``` plantuml
+```
 @startuml
 |Swimlane1|
 start
@@ -297,7 +297,7 @@ stop
 
 <http://plantuml.sourceforge.net/classes.html>
 
-``` plantuml
+```
 class Proposal {
 also called a "study"
 ..
@@ -333,7 +333,7 @@ Proposal *-- Visit
 
 ## Component diagrams
 
-``` plantuml
+```
 @startuml
 
 package "Some Group" {
@@ -370,7 +370,7 @@ node "Other Groups" {
 
 The next example was posted by Cecil Westerhof on emacs-orgmode.gnu.org mailing list \[2019-10-18 Fri\]
 
-``` plantuml
+```
 @startuml
 
 component [Producer 1\nProducer 2\nProducer ...\nProducer n] as Producers
@@ -415,7 +415,7 @@ This syntax looks like the most versatile and useful to me
 
 - Undescores directly following the leading position characters prevent the creation of a box around an item.
 
-  ``` plantuml
+  ```
   @startmindmap
   + OS
   ++ Ubuntu
@@ -439,7 +439,7 @@ A mindmap based on org mode syntax. Note that the org headline asterisks need to
 of a source block. It's nice that they allow for an org mode syntax, but I think this is less convenient
 to write and work with. The org headlines do not allow for text following them (syntax error).
 
-``` plantuml
+```
 @startmindmap
 * Debian
 ** Ubuntu
@@ -456,7 +456,7 @@ to write and work with. The org headlines do not allow for text following them (
 @endmindmap
 ```
 
-``` plantuml
+```
 @startmindmap
 caption figure 1
 title My super title
@@ -489,7 +489,7 @@ endlegend
 
 ## network
 
-``` plantuml
+```
 @startuml
 scale 1.5
 nwdiag {
@@ -516,7 +516,7 @@ Regrettably rackdiag is not yet (\[2021-08-18 Wed\]) part of the
 functionality that was integrated in plantuml from
 nwdiag. q.v. <http://blockdiag.com/en/nwdiag/rackdiag-examples.html>
 
-``` plantuml
+```
 @startuml
 scale 1.5
 rackdiag {
@@ -539,7 +539,7 @@ rackdiag {
 
 <https://plantuml.com/wbs-diagram>
 
-``` plantuml
+```
 @startwbs
 +[#SkyBlue] New Job
 ++ Decide on Job Requirements
@@ -562,7 +562,7 @@ rackdiag {
 
 Using org mode headlines
 
-``` plantuml
+```
 @startwbs
 scale 2
 * Business Process Modelling WBS
@@ -579,7 +579,7 @@ scale 2
 @endwbs
 ```
 
-``` plantuml
+```
 @startwbs
 ' skinparam backgroundColor blue
 <style>
@@ -598,7 +598,7 @@ wbsDiagram {
 @endwbs
 ```
 
-``` plantuml
+```
 @startwbs
 
 
@@ -649,7 +649,7 @@ arrow {
 
 Which skinparam can be used to change font size?
 
-``` plantuml
+```
 @startwbs
 skinparam classFontSize 30
 ' skinparam backgroundColor blue
@@ -671,7 +671,7 @@ wbsDiagram {
 
 ## gantt
 
-``` plantuml
+```
 @startgantt
 scale 2
 saturday are closed
@@ -687,7 +687,7 @@ Project starts 2021-01-01
 @endgantt
 ```
 
-``` plantuml
+```
 @startgantt
 scale 2
 Projectscale weekly
@@ -706,7 +706,7 @@ Project starts 2021-01-01
 
 ## JSON
 
-``` plantuml
+```
 @startjson
 scale 2
 {
@@ -717,7 +717,7 @@ scale 2
 @endjson
 ```
 
-``` plantuml
+```
 @startjson
 scale 2
 {
@@ -750,7 +750,7 @@ scale 2
 Note: **the highlight style assignment will clash with the org mode noweb
 syntax**
 
-``` plantuml
+```
 @startjson
 scale 2
 <style>
@@ -797,7 +797,7 @@ scale 2
 
 # Listing sprites
 
-``` plantuml
+```
 @startuml
 scale 2
 
@@ -822,7 +822,7 @@ footer %filename() rendered with PlantUML version %version()\nThe Hitchhiker’s
 The simple preprocessor allows the definition of variables and functions. Some
 standard functions like %date are already provided.
 
-``` plantuml
+```
 @startuml
 scale 1.5
 !function $inc($value, $step=1)
@@ -842,7 +842,7 @@ center footer generated on %date("yyyy.MM.dd 'at' HH:mm")
 
 Minimally adapted from <https://blog.jdriven.com/2017/10/plantuml-pleasantness-use-gradients-diagrams/>
 
-``` plantuml
+```
 @startuml
 
 title Gradient
@@ -895,7 +895,7 @@ to bottom
 
 The available default colors can be displayed using this snippet
 
-``` plantuml
+```
 @startuml
 colors
 @enduml
@@ -903,7 +903,7 @@ colors
 
 # Scaling
 
-``` plantuml
+```
 @startuml
 scale 2
 
@@ -927,7 +927,7 @@ is in the same directory** as the tex source file (and therefore also the org so
 Note: with the current org version 9.1.14 and Emacs 26.1 the SVG is not correctly displayed in
 the org buffer, but the SVG renders fine in the exported Latex PDF.
 
-``` plantuml
+```
 @startuml
 ' this is a comment
 Alice -> Bob: Authentication Request

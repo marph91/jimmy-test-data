@@ -60,7 +60,7 @@ With a hidden text block.
 
 # Technical Blocks
 
-``` code
+```
 # This is a plain-text code block with Python highlighting
 print("Hello world!")
 ```

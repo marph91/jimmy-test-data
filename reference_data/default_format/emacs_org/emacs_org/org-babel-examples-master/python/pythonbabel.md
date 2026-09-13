@@ -4,7 +4,7 @@ Derek Feichtinger
 
 # Version information
 
-``` numberSource
+``` commonlisp
 (princ (concat
         (format "Emacs version: %s\n"
                 (emacs-version))
@@ -176,7 +176,7 @@ return tbl
 
 Example 1:
 
-``` numberSource
+``` python
 x = range(1,10)
 y = [xe*3 for xe in x]
 return [x,y]
@@ -188,7 +188,7 @@ return [x,y]
 
 Example 2:
 
-``` numberSource
+``` python
 import numpy as np
 
 x = range(1,10)
