@@ -13,13 +13,15 @@ PDF Example for Develope Prepared By: Sample Team
 
 ## This document is designed to showcase
 
-## various features available for PDF generation
+*This sample PDF file is provided by [Sample-Files.com](https://sample-files.com/)*
 
-## and manipulation. It includes formatted text,
+various features available for PDF generation
 
-## tables, images, hyperlinks, and more.
+and manipulation. It includes formatted text,
 
-*This sample PDF file is provided by [Sample-Files.com. Visit us for more sample files and resource](https://sample-files.com/)*
+tables, images, hyperlinks, and more.
+
+*[. Visit us for more sample files and resource](https://sample-files.com/)*
 
 ---
 

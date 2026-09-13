@@ -1,3 +1,9 @@
+## lisp-babel
+
+Derek Feichtinger
+
+January 3, 2018
+
 ### Contents 1 How to use this document
 
 2 Version information
@@ -8,7 +14,7 @@
 
 5 Inline src calls
 
-6 Dening buer wide variables
+6 Dening buer wide variables for src blocks
 
 7 Using a :post function for post-formatting and executing generated tables 8 Library of babel
 
@@ -16,23 +22,21 @@
 
 You should look at this document in its Org mode source form. The PDF rendering is useful to see the results of some of the export options, but the syntax of the source block is only seen in the source text.
 
-## lisp-babel
+1
 
-Derek Feichtinger
-
-January 3, 2018 1
+1
 
 2
 
-2 2 3
+2
 
-3
+2 3 3
 
 4
 
 4 . . . . . . . . . . . . . . . . . 4 5 6
 
-for src blocks 6
+6
 
 6
 
@@ -66,7 +70,7 @@ col1  5  6  7  8  9 10  11  12
 
 We now can ll the third column by passing the table into the next source block. We force babel to treat the rst row as table header by using the :colnames yes header argument. This also causes the result table to contain the headers (as long as the new table has the same number of columns as the original table) Here I also demonstrate the use of the code with line numbers.
 
-list of lists . Each inner list will form
+list of lists. Each inner list will form
 
 hline
 
@@ -75,6 +79,8 @@ col2 col3 25 30 35 40 45 50 55 60 65 70
 75
 
 -n option that will export the
+
+2
 
 ---
 
@@ -92,7 +98,7 @@ col1 col2 col3 5 25 50 6 30 60 7 35 70 8 40 80
 
 3.2 passing a sub-range
 
-It is possible to specify a sub-range for the table that is handed over :var. But currently it does not work well with the as the following example shows.
+It is possible to specify a sub-range for the table that is handed over through :var. But currently it does not work well with the :colnames yes option, as the following example shows.
 
 1 (let (result) 2 (dolist (row tbl result) 3
 
@@ -100,15 +106,13 @@ It is possible to specify a sub-range for the table that is handed over :var. Bu
 
 (setq result (cons row result))) 5 (reverse result)) 7 35 8 40 80
 
-through :colnames yes option,
-
 9 45 90 10 50 100
 
 11 55 110
 
 3.3 Investigating how tables are passed to the src block
 
-col1 col2 col3 10 str two strings 20.5 str2 2 strings
+col1 col2 col3 10 str two strings 20.5 str2 2 strings 3
 
 ---
 
@@ -116,7 +120,7 @@ col1 col2 col3 10 str two strings 20.5 str2 2 strings
 
 ((10 "str" "two strings") (20.5 "str2" "2 strings"))
 
-Note that the raw value same. It loses the string quotes of the single entries!
+Note that the raw value output of the source block does not yield the same. It loses the string quotes of the single entries!
 
 tbl
 
@@ -126,7 +130,7 @@ tbl
 
 4.1 Chaining source block execution
 
-I can have another piece of code implicitly called as an input variable in another code block. So, I could directly ll the third column of our initial example table without ever having to print out that table table. We can just pass into the next function a variable name of the initial code block
+I can have another piece of code implicitly called as an input variable in another code block. So, I could directly ll the third column of our initial example table without ever having to print out that table table. We can just pass into the next function a variable name of the initial code block make-table1
 
 (let (result) (dolist (row tbl result) (setf (nth 2 row) (* 2 (nth 1 row))) (setq result (cons row result))) (reverse result))
 
@@ -134,67 +138,59 @@ I can have another piece of code implicitly called as an input variable in anoth
 
 We rst dene a function in a named code block called variable x will be passed in by dening a header argument
 
-output of the source block does not yield the
-
-make-table1
-
 by using its name
 
 tbl and the
 
 mydouble The :var x (* 2 x)
 
-Now we can call this babel function by using the code block’s name mydouble from any place in the document. For 10
+Now we can call this babel function by using the code block’s name mydouble from any place in the document. For example: 10
 
-Another example where we pass in two (/ x y)
+Another example where we pass in two variables x and y.
 
-example:
-
-variables x and y.
-
----
-
-Note that you can/must pass additional header arguments call. The ones added at the end inuence the nal result (e.g. putting it into a drawer), while the ones added in [] are evaluated original denition (e.g whether to capture the output or return a value).
+(/ x y)
 
 4
 
-Another alternative calling syntax
+---
 
-to the
+Note that you can/must pass additional header arguments call. The ones added at the end inuence the nal result (e.g. putting it into a drawer), while the ones added in [] are evaluated in the context of the original denition (e.g whether to capture the output or return a value).
 
-in the context of the 5
+4
+
+Another alternative calling syntax 5
 
 4.3 Naming an output table produced by a CALL
 
-If the called function produces an output table that one wants subsequent function calls or in table formulas (using the can give the CALL a name utilizing the syntax used for other org elements:
+If the called function produces an output table that one wants to use in subsequent function calls or in table formulas (using the can give the CALL a name utilizing the syntax used for other org elements:
 
 5  6  7  8  9  10  11  12  13  14  15
 
 5  6  7  8  9  10  11  12  13  14  15
 
-to use in remote keyword) one
+to the
+
+remote keyword) one
 
 25 30 35 40 45 50 55 60 65 70 75
 
-25 30 35 40 45 50 55 60 65 70 75
+25 30 35 40 45 50 55 60 65 70 75 5
 
 ---
 
 5 Inline src calls
 
-This is the result of an inline src call in lisp: 15 and this is another: 15
+This is the result of an inline src call in lisp: 15 and this is another:
 
 15
 
-6 Dening buer wide variables
+15
 
-One can use a verbatim block like this. I dene a named block pass it into the variable s of the following code block.
+6 Dening buer wide variables for src blocks
 
-world
+One can use a verbatim block like this. I dene a named block myvar and I pass it into the variable s of the following code block.
 
-### for src blocks
-
-myvar and I (concat "hello " s)
+world (concat "hello " s)
 
 hello world
 
@@ -202,11 +198,9 @@ hello world
 
 ### executing generated tables
 
-Often I produce multiple tables from a source block (e.g. printing several pandas data frames). These tables do not get aligned in the org document after the execution of the code block (even though they will get aligned upon exporting the document). Also, I may want #+TBLFM lines executed, instead of manually having to execute them in the resulting tables. The following function can be used in a :post argument for getting all tables in the output aligned and their TBLFM instructions executed, as shown further below
+Often I produce multiple tables from a source block (e.g. printing several pandas data frames). These tables do not get aligned in the org document after the execution of the code block (even though they will get aligned upon exporting the document). Also, I may want to have table calculations using #+TBLFM lines executed, instead of manually having to execute them in the resulting tables. The following function can be used in a :post argument for getting all tables in the output aligned and their TBLFM instructions executed, as shown further below
 
-(with-temp-buffer (erase-buffer) (cl-assert text nil "PostAlignTables received nil instead of text ") (insert text) (beginning-of-buffer) (org-mode) (while (search-forward-regexp org-table-any-line-regexp nil t)
-
-to have table calculations using
+(with-temp-buffer (erase-buffer) (cl-assert text nil "PostAlignTables received nil instead of text ") (insert text) (beginning-of-buffer) (org-mode) (while (search-forward-regexp org-table-any-line-regexp nil t) 6
 
 ---
 
@@ -232,6 +226,8 @@ The same example with the :post function:
 
 (princ (concat "#+CAPTION: Test1\n" "|A|B|C|\n"
 
+7
+
 ---
 
 "|---\n" "|1|20|300|\n" "|200|30|4|\n" "|---\n"
@@ -242,7 +238,7 @@ The same example with the :post function:
 
 8 Library of babel
 
-The "Library of Babel" feature provides a kind of primitive function li-brary system for org les. It allows running source blocks that have added to it in every org le.  ation list with the source block names as the keys.  org-babel-library-of-babel
+The "Library of Babel" feature provides a kind of primitive function li-brary system for org les. It allows running source blocks that have been added to it in every org le.  ation list with the source block names as the keys.  org-babel-library-of-babel
 
 Table 1: Test1 A B C 1 20 300 200 30 4
 
@@ -250,7 +246,9 @@ Table 2: Test2 A B C 1 20 300 200 30 4
 
 Table 3: Test1 A B C 1 20 300 200 30 4 201 50 304
 
-been The library is implemented as an associ-It is stored in the variable.
+The library is implemented as an associ-It is stored in the variable.
+
+8
 
 ---
 
@@ -280,8 +278,8 @@ lib-of-babel-test.org le to
 
 A 22222 B C 45 22267
 
-X 3 Y 4 Z 5 12
+X 3 Y 4 Z 5 12 9
 
 ---
 
-Note: Originally, I thought I could have the babel library as a local variable by executing the org-babel-lob-ingest on a le local variable in the local variable section of the le (using rst make-local-variable and the using the ingest). But it turns out that during the ingest the buer associated with the sourced le is active, so the local variable in this buer remains unset. This is regrettable, because this means that the library of babel is always global. One could set the org-babel-library-of-babel variable directly to the nal value instead of using the ingest function, but this would break the abstraction. Emacs 25.3.1 (Org mode 9.1.5)
+Note: Originally, I thought I could have the babel library as a local variable by executing the org-babel-lob-ingest on a le local variable in the local variable section of the le (using rst make-local-variable and the using the ingest). But it turns out that during the ingest the buer associated with the sourced le is active, so the local variable in this buer remains unset. This is regrettable, because this means that the library of babel is always global. One could set the org-babel-library-of-babel variable directly to the nal value instead of using the ingest function, but this would break the abstraction. Emacs 25.3.1 (Org mode 9.1.5) 10

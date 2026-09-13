@@ -1,6 +1,6 @@
 # Multi-Page Report
 
-## “A comprehensive and content-heavy report that includes text, images, and tables for thorough testing of pagination and complex layouts.”
+*“A comprehensive and content-heavy report that* *includes text, images, and tables for thorough* *testing of pagination and complex layouts.”*
 
 ## Prepared By
 
@@ -200,6 +200,10 @@ Item 1
 
 # Launch Timeline
 
-## Vivamus ac nunc vitae nulla molestie sodales. Proin sit amet rhoncus lacus. Cras non erat imperdiet sapien porttitor aliquam nec ut velit.
+## Vivamus ac nunc vitae nulla molestie sodales. Proin sit
 
-*This sample PDF file is provided by [Sample-Files.com. Visit us for more sample files and resource](https://sample-files.com/)*
+*This sample PDF file is provided by [Sample-Files.com](https://sample-files.com/)*
+
+amet rhoncus lacus. Cras non erat imperdiet sapien porttitor aliquam nec ut velit.
+
+*[. Visit us for more sample files and resource](https://sample-files.com/)*

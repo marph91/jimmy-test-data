@@ -24,7 +24,7 @@ Derek Feichtinger
 
 (princ (concat (format "Emacs version: %s\n" (emacs-version)) (format "org version: %s\n" (org-version))))
 
-Emacs version: GNU Emacs 24.5.1 (x86_64-unknown-linux-gnu, GTK+ Version 3.10.8) of 2015-05-04 on dflt1w org version: 8.2.10
+Emacs version: GNU Emacs 24.5.1 (x86_64-unknown-linux-gnu, GTK+ Version 3.10.8) of 2015-05-04 on dflt1w org version: 8.2.10 1
 
 ---
 
@@ -50,6 +50,8 @@ rankdir=LR;
 
 "high-priority" -> "s4"; "high-priority" -> "s5";
 
+2
+
 ---
 
 4 Examples
@@ -64,7 +66,7 @@ main -> parse -> execute
 
 /* Attribute für den Node init  /* setzen. Das geht auch, nachdem */ /* er schon initialisiert ist.  init [shape=box, color=deeppink]
 
-main -> cleanup execute -> make_string execute -> printf init -> make_string
+main -> cleanup execute -> make_string execute -> printf init -> make_string 3
 
 
 ---
@@ -84,6 +86,8 @@ digraph G {
 
 rankdir=BT; subgraph cluster_c0 {a0 -> a1 -> a2 -> a3;} subgraph cluster_c1 {b0 -> b1 -> b2 -> b3;} x -> a0;
 
+4
+
 
 ---
 
@@ -93,6 +97,8 @@ rankdir=BT; subgraph cluster_c0 {a0 -> a1 -> a2 -> a3;} subgraph cluster_c1 {b0 
 ---
 
 x -> b0; a1 -> b3; b1 -> a3;
+
+5
 
 
 ---
@@ -106,8 +112,11 @@ digraph G {
 
 rankdir=BT; subgraph cluster_c0 {a0 -> a1 -> a3;} subgraph cluster_c1 {b0 -> b1 -> b2 -> b3;} x -> a0; x -> b0; a1 -> b3; b1 -> a3;
 
+6
+
 ---
 
+7
 
 
 ---
@@ -121,8 +130,11 @@ digraph G {
 
 rankdir=BT; subgraph cluster_c0 {a0 -> a1 -> a3;} subgraph cluster_c1 {b0 -> b1 -> b2 -> b3;} x -> a0; x -> b0; a1 -> b3; b1 -> a3;
 
+8
+
 ---
 
+9
 
 
 ---
@@ -144,6 +156,8 @@ if_valid[label="Is input\nvalid?"] message[label="Show\nmessage"] input[label="P
 
 {rank=same; message input}
 
+10
+
 ---
 
 digraph { start [label="Start"];
@@ -157,6 +171,8 @@ decision -> public [label="Yes"]; decision -> notpublic [label="No"];
 public [shape=box, label="public"];
 
 externally?"];
+
+11
 
 
 ---
@@ -174,7 +190,7 @@ protected [shape=box, label="protected"] private [shape=box, label="private"]
 
 { rank=same; decision; public } { rank=same; notpublic; private }
 
-digraph G { Back [shape=house,color=gray,style=filled,fillcolor=lightgray] [URL="Back Page"] [tooltip="Back to Main Diagram"] subgraph cluster0 { Node1 Back -> Node1 Node2 Node1 -> Node2 Node3
+digraph G { Back [shape=house,color=gray,style=filled,fillcolor=lightgray] [URL="Back Page"] [tooltip="Back to Main Diagram"] subgraph cluster0 { Node1 Back -> Node1 Node2 Node1 -> Node2 Node3 12
 
 
 ---
@@ -188,7 +204,7 @@ Node1 -> Node3
 
 color=invis
 
-Forward [shape=invhouse,color=gray,style=filled,fillcolor=lightgray] [URL="Forward Page"] [tooltip="On to Next Diagram"] Node3 -> Forward
+Forward [shape=invhouse,color=gray,style=filled,fillcolor=lightgray] [URL="Forward Page"] [tooltip="On to Next Diagram"] Node3 -> Forward 13
 
 
 ---
@@ -204,7 +220,7 @@ Forward [shape=invhouse,color=gray,style=filled,fillcolor=lightgray] [URL="Forwa
 
 5.1.1 using weight
 
-weight [can be used to keep the main nodes on the main line (stackoverow](http://stackoverflow.com/questions/4671238/forcing-main-line-nodes-into-a-straight-line-in-graphviz-or-alternatives/4673624) [link). The larger the weight](http://stackoverflow.com/questions/4671238/forcing-main-line-nodes-into-a-straight-line-in-graphviz-or-alternatives/4673624)[factor of an edge is, the straighter, shorter, and](http://stackoverflow.com/questions/4671238/forcing-main-line-nodes-into-a-straight-line-in-graphviz-or-alternatives/4673624) [in the direction of the graph it will be.](http://stackoverflow.com/questions/4671238/forcing-main-line-nodes-into-a-straight-line-in-graphviz-or-alternatives/4673624)
+weight [can be used to keep the main nodes on the main line (stackoverow](http://stackoverflow.com/questions/4671238/forcing-main-line-nodes-into-a-straight-line-in-graphviz-or-alternatives/4673624) [link). The larger the weight factor of an edge is, the straighter, shorter, and](http://stackoverflow.com/questions/4671238/forcing-main-line-nodes-into-a-straight-line-in-graphviz-or-alternatives/4673624) [in the direction of the graph it will be.](http://stackoverflow.com/questions/4671238/forcing-main-line-nodes-into-a-straight-line-in-graphviz-or-alternatives/4673624)
 
 digraph G { rankdir="LR"; node[width=0.15, height=0.15, shape=point]; edge[weight=2, arrowhead=none]; 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 9; edge[weight=1]; 2 -> b1 -> b2 ; 6-> c1 -> c2;
 
@@ -222,7 +238,7 @@ m2 -> m3 -> m4;
 
 lm[shape=box, style="", color="", label="master", fontsize=8.0]; m4 -> lm[style="invisible"];
 
-// the branch
+// the branch 14
 
 
 ---
@@ -250,6 +266,8 @@ b1 -> m3[color="green1",arrowhead="", constraint=false]; b2 -> m4[color="green1"
 
 lb[shape=box, color="", label="branch", fontsize=8.0]; b2 -> lb[style="invisible"]
 
+15
+
 
 ---
 
@@ -260,15 +278,13 @@ lb[shape=box, color="", label="branch", fontsize=8.0]; b2 -> lb[style="invisible
 
 5.1.2 aligning by using groups
 
-If the end points of an edge belong to the same group, i.e., have group attribute, parameters are set to avoid straight.
+If the end points of an edge belong to the same group, i.e., have the same group attribute, parameters are set to avoid crossings and keep the edges straight.
 
 digraph g{
 
 rankdir="LR"; node[width=0.15, height=0.15, shape=point, group=main]; edge[arrowhead=none]; 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8; node[group=branches];
 
 2 -> 9 -> 10; 5 -> 11 -> 12[color="red1"];
-
-the same crossings and keep the edges
 
 Group seems to be well suited for making graphs with branches
 
@@ -279,6 +295,8 @@ rankdir="LR"; edge[arrowhead=none]; // ranksep=0.30; // this influences the leng
 node[width=0.15, height=0.15, shape=point, group=master]; 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8; lmaster[shape="box", label="master", fontsize=8.0]; 8 -> lmaster[style="invisible"];
 
 tag_v1[shape="box", group="", color="cyan", fontsize=8.0, style=filled];
+
+16
 
 
 ---
@@ -303,6 +321,8 @@ digraph G {
 rankdir=LR; edge[arrowhead=none]; node[width=0.15, height=0.15, shape=point]; node[group=master]; 1 -> 2 -> 3 -> 4 -> 5; lmaster[shape="box", label="master", fontsize=8.0]; 5 -> lmaster[style="invisible"];
 
 node[group=branch]; 2 -> b1 -> b2 -> b3 -> 3;
+
+17
 
 
 ---
@@ -332,6 +352,8 @@ subgraph annotations2
 
 rank="same"; "br/HEAD" [shape=box]; "br/HEAD" -> "2a3242efa4" [weight=0];
 
+18
+
 
 ---
 
@@ -346,6 +368,8 @@ rankdir=BT; subgraph master
 
 "comm1" -> "comm2" -> "comm3" -> "comm4";
 
+19
+
 
 ---
 
@@ -357,6 +381,8 @@ rankdir=BT; subgraph master
 subgraph branch1
 
 rank=same; "comm3" -> "br-com1" -> "br-com2";
+
+20
 
 
 ---
