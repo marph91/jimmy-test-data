@@ -5,7 +5,7 @@
 
 Hausarbeit zum Thema:
 
-\[Titel\]
+**\[Titel\]**
 
 \[ggf. Untertitel\]  
 

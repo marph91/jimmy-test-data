@@ -1,6 +1,5 @@
 first line
 
-ifdef  
-asciidoctor-version\[Asciidoctor!\]
+ifdef::asciidoctor-version\[Asciidoctor!\]
 
 last line

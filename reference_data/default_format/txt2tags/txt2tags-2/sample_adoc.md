@@ -198,8 +198,7 @@ Because things were too simple.
 
 The image mark is as simple as it can be: \[filename\].
 
-image  
-img/photo.jpg\[\]
+    image::img/photo.jpg[]  
 
 And with some targets the image is linkable :
 

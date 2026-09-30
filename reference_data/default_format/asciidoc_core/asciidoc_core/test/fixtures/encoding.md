@@ -4,12 +4,9 @@ Gregory Romé has written an AsciiDoc plugin for the Redmine project management 
 へと `vicmd` キーマップを足してみている試み、
 アニメーションgifです。
 
-tag  
-romé\[\]
+tag::romé\[\]
 Gregory Romé has written an AsciiDoc plugin for the Redmine project management application.
-
-end  
-romé\[\]
+end::romé\[\]
 
 ## Überschrift
 
