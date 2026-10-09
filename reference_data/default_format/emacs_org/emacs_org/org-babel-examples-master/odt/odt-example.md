@@ -1,3 +1,7 @@
+odt-example
+
+Derek Feichtinger
+
 \<2015-02-14 Sat\>
 
 #  Version information
@@ -13,19 +17,26 @@ The table occupies 80% of the page width. The columns widhts will
 be in the ratio of 4:7:10:10. Col b and col c have no visible
 vertical separating line (they are one **column group**).
 
-| col a |     |     |     |
-|-------|-----|-----|-----|
+| col a |  |  |  |  | col b |  |  |  |  |  |  |  | col c |  |  |  |  |  |  |  |  |  |  | col d |  |  |  |  |  |  |  |  |  |  |
+|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
+| a |  |  |  |  | b |  |  |  |  |  |  |  | c |  |  |  |  |  |  |  |  |  |  | 10.1 |  |  |  |  |  |  |  |  |  |  |
+| d |  |  |  |  | e |  |  |  |  |  |  |  | f |  |  |  |  |  |  |  |  |  |  | 20 34 |  |  |  |  |  |  |  |  |  |  |
 
 Here we use a table reference: The compute resources of the
-Swiss-CMS TIER-3 are shown in Table .
+Swiss-CMS TIER-3 are shown in Table 2.1.
 
 Note that the numbering of tables and figures is done in a format of section-number.sequence-number.
 This cannot be configured by styles. I traced it to the source code in ox-odt.el
 
-Table 2.1: PSI CMS Tier-3 Resources
+| **Resources Q2/2013** |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | **Amount** |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
+| Compute performance |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 5243 HS06 in 336 cores |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| Data Set Storage (SE), RAID6 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 759 TB |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| Home Storage (NFS), backuped |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ca 6 TB |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| User interface nodes |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 9 nodes, 72 cores |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| Virtual Servers |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 15 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 
-| **Resources Q2/2013** |     |
-|-----------------------|-----|
+Table 2.1: PSI CMS Tier-3 Resources
 
 #  Page breaks and tinkering with OpenDocument XML
 
@@ -69,6 +80,6 @@ Now, will we get a page break following this line?
 
 #  Figure
 
-The resource usage of the Swiss CMS Tier-3 since 2009 is shown in figure .
+The resource usage of the Swiss CMS Tier-3 since 2009 is shown in figure 4.1.
 
 Figure 4.1: T3 resource usage
