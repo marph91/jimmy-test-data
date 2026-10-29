@@ -6,15 +6,17 @@ test content
 
 - nesting seems to be not possible
 
-numbered list:
+  numbered list:
 
-**bold** item
+  **bold** item
 
-italic *item*
+  italic *item*
 
-++underlined item++
+  ++underlined item++
 
-task list:
+  task list:
+
+&nbsp;
 
 - [ ] unchecked
 
@@ -24,7 +26,7 @@ task list:
 
 - checked item
 
-unindented
+  unindented
 
 > indented once
 >
